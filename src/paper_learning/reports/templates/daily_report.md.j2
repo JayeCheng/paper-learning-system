@@ -1,0 +1,21 @@
+# Paper Radar - {{ date }}
+
+Generated: {{ generated_at }}
+
+## Executive Summary
+
+{{ summary }}
+
+## Top Papers
+
+{% for paper in papers %}
+{{ loop.index }}. [{{ paper.title }}]({{ paper.url }})
+{% else %}
+No papers selected yet.
+{% endfor %}
+
+## Next Actions
+
+{% for action in next_actions %}
+- {{ action }}
+{% endfor %}

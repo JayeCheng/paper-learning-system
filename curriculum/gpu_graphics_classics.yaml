@@ -1,0 +1,8 @@
+track: gpu_graphics
+items:
+  - title: "A trip through the graphics pipeline"
+    status: candidate
+    reason: Foundational mental model for modern rendering systems.
+  - title: "Ray tracing architectures and acceleration structures"
+    status: candidate
+    reason: Bridges algorithms, hardware, and real-time constraints.

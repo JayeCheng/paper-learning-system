@@ -1,0 +1,8 @@
+track: sociology
+items:
+  - title: "The strength of weak ties"
+    status: candidate
+    reason: Foundational social network concept.
+  - title: "Diffusion of innovations"
+    status: candidate
+    reason: Useful for understanding research and technology adoption.

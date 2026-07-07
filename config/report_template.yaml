@@ -1,0 +1,19 @@
+daily_report:
+  title_format: "Paper Radar - {date}"
+  output_dir: daily
+  markdown_template: src/paper_learning/reports/templates/daily_report.md.j2
+  json_output_dir: data/public
+
+sections:
+  - id: executive_summary
+    label: Executive Summary
+  - id: top_papers
+    label: Top Papers
+  - id: s_level_candidate
+    label: S-Level Deep Read Candidate
+  - id: curriculum_links
+    label: Curriculum Links
+  - id: knowledge_graph_delta
+    label: Knowledge Graph Delta
+  - id: next_actions
+    label: Next Actions

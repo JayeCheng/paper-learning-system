@@ -1,0 +1,26 @@
+curriculum:
+  mode: rolling
+  weekly_deep_reads: 3
+  daily_skim_limit: 8
+  s_level_deep_read_limit: 1
+
+tracks:
+  gpu_graphics:
+    classics_file: curriculum/gpu_graphics_classics.yaml
+    target_ratio: 0.25
+
+  architecture:
+    classics_file: curriculum/architecture_classics.yaml
+    target_ratio: 0.25
+
+  llm_agent:
+    classics_file: curriculum/llm_agent_classics.yaml
+    target_ratio: 0.25
+
+  cognition:
+    classics_file: curriculum/cognition_classics.yaml
+    target_ratio: 0.15
+
+  sociology:
+    classics_file: curriculum/sociology_classics.yaml
+    target_ratio: 0.10

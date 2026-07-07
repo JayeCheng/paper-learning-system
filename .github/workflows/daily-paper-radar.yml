@@ -1,0 +1,29 @@
+name: Daily Paper Radar
+
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: "30 23 * * *"
+
+permissions:
+  contents: read
+
+jobs:
+  daily:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+      - name: Install
+        run: pip install -e ".[dev]"
+      - name: Generate placeholder report
+        run: python scripts/run_daily.py
+      - name: Upload generated report
+        uses: actions/upload-artifact@v4
+        with:
+          name: daily-paper-radar
+          path: |
+            daily/*.md
+            data/public/*.json

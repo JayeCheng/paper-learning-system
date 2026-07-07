@@ -1,0 +1,8 @@
+track: cognition
+items:
+  - title: "Attention and working memory"
+    status: candidate
+    reason: Useful background for reasoning about learning and agent interfaces.
+  - title: "Judgment and decision making"
+    status: candidate
+    reason: Connects cognitive and behavioral science to system evaluation.

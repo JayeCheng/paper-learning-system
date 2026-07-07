@@ -1,0 +1,19 @@
+tools:
+  python:
+    package: paper_learning
+    cli: paper-learning
+    role: local automation and scheduled jobs
+
+  github_actions:
+    workflows:
+      - .github/workflows/test.yml
+      - .github/workflows/daily-paper-radar.yml
+    role: test and scheduled report generation
+
+  codex:
+    rules: AGENTS.md
+    role: repository maintenance and workflow execution
+
+  web_frontend:
+    path: apps/web
+    role: future static visualization over public JSON

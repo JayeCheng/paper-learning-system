@@ -1,0 +1,23 @@
+ranking:
+  default_threshold: 0.65
+  s_level_threshold: 0.88
+
+weights:
+  topic_match: 0.30
+  source_quality: 0.20
+  recency: 0.15
+  citation_signal: 0.15
+  implementation_signal: 0.10
+  curriculum_fit: 0.10
+
+topic_boosts:
+  gpu_graphics: 1.10
+  architecture: 1.10
+  llm_agent: 1.10
+  cognition: 1.00
+  sociology: 1.00
+
+penalties:
+  missing_abstract: 0.10
+  duplicate_candidate: 0.20
+  outside_topic_scope: 0.35

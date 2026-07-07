@@ -1,0 +1,26 @@
+integrations:
+  notion:
+    enabled: false
+    role: presentation_layer
+    token_env: NOTION_TOKEN
+    database_env: NOTION_DATABASE_ID
+    source_of_truth: false
+
+  zotero:
+    enabled: false
+    role: export_target
+    user_id_env: ZOTERO_USER_ID
+    api_key_env: ZOTERO_API_KEY
+    source_of_truth: false
+
+  github:
+    enabled: true
+    role: source_of_truth
+    branch_strategy: pull_request
+
+  web:
+    enabled: false
+    role: public_visualization
+    input_paths:
+      - data/public/*.json
+      - daily/*.json

@@ -1,0 +1,59 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://github.com/JayeCheng/paper-learning-system/schemas/paper.schema.json",
+  "title": "Paper",
+  "type": "object",
+  "required": ["id", "title", "source", "topics", "url"],
+  "additionalProperties": false,
+  "properties": {
+    "id": {
+      "type": "string",
+      "minLength": 1
+    },
+    "title": {
+      "type": "string",
+      "minLength": 1
+    },
+    "authors": {
+      "type": "array",
+      "items": { "type": "string" },
+      "default": []
+    },
+    "abstract": {
+      "type": "string"
+    },
+    "source": {
+      "type": "string",
+      "enum": ["arxiv", "openreview", "biorxiv", "semantic_scholar", "github", "manual"]
+    },
+    "topics": {
+      "type": "array",
+      "items": { "type": "string" },
+      "minItems": 1
+    },
+    "url": {
+      "type": "string",
+      "format": "uri"
+    },
+    "pdf_url": {
+      "type": "string",
+      "format": "uri"
+    },
+    "published_at": {
+      "type": "string",
+      "format": "date"
+    },
+    "identifiers": {
+      "type": "object",
+      "additionalProperties": { "type": "string" }
+    },
+    "scores": {
+      "type": "object",
+      "additionalProperties": { "type": "number" }
+    },
+    "reading_status": {
+      "type": "string",
+      "enum": ["backlog", "queued", "skimmed", "deep_read", "archived", "skipped"]
+    }
+  }
+}

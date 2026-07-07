@@ -1,0 +1,40 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://github.com/JayeCheng/paper-learning-system/schemas/daily_report.schema.json",
+  "title": "DailyReport",
+  "type": "object",
+  "required": ["date", "generated_at", "papers", "summary"],
+  "additionalProperties": false,
+  "properties": {
+    "date": {
+      "type": "string",
+      "format": "date"
+    },
+    "generated_at": {
+      "type": "string",
+      "format": "date-time"
+    },
+    "summary": {
+      "type": "string"
+    },
+    "papers": {
+      "type": "array",
+      "items": { "$ref": "paper.schema.json" }
+    },
+    "s_level_candidate_ids": {
+      "type": "array",
+      "items": { "type": "string" },
+      "default": []
+    },
+    "knowledge_graph_delta": {
+      "type": "array",
+      "items": { "type": "string" },
+      "default": []
+    },
+    "next_actions": {
+      "type": "array",
+      "items": { "type": "string" },
+      "default": []
+    }
+  }
+}

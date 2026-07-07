@@ -1,0 +1,35 @@
+sources:
+  arxiv:
+    enabled: true
+    type: preprint
+    fetcher: paper_learning.fetchers.arxiv_fetcher
+    rate_limit_per_minute: 30
+    notes: Public metadata source for CS, physics, and quantitative fields.
+
+  openreview:
+    enabled: true
+    type: conference_review
+    fetcher: paper_learning.fetchers.openreview_fetcher
+    rate_limit_per_minute: 20
+    notes: Useful for ML, systems, and agent evaluation venues.
+
+  biorxiv:
+    enabled: true
+    type: preprint
+    fetcher: paper_learning.fetchers.biorxiv_fetcher
+    rate_limit_per_minute: 20
+    notes: Useful for cognitive science and behavioral science.
+
+  semantic_scholar:
+    enabled: true
+    type: metadata_enrichment
+    fetcher: paper_learning.fetchers.semantic_scholar_fetcher
+    rate_limit_per_minute: 10
+    notes: Optional enrichment source. API key must never be committed.
+
+  github:
+    enabled: true
+    type: code_signal
+    fetcher: paper_learning.fetchers.github_fetcher
+    rate_limit_per_minute: 10
+    notes: Tracks project and benchmark signals related to papers.

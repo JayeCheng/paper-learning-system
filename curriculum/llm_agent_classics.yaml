@@ -1,0 +1,8 @@
+track: llm_agent
+items:
+  - title: "Retrieval augmented generation"
+    status: candidate
+    reason: Anchor concept for knowledge-grounded LLM systems.
+  - title: "Tool use and planning in language agents"
+    status: candidate
+    reason: Connects agent behavior to system design.

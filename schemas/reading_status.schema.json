@@ -1,0 +1,47 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://github.com/JayeCheng/paper-learning-system/schemas/reading_status.schema.json",
+  "title": "ReadingStatus",
+  "type": "object",
+  "required": ["paper_id", "status", "updated_at"],
+  "additionalProperties": false,
+  "properties": {
+    "paper_id": {
+      "type": "string",
+      "minLength": 1
+    },
+    "status": {
+      "type": "string",
+      "enum": ["backlog", "queued", "skimmed", "deep_read", "archived", "skipped"]
+    },
+    "priority": {
+      "type": "string",
+      "enum": ["low", "medium", "high", "s_level"],
+      "default": "medium"
+    },
+    "notes_path": {
+      "type": "string"
+    },
+    "updated_at": {
+      "type": "string",
+      "format": "date-time"
+    },
+    "history": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "required": ["status", "at"],
+        "additionalProperties": false,
+        "properties": {
+          "status": { "type": "string" },
+          "at": {
+            "type": "string",
+            "format": "date-time"
+          },
+          "note": { "type": "string" }
+        }
+      },
+      "default": []
+    }
+  }
+}

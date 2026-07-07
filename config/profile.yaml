@@ -1,0 +1,19 @@
+project:
+  name: paper-learning-system
+  version: "0.0"
+  timezone: Asia/Shanghai
+  state_backend: github
+  archive_format: markdown
+  machine_interface: json
+
+cadence:
+  daily_report_time: "07:30"
+  weekly_review_day: sunday
+  deep_read_slots_per_week: 3
+
+principles:
+  - github_is_source_of_truth
+  - markdown_is_human_archive
+  - json_is_machine_contract
+  - notion_is_presentation_layer
+  - skills_are_workflows_not_state

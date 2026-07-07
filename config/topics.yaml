@@ -1,0 +1,65 @@
+topics:
+  gpu_graphics:
+    label: GPU / Graphics
+    priority: high
+    keywords:
+      - gpu architecture
+      - rendering
+      - real-time graphics
+      - ray tracing
+      - shader compilation
+      - graphics pipeline
+    archive_path: deep_read/gpu_graphics
+    knowledge_graph: knowledge_graph/gpu_graphics.md
+
+  architecture:
+    label: Computer Architecture
+    priority: high
+    keywords:
+      - computer architecture
+      - memory hierarchy
+      - cache coherence
+      - accelerator
+      - interconnect
+      - microarchitecture
+    archive_path: deep_read/architecture
+    knowledge_graph: knowledge_graph/architecture.md
+
+  llm_agent:
+    label: LLM Agent / RAG
+    priority: high
+    keywords:
+      - llm agent
+      - retrieval augmented generation
+      - tool use
+      - agent evaluation
+      - memory systems
+      - planning
+    archive_path: deep_read/llm_agent
+    knowledge_graph: knowledge_graph/llm_agent.md
+
+  cognition:
+    label: Cognitive Science
+    priority: medium
+    keywords:
+      - cognition
+      - attention
+      - memory
+      - decision making
+      - learning science
+      - behavioral science
+    archive_path: deep_read/cognition
+    knowledge_graph: knowledge_graph/cognition.md
+
+  sociology:
+    label: Sociology
+    priority: medium
+    keywords:
+      - sociology
+      - social networks
+      - institutions
+      - collective behavior
+      - organizational behavior
+      - science of science
+    archive_path: deep_read/sociology
+    knowledge_graph: knowledge_graph/sociology.md
