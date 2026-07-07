@@ -32,3 +32,14 @@ def test_dedupe_falls_back_to_normalized_title() -> None:
     ]
 
     assert dedupe_papers(papers) == [papers[0]]
+
+
+def test_dedupe_normalizes_arxiv_versions_and_doi() -> None:
+    papers = [
+        {"id": "a", "title": "First", "identifiers": {"arxiv_id": "2401.12345v2"}},
+        {"id": "b", "title": "Second", "identifiers": {"arxiv_id": "2401.12345v3"}},
+        {"id": "c", "title": "Third", "identifiers": {"doi": "10.1000/ABC"}},
+        {"id": "d", "title": "Fourth", "identifiers": {"doi": "10.1000/abc"}},
+    ]
+
+    assert dedupe_papers(papers) == [papers[0], papers[2]]

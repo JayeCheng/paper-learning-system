@@ -1,6 +1,7 @@
 from __future__ import annotations
 
 import re
+import hashlib
 from collections.abc import Iterable
 from typing import Any
 
@@ -16,11 +17,14 @@ def _fingerprint(paper: Any) -> str:
     for key in ("doi", "arxiv_id", "arxiv", "semantic_scholar_id"):
         value = identifiers.get(key)
         if value:
-            return f"{key}:{str(value).lower().strip()}"
+            normalized = str(value).lower().strip().removeprefix("arxiv:")
+            normalized = re.sub(r"v\d+$", "", normalized)
+            return f"{key}:{normalized}"
 
     title = str(_get(paper, "title", "")).lower()
     title = re.sub(r"[^a-z0-9]+", " ", title).strip()
-    return f"title:{title}"
+    title_hash = hashlib.sha1(title.encode("utf-8")).hexdigest()[:16]
+    return f"title_hash:{title_hash}"
 
 
 def dedupe_papers(papers: Iterable[Any]) -> list[Any]:

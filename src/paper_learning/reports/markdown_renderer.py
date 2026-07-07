@@ -22,7 +22,12 @@ def render_daily_markdown(report: DailyReport) -> str:
             topics = ", ".join(paper.topics)
             lines.append(f"{index}. [{paper.title}]({paper.url})")
             lines.append(f"   - Source: {paper.source}")
+            lines.append(f"   - Source type: {paper.source_type or 'unspecified'}")
+            lines.append(f"   - Level: {paper.recommendation_level or 'unrated'}")
+            lines.append(f"   - Score: {paper.score if paper.score is not None else 'n/a'}")
             lines.append(f"   - Topics: {topics}")
+            if paper.why_recommended:
+                lines.append(f"   - Why: {paper.why_recommended}")
     else:
         lines.append("No papers selected yet.")
 

@@ -1,13 +1,13 @@
 project:
   name: paper-learning-system
   version: "0.0"
-  timezone: Asia/Shanghai
+  timezone: Asia/Singapore
   state_backend: github
   archive_format: markdown
   machine_interface: json
 
 cadence:
-  daily_report_time: "07:30"
+  daily_report_time: "06:10"
   weekly_review_day: sunday
   deep_read_slots_per_week: 3
 
