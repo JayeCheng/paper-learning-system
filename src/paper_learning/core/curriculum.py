@@ -1,5 +1,6 @@
 from __future__ import annotations
 
+from pathlib import Path
 from typing import Any
 
 from paper_learning.core.models import PaperCandidate
@@ -32,13 +33,18 @@ def recommend_next_readings(
     return recommendations
 
 
-def load_classic_fallback_candidates(limit: int, *, existing_count: int = 0) -> list[PaperCandidate]:
+def load_classic_fallback_candidates(
+    limit: int,
+    *,
+    existing_count: int = 0,
+    curriculum_dir: Path = Path("curriculum"),
+) -> list[PaperCandidate]:
     needed = max(0, limit - existing_count)
     if needed == 0:
         return []
 
     candidates: list[PaperCandidate] = []
-    for item in load_classic_items():
+    for item in load_classic_items(curriculum_dir):
         track = str(item.get("track", "classic"))
         title = str(item.get("title", "Untitled classic"))
         reason = str(item.get("reason", "Classic paper candidate."))
