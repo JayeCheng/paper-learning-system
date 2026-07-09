@@ -62,6 +62,7 @@ def load_classic_fallback_candidates(
                 categories=[track],
                 tags=["classic", track],
                 source_type="classic",
+                source_group=track,
                 identifiers={},
                 field=track,
                 classic_status=status,

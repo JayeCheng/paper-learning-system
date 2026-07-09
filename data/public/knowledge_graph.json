@@ -1,0 +1,172 @@
+{
+  "edges": [
+    {
+      "confidence": 0.5,
+      "relation": "related_to",
+      "source": "classic:architecture:cache-coherence-and-shared-memory-multiprocessors",
+      "target": "architecture"
+    },
+    {
+      "confidence": 0.5,
+      "relation": "related_to",
+      "source": "classic:architecture:the-memory-hierarchy-and-locality",
+      "target": "architecture"
+    },
+    {
+      "confidence": 0.5,
+      "relation": "related_to",
+      "source": "classic:cognition:attention-and-working-memory",
+      "target": "uncategorized"
+    },
+    {
+      "confidence": 0.5,
+      "relation": "related_to",
+      "source": "classic:cognition:attention-and-working-memory",
+      "target": "cognition"
+    },
+    {
+      "confidence": 0.5,
+      "relation": "related_to",
+      "source": "classic:cognition:judgment-and-decision-making",
+      "target": "uncategorized"
+    },
+    {
+      "confidence": 0.5,
+      "relation": "related_to",
+      "source": "classic:cognition:judgment-and-decision-making",
+      "target": "cognition"
+    },
+    {
+      "confidence": 0.5,
+      "relation": "related_to",
+      "source": "classic:gpu_graphics:a-trip-through-the-graphics-pipeline",
+      "target": "gpu_graphics"
+    },
+    {
+      "confidence": 0.5,
+      "relation": "related_to",
+      "source": "classic:gpu_graphics:ray-tracing-architectures-and-acceleration-structures",
+      "target": "gpu_graphics"
+    },
+    {
+      "confidence": 0.5,
+      "relation": "related_to",
+      "source": "classic:llm_agent:retrieval-augmented-generation",
+      "target": "llm_agent"
+    },
+    {
+      "confidence": 0.5,
+      "relation": "related_to",
+      "source": "classic:llm_agent:tool-use-and-planning-in-language-agents",
+      "target": "llm_agent"
+    }
+  ],
+  "nodes": [
+    {
+      "id": "classic:architecture:cache-coherence-and-shared-memory-multiprocessors",
+      "label": "Cache coherence and shared-memory multiprocessors",
+      "topics": [
+        "architecture"
+      ],
+      "type": "paper"
+    },
+    {
+      "id": "classic:architecture:the-memory-hierarchy-and-locality",
+      "label": "The memory hierarchy and locality",
+      "topics": [
+        "architecture"
+      ],
+      "type": "paper"
+    },
+    {
+      "id": "classic:cognition:attention-and-working-memory",
+      "label": "Attention and working memory",
+      "topics": [
+        "uncategorized"
+      ],
+      "type": "paper"
+    },
+    {
+      "id": "classic:cognition:judgment-and-decision-making",
+      "label": "Judgment and decision making",
+      "topics": [
+        "uncategorized"
+      ],
+      "type": "paper"
+    },
+    {
+      "id": "classic:gpu_graphics:a-trip-through-the-graphics-pipeline",
+      "label": "A trip through the graphics pipeline",
+      "topics": [
+        "gpu_graphics"
+      ],
+      "type": "paper"
+    },
+    {
+      "id": "classic:gpu_graphics:ray-tracing-architectures-and-acceleration-structures",
+      "label": "Ray tracing architectures and acceleration structures",
+      "topics": [
+        "gpu_graphics"
+      ],
+      "type": "paper"
+    },
+    {
+      "id": "classic:llm_agent:retrieval-augmented-generation",
+      "label": "Retrieval augmented generation",
+      "topics": [
+        "llm_agent"
+      ],
+      "type": "paper"
+    },
+    {
+      "id": "classic:llm_agent:tool-use-and-planning-in-language-agents",
+      "label": "Tool use and planning in language agents",
+      "topics": [
+        "llm_agent"
+      ],
+      "type": "paper"
+    },
+    {
+      "id": "architecture",
+      "label": "architecture",
+      "topics": [
+        "architecture"
+      ],
+      "type": "concept"
+    },
+    {
+      "id": "cognition",
+      "label": "cognition",
+      "topics": [
+        "cognition"
+      ],
+      "type": "concept"
+    },
+    {
+      "id": "gpu_graphics",
+      "label": "gpu_graphics",
+      "topics": [
+        "gpu_graphics"
+      ],
+      "type": "concept"
+    },
+    {
+      "id": "llm_agent",
+      "label": "llm_agent",
+      "topics": [
+        "llm_agent"
+      ],
+      "type": "concept"
+    },
+    {
+      "id": "uncategorized",
+      "label": "uncategorized",
+      "topics": [
+        "uncategorized"
+      ],
+      "type": "concept"
+    }
+  ],
+  "public_json_version": "0.2",
+  "updated_at": "2026-07-09T09:48:54+00:00"
+}

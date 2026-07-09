@@ -6,9 +6,10 @@ This repository is a long-lived, GitHub-first system for learning from research 
 It is designed to collect promising papers, rank them, turn them into durable reading
 artifacts, and expose machine-readable JSON for future integrations and web frontends.
 
-Version `v0.1` is a backend MVP. It can run a daily paper radar, fetch recent arXiv
-metadata, fall back to classic curriculum items, rank candidates, and write stable
-Markdown, JSON, and export artifacts.
+Version `v0.2` builds on the backend MVP with archive stability and topic-group
+fetching. It can run a daily paper radar, fetch recent arXiv metadata by configured
+topic groups, fall back to classic curriculum items, rank candidates with light
+group coverage, and maintain durable state plus derived public/export artifacts.
 
 ## Goals
 
@@ -45,6 +46,10 @@ Run the daily radar through the installed CLI:
 ```bash
 paper-learning daily --date today
 paper-learning daily --date 2026-07-07
+paper-learning status list
+paper-learning status set arxiv:2601.00001v1 --status queued
+paper-learning status set arxiv:2601.00001v1 --priority high
+paper-learning status set arxiv:2601.00001v1 --notes-path deep_read/llm_agent/example.md
 ```
 
 Or without installing the console script:
@@ -77,10 +82,13 @@ scripts/           Thin command wrappers for scheduled or manual operations.
 ## Data Flow
 
 ```text
-fetchers -> normalize -> dedupe -> rank -> curriculum -> reports -> public JSON
-                                              |
-                                              v
-                                      knowledge graph updates
+fetchers -> normalize -> dedupe -> rank -> curriculum -> daily reports
+                                                    |
+                                                    v
+                                           data/state durable state
+                                                    |
+                                                    v
+                                      data/exports and data/public JSON
 ```
 
 Core rules:
@@ -100,13 +108,26 @@ uses UTC, so `06:10` SGT is scheduled as `22:10` UTC on the previous day:
 
 ## Current Status
 
-`v0.1` implements a minimal backend loop:
+`v0.2` implements a stable backend loop:
 
-- arXiv metadata fetch for configured categories and recent windows
+- arXiv metadata fetch for configured source groups and recent windows
 - classic curriculum fallback when recent candidates are insufficient
-- normalize, dedupe, rank, and cap to six daily papers
+- normalize, dedupe, rank, and cap to six daily papers with soft source-group coverage
 - at most one S-level paper per daily report
-- stable daily Markdown/JSON, public JSON indexes, and CSV/JSONL exports
+- stable daily Markdown/JSON, durable state, public JSON indexes, and CSV/JSONL exports
+- durable `data/state/papers.jsonl`, `data/state/reading_status.json`, and
+  `data/state/run_history.json`
+- reading status CLI for backlog, queue, skim, deep-read, archive, and skip states
+
+## Durable Data Semantics
+
+- `data/state/papers.jsonl` is the full cumulative paper library.
+- `data/state/reading_status.json` is the long-term reading status center.
+- `data/state/run_history.json` records each daily pipeline run.
+- `data/exports/papers.csv` and `data/exports/papers.jsonl` are full-library exports.
+- `data/exports/daily_papers.csv` is the latest daily selected-paper export.
+- `data/exports/reading_status.csv` is the full reading-status export.
+- `data/public/*.json` is the only stable frontend entry layer.
 
 Not yet implemented:
 

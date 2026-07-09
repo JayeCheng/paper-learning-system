@@ -16,6 +16,7 @@ class PaperCandidate:
     categories: list[str]
     tags: list[str] = dataclass_field(default_factory=list)
     source_type: str = "recent_24h"
+    source_group: str | None = None
     identifiers: dict[str, str] = dataclass_field(default_factory=dict)
     field: str | None = None
     venue: str | None = None
@@ -36,6 +37,7 @@ class Paper:
     title_zh: str | None = None
     field: str | None = None
     source_type: str | None = None
+    source_group: str | None = None
     recommendation_level: str | None = None
     reading_advice: str | None = None
     code_url: str | None = None
@@ -93,3 +95,6 @@ class ReadingStatus:
     priority: str = "medium"
     notes_path: str | None = None
     history: list[dict] = dataclass_field(default_factory=list)
+
+    def to_dict(self) -> dict:
+        return asdict(self)

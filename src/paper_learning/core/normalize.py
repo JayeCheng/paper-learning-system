@@ -6,17 +6,24 @@ import re
 from paper_learning.core.models import Paper, PaperCandidate
 
 CATEGORY_TOPIC_MAP = {
+    "gpu_graphics": "gpu_graphics",
     "cs.GR": "gpu_graphics",
     "cs.CV": "gpu_graphics",
+    "architecture": "architecture",
     "cs.AR": "architecture",
     "cs.DC": "architecture",
     "cs.PF": "architecture",
+    "llm_agent": "llm_agent",
     "cs.AI": "llm_agent",
     "cs.CL": "llm_agent",
     "cs.LG": "llm_agent",
+    "cs.SE": "llm_agent",
+    "cognition": "cognition",
     "cs.HC": "cognition",
     "q-bio.NC": "cognition",
+    "sociology": "sociology",
     "physics.soc-ph": "sociology",
+    "cs.SI": "sociology",
 }
 
 
@@ -50,6 +57,7 @@ def normalize_paper(raw: dict | PaperCandidate) -> Paper:
         title_zh=raw.get("title_zh"),
         field=raw.get("field"),
         source_type=raw.get("source_type"),
+        source_group=raw.get("source_group"),
         recommendation_level=raw.get("recommendation_level"),
         reading_advice=raw.get("reading_advice"),
         code_url=raw.get("code_url"),

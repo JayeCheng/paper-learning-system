@@ -101,5 +101,11 @@ def test_daily_pipeline_uses_classic_fallback_when_recent_dedupes_short() -> Non
 
             assert len(report.papers) == 6
             assert any(paper.source_type == "classic" for paper in report.papers)
+            assert Path("data/state/papers.jsonl").exists()
+            assert Path("data/state/reading_status.json").exists()
+            assert Path("data/state/run_history.json").exists()
+            assert Path("data/public/reading_status.json").exists()
+            assert Path("data/public/curriculum_progress.json").exists()
+            assert Path("data/exports/daily_papers.csv").exists()
         finally:
             os.chdir(cwd)

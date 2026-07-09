@@ -1,0 +1,23 @@
+{
+  "latest": {
+    "date": "2026-07-09",
+    "generated_at": "2026-07-09T09:48:54+00:00",
+    "json_path": "daily/2026/07/2026-07-09.json",
+    "markdown_path": "daily/2026/07/2026-07-09.md",
+    "paper_count": 6,
+    "s_level_paper_id": null,
+    "status": "success"
+  },
+  "public_json_version": "0.2",
+  "reports": [
+    {
+      "date": "2026-07-09",
+      "generated_at": "2026-07-09T09:48:54+00:00",
+      "json_path": "daily/2026/07/2026-07-09.json",
+      "markdown_path": "daily/2026/07/2026-07-09.md",
+      "paper_count": 6,
+      "s_level_paper_id": null,
+      "status": "success"
+    }
+  ]
+}

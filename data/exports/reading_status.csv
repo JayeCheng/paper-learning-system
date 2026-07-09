@@ -1,0 +1,9 @@
+paper_id,status,priority,notes_path,updated_at,title,source_group,recommendation_level
+classic:architecture:cache-coherence-and-shared-memory-multiprocessors,backlog,medium,,2026-07-09T09:46:00+00:00,Cache coherence and shared-memory multiprocessors,architecture,B
+classic:architecture:the-memory-hierarchy-and-locality,backlog,medium,,2026-07-09T09:46:00+00:00,The memory hierarchy and locality,architecture,B
+classic:cognition:attention-and-working-memory,backlog,medium,,2026-07-09T09:46:00+00:00,Attention and working memory,cognition,B
+classic:cognition:judgment-and-decision-making,backlog,medium,,2026-07-09T09:46:00+00:00,Judgment and decision making,cognition,B
+classic:gpu_graphics:a-trip-through-the-graphics-pipeline,backlog,medium,,2026-07-09T09:46:00+00:00,A trip through the graphics pipeline,gpu_graphics,B
+classic:gpu_graphics:ray-tracing-architectures-and-acceleration-structures,backlog,medium,,2026-07-09T09:46:00+00:00,Ray tracing architectures and acceleration structures,gpu_graphics,B
+classic:llm_agent:retrieval-augmented-generation,backlog,medium,,2026-07-09T09:48:54+00:00,Retrieval augmented generation,llm_agent,B
+classic:llm_agent:tool-use-and-planning-in-language-agents,backlog,medium,,2026-07-09T09:48:54+00:00,Tool use and planning in language agents,llm_agent,B
