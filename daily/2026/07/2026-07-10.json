@@ -1,0 +1,402 @@
+{
+  "date": "2026-07-10",
+  "frontend_entry": "data/public/latest.json",
+  "generated_at": "2026-07-09T23:21:51+00:00",
+  "generated_paths": {
+    "exports_csv": "data/exports/papers.csv",
+    "exports_jsonl": "data/exports/papers.jsonl",
+    "exports_reading_status": "data/exports/reading_status.csv",
+    "json": "daily/2026/07/2026-07-10.json",
+    "markdown": "daily/2026/07/2026-07-10.md",
+    "public_daily_index": "data/public/daily_index.json",
+    "public_knowledge_graph": "data/public/knowledge_graph.json",
+    "public_latest": "data/public/latest.json",
+    "public_papers_index": "data/public/papers_index.json"
+  },
+  "knowledge_graph_delta": [
+    "paper:arxiv:2607.07687v1",
+    "paper:arxiv:2607.07643v1",
+    "paper:arxiv:2607.07625v1",
+    "paper:arxiv:2607.07708v1",
+    "paper:arxiv:2607.07707v1",
+    "paper:arxiv:2607.07706v1"
+  ],
+  "learning_route_position": "v0.1 daily radar MVP",
+  "next_actions": [
+    "Review S-level candidate",
+    "Update reading status after skim",
+    "Promote durable concepts into the knowledge graph"
+  ],
+  "papers": [
+    {
+      "abstract": "We present recent performance-oriented developments in WaterLily.jl, a scale-resolving incompressible flow solver written in pure Julia that runs seamlessly on CPUs and GPUs of any vendor. Supported by the newly added MPI-based parallelism, strong-scalability tests display a near-ideal linear trend, and weak-scaling efficiency is kept above 85\\% before node memory-concurrency contention dominates parallel performance. Inter-node weak scalability is sustained above 96\\% with grid size up to 1 billion cells. We further benchmark improvements to the geometric multigrid Poisson solver enabled by an adaptive under-relaxed red-black Gauss--Seidel smoother together with anisotropic coarsening operators.",
+      "authors": [
+        "Bernat Font",
+        "Marin Lauber",
+        "Tzu-Yao Huang",
+        "Gabriel D. Weymouth"
+      ],
+      "categories": [
+        "physics.comp-ph",
+        "cs.DC",
+        "physics.flu-dyn"
+      ],
+      "citation_count": null,
+      "classic_status": null,
+      "code_url": null,
+      "difficulty": null,
+      "field": null,
+      "id": "arxiv:2607.07687v1",
+      "identifiers": {
+        "arxiv_id": "2607.07687v1"
+      },
+      "institutions": [],
+      "pdf_url": "https://arxiv.org/pdf/2607.07687v1",
+      "project_url": null,
+      "published_at": "2026-07-08",
+      "published_date": "2026-07-08",
+      "reading_advice": "save_for_later",
+      "reading_status": "backlog",
+      "recommendation_level": "B",
+      "score": 0.732,
+      "scores": {
+        "classic_value": 0.35,
+        "engineering_transferability": 0.8,
+        "recency": 0.78,
+        "source_quality": 0.78,
+        "total": 0.732,
+        "user_relevance": 0.75
+      },
+      "selected_for_s_level": false,
+      "source": "arxiv",
+      "source_type": "recent_7d",
+      "source_url": "http://arxiv.org/abs/2607.07687v1",
+      "tags": [
+        "physics.comp-ph",
+        "cs.DC",
+        "physics.flu-dyn"
+      ],
+      "title": "Scaling WaterLily.jl with MPI and an improved geometric multigrid solver",
+      "title_zh": null,
+      "topics": [
+        "architecture"
+      ],
+      "url": "http://arxiv.org/abs/2607.07687v1",
+      "venue": null,
+      "why_recommended": "Ranked by engineering transferability signal across configured topics."
+    },
+    {
+      "abstract": "FPGA architectures increasingly incorporate domain-specific in-fabric hardblocks to accelerate DL inference, particularly GEMM, which dominates DL computation. To realize the performance gains of these hardblocks, manual RTL design is required: the programmer must understand the hardblock microarchitecture, instantiate them in RTL, and manage tiling and control logic. While programming in C/C++ and using HLS tools has increased the abstraction level and productivity of FPGA engineers, HLS tools do not support code generation for custom hardblocks natively. Prior work has demonstrated that blackbox mechanisms in HLS tools can be used to target custom hardblocks, but this still requires explicit function calls in user-written HLS C and manual creation of RTL IP libraries, significant effort that must be repeated for every layer in a DL model. Furthermore, for DL, an even high-level programming interface, e.g., Pytorch/Keras instead of C/C++, is desirable for improved programmability and user adoption. We present ATLAS, a fully automated flow from a high-level DL model description to a hardware implementation on an FPGA with custom in-fabric DL-optimized hardblocks, requiring no manual RTL design or explicit hardblock instantiation from the end user. Our approach uses GEMM as a universal abstraction layer and comprises two components: (1) hls4ml-GEMM, a compiler frontend that transforms DL layers into HLS C code with architecture-agnostic GEMM function calls, and (2) a GEMM IP Generator, an architecture-aware backend that produces hardblock-based RTL wrappers with tiling logic, control FSMs, and scheduling metadata. We evaluate the flow across 11 DL designs, including individual fully connected, convolution, and attention layers, as well as full CNN, MLP, and Transformer models targeting an FPGA architecture with Tensor Slices using Catapult for HLS and VTR for implementation.",
+      "authors": [
+        "Ruthwik Reddy Sunketa",
+        "Aman Arora"
+      ],
+      "categories": [
+        "cs.AR"
+      ],
+      "citation_count": null,
+      "classic_status": null,
+      "code_url": null,
+      "difficulty": null,
+      "field": null,
+      "id": "arxiv:2607.07643v1",
+      "identifiers": {
+        "arxiv_id": "2607.07643v1"
+      },
+      "institutions": [],
+      "pdf_url": "https://arxiv.org/pdf/2607.07643v1",
+      "project_url": null,
+      "published_at": "2026-07-08",
+      "published_date": "2026-07-08",
+      "reading_advice": "save_for_later",
+      "reading_status": "backlog",
+      "recommendation_level": "B",
+      "score": 0.732,
+      "scores": {
+        "classic_value": 0.35,
+        "engineering_transferability": 0.8,
+        "recency": 0.78,
+        "source_quality": 0.78,
+        "total": 0.732,
+        "user_relevance": 0.75
+      },
+      "selected_for_s_level": false,
+      "source": "arxiv",
+      "source_type": "recent_7d",
+      "source_url": "http://arxiv.org/abs/2607.07643v1",
+      "tags": [
+        "cs.AR"
+      ],
+      "title": "ATLAS: Automated HLS for DL-Optimized FPGAs",
+      "title_zh": null,
+      "topics": [
+        "architecture"
+      ],
+      "url": "http://arxiv.org/abs/2607.07643v1",
+      "venue": null,
+      "why_recommended": "Ranked by engineering transferability signal across configured topics."
+    },
+    {
+      "abstract": "Blockchain systems are undergoing a fundamental transition from decentralized ledgers for digital assets to general-purpose trust infrastructures for verifiable computation, decentralized physical resources, and automated infrastructure management. Meanwhile, the limitations of the Blockchain as a Service (BaaS) model stem from a common structural problem: outsourcing control of infrastructure to third-party service providers inevitably involves a systemic surrender of trust, flexibility, and data sovereignty. RISC-V, with its open, modular, and extensible design, provides a general-purpose computing foundation for public blockchains that is open, low-level, compileable, verifiable, and scalable. Inspired by the development and characteristics of eSIM, the embedded Blockchain infrastructure management (eBIM) is defined as a software-hardware collaborative paradigm for blockchain infrastructure management with RISC-V. This study aims to provide a comprehensive survey on eBIM supporting research and technologies, to answer the following research questions (RQs): RQ1 What is eBIM? RQ2 How does eBIM work? RQ3 What can eBIM do? By introducing the concept of eBIM, this paper establishes a foundational reference for researchers, hardware architects, and protocol designers in this rapidly evolving landscape, including cryptographic acceleration, trusted execution environments, zero-knowledge virtual machines, and smart contract execution engines. The prospects of the proposed e-BIM and its future research directions are indicated in this paper.",
+      "authors": [
+        "Qinglin Yang",
+        "Yuan Liu",
+        "Yaoyao Zhang",
+        "Boya Wang",
+        "Zongjian You",
+        "Chunming Rong",
+        "Zhihong Tian"
+      ],
+      "categories": [
+        "cs.CR",
+        "cs.AR"
+      ],
+      "citation_count": null,
+      "classic_status": null,
+      "code_url": null,
+      "difficulty": null,
+      "field": null,
+      "id": "arxiv:2607.07625v1",
+      "identifiers": {
+        "arxiv_id": "2607.07625v1"
+      },
+      "institutions": [],
+      "pdf_url": "https://arxiv.org/pdf/2607.07625v1",
+      "project_url": null,
+      "published_at": "2026-07-08",
+      "published_date": "2026-07-08",
+      "reading_advice": "save_for_later",
+      "reading_status": "backlog",
+      "recommendation_level": "B",
+      "score": 0.732,
+      "scores": {
+        "classic_value": 0.35,
+        "engineering_transferability": 0.8,
+        "recency": 0.78,
+        "source_quality": 0.78,
+        "total": 0.732,
+        "user_relevance": 0.75
+      },
+      "selected_for_s_level": false,
+      "source": "arxiv",
+      "source_type": "recent_7d",
+      "source_url": "http://arxiv.org/abs/2607.07625v1",
+      "tags": [
+        "cs.CR",
+        "cs.AR"
+      ],
+      "title": "Embedded Blockchain Infrastructure Management (eBIM): A RISC-V-Empowered Hardware--Software Co-Design Framework Towards Trustworthy Blockchain",
+      "title_zh": null,
+      "topics": [
+        "architecture"
+      ],
+      "url": "http://arxiv.org/abs/2607.07625v1",
+      "venue": null,
+      "why_recommended": "Ranked by engineering transferability signal across configured topics."
+    },
+    {
+      "abstract": "Structure-property relationships are foundational to biology, chemistry and materials science, where function, reactivity and physical response emerge from spatial, chemical and periodic organization. Mechanistically explaining these relationships requires interpreting structural evidence through scientific principles and physical constraints, from stereochemistry and bonding to symmetry, energetics and periodic order. However, applying artificial intelligence to this process presents a joint challenge of representation and reasoning: models must preserve domain-native structural information while showing how specific evidence supports predictions under these constraints. Here we introduce SciReasoner, a multimodal scientific foundation model for native structural reasoning across proteins, small molecules and inorganic crystals. SciReasoner discretizes coordinates, topologies and periodic connectivities into a unified structure-aware vocabulary, treating structural tokens as addressable evidence units during reasoning. In homology-controlled Gene Ontology prediction, SciReasoner improves Cellular Component annotation for low-homology and orphan-like proteins, increasing $F_{\\max}$ from 0.42 to 0.55. In chemistry, it raises single-step retrosynthesis accuracy from 0.63 to 0.72 while generating fragment-level disconnection and precursor-verification traces. In materials science, its representations separate elemental and compound phases and resolve high- and low-band-gap regimes. Across 86 benchmarks, SciReasoner achieves state-of-the-art performance on 67 tasks. Double-blind expert evaluation rates its reasoning traces as preferred or at least comparable to those of a frontier large language model in 98% of cases. By making structure an inspectable substrate for reasoning under scientific constraints, SciReasoner connects accurate prediction with interpretable scientific inference.",
+      "authors": [
+        "Chen Tang",
+        "Yizhou Wang",
+        "Jianyu Wu",
+        "Lintao Wang",
+        "Shixiang Tang",
+        "Pengze Li",
+        "Encheng Su",
+        "Jun Yao",
+        "Jiabei Xiao",
+        "Yuqi Shi",
+        "Jielan Li",
+        "Hongxia Hao",
+        "Zhangyang Gao",
+        "Fang Wu",
+        "Ben Fei",
+        "Xiangyu Yue",
+        "Pan Tan",
+        "Bozitao Zhong",
+        "Jinouwen Zhang",
+        "Aoran Wang",
+        "Yan Lu",
+        "Jiaheng Liu",
+        "Xinzhu Ma",
+        "Liang Hong",
+        "Mingyue Zheng",
+        "Phil Torr",
+        "Bowen Zhou",
+        "Wanli Ouyang",
+        "Lei Bai"
+      ],
+      "categories": [
+        "cs.CL",
+        "cs.AI",
+        "cs.CE",
+        "cs.LG"
+      ],
+      "citation_count": null,
+      "classic_status": null,
+      "code_url": null,
+      "difficulty": null,
+      "field": null,
+      "id": "arxiv:2607.07708v1",
+      "identifiers": {
+        "arxiv_id": "2607.07708v1"
+      },
+      "institutions": [],
+      "pdf_url": "https://arxiv.org/pdf/2607.07708v1",
+      "project_url": null,
+      "published_at": "2026-07-08",
+      "published_date": "2026-07-08",
+      "reading_advice": "save_for_later",
+      "reading_status": "backlog",
+      "recommendation_level": "B",
+      "score": 0.662,
+      "scores": {
+        "classic_value": 0.35,
+        "engineering_transferability": 0.45,
+        "recency": 0.78,
+        "source_quality": 0.78,
+        "total": 0.662,
+        "user_relevance": 0.75
+      },
+      "selected_for_s_level": false,
+      "source": "arxiv",
+      "source_type": "recent_7d",
+      "source_url": "http://arxiv.org/abs/2607.07708v1",
+      "tags": [
+        "cs.CL",
+        "cs.AI",
+        "cs.CE",
+        "cs.LG"
+      ],
+      "title": "Accurate, Interdisciplinary and Transparent Structure-property Understanding with Deep Native Structural Reasoning",
+      "title_zh": null,
+      "topics": [
+        "llm_agent"
+      ],
+      "url": "http://arxiv.org/abs/2607.07708v1",
+      "venue": null,
+      "why_recommended": "Ranked by recency signal across configured topics."
+    },
+    {
+      "abstract": "Limited memory language models (LMLMs) externalize factual knowledge during pretraining to a knowledge base (KB), rather than memorizing it in their weights. During generation, the model then fetches knowledge from the KB as needed. This recently introduced paradigm provides multiple advantages, including knowledge control capabilities that remain beyond conventional LLMs. We propose continuous-query LMLM (CO-LMLM), where the KB pairs continuous keys with textual knowledge values, a significant departure from prior reliance on relational KB and queries. CO-LMLM generates flexible vector queries at minimal cost, while still integrating human-readable and attributable retrieved knowledge into its generation. We pair this design with an annotation pipeline that tags free-form factual spans in arbitrary text, removing prior work's restriction to Wikipedia. Across pretraining on Wikipedia and FineWeb-Edu and at multiple model scales, CO-LMLM outperforms prior LMLMs and vanilla LLMs in both perplexity and factual precision. At 360M scale, this includes lower perplexity than models pretrained on 40x more data, and SimpleQA-verified performance that is in line with gpt-4o-mini and higher than Claude Sonnet 4.5.",
+      "authors": [
+        "Yair Feldman",
+        "Linxi Zhao",
+        "Nathan Godey",
+        "Dongyoung Go",
+        "Yilun Hua",
+        "Kilian Q. Weinberger",
+        "Jennifer J. Sun",
+        "Yoav Artzi"
+      ],
+      "categories": [
+        "cs.CL",
+        "cs.AI",
+        "cs.LG"
+      ],
+      "citation_count": null,
+      "classic_status": null,
+      "code_url": null,
+      "difficulty": null,
+      "field": null,
+      "id": "arxiv:2607.07707v1",
+      "identifiers": {
+        "arxiv_id": "2607.07707v1"
+      },
+      "institutions": [],
+      "pdf_url": "https://arxiv.org/pdf/2607.07707v1",
+      "project_url": null,
+      "published_at": "2026-07-08",
+      "published_date": "2026-07-08",
+      "reading_advice": "save_for_later",
+      "reading_status": "backlog",
+      "recommendation_level": "B",
+      "score": 0.662,
+      "scores": {
+        "classic_value": 0.35,
+        "engineering_transferability": 0.45,
+        "recency": 0.78,
+        "source_quality": 0.78,
+        "total": 0.662,
+        "user_relevance": 0.75
+      },
+      "selected_for_s_level": false,
+      "source": "arxiv",
+      "source_type": "recent_7d",
+      "source_url": "http://arxiv.org/abs/2607.07707v1",
+      "tags": [
+        "cs.CL",
+        "cs.AI",
+        "cs.LG"
+      ],
+      "title": "Co-LMLM: Continuous-Query Limited Memory Language Models",
+      "title_zh": null,
+      "topics": [
+        "llm_agent"
+      ],
+      "url": "http://arxiv.org/abs/2607.07707v1",
+      "venue": null,
+      "why_recommended": "Ranked by recency signal across configured topics."
+    },
+    {
+      "abstract": "The quadratic cost of causal self-attention severely bottlenecks long-context transformer inference. While numerous post hoc linearization pipelines exist, it is difficult to identify which components preserve model quality. This work isolates the effect of state update design in a strict frozen-backbone regime. We show that softmax relies on key-dependent, rank-1 orthogonal projections, elucidating why delta-style networks outperform purely gated accumulation. We identify a potential source of approximation errors and introduce structural interventions, specifically sink tokens, short convolutions, and fixed-budget cache routing, which reduces the remaining gap. We scale this linearization approach across LLaMA and Qwen models up to 32B parameters, outperforming prior post hoc baselines on MMLU and matching the long-context retrieval of complex adaptive-caching frameworks.",
+      "authors": [
+        "Anna Kuzina",
+        "Paul N. Whatmough",
+        "Babak Ehteshami Bejnordi"
+      ],
+      "categories": [
+        "cs.LG"
+      ],
+      "citation_count": null,
+      "classic_status": null,
+      "code_url": null,
+      "difficulty": null,
+      "field": null,
+      "id": "arxiv:2607.07706v1",
+      "identifiers": {
+        "arxiv_id": "2607.07706v1"
+      },
+      "institutions": [],
+      "pdf_url": "https://arxiv.org/pdf/2607.07706v1",
+      "project_url": null,
+      "published_at": "2026-07-08",
+      "published_date": "2026-07-08",
+      "reading_advice": "save_for_later",
+      "reading_status": "backlog",
+      "recommendation_level": "B",
+      "score": 0.662,
+      "scores": {
+        "classic_value": 0.35,
+        "engineering_transferability": 0.45,
+        "recency": 0.78,
+        "source_quality": 0.78,
+        "total": 0.662,
+        "user_relevance": 0.75
+      },
+      "selected_for_s_level": false,
+      "source": "arxiv",
+      "source_type": "recent_7d",
+      "source_url": "http://arxiv.org/abs/2607.07706v1",
+      "tags": [
+        "cs.LG"
+      ],
+      "title": "The Key to Going Linear: Analysis-Driven Transformer Linearization",
+      "title_zh": null,
+      "topics": [
+        "llm_agent"
+      ],
+      "url": "http://arxiv.org/abs/2607.07706v1",
+      "venue": null,
+      "why_recommended": "Ranked by recency signal across configured topics."
+    }
+  ],
+  "public_json_version": "0.1",
+  "s_level_candidate_ids": [],
+  "s_level_paper_id": null,
+  "source_mode_summary": {
+    "recent_7d": 6
+  },
+  "summary": "Selected 6 papers: 6 recent candidates and 0 classic fallback items."
+}

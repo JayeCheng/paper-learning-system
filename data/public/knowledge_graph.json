@@ -1,0 +1,108 @@
+{
+  "edges": [
+    {
+      "confidence": 0.5,
+      "relation": "related_to",
+      "source": "arxiv:2607.07687v1",
+      "target": "architecture"
+    },
+    {
+      "confidence": 0.5,
+      "relation": "related_to",
+      "source": "arxiv:2607.07643v1",
+      "target": "architecture"
+    },
+    {
+      "confidence": 0.5,
+      "relation": "related_to",
+      "source": "arxiv:2607.07625v1",
+      "target": "architecture"
+    },
+    {
+      "confidence": 0.5,
+      "relation": "related_to",
+      "source": "arxiv:2607.07708v1",
+      "target": "llm_agent"
+    },
+    {
+      "confidence": 0.5,
+      "relation": "related_to",
+      "source": "arxiv:2607.07707v1",
+      "target": "llm_agent"
+    },
+    {
+      "confidence": 0.5,
+      "relation": "related_to",
+      "source": "arxiv:2607.07706v1",
+      "target": "llm_agent"
+    }
+  ],
+  "nodes": [
+    {
+      "id": "arxiv:2607.07687v1",
+      "label": "Scaling WaterLily.jl with MPI and an improved geometric multigrid solver",
+      "topics": [
+        "architecture"
+      ],
+      "type": "paper"
+    },
+    {
+      "id": "arxiv:2607.07643v1",
+      "label": "ATLAS: Automated HLS for DL-Optimized FPGAs",
+      "topics": [
+        "architecture"
+      ],
+      "type": "paper"
+    },
+    {
+      "id": "arxiv:2607.07625v1",
+      "label": "Embedded Blockchain Infrastructure Management (eBIM): A RISC-V-Empowered Hardware--Software Co-Design Framework Towards Trustworthy Blockchain",
+      "topics": [
+        "architecture"
+      ],
+      "type": "paper"
+    },
+    {
+      "id": "arxiv:2607.07708v1",
+      "label": "Accurate, Interdisciplinary and Transparent Structure-property Understanding with Deep Native Structural Reasoning",
+      "topics": [
+        "llm_agent"
+      ],
+      "type": "paper"
+    },
+    {
+      "id": "arxiv:2607.07707v1",
+      "label": "Co-LMLM: Continuous-Query Limited Memory Language Models",
+      "topics": [
+        "llm_agent"
+      ],
+      "type": "paper"
+    },
+    {
+      "id": "arxiv:2607.07706v1",
+      "label": "The Key to Going Linear: Analysis-Driven Transformer Linearization",
+      "topics": [
+        "llm_agent"
+      ],
+      "type": "paper"
+    },
+    {
+      "id": "architecture",
+      "label": "architecture",
+      "topics": [
+        "architecture"
+      ],
+      "type": "concept"
+    },
+    {
+      "id": "llm_agent",
+      "label": "llm_agent",
+      "topics": [
+        "llm_agent"
+      ],
+      "type": "concept"
+    }
+  ],
+  "public_json_version": "0.1",
+  "updated_at": "2026-07-09T23:21:51+00:00"
+}
