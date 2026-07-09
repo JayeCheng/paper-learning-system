@@ -6,8 +6,9 @@ This repository is a long-lived, GitHub-first system for learning from research 
 It is designed to collect promising papers, rank them, turn them into durable reading
 artifacts, and expose machine-readable JSON for future integrations and web frontends.
 
-Version `v0.0` is an architecture skeleton. It defines repository boundaries,
-configuration, schemas, and safe extension points before adding complex fetch logic.
+Version `v0.1` is a backend MVP. It can run a daily paper radar, fetch recent arXiv
+metadata, fall back to classic curriculum items, rank candidates, and write stable
+Markdown, JSON, and export artifacts.
 
 ## Goals
 
@@ -39,6 +40,20 @@ python -m pytest
 python scripts/run_daily.py
 ```
 
+Run the daily radar through the installed CLI:
+
+```bash
+paper-learning daily --date today
+paper-learning daily --date 2026-07-07
+```
+
+Or without installing the console script:
+
+```bash
+python scripts/run_daily.py --date today
+python scripts/run_daily.py --date 2026-07-07
+```
+
 ## Repository Layout
 
 ```text
@@ -47,7 +62,7 @@ data/state/        Durable machine state owned by GitHub.
 data/raw/          Source snapshots grouped by upstream provider.
 data/exports/      Export artifacts such as CSV, BibTeX, or Zotero payloads.
 data/public/       JSON interface for frontends and external consumers.
-daily/             Daily Markdown reports and future paired JSON outputs.
+daily/             Daily Markdown reports and paired JSON outputs under YYYY/MM.
 deep_read/         Long-form paper notes grouped by learning track.
 knowledge_graph/   Human-readable knowledge graph indexes and topic maps.
 curriculum/        Classic-paper routes and planned learning sequences.
@@ -73,11 +88,31 @@ Core rules:
 - GitHub is the only long-term source of truth.
 - Markdown is the durable human archive.
 - JSON is the machine interface for frontends, Notion, APIs, and search.
-- `data/public/*.json` and structured daily JSON are the only frontend contracts.
+- `data/public/*.json` is the stable frontend entrypoint. Structured daily JSON lives
+  under `daily/YYYY/MM/`.
 - Notion is a presentation layer, not primary storage.
+
+## Daily Schedule
+
+The configured local report time is `06:10` in Asia/Singapore. GitHub Actions cron
+uses UTC, so `06:10` SGT is scheduled as `22:10` UTC on the previous day:
+`10 22 * * *`.
 
 ## Current Status
 
-`v0.0` contains no production crawler. Fetchers are intentionally shallow placeholders
-so module boundaries can harden before network behavior, ranking heuristics, and
-scheduled automation expand.
+`v0.1` implements a minimal backend loop:
+
+- arXiv metadata fetch for configured categories and recent windows
+- classic curriculum fallback when recent candidates are insufficient
+- normalize, dedupe, rank, and cap to six daily papers
+- at most one S-level paper per daily report
+- stable daily Markdown/JSON, public JSON indexes, and CSV/JSONL exports
+
+Not yet implemented:
+
+- Notion synchronization beyond a mock placeholder
+- Zotero export beyond placeholders
+- PDF download or parsing
+- vector databases or semantic search
+- web frontend
+- OpenReview, bioRxiv, Semantic Scholar, or GitHub production fetchers

@@ -1,14 +1,16 @@
 ranking:
-  default_threshold: 0.65
+  max_daily_papers: 6
+  max_s_level_papers: 1
   s_level_threshold: 0.88
+  a_level_threshold: 0.74
+  b_level_threshold: 0.58
 
 weights:
-  topic_match: 0.30
-  source_quality: 0.20
-  recency: 0.15
-  citation_signal: 0.15
-  implementation_signal: 0.10
-  curriculum_fit: 0.10
+  recency: 0.25
+  user_relevance: 0.30
+  source_quality: 0.15
+  engineering_transferability: 0.20
+  classic_value: 0.10
 
 topic_boosts:
   gpu_graphics: 1.10

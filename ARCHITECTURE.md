@@ -14,7 +14,7 @@ sources
   -> src/paper_learning/core/rank.py
   -> src/paper_learning/core/curriculum.py
   -> src/paper_learning/reports
-  -> daily/*.md and data/public/*.json
+  -> daily/YYYY/MM/*.md, daily/YYYY/MM/*.json, and data/public/*.json
   -> integrations
 ```
 
@@ -28,6 +28,12 @@ sources
 - `skills/` documents stable agent workflows. Skills do not store state and do not
   directly access external APIs.
 - `data/public/` is the frontend contract. Frontends must not parse `data/state/`.
+
+## Scheduling
+
+The daily report target time is `06:10` in Asia/Singapore. GitHub Actions cron is
+defined in UTC, so the workflow uses `10 22 * * *`, which corresponds to `22:10`
+UTC on the previous day.
 
 ## State Model
 
@@ -49,6 +55,7 @@ Schemas live in `schemas/`:
 - `daily_report.schema.json` describes daily report payloads.
 - `knowledge_graph.schema.json` describes nodes and typed edges.
 - `reading_status.schema.json` describes reading progress.
+- `curriculum_progress.schema.json` describes frontend-ready route progress.
 
 Schema changes should be reviewed as public API changes once consumers exist.
 

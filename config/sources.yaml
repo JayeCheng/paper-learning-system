@@ -3,6 +3,23 @@ sources:
     enabled: true
     type: preprint
     fetcher: paper_learning.fetchers.arxiv_fetcher
+    max_results_per_window: 40
+    categories:
+      - cs.AI
+      - cs.LG
+      - cs.CL
+      - cs.AR
+      - cs.DC
+      - cs.GR
+      - cs.CV
+      - cs.HC
+      - q-bio.NC
+      - physics.soc-ph
+    windows:
+      recent_24h:
+        days: 1
+      recent_7d:
+        days: 7
     rate_limit_per_minute: 30
     notes: Public metadata source for CS, physics, and quantitative fields.
 

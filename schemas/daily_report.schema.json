@@ -6,17 +6,26 @@
   "required": ["date", "generated_at", "papers", "summary"],
   "additionalProperties": false,
   "properties": {
-    "date": {
+    "date": { "type": "string", "format": "date" },
+    "generated_at": { "type": "string", "format": "date-time" },
+    "summary": { "type": "string" },
+    "learning_route_position": { "type": ["string", "null"] },
+    "source_mode_summary": {
+      "type": "object",
+      "additionalProperties": { "type": "integer" },
+      "default": {}
+    },
+    "s_level_paper_id": { "type": ["string", "null"] },
+    "public_json_version": {
       "type": "string",
-      "format": "date"
+      "default": "0.1"
     },
-    "generated_at": {
-      "type": "string",
-      "format": "date-time"
+    "generated_paths": {
+      "type": "object",
+      "additionalProperties": { "type": "string" },
+      "default": {}
     },
-    "summary": {
-      "type": "string"
-    },
+    "frontend_entry": { "type": "string" },
     "papers": {
       "type": "array",
       "items": { "$ref": "paper.schema.json" }

@@ -6,6 +6,14 @@
   "required": ["nodes", "edges"],
   "additionalProperties": false,
   "properties": {
+    "public_json_version": {
+      "type": "string",
+      "default": "0.1"
+    },
+    "updated_at": {
+      "type": "string",
+      "format": "date-time"
+    },
     "nodes": {
       "type": "array",
       "items": {

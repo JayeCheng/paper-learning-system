@@ -1,0 +1,32 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://github.com/JayeCheng/paper-learning-system/schemas/curriculum_progress.schema.json",
+  "title": "CurriculumProgress",
+  "type": "object",
+  "required": ["public_json_version", "updated_at", "tracks"],
+  "additionalProperties": false,
+  "properties": {
+    "public_json_version": { "type": "string", "default": "0.1" },
+    "updated_at": { "type": "string", "format": "date-time" },
+    "tracks": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "required": ["id", "label", "completed_count", "planned_count"],
+        "additionalProperties": false,
+        "properties": {
+          "id": { "type": "string" },
+          "label": { "type": "string" },
+          "completed_count": { "type": "integer", "minimum": 0 },
+          "planned_count": { "type": "integer", "minimum": 0 },
+          "current_position": { "type": ["string", "null"] },
+          "next_paper_ids": {
+            "type": "array",
+            "items": { "type": "string" },
+            "default": []
+          }
+        }
+      }
+    }
+  }
+}

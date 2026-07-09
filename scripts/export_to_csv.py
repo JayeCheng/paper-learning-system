@@ -2,7 +2,7 @@ from __future__ import annotations
 
 
 def main() -> int:
-    print("v0.0 placeholder: CSV export is not implemented yet.")
+    print("v0.1: daily reports write CSV exports to data/exports/.")
     return 0
 
 

@@ -2,7 +2,7 @@ from __future__ import annotations
 
 
 def main() -> int:
-    print("v0.0 placeholder: Notion sync is disabled by default.")
+    print("v0.1 placeholder: Notion sync is disabled by default.")
     return 0
 
 

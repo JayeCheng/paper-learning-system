@@ -1,6 +1,9 @@
 PYTHON ?= python
 
-.PHONY: test lint daily backfill export sync-notion
+.PHONY: install test lint daily backfill export sync-notion
+
+install:
+	$(PYTHON) -m pip install -e ".[dev]"
 
 test:
 	$(PYTHON) -m pytest

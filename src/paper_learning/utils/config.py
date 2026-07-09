@@ -1,0 +1,141 @@
+from __future__ import annotations
+
+import re
+from pathlib import Path
+
+
+DEFAULT_ARXIV_CATEGORIES = ["cs.AI", "cs.LG", "cs.CL", "cs.AR", "cs.DC", "cs.GR"]
+DEFAULT_ARXIV_WINDOWS = {"recent_24h": 1, "recent_7d": 7}
+DEFAULT_RANKING_WEIGHTS = {
+    "recency": 0.25,
+    "user_relevance": 0.30,
+    "source_quality": 0.15,
+    "engineering_transferability": 0.20,
+    "classic_value": 0.10,
+}
+
+
+def load_arxiv_source_config(path: Path = Path("config/sources.yaml")) -> dict:
+    config = {
+        "categories": list(DEFAULT_ARXIV_CATEGORIES),
+        "windows": dict(DEFAULT_ARXIV_WINDOWS),
+        "max_results_per_window": 40,
+    }
+    if not path.exists():
+        return config
+
+    lines = path.read_text(encoding="utf-8").splitlines()
+    in_arxiv = False
+    collecting_categories = False
+    current_window: str | None = None
+    categories: list[str] = []
+
+    for line in lines:
+        stripped = line.strip()
+        indent = len(line) - len(line.lstrip(" "))
+        if indent == 2 and stripped.endswith(":"):
+            in_arxiv = stripped == "arxiv:"
+            collecting_categories = False
+            current_window = None
+            continue
+        if not in_arxiv:
+            continue
+        if stripped == "categories:":
+            collecting_categories = True
+            current_window = None
+            continue
+        if collecting_categories and stripped.startswith("- "):
+            categories.append(_parse_scalar(stripped[2:]))
+            continue
+        if indent <= 4 and collecting_categories and stripped and not stripped.startswith("- "):
+            collecting_categories = False
+        if stripped.startswith("max_results_per_window:"):
+            config["max_results_per_window"] = int(stripped.split(":", 1)[1].strip())
+            continue
+        if stripped in ("recent_24h:", "recent_7d:"):
+            current_window = stripped[:-1]
+            continue
+        if current_window and stripped.startswith("days:"):
+            config["windows"][current_window] = int(stripped.split(":", 1)[1].strip())
+
+    if categories:
+        config["categories"] = categories
+    return config
+
+
+def load_ranking_config(path: Path = Path("config/ranking.yaml")) -> dict:
+    config = {
+        "max_daily_papers": 6,
+        "max_s_level_papers": 1,
+        "s_level_threshold": 0.88,
+        "a_level_threshold": 0.74,
+        "b_level_threshold": 0.58,
+        "weights": dict(DEFAULT_RANKING_WEIGHTS),
+    }
+    if not path.exists():
+        return config
+
+    section: str | None = None
+    for line in path.read_text(encoding="utf-8").splitlines():
+        stripped = line.strip()
+        if not stripped or stripped.startswith("#"):
+            continue
+        if not line.startswith(" ") and stripped.endswith(":"):
+            section = stripped[:-1]
+            continue
+        if ":" not in stripped:
+            continue
+        key, raw_value = stripped.split(":", 1)
+        value = _parse_scalar(raw_value)
+        if section == "ranking" and key in config:
+            config[key] = value
+        elif section == "weights" and key in config["weights"]:
+            config["weights"][key] = float(value)
+    return config
+
+
+def load_classic_items(curriculum_dir: Path = Path("curriculum")) -> list[dict]:
+    items: list[dict] = []
+    if not curriculum_dir.exists():
+        return items
+
+    for path in sorted(curriculum_dir.glob("*_classics.yaml")):
+        track = path.name.replace("_classics.yaml", "")
+        current: dict | None = None
+        for line in path.read_text(encoding="utf-8").splitlines():
+            stripped = line.strip()
+            if stripped.startswith("track:"):
+                track = str(_parse_scalar(stripped.split(":", 1)[1]))
+            elif stripped.startswith("- title:"):
+                if current:
+                    items.append(current)
+                current = {"track": track, "title": _parse_scalar(stripped.split(":", 1)[1])}
+            elif current and ":" in stripped:
+                key, raw_value = stripped.split(":", 1)
+                current[key] = _parse_scalar(raw_value)
+        if current:
+            items.append(current)
+    return items
+
+
+def slugify(value: str) -> str:
+    slug = re.sub(r"[^a-z0-9]+", "-", value.lower()).strip("-")
+    return slug or "untitled"
+
+
+def _parse_scalar(value: str) -> object:
+    value = value.strip()
+    if value.startswith('"') and value.endswith('"'):
+        return value[1:-1]
+    if value.startswith("'") and value.endswith("'"):
+        return value[1:-1]
+    if value.lower() == "true":
+        return True
+    if value.lower() == "false":
+        return False
+    try:
+        if "." in value:
+            return float(value)
+        return int(value)
+    except ValueError:
+        return value
