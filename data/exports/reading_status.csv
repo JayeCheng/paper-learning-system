@@ -1,7 +1,7 @@
 paper_id,status,priority,recommendation_level,updated_at,title
-arxiv:2607.07687v1,backlog,medium,B,2026-07-09T23:21:51+00:00,Scaling WaterLily.jl with MPI and an improved geometric multigrid solver
-arxiv:2607.07643v1,backlog,medium,B,2026-07-09T23:21:51+00:00,ATLAS: Automated HLS for DL-Optimized FPGAs
-arxiv:2607.07625v1,backlog,medium,B,2026-07-09T23:21:51+00:00,Embedded Blockchain Infrastructure Management (eBIM): A RISC-V-Empowered Hardware--Software Co-Design Framework Towards Trustworthy Blockchain
-arxiv:2607.07708v1,backlog,medium,B,2026-07-09T23:21:51+00:00,"Accurate, Interdisciplinary and Transparent Structure-property Understanding with Deep Native Structural Reasoning"
-arxiv:2607.07707v1,backlog,medium,B,2026-07-09T23:21:51+00:00,Co-LMLM: Continuous-Query Limited Memory Language Models
-arxiv:2607.07706v1,backlog,medium,B,2026-07-09T23:21:51+00:00,The Key to Going Linear: Analysis-Driven Transformer Linearization
+arxiv:2607.08741v1,backlog,medium,B,2026-07-10T23:09:06+00:00,ARDY: Autoregressive Diffusion with Hybrid Representation for Interactive Human Motion Generation
+arxiv:2607.08740v1,backlog,medium,B,2026-07-10T23:09:06+00:00,Workflow as Knowledge: Semantic Persistence for LLM-Mediated Workflows
+arxiv:2607.08691v1,backlog,medium,B,2026-07-10T23:09:06+00:00,ProjAgent: Procedural Similarity Retrieval for Repository-Level Code Generation
+arxiv:2607.08772v1,backlog,medium,B,2026-07-10T23:09:06+00:00,Wat3R: Underwater 3D Geometry Learning without Annotations
+arxiv:2607.08771v1,backlog,medium,B,2026-07-10T23:09:06+00:00,"ZipDepth: Bringing Lightweight Zero-Shot Monocular Depth Anywhere, on Any Device"
+arxiv:2607.08770v1,backlog,medium,B,2026-07-10T23:09:06+00:00,"LongE2V: Long-Horizon Event-based Video Reconstruction, Prediction, and Frame Interpolation with Video Diffusion Models"

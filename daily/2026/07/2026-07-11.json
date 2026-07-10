@@ -1,0 +1,378 @@
+{
+  "date": "2026-07-11",
+  "frontend_entry": "data/public/latest.json",
+  "generated_at": "2026-07-10T23:09:06+00:00",
+  "generated_paths": {
+    "exports_csv": "data/exports/papers.csv",
+    "exports_jsonl": "data/exports/papers.jsonl",
+    "exports_reading_status": "data/exports/reading_status.csv",
+    "json": "daily/2026/07/2026-07-11.json",
+    "markdown": "daily/2026/07/2026-07-11.md",
+    "public_daily_index": "data/public/daily_index.json",
+    "public_knowledge_graph": "data/public/knowledge_graph.json",
+    "public_latest": "data/public/latest.json",
+    "public_papers_index": "data/public/papers_index.json"
+  },
+  "knowledge_graph_delta": [
+    "paper:arxiv:2607.08741v1",
+    "paper:arxiv:2607.08740v1",
+    "paper:arxiv:2607.08691v1",
+    "paper:arxiv:2607.08772v1",
+    "paper:arxiv:2607.08771v1",
+    "paper:arxiv:2607.08770v1"
+  ],
+  "learning_route_position": "v0.1 daily radar MVP",
+  "next_actions": [
+    "Review S-level candidate",
+    "Update reading status after skim",
+    "Promote durable concepts into the knowledge graph"
+  ],
+  "papers": [
+    {
+      "abstract": "Generating realistic 3D human motions in real-time within interactive applications is key for animation, simulation, and humanoid robotics. While recent offline motion generation approaches offer precise control via text and kinematic constraints, they lack the inference speed required for interactive settings. Conversely, existing online methods enable real-time synthesis but often sacrifice controllability or struggle with complex text semantics and long-horizon goals due to limited context windows. In this work, we introduce ARDY, a streaming generation framework that bridges this gap by enabling high-fidelity motion generation controllable via online text prompts and flexible kinematic constraints. ARDY employs a hybrid representation that combines explicit root features with a latent body embedding, balancing precise trajectory control with efficient generative learning. We propose a two-stage autoregressive transformer denoiser that features variable history context and supports conditioning on flexible, long-horizon kinematic constraints. By training on a large-scale motion capture dataset and being directly conditioned on text labels and kinematic constraints sampled from ground truth poses, ARDY natively learns controllable generation that supports online prompting and flexible long-horizon goals. Extensive evaluations on the HumanML3D benchmark and the large-scale, high-fidelity Bones Rigplay dataset demonstrate ARDY's high motion quality and constraint adherence, validating the efficacy of our key architectural decisions. Finally, we demonstrate the method's practical versatility through an interactive demo featuring dynamic text control, diverse keyframe pose constraints, path following, and interactive locomotion control via mouse and keyboard. Supplementary video results, code, and model releases can be found at https://research.nvidia.com/labs/sil/projects/ardy/.",
+      "authors": [
+        "Kaifeng Zhao",
+        "Mathis Petrovich",
+        "Haotian Zhang",
+        "Tingwu Wang",
+        "Siyu Tang",
+        "Davis Rempe"
+      ],
+      "categories": [
+        "cs.GR",
+        "cs.CV",
+        "cs.LG",
+        "cs.RO"
+      ],
+      "citation_count": null,
+      "classic_status": null,
+      "code_url": null,
+      "difficulty": null,
+      "field": null,
+      "id": "arxiv:2607.08741v1",
+      "identifiers": {
+        "arxiv_id": "2607.08741v1"
+      },
+      "institutions": [],
+      "pdf_url": "https://arxiv.org/pdf/2607.08741v1",
+      "project_url": null,
+      "published_at": "2026-07-09",
+      "published_date": "2026-07-09",
+      "reading_advice": "save_for_later",
+      "reading_status": "backlog",
+      "recommendation_level": "B",
+      "score": 0.732,
+      "scores": {
+        "classic_value": 0.35,
+        "engineering_transferability": 0.8,
+        "recency": 0.78,
+        "source_quality": 0.78,
+        "total": 0.732,
+        "user_relevance": 0.75
+      },
+      "selected_for_s_level": false,
+      "source": "arxiv",
+      "source_type": "recent_7d",
+      "source_url": "http://arxiv.org/abs/2607.08741v1",
+      "tags": [
+        "cs.GR",
+        "cs.CV",
+        "cs.LG",
+        "cs.RO"
+      ],
+      "title": "ARDY: Autoregressive Diffusion with Hybrid Representation for Interactive Human Motion Generation",
+      "title_zh": null,
+      "topics": [
+        "gpu_graphics",
+        "llm_agent"
+      ],
+      "url": "http://arxiv.org/abs/2607.08741v1",
+      "venue": null,
+      "why_recommended": "Ranked by engineering transferability signal across configured topics."
+    },
+    {
+      "abstract": "Large language model (LLM) applications increasingly use explicit workflows for tool use, retrieval, branching, checkpointing, and human approval. Existing workflow systems already address many execution concerns. This paper proposes a Lisp-inspired but language-independent conceptual model: symbolic forms, object identity, and live-image thinking are used as explanatory lenses, not implementation commitments. In this model, workflow definitions, workflow instances, inference records, context snapshots, and dependency relations are represented as persistent knowledge objects in a shared knowledge substrate. Its central semantic distinction is between derive and infer: derive is deterministic computation over available state; infer is mediated LLM judgment under declared context and executor-controlled capability policy. The result is a preliminary conceptual account of semantic persistence: workflows do not merely produce knowledge and leave traces, but can themselves be represented as inspectable, resumable, and reviewable knowledge objects, while formal transition semantics remain future work.",
+      "authors": [
+        "Emanuele Quinto",
+        "Carlo Andrea Rozzi",
+        "Francesco Zanitti"
+      ],
+      "categories": [
+        "cs.AI",
+        "cs.PL",
+        "cs.SE"
+      ],
+      "citation_count": null,
+      "classic_status": null,
+      "code_url": null,
+      "difficulty": null,
+      "field": null,
+      "id": "arxiv:2607.08740v1",
+      "identifiers": {
+        "arxiv_id": "2607.08740v1"
+      },
+      "institutions": [],
+      "pdf_url": "https://arxiv.org/pdf/2607.08740v1",
+      "project_url": null,
+      "published_at": "2026-07-09",
+      "published_date": "2026-07-09",
+      "reading_advice": "save_for_later",
+      "reading_status": "backlog",
+      "recommendation_level": "B",
+      "score": 0.732,
+      "scores": {
+        "classic_value": 0.35,
+        "engineering_transferability": 0.8,
+        "recency": 0.78,
+        "source_quality": 0.78,
+        "total": 0.732,
+        "user_relevance": 0.75
+      },
+      "selected_for_s_level": false,
+      "source": "arxiv",
+      "source_type": "recent_7d",
+      "source_url": "http://arxiv.org/abs/2607.08740v1",
+      "tags": [
+        "cs.AI",
+        "cs.PL",
+        "cs.SE"
+      ],
+      "title": "Workflow as Knowledge: Semantic Persistence for LLM-Mediated Workflows",
+      "title_zh": null,
+      "topics": [
+        "llm_agent"
+      ],
+      "url": "http://arxiv.org/abs/2607.08740v1",
+      "venue": null,
+      "why_recommended": "Ranked by engineering transferability signal across configured topics."
+    },
+    {
+      "abstract": "Repository-level code generation requires implementing target functions while accounting for complex cross-file dependencies and project-specific conventions. Existing retrieval methods predominantly rely on lexical, structural, or semantic similarity, often overlooking repository functions that implement similar procedural logic despite differing in identifiers or application domains. We propose ProjAgent, a repository-level code generation system that introduces procedural similarity as an explicit retrieval signal. ProjAgent decomposes the target function into intermediate reasoning steps and employs an agentic workflow to retrieve repository functions that exhibit similar procedural behavior at each step. The retrieved procedural context is integrated with conventional semantic retrieval to construct a richer repository context for code generation. ProjAgent further incorporates a conservative static-analysis feedback loop that iteratively repairs generated code using compiler and static-analysis feedback. Evaluated on REPOCOD, ProjAgent achieves 41.14% Pass@1, outperforming existing retrieval-based baselines. These results demonstrate that procedural similarity is an effective and previously unexplored retrieval dimension for repository-level code generation.",
+      "authors": [
+        "QiHong Chen",
+        "Aaron Imani",
+        "Iftekhar Ahmed"
+      ],
+      "categories": [
+        "cs.SE",
+        "cs.AI",
+        "cs.IR"
+      ],
+      "citation_count": null,
+      "classic_status": null,
+      "code_url": null,
+      "difficulty": null,
+      "field": null,
+      "id": "arxiv:2607.08691v1",
+      "identifiers": {
+        "arxiv_id": "2607.08691v1"
+      },
+      "institutions": [],
+      "pdf_url": "https://arxiv.org/pdf/2607.08691v1",
+      "project_url": null,
+      "published_at": "2026-07-09",
+      "published_date": "2026-07-09",
+      "reading_advice": "save_for_later",
+      "reading_status": "backlog",
+      "recommendation_level": "B",
+      "score": 0.732,
+      "scores": {
+        "classic_value": 0.35,
+        "engineering_transferability": 0.8,
+        "recency": 0.78,
+        "source_quality": 0.78,
+        "total": 0.732,
+        "user_relevance": 0.75
+      },
+      "selected_for_s_level": false,
+      "source": "arxiv",
+      "source_type": "recent_7d",
+      "source_url": "http://arxiv.org/abs/2607.08691v1",
+      "tags": [
+        "cs.SE",
+        "cs.AI",
+        "cs.IR"
+      ],
+      "title": "ProjAgent: Procedural Similarity Retrieval for Repository-Level Code Generation",
+      "title_zh": null,
+      "topics": [
+        "llm_agent"
+      ],
+      "url": "http://arxiv.org/abs/2607.08691v1",
+      "venue": null,
+      "why_recommended": "Ranked by engineering transferability signal across configured topics."
+    },
+    {
+      "abstract": "Estimating 3D geometry in underwater environments presents unique challenges due to light attenuation, scattering, and the absence of large-scale, high-quality 3D annotations. Pioneering methods rely on massive dense annotations that are impractical in underwater settings. In this paper, we propose Wat3R, a cross-domain semi-supervised learning framework designed to adapt feed-forward 3D reconstruction models from air to underwater scenes. Uniquely, our method eliminates the need for any annotated underwater data following a teacher-student architecture, that learns robust geometry representations merely on abundant unlabeled real underwater video footage. We also design a cross-view consistency loss that leverages geometric cues from other views to compensate for the information degradation in the current view caused by water attenuation and scattering. Furthermore, considering the lack of comprehensive evaluation benchmarks, we construct Water3D, a diverse dataset covering various water bodies and underwater scenarios, designed for geometric task evaluation. Experimental results demonstrate that Wat3R outperforms current state-of-the-art methods in underwater multi-view depth estimation and point cloud reconstruction. The dataset and code are available at https://github.com/LSXI7/Wat3R .",
+      "authors": [
+        "Jiangwei Ren",
+        "Xingyu Jiang",
+        "Zijie Song",
+        "Wei Xu",
+        "Hongkai Lin",
+        "Dingkang Liang",
+        "Xiang Bai"
+      ],
+      "categories": [
+        "cs.CV"
+      ],
+      "citation_count": null,
+      "classic_status": null,
+      "code_url": null,
+      "difficulty": null,
+      "field": null,
+      "id": "arxiv:2607.08772v1",
+      "identifiers": {
+        "arxiv_id": "2607.08772v1"
+      },
+      "institutions": [],
+      "pdf_url": "https://arxiv.org/pdf/2607.08772v1",
+      "project_url": null,
+      "published_at": "2026-07-09",
+      "published_date": "2026-07-09",
+      "reading_advice": "save_for_later",
+      "reading_status": "backlog",
+      "recommendation_level": "B",
+      "score": 0.662,
+      "scores": {
+        "classic_value": 0.35,
+        "engineering_transferability": 0.45,
+        "recency": 0.78,
+        "source_quality": 0.78,
+        "total": 0.662,
+        "user_relevance": 0.75
+      },
+      "selected_for_s_level": false,
+      "source": "arxiv",
+      "source_type": "recent_7d",
+      "source_url": "http://arxiv.org/abs/2607.08772v1",
+      "tags": [
+        "cs.CV"
+      ],
+      "title": "Wat3R: Underwater 3D Geometry Learning without Annotations",
+      "title_zh": null,
+      "topics": [
+        "gpu_graphics"
+      ],
+      "url": "http://arxiv.org/abs/2607.08772v1",
+      "venue": null,
+      "why_recommended": "Ranked by recency signal across configured topics."
+    },
+    {
+      "abstract": "Monocular depth estimation has seen remarkable progress through foundation models achieving robust zero-shot generalization, yet their computational demands place them far beyond the reach of embedded and mobile platforms. Lightweight alternatives exist, but have been developed almost exclusively within single-domain, self-supervised paradigms, failing silently under domain shift. We present ZipDepth, a compact monocular depth network that bridges this gap by combining an efficient reparameterizable encoder-decoder with large-scale knowledge distillation from a foundation model over a large multi-domain training set. Comprising just 6.1M parameters, ZipDepth runs at real-time rates from server GPUs to power-constrained devices, achieving the best trade-off between zero-shot accuracy and deployment efficiency among lightweight models across five benchmarks, taking a significant step towards the accuracy of foundation models with 50x more parameters.",
+      "authors": [
+        "Fabio Tosi",
+        "Luca Bartolomei",
+        "Matteo Poggi",
+        "Stefano Mattoccia"
+      ],
+      "categories": [
+        "cs.CV"
+      ],
+      "citation_count": null,
+      "classic_status": null,
+      "code_url": null,
+      "difficulty": null,
+      "field": null,
+      "id": "arxiv:2607.08771v1",
+      "identifiers": {
+        "arxiv_id": "2607.08771v1"
+      },
+      "institutions": [],
+      "pdf_url": "https://arxiv.org/pdf/2607.08771v1",
+      "project_url": null,
+      "published_at": "2026-07-09",
+      "published_date": "2026-07-09",
+      "reading_advice": "save_for_later",
+      "reading_status": "backlog",
+      "recommendation_level": "B",
+      "score": 0.662,
+      "scores": {
+        "classic_value": 0.35,
+        "engineering_transferability": 0.45,
+        "recency": 0.78,
+        "source_quality": 0.78,
+        "total": 0.662,
+        "user_relevance": 0.75
+      },
+      "selected_for_s_level": false,
+      "source": "arxiv",
+      "source_type": "recent_7d",
+      "source_url": "http://arxiv.org/abs/2607.08771v1",
+      "tags": [
+        "cs.CV"
+      ],
+      "title": "ZipDepth: Bringing Lightweight Zero-Shot Monocular Depth Anywhere, on Any Device",
+      "title_zh": null,
+      "topics": [
+        "gpu_graphics"
+      ],
+      "url": "http://arxiv.org/abs/2607.08771v1",
+      "venue": null,
+      "why_recommended": "Ranked by recency signal across configured topics."
+    },
+    {
+      "abstract": "Recovering high-quality video from sparse event streams is a challenging task. Regression methods often blur textures, while existing generative models struggle with long-term stability. We propose LongE2V, a novel approach that leverages pre-trained video diffusion priors to jointly handle event-based video reconstruction, prediction, and frame interpolation. By fine-tuning a foundational video model, our approach achieves high data efficiency and superior perceptual quality. We introduce Autoregressive Unrolling and Adaptive Context Switching to mitigate temporal drift in extremely long sequences. We also propose Reencoding Alignment with Cross Residual Correction to ensure precise bidirectional consistency during frame interpolation. Furthermore, Event Voxel Density Augmentation ensures robustness across varying sensor resolutions. Extensive experiments on real-world benchmarks demonstrate that LongE2V outperforms state-of-the-art methods across all three tasks, exhibiting exceptional temporal coherence and zero-shot generalization. Project page: https://cdfan0627.github.io/LongE2V-page/",
+      "authors": [
+        "Cheng-De Fan",
+        "Chun-Wei Tuan Mu",
+        "Chen-Wei Chang",
+        "Chin-Yang Lin",
+        "Kun-Ru Wu",
+        "Yu-Chee Tseng",
+        "Yu-Lun Liu"
+      ],
+      "categories": [
+        "cs.CV"
+      ],
+      "citation_count": null,
+      "classic_status": null,
+      "code_url": null,
+      "difficulty": null,
+      "field": null,
+      "id": "arxiv:2607.08770v1",
+      "identifiers": {
+        "arxiv_id": "2607.08770v1"
+      },
+      "institutions": [],
+      "pdf_url": "https://arxiv.org/pdf/2607.08770v1",
+      "project_url": null,
+      "published_at": "2026-07-09",
+      "published_date": "2026-07-09",
+      "reading_advice": "save_for_later",
+      "reading_status": "backlog",
+      "recommendation_level": "B",
+      "score": 0.662,
+      "scores": {
+        "classic_value": 0.35,
+        "engineering_transferability": 0.45,
+        "recency": 0.78,
+        "source_quality": 0.78,
+        "total": 0.662,
+        "user_relevance": 0.75
+      },
+      "selected_for_s_level": false,
+      "source": "arxiv",
+      "source_type": "recent_7d",
+      "source_url": "http://arxiv.org/abs/2607.08770v1",
+      "tags": [
+        "cs.CV"
+      ],
+      "title": "LongE2V: Long-Horizon Event-based Video Reconstruction, Prediction, and Frame Interpolation with Video Diffusion Models",
+      "title_zh": null,
+      "topics": [
+        "gpu_graphics"
+      ],
+      "url": "http://arxiv.org/abs/2607.08770v1",
+      "venue": null,
+      "why_recommended": "Ranked by recency signal across configured topics."
+    }
+  ],
+  "public_json_version": "0.1",
+  "s_level_candidate_ids": [],
+  "s_level_paper_id": null,
+  "source_mode_summary": {
+    "recent_7d": 6
+  },
+  "summary": "Selected 6 papers: 6 recent candidates and 0 classic fallback items."
+}

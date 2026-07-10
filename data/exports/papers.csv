@@ -1,7 +1,7 @@
 id,title,source,source_type,recommendation_level,score,url
-arxiv:2607.07687v1,Scaling WaterLily.jl with MPI and an improved geometric multigrid solver,arxiv,recent_7d,B,0.732,http://arxiv.org/abs/2607.07687v1
-arxiv:2607.07643v1,ATLAS: Automated HLS for DL-Optimized FPGAs,arxiv,recent_7d,B,0.732,http://arxiv.org/abs/2607.07643v1
-arxiv:2607.07625v1,Embedded Blockchain Infrastructure Management (eBIM): A RISC-V-Empowered Hardware--Software Co-Design Framework Towards Trustworthy Blockchain,arxiv,recent_7d,B,0.732,http://arxiv.org/abs/2607.07625v1
-arxiv:2607.07708v1,"Accurate, Interdisciplinary and Transparent Structure-property Understanding with Deep Native Structural Reasoning",arxiv,recent_7d,B,0.662,http://arxiv.org/abs/2607.07708v1
-arxiv:2607.07707v1,Co-LMLM: Continuous-Query Limited Memory Language Models,arxiv,recent_7d,B,0.662,http://arxiv.org/abs/2607.07707v1
-arxiv:2607.07706v1,The Key to Going Linear: Analysis-Driven Transformer Linearization,arxiv,recent_7d,B,0.662,http://arxiv.org/abs/2607.07706v1
+arxiv:2607.08741v1,ARDY: Autoregressive Diffusion with Hybrid Representation for Interactive Human Motion Generation,arxiv,recent_7d,B,0.732,http://arxiv.org/abs/2607.08741v1
+arxiv:2607.08740v1,Workflow as Knowledge: Semantic Persistence for LLM-Mediated Workflows,arxiv,recent_7d,B,0.732,http://arxiv.org/abs/2607.08740v1
+arxiv:2607.08691v1,ProjAgent: Procedural Similarity Retrieval for Repository-Level Code Generation,arxiv,recent_7d,B,0.732,http://arxiv.org/abs/2607.08691v1
+arxiv:2607.08772v1,Wat3R: Underwater 3D Geometry Learning without Annotations,arxiv,recent_7d,B,0.662,http://arxiv.org/abs/2607.08772v1
+arxiv:2607.08771v1,"ZipDepth: Bringing Lightweight Zero-Shot Monocular Depth Anywhere, on Any Device",arxiv,recent_7d,B,0.662,http://arxiv.org/abs/2607.08771v1
+arxiv:2607.08770v1,"LongE2V: Long-Horizon Event-based Video Reconstruction, Prediction, and Frame Interpolation with Video Diffusion Models",arxiv,recent_7d,B,0.662,http://arxiv.org/abs/2607.08770v1
