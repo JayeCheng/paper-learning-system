@@ -1,7 +1,15 @@
-paper_id,status,priority,recommendation_level,updated_at,title
-arxiv:2607.08741v1,backlog,medium,B,2026-07-12T23:00:07+00:00,ARDY: Autoregressive Diffusion with Hybrid Representation for Interactive Human Motion Generation
-arxiv:2607.08740v1,backlog,medium,B,2026-07-12T23:00:07+00:00,Workflow as Knowledge: Semantic Persistence for LLM-Mediated Workflows
-arxiv:2607.08691v1,backlog,medium,B,2026-07-12T23:00:07+00:00,ProjAgent: Procedural Similarity Retrieval for Repository-Level Code Generation
-arxiv:2607.08772v1,backlog,medium,B,2026-07-12T23:00:07+00:00,Wat3R: Underwater 3D Geometry Learning without Annotations
-arxiv:2607.08771v1,backlog,medium,B,2026-07-12T23:00:07+00:00,"ZipDepth: Bringing Lightweight Zero-Shot Monocular Depth Anywhere, on Any Device"
-arxiv:2607.08770v1,backlog,medium,B,2026-07-12T23:00:07+00:00,"LongE2V: Long-Horizon Event-based Video Reconstruction, Prediction, and Frame Interpolation with Video Diffusion Models"
+paper_id,status,priority,notes_path,updated_at,title,source_group,recommendation_level
+arxiv:2607.09553v1,backlog,medium,,2026-07-13T23:04:53+00:00,Writing Bug Reports for Software Repair Agents: What Information Matters Most?,llm_agent,B
+arxiv:2607.09626v1,backlog,medium,,2026-07-13T23:04:53+00:00,New Complexity Classes in Locally Checkable Labeling for Local Computation Algorithms,architecture,B
+arxiv:2607.09628v1,backlog,medium,,2026-07-13T23:04:53+00:00,Indirect and Direct AI Scaffolding for Computational Problem Posing: A Pilot Experience Report,cognition_social,B
+arxiv:2607.09657v1,backlog,medium,,2026-07-13T23:04:53+00:00,Scalable Visual Pretraining for Language Intelligence,gpu_graphics,B
+arxiv:2607.09661v1,backlog,medium,,2026-07-13T23:04:53+00:00,PanoWorld: Real-World Panoramic Generation,gpu_graphics,B
+arxiv:2607.09662v1,backlog,medium,,2026-07-13T23:04:53+00:00,PHINN-EEG: Topological Time-Series Analysis of Dream-State EEG -- Dynamic Betti Curves for Dream Content Classification and Topology-Conditioned Neural Signal Synthesis,llm_agent,B
+classic:architecture:cache-coherence-and-shared-memory-multiprocessors,backlog,medium,,2026-07-09T09:46:00+00:00,Cache coherence and shared-memory multiprocessors,architecture,B
+classic:architecture:the-memory-hierarchy-and-locality,backlog,medium,,2026-07-09T09:46:00+00:00,The memory hierarchy and locality,architecture,B
+classic:cognition:attention-and-working-memory,backlog,medium,,2026-07-09T09:46:00+00:00,Attention and working memory,cognition,B
+classic:cognition:judgment-and-decision-making,backlog,medium,,2026-07-09T09:46:00+00:00,Judgment and decision making,cognition,B
+classic:gpu_graphics:a-trip-through-the-graphics-pipeline,backlog,medium,,2026-07-09T09:46:00+00:00,A trip through the graphics pipeline,gpu_graphics,B
+classic:gpu_graphics:ray-tracing-architectures-and-acceleration-structures,backlog,medium,,2026-07-09T09:46:00+00:00,Ray tracing architectures and acceleration structures,gpu_graphics,B
+classic:llm_agent:retrieval-augmented-generation,backlog,medium,,2026-07-09T09:48:54+00:00,Retrieval augmented generation,llm_agent,B
+classic:llm_agent:tool-use-and-planning-in-language-agents,backlog,medium,,2026-07-09T09:48:54+00:00,Tool use and planning in language agents,llm_agent,B

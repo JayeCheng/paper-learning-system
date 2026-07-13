@@ -7,10 +7,11 @@
       "id": "architecture",
       "label": "Computer Architecture",
       "next_paper_ids": [
+        "arxiv:2607.09626v1",
         "classic:architecture:cache-coherence-and-shared-memory-multiprocessors",
         "classic:architecture:the-memory-hierarchy-and-locality"
       ],
-      "planned_count": 2
+      "planned_count": 3
     },
     {
       "completed_count": 0,
@@ -18,10 +19,21 @@
       "id": "cognition",
       "label": "Cognitive Science",
       "next_paper_ids": [
-        "classic:cognition:attention-and-working-memory",
-        "classic:cognition:judgment-and-decision-making"
+        "arxiv:2607.09628v1",
+        "arxiv:2607.09662v1",
+        "classic:cognition:attention-and-working-memory"
       ],
-      "planned_count": 2
+      "planned_count": 4
+    },
+    {
+      "completed_count": 0,
+      "current_position": null,
+      "id": "cognition_social",
+      "label": "Cognition / Social Systems",
+      "next_paper_ids": [
+        "arxiv:2607.09628v1"
+      ],
+      "planned_count": 1
     },
     {
       "completed_count": 0,
@@ -30,9 +42,10 @@
       "label": "GPU / Graphics",
       "next_paper_ids": [
         "classic:gpu_graphics:a-trip-through-the-graphics-pipeline",
-        "classic:gpu_graphics:ray-tracing-architectures-and-acceleration-structures"
+        "classic:gpu_graphics:ray-tracing-architectures-and-acceleration-structures",
+        "arxiv:2607.09657v1"
       ],
-      "planned_count": 2
+      "planned_count": 4
     },
     {
       "completed_count": 0,
@@ -40,11 +53,12 @@
       "id": "llm_agent",
       "label": "LLM Agent / RAG",
       "next_paper_ids": [
-        "classic:llm_agent:retrieval-augmented-generation",
-        "classic:llm_agent:tool-use-and-planning-in-language-agents"
+        "arxiv:2607.09553v1",
+        "arxiv:2607.09657v1",
+        "arxiv:2607.09662v1"
       ],
-      "planned_count": 2
+      "planned_count": 5
     }
   ],
-  "updated_at": "2026-07-09T09:48:54+00:00"
+  "updated_at": "2026-07-13T23:04:53+00:00"
 }
