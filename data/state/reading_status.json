@@ -1,0 +1,118 @@
+{
+  "items": {
+    "classic:architecture:cache-coherence-and-shared-memory-multiprocessors": {
+      "history": [
+        {
+          "at": "2026-07-09T09:46:00+00:00",
+          "source": "daily_pipeline",
+          "status": "backlog"
+        }
+      ],
+      "notes_path": null,
+      "paper_id": "classic:architecture:cache-coherence-and-shared-memory-multiprocessors",
+      "priority": "medium",
+      "status": "backlog",
+      "updated_at": "2026-07-09T09:46:00+00:00"
+    },
+    "classic:architecture:the-memory-hierarchy-and-locality": {
+      "history": [
+        {
+          "at": "2026-07-09T09:46:00+00:00",
+          "source": "daily_pipeline",
+          "status": "backlog"
+        }
+      ],
+      "notes_path": null,
+      "paper_id": "classic:architecture:the-memory-hierarchy-and-locality",
+      "priority": "medium",
+      "status": "backlog",
+      "updated_at": "2026-07-09T09:46:00+00:00"
+    },
+    "classic:cognition:attention-and-working-memory": {
+      "history": [
+        {
+          "at": "2026-07-09T09:46:00+00:00",
+          "source": "daily_pipeline",
+          "status": "backlog"
+        }
+      ],
+      "notes_path": null,
+      "paper_id": "classic:cognition:attention-and-working-memory",
+      "priority": "medium",
+      "status": "backlog",
+      "updated_at": "2026-07-09T09:46:00+00:00"
+    },
+    "classic:cognition:judgment-and-decision-making": {
+      "history": [
+        {
+          "at": "2026-07-09T09:46:00+00:00",
+          "source": "daily_pipeline",
+          "status": "backlog"
+        }
+      ],
+      "notes_path": null,
+      "paper_id": "classic:cognition:judgment-and-decision-making",
+      "priority": "medium",
+      "status": "backlog",
+      "updated_at": "2026-07-09T09:46:00+00:00"
+    },
+    "classic:gpu_graphics:a-trip-through-the-graphics-pipeline": {
+      "history": [
+        {
+          "at": "2026-07-09T09:46:00+00:00",
+          "source": "daily_pipeline",
+          "status": "backlog"
+        }
+      ],
+      "notes_path": null,
+      "paper_id": "classic:gpu_graphics:a-trip-through-the-graphics-pipeline",
+      "priority": "medium",
+      "status": "backlog",
+      "updated_at": "2026-07-09T09:46:00+00:00"
+    },
+    "classic:gpu_graphics:ray-tracing-architectures-and-acceleration-structures": {
+      "history": [
+        {
+          "at": "2026-07-09T09:46:00+00:00",
+          "source": "daily_pipeline",
+          "status": "backlog"
+        }
+      ],
+      "notes_path": null,
+      "paper_id": "classic:gpu_graphics:ray-tracing-architectures-and-acceleration-structures",
+      "priority": "medium",
+      "status": "backlog",
+      "updated_at": "2026-07-09T09:46:00+00:00"
+    },
+    "classic:llm_agent:retrieval-augmented-generation": {
+      "history": [
+        {
+          "at": "2026-07-09T09:48:54+00:00",
+          "source": "daily_pipeline",
+          "status": "backlog"
+        }
+      ],
+      "notes_path": null,
+      "paper_id": "classic:llm_agent:retrieval-augmented-generation",
+      "priority": "medium",
+      "status": "backlog",
+      "updated_at": "2026-07-09T09:48:54+00:00"
+    },
+    "classic:llm_agent:tool-use-and-planning-in-language-agents": {
+      "history": [
+        {
+          "at": "2026-07-09T09:48:54+00:00",
+          "source": "daily_pipeline",
+          "status": "backlog"
+        }
+      ],
+      "notes_path": null,
+      "paper_id": "classic:llm_agent:tool-use-and-planning-in-language-agents",
+      "priority": "medium",
+      "status": "backlog",
+      "updated_at": "2026-07-09T09:48:54+00:00"
+    }
+  },
+  "state_version": "0.2",
+  "updated_at": "2026-07-09T09:48:54+00:00"
+}

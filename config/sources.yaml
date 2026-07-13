@@ -3,18 +3,24 @@ sources:
     enabled: true
     type: preprint
     fetcher: paper_learning.fetchers.arxiv_fetcher
-    max_results_per_window: 40
-    categories:
-      - cs.AI
-      - cs.LG
-      - cs.CL
-      - cs.AR
-      - cs.DC
-      - cs.GR
-      - cs.CV
-      - cs.HC
-      - q-bio.NC
-      - physics.soc-ph
+    max_results_per_window: 20
+    source_groups:
+      gpu_graphics:
+        categories: [cs.GR, cs.CV]
+        max_results_per_window: 20
+        target_min_daily: 2
+      architecture:
+        categories: [cs.AR, cs.DC, cs.PF]
+        max_results_per_window: 20
+        target_min_daily: 1
+      llm_agent:
+        categories: [cs.AI, cs.LG, cs.CL, cs.SE]
+        max_results_per_window: 25
+        target_min_daily: 2
+      cognition_social:
+        categories: [q-bio.NC, cs.HC, physics.soc-ph, cs.SI]
+        max_results_per_window: 20
+        target_min_daily: 1
     windows:
       recent_24h:
         days: 1

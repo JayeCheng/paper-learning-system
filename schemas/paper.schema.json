@@ -29,6 +29,9 @@
       "type": ["string", "null"],
       "enum": ["recent_24h", "recent_7d", "classic", null]
     },
+    "source_group": {
+      "type": ["string", "null"]
+    },
     "source_url": {
       "type": ["string", "null"]
     },

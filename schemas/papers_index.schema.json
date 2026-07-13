@@ -1,16 +1,16 @@
 {
   "$schema": "https://json-schema.org/draft/2020-12/schema",
-  "$id": "https://github.com/JayeCheng/paper-learning-system/schemas/reading_status.schema.json",
-  "title": "PublicReadingStatus",
+  "$id": "https://github.com/JayeCheng/paper-learning-system/schemas/papers_index.schema.json",
+  "title": "PapersIndex",
   "type": "object",
-  "required": ["public_json_version", "updated_at", "statuses"],
+  "required": ["public_json_version", "updated_at", "papers"],
   "additionalProperties": false,
   "properties": {
     "public_json_version": { "type": "string", "default": "0.2" },
     "updated_at": { "type": "string" },
-    "statuses": {
+    "papers": {
       "type": "array",
-      "items": { "$ref": "reading_status_entry.schema.json" },
+      "items": { "$ref": "paper.schema.json" },
       "default": []
     }
   }

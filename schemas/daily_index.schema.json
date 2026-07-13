@@ -1,0 +1,33 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://github.com/JayeCheng/paper-learning-system/schemas/daily_index.schema.json",
+  "title": "DailyIndex",
+  "type": "object",
+  "required": ["public_json_version", "latest", "reports"],
+  "additionalProperties": false,
+  "properties": {
+    "public_json_version": { "type": "string", "default": "0.2" },
+    "latest": {
+      "type": ["object", "null"],
+      "additionalProperties": true
+    },
+    "reports": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "required": ["date", "markdown_path", "json_path", "paper_count", "status"],
+        "additionalProperties": false,
+        "properties": {
+          "date": { "type": ["string", "null"] },
+          "generated_at": { "type": ["string", "null"] },
+          "markdown_path": { "type": ["string", "null"] },
+          "json_path": { "type": ["string", "null"] },
+          "paper_count": { "type": "integer", "minimum": 0 },
+          "s_level_paper_id": { "type": ["string", "null"] },
+          "status": { "type": "string" }
+        }
+      },
+      "default": []
+    }
+  }
+}

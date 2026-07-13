@@ -86,11 +86,20 @@ def select_ranked_papers(
     *,
     ranking_config: dict,
     report_date: str,
+    group_targets: dict[str, int] | None = None,
 ) -> list[Paper]:
     max_daily = int(ranking_config.get("max_daily_papers", 6))
     max_s_level = int(ranking_config.get("max_s_level_papers", 1))
     weights = ranking_config.get("weights") or DEFAULT_RANKING_WEIGHTS
-    ranked = rank_papers(papers, weights, report_date=report_date)[:max_daily]
+    ranked = rank_papers(papers, weights, report_date=report_date)
+    ranked = _apply_group_targets(
+        ranked,
+        max_daily=max_daily,
+        weights=weights,
+        report_date=report_date,
+        ranking_config=ranking_config,
+        group_targets=group_targets or {},
+    )
 
     selected: list[Paper] = []
     s_count = 0
@@ -115,6 +124,57 @@ def select_ranked_papers(
             )
         )
     return selected
+
+
+def _apply_group_targets(
+    ranked: list[Paper],
+    *,
+    max_daily: int,
+    weights: dict[str, float],
+    report_date: str,
+    ranking_config: dict,
+    group_targets: dict[str, int],
+) -> list[Paper]:
+    if not group_targets:
+        return ranked[:max_daily]
+
+    min_score = float(ranking_config.get("group_min_score", ranking_config.get("b_level_threshold", 0.58)))
+    selected: list[Paper] = []
+    selected_ids: set[str] = set()
+
+    for group_name, target in group_targets.items():
+        if target <= 0 or len(selected) >= max_daily:
+            continue
+        group_papers = [
+            paper
+            for paper in ranked
+            if paper.id not in selected_ids
+            and _paper_group(paper) == group_name
+            and score_paper(paper, weights, report_date=report_date) >= min_score
+        ]
+        for paper in group_papers[:target]:
+            selected.append(paper)
+            selected_ids.add(paper.id)
+            if len(selected) >= max_daily:
+                break
+
+    for paper in ranked:
+        if len(selected) >= max_daily:
+            break
+        if paper.id in selected_ids:
+            continue
+        selected.append(paper)
+        selected_ids.add(paper.id)
+
+    return selected
+
+
+def _paper_group(paper: Paper) -> str | None:
+    if paper.source_group:
+        return paper.source_group
+    if paper.field:
+        return paper.field
+    return paper.topics[0] if paper.topics else None
 
 
 def _recency_score(source_type: str | None, published_date: str | None, report_date: str | None) -> float:

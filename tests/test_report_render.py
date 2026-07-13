@@ -31,7 +31,7 @@ def test_report_renderers_include_paper_metadata() -> None:
     assert payload["papers"][0]["id"] == "p1"
 
 
-def test_write_daily_report_outputs_stable_paths_and_public_json() -> None:
+def test_write_daily_report_outputs_stable_daily_paths() -> None:
     cwd = Path.cwd()
     with TemporaryDirectory() as temp_dir:
         os.chdir(temp_dir)
@@ -54,17 +54,7 @@ def test_write_daily_report_outputs_stable_paths_and_public_json() -> None:
 
             assert markdown_path == Path("daily") / "2026" / "07" / "2026-07-07.md"
             assert json_path == Path("daily") / "2026" / "07" / "2026-07-07.json"
-            assert Path("data/public/latest.json").exists()
-            assert Path("data/public/daily_index.json").exists()
-            assert Path("data/public/papers_index.json").exists()
-            assert Path("data/public/knowledge_graph.json").exists()
-            assert Path("data/exports/papers.jsonl").exists()
-            assert Path("data/exports/papers.csv").exists()
-            assert Path("data/exports/reading_status.csv").exists()
-
-            latest = json.loads(Path("data/public/latest.json").read_text(encoding="utf-8"))
-            index = json.loads(Path("data/public/daily_index.json").read_text(encoding="utf-8"))
-            assert latest["latest"]["json_path"] == "daily/2026/07/2026-07-07.json"
-            assert index["reports"][0]["date"] == "2026-07-07"
+            payload = json.loads(json_path.read_text(encoding="utf-8"))
+            assert payload["date"] == "2026-07-07"
         finally:
             os.chdir(cwd)

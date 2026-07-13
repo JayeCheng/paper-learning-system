@@ -1,0 +1,50 @@
+{
+  "public_json_version": "0.2",
+  "tracks": [
+    {
+      "completed_count": 0,
+      "current_position": null,
+      "id": "architecture",
+      "label": "Computer Architecture",
+      "next_paper_ids": [
+        "classic:architecture:cache-coherence-and-shared-memory-multiprocessors",
+        "classic:architecture:the-memory-hierarchy-and-locality"
+      ],
+      "planned_count": 2
+    },
+    {
+      "completed_count": 0,
+      "current_position": null,
+      "id": "cognition",
+      "label": "Cognitive Science",
+      "next_paper_ids": [
+        "classic:cognition:attention-and-working-memory",
+        "classic:cognition:judgment-and-decision-making"
+      ],
+      "planned_count": 2
+    },
+    {
+      "completed_count": 0,
+      "current_position": null,
+      "id": "gpu_graphics",
+      "label": "GPU / Graphics",
+      "next_paper_ids": [
+        "classic:gpu_graphics:a-trip-through-the-graphics-pipeline",
+        "classic:gpu_graphics:ray-tracing-architectures-and-acceleration-structures"
+      ],
+      "planned_count": 2
+    },
+    {
+      "completed_count": 0,
+      "current_position": null,
+      "id": "llm_agent",
+      "label": "LLM Agent / RAG",
+      "next_paper_ids": [
+        "classic:llm_agent:retrieval-augmented-generation",
+        "classic:llm_agent:tool-use-and-planning-in-language-agents"
+      ],
+      "planned_count": 2
+    }
+  ],
+  "updated_at": "2026-07-09T09:48:54+00:00"
+}

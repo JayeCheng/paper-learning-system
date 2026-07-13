@@ -703,6 +703,6 @@
       "why_recommended": "Ranked by recency signal across configured topics."
     }
   ],
-  "public_json_version": "0.1",
+  "public_json_version": "0.2",
   "updated_at": "2026-07-12T23:00:07+00:00"
 }

@@ -6,6 +6,13 @@ from pathlib import Path
 
 DEFAULT_ARXIV_CATEGORIES = ["cs.AI", "cs.LG", "cs.CL", "cs.AR", "cs.DC", "cs.GR"]
 DEFAULT_ARXIV_WINDOWS = {"recent_24h": 1, "recent_7d": 7}
+DEFAULT_ARXIV_SOURCE_GROUPS = {
+    "default": {
+        "categories": list(DEFAULT_ARXIV_CATEGORIES),
+        "max_results_per_window": 40,
+        "target_min_daily": 0,
+    }
+}
 DEFAULT_RANKING_WEIGHTS = {
     "recency": 0.25,
     "user_relevance": 0.30,
@@ -20,6 +27,7 @@ def load_arxiv_source_config(path: Path = Path("config/sources.yaml")) -> dict:
         "categories": list(DEFAULT_ARXIV_CATEGORIES),
         "windows": dict(DEFAULT_ARXIV_WINDOWS),
         "max_results_per_window": 40,
+        "source_groups": {name: dict(group) for name, group in DEFAULT_ARXIV_SOURCE_GROUPS.items()},
     }
     if not path.exists():
         return config
@@ -27,8 +35,11 @@ def load_arxiv_source_config(path: Path = Path("config/sources.yaml")) -> dict:
     lines = path.read_text(encoding="utf-8").splitlines()
     in_arxiv = False
     collecting_categories = False
+    in_source_groups = False
+    current_group: str | None = None
     current_window: str | None = None
     categories: list[str] = []
+    source_groups: dict[str, dict] = {}
 
     for line in lines:
         stripped = line.strip()
@@ -36,10 +47,39 @@ def load_arxiv_source_config(path: Path = Path("config/sources.yaml")) -> dict:
         if indent == 2 and stripped.endswith(":"):
             in_arxiv = stripped == "arxiv:"
             collecting_categories = False
+            in_source_groups = False
+            current_group = None
             current_window = None
             continue
         if not in_arxiv:
             continue
+        if stripped == "source_groups:":
+            in_source_groups = True
+            collecting_categories = False
+            current_group = None
+            current_window = None
+            continue
+        if in_source_groups and indent == 6 and stripped.endswith(":"):
+            current_group = stripped[:-1]
+            source_groups[current_group] = {
+                "categories": [],
+                "max_results_per_window": int(config["max_results_per_window"]),
+                "target_min_daily": 0,
+            }
+            continue
+        if in_source_groups and indent == 8 and current_group and ":" in stripped:
+            key, raw_value = stripped.split(":", 1)
+            value = _parse_scalar(raw_value)
+            if key == "categories":
+                source_groups[current_group]["categories"] = list(value) if isinstance(value, list) else []
+            elif key in {"max_results_per_window", "target_min_daily"}:
+                source_groups[current_group][key] = int(value)
+            else:
+                source_groups[current_group][key] = value
+            continue
+        if in_source_groups and indent <= 4 and stripped:
+            in_source_groups = False
+            current_group = None
         if stripped == "categories:":
             collecting_categories = True
             current_window = None
@@ -60,6 +100,26 @@ def load_arxiv_source_config(path: Path = Path("config/sources.yaml")) -> dict:
 
     if categories:
         config["categories"] = categories
+    if source_groups:
+        for group in source_groups.values():
+            if not group.get("categories"):
+                group["categories"] = list(config["categories"])
+            group["max_results_per_window"] = int(
+                group.get("max_results_per_window", config["max_results_per_window"])
+            )
+            group["target_min_daily"] = int(group.get("target_min_daily", 0))
+        config["source_groups"] = source_groups
+        config["categories"] = sorted(
+            {category for group in source_groups.values() for category in group.get("categories", [])}
+        )
+    else:
+        config["source_groups"] = {
+            "default": {
+                "categories": list(config["categories"]),
+                "max_results_per_window": int(config["max_results_per_window"]),
+                "target_min_daily": 0,
+            }
+        }
     return config
 
 
@@ -125,6 +185,11 @@ def slugify(value: str) -> str:
 
 def _parse_scalar(value: str) -> object:
     value = value.strip()
+    if value.startswith("[") and value.endswith("]"):
+        inner = value[1:-1].strip()
+        if not inner:
+            return []
+        return [_parse_scalar(item.strip()) for item in inner.split(",")]
     if value.startswith('"') and value.endswith('"'):
         return value[1:-1]
     if value.startswith("'") and value.endswith("'"):

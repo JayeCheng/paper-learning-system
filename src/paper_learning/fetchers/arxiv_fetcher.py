@@ -15,6 +15,7 @@ def fetch_arxiv_candidates(
     *,
     categories: list[str] | None = None,
     source_type: str = "recent_24h",
+    source_group: str | None = None,
     window_days: int = 1,
     max_results: int = 40,
     now: datetime | None = None,
@@ -47,10 +48,16 @@ def fetch_arxiv_candidates(
     except OSError:
         return []
 
-    return _parse_arxiv_atom(payload, source_type=source_type, cutoff=cutoff)
+    return _parse_arxiv_atom(payload, source_type=source_type, source_group=source_group, cutoff=cutoff)
 
 
-def _parse_arxiv_atom(payload: bytes, *, source_type: str, cutoff: datetime) -> list[PaperCandidate]:
+def _parse_arxiv_atom(
+    payload: bytes,
+    *,
+    source_type: str,
+    cutoff: datetime,
+    source_group: str | None = None,
+) -> list[PaperCandidate]:
     root = ET.fromstring(payload)
     candidates: list[PaperCandidate] = []
     for entry in root.findall("atom:entry", ATOM_NS):
@@ -78,6 +85,7 @@ def _parse_arxiv_atom(payload: bytes, *, source_type: str, cutoff: datetime) -> 
                 categories=categories,
                 tags=categories,
                 source_type=source_type,
+                source_group=source_group,
                 identifiers={"arxiv_id": arxiv_id},
             )
         )

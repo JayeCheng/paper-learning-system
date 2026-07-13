@@ -6,7 +6,8 @@
     "json_path": "daily/2026/07/2026-07-13.json",
     "markdown_path": "daily/2026/07/2026-07-13.md",
     "paper_count": 6,
-    "s_level_paper_id": null
+    "s_level_paper_id": null,
+    "status": "success"
   },
-  "public_json_version": "0.1"
+  "public_json_version": "0.2"
 }

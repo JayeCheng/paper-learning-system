@@ -16,6 +16,7 @@ class PaperCandidate:
     categories: list[str]
     tags: list[str] = dataclass_field(default_factory=list)
     source_type: str = "recent_24h"
+    source_group: str | None = None
     identifiers: dict[str, str] = dataclass_field(default_factory=dict)
     field: str | None = None
     venue: str | None = None
@@ -36,6 +37,7 @@ class Paper:
     title_zh: str | None = None
     field: str | None = None
     source_type: str | None = None
+    source_group: str | None = None
     recommendation_level: str | None = None
     reading_advice: str | None = None
     code_url: str | None = None
@@ -72,7 +74,7 @@ class DailyReport:
     learning_route_position: str | None = None
     source_mode_summary: dict[str, int] = dataclass_field(default_factory=dict)
     s_level_paper_id: str | None = None
-    public_json_version: str = "0.1"
+    public_json_version: str = "0.2"
     generated_paths: dict[str, str] = dataclass_field(default_factory=dict)
     frontend_entry: str = "data/public/latest.json"
     s_level_candidate_ids: list[str] = dataclass_field(default_factory=list)
@@ -93,3 +95,6 @@ class ReadingStatus:
     priority: str = "medium"
     notes_path: str | None = None
     history: list[dict] = dataclass_field(default_factory=list)
+
+    def to_dict(self) -> dict:
+        return asdict(self)
