@@ -74,7 +74,7 @@ class DailyReport:
     learning_route_position: str | None = None
     source_mode_summary: dict[str, int] = dataclass_field(default_factory=dict)
     s_level_paper_id: str | None = None
-    public_json_version: str = "0.1"
+    public_json_version: str = "0.2"
     generated_paths: dict[str, str] = dataclass_field(default_factory=dict)
     frontend_entry: str = "data/public/latest.json"
     s_level_candidate_ids: list[str] = dataclass_field(default_factory=list)
