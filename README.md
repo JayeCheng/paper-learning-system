@@ -6,10 +6,11 @@ This repository is a long-lived, GitHub-first system for learning from research 
 It is designed to collect promising papers, rank them, turn them into durable reading
 artifacts, and expose machine-readable JSON for future integrations and web frontends.
 
-Version `v0.2` builds on the backend MVP with archive stability and topic-group
-fetching. It can run a daily paper radar, fetch recent arXiv metadata by configured
-topic groups, fall back to classic curriculum items, rank candidates with light
-group coverage, and maintain durable state plus derived public/export artifacts.
+Version `v0.3` builds on the stable backend loop with source enrichment. It can run
+a daily paper radar, fetch recent arXiv metadata by configured topic groups, add
+OpenReview and bioRxiv/medRxiv candidates, enrich metadata through Semantic Scholar
+when available, discover code/project links without cloning repositories, and
+maintain durable state plus derived public/export artifacts.
 
 ## Goals
 
@@ -82,13 +83,13 @@ scripts/           Thin command wrappers for scheduled or manual operations.
 ## Data Flow
 
 ```text
-fetchers -> normalize -> dedupe -> rank -> curriculum -> daily reports
-                                                    |
-                                                    v
-                                           data/state durable state
-                                                    |
-                                                    v
-                                      data/exports and data/public JSON
+fetchers -> normalize -> dedupe -> enrichment -> rank -> curriculum -> daily reports
+                                                                  |
+                                                                  v
+                                                         data/state durable state
+                                                                  |
+                                                                  v
+                                                    data/exports and data/public JSON
 ```
 
 Core rules:
@@ -108,11 +109,19 @@ uses UTC, so `06:10` SGT is scheduled as `22:10` UTC on the previous day:
 
 ## Current Status
 
-`v0.2` implements a stable backend loop:
+`v0.3` implements source enrichment on top of the stable backend loop:
 
 - arXiv metadata fetch for configured source groups and recent windows
+- OpenReview metadata fetch for configured venues such as ICLR, NeurIPS, ICML,
+  COLM, ACL, and EMNLP
+- bioRxiv/medRxiv metadata fetch filtered to neuroscience, cognitive science, and
+  behavior relevance
+- optional Semantic Scholar metadata enrichment before ranking, with API-key-free
+  degradation
+- code and project link discovery from fetched metadata without cloning repositories
 - classic curriculum fallback when recent candidates are insufficient
-- normalize, dedupe, rank, and cap to six daily papers with soft source-group coverage
+- normalize, dedupe, enrich, rank, and cap to six daily papers with soft source-group
+  coverage
 - at most one S-level paper per daily report
 - stable daily Markdown/JSON, durable state, public JSON indexes, and CSV/JSONL exports
 - durable `data/state/papers.jsonl`, `data/state/reading_status.json`, and
@@ -136,4 +145,4 @@ Not yet implemented:
 - PDF download or parsing
 - vector databases or semantic search
 - web frontend
-- OpenReview, bioRxiv, Semantic Scholar, or GitHub production fetchers
+- database-backed storage

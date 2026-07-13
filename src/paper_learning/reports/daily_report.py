@@ -8,7 +8,7 @@ from paper_learning.reports.json_renderer import render_daily_json
 from paper_learning.reports.markdown_renderer import render_daily_markdown
 from paper_learning.utils.time import today_string, utc_now_string
 
-PUBLIC_JSON_VERSION = "0.2"
+PUBLIC_JSON_VERSION = "0.3"
 
 
 def daily_report_paths(date: str, *, daily_root: Path = Path("daily")) -> tuple[Path, Path]:
@@ -31,7 +31,7 @@ def build_daily_report(
         generated_at=utc_now_string(),
         summary=summary or f"Selected {len(paper_list)} papers for the daily radar.",
         papers=paper_list,
-        learning_route_position="v0.2 archive stability and topic group fetching",
+        learning_route_position="v0.3 source enrichment",
         source_mode_summary=_source_mode_summary(paper_list),
         s_level_paper_id=s_level_id,
         public_json_version=PUBLIC_JSON_VERSION,

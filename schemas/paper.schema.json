@@ -66,7 +66,27 @@
       "type": ["integer", "null"],
       "minimum": 0
     },
+    "influential_citation_count": {
+      "type": ["integer", "null"],
+      "minimum": 0
+    },
     "venue": { "type": ["string", "null"] },
+    "fields_of_study": {
+      "type": "array",
+      "items": { "type": "string" },
+      "default": []
+    },
+    "external_ids": {
+      "type": "object",
+      "additionalProperties": { "type": "string" },
+      "default": {}
+    },
+    "open_access_pdf_url": { "type": ["string", "null"] },
+    "enrichment_sources": {
+      "type": "array",
+      "items": { "type": "string" },
+      "default": []
+    },
     "difficulty": {
       "type": ["string", "null"],
       "enum": ["low", "medium", "high", null]

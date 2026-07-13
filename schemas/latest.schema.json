@@ -6,7 +6,7 @@
   "required": ["public_json_version", "frontend_entry", "latest"],
   "additionalProperties": false,
   "properties": {
-    "public_json_version": { "type": "string", "default": "0.2" },
+    "public_json_version": { "type": "string", "default": "0.3" },
     "frontend_entry": { "type": "string" },
     "latest": {
       "type": ["object", "null"],

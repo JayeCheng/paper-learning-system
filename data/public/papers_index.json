@@ -1,708 +1,430 @@
 {
   "papers": [
     {
-      "abstract": "Blockchain systems are undergoing a fundamental transition from decentralized ledgers for digital assets to general-purpose trust infrastructures for verifiable computation, decentralized physical resources, and automated infrastructure management. Meanwhile, the limitations of the Blockchain as a Service (BaaS) model stem from a common structural problem: outsourcing control of infrastructure to third-party service providers inevitably involves a systemic surrender of trust, flexibility, and data sovereignty. RISC-V, with its open, modular, and extensible design, provides a general-purpose computing foundation for public blockchains that is open, low-level, compileable, verifiable, and scalable. Inspired by the development and characteristics of eSIM, the embedded Blockchain infrastructure management (eBIM) is defined as a software-hardware collaborative paradigm for blockchain infrastructure management with RISC-V. This study aims to provide a comprehensive survey on eBIM supporting research and technologies, to answer the following research questions (RQs): RQ1 What is eBIM? RQ2 How does eBIM work? RQ3 What can eBIM do? By introducing the concept of eBIM, this paper establishes a foundational reference for researchers, hardware architects, and protocol designers in this rapidly evolving landscape, including cryptographic acceleration, trusted execution environments, zero-knowledge virtual machines, and smart contract execution engines. The prospects of the proposed e-BIM and its future research directions are indicated in this paper.",
-      "authors": [
-        "Qinglin Yang",
-        "Yuan Liu",
-        "Yaoyao Zhang",
-        "Boya Wang",
-        "Zongjian You",
-        "Chunming Rong",
-        "Zhihong Tian"
-      ],
+      "abstract": "Required background for parallel architecture.",
+      "authors": [],
       "categories": [
-        "cs.CR",
-        "cs.AR"
+        "architecture"
       ],
       "citation_count": null,
-      "classic_status": null,
-      "code_url": null,
+      "classic_status": "candidate",
+      "code_url": "https://github.com/JayeCheng/paper-learning-system/blob/main/curriculum/architecture_classics.yaml",
       "difficulty": null,
-      "field": null,
-      "id": "arxiv:2607.07625v1",
-      "identifiers": {
-        "arxiv_id": "2607.07625v1"
-      },
+      "enrichment_sources": [],
+      "external_ids": {},
+      "field": "architecture",
+      "fields_of_study": [],
+      "id": "classic:architecture:cache-coherence-and-shared-memory-multiprocessors",
+      "identifiers": {},
+      "influential_citation_count": null,
       "institutions": [],
-      "pdf_url": "https://arxiv.org/pdf/2607.07625v1",
+      "open_access_pdf_url": null,
+      "pdf_url": null,
       "project_url": null,
-      "published_at": "2026-07-08",
-      "published_date": "2026-07-08",
+      "published_at": null,
+      "published_date": null,
       "reading_advice": "save_for_later",
       "reading_status": "backlog",
       "recommendation_level": "B",
-      "score": 0.732,
+      "score": 0.719,
       "scores": {
-        "classic_value": 0.35,
+        "classic_value": 1.0,
         "engineering_transferability": 0.8,
-        "recency": 0.78,
-        "source_quality": 0.78,
-        "total": 0.732,
+        "recency": 0.45,
+        "source_quality": 0.81,
+        "total": 0.719,
         "user_relevance": 0.75
       },
       "selected_for_s_level": false,
-      "source": "arxiv",
-      "source_type": "recent_7d",
-      "source_url": "http://arxiv.org/abs/2607.07625v1",
+      "source": "manual",
+      "source_group": "architecture",
+      "source_type": "classic",
+      "source_url": "https://github.com/JayeCheng/paper-learning-system/blob/main/curriculum/architecture_classics.yaml",
       "tags": [
-        "cs.CR",
-        "cs.AR"
+        "classic",
+        "architecture"
       ],
-      "title": "Embedded Blockchain Infrastructure Management (eBIM): A RISC-V-Empowered Hardware--Software Co-Design Framework Towards Trustworthy Blockchain",
+      "title": "Cache coherence and shared-memory multiprocessors",
       "title_zh": null,
       "topics": [
         "architecture"
       ],
-      "url": "http://arxiv.org/abs/2607.07625v1",
+      "url": "https://github.com/JayeCheng/paper-learning-system/blob/main/curriculum/architecture_classics.yaml",
       "venue": null,
-      "why_recommended": "Ranked by engineering transferability signal across configured topics."
+      "why_recommended": "Classic fallback with strong classic value signal."
     },
     {
-      "abstract": "FPGA architectures increasingly incorporate domain-specific in-fabric hardblocks to accelerate DL inference, particularly GEMM, which dominates DL computation. To realize the performance gains of these hardblocks, manual RTL design is required: the programmer must understand the hardblock microarchitecture, instantiate them in RTL, and manage tiling and control logic. While programming in C/C++ and using HLS tools has increased the abstraction level and productivity of FPGA engineers, HLS tools do not support code generation for custom hardblocks natively. Prior work has demonstrated that blackbox mechanisms in HLS tools can be used to target custom hardblocks, but this still requires explicit function calls in user-written HLS C and manual creation of RTL IP libraries, significant effort that must be repeated for every layer in a DL model. Furthermore, for DL, an even high-level programming interface, e.g., Pytorch/Keras instead of C/C++, is desirable for improved programmability and user adoption. We present ATLAS, a fully automated flow from a high-level DL model description to a hardware implementation on an FPGA with custom in-fabric DL-optimized hardblocks, requiring no manual RTL design or explicit hardblock instantiation from the end user. Our approach uses GEMM as a universal abstraction layer and comprises two components: (1) hls4ml-GEMM, a compiler frontend that transforms DL layers into HLS C code with architecture-agnostic GEMM function calls, and (2) a GEMM IP Generator, an architecture-aware backend that produces hardblock-based RTL wrappers with tiling logic, control FSMs, and scheduling metadata. We evaluate the flow across 11 DL designs, including individual fully connected, convolution, and attention layers, as well as full CNN, MLP, and Transformer models targeting an FPGA architecture with Tensor Slices using Catapult for HLS and VTR for implementation.",
-      "authors": [
-        "Ruthwik Reddy Sunketa",
-        "Aman Arora"
-      ],
+      "abstract": "Core lens for system performance.",
+      "authors": [],
       "categories": [
-        "cs.AR"
+        "architecture"
       ],
       "citation_count": null,
-      "classic_status": null,
-      "code_url": null,
+      "classic_status": "candidate",
+      "code_url": "https://github.com/JayeCheng/paper-learning-system/blob/main/curriculum/architecture_classics.yaml",
       "difficulty": null,
-      "field": null,
-      "id": "arxiv:2607.07643v1",
-      "identifiers": {
-        "arxiv_id": "2607.07643v1"
-      },
+      "enrichment_sources": [],
+      "external_ids": {},
+      "field": "architecture",
+      "fields_of_study": [],
+      "id": "classic:architecture:the-memory-hierarchy-and-locality",
+      "identifiers": {},
+      "influential_citation_count": null,
       "institutions": [],
-      "pdf_url": "https://arxiv.org/pdf/2607.07643v1",
+      "open_access_pdf_url": null,
+      "pdf_url": null,
       "project_url": null,
-      "published_at": "2026-07-08",
-      "published_date": "2026-07-08",
+      "published_at": null,
+      "published_date": null,
       "reading_advice": "save_for_later",
       "reading_status": "backlog",
       "recommendation_level": "B",
-      "score": 0.732,
+      "score": 0.719,
       "scores": {
-        "classic_value": 0.35,
+        "classic_value": 1.0,
         "engineering_transferability": 0.8,
-        "recency": 0.78,
-        "source_quality": 0.78,
-        "total": 0.732,
+        "recency": 0.45,
+        "source_quality": 0.81,
+        "total": 0.719,
         "user_relevance": 0.75
       },
       "selected_for_s_level": false,
-      "source": "arxiv",
-      "source_type": "recent_7d",
-      "source_url": "http://arxiv.org/abs/2607.07643v1",
+      "source": "manual",
+      "source_group": "architecture",
+      "source_type": "classic",
+      "source_url": "https://github.com/JayeCheng/paper-learning-system/blob/main/curriculum/architecture_classics.yaml",
       "tags": [
-        "cs.AR"
+        "classic",
+        "architecture"
       ],
-      "title": "ATLAS: Automated HLS for DL-Optimized FPGAs",
+      "title": "The memory hierarchy and locality",
       "title_zh": null,
       "topics": [
         "architecture"
       ],
-      "url": "http://arxiv.org/abs/2607.07643v1",
+      "url": "https://github.com/JayeCheng/paper-learning-system/blob/main/curriculum/architecture_classics.yaml",
       "venue": null,
-      "why_recommended": "Ranked by engineering transferability signal across configured topics."
+      "why_recommended": "Classic fallback with strong classic value signal."
     },
     {
-      "abstract": "We present recent performance-oriented developments in WaterLily.jl, a scale-resolving incompressible flow solver written in pure Julia that runs seamlessly on CPUs and GPUs of any vendor. Supported by the newly added MPI-based parallelism, strong-scalability tests display a near-ideal linear trend, and weak-scaling efficiency is kept above 85\\% before node memory-concurrency contention dominates parallel performance. Inter-node weak scalability is sustained above 96\\% with grid size up to 1 billion cells. We further benchmark improvements to the geometric multigrid Poisson solver enabled by an adaptive under-relaxed red-black Gauss--Seidel smoother together with anisotropic coarsening operators.",
-      "authors": [
-        "Bernat Font",
-        "Marin Lauber",
-        "Tzu-Yao Huang",
-        "Gabriel D. Weymouth"
-      ],
+      "abstract": "Useful background for reasoning about learning and agent interfaces.",
+      "authors": [],
       "categories": [
-        "physics.comp-ph",
-        "cs.DC",
-        "physics.flu-dyn"
+        "cognition"
       ],
       "citation_count": null,
-      "classic_status": null,
+      "classic_status": "candidate",
       "code_url": null,
       "difficulty": null,
-      "field": null,
-      "id": "arxiv:2607.07687v1",
-      "identifiers": {
-        "arxiv_id": "2607.07687v1"
-      },
+      "enrichment_sources": [],
+      "external_ids": {},
+      "field": "cognition",
+      "fields_of_study": [],
+      "id": "classic:cognition:attention-and-working-memory",
+      "identifiers": {},
+      "influential_citation_count": null,
       "institutions": [],
-      "pdf_url": "https://arxiv.org/pdf/2607.07687v1",
+      "open_access_pdf_url": null,
+      "pdf_url": null,
       "project_url": null,
-      "published_at": "2026-07-08",
-      "published_date": "2026-07-08",
+      "published_at": null,
+      "published_date": null,
       "reading_advice": "save_for_later",
       "reading_status": "backlog",
       "recommendation_level": "B",
-      "score": 0.732,
+      "score": 0.61,
       "scores": {
-        "classic_value": 0.35,
-        "engineering_transferability": 0.8,
-        "recency": 0.78,
-        "source_quality": 0.78,
-        "total": 0.732,
-        "user_relevance": 0.75
-      },
-      "selected_for_s_level": false,
-      "source": "arxiv",
-      "source_type": "recent_7d",
-      "source_url": "http://arxiv.org/abs/2607.07687v1",
-      "tags": [
-        "physics.comp-ph",
-        "cs.DC",
-        "physics.flu-dyn"
-      ],
-      "title": "Scaling WaterLily.jl with MPI and an improved geometric multigrid solver",
-      "title_zh": null,
-      "topics": [
-        "architecture"
-      ],
-      "url": "http://arxiv.org/abs/2607.07687v1",
-      "venue": null,
-      "why_recommended": "Ranked by engineering transferability signal across configured topics."
-    },
-    {
-      "abstract": "The quadratic cost of causal self-attention severely bottlenecks long-context transformer inference. While numerous post hoc linearization pipelines exist, it is difficult to identify which components preserve model quality. This work isolates the effect of state update design in a strict frozen-backbone regime. We show that softmax relies on key-dependent, rank-1 orthogonal projections, elucidating why delta-style networks outperform purely gated accumulation. We identify a potential source of approximation errors and introduce structural interventions, specifically sink tokens, short convolutions, and fixed-budget cache routing, which reduces the remaining gap. We scale this linearization approach across LLaMA and Qwen models up to 32B parameters, outperforming prior post hoc baselines on MMLU and matching the long-context retrieval of complex adaptive-caching frameworks.",
-      "authors": [
-        "Anna Kuzina",
-        "Paul N. Whatmough",
-        "Babak Ehteshami Bejnordi"
-      ],
-      "categories": [
-        "cs.LG"
-      ],
-      "citation_count": null,
-      "classic_status": null,
-      "code_url": null,
-      "difficulty": null,
-      "field": null,
-      "id": "arxiv:2607.07706v1",
-      "identifiers": {
-        "arxiv_id": "2607.07706v1"
-      },
-      "institutions": [],
-      "pdf_url": "https://arxiv.org/pdf/2607.07706v1",
-      "project_url": null,
-      "published_at": "2026-07-08",
-      "published_date": "2026-07-08",
-      "reading_advice": "save_for_later",
-      "reading_status": "backlog",
-      "recommendation_level": "B",
-      "score": 0.662,
-      "scores": {
-        "classic_value": 0.35,
+        "classic_value": 1.0,
         "engineering_transferability": 0.45,
-        "recency": 0.78,
-        "source_quality": 0.78,
-        "total": 0.662,
+        "recency": 0.45,
+        "source_quality": 0.55,
+        "total": 0.61,
         "user_relevance": 0.75
       },
       "selected_for_s_level": false,
-      "source": "arxiv",
-      "source_type": "recent_7d",
-      "source_url": "http://arxiv.org/abs/2607.07706v1",
+      "source": "manual",
+      "source_group": "cognition",
+      "source_type": "classic",
+      "source_url": "https://github.com/JayeCheng/paper-learning-system/blob/main/curriculum/cognition_classics.yaml",
       "tags": [
-        "cs.LG"
+        "classic",
+        "cognition"
       ],
-      "title": "The Key to Going Linear: Analysis-Driven Transformer Linearization",
+      "title": "Attention and working memory",
       "title_zh": null,
       "topics": [
-        "llm_agent"
+        "uncategorized"
       ],
-      "url": "http://arxiv.org/abs/2607.07706v1",
+      "url": "https://github.com/JayeCheng/paper-learning-system/blob/main/curriculum/cognition_classics.yaml",
       "venue": null,
-      "why_recommended": "Ranked by recency signal across configured topics."
+      "why_recommended": "Classic fallback with strong classic value signal."
     },
     {
-      "abstract": "Limited memory language models (LMLMs) externalize factual knowledge during pretraining to a knowledge base (KB), rather than memorizing it in their weights. During generation, the model then fetches knowledge from the KB as needed. This recently introduced paradigm provides multiple advantages, including knowledge control capabilities that remain beyond conventional LLMs. We propose continuous-query LMLM (CO-LMLM), where the KB pairs continuous keys with textual knowledge values, a significant departure from prior reliance on relational KB and queries. CO-LMLM generates flexible vector queries at minimal cost, while still integrating human-readable and attributable retrieved knowledge into its generation. We pair this design with an annotation pipeline that tags free-form factual spans in arbitrary text, removing prior work's restriction to Wikipedia. Across pretraining on Wikipedia and FineWeb-Edu and at multiple model scales, CO-LMLM outperforms prior LMLMs and vanilla LLMs in both perplexity and factual precision. At 360M scale, this includes lower perplexity than models pretrained on 40x more data, and SimpleQA-verified performance that is in line with gpt-4o-mini and higher than Claude Sonnet 4.5.",
-      "authors": [
-        "Yair Feldman",
-        "Linxi Zhao",
-        "Nathan Godey",
-        "Dongyoung Go",
-        "Yilun Hua",
-        "Kilian Q. Weinberger",
-        "Jennifer J. Sun",
-        "Yoav Artzi"
-      ],
+      "abstract": "Connects cognitive and behavioral science to system evaluation.",
+      "authors": [],
       "categories": [
-        "cs.CL",
-        "cs.AI",
-        "cs.LG"
+        "cognition"
       ],
       "citation_count": null,
-      "classic_status": null,
+      "classic_status": "candidate",
       "code_url": null,
       "difficulty": null,
-      "field": null,
-      "id": "arxiv:2607.07707v1",
-      "identifiers": {
-        "arxiv_id": "2607.07707v1"
-      },
+      "enrichment_sources": [],
+      "external_ids": {},
+      "field": "cognition",
+      "fields_of_study": [],
+      "id": "classic:cognition:judgment-and-decision-making",
+      "identifiers": {},
+      "influential_citation_count": null,
       "institutions": [],
-      "pdf_url": "https://arxiv.org/pdf/2607.07707v1",
+      "open_access_pdf_url": null,
+      "pdf_url": null,
       "project_url": null,
-      "published_at": "2026-07-08",
-      "published_date": "2026-07-08",
+      "published_at": null,
+      "published_date": null,
       "reading_advice": "save_for_later",
       "reading_status": "backlog",
       "recommendation_level": "B",
-      "score": 0.662,
+      "score": 0.61,
       "scores": {
-        "classic_value": 0.35,
+        "classic_value": 1.0,
         "engineering_transferability": 0.45,
-        "recency": 0.78,
-        "source_quality": 0.78,
-        "total": 0.662,
+        "recency": 0.45,
+        "source_quality": 0.55,
+        "total": 0.61,
         "user_relevance": 0.75
       },
       "selected_for_s_level": false,
-      "source": "arxiv",
-      "source_type": "recent_7d",
-      "source_url": "http://arxiv.org/abs/2607.07707v1",
+      "source": "manual",
+      "source_group": "cognition",
+      "source_type": "classic",
+      "source_url": "https://github.com/JayeCheng/paper-learning-system/blob/main/curriculum/cognition_classics.yaml",
       "tags": [
-        "cs.CL",
-        "cs.AI",
-        "cs.LG"
+        "classic",
+        "cognition"
       ],
-      "title": "Co-LMLM: Continuous-Query Limited Memory Language Models",
+      "title": "Judgment and decision making",
       "title_zh": null,
       "topics": [
-        "llm_agent"
+        "uncategorized"
       ],
-      "url": "http://arxiv.org/abs/2607.07707v1",
+      "url": "https://github.com/JayeCheng/paper-learning-system/blob/main/curriculum/cognition_classics.yaml",
       "venue": null,
-      "why_recommended": "Ranked by recency signal across configured topics."
+      "why_recommended": "Classic fallback with strong classic value signal."
     },
     {
-      "abstract": "Structure-property relationships are foundational to biology, chemistry and materials science, where function, reactivity and physical response emerge from spatial, chemical and periodic organization. Mechanistically explaining these relationships requires interpreting structural evidence through scientific principles and physical constraints, from stereochemistry and bonding to symmetry, energetics and periodic order. However, applying artificial intelligence to this process presents a joint challenge of representation and reasoning: models must preserve domain-native structural information while showing how specific evidence supports predictions under these constraints. Here we introduce SciReasoner, a multimodal scientific foundation model for native structural reasoning across proteins, small molecules and inorganic crystals. SciReasoner discretizes coordinates, topologies and periodic connectivities into a unified structure-aware vocabulary, treating structural tokens as addressable evidence units during reasoning. In homology-controlled Gene Ontology prediction, SciReasoner improves Cellular Component annotation for low-homology and orphan-like proteins, increasing $F_{\\max}$ from 0.42 to 0.55. In chemistry, it raises single-step retrosynthesis accuracy from 0.63 to 0.72 while generating fragment-level disconnection and precursor-verification traces. In materials science, its representations separate elemental and compound phases and resolve high- and low-band-gap regimes. Across 86 benchmarks, SciReasoner achieves state-of-the-art performance on 67 tasks. Double-blind expert evaluation rates its reasoning traces as preferred or at least comparable to those of a frontier large language model in 98% of cases. By making structure an inspectable substrate for reasoning under scientific constraints, SciReasoner connects accurate prediction with interpretable scientific inference.",
-      "authors": [
-        "Chen Tang",
-        "Yizhou Wang",
-        "Jianyu Wu",
-        "Lintao Wang",
-        "Shixiang Tang",
-        "Pengze Li",
-        "Encheng Su",
-        "Jun Yao",
-        "Jiabei Xiao",
-        "Yuqi Shi",
-        "Jielan Li",
-        "Hongxia Hao",
-        "Zhangyang Gao",
-        "Fang Wu",
-        "Ben Fei",
-        "Xiangyu Yue",
-        "Pan Tan",
-        "Bozitao Zhong",
-        "Jinouwen Zhang",
-        "Aoran Wang",
-        "Yan Lu",
-        "Jiaheng Liu",
-        "Xinzhu Ma",
-        "Liang Hong",
-        "Mingyue Zheng",
-        "Phil Torr",
-        "Bowen Zhou",
-        "Wanli Ouyang",
-        "Lei Bai"
-      ],
+      "abstract": "Foundational mental model for modern rendering systems.",
+      "authors": [],
       "categories": [
-        "cs.CL",
-        "cs.AI",
-        "cs.CE",
-        "cs.LG"
+        "gpu_graphics"
       ],
       "citation_count": null,
-      "classic_status": null,
-      "code_url": null,
+      "classic_status": "candidate",
+      "code_url": "https://github.com/JayeCheng/paper-learning-system/blob/main/curriculum/gpu_graphics_classics.yaml",
       "difficulty": null,
-      "field": null,
-      "id": "arxiv:2607.07708v1",
-      "identifiers": {
-        "arxiv_id": "2607.07708v1"
-      },
+      "enrichment_sources": [],
+      "external_ids": {},
+      "field": "gpu_graphics",
+      "fields_of_study": [],
+      "id": "classic:gpu_graphics:a-trip-through-the-graphics-pipeline",
+      "identifiers": {},
+      "influential_citation_count": null,
       "institutions": [],
-      "pdf_url": "https://arxiv.org/pdf/2607.07708v1",
+      "open_access_pdf_url": null,
+      "pdf_url": null,
       "project_url": null,
-      "published_at": "2026-07-08",
-      "published_date": "2026-07-08",
+      "published_at": null,
+      "published_date": null,
       "reading_advice": "save_for_later",
       "reading_status": "backlog",
       "recommendation_level": "B",
-      "score": 0.662,
+      "score": 0.719,
       "scores": {
-        "classic_value": 0.35,
-        "engineering_transferability": 0.45,
-        "recency": 0.78,
-        "source_quality": 0.78,
-        "total": 0.662,
-        "user_relevance": 0.75
-      },
-      "selected_for_s_level": false,
-      "source": "arxiv",
-      "source_type": "recent_7d",
-      "source_url": "http://arxiv.org/abs/2607.07708v1",
-      "tags": [
-        "cs.CL",
-        "cs.AI",
-        "cs.CE",
-        "cs.LG"
-      ],
-      "title": "Accurate, Interdisciplinary and Transparent Structure-property Understanding with Deep Native Structural Reasoning",
-      "title_zh": null,
-      "topics": [
-        "llm_agent"
-      ],
-      "url": "http://arxiv.org/abs/2607.07708v1",
-      "venue": null,
-      "why_recommended": "Ranked by recency signal across configured topics."
-    },
-    {
-      "abstract": "Repository-level code generation requires implementing target functions while accounting for complex cross-file dependencies and project-specific conventions. Existing retrieval methods predominantly rely on lexical, structural, or semantic similarity, often overlooking repository functions that implement similar procedural logic despite differing in identifiers or application domains. We propose ProjAgent, a repository-level code generation system that introduces procedural similarity as an explicit retrieval signal. ProjAgent decomposes the target function into intermediate reasoning steps and employs an agentic workflow to retrieve repository functions that exhibit similar procedural behavior at each step. The retrieved procedural context is integrated with conventional semantic retrieval to construct a richer repository context for code generation. ProjAgent further incorporates a conservative static-analysis feedback loop that iteratively repairs generated code using compiler and static-analysis feedback. Evaluated on REPOCOD, ProjAgent achieves 41.14% Pass@1, outperforming existing retrieval-based baselines. These results demonstrate that procedural similarity is an effective and previously unexplored retrieval dimension for repository-level code generation.",
-      "authors": [
-        "QiHong Chen",
-        "Aaron Imani",
-        "Iftekhar Ahmed"
-      ],
-      "categories": [
-        "cs.SE",
-        "cs.AI",
-        "cs.IR"
-      ],
-      "citation_count": null,
-      "classic_status": null,
-      "code_url": null,
-      "difficulty": null,
-      "field": null,
-      "id": "arxiv:2607.08691v1",
-      "identifiers": {
-        "arxiv_id": "2607.08691v1"
-      },
-      "institutions": [],
-      "pdf_url": "https://arxiv.org/pdf/2607.08691v1",
-      "project_url": null,
-      "published_at": "2026-07-09",
-      "published_date": "2026-07-09",
-      "reading_advice": "save_for_later",
-      "reading_status": "backlog",
-      "recommendation_level": "B",
-      "score": 0.732,
-      "scores": {
-        "classic_value": 0.35,
+        "classic_value": 1.0,
         "engineering_transferability": 0.8,
-        "recency": 0.78,
-        "source_quality": 0.78,
-        "total": 0.732,
+        "recency": 0.45,
+        "source_quality": 0.81,
+        "total": 0.719,
         "user_relevance": 0.75
       },
       "selected_for_s_level": false,
-      "source": "arxiv",
-      "source_type": "recent_7d",
-      "source_url": "http://arxiv.org/abs/2607.08691v1",
+      "source": "manual",
+      "source_group": "gpu_graphics",
+      "source_type": "classic",
+      "source_url": "https://github.com/JayeCheng/paper-learning-system/blob/main/curriculum/gpu_graphics_classics.yaml",
       "tags": [
-        "cs.SE",
-        "cs.AI",
-        "cs.IR"
+        "classic",
+        "gpu_graphics"
       ],
-      "title": "ProjAgent: Procedural Similarity Retrieval for Repository-Level Code Generation",
-      "title_zh": null,
-      "topics": [
-        "llm_agent"
-      ],
-      "url": "http://arxiv.org/abs/2607.08691v1",
-      "venue": null,
-      "why_recommended": "Ranked by engineering transferability signal across configured topics."
-    },
-    {
-      "abstract": "Large language model (LLM) applications increasingly use explicit workflows for tool use, retrieval, branching, checkpointing, and human approval. Existing workflow systems already address many execution concerns. This paper proposes a Lisp-inspired but language-independent conceptual model: symbolic forms, object identity, and live-image thinking are used as explanatory lenses, not implementation commitments. In this model, workflow definitions, workflow instances, inference records, context snapshots, and dependency relations are represented as persistent knowledge objects in a shared knowledge substrate. Its central semantic distinction is between derive and infer: derive is deterministic computation over available state; infer is mediated LLM judgment under declared context and executor-controlled capability policy. The result is a preliminary conceptual account of semantic persistence: workflows do not merely produce knowledge and leave traces, but can themselves be represented as inspectable, resumable, and reviewable knowledge objects, while formal transition semantics remain future work.",
-      "authors": [
-        "Emanuele Quinto",
-        "Carlo Andrea Rozzi",
-        "Francesco Zanitti"
-      ],
-      "categories": [
-        "cs.AI",
-        "cs.PL",
-        "cs.SE"
-      ],
-      "citation_count": null,
-      "classic_status": null,
-      "code_url": null,
-      "difficulty": null,
-      "field": null,
-      "id": "arxiv:2607.08740v1",
-      "identifiers": {
-        "arxiv_id": "2607.08740v1"
-      },
-      "institutions": [],
-      "pdf_url": "https://arxiv.org/pdf/2607.08740v1",
-      "project_url": null,
-      "published_at": "2026-07-09",
-      "published_date": "2026-07-09",
-      "reading_advice": "save_for_later",
-      "reading_status": "backlog",
-      "recommendation_level": "B",
-      "score": 0.732,
-      "scores": {
-        "classic_value": 0.35,
-        "engineering_transferability": 0.8,
-        "recency": 0.78,
-        "source_quality": 0.78,
-        "total": 0.732,
-        "user_relevance": 0.75
-      },
-      "selected_for_s_level": false,
-      "source": "arxiv",
-      "source_type": "recent_7d",
-      "source_url": "http://arxiv.org/abs/2607.08740v1",
-      "tags": [
-        "cs.AI",
-        "cs.PL",
-        "cs.SE"
-      ],
-      "title": "Workflow as Knowledge: Semantic Persistence for LLM-Mediated Workflows",
-      "title_zh": null,
-      "topics": [
-        "llm_agent"
-      ],
-      "url": "http://arxiv.org/abs/2607.08740v1",
-      "venue": null,
-      "why_recommended": "Ranked by engineering transferability signal across configured topics."
-    },
-    {
-      "abstract": "Generating realistic 3D human motions in real-time within interactive applications is key for animation, simulation, and humanoid robotics. While recent offline motion generation approaches offer precise control via text and kinematic constraints, they lack the inference speed required for interactive settings. Conversely, existing online methods enable real-time synthesis but often sacrifice controllability or struggle with complex text semantics and long-horizon goals due to limited context windows. In this work, we introduce ARDY, a streaming generation framework that bridges this gap by enabling high-fidelity motion generation controllable via online text prompts and flexible kinematic constraints. ARDY employs a hybrid representation that combines explicit root features with a latent body embedding, balancing precise trajectory control with efficient generative learning. We propose a two-stage autoregressive transformer denoiser that features variable history context and supports conditioning on flexible, long-horizon kinematic constraints. By training on a large-scale motion capture dataset and being directly conditioned on text labels and kinematic constraints sampled from ground truth poses, ARDY natively learns controllable generation that supports online prompting and flexible long-horizon goals. Extensive evaluations on the HumanML3D benchmark and the large-scale, high-fidelity Bones Rigplay dataset demonstrate ARDY's high motion quality and constraint adherence, validating the efficacy of our key architectural decisions. Finally, we demonstrate the method's practical versatility through an interactive demo featuring dynamic text control, diverse keyframe pose constraints, path following, and interactive locomotion control via mouse and keyboard. Supplementary video results, code, and model releases can be found at https://research.nvidia.com/labs/sil/projects/ardy/.",
-      "authors": [
-        "Kaifeng Zhao",
-        "Mathis Petrovich",
-        "Haotian Zhang",
-        "Tingwu Wang",
-        "Siyu Tang",
-        "Davis Rempe"
-      ],
-      "categories": [
-        "cs.GR",
-        "cs.CV",
-        "cs.LG",
-        "cs.RO"
-      ],
-      "citation_count": null,
-      "classic_status": null,
-      "code_url": null,
-      "difficulty": null,
-      "field": null,
-      "id": "arxiv:2607.08741v1",
-      "identifiers": {
-        "arxiv_id": "2607.08741v1"
-      },
-      "institutions": [],
-      "pdf_url": "https://arxiv.org/pdf/2607.08741v1",
-      "project_url": null,
-      "published_at": "2026-07-09",
-      "published_date": "2026-07-09",
-      "reading_advice": "save_for_later",
-      "reading_status": "backlog",
-      "recommendation_level": "B",
-      "score": 0.732,
-      "scores": {
-        "classic_value": 0.35,
-        "engineering_transferability": 0.8,
-        "recency": 0.78,
-        "source_quality": 0.78,
-        "total": 0.732,
-        "user_relevance": 0.75
-      },
-      "selected_for_s_level": false,
-      "source": "arxiv",
-      "source_type": "recent_7d",
-      "source_url": "http://arxiv.org/abs/2607.08741v1",
-      "tags": [
-        "cs.GR",
-        "cs.CV",
-        "cs.LG",
-        "cs.RO"
-      ],
-      "title": "ARDY: Autoregressive Diffusion with Hybrid Representation for Interactive Human Motion Generation",
-      "title_zh": null,
-      "topics": [
-        "gpu_graphics",
-        "llm_agent"
-      ],
-      "url": "http://arxiv.org/abs/2607.08741v1",
-      "venue": null,
-      "why_recommended": "Ranked by engineering transferability signal across configured topics."
-    },
-    {
-      "abstract": "Recovering high-quality video from sparse event streams is a challenging task. Regression methods often blur textures, while existing generative models struggle with long-term stability. We propose LongE2V, a novel approach that leverages pre-trained video diffusion priors to jointly handle event-based video reconstruction, prediction, and frame interpolation. By fine-tuning a foundational video model, our approach achieves high data efficiency and superior perceptual quality. We introduce Autoregressive Unrolling and Adaptive Context Switching to mitigate temporal drift in extremely long sequences. We also propose Reencoding Alignment with Cross Residual Correction to ensure precise bidirectional consistency during frame interpolation. Furthermore, Event Voxel Density Augmentation ensures robustness across varying sensor resolutions. Extensive experiments on real-world benchmarks demonstrate that LongE2V outperforms state-of-the-art methods across all three tasks, exhibiting exceptional temporal coherence and zero-shot generalization. Project page: https://cdfan0627.github.io/LongE2V-page/",
-      "authors": [
-        "Cheng-De Fan",
-        "Chun-Wei Tuan Mu",
-        "Chen-Wei Chang",
-        "Chin-Yang Lin",
-        "Kun-Ru Wu",
-        "Yu-Chee Tseng",
-        "Yu-Lun Liu"
-      ],
-      "categories": [
-        "cs.CV"
-      ],
-      "citation_count": null,
-      "classic_status": null,
-      "code_url": null,
-      "difficulty": null,
-      "field": null,
-      "id": "arxiv:2607.08770v1",
-      "identifiers": {
-        "arxiv_id": "2607.08770v1"
-      },
-      "institutions": [],
-      "pdf_url": "https://arxiv.org/pdf/2607.08770v1",
-      "project_url": null,
-      "published_at": "2026-07-09",
-      "published_date": "2026-07-09",
-      "reading_advice": "save_for_later",
-      "reading_status": "backlog",
-      "recommendation_level": "B",
-      "score": 0.662,
-      "scores": {
-        "classic_value": 0.35,
-        "engineering_transferability": 0.45,
-        "recency": 0.78,
-        "source_quality": 0.78,
-        "total": 0.662,
-        "user_relevance": 0.75
-      },
-      "selected_for_s_level": false,
-      "source": "arxiv",
-      "source_type": "recent_7d",
-      "source_url": "http://arxiv.org/abs/2607.08770v1",
-      "tags": [
-        "cs.CV"
-      ],
-      "title": "LongE2V: Long-Horizon Event-based Video Reconstruction, Prediction, and Frame Interpolation with Video Diffusion Models",
+      "title": "A trip through the graphics pipeline",
       "title_zh": null,
       "topics": [
         "gpu_graphics"
       ],
-      "url": "http://arxiv.org/abs/2607.08770v1",
+      "url": "https://github.com/JayeCheng/paper-learning-system/blob/main/curriculum/gpu_graphics_classics.yaml",
       "venue": null,
-      "why_recommended": "Ranked by recency signal across configured topics."
+      "why_recommended": "Classic fallback with strong classic value signal."
     },
     {
-      "abstract": "Monocular depth estimation has seen remarkable progress through foundation models achieving robust zero-shot generalization, yet their computational demands place them far beyond the reach of embedded and mobile platforms. Lightweight alternatives exist, but have been developed almost exclusively within single-domain, self-supervised paradigms, failing silently under domain shift. We present ZipDepth, a compact monocular depth network that bridges this gap by combining an efficient reparameterizable encoder-decoder with large-scale knowledge distillation from a foundation model over a large multi-domain training set. Comprising just 6.1M parameters, ZipDepth runs at real-time rates from server GPUs to power-constrained devices, achieving the best trade-off between zero-shot accuracy and deployment efficiency among lightweight models across five benchmarks, taking a significant step towards the accuracy of foundation models with 50x more parameters.",
-      "authors": [
-        "Fabio Tosi",
-        "Luca Bartolomei",
-        "Matteo Poggi",
-        "Stefano Mattoccia"
-      ],
+      "abstract": "Bridges algorithms, hardware, and real-time constraints.",
+      "authors": [],
       "categories": [
-        "cs.CV"
+        "gpu_graphics"
       ],
       "citation_count": null,
-      "classic_status": null,
-      "code_url": null,
+      "classic_status": "candidate",
+      "code_url": "https://github.com/JayeCheng/paper-learning-system/blob/main/curriculum/gpu_graphics_classics.yaml",
       "difficulty": null,
-      "field": null,
-      "id": "arxiv:2607.08771v1",
-      "identifiers": {
-        "arxiv_id": "2607.08771v1"
-      },
+      "enrichment_sources": [],
+      "external_ids": {},
+      "field": "gpu_graphics",
+      "fields_of_study": [],
+      "id": "classic:gpu_graphics:ray-tracing-architectures-and-acceleration-structures",
+      "identifiers": {},
+      "influential_citation_count": null,
       "institutions": [],
-      "pdf_url": "https://arxiv.org/pdf/2607.08771v1",
+      "open_access_pdf_url": null,
+      "pdf_url": null,
       "project_url": null,
-      "published_at": "2026-07-09",
-      "published_date": "2026-07-09",
+      "published_at": null,
+      "published_date": null,
       "reading_advice": "save_for_later",
       "reading_status": "backlog",
       "recommendation_level": "B",
-      "score": 0.662,
+      "score": 0.719,
       "scores": {
-        "classic_value": 0.35,
-        "engineering_transferability": 0.45,
-        "recency": 0.78,
-        "source_quality": 0.78,
-        "total": 0.662,
+        "classic_value": 1.0,
+        "engineering_transferability": 0.8,
+        "recency": 0.45,
+        "source_quality": 0.81,
+        "total": 0.719,
         "user_relevance": 0.75
       },
       "selected_for_s_level": false,
-      "source": "arxiv",
-      "source_type": "recent_7d",
-      "source_url": "http://arxiv.org/abs/2607.08771v1",
+      "source": "manual",
+      "source_group": "gpu_graphics",
+      "source_type": "classic",
+      "source_url": "https://github.com/JayeCheng/paper-learning-system/blob/main/curriculum/gpu_graphics_classics.yaml",
       "tags": [
-        "cs.CV"
+        "classic",
+        "gpu_graphics"
       ],
-      "title": "ZipDepth: Bringing Lightweight Zero-Shot Monocular Depth Anywhere, on Any Device",
+      "title": "Ray tracing architectures and acceleration structures",
       "title_zh": null,
       "topics": [
         "gpu_graphics"
       ],
-      "url": "http://arxiv.org/abs/2607.08771v1",
+      "url": "https://github.com/JayeCheng/paper-learning-system/blob/main/curriculum/gpu_graphics_classics.yaml",
       "venue": null,
-      "why_recommended": "Ranked by recency signal across configured topics."
+      "why_recommended": "Classic fallback with strong classic value signal."
     },
     {
-      "abstract": "Estimating 3D geometry in underwater environments presents unique challenges due to light attenuation, scattering, and the absence of large-scale, high-quality 3D annotations. Pioneering methods rely on massive dense annotations that are impractical in underwater settings. In this paper, we propose Wat3R, a cross-domain semi-supervised learning framework designed to adapt feed-forward 3D reconstruction models from air to underwater scenes. Uniquely, our method eliminates the need for any annotated underwater data following a teacher-student architecture, that learns robust geometry representations merely on abundant unlabeled real underwater video footage. We also design a cross-view consistency loss that leverages geometric cues from other views to compensate for the information degradation in the current view caused by water attenuation and scattering. Furthermore, considering the lack of comprehensive evaluation benchmarks, we construct Water3D, a diverse dataset covering various water bodies and underwater scenarios, designed for geometric task evaluation. Experimental results demonstrate that Wat3R outperforms current state-of-the-art methods in underwater multi-view depth estimation and point cloud reconstruction. The dataset and code are available at https://github.com/LSXI7/Wat3R .",
-      "authors": [
-        "Jiangwei Ren",
-        "Xingyu Jiang",
-        "Zijie Song",
-        "Wei Xu",
-        "Hongkai Lin",
-        "Dingkang Liang",
-        "Xiang Bai"
-      ],
+      "abstract": "Anchor concept for knowledge-grounded LLM systems.",
+      "authors": [],
       "categories": [
-        "cs.CV"
+        "llm_agent"
       ],
       "citation_count": null,
-      "classic_status": null,
-      "code_url": null,
+      "classic_status": "candidate",
+      "code_url": "https://github.com/JayeCheng/paper-learning-system/blob/main/curriculum/llm_agent_classics.yaml",
       "difficulty": null,
-      "field": null,
-      "id": "arxiv:2607.08772v1",
-      "identifiers": {
-        "arxiv_id": "2607.08772v1"
-      },
+      "enrichment_sources": [],
+      "external_ids": {},
+      "field": "llm_agent",
+      "fields_of_study": [],
+      "id": "classic:llm_agent:retrieval-augmented-generation",
+      "identifiers": {},
+      "influential_citation_count": null,
       "institutions": [],
-      "pdf_url": "https://arxiv.org/pdf/2607.08772v1",
+      "open_access_pdf_url": null,
+      "pdf_url": null,
       "project_url": null,
-      "published_at": "2026-07-09",
-      "published_date": "2026-07-09",
+      "published_at": null,
+      "published_date": null,
       "reading_advice": "save_for_later",
       "reading_status": "backlog",
       "recommendation_level": "B",
-      "score": 0.662,
+      "score": 0.649,
       "scores": {
-        "classic_value": 0.35,
+        "classic_value": 1.0,
         "engineering_transferability": 0.45,
-        "recency": 0.78,
-        "source_quality": 0.78,
-        "total": 0.662,
+        "recency": 0.45,
+        "source_quality": 0.81,
+        "total": 0.649,
         "user_relevance": 0.75
       },
       "selected_for_s_level": false,
-      "source": "arxiv",
-      "source_type": "recent_7d",
-      "source_url": "http://arxiv.org/abs/2607.08772v1",
+      "source": "manual",
+      "source_group": "llm_agent",
+      "source_type": "classic",
+      "source_url": "https://github.com/JayeCheng/paper-learning-system/blob/main/curriculum/llm_agent_classics.yaml",
       "tags": [
-        "cs.CV"
+        "classic",
+        "llm_agent"
       ],
-      "title": "Wat3R: Underwater 3D Geometry Learning without Annotations",
+      "title": "Retrieval augmented generation",
       "title_zh": null,
       "topics": [
-        "gpu_graphics"
+        "llm_agent"
       ],
-      "url": "http://arxiv.org/abs/2607.08772v1",
+      "url": "https://github.com/JayeCheng/paper-learning-system/blob/main/curriculum/llm_agent_classics.yaml",
       "venue": null,
-      "why_recommended": "Ranked by recency signal across configured topics."
+      "why_recommended": "Classic fallback with strong classic value signal."
+    },
+    {
+      "abstract": "Connects agent behavior to system design.",
+      "authors": [],
+      "categories": [
+        "llm_agent"
+      ],
+      "citation_count": null,
+      "classic_status": "candidate",
+      "code_url": "https://github.com/JayeCheng/paper-learning-system/blob/main/curriculum/llm_agent_classics.yaml",
+      "difficulty": null,
+      "enrichment_sources": [],
+      "external_ids": {},
+      "field": "llm_agent",
+      "fields_of_study": [],
+      "id": "classic:llm_agent:tool-use-and-planning-in-language-agents",
+      "identifiers": {},
+      "influential_citation_count": null,
+      "institutions": [],
+      "open_access_pdf_url": null,
+      "pdf_url": null,
+      "project_url": null,
+      "published_at": null,
+      "published_date": null,
+      "reading_advice": "save_for_later",
+      "reading_status": "backlog",
+      "recommendation_level": "B",
+      "score": 0.649,
+      "scores": {
+        "classic_value": 1.0,
+        "engineering_transferability": 0.45,
+        "recency": 0.45,
+        "source_quality": 0.81,
+        "total": 0.649,
+        "user_relevance": 0.75
+      },
+      "selected_for_s_level": false,
+      "source": "manual",
+      "source_group": "llm_agent",
+      "source_type": "classic",
+      "source_url": "https://github.com/JayeCheng/paper-learning-system/blob/main/curriculum/llm_agent_classics.yaml",
+      "tags": [
+        "classic",
+        "llm_agent"
+      ],
+      "title": "Tool use and planning in language agents",
+      "title_zh": null,
+      "topics": [
+        "llm_agent"
+      ],
+      "url": "https://github.com/JayeCheng/paper-learning-system/blob/main/curriculum/llm_agent_classics.yaml",
+      "venue": null,
+      "why_recommended": "Classic fallback with strong classic value signal."
     }
   ],
-  "public_json_version": "0.2",
-  "updated_at": "2026-07-12T23:00:07+00:00"
+  "public_json_version": "0.3",
+  "updated_at": "2026-07-13T11:31:56+00:00"
 }

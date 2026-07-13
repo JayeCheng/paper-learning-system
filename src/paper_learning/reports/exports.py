@@ -16,9 +16,16 @@ PAPER_EXPORT_FIELDS = [
     "recommendation_level",
     "score",
     "published_date",
+    "venue",
+    "citation_count",
+    "influential_citation_count",
+    "code_url",
+    "project_url",
     "url",
     "topics",
     "categories",
+    "fields_of_study",
+    "enrichment_sources",
     "reading_status",
 ]
 
@@ -69,6 +76,8 @@ def _paper_row(paper: Paper) -> dict:
     row = paper.to_dict()
     row["topics"] = ";".join(paper.topics)
     row["categories"] = ";".join(paper.categories)
+    row["fields_of_study"] = ";".join(paper.fields_of_study)
+    row["enrichment_sources"] = ";".join(paper.enrichment_sources)
     return row
 
 

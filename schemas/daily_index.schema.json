@@ -6,7 +6,7 @@
   "required": ["public_json_version", "latest", "reports"],
   "additionalProperties": false,
   "properties": {
-    "public_json_version": { "type": "string", "default": "0.2" },
+    "public_json_version": { "type": "string", "default": "0.3" },
     "latest": {
       "type": ["object", "null"],
       "additionalProperties": true

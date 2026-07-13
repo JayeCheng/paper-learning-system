@@ -6,7 +6,7 @@
   "required": ["public_json_version", "updated_at", "tracks"],
   "additionalProperties": false,
   "properties": {
-    "public_json_version": { "type": "string", "default": "0.2" },
+    "public_json_version": { "type": "string", "default": "0.3" },
     "updated_at": { "type": "string", "format": "date-time" },
     "tracks": {
       "type": "array",

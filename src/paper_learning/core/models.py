@@ -20,6 +20,14 @@ class PaperCandidate:
     identifiers: dict[str, str] = dataclass_field(default_factory=dict)
     field: str | None = None
     venue: str | None = None
+    citation_count: int | None = None
+    influential_citation_count: int | None = None
+    fields_of_study: list[str] = dataclass_field(default_factory=list)
+    external_ids: dict[str, str] = dataclass_field(default_factory=dict)
+    open_access_pdf_url: str | None = None
+    code_url: str | None = None
+    project_url: str | None = None
+    enrichment_sources: list[str] = dataclass_field(default_factory=list)
     classic_status: str | None = None
 
     def to_dict(self) -> dict:
@@ -43,7 +51,12 @@ class Paper:
     code_url: str | None = None
     project_url: str | None = None
     citation_count: int | None = None
+    influential_citation_count: int | None = None
     venue: str | None = None
+    fields_of_study: list[str] = dataclass_field(default_factory=list)
+    external_ids: dict[str, str] = dataclass_field(default_factory=dict)
+    open_access_pdf_url: str | None = None
+    enrichment_sources: list[str] = dataclass_field(default_factory=list)
     difficulty: str | None = None
     why_recommended: str | None = None
     classic_status: str | None = None
@@ -74,7 +87,7 @@ class DailyReport:
     learning_route_position: str | None = None
     source_mode_summary: dict[str, int] = dataclass_field(default_factory=dict)
     s_level_paper_id: str | None = None
-    public_json_version: str = "0.2"
+    public_json_version: str = "0.3"
     generated_paths: dict[str, str] = dataclass_field(default_factory=dict)
     frontend_entry: str = "data/public/latest.json"
     s_level_candidate_ids: list[str] = dataclass_field(default_factory=list)

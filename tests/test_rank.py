@@ -24,6 +24,28 @@ def test_rank_papers_orders_by_score() -> None:
     assert rank_papers([low, high])[0] == high
 
 
+def test_enriched_metadata_improves_local_score_without_network() -> None:
+    base = {
+        "id": "base",
+        "source": "arxiv",
+        "topics": ["llm_agent"],
+        "source_type": "recent_7d",
+        "categories": ["cs.CL"],
+    }
+    enriched = {
+        **base,
+        "id": "enriched",
+        "citation_count": 120,
+        "influential_citation_count": 12,
+        "venue": "ICLR",
+        "field": "Computer Science",
+        "code_url": "https://github.com/example/project",
+        "enrichment_sources": ["semantic_scholar"],
+    }
+
+    assert score_paper(enriched) > score_paper(base)
+
+
 def test_select_ranked_papers_limits_daily_and_s_level() -> None:
     papers = [
         Paper(
