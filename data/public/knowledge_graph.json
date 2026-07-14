@@ -57,6 +57,66 @@
     {
       "confidence": 0.5,
       "relation": "related_to",
+      "source": "arxiv:2607.11512v1",
+      "target": "cognition"
+    },
+    {
+      "confidence": 0.5,
+      "relation": "related_to",
+      "source": "arxiv:2607.11512v1",
+      "target": "llm_agent"
+    },
+    {
+      "confidence": 0.5,
+      "relation": "related_to",
+      "source": "arxiv:2607.11512v1",
+      "target": "gpu_graphics"
+    },
+    {
+      "confidence": 0.5,
+      "relation": "related_to",
+      "source": "arxiv:2607.11512v1",
+      "target": "cognition_social"
+    },
+    {
+      "confidence": 0.5,
+      "relation": "related_to",
+      "source": "arxiv:2607.11734v1",
+      "target": "gpu_graphics"
+    },
+    {
+      "confidence": 0.5,
+      "relation": "related_to",
+      "source": "arxiv:2607.11734v1",
+      "target": "llm_agent"
+    },
+    {
+      "confidence": 0.5,
+      "relation": "related_to",
+      "source": "arxiv:2607.11771v1",
+      "target": "llm_agent"
+    },
+    {
+      "confidence": 0.5,
+      "relation": "related_to",
+      "source": "arxiv:2607.11811v1",
+      "target": "llm_agent"
+    },
+    {
+      "confidence": 0.5,
+      "relation": "related_to",
+      "source": "arxiv:2607.11859v1",
+      "target": "architecture"
+    },
+    {
+      "confidence": 0.5,
+      "relation": "related_to",
+      "source": "arxiv:2607.11885v1",
+      "target": "gpu_graphics"
+    },
+    {
+      "confidence": 0.5,
+      "relation": "related_to",
       "source": "classic:architecture:cache-coherence-and-shared-memory-multiprocessors",
       "target": "architecture"
     },
@@ -163,6 +223,57 @@
       "topics": [
         "cognition",
         "llm_agent"
+      ],
+      "type": "paper"
+    },
+    {
+      "id": "arxiv:2607.11512v1",
+      "label": "Toward Inclusive Avatar Design with Limb Differences Through Artificial Intelligence",
+      "topics": [
+        "cognition",
+        "llm_agent",
+        "gpu_graphics"
+      ],
+      "type": "paper"
+    },
+    {
+      "id": "arxiv:2607.11734v1",
+      "label": "NeuralActuator: Neural Actuation Modeling for Robot Dynamics and External Force Perception",
+      "topics": [
+        "gpu_graphics",
+        "llm_agent"
+      ],
+      "type": "paper"
+    },
+    {
+      "id": "arxiv:2607.11771v1",
+      "label": "Evaluating RE Practices for Explainability: Synthesizing Insights from Daimler Truck into an Explainable RE Framework Proposal",
+      "topics": [
+        "llm_agent"
+      ],
+      "type": "paper"
+    },
+    {
+      "id": "arxiv:2607.11811v1",
+      "label": "Complexity Theory of Randomised Testing",
+      "topics": [
+        "llm_agent"
+      ],
+      "type": "paper"
+    },
+    {
+      "id": "arxiv:2607.11859v1",
+      "label": "Can LLMs Perform Deep Technical Comprehension of Computer Architecture Papers?",
+      "topics": [
+        "architecture"
+      ],
+      "type": "paper"
+    },
+    {
+      "id": "arxiv:2607.11885v1",
+      "label": "Latent-Identity Tuning in Text-to-Image Personalization Models",
+      "topics": [
+        "gpu_graphics"
       ],
       "type": "paper"
     },
@@ -280,5 +391,5 @@
     }
   ],
   "public_json_version": "0.2",
-  "updated_at": "2026-07-13T23:04:53+00:00"
+  "updated_at": "2026-07-14T23:05:27+00:00"
 }

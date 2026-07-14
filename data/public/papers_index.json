@@ -357,6 +357,370 @@
       "why_recommended": "Ranked by recency signal across configured topics."
     },
     {
+      "abstract": "As extended reality becomes more popular for social interaction and entertainment, 3D avatars must represent the full diversity of body types. Most 3D avatar systems only support normative bodies and do not accurately depict people with limb differences, amputations, or other morphological variations. This paper reviews emerging technical approaches for inclusive 3D avatar customization for this group and current guidelines that promote respectful and accurate representation. We highlight persistent challenges, including the scarcity of diverse datasets and the limitations in animation for non-normative anatomies. This paper positions artificial intelligence as a promising path to overcoming these limitations and advancing inclusive 3D avatar generation.",
+      "authors": [
+        "Fernanda Miyuki Yamada",
+        "Jo\u00e3o Paulo Gois",
+        "Hiroki Takahashi"
+      ],
+      "categories": [
+        "cs.HC",
+        "cs.AI",
+        "cs.GR"
+      ],
+      "citation_count": null,
+      "classic_status": null,
+      "code_url": null,
+      "difficulty": null,
+      "field": null,
+      "id": "arxiv:2607.11512v1",
+      "identifiers": {
+        "arxiv_id": "2607.11512v1"
+      },
+      "institutions": [],
+      "pdf_url": "https://arxiv.org/pdf/2607.11512v1",
+      "project_url": null,
+      "published_at": "2026-07-13",
+      "published_date": "2026-07-13",
+      "reading_advice": "save_for_later",
+      "reading_status": "backlog",
+      "recommendation_level": "B",
+      "score": 0.732,
+      "scores": {
+        "classic_value": 0.35,
+        "engineering_transferability": 0.8,
+        "recency": 0.78,
+        "source_quality": 0.78,
+        "total": 0.732,
+        "user_relevance": 0.75
+      },
+      "selected_for_s_level": false,
+      "source": "arxiv",
+      "source_group": "cognition_social",
+      "source_type": "recent_7d",
+      "source_url": "http://arxiv.org/abs/2607.11512v1",
+      "tags": [
+        "cs.HC",
+        "cs.AI",
+        "cs.GR"
+      ],
+      "title": "Toward Inclusive Avatar Design with Limb Differences Through Artificial Intelligence",
+      "title_zh": null,
+      "topics": [
+        "cognition",
+        "llm_agent",
+        "gpu_graphics"
+      ],
+      "url": "http://arxiv.org/abs/2607.11512v1",
+      "venue": null,
+      "why_recommended": "Ranked by engineering transferability signal across configured topics."
+    },
+    {
+      "abstract": "Differentiable simulators have advanced policy learning and model-based control, yet actuator dynamics remain an important source of sim-to-real error. This is particularly acute on low-cost platforms, where the linear current-to-torque relation $\u03c4= K_tI$ becomes unreliable during commanded-target tracking because of friction, hysteresis, backlash, and thermal effects. We present NeuralActuator, a neural actuator model that jointly predicts (i) a simulator-equivalent generalized-effort surrogate for trajectory propagation on low-cost servo platforms, (ii) external force with a contact-probability gate for sensorless force perception, and (iii) a motor-condition score for the supervised joint. We also introduce the Neural Actuation Dataset (NAD), collected with a twin-arm teleoperation system that records robot states and actuator telemetry together with external-force labels. The torque-surrogate head is trained through differentiable simulation from pose trajectories without direct generalized-effort labels, while the force, gate, and motor-condition heads receive direct supervision. A Transformer captures temporal dependencies while supporting real-time inference. We evaluate NeuralActuator on a 5-DoF OpenManipulator-X, a 6-DoF SO-101, and a 7-DoF Franka Emika Panda, spanning three actuator families and platforms costing approximately USD 500 to over USD 30,000. The low-cost platforms support dynamics and force evaluation, while the offline Franka experiment provides an additional payload-force-estimation benchmark. Experiments further demonstrate its application for motor condition estimation on OpenManipulator-X and improved behavior-cloning performance when NeuralActuator is used as a pretrained module.",
+      "authors": [
+        "Zhiyang Dou",
+        "John U. Onyemelukwe",
+        "Hangxing Zhang",
+        "Heng Zhang",
+        "Minghao Guo",
+        "Yunsheng Tian",
+        "Michal Piotr Lipiec",
+        "Joshua Jacob",
+        "Chao Liu",
+        "Peter Yichen Chen",
+        "Yuri Ivanov",
+        "Wojciech Matusik"
+      ],
+      "categories": [
+        "cs.RO",
+        "cs.CV",
+        "cs.GR",
+        "cs.LG"
+      ],
+      "citation_count": null,
+      "classic_status": null,
+      "code_url": null,
+      "difficulty": null,
+      "field": null,
+      "id": "arxiv:2607.11734v1",
+      "identifiers": {
+        "arxiv_id": "2607.11734v1"
+      },
+      "institutions": [],
+      "pdf_url": "https://arxiv.org/pdf/2607.11734v1",
+      "project_url": null,
+      "published_at": "2026-07-13",
+      "published_date": "2026-07-13",
+      "reading_advice": "save_for_later",
+      "reading_status": "backlog",
+      "recommendation_level": "B",
+      "score": 0.732,
+      "scores": {
+        "classic_value": 0.35,
+        "engineering_transferability": 0.8,
+        "recency": 0.78,
+        "source_quality": 0.78,
+        "total": 0.732,
+        "user_relevance": 0.75
+      },
+      "selected_for_s_level": false,
+      "source": "arxiv",
+      "source_group": "gpu_graphics",
+      "source_type": "recent_7d",
+      "source_url": "http://arxiv.org/abs/2607.11734v1",
+      "tags": [
+        "cs.RO",
+        "cs.CV",
+        "cs.GR",
+        "cs.LG"
+      ],
+      "title": "NeuralActuator: Neural Actuation Modeling for Robot Dynamics and External Force Perception",
+      "title_zh": null,
+      "topics": [
+        "gpu_graphics",
+        "llm_agent"
+      ],
+      "url": "http://arxiv.org/abs/2607.11734v1",
+      "venue": null,
+      "why_recommended": "Ranked by engineering transferability signal across configured topics."
+    },
+    {
+      "abstract": "Explainability has emerged as a critical requirement for AI-based systems, particularly in safety-critical and regulated domains. Although prior research has proposed frameworks, patterns, and user-centered approaches to support explainability, there is limited empirical understanding of how existing Requirements Engineering (RE) practices support explainability requirements across the RE lifecycle, especially in an industrial context. This paper reports early findings from an ongoing industry-based study investigating how explainability requirements are elicited, specified, and validated using established RE techniques. We conducted a multi-phase qualitative study with eight practitioners at Daimler Truck, employing think-aloud protocols and moderated group discussions across requirements elicitation, specification, and validation steps. Our preliminary analysis reveals recurring challenges across all steps, including conceptual ambiguity during elicitation, limited testability and expressiveness during specification, and fragmented validation due to vague criteria and regulatory uncertainty. These findings indicate that current RE practices provide limited support to systematically address explainability requirements. The paper contributes empirical insights into step-specific and cross-cutting challenges and outlines a research vision toward developing an empirically grounded RE framework for explainable AI-based systems.",
+      "authors": [
+        "Umm-e- Habiba",
+        "Lucas Mauser",
+        "Jonas Fritzsch",
+        "Justus Bogner",
+        "Stefan Wagner"
+      ],
+      "categories": [
+        "cs.SE",
+        "cs.AI"
+      ],
+      "citation_count": null,
+      "classic_status": null,
+      "code_url": null,
+      "difficulty": null,
+      "field": null,
+      "id": "arxiv:2607.11771v1",
+      "identifiers": {
+        "arxiv_id": "2607.11771v1"
+      },
+      "institutions": [],
+      "pdf_url": "https://arxiv.org/pdf/2607.11771v1",
+      "project_url": null,
+      "published_at": "2026-07-13",
+      "published_date": "2026-07-13",
+      "reading_advice": "save_for_later",
+      "reading_status": "backlog",
+      "recommendation_level": "B",
+      "score": 0.732,
+      "scores": {
+        "classic_value": 0.35,
+        "engineering_transferability": 0.8,
+        "recency": 0.78,
+        "source_quality": 0.78,
+        "total": 0.732,
+        "user_relevance": 0.75
+      },
+      "selected_for_s_level": false,
+      "source": "arxiv",
+      "source_group": "llm_agent",
+      "source_type": "recent_7d",
+      "source_url": "http://arxiv.org/abs/2607.11771v1",
+      "tags": [
+        "cs.SE",
+        "cs.AI"
+      ],
+      "title": "Evaluating RE Practices for Explainability: Synthesizing Insights from Daimler Truck into an Explainable RE Framework Proposal",
+      "title_zh": null,
+      "topics": [
+        "llm_agent"
+      ],
+      "url": "http://arxiv.org/abs/2607.11771v1",
+      "venue": null,
+      "why_recommended": "Ranked by engineering transferability signal across configured topics."
+    },
+    {
+      "abstract": "Randomised testing is a widely-used approach to software validation, yet its theoretical foundations remain thin. In particular, the fundamental question of what it means for a set of inputs to be \\emph{generable} has gone unanswered in both the literature and folklore. We present the first complexity-theoretic foundations for random generators in software testing. We model generators as Turing transducers that consume random bits and produce string-encoded outputs, and show that the theoretically generable languages coincide exactly with the recursively enumerable languages. This has direct implications for testing at the boundaries of decidability, such as compiler testing. For \\emph{efficient} generation, we show that the polynomial-time generable languages lie within \\textit{NP}, that certain \\textit{NP}-complete languages admit efficient generators, and that -- under standard cryptographic assumptions -- there are languages in \\textit{P} for which no efficient generator exists: the complexity of efficienct generation and of efficient decision are not the same. We show space-bounded complexity is the natural framework for generators producing \\emph{correlated} samples, capturing methodologies such as coverage-guided fuzzing and symbolic execution. Beyond classification, we characterise efficient generability: a language has a polynomial-time generator iff it admits a \\emph{certificate scheme} over a verifier -- so witness planting, the folklore technique behind generators to test SAT solvers, is in a sense the only route to efficient generation. On the design of property-based testing libraries, we prove no library can compositionally derive efficient generators from logical predicates involving conjunction or negation, under standard assumptions. However, restricted classes like \\textit{NL} (equivalently, linear Datalog predicates) would admit such a compilation.",
+      "authors": [
+        "Pingshi Yu",
+        "Chengsong Tan",
+        "Nicolas Wu",
+        "Alastair Donaldson"
+      ],
+      "categories": [
+        "cs.PL",
+        "cs.CC",
+        "cs.SE"
+      ],
+      "citation_count": null,
+      "classic_status": null,
+      "code_url": null,
+      "difficulty": null,
+      "field": null,
+      "id": "arxiv:2607.11811v1",
+      "identifiers": {
+        "arxiv_id": "2607.11811v1"
+      },
+      "institutions": [],
+      "pdf_url": "https://arxiv.org/pdf/2607.11811v1",
+      "project_url": null,
+      "published_at": "2026-07-13",
+      "published_date": "2026-07-13",
+      "reading_advice": "save_for_later",
+      "reading_status": "backlog",
+      "recommendation_level": "B",
+      "score": 0.732,
+      "scores": {
+        "classic_value": 0.35,
+        "engineering_transferability": 0.8,
+        "recency": 0.78,
+        "source_quality": 0.78,
+        "total": 0.732,
+        "user_relevance": 0.75
+      },
+      "selected_for_s_level": false,
+      "source": "arxiv",
+      "source_group": "llm_agent",
+      "source_type": "recent_7d",
+      "source_url": "http://arxiv.org/abs/2607.11811v1",
+      "tags": [
+        "cs.PL",
+        "cs.CC",
+        "cs.SE"
+      ],
+      "title": "Complexity Theory of Randomised Testing",
+      "title_zh": null,
+      "topics": [
+        "llm_agent"
+      ],
+      "url": "http://arxiv.org/abs/2607.11811v1",
+      "venue": null,
+      "why_recommended": "Ranked by engineering transferability signal across configured topics."
+    },
+    {
+      "abstract": "Can large language models perform deep technical comprehension of computer architecture papers -- not summarization, but structured critique that names the core mechanism, surfaces buried assumptions, and connects a contribution beyond its own scope? We study Gauntlet, an open-source pipeline that analyzes a paper through five independent expert-persona reviewers and an adversarial synthesis stage. On 20 ISCA 2025 and HPCA 2026 papers, ten researchers each wrote their own analyses and then judged, for papers other than their own, the human analysis against Gauntlet's. Across the 20 comparisons evaluators preferred Gauntlet in 15 (human in 4, one tie); its advantage is significant on per-analyst totals (paired Wilcoxon, p < 0.01) and largest on Critical Rigor, vanishing only on Calibration. Where humans win, it is on trust and usefulness rather than depth: a confident wrong claim, a mechanism described but not taught, or unprioritized breadth. A 98-paper automated ablation shows the gain comes from the multi-agent structure -- the pipeline beats the same model run as a single rich-persona agent on 96% of papers -- and specifically from its synthesis pass. We release all analyses, scores, and the rubric as a community resource.",
+      "authors": [
+        "Nishant Aggarwal",
+        "Ayushi Dubal",
+        "Sreeraj Kannakarankodi",
+        "Ian McDougall",
+        "Adarsh Mittal",
+        "Vishnu Ramadas",
+        "Noah Scott",
+        "Ranganath Selagamsetty",
+        "Weichu Yang",
+        "Karthikeyan Sankaralingam"
+      ],
+      "categories": [
+        "cs.CY",
+        "cs.AR",
+        "cs.MA"
+      ],
+      "citation_count": null,
+      "classic_status": null,
+      "code_url": null,
+      "difficulty": null,
+      "field": null,
+      "id": "arxiv:2607.11859v1",
+      "identifiers": {
+        "arxiv_id": "2607.11859v1"
+      },
+      "institutions": [],
+      "pdf_url": "https://arxiv.org/pdf/2607.11859v1",
+      "project_url": null,
+      "published_at": "2026-07-13",
+      "published_date": "2026-07-13",
+      "reading_advice": "save_for_later",
+      "reading_status": "backlog",
+      "recommendation_level": "B",
+      "score": 0.732,
+      "scores": {
+        "classic_value": 0.35,
+        "engineering_transferability": 0.8,
+        "recency": 0.78,
+        "source_quality": 0.78,
+        "total": 0.732,
+        "user_relevance": 0.75
+      },
+      "selected_for_s_level": false,
+      "source": "arxiv",
+      "source_group": "architecture",
+      "source_type": "recent_7d",
+      "source_url": "http://arxiv.org/abs/2607.11859v1",
+      "tags": [
+        "cs.CY",
+        "cs.AR",
+        "cs.MA"
+      ],
+      "title": "Can LLMs Perform Deep Technical Comprehension of Computer Architecture Papers?",
+      "title_zh": null,
+      "topics": [
+        "architecture"
+      ],
+      "url": "http://arxiv.org/abs/2607.11859v1",
+      "venue": null,
+      "why_recommended": "Ranked by engineering transferability signal across configured topics."
+    },
+    {
+      "abstract": "Generating and editing a person's face demands high precision, as even minor modifications can significantly alter a subject's perceived identity. Current personalization and editing methods built on general-purpose text-to-image models, however, often lack the precision required for fine-grained facial edits. We present a method for fine-grained identity tuning in text-to-image personalization models. Unlike standard image editing, which operates on a given image, identity tuning modifies the latent representation of a specific identity, enabling the generation of diverse images that consistently depict the same edited identity. To enable fine-grained latent identity tuning, we explore the latent space of a pre-trained, frozen encoder for text-to-image personalization. Our approach requires no additional training. Instead, it leverages the existing architecture of a frozen encoder to uncover latent semantic directions. This space consists of a set of latent tokens that play distinct roles in capturing different aspects of an identity and often correspond to specific spatial or semantic facial regions. We show that meaningful directions can be identified within this space and within subspaces defined by selected tokens, enabling localized, fine-grained, and semantically coherent edits. We validate our approach through qualitative and quantitative experiments that demonstrate diverse localized facial edits while preserving cross-image identity consistency. Project page at: https://garibida.github.io/IdentityTuning/",
+      "authors": [
+        "Daniel Garibi",
+        "Ronen Kamenetsky",
+        "Hadar Averbuch-Elor",
+        "Daniel Cohen-Or",
+        "Or Patashnik"
+      ],
+      "categories": [
+        "cs.CV",
+        "cs.GR"
+      ],
+      "citation_count": null,
+      "classic_status": null,
+      "code_url": null,
+      "difficulty": null,
+      "field": null,
+      "id": "arxiv:2607.11885v1",
+      "identifiers": {
+        "arxiv_id": "2607.11885v1"
+      },
+      "institutions": [],
+      "pdf_url": "https://arxiv.org/pdf/2607.11885v1",
+      "project_url": null,
+      "published_at": "2026-07-13",
+      "published_date": "2026-07-13",
+      "reading_advice": "save_for_later",
+      "reading_status": "backlog",
+      "recommendation_level": "B",
+      "score": 0.732,
+      "scores": {
+        "classic_value": 0.35,
+        "engineering_transferability": 0.8,
+        "recency": 0.78,
+        "source_quality": 0.78,
+        "total": 0.732,
+        "user_relevance": 0.75
+      },
+      "selected_for_s_level": false,
+      "source": "arxiv",
+      "source_group": "gpu_graphics",
+      "source_type": "recent_7d",
+      "source_url": "http://arxiv.org/abs/2607.11885v1",
+      "tags": [
+        "cs.CV",
+        "cs.GR"
+      ],
+      "title": "Latent-Identity Tuning in Text-to-Image Personalization Models",
+      "title_zh": null,
+      "topics": [
+        "gpu_graphics"
+      ],
+      "url": "http://arxiv.org/abs/2607.11885v1",
+      "venue": null,
+      "why_recommended": "Ranked by engineering transferability signal across configured topics."
+    },
+    {
       "abstract": "Required background for parallel architecture.",
       "authors": [],
       "categories": [
@@ -742,5 +1106,5 @@
     }
   ],
   "public_json_version": "0.2",
-  "updated_at": "2026-07-13T23:04:53+00:00"
+  "updated_at": "2026-07-14T23:05:27+00:00"
 }

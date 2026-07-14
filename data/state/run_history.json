@@ -71,8 +71,32 @@
       "paper_count": 6,
       "s_level_paper_id": null,
       "status": "success"
+    },
+    {
+      "date": "2026-07-15",
+      "generated_at": "2026-07-14T23:05:27+00:00",
+      "generated_paths": {
+        "exports_csv": "data/exports/papers.csv",
+        "exports_daily_csv": "data/exports/daily_papers.csv",
+        "exports_jsonl": "data/exports/papers.jsonl",
+        "exports_reading_status": "data/exports/reading_status.csv",
+        "json": "daily/2026/07/2026-07-15.json",
+        "markdown": "daily/2026/07/2026-07-15.md",
+        "public_curriculum_progress": "data/public/curriculum_progress.json",
+        "public_daily_index": "data/public/daily_index.json",
+        "public_knowledge_graph": "data/public/knowledge_graph.json",
+        "public_latest": "data/public/latest.json",
+        "public_papers_index": "data/public/papers_index.json",
+        "public_reading_status": "data/public/reading_status.json",
+        "state_papers": "data/state/papers.jsonl",
+        "state_reading_status": "data/state/reading_status.json",
+        "state_run_history": "data/state/run_history.json"
+      },
+      "paper_count": 6,
+      "s_level_paper_id": null,
+      "status": "success"
     }
   ],
   "state_version": "0.2",
-  "updated_at": "2026-07-13T23:04:53+00:00"
+  "updated_at": "2026-07-14T23:05:27+00:00"
 }

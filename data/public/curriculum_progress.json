@@ -8,10 +8,10 @@
       "label": "Computer Architecture",
       "next_paper_ids": [
         "arxiv:2607.09626v1",
-        "classic:architecture:cache-coherence-and-shared-memory-multiprocessors",
-        "classic:architecture:the-memory-hierarchy-and-locality"
+        "arxiv:2607.11859v1",
+        "classic:architecture:cache-coherence-and-shared-memory-multiprocessors"
       ],
-      "planned_count": 3
+      "planned_count": 4
     },
     {
       "completed_count": 0,
@@ -19,11 +19,11 @@
       "id": "cognition",
       "label": "Cognitive Science",
       "next_paper_ids": [
+        "arxiv:2607.11512v1",
         "arxiv:2607.09628v1",
-        "arxiv:2607.09662v1",
-        "classic:cognition:attention-and-working-memory"
+        "arxiv:2607.09662v1"
       ],
-      "planned_count": 4
+      "planned_count": 5
     },
     {
       "completed_count": 0,
@@ -31,9 +31,10 @@
       "id": "cognition_social",
       "label": "Cognition / Social Systems",
       "next_paper_ids": [
+        "arxiv:2607.11512v1",
         "arxiv:2607.09628v1"
       ],
-      "planned_count": 1
+      "planned_count": 2
     },
     {
       "completed_count": 0,
@@ -41,11 +42,11 @@
       "id": "gpu_graphics",
       "label": "GPU / Graphics",
       "next_paper_ids": [
-        "classic:gpu_graphics:a-trip-through-the-graphics-pipeline",
-        "classic:gpu_graphics:ray-tracing-architectures-and-acceleration-structures",
-        "arxiv:2607.09657v1"
+        "arxiv:2607.11512v1",
+        "arxiv:2607.11734v1",
+        "arxiv:2607.11885v1"
       ],
-      "planned_count": 4
+      "planned_count": 7
     },
     {
       "completed_count": 0,
@@ -54,11 +55,11 @@
       "label": "LLM Agent / RAG",
       "next_paper_ids": [
         "arxiv:2607.09553v1",
-        "arxiv:2607.09657v1",
-        "arxiv:2607.09662v1"
+        "arxiv:2607.11512v1",
+        "arxiv:2607.11734v1"
       ],
-      "planned_count": 5
+      "planned_count": 9
     }
   ],
-  "updated_at": "2026-07-13T23:04:53+00:00"
+  "updated_at": "2026-07-14T23:05:27+00:00"
 }
