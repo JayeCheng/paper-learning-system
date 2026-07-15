@@ -9,9 +9,9 @@
       "next_paper_ids": [
         "arxiv:2607.09626v1",
         "arxiv:2607.11859v1",
-        "classic:architecture:cache-coherence-and-shared-memory-multiprocessors"
+        "arxiv:2607.13015v1"
       ],
-      "planned_count": 4
+      "planned_count": 5
     },
     {
       "completed_count": 0,
@@ -23,7 +23,7 @@
         "arxiv:2607.09628v1",
         "arxiv:2607.09662v1"
       ],
-      "planned_count": 5
+      "planned_count": 6
     },
     {
       "completed_count": 0,
@@ -32,9 +32,10 @@
       "label": "Cognition / Social Systems",
       "next_paper_ids": [
         "arxiv:2607.11512v1",
-        "arxiv:2607.09628v1"
+        "arxiv:2607.09628v1",
+        "arxiv:2607.12978v1"
       ],
-      "planned_count": 2
+      "planned_count": 3
     },
     {
       "completed_count": 0,
@@ -46,7 +47,7 @@
         "arxiv:2607.11734v1",
         "arxiv:2607.11885v1"
       ],
-      "planned_count": 7
+      "planned_count": 9
     },
     {
       "completed_count": 0,
@@ -58,8 +59,8 @@
         "arxiv:2607.11512v1",
         "arxiv:2607.11734v1"
       ],
-      "planned_count": 9
+      "planned_count": 12
     }
   ],
-  "updated_at": "2026-07-14T23:05:27+00:00"
+  "updated_at": "2026-07-15T23:07:15+00:00"
 }

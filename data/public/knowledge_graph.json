@@ -117,6 +117,54 @@
     {
       "confidence": 0.5,
       "relation": "related_to",
+      "source": "arxiv:2607.12978v1",
+      "target": "cognition"
+    },
+    {
+      "confidence": 0.5,
+      "relation": "related_to",
+      "source": "arxiv:2607.12978v1",
+      "target": "cognition_social"
+    },
+    {
+      "confidence": 0.5,
+      "relation": "related_to",
+      "source": "arxiv:2607.13015v1",
+      "target": "architecture"
+    },
+    {
+      "confidence": 0.5,
+      "relation": "related_to",
+      "source": "arxiv:2607.13017v1",
+      "target": "gpu_graphics"
+    },
+    {
+      "confidence": 0.5,
+      "relation": "related_to",
+      "source": "arxiv:2607.13021v1",
+      "target": "llm_agent"
+    },
+    {
+      "confidence": 0.5,
+      "relation": "related_to",
+      "source": "arxiv:2607.13031v1",
+      "target": "llm_agent"
+    },
+    {
+      "confidence": 0.5,
+      "relation": "related_to",
+      "source": "arxiv:2607.13031v1",
+      "target": "gpu_graphics"
+    },
+    {
+      "confidence": 0.5,
+      "relation": "related_to",
+      "source": "arxiv:2607.13034v1",
+      "target": "llm_agent"
+    },
+    {
+      "confidence": 0.5,
+      "relation": "related_to",
       "source": "classic:architecture:cache-coherence-and-shared-memory-multiprocessors",
       "target": "architecture"
     },
@@ -278,6 +326,55 @@
       "type": "paper"
     },
     {
+      "id": "arxiv:2607.12978v1",
+      "label": "Sensing the properties of virtual objects without physical feedback",
+      "topics": [
+        "cognition"
+      ],
+      "type": "paper"
+    },
+    {
+      "id": "arxiv:2607.13015v1",
+      "label": "Privacy Attacks on Stable Marriage",
+      "topics": [
+        "architecture"
+      ],
+      "type": "paper"
+    },
+    {
+      "id": "arxiv:2607.13017v1",
+      "label": "FlowWAM: Optical Flow as a Unified Action Representation for World Action Models",
+      "topics": [
+        "gpu_graphics"
+      ],
+      "type": "paper"
+    },
+    {
+      "id": "arxiv:2607.13021v1",
+      "label": "Software Supply Chains are Dead: Use-Case-Oriented Regeneration",
+      "topics": [
+        "llm_agent"
+      ],
+      "type": "paper"
+    },
+    {
+      "id": "arxiv:2607.13031v1",
+      "label": "The Seriality Gap in Video Diffusion Models",
+      "topics": [
+        "llm_agent",
+        "gpu_graphics"
+      ],
+      "type": "paper"
+    },
+    {
+      "id": "arxiv:2607.13034v1",
+      "label": "Do AI Agents Know When a Task Is Simple? Toward Complexity-Aware Reasoning and Execution",
+      "topics": [
+        "llm_agent"
+      ],
+      "type": "paper"
+    },
+    {
       "id": "classic:architecture:cache-coherence-and-shared-memory-multiprocessors",
       "label": "Cache coherence and shared-memory multiprocessors",
       "topics": [
@@ -391,5 +488,5 @@
     }
   ],
   "public_json_version": "0.2",
-  "updated_at": "2026-07-14T23:05:27+00:00"
+  "updated_at": "2026-07-15T23:07:15+00:00"
 }

@@ -11,6 +11,12 @@ arxiv:2607.11771v1,backlog,medium,,2026-07-14T23:05:27+00:00,Evaluating RE Pract
 arxiv:2607.11811v1,backlog,medium,,2026-07-14T23:05:27+00:00,Complexity Theory of Randomised Testing,llm_agent,B
 arxiv:2607.11859v1,backlog,medium,,2026-07-14T23:05:27+00:00,Can LLMs Perform Deep Technical Comprehension of Computer Architecture Papers?,architecture,B
 arxiv:2607.11885v1,backlog,medium,,2026-07-14T23:05:27+00:00,Latent-Identity Tuning in Text-to-Image Personalization Models,gpu_graphics,B
+arxiv:2607.12978v1,backlog,medium,,2026-07-15T23:07:15+00:00,Sensing the properties of virtual objects without physical feedback,cognition_social,B
+arxiv:2607.13015v1,backlog,medium,,2026-07-15T23:07:15+00:00,Privacy Attacks on Stable Marriage,architecture,B
+arxiv:2607.13017v1,backlog,medium,,2026-07-15T23:07:15+00:00,FlowWAM: Optical Flow as a Unified Action Representation for World Action Models,gpu_graphics,B
+arxiv:2607.13021v1,backlog,medium,,2026-07-15T23:07:15+00:00,Software Supply Chains are Dead: Use-Case-Oriented Regeneration,llm_agent,B
+arxiv:2607.13031v1,backlog,medium,,2026-07-15T23:07:15+00:00,The Seriality Gap in Video Diffusion Models,gpu_graphics,B
+arxiv:2607.13034v1,backlog,medium,,2026-07-15T23:07:15+00:00,Do AI Agents Know When a Task Is Simple? Toward Complexity-Aware Reasoning and Execution,llm_agent,B
 classic:architecture:cache-coherence-and-shared-memory-multiprocessors,backlog,medium,,2026-07-09T09:46:00+00:00,Cache coherence and shared-memory multiprocessors,architecture,B
 classic:architecture:the-memory-hierarchy-and-locality,backlog,medium,,2026-07-09T09:46:00+00:00,The memory hierarchy and locality,architecture,B
 classic:cognition:attention-and-working-memory,backlog,medium,,2026-07-09T09:46:00+00:00,Attention and working memory,cognition,B
