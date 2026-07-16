@@ -165,6 +165,54 @@
     {
       "confidence": 0.5,
       "relation": "related_to",
+      "source": "arxiv:2607.14008v1",
+      "target": "llm_agent"
+    },
+    {
+      "confidence": 0.5,
+      "relation": "related_to",
+      "source": "arxiv:2607.14008v1",
+      "target": "architecture"
+    },
+    {
+      "confidence": 0.5,
+      "relation": "related_to",
+      "source": "arxiv:2607.14037v1",
+      "target": "llm_agent"
+    },
+    {
+      "confidence": 0.5,
+      "relation": "related_to",
+      "source": "arxiv:2607.14075v1",
+      "target": "llm_agent"
+    },
+    {
+      "confidence": 0.5,
+      "relation": "related_to",
+      "source": "arxiv:2607.14076v1",
+      "target": "gpu_graphics"
+    },
+    {
+      "confidence": 0.5,
+      "relation": "related_to",
+      "source": "arxiv:2607.14078v1",
+      "target": "cognition"
+    },
+    {
+      "confidence": 0.5,
+      "relation": "related_to",
+      "source": "arxiv:2607.14078v1",
+      "target": "cognition_social"
+    },
+    {
+      "confidence": 0.5,
+      "relation": "related_to",
+      "source": "arxiv:2607.14088v1",
+      "target": "gpu_graphics"
+    },
+    {
+      "confidence": 0.5,
+      "relation": "related_to",
       "source": "classic:architecture:cache-coherence-and-shared-memory-multiprocessors",
       "target": "architecture"
     },
@@ -375,6 +423,55 @@
       "type": "paper"
     },
     {
+      "id": "arxiv:2607.14008v1",
+      "label": "Lighthouse RL: Sample-Efficient Circuit Optimization via Strategic Reset Points",
+      "topics": [
+        "llm_agent",
+        "architecture"
+      ],
+      "type": "paper"
+    },
+    {
+      "id": "arxiv:2607.14037v1",
+      "label": "Early Adoption of Agentic Coding Tools by GitHub Projects",
+      "topics": [
+        "llm_agent"
+      ],
+      "type": "paper"
+    },
+    {
+      "id": "arxiv:2607.14075v1",
+      "label": "VisualRepair: Dynamic Tool Calling and Region Focusing for Visual Software Issue Repair",
+      "topics": [
+        "llm_agent"
+      ],
+      "type": "paper"
+    },
+    {
+      "id": "arxiv:2607.14076v1",
+      "label": "From Pixels to States: Rethinking Interactive World Models as Game Engines",
+      "topics": [
+        "gpu_graphics"
+      ],
+      "type": "paper"
+    },
+    {
+      "id": "arxiv:2607.14078v1",
+      "label": "A modular state-space model of human perception, cognition, and decision dynamics",
+      "topics": [
+        "cognition"
+      ],
+      "type": "paper"
+    },
+    {
+      "id": "arxiv:2607.14088v1",
+      "label": "VideoRAE: Taming Video Foundation Models for Generative Modeling via Representation Autoencoders",
+      "topics": [
+        "gpu_graphics"
+      ],
+      "type": "paper"
+    },
+    {
       "id": "classic:architecture:cache-coherence-and-shared-memory-multiprocessors",
       "label": "Cache coherence and shared-memory multiprocessors",
       "topics": [
@@ -488,5 +585,5 @@
     }
   ],
   "public_json_version": "0.2",
-  "updated_at": "2026-07-15T23:07:15+00:00"
+  "updated_at": "2026-07-16T23:06:13+00:00"
 }

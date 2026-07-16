@@ -11,7 +11,7 @@
         "arxiv:2607.11859v1",
         "arxiv:2607.13015v1"
       ],
-      "planned_count": 5
+      "planned_count": 6
     },
     {
       "completed_count": 0,
@@ -23,7 +23,7 @@
         "arxiv:2607.09628v1",
         "arxiv:2607.09662v1"
       ],
-      "planned_count": 6
+      "planned_count": 7
     },
     {
       "completed_count": 0,
@@ -35,7 +35,7 @@
         "arxiv:2607.09628v1",
         "arxiv:2607.12978v1"
       ],
-      "planned_count": 3
+      "planned_count": 4
     },
     {
       "completed_count": 0,
@@ -47,7 +47,7 @@
         "arxiv:2607.11734v1",
         "arxiv:2607.11885v1"
       ],
-      "planned_count": 9
+      "planned_count": 11
     },
     {
       "completed_count": 0,
@@ -59,8 +59,8 @@
         "arxiv:2607.11512v1",
         "arxiv:2607.11734v1"
       ],
-      "planned_count": 12
+      "planned_count": 15
     }
   ],
-  "updated_at": "2026-07-15T23:07:15+00:00"
+  "updated_at": "2026-07-16T23:06:13+00:00"
 }
