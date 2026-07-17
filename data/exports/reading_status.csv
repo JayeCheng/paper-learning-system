@@ -23,6 +23,12 @@ arxiv:2607.14075v1,backlog,medium,,2026-07-16T23:06:13+00:00,VisualRepair: Dynam
 arxiv:2607.14076v1,backlog,medium,,2026-07-16T23:06:13+00:00,From Pixels to States: Rethinking Interactive World Models as Game Engines,gpu_graphics,B
 arxiv:2607.14078v1,backlog,medium,,2026-07-16T23:06:13+00:00,"A modular state-space model of human perception, cognition, and decision dynamics",cognition_social,B
 arxiv:2607.14088v1,backlog,medium,,2026-07-16T23:06:13+00:00,VideoRAE: Taming Video Foundation Models for Generative Modeling via Representation Autoencoders,gpu_graphics,B
+arxiv:2607.15143v1,backlog,medium,,2026-07-17T22:58:42+00:00,"Setup Complete, Now You Are Compromised: Weaponizing Setup Instructions Against AI Coding Agents",cognition_social,B
+arxiv:2607.15225v1,backlog,medium,,2026-07-17T22:58:42+00:00,Campaign Diagrams: Visualizing the March Through the Phases of a Workload,architecture,B
+arxiv:2607.15271v1,backlog,medium,,2026-07-17T22:58:42+00:00,Online Neural Space Time Memory for Dynamic Novel View Synthesis,gpu_graphics,B
+arxiv:2607.15275v1,backlog,medium,,2026-07-17T22:58:42+00:00,RoboTTT: Context Scaling for Robot Policies,llm_agent,B
+arxiv:2607.15277v1,backlog,medium,,2026-07-17T22:58:42+00:00,"Partition, Prompt, Aggregate: Statistical Self-Consistency in Language Models",llm_agent,B
+arxiv:2607.15278v1,backlog,medium,,2026-07-17T22:58:42+00:00,Hierarchical Denoising For Multi-Step Visual Reasoning,gpu_graphics,B
 classic:architecture:cache-coherence-and-shared-memory-multiprocessors,backlog,medium,,2026-07-09T09:46:00+00:00,Cache coherence and shared-memory multiprocessors,architecture,B
 classic:architecture:the-memory-hierarchy-and-locality,backlog,medium,,2026-07-09T09:46:00+00:00,The memory hierarchy and locality,architecture,B
 classic:cognition:attention-and-working-memory,backlog,medium,,2026-07-09T09:46:00+00:00,Attention and working memory,cognition,B

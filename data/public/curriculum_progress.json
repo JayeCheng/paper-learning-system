@@ -11,7 +11,7 @@
         "arxiv:2607.11859v1",
         "arxiv:2607.13015v1"
       ],
-      "planned_count": 6
+      "planned_count": 7
     },
     {
       "completed_count": 0,
@@ -20,10 +20,10 @@
       "label": "Cognitive Science",
       "next_paper_ids": [
         "arxiv:2607.11512v1",
-        "arxiv:2607.09628v1",
-        "arxiv:2607.09662v1"
+        "arxiv:2607.15143v1",
+        "arxiv:2607.09628v1"
       ],
-      "planned_count": 7
+      "planned_count": 8
     },
     {
       "completed_count": 0,
@@ -32,10 +32,10 @@
       "label": "Cognition / Social Systems",
       "next_paper_ids": [
         "arxiv:2607.11512v1",
-        "arxiv:2607.09628v1",
-        "arxiv:2607.12978v1"
+        "arxiv:2607.15143v1",
+        "arxiv:2607.09628v1"
       ],
-      "planned_count": 4
+      "planned_count": 5
     },
     {
       "completed_count": 0,
@@ -47,7 +47,7 @@
         "arxiv:2607.11734v1",
         "arxiv:2607.11885v1"
       ],
-      "planned_count": 11
+      "planned_count": 13
     },
     {
       "completed_count": 0,
@@ -59,8 +59,8 @@
         "arxiv:2607.11512v1",
         "arxiv:2607.11734v1"
       ],
-      "planned_count": 15
+      "planned_count": 19
     }
   ],
-  "updated_at": "2026-07-16T23:06:13+00:00"
+  "updated_at": "2026-07-17T22:58:42+00:00"
 }

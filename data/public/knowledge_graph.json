@@ -213,6 +213,60 @@
     {
       "confidence": 0.5,
       "relation": "related_to",
+      "source": "arxiv:2607.15143v1",
+      "target": "cognition"
+    },
+    {
+      "confidence": 0.5,
+      "relation": "related_to",
+      "source": "arxiv:2607.15143v1",
+      "target": "llm_agent"
+    },
+    {
+      "confidence": 0.5,
+      "relation": "related_to",
+      "source": "arxiv:2607.15143v1",
+      "target": "cognition_social"
+    },
+    {
+      "confidence": 0.5,
+      "relation": "related_to",
+      "source": "arxiv:2607.15225v1",
+      "target": "architecture"
+    },
+    {
+      "confidence": 0.5,
+      "relation": "related_to",
+      "source": "arxiv:2607.15271v1",
+      "target": "gpu_graphics"
+    },
+    {
+      "confidence": 0.5,
+      "relation": "related_to",
+      "source": "arxiv:2607.15271v1",
+      "target": "llm_agent"
+    },
+    {
+      "confidence": 0.5,
+      "relation": "related_to",
+      "source": "arxiv:2607.15275v1",
+      "target": "llm_agent"
+    },
+    {
+      "confidence": 0.5,
+      "relation": "related_to",
+      "source": "arxiv:2607.15277v1",
+      "target": "llm_agent"
+    },
+    {
+      "confidence": 0.5,
+      "relation": "related_to",
+      "source": "arxiv:2607.15278v1",
+      "target": "gpu_graphics"
+    },
+    {
+      "confidence": 0.5,
+      "relation": "related_to",
       "source": "classic:architecture:cache-coherence-and-shared-memory-multiprocessors",
       "target": "architecture"
     },
@@ -472,6 +526,56 @@
       "type": "paper"
     },
     {
+      "id": "arxiv:2607.15143v1",
+      "label": "Setup Complete, Now You Are Compromised: Weaponizing Setup Instructions Against AI Coding Agents",
+      "topics": [
+        "cognition",
+        "llm_agent"
+      ],
+      "type": "paper"
+    },
+    {
+      "id": "arxiv:2607.15225v1",
+      "label": "Campaign Diagrams: Visualizing the March Through the Phases of a Workload",
+      "topics": [
+        "architecture"
+      ],
+      "type": "paper"
+    },
+    {
+      "id": "arxiv:2607.15271v1",
+      "label": "Online Neural Space Time Memory for Dynamic Novel View Synthesis",
+      "topics": [
+        "gpu_graphics",
+        "llm_agent"
+      ],
+      "type": "paper"
+    },
+    {
+      "id": "arxiv:2607.15275v1",
+      "label": "RoboTTT: Context Scaling for Robot Policies",
+      "topics": [
+        "llm_agent"
+      ],
+      "type": "paper"
+    },
+    {
+      "id": "arxiv:2607.15277v1",
+      "label": "Partition, Prompt, Aggregate: Statistical Self-Consistency in Language Models",
+      "topics": [
+        "llm_agent"
+      ],
+      "type": "paper"
+    },
+    {
+      "id": "arxiv:2607.15278v1",
+      "label": "Hierarchical Denoising For Multi-Step Visual Reasoning",
+      "topics": [
+        "gpu_graphics"
+      ],
+      "type": "paper"
+    },
+    {
       "id": "classic:architecture:cache-coherence-and-shared-memory-multiprocessors",
       "label": "Cache coherence and shared-memory multiprocessors",
       "topics": [
@@ -585,5 +689,5 @@
     }
   ],
   "public_json_version": "0.2",
-  "updated_at": "2026-07-16T23:06:13+00:00"
+  "updated_at": "2026-07-17T22:58:42+00:00"
 }
