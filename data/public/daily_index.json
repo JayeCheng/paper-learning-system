@@ -1,15 +1,24 @@
 {
   "latest": {
-    "date": "2026-07-18",
-    "generated_at": "2026-07-17T22:58:42+00:00",
-    "json_path": "daily/2026/07/2026-07-18.json",
-    "markdown_path": "daily/2026/07/2026-07-18.md",
+    "date": "2026-07-19",
+    "generated_at": "2026-07-18T22:59:57+00:00",
+    "json_path": "daily/2026/07/2026-07-19.json",
+    "markdown_path": "daily/2026/07/2026-07-19.md",
     "paper_count": 6,
     "s_level_paper_id": null,
     "status": "success"
   },
   "public_json_version": "0.2",
   "reports": [
+    {
+      "date": "2026-07-19",
+      "generated_at": "2026-07-18T22:59:57+00:00",
+      "json_path": "daily/2026/07/2026-07-19.json",
+      "markdown_path": "daily/2026/07/2026-07-19.md",
+      "paper_count": 6,
+      "s_level_paper_id": null,
+      "status": "success"
+    },
     {
       "date": "2026-07-18",
       "generated_at": "2026-07-17T22:58:42+00:00",
