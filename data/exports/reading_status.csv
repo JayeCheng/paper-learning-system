@@ -29,6 +29,12 @@ arxiv:2607.15271v1,backlog,medium,,2026-07-17T22:58:42+00:00,Online Neural Space
 arxiv:2607.15275v1,backlog,medium,,2026-07-17T22:58:42+00:00,RoboTTT: Context Scaling for Robot Policies,llm_agent,B
 arxiv:2607.15277v1,backlog,medium,,2026-07-17T22:58:42+00:00,"Partition, Prompt, Aggregate: Statistical Self-Consistency in Language Models",llm_agent,B
 arxiv:2607.15278v1,backlog,medium,,2026-07-17T22:58:42+00:00,Hierarchical Denoising For Multi-Step Visual Reasoning,gpu_graphics,B
+arxiv:2607.15868v1,backlog,medium,,2026-07-20T23:09:21+00:00,EgoExoMoCap: Distributed Ego-Exo Human Motion Capture,cognition_social,B
+arxiv:2607.16109v1,backlog,medium,,2026-07-20T23:09:21+00:00,The Honest Quorum Problem: Epistemic Byzantine Fault Tolerance for Agentic Infrastructure,architecture,B
+arxiv:2607.16121v1,backlog,medium,,2026-07-20T23:09:21+00:00,Comparison of Energy System Optimization Software and Evaluation of Selected Frameworks,llm_agent,B
+arxiv:2607.16127v1,backlog,medium,,2026-07-20T23:09:21+00:00,CADAQUES: A Cost-Aware Dual Architecture for Query-Efficient Autonomous Discovery,llm_agent,B
+arxiv:2607.16192v1,backlog,medium,,2026-07-20T23:09:21+00:00,MotionForesight: Re-purposing Video Models for Future 3D Scene-Flow Prediction,gpu_graphics,B
+arxiv:2607.16193v1,backlog,medium,,2026-07-20T23:09:21+00:00,"Knowing the Self, Understanding the World: A Dual-Cognition Benchmark for UAV Spatio-temporal Reasoning with MLLMs",gpu_graphics,B
 classic:architecture:cache-coherence-and-shared-memory-multiprocessors,backlog,medium,,2026-07-09T09:46:00+00:00,Cache coherence and shared-memory multiprocessors,architecture,B
 classic:architecture:the-memory-hierarchy-and-locality,backlog,medium,,2026-07-09T09:46:00+00:00,The memory hierarchy and locality,architecture,B
 classic:cognition:attention-and-working-memory,backlog,medium,,2026-07-09T09:46:00+00:00,Attention and working memory,cognition,B
