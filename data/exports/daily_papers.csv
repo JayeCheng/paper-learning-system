@@ -1,7 +1,7 @@
 id,title,source,source_type,source_group,recommendation_level,score,published_date,url,topics,categories,reading_status
-arxiv:2607.18187v1,EVOLVE: Efficient Learned Volume Compression with Variable-Rate Encoding on a Cross-Domain Database,arxiv,recent_7d,gpu_graphics,B,0.732,2026-07-20,http://arxiv.org/abs/2607.18187v1,gpu_graphics;llm_agent,cs.GR;cs.DB;cs.LG,backlog
-arxiv:2607.18150v1,Lossless-INR: Lossless Volumetric Implicit Neural Representations,arxiv,recent_7d,gpu_graphics,B,0.732,2026-07-20,http://arxiv.org/abs/2607.18150v1,gpu_graphics,cs.CV;cs.GR,backlog
-arxiv:2607.18178v1,uSTM: A Lightweight and Efficient STM Supporting General Types and Deferred Aborts,arxiv,recent_7d,architecture,B,0.732,2026-07-20,http://arxiv.org/abs/2607.18178v1,architecture,cs.DC,backlog
-arxiv:2607.18213v1,SWE-Pruner Pro: The Coder LLM Already Knows What to Prune,arxiv,recent_7d,llm_agent,B,0.732,2026-07-20,http://arxiv.org/abs/2607.18213v1,llm_agent,cs.CL;cs.SE,backlog
-arxiv:2607.18181v1,VEHBench: A Stage-Local Diagnostic Benchmark for LLM-Assisted Vibration Energy Harvester Design,arxiv,recent_7d,llm_agent,B,0.732,2026-07-20,http://arxiv.org/abs/2607.18181v1,llm_agent,cs.CL;cs.SE,backlog
-arxiv:2607.17774v1,Persona-as-Configuration: Generative Stakeholder Reporting for Agricultural Floods,arxiv,recent_7d,cognition_social,B,0.732,2026-07-20,http://arxiv.org/abs/2607.17774v1,llm_agent;cognition,cs.SE;cs.AI;cs.HC,backlog
+arxiv:2607.19344v1,Appearance Pointers -- Multimodal Region Control of Diffusion Transformers,arxiv,recent_7d,gpu_graphics,B,0.732,2026-07-21,http://arxiv.org/abs/2607.19344v1,gpu_graphics;llm_agent,cs.CV;cs.AI;cs.GR,backlog
+arxiv:2607.19343v1,Masked Visual Actions for Unified World Modeling,arxiv,recent_7d,gpu_graphics,B,0.662,2026-07-21,http://arxiv.org/abs/2607.19343v1,gpu_graphics,cs.CV;cs.RO,backlog
+arxiv:2607.19310v1,Distributed Delay-Based BIST for Mixed-Signal Circuits in Flexible Electronics,arxiv,recent_7d,architecture,B,0.732,2026-07-21,http://arxiv.org/abs/2607.19310v1,architecture,cs.AR;cs.ET,backlog
+arxiv:2607.19297v1,Graph-Based Agentic AI with LangGraph: Workflow Pathways for Long-Running Stateful Business Processes,arxiv,recent_7d,llm_agent,B,0.732,2026-07-21,http://arxiv.org/abs/2607.19297v1,llm_agent,cs.AI;cs.SE,backlog
+arxiv:2607.19291v1,EmbeddedKittens: An Evaluation of Code Embeddings for Scratch,arxiv,recent_7d,llm_agent,B,0.732,2026-07-21,http://arxiv.org/abs/2607.19291v1,llm_agent,cs.SE,backlog
+arxiv:2607.19316v1,Eccentricity-Constrained CNN Training Reveals Adaptive Information Coding Around the Visual Field,arxiv,recent_7d,cognition_social,B,0.662,2026-07-21,http://arxiv.org/abs/2607.19316v1,cognition,q-bio.NC,backlog

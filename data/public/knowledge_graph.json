@@ -381,6 +381,54 @@
     {
       "confidence": 0.5,
       "relation": "related_to",
+      "source": "arxiv:2607.19291v1",
+      "target": "llm_agent"
+    },
+    {
+      "confidence": 0.5,
+      "relation": "related_to",
+      "source": "arxiv:2607.19297v1",
+      "target": "llm_agent"
+    },
+    {
+      "confidence": 0.5,
+      "relation": "related_to",
+      "source": "arxiv:2607.19310v1",
+      "target": "architecture"
+    },
+    {
+      "confidence": 0.5,
+      "relation": "related_to",
+      "source": "arxiv:2607.19316v1",
+      "target": "cognition"
+    },
+    {
+      "confidence": 0.5,
+      "relation": "related_to",
+      "source": "arxiv:2607.19316v1",
+      "target": "cognition_social"
+    },
+    {
+      "confidence": 0.5,
+      "relation": "related_to",
+      "source": "arxiv:2607.19343v1",
+      "target": "gpu_graphics"
+    },
+    {
+      "confidence": 0.5,
+      "relation": "related_to",
+      "source": "arxiv:2607.19344v1",
+      "target": "gpu_graphics"
+    },
+    {
+      "confidence": 0.5,
+      "relation": "related_to",
+      "source": "arxiv:2607.19344v1",
+      "target": "llm_agent"
+    },
+    {
+      "confidence": 0.5,
+      "relation": "related_to",
       "source": "classic:architecture:cache-coherence-and-shared-memory-multiprocessors",
       "target": "architecture"
     },
@@ -791,6 +839,55 @@
       "type": "paper"
     },
     {
+      "id": "arxiv:2607.19291v1",
+      "label": "EmbeddedKittens: An Evaluation of Code Embeddings for Scratch",
+      "topics": [
+        "llm_agent"
+      ],
+      "type": "paper"
+    },
+    {
+      "id": "arxiv:2607.19297v1",
+      "label": "Graph-Based Agentic AI with LangGraph: Workflow Pathways for Long-Running Stateful Business Processes",
+      "topics": [
+        "llm_agent"
+      ],
+      "type": "paper"
+    },
+    {
+      "id": "arxiv:2607.19310v1",
+      "label": "Distributed Delay-Based BIST for Mixed-Signal Circuits in Flexible Electronics",
+      "topics": [
+        "architecture"
+      ],
+      "type": "paper"
+    },
+    {
+      "id": "arxiv:2607.19316v1",
+      "label": "Eccentricity-Constrained CNN Training Reveals Adaptive Information Coding Around the Visual Field",
+      "topics": [
+        "cognition"
+      ],
+      "type": "paper"
+    },
+    {
+      "id": "arxiv:2607.19343v1",
+      "label": "Masked Visual Actions for Unified World Modeling",
+      "topics": [
+        "gpu_graphics"
+      ],
+      "type": "paper"
+    },
+    {
+      "id": "arxiv:2607.19344v1",
+      "label": "Appearance Pointers -- Multimodal Region Control of Diffusion Transformers",
+      "topics": [
+        "gpu_graphics",
+        "llm_agent"
+      ],
+      "type": "paper"
+    },
+    {
       "id": "classic:architecture:cache-coherence-and-shared-memory-multiprocessors",
       "label": "Cache coherence and shared-memory multiprocessors",
       "topics": [
@@ -904,5 +1001,5 @@
     }
   ],
   "public_json_version": "0.2",
-  "updated_at": "2026-07-21T23:05:26+00:00"
+  "updated_at": "2026-07-22T23:12:13+00:00"
 }

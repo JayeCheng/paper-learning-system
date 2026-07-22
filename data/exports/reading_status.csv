@@ -41,6 +41,12 @@ arxiv:2607.18178v1,backlog,medium,,2026-07-21T23:05:26+00:00,uSTM: A Lightweight
 arxiv:2607.18181v1,backlog,medium,,2026-07-21T23:05:26+00:00,VEHBench: A Stage-Local Diagnostic Benchmark for LLM-Assisted Vibration Energy Harvester Design,llm_agent,B
 arxiv:2607.18187v1,backlog,medium,,2026-07-21T23:05:26+00:00,EVOLVE: Efficient Learned Volume Compression with Variable-Rate Encoding on a Cross-Domain Database,gpu_graphics,B
 arxiv:2607.18213v1,backlog,medium,,2026-07-21T23:05:26+00:00,SWE-Pruner Pro: The Coder LLM Already Knows What to Prune,llm_agent,B
+arxiv:2607.19291v1,backlog,medium,,2026-07-22T23:12:13+00:00,EmbeddedKittens: An Evaluation of Code Embeddings for Scratch,llm_agent,B
+arxiv:2607.19297v1,backlog,medium,,2026-07-22T23:12:13+00:00,Graph-Based Agentic AI with LangGraph: Workflow Pathways for Long-Running Stateful Business Processes,llm_agent,B
+arxiv:2607.19310v1,backlog,medium,,2026-07-22T23:12:13+00:00,Distributed Delay-Based BIST for Mixed-Signal Circuits in Flexible Electronics,architecture,B
+arxiv:2607.19316v1,backlog,medium,,2026-07-22T23:12:13+00:00,Eccentricity-Constrained CNN Training Reveals Adaptive Information Coding Around the Visual Field,cognition_social,B
+arxiv:2607.19343v1,backlog,medium,,2026-07-22T23:12:13+00:00,Masked Visual Actions for Unified World Modeling,gpu_graphics,B
+arxiv:2607.19344v1,backlog,medium,,2026-07-22T23:12:13+00:00,Appearance Pointers -- Multimodal Region Control of Diffusion Transformers,gpu_graphics,B
 classic:architecture:cache-coherence-and-shared-memory-multiprocessors,backlog,medium,,2026-07-09T09:46:00+00:00,Cache coherence and shared-memory multiprocessors,architecture,B
 classic:architecture:the-memory-hierarchy-and-locality,backlog,medium,,2026-07-09T09:46:00+00:00,The memory hierarchy and locality,architecture,B
 classic:cognition:attention-and-working-memory,backlog,medium,,2026-07-09T09:46:00+00:00,Attention and working memory,cognition,B
