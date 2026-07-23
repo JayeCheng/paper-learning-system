@@ -1,7 +1,7 @@
 id,title,source,source_type,source_group,recommendation_level,score,published_date,url,topics,categories,reading_status
-arxiv:2607.19344v1,Appearance Pointers -- Multimodal Region Control of Diffusion Transformers,arxiv,recent_7d,gpu_graphics,B,0.732,2026-07-21,http://arxiv.org/abs/2607.19344v1,gpu_graphics;llm_agent,cs.CV;cs.AI;cs.GR,backlog
-arxiv:2607.19343v1,Masked Visual Actions for Unified World Modeling,arxiv,recent_7d,gpu_graphics,B,0.662,2026-07-21,http://arxiv.org/abs/2607.19343v1,gpu_graphics,cs.CV;cs.RO,backlog
-arxiv:2607.19310v1,Distributed Delay-Based BIST for Mixed-Signal Circuits in Flexible Electronics,arxiv,recent_7d,architecture,B,0.732,2026-07-21,http://arxiv.org/abs/2607.19310v1,architecture,cs.AR;cs.ET,backlog
-arxiv:2607.19297v1,Graph-Based Agentic AI with LangGraph: Workflow Pathways for Long-Running Stateful Business Processes,arxiv,recent_7d,llm_agent,B,0.732,2026-07-21,http://arxiv.org/abs/2607.19297v1,llm_agent,cs.AI;cs.SE,backlog
-arxiv:2607.19291v1,EmbeddedKittens: An Evaluation of Code Embeddings for Scratch,arxiv,recent_7d,llm_agent,B,0.732,2026-07-21,http://arxiv.org/abs/2607.19291v1,llm_agent,cs.SE,backlog
-arxiv:2607.19316v1,Eccentricity-Constrained CNN Training Reveals Adaptive Information Coding Around the Visual Field,arxiv,recent_7d,cognition_social,B,0.662,2026-07-21,http://arxiv.org/abs/2607.19316v1,cognition,q-bio.NC,backlog
+arxiv:2607.20384v1,Split Radiance Cascades: Real-Time Global Illumination via Sparse Radiance Probes,arxiv,recent_7d,gpu_graphics,B,0.732,2026-07-22,http://arxiv.org/abs/2607.20384v1,gpu_graphics,cs.GR,backlog
+arxiv:2607.20325v1,MR-Compare: A Mixed-Reality Framework for Spatially Grounded Visual Comparison of 3D Gaussian Splatting and Mesh Reconstructions with the Physical Environment,arxiv,recent_7d,gpu_graphics,B,0.732,2026-07-22,http://arxiv.org/abs/2607.20325v1,gpu_graphics,cs.GR,backlog
+arxiv:2607.20358v1,PolySim: Deterministic Polynomial Surrogates for Cross-Modal Retrieval on CiM,arxiv,recent_7d,architecture,B,0.732,2026-07-22,http://arxiv.org/abs/2607.20358v1,architecture,cs.ET;cs.AR,backlog
+arxiv:2607.20396v1,The ICSE 2026 Shadow PC: Training the Next Generation of Reviewers Through Deliberate Practice,arxiv,recent_7d,llm_agent,B,0.732,2026-07-22,http://arxiv.org/abs/2607.20396v1,llm_agent,cs.SE,backlog
+arxiv:2607.20353v1,Multi-Source and Cross-Scenario Strategy-Guided Code Optimization,arxiv,recent_7d,llm_agent,B,0.732,2026-07-22,http://arxiv.org/abs/2607.20353v1,llm_agent,cs.SE,backlog
+arxiv:2607.20310v1,Capturing Inner Experience At Scale: An AI Interviewer Co-Developed with the Founder of a Landmark Phenomenological Method,arxiv,recent_7d,cognition_social,B,0.662,2026-07-22,http://arxiv.org/abs/2607.20310v1,cognition,q-bio.NC,backlog
