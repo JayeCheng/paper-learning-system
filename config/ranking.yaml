@@ -12,6 +12,15 @@ weights:
   engineering_transferability: 0.20
   classic_value: 0.10
 
+source_quality:
+  arxiv: 0.78
+  openreview: 0.88
+  biorxiv: 0.68
+  semantic_scholar_enriched: 0.82
+  manual_classic: 0.80
+  github: 0.60
+  manual: 0.55
+
 topic_boosts:
   gpu_graphics: 1.10
   architecture: 1.10

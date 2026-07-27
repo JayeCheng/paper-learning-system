@@ -9,7 +9,7 @@ Rules:
 - Do not require consumers to parse free-form Markdown.
 - Do not expose internal checkpoint details from `data/state/`.
 
-Generated v0.2 files:
+Generated v0.3 files:
 
 - `latest.json`: pointer to the latest daily Markdown and JSON report.
 - `daily_index.json`: ordered index of daily reports.

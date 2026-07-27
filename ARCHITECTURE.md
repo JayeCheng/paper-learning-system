@@ -11,6 +11,7 @@ sources
   -> src/paper_learning/fetchers
   -> src/paper_learning/core/normalize.py
   -> src/paper_learning/core/dedupe.py
+  -> src/paper_learning/enrichers
   -> src/paper_learning/core/rank.py
   -> src/paper_learning/core/curriculum.py
   -> src/paper_learning/reports
@@ -25,6 +26,9 @@ sources
 
 - `fetchers/` only fetch source data. Fetchers do not rank, update reading state, or
   publish to integrations.
+- `enrichers/` only enrich already-normalized metadata before ranking. Enrichers may
+  call metadata APIs, but they do not select recommendations, render reports, clone
+  repositories, or download PDFs.
 - `core/rank.py` only scores normalized paper records. It does not access the network.
 - `reports/` only renders Markdown and JSON from prepared data. It does not fetch.
 - `core/state_store.py` owns durable repository state reads and writes.
@@ -46,6 +50,25 @@ fetches metadata; the daily pipeline calls it once per group and recency window,
 normalization, dedupe, and ranking decide the daily selection. `source_group` is kept
 on candidates and normalized papers so later ranking and public JSON can preserve the
 originating topic lane.
+
+## Source Enrichment
+
+`config/sources.yaml` controls optional v0.3 sources:
+
+- OpenReview fetches conference-review metadata for configured venues or explicit
+  venue IDs. Each venue request fails independently; ranking derives recency from
+  `report_date - published_date`.
+- bioRxiv/medRxiv fetches recent preprint metadata only for neuroscience, cognitive
+  science, and behavior-relevant categories or keywords.
+- Semantic Scholar is metadata enrichment only. Exact IDs are preferred; title
+  fallback requires strict title, author, and year checks. Its deterministic budget
+  is allocated across source groups rather than by source traversal order.
+- GitHub network fetching is a future metadata source. Current link discovery is
+  local and network-free, using metadata already attached to normalized papers.
+
+All enrichment runs before `core/rank.py`. Ranking consumes local fields such as
+`citation_count`, `code_url`, `venue`, and `field`, and must remain network-free.
+Provider rate limiting is not yet implemented; configuration does not claim otherwise.
 
 ## State Model
 
@@ -85,9 +108,10 @@ It should not parse free-form Markdown or internal state. Astro, Next.js, or
 Docusaurus can all fit this model as long as the build step treats JSON as the stable
 interface and Markdown as a human archive.
 
-## v0.2 State Files
+## v0.3 State Files
 
-- `data/state/papers.jsonl`: full cumulative normalized paper library.
+- `data/state/papers.jsonl`: full cumulative normalized paper library, including
+  source enrichment fields when available.
 - `data/state/reading_status.json`: long-term human/automation reading state.
 - `data/state/run_history.json`: one entry per successful daily pipeline run, including
   date, generated paths, paper count, S-level paper id, and status.
@@ -99,10 +123,16 @@ Derived files must be regenerated from this state:
 - `data/exports/reading_status.csv`: full reading-status table.
 - `data/public/*.json`: stable, schema-backed frontend contract.
 
-## v0.2 Non-Goals
+The v0.3.1 migration in `scripts/migrate_v03_state.py` is explicit and separate from
+daily upserts. It atomically removes known curriculum links misclassified as code,
+repairs inferable topics, preserves reading state and unknown manual fields, and
+regenerates derived exports/public JSON without rewriting historical daily archives.
+
+## v0.3 Non-Goals
 
 - No complex crawler implementation.
 - No live Notion or Zotero synchronization.
 - No database dependency.
-- No ranking model beyond deterministic placeholder scoring.
+- No PDF download or parsing.
+- No ranking model beyond deterministic local scoring.
 - No web frontend beyond documentation.

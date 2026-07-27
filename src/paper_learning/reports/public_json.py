@@ -26,7 +26,7 @@ def write_public_json(
 ) -> dict[str, Path]:
     public_dir.mkdir(parents=True, exist_ok=True)
     updated_at = _updated_at(report, run_history)
-    version = report.public_json_version if report else "0.2"
+    version = report.public_json_version if report else "0.3"
     papers_with_status = apply_reading_statuses(papers, reading_statuses)
     latest_entry = _latest_entry(report, run_history)
 

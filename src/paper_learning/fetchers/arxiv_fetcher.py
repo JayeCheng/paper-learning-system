@@ -6,6 +6,7 @@ from urllib.request import Request, urlopen
 import xml.etree.ElementTree as ET
 
 from paper_learning.core.models import PaperCandidate
+from paper_learning.enrichers.links import discover_links
 
 ARXIV_API_URL = "https://export.arxiv.org/api/query"
 ATOM_NS = {"atom": "http://www.w3.org/2005/Atom", "arxiv": "http://arxiv.org/schemas/atom"}
@@ -71,13 +72,16 @@ def _parse_arxiv_atom(
         categories = [node.attrib.get("term", "") for node in entry.findall("atom:category", ATOM_NS)]
         categories = [category for category in categories if category]
         pdf_url = _pdf_link(entry)
+        abstract = _text(entry, "atom:summary")
+        comment = _text(entry, "arxiv:comment")
+        code_url, project_url = discover_links(f"{abstract} {comment}")
 
         candidates.append(
             PaperCandidate(
                 id=f"arxiv:{arxiv_id}",
                 title=_text(entry, "atom:title"),
                 authors=[_text(author, "atom:name") for author in entry.findall("atom:author", ATOM_NS)],
-                abstract=_text(entry, "atom:summary"),
+                abstract=abstract,
                 source="arxiv",
                 source_url=source_url,
                 pdf_url=pdf_url,
@@ -87,6 +91,8 @@ def _parse_arxiv_atom(
                 source_type=source_type,
                 source_group=source_group,
                 identifiers={"arxiv_id": arxiv_id},
+                code_url=code_url,
+                project_url=project_url,
             )
         )
     return candidates

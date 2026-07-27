@@ -6,8 +6,8 @@
   "required": ["public_json_version", "updated_at", "papers"],
   "additionalProperties": false,
   "properties": {
-    "public_json_version": { "type": "string", "default": "0.2" },
-    "updated_at": { "type": "string" },
+    "public_json_version": { "type": "string", "default": "0.3" },
+    "updated_at": { "type": "string", "format": "date-time" },
     "papers": {
       "type": "array",
       "items": { "$ref": "paper.schema.json" },

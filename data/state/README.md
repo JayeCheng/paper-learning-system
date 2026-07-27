@@ -5,7 +5,8 @@
 Examples:
 
 - `papers.jsonl`: full cumulative normalized paper library. Daily runs upsert into
-  this file; they do not replace it with only the current day.
+  this file; they do not replace it with only the current day. v0.3 enrichment
+  metadata is preserved here when available.
 - `reading_status.json`: long-term reading status and priority for known papers.
 - `run_history.json`: every successful daily pipeline run with date, generated paths,
   paper count, S-level paper id, and status.

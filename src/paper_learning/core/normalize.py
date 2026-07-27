@@ -21,6 +21,11 @@ CATEGORY_TOPIC_MAP = {
     "cognition": "cognition",
     "cs.HC": "cognition",
     "q-bio.NC": "cognition",
+    "neuroscience": "cognition",
+    "animal behavior and cognition": "cognition",
+    "behavioral neuroscience": "cognition",
+    "psychology": "cognition",
+    "cognitive science": "cognition",
     "sociology": "sociology",
     "physics.soc-ph": "sociology",
     "cs.SI": "sociology",
@@ -44,8 +49,11 @@ def normalize_paper(raw: dict | PaperCandidate) -> Paper:
     topics = list(raw.get("topics") or _infer_topics(categories, tags))
     published_date = raw.get("published_date") or raw.get("published_at")
     identifiers = dict(raw.get("identifiers") or {})
+    external_ids = {str(key): str(value) for key, value in dict(raw.get("external_ids") or {}).items() if value}
     if source == "arxiv" and paper_id and "arxiv_id" not in identifiers:
         identifiers["arxiv_id"] = paper_id.replace("arxiv:", "")
+    for key, value in external_ids.items():
+        identifiers.setdefault(key, value)
 
     return Paper(
         id=paper_id,
@@ -63,7 +71,12 @@ def normalize_paper(raw: dict | PaperCandidate) -> Paper:
         code_url=raw.get("code_url"),
         project_url=raw.get("project_url"),
         citation_count=raw.get("citation_count"),
+        influential_citation_count=raw.get("influential_citation_count"),
         venue=raw.get("venue"),
+        fields_of_study=list(raw.get("fields_of_study") or []),
+        external_ids=external_ids,
+        open_access_pdf_url=raw.get("open_access_pdf_url"),
+        enrichment_sources=list(raw.get("enrichment_sources") or []),
         difficulty=raw.get("difficulty"),
         why_recommended=raw.get("why_recommended"),
         classic_status=raw.get("classic_status"),
