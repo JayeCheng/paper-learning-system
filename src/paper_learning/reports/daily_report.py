@@ -8,7 +8,7 @@ from paper_learning.reports.json_renderer import render_daily_json
 from paper_learning.reports.markdown_renderer import render_daily_markdown
 from paper_learning.utils.time import today_string, utc_now_string
 
-PUBLIC_JSON_VERSION = "0.3"
+PUBLIC_JSON_VERSION = "0.4"
 
 
 def daily_report_paths(date: str, *, daily_root: Path = Path("daily")) -> tuple[Path, Path]:
@@ -67,13 +67,16 @@ def with_generated_paths(
             "public_knowledge_graph": _repo_path(public_dir / "knowledge_graph.json", root),
             "public_reading_status": _repo_path(public_dir / "reading_status.json", root),
             "public_curriculum_progress": _repo_path(public_dir / "curriculum_progress.json", root),
+            "public_notes_index": _repo_path(public_dir / "notes_index.json", root),
             "exports_jsonl": _repo_path(exports_dir / "papers.jsonl", root),
             "exports_csv": _repo_path(exports_dir / "papers.csv", root),
             "exports_daily_csv": _repo_path(exports_dir / "daily_papers.csv", root),
             "exports_reading_status": _repo_path(exports_dir / "reading_status.csv", root),
+            "exports_notes_index": _repo_path(exports_dir / "notes_index.csv", root),
             "state_papers": _repo_path(state_dir / "papers.jsonl", root),
             "state_reading_status": _repo_path(state_dir / "reading_status.json", root),
             "state_run_history": _repo_path(state_dir / "run_history.json", root),
+            "state_notes_index": _repo_path(state_dir / "notes_index.json", root),
         },
         frontend_entry=_repo_path(latest_path, root),
     )

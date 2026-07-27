@@ -173,6 +173,7 @@ def test_full_fixture_pipeline_is_idempotent_and_schema_valid(tmp_path, monkeypa
         "knowledge_graph.json": "knowledge_graph.schema.json",
         "reading_status.json": "reading_status.schema.json",
         "curriculum_progress.json": "curriculum_progress.schema.json",
+        "notes_index.json": "notes_index.schema.json",
     }
     for filename, schema_name in public_schema.items():
         payload = json.loads((root / "data/public" / filename).read_text(encoding="utf-8"))

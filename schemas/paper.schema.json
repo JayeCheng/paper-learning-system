@@ -111,6 +111,15 @@
       "type": "object",
       "additionalProperties": { "type": "number" }
     },
+    "existing_note_url": { "type": ["string", "null"], "format": "uri" },
+    "suggested_note_type": {
+      "type": ["string", "null"],
+      "enum": ["deep_read", "concept_card", "method_card", "english_card", "project_note", null]
+    },
+    "suggested_note_title": { "type": ["string", "null"] },
+    "note_count": { "type": "integer", "minimum": 0, "default": 0 },
+    "latest_note_url": { "type": ["string", "null"], "format": "uri" },
+    "deep_read_note_url": { "type": ["string", "null"], "format": "uri" },
     "reading_status": {
       "type": "string",
       "enum": ["backlog", "queued", "skimmed", "deep_read", "archived", "skipped"]

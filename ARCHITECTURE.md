@@ -83,6 +83,18 @@ GitHub owns long-term state:
 Notion, Zotero, and future dashboards are downstream views. They can be rebuilt from
 GitHub state.
 
+## v0.4 Notion Metadata Bridge
+
+`data/state/notes_index.json` is the durable note metadata source. It links papers to
+deep reads, concept/method/English cards, project notes, local Markdown, manual Notion
+URLs, and knowledge nodes. CLI note commands update this GitHub-owned state without
+calling Notion.
+
+`data/public/notes_index.json`, note summary fields in `papers_index.json`, and
+`data/exports/notes_index.csv` are derived contracts. Frontends consume public JSON
+and never require Notion credentials. `integrations/notion_client.py` remains an
+optional outbound placeholder and cannot replace GitHub state.
+
 ## Data Contracts
 
 Schemas live in `schemas/`:

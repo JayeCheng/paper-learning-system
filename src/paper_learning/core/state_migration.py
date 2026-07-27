@@ -8,6 +8,7 @@ import tempfile
 from urllib.parse import urlparse
 
 from paper_learning.core.normalize import CATEGORY_TOPIC_MAP, normalize_paper
+from paper_learning.core.notes_index import load_notes
 from paper_learning.core.state_store import (
     load_reading_statuses,
     load_run_history,
@@ -142,12 +143,14 @@ def _regenerate_derived_outputs(root: Path) -> None:
     papers = [normalize_paper(row) for row in _read_jsonl_rows(papers_path(root))]
     statuses = load_reading_statuses(root)
     run_history = load_run_history(root)
+    notes = load_notes(root)
     daily_papers = _load_latest_daily_papers(root, run_history)
     write_exports(
         papers=papers,
         reading_statuses=statuses,
         daily_papers=daily_papers,
         exports_dir=root / "data" / "exports",
+        notes=notes,
     )
     write_public_json(
         report=None,
@@ -155,6 +158,7 @@ def _regenerate_derived_outputs(root: Path) -> None:
         reading_statuses=statuses,
         run_history=run_history,
         public_dir=root / "data" / "public",
+        notes=notes,
     )
 
 

@@ -73,6 +73,12 @@ class Paper:
     identifiers: dict[str, str] = dataclass_field(default_factory=dict)
     scores: dict[str, float] = dataclass_field(default_factory=dict)
     reading_status: str = "backlog"
+    existing_note_url: str | None = None
+    suggested_note_type: str | None = None
+    suggested_note_title: str | None = None
+    note_count: int = 0
+    latest_note_url: str | None = None
+    deep_read_note_url: str | None = None
 
     def to_dict(self) -> dict:
         return asdict(self)
@@ -87,7 +93,7 @@ class DailyReport:
     learning_route_position: str | None = None
     source_mode_summary: dict[str, int] = dataclass_field(default_factory=dict)
     s_level_paper_id: str | None = None
-    public_json_version: str = "0.3"
+    public_json_version: str = "0.4"
     generated_paths: dict[str, str] = dataclass_field(default_factory=dict)
     frontend_entry: str = "data/public/latest.json"
     s_level_candidate_ids: list[str] = dataclass_field(default_factory=list)
@@ -108,6 +114,24 @@ class ReadingStatus:
     priority: str = "medium"
     notes_path: str | None = None
     history: list[dict] = dataclass_field(default_factory=list)
+
+    def to_dict(self) -> dict:
+        return asdict(self)
+
+
+@dataclass(frozen=True)
+class NoteIndexEntry:
+    note_id: str
+    paper_id: str
+    note_type: str
+    title: str
+    notion_url: str | None
+    local_markdown_path: str | None
+    status: str
+    created_at: str
+    updated_at: str
+    tags: list[str] = dataclass_field(default_factory=list)
+    linked_knowledge_nodes: list[str] = dataclass_field(default_factory=list)
 
     def to_dict(self) -> dict:
         return asdict(self)

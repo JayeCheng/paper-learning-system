@@ -6,7 +6,7 @@
   "required": ["public_json_version", "updated_at", "statuses"],
   "additionalProperties": false,
   "properties": {
-    "public_json_version": { "type": "string", "default": "0.3" },
+    "public_json_version": { "type": "string", "default": "0.4" },
     "updated_at": { "type": "string", "format": "date-time" },
     "statuses": {
       "type": "array",

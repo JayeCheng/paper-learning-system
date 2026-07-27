@@ -10,6 +10,8 @@ Examples:
 - `reading_status.json`: long-term reading status and priority for known papers.
 - `run_history.json`: every successful daily pipeline run with date, generated paths,
   paper count, S-level paper id, and status.
+- `notes_index.json`: durable metadata for deep reads, concept/method/English cards,
+  project notes, manual Notion URLs, and linked knowledge nodes.
 
 Frontends must not consume this directory directly. Publish sanitized contracts to
 `data/public/` instead.

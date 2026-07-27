@@ -66,6 +66,7 @@ def test_public_json_files_are_generated_from_state_contract() -> None:
             "knowledge_graph.json",
             "reading_status.json",
             "curriculum_progress.json",
+            "notes_index.json",
         ]:
             assert (root / "data/public" / name).exists()
 
@@ -84,6 +85,7 @@ def test_public_json_files_have_matching_schemas() -> None:
         "knowledge_graph.schema.json",
         "reading_status.schema.json",
         "curriculum_progress.schema.json",
+        "notes_index.schema.json",
     }
 
     assert expected <= {path.name for path in Path("schemas").glob("*.schema.json")}

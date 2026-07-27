@@ -28,6 +28,12 @@ def render_daily_markdown(report: DailyReport) -> str:
             lines.append(f"   - Topics: {topics}")
             if paper.why_recommended:
                 lines.append(f"   - Why: {paper.why_recommended}")
+            if paper.selected_for_s_level:
+                lines.append(f"   - Existing note: {paper.existing_note_url or 'none'}")
+                lines.append(f"   - Suggested note type: {paper.suggested_note_type or 'deep_read'}")
+                lines.append(
+                    f"   - Suggested note title: {paper.suggested_note_title or f'Deep Read: {paper.title}'}"
+                )
     else:
         lines.append("No papers selected yet.")
 

@@ -6,6 +6,7 @@ from pathlib import Path
 from paper_learning.core.curriculum import load_classic_fallback_candidates
 from paper_learning.core.dedupe import dedupe_papers
 from paper_learning.core.models import DailyReport
+from paper_learning.core.notes_index import annotate_report_papers, load_notes
 from paper_learning.core.normalize import normalize_papers
 from paper_learning.core.rank import select_ranked_papers
 from paper_learning.core.state_store import append_run_history, ensure_reading_status_entries, upsert_papers
@@ -60,8 +61,10 @@ def run_daily_pipeline(date: str | None = None, *, root: Path = Path(".")) -> tu
         report_date=report_date,
         group_targets=_source_group_targets(arxiv_config),
     )
+    notes = load_notes(root)
+    report_papers = annotate_report_papers(selected, notes)
 
-    report = build_daily_report(selected, date=report_date, summary=_summary(selected))
+    report = build_daily_report(report_papers, date=report_date, summary=_summary(selected))
     markdown_path, json_path = daily_report_paths(report.date, daily_root=root / "daily")
     report = with_generated_paths(
         report,
@@ -74,8 +77,8 @@ def run_daily_pipeline(date: str | None = None, *, root: Path = Path(".")) -> tu
     )
     write_daily_report(report, markdown_path=markdown_path, json_path=json_path)
 
-    all_papers = upsert_papers(report.papers, root=root)
-    reading_statuses = ensure_reading_status_entries(report.papers, root=root, updated_at=report.generated_at)
+    all_papers = upsert_papers(selected, root=root)
+    reading_statuses = ensure_reading_status_entries(selected, root=root, updated_at=report.generated_at)
     run_history = append_run_history(
         root=root,
         date=report.date,
@@ -90,6 +93,7 @@ def run_daily_pipeline(date: str | None = None, *, root: Path = Path(".")) -> tu
         reading_statuses=reading_statuses,
         daily_papers=report.papers,
         exports_dir=root / "data" / "exports",
+        notes=notes,
     )
     write_public_json(
         report=report,
@@ -97,6 +101,7 @@ def run_daily_pipeline(date: str | None = None, *, root: Path = Path(".")) -> tu
         reading_statuses=reading_statuses,
         run_history=run_history,
         public_dir=root / "data" / "public",
+        notes=notes,
     )
     return report, markdown_path, json_path
 

@@ -93,6 +93,12 @@ def normalize_paper(raw: dict | PaperCandidate) -> Paper:
         identifiers=identifiers,
         scores=dict(raw.get("scores") or {}),
         reading_status=str(raw.get("reading_status", "backlog")),
+        existing_note_url=raw.get("existing_note_url"),
+        suggested_note_type=raw.get("suggested_note_type"),
+        suggested_note_title=raw.get("suggested_note_title"),
+        note_count=int(raw.get("note_count") or 0),
+        latest_note_url=raw.get("latest_note_url"),
+        deep_read_note_url=raw.get("deep_read_note_url"),
     )
 
 

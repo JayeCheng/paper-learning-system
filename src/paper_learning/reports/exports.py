@@ -4,7 +4,7 @@ import csv
 import json
 from pathlib import Path
 
-from paper_learning.core.models import Paper, ReadingStatus
+from paper_learning.core.models import NoteIndexEntry, Paper, ReadingStatus
 from paper_learning.core.state_store import apply_reading_statuses
 
 PAPER_EXPORT_FIELDS = [
@@ -40,6 +40,20 @@ READING_STATUS_EXPORT_FIELDS = [
     "recommendation_level",
 ]
 
+NOTES_INDEX_EXPORT_FIELDS = [
+    "note_id",
+    "paper_id",
+    "note_type",
+    "title",
+    "notion_url",
+    "local_markdown_path",
+    "status",
+    "created_at",
+    "updated_at",
+    "tags",
+    "linked_knowledge_nodes",
+]
+
 
 def write_exports(
     *,
@@ -47,6 +61,7 @@ def write_exports(
     reading_statuses: dict[str, ReadingStatus],
     exports_dir: Path = Path("data/exports"),
     daily_papers: list[Paper] | None = None,
+    notes: list[NoteIndexEntry] | None = None,
 ) -> dict[str, Path]:
     exports_dir.mkdir(parents=True, exist_ok=True)
     papers_with_status = apply_reading_statuses(papers, reading_statuses)
@@ -54,6 +69,7 @@ def write_exports(
         "papers_jsonl": exports_dir / "papers.jsonl",
         "papers_csv": exports_dir / "papers.csv",
         "reading_status_csv": exports_dir / "reading_status.csv",
+        "notes_index_csv": exports_dir / "notes_index.csv",
     }
 
     _write_jsonl(paths["papers_jsonl"], [paper.to_dict() for paper in papers_with_status])
@@ -62,6 +78,11 @@ def write_exports(
         paths["reading_status_csv"],
         _reading_status_rows(papers_with_status, reading_statuses),
         READING_STATUS_EXPORT_FIELDS,
+    )
+    _write_csv(
+        paths["notes_index_csv"],
+        [_note_row(note) for note in sorted(notes or [], key=lambda item: item.note_id)],
+        NOTES_INDEX_EXPORT_FIELDS,
     )
 
     if daily_papers is not None:
@@ -101,6 +122,13 @@ def _reading_status_rows(papers: list[Paper], statuses: dict[str, ReadingStatus]
             }
         )
     return rows
+
+
+def _note_row(note: NoteIndexEntry) -> dict:
+    row = note.to_dict()
+    row["tags"] = ";".join(note.tags)
+    row["linked_knowledge_nodes"] = ";".join(note.linked_knowledge_nodes)
+    return row
 
 
 def _write_jsonl(path: Path, rows: list[dict]) -> None:

@@ -6,11 +6,15 @@ This repository is a long-lived, GitHub-first system for learning from research 
 It is designed to collect promising papers, rank them, turn them into durable reading
 artifacts, and expose machine-readable JSON for future integrations and web frontends.
 
-Version `v0.3.1` stabilizes the backend loop with source enrichment. It can run
+Version `v0.4` adds a Notion metadata bridge to the stabilized source-enrichment
+backend. It can run
 a daily paper radar, fetch recent arXiv metadata by configured topic groups, add
 OpenReview and bioRxiv/medRxiv candidates, enrich metadata through Semantic Scholar
 when available, discover code/project links without cloning repositories, and
 maintain durable state plus derived public/export artifacts.
+
+Notion remains a downstream presentation layer. GitHub state and
+`data/public/*.json` remain the durable and frontend-facing contracts.
 
 ## Goals
 
@@ -53,6 +57,12 @@ paper-learning status list
 paper-learning status set arxiv:2601.00001v1 --status queued
 paper-learning status set arxiv:2601.00001v1 --priority high
 paper-learning status set arxiv:2601.00001v1 --notes-path deep_read/llm_agent/example.md
+paper-learning note list
+paper-learning note add --paper-id arxiv:2601.00001v1 --type deep_read \
+  --title "Deep Read: Example" --notion-url "https://www.notion.so/example"
+paper-learning note update note:deep_read:deep-read-example-12345678 --status published
+paper-learning note link --note-id note:deep_read:deep-read-example-12345678 \
+  --knowledge-node retrieval-augmented-generation
 ```
 
 Or without installing the console script:
@@ -152,10 +162,26 @@ python scripts/migrate_v03_state.py --root .
 - `data/exports/daily_papers.csv` is the latest daily selected-paper export.
 - `data/exports/reading_status.csv` is the full reading-status export.
 - `data/public/*.json` is the only stable frontend entry layer.
+- `data/state/notes_index.json` is the GitHub-owned metadata index for local and
+  manually entered Notion note links.
+- `data/public/notes_index.json` and `data/exports/notes_index.csv` are derived views
+  for future frontends and spreadsheet review.
+
+## Notion Metadata Bridge
+
+Use `paper-learning note add` to record a Notion URL after creating a note manually.
+The CLI does not contact Notion. `NOTION_API_KEY` and `NOTION_DATABASE_ID` are
+optional; when absent, `scripts/sync_notion.py` exits successfully with a skip
+message. Even when configured, v0.4 does not implement automatic content sync.
+
+Daily S-level papers include an existing note URL when available and a suggested
+`deep_read` note title. Future frontends can show note entry links using
+`data/public/notes_index.json` and the note summary fields in
+`data/public/papers_index.json`, without loading the Notion API.
 
 Not yet implemented:
 
-- Notion synchronization beyond a mock placeholder
+- automatic Notion content synchronization
 - Zotero export beyond placeholders
 - PDF download or parsing
 - vector databases or semantic search

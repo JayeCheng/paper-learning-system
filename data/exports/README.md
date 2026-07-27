@@ -9,5 +9,6 @@ Current generated files:
 - `daily_papers.csv`: latest daily selected-paper export.
 - `reading_status.csv`: full reading-status export from
   `data/state/reading_status.json`.
+- `notes_index.csv`: note metadata export from `data/state/notes_index.json`.
 
 Exports must be reproducible from GitHub state whenever possible.
