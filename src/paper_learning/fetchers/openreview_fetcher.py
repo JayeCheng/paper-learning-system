@@ -44,13 +44,12 @@ def fetch_openreview_candidates(
     if not ids:
         return candidates
 
-    try:
-        for venue_id in ids:
+    for venue_id in ids:
+        try:
             payload = _fetch_notes_payload(venue_id=venue_id, limit=limit)
             candidates.extend(_parse_openreview_notes(payload, venue_id=venue_id))
-    except (OSError, json.JSONDecodeError, ValueError) as exc:
-        LOGGER.warning("OpenReview fetch failed: %s", exc)
-        return []
+        except (OSError, json.JSONDecodeError, ValueError) as exc:
+            LOGGER.warning("OpenReview fetch failed for venue_id=%s: %s", venue_id, exc)
 
     return candidates
 
@@ -72,9 +71,11 @@ def _fetch_notes_payload(*, venue_id: str, limit: int) -> dict:
 
 
 def _parse_openreview_notes(payload: dict, *, venue_id: str) -> list[PaperCandidate]:
-    notes = payload.get("notes") if isinstance(payload, dict) else []
+    if not isinstance(payload, dict):
+        raise ValueError("payload must be an object")
+    notes = payload.get("notes")
     if not isinstance(notes, list):
-        return []
+        raise ValueError("payload.notes must be a list")
 
     candidates: list[PaperCandidate] = []
     for note in notes:
@@ -108,7 +109,7 @@ def _parse_openreview_notes(payload: dict, *, venue_id: str) -> list[PaperCandid
                 published_date=published_date,
                 categories=[venue_label] if venue_label else [],
                 tags=[tag for tag in [venue_label, venue_id] if tag],
-                source_type="recent_7d",
+                source_type="conference_review",
                 source_group="llm_agent",
                 identifiers={"openreview_id": note_id, "venue_id": venue_id},
                 venue=venue_label,
@@ -177,11 +178,11 @@ def _openreview_pdf_url(value: object) -> str | None:
 
 
 def _openreview_date(note: dict, content: dict) -> str | None:
-    year = _content_value(content, "year")
-    if year:
-        return f"{year}-01-01"
     for key in ("pdate", "cdate", "tmdate"):
         value = note.get(key)
         if isinstance(value, int) and value > 0:
             return datetime.fromtimestamp(value / 1000, timezone.utc).date().isoformat()
+    year = _content_value(content, "year")
+    if year:
+        return f"{year}-01-01"
     return None

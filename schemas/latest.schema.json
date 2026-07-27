@@ -12,8 +12,8 @@
       "type": ["object", "null"],
       "additionalProperties": false,
       "properties": {
-        "date": { "type": ["string", "null"] },
-        "generated_at": { "type": ["string", "null"] },
+        "date": { "type": ["string", "null"], "format": "date" },
+        "generated_at": { "type": ["string", "null"], "format": "date-time" },
         "markdown_path": { "type": ["string", "null"] },
         "json_path": { "type": ["string", "null"] },
         "paper_count": { "type": "integer", "minimum": 0 },

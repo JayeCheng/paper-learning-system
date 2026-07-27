@@ -61,8 +61,12 @@ def score_factors(
     if source_type != "classic":
         classic_value = max(classic_value, 0.35 + 0.25 * _citation_signal(citation_count))
 
+    recency = _recency_score(source_type, _get(paper, "published_date"), report_date)
+    if report_date is None:
+        recency = float(scores.get("recency", recency))
+
     return {
-        "recency": float(scores.get("recency", _recency_score(source_type, _get(paper, "published_date"), report_date))),
+        "recency": recency,
         "user_relevance": user_relevance,
         "source_quality": float(
             scores.get(
@@ -230,18 +234,14 @@ def _paper_group(paper: Paper) -> str | None:
 
 
 def _recency_score(source_type: str | None, published_date: str | None, report_date: str | None) -> float:
-    if source_type == "recent_24h":
-        return 1.0
-    if source_type == "recent_7d":
-        return 0.78
     if source_type == "classic":
         return 0.45
     if not published_date or not report_date:
-        return 0.55
+        return 0.35
     try:
         age_days = (date.fromisoformat(report_date) - date.fromisoformat(published_date[:10])).days
     except ValueError:
-        return 0.55
+        return 0.35
     if age_days <= 1:
         return 1.0
     if age_days <= 7:

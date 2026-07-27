@@ -2,6 +2,8 @@ import json
 from datetime import datetime, timezone
 
 from paper_learning.fetchers.biorxiv_fetcher import fetch_biorxiv_candidates
+from paper_learning.core.dedupe import dedupe_papers
+from paper_learning.core.normalize import normalize_papers
 
 
 class _Response:
@@ -68,3 +70,97 @@ def test_biorxiv_fetcher_degrades_to_empty_on_network_failure(monkeypatch, caplo
 
     assert fetch_biorxiv_candidates(categories=["neuroscience"], servers=["biorxiv"]) == []
     assert "bioRxiv/medRxiv fetch failed" in caplog.text
+
+
+def _payload(doi: str, category: str = "neuroscience") -> dict:
+    return {
+        "collection": [
+            {
+                "doi": doi,
+                "title": "Memory and learning in neural systems",
+                "authors": "Ada Lovelace",
+                "date": "2026-07-10",
+                "category": category,
+                "abstract": "Memory, cognition, and behavior.",
+            }
+        ]
+    }
+
+
+def test_biorxiv_keeps_biorxiv_when_medrxiv_fails(monkeypatch, caplog) -> None:
+    def fake_fetch(*, server, interval, category):
+        if server == "medrxiv":
+            raise OSError("offline")
+        return _payload("10.1101/good")
+
+    monkeypatch.setattr("paper_learning.fetchers.biorxiv_fetcher._fetch_details_payload", fake_fetch)
+
+    candidates = fetch_biorxiv_candidates(
+        servers=["biorxiv", "medrxiv"],
+        categories=["neuroscience"],
+        now=datetime(2026, 7, 13, tzinfo=timezone.utc),
+    )
+
+    assert [paper.identifiers["doi"] for paper in candidates] == ["10.1101/good"]
+    assert "server=medrxiv" in caplog.text
+    assert "category=neuroscience" in caplog.text
+    assert "interval=2026-07-06/2026-07-13" in caplog.text
+
+
+def test_biorxiv_keeps_other_category_after_failure(monkeypatch) -> None:
+    def fake_fetch(*, server, interval, category):
+        if category == "animal behavior and cognition":
+            raise ValueError("invalid payload")
+        return _payload("10.1101/neuro")
+
+    monkeypatch.setattr("paper_learning.fetchers.biorxiv_fetcher._fetch_details_payload", fake_fetch)
+
+    candidates = fetch_biorxiv_candidates(
+        servers=["biorxiv"],
+        categories=["animal behavior and cognition", "neuroscience"],
+    )
+
+    assert [paper.identifiers["doi"] for paper in candidates] == ["10.1101/neuro"]
+
+
+def test_biorxiv_all_requests_fail(monkeypatch) -> None:
+    def fake_fetch(*, server, interval, category):
+        raise json.JSONDecodeError("bad", "", 0)
+
+    monkeypatch.setattr("paper_learning.fetchers.biorxiv_fetcher._fetch_details_payload", fake_fetch)
+
+    assert fetch_biorxiv_candidates(
+        servers=["biorxiv", "medrxiv"],
+        categories=["neuroscience"],
+    ) == []
+
+
+def test_biorxiv_invalid_payload_does_not_stop_later_request(monkeypatch) -> None:
+    def fake_fetch(*, server, interval, category):
+        if server == "biorxiv":
+            return {"collection": "invalid"}
+        return _payload("10.1101/med")
+
+    monkeypatch.setattr("paper_learning.fetchers.biorxiv_fetcher._fetch_details_payload", fake_fetch)
+
+    candidates = fetch_biorxiv_candidates(
+        servers=["biorxiv", "medrxiv"],
+        categories=["neuroscience"],
+    )
+
+    assert [paper.identifiers["doi"] for paper in candidates] == ["10.1101/med"]
+
+
+def test_same_doi_from_different_servers_is_deduped_downstream(monkeypatch) -> None:
+    monkeypatch.setattr(
+        "paper_learning.fetchers.biorxiv_fetcher._fetch_details_payload",
+        lambda **_kwargs: _payload("10.1101/shared"),
+    )
+
+    candidates = fetch_biorxiv_candidates(
+        servers=["biorxiv", "medrxiv"],
+        categories=["neuroscience"],
+    )
+
+    assert len(candidates) == 2
+    assert len(dedupe_papers(normalize_papers(candidates))) == 1

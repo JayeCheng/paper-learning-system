@@ -26,7 +26,6 @@ sources:
         days: 1
       recent_7d:
         days: 7
-    rate_limit_per_minute: 30
     notes: Public metadata source for CS, physics, and quantitative fields.
 
   openreview:
@@ -37,7 +36,6 @@ sources:
     venue_ids: []
     years: [2026, 2025]
     max_results_per_venue: 10
-    rate_limit_per_minute: 20
     notes: Useful for ML, systems, and agent evaluation venues.
 
   biorxiv:
@@ -48,7 +46,6 @@ sources:
     categories: [neuroscience, animal behavior and cognition]
     window_days: 7
     max_results: 20
-    rate_limit_per_minute: 20
     notes: Useful for cognitive science and behavioral science.
 
   semantic_scholar:
@@ -58,12 +55,15 @@ sources:
     max_enrichments_per_run: 12
     max_without_api_key: 3
     timeout_seconds: 20
-    rate_limit_per_minute: 10
     notes: Optional enrichment source. API key must never be committed.
 
   github:
+    enabled: false
+    type: future_metadata_source
+    notes: Independent GitHub fetching is not implemented.
+
+  link_discovery:
     enabled: true
-    type: code_signal
-    fetcher: paper_learning.fetchers.github_fetcher
-    rate_limit_per_minute: 10
-    notes: Tracks project and benchmark signals related to papers.
+    type: local_metadata_enrichment
+    network_access: false
+    notes: Discovers code and project URLs from already-fetched paper metadata.

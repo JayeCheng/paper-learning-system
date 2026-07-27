@@ -56,15 +56,19 @@ originating topic lane.
 `config/sources.yaml` controls optional v0.3 sources:
 
 - OpenReview fetches conference-review metadata for configured venues or explicit
-  venue IDs.
+  venue IDs. Each venue request fails independently; ranking derives recency from
+  `report_date - published_date`.
 - bioRxiv/medRxiv fetches recent preprint metadata only for neuroscience, cognitive
   science, and behavior-relevant categories or keywords.
-- Semantic Scholar is metadata enrichment only. It can add citation counts, venue,
-  fields of study, external IDs, and open-access PDF URLs, but it is not a primary
-  recommendation source.
+- Semantic Scholar is metadata enrichment only. Exact IDs are preferred; title
+  fallback requires strict title, author, and year checks. Its deterministic budget
+  is allocated across source groups rather than by source traversal order.
+- GitHub network fetching is a future metadata source. Current link discovery is
+  local and network-free, using metadata already attached to normalized papers.
 
 All enrichment runs before `core/rank.py`. Ranking consumes local fields such as
 `citation_count`, `code_url`, `venue`, and `field`, and must remain network-free.
+Provider rate limiting is not yet implemented; configuration does not claim otherwise.
 
 ## State Model
 
@@ -118,6 +122,11 @@ Derived files must be regenerated from this state:
 - `data/exports/daily_papers.csv`: latest daily selection.
 - `data/exports/reading_status.csv`: full reading-status table.
 - `data/public/*.json`: stable, schema-backed frontend contract.
+
+The v0.3.1 migration in `scripts/migrate_v03_state.py` is explicit and separate from
+daily upserts. It atomically removes known curriculum links misclassified as code,
+repairs inferable topics, preserves reading state and unknown manual fields, and
+regenerates derived exports/public JSON without rewriting historical daily archives.
 
 ## v0.3 Non-Goals
 

@@ -27,7 +27,7 @@
     },
     "source_type": {
       "type": ["string", "null"],
-      "enum": ["recent_24h", "recent_7d", "classic", null]
+      "enum": ["recent_24h", "recent_7d", "conference_review", "classic", null]
     },
     "source_group": {
       "type": ["string", "null"]

@@ -56,9 +56,9 @@ def fetch_biorxiv_candidates(
     interval = _interval(timestamp, window_days)
 
     candidates: list[PaperCandidate] = []
-    try:
-        for server in active_servers:
-            for category in active_categories:
+    for server in active_servers:
+        for category in active_categories:
+            try:
                 payload = _fetch_details_payload(server=server, interval=interval, category=category)
                 candidates.extend(
                     _parse_biorxiv_payload(
@@ -70,9 +70,14 @@ def fetch_biorxiv_candidates(
                 )
                 if len(candidates) >= limit:
                     return candidates[:limit]
-    except (OSError, json.JSONDecodeError, ValueError) as exc:
-        LOGGER.warning("bioRxiv/medRxiv fetch failed: %s", exc)
-        return []
+            except (OSError, json.JSONDecodeError, ValueError) as exc:
+                LOGGER.warning(
+                    "bioRxiv/medRxiv fetch failed for server=%s category=%s interval=%s: %s",
+                    server,
+                    category,
+                    interval,
+                    exc,
+                )
 
     return candidates[:limit]
 
@@ -94,8 +99,12 @@ def _parse_biorxiv_payload(
     query: str | None,
     limit: int,
 ) -> list[PaperCandidate]:
-    collection = payload.get("collection") if isinstance(payload, dict) else []
-    if not isinstance(collection, list) or limit <= 0:
+    if not isinstance(payload, dict):
+        raise ValueError("payload must be an object")
+    collection = payload.get("collection")
+    if not isinstance(collection, list):
+        raise ValueError("payload.collection must be a list")
+    if limit <= 0:
         return []
 
     candidates: list[PaperCandidate] = []

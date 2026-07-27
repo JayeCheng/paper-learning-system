@@ -9,7 +9,16 @@
     "public_json_version": { "type": "string", "default": "0.3" },
     "latest": {
       "type": ["object", "null"],
-      "additionalProperties": true
+      "additionalProperties": false,
+      "properties": {
+        "date": { "type": ["string", "null"], "format": "date" },
+        "generated_at": { "type": ["string", "null"], "format": "date-time" },
+        "markdown_path": { "type": ["string", "null"] },
+        "json_path": { "type": ["string", "null"] },
+        "paper_count": { "type": "integer", "minimum": 0 },
+        "s_level_paper_id": { "type": ["string", "null"] },
+        "status": { "type": "string" }
+      }
     },
     "reports": {
       "type": "array",
@@ -18,8 +27,8 @@
         "required": ["date", "markdown_path", "json_path", "paper_count", "status"],
         "additionalProperties": false,
         "properties": {
-          "date": { "type": ["string", "null"] },
-          "generated_at": { "type": ["string", "null"] },
+          "date": { "type": ["string", "null"], "format": "date" },
+          "generated_at": { "type": ["string", "null"], "format": "date-time" },
           "markdown_path": { "type": ["string", "null"] },
           "json_path": { "type": ["string", "null"] },
           "paper_count": { "type": "integer", "minimum": 0 },

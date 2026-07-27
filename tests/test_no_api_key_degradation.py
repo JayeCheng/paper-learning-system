@@ -23,10 +23,26 @@ def test_no_semantic_scholar_api_key_still_runs(monkeypatch) -> None:
 
     def fake_urlopen(request, timeout):
         assert "X-api-key" not in request.headers
-        return _Response({"data": [{"citationCount": 3, "externalIds": {"CorpusId": "123"}}]})
+        return _Response(
+            {
+                "data": [
+                    {
+                        "title": "A Specific Paper Without An API Key",
+                        "citationCount": 3,
+                        "externalIds": {"CorpusId": "123"},
+                    }
+                ]
+            }
+        )
 
     monkeypatch.setattr("paper_learning.enrichers.semantic_scholar.urlopen", fake_urlopen)
-    paper = Paper(id="p1", title="No Key Paper", source="arxiv", topics=["llm_agent"], url="https://example.com/p1")
+    paper = Paper(
+        id="p1",
+        title="A Specific Paper Without An API Key",
+        source="arxiv",
+        topics=["llm_agent"],
+        url="https://example.com/p1",
+    )
 
     enriched = enrich_papers([paper], client=SemanticScholarClient.from_env())[0]
 

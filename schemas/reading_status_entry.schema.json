@@ -23,7 +23,8 @@
       "type": ["string", "null"]
     },
     "updated_at": {
-      "type": "string"
+      "type": "string",
+      "format": "date-time"
     },
     "history": {
       "type": "array",
@@ -33,7 +34,7 @@
         "additionalProperties": true,
         "properties": {
           "status": { "type": "string" },
-          "at": { "type": "string" },
+          "at": { "type": "string", "format": "date-time" },
           "source": { "type": "string" }
         }
       },

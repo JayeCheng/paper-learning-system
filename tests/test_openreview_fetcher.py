@@ -46,6 +46,7 @@ def test_openreview_fetcher_parses_mock_response(monkeypatch) -> None:
     assert len(candidates) == 1
     assert candidates[0].id == "openreview:abc123"
     assert candidates[0].source == "openreview"
+    assert candidates[0].source_type == "conference_review"
     assert candidates[0].venue == "ICLR 2026"
     assert candidates[0].pdf_url == "https://openreview.net/pdf?id=abc123"
 
@@ -58,3 +59,64 @@ def test_openreview_fetcher_degrades_to_empty_on_network_failure(monkeypatch, ca
 
     assert fetch_openreview_candidates(venue_ids=["ICLR.cc/2026/Conference"]) == []
     assert "OpenReview fetch failed" in caplog.text
+
+
+def _note(note_id: str) -> dict:
+    return {
+        "id": note_id,
+        "content": {
+            "title": {"value": f"Paper {note_id}"},
+            "authors": {"value": ["Author"]},
+            "year": {"value": 2026},
+        },
+    }
+
+
+def test_openreview_keeps_success_before_later_failure(monkeypatch, caplog) -> None:
+    def fake_fetch(*, venue_id, limit):
+        if venue_id == "bad":
+            raise OSError("network down")
+        return {"notes": [_note(venue_id)]}
+
+    monkeypatch.setattr("paper_learning.fetchers.openreview_fetcher._fetch_notes_payload", fake_fetch)
+
+    candidates = fetch_openreview_candidates(venue_ids=["good", "bad"])
+
+    assert [paper.id for paper in candidates] == ["openreview:good"]
+    assert "venue_id=bad" in caplog.text
+
+
+def test_openreview_keeps_success_after_earlier_failure(monkeypatch) -> None:
+    def fake_fetch(*, venue_id, limit):
+        if venue_id == "bad":
+            raise json.JSONDecodeError("bad json", "", 0)
+        return {"notes": [_note(venue_id)]}
+
+    monkeypatch.setattr("paper_learning.fetchers.openreview_fetcher._fetch_notes_payload", fake_fetch)
+
+    assert [paper.id for paper in fetch_openreview_candidates(venue_ids=["bad", "good"])] == [
+        "openreview:good"
+    ]
+
+
+def test_openreview_all_venues_fail(monkeypatch) -> None:
+    def fake_fetch(*, venue_id, limit):
+        raise OSError(venue_id)
+
+    monkeypatch.setattr("paper_learning.fetchers.openreview_fetcher._fetch_notes_payload", fake_fetch)
+
+    assert fetch_openreview_candidates(venue_ids=["bad-1", "bad-2"]) == []
+
+
+def test_openreview_invalid_payload_isolated_per_venue(monkeypatch, caplog) -> None:
+    def fake_fetch(*, venue_id, limit):
+        if venue_id == "malformed":
+            return {"notes": "not-a-list"}
+        return {"notes": [_note(venue_id)]}
+
+    monkeypatch.setattr("paper_learning.fetchers.openreview_fetcher._fetch_notes_payload", fake_fetch)
+
+    candidates = fetch_openreview_candidates(venue_ids=["malformed", "good"])
+
+    assert [paper.id for paper in candidates] == ["openreview:good"]
+    assert "venue_id=malformed" in caplog.text
