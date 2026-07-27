@@ -531,6 +531,48 @@
     {
       "confidence": 0.5,
       "relation": "related_to",
+      "source": "arxiv:2607.22432v1",
+      "target": "architecture"
+    },
+    {
+      "confidence": 0.5,
+      "relation": "related_to",
+      "source": "arxiv:2607.22446v1",
+      "target": "gpu_graphics"
+    },
+    {
+      "confidence": 0.5,
+      "relation": "related_to",
+      "source": "arxiv:2607.22471v1",
+      "target": "llm_agent"
+    },
+    {
+      "confidence": 0.5,
+      "relation": "related_to",
+      "source": "arxiv:2607.22485v1",
+      "target": "llm_agent"
+    },
+    {
+      "confidence": 0.5,
+      "relation": "related_to",
+      "source": "arxiv:2607.22523v1",
+      "target": "cognition"
+    },
+    {
+      "confidence": 0.5,
+      "relation": "related_to",
+      "source": "arxiv:2607.22523v1",
+      "target": "cognition_social"
+    },
+    {
+      "confidence": 0.5,
+      "relation": "related_to",
+      "source": "arxiv:2607.22535v1",
+      "target": "gpu_graphics"
+    },
+    {
+      "confidence": 0.5,
+      "relation": "related_to",
       "source": "classic:architecture:cache-coherence-and-shared-memory-multiprocessors",
       "target": "architecture"
     },
@@ -1089,6 +1131,54 @@
       "type": "paper"
     },
     {
+      "id": "arxiv:2607.22432v1",
+      "label": "TileSight: A First-Principles Tile-Centric Analytical GPU Performance Model from Cores to Clusters",
+      "topics": [
+        "architecture"
+      ],
+      "type": "paper"
+    },
+    {
+      "id": "arxiv:2607.22446v1",
+      "label": "Deformable Triangle Splatting: Flexible Primitives for Real-Time Radiance Field Rendering",
+      "topics": [
+        "gpu_graphics"
+      ],
+      "type": "paper"
+    },
+    {
+      "id": "arxiv:2607.22471v1",
+      "label": "MineValiCoder: Reliable Code Generation with Test Case Quality Mining and Bipartite Graph-Based Mutual Validation",
+      "topics": [
+        "llm_agent"
+      ],
+      "type": "paper"
+    },
+    {
+      "id": "arxiv:2607.22485v1",
+      "label": "A Preliminary Search for Evidence on Government Software Engineering Practices: Results from Three Rapid Reviews",
+      "topics": [
+        "llm_agent"
+      ],
+      "type": "paper"
+    },
+    {
+      "id": "arxiv:2607.22523v1",
+      "label": "Gridnberg: A Topography-Aware Pedestrian Routing Dataset for New York City",
+      "topics": [
+        "cognition"
+      ],
+      "type": "paper"
+    },
+    {
+      "id": "arxiv:2607.22535v1",
+      "label": "Robot-Factored World Models via Robot Rendering",
+      "topics": [
+        "gpu_graphics"
+      ],
+      "type": "paper"
+    },
+    {
       "id": "classic:architecture:cache-coherence-and-shared-memory-multiprocessors",
       "label": "Cache coherence and shared-memory multiprocessors",
       "topics": [
@@ -1202,5 +1292,5 @@
     }
   ],
   "public_json_version": "0.2",
-  "updated_at": "2026-07-26T23:06:31+00:00"
+  "updated_at": "2026-07-27T23:13:57+00:00"
 }

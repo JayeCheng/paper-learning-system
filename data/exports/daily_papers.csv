@@ -1,7 +1,7 @@
 id,title,source,source_type,source_group,recommendation_level,score,published_date,url,topics,categories,reading_status
-arxiv:2607.21562v1,Scene Parameter Saliency via Differentiable Light Transport,arxiv,recent_7d,gpu_graphics,B,0.732,2026-07-23,http://arxiv.org/abs/2607.21562v1,gpu_graphics,cs.CV;cs.GR,backlog
-arxiv:2607.21595v1,3D-Aware VLMs with Implicit and Explicit Geometries,arxiv,recent_7d,gpu_graphics,B,0.662,2026-07-23,http://arxiv.org/abs/2607.21595v1,gpu_graphics;llm_agent,cs.CV;cs.AI;cs.LG,backlog
-arxiv:2607.21535v1,Windowed-MTP: Removing the Full-Context Draft-KV Tax at Million-Token Context,arxiv,recent_7d,architecture,B,0.732,2026-07-23,http://arxiv.org/abs/2607.21535v1,llm_agent;architecture,cs.LG;cs.CL;cs.PF,backlog
-arxiv:2607.21530v1,From Resource Flow to Executable Tests: Petri-Net-Guided LLM Test Generation for Concurrent Stateful Rust APIs,arxiv,recent_7d,llm_agent,B,0.732,2026-07-23,http://arxiv.org/abs/2607.21530v1,llm_agent,cs.SE;cs.AI,backlog
-arxiv:2607.21585v1,Expanding Flow Maps,arxiv,recent_7d,llm_agent,B,0.662,2026-07-23,http://arxiv.org/abs/2607.21585v1,llm_agent,cs.LG,backlog
-arxiv:2607.21019v1,HiMe: Real-Time Self-Hosted Personal Agent Platform for Health Insights with Wearable Devices,arxiv,recent_7d,cognition_social,B,0.732,2026-07-23,http://arxiv.org/abs/2607.21019v1,llm_agent;cognition,cs.AI;cs.CL;cs.HC;cs.MA;cs.SE,backlog
+arxiv:2607.22446v1,Deformable Triangle Splatting: Flexible Primitives for Real-Time Radiance Field Rendering,arxiv,recent_7d,gpu_graphics,B,0.732,2026-07-24,http://arxiv.org/abs/2607.22446v1,gpu_graphics,cs.CV;cs.GR,backlog
+arxiv:2607.22535v1,Robot-Factored World Models via Robot Rendering,arxiv,recent_7d,gpu_graphics,B,0.662,2026-07-24,http://arxiv.org/abs/2607.22535v1,gpu_graphics,cs.RO;cs.CV,backlog
+arxiv:2607.22432v1,TileSight: A First-Principles Tile-Centric Analytical GPU Performance Model from Cores to Clusters,arxiv,recent_7d,architecture,B,0.732,2026-07-24,http://arxiv.org/abs/2607.22432v1,architecture,cs.DC;cs.PF,backlog
+arxiv:2607.22485v1,A Preliminary Search for Evidence on Government Software Engineering Practices: Results from Three Rapid Reviews,arxiv,recent_7d,llm_agent,B,0.732,2026-07-24,http://arxiv.org/abs/2607.22485v1,llm_agent,cs.SE;cs.DL,backlog
+arxiv:2607.22471v1,MineValiCoder: Reliable Code Generation with Test Case Quality Mining and Bipartite Graph-Based Mutual Validation,arxiv,recent_7d,llm_agent,B,0.732,2026-07-24,http://arxiv.org/abs/2607.22471v1,llm_agent,cs.SE;cs.AI,backlog
+arxiv:2607.22523v1,Gridnberg: A Topography-Aware Pedestrian Routing Dataset for New York City,arxiv,recent_7d,cognition_social,B,0.662,2026-07-24,http://arxiv.org/abs/2607.22523v1,cognition,cs.HC;cs.CY,backlog
