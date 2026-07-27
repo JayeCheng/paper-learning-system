@@ -1,1 +1,2 @@
 note_id,paper_id,note_type,title,notion_url,local_markdown_path,status,created_at,updated_at,tags,linked_knowledge_nodes
+note:project_note:cluster-abee0db9,arxiv:2607.09553v1,project_note,cluster集成调试,https://app.notion.com/p/222e50004b3480e0b415fdd3eb2fb9dd,,planned,2026-07-27T13:56:06+00:00,2026-07-27T13:56:06+00:00,debugging;gpu;integration,
