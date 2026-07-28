@@ -573,6 +573,66 @@
     {
       "confidence": 0.5,
       "relation": "related_to",
+      "source": "arxiv:2607.24596v1",
+      "target": "gpu_graphics"
+    },
+    {
+      "confidence": 0.5,
+      "relation": "related_to",
+      "source": "arxiv:2607.24601v1",
+      "target": "llm_agent"
+    },
+    {
+      "confidence": 0.5,
+      "relation": "related_to",
+      "source": "arxiv:2607.24601v1",
+      "target": "cognition"
+    },
+    {
+      "confidence": 0.5,
+      "relation": "related_to",
+      "source": "arxiv:2607.24601v1",
+      "target": "cognition_social"
+    },
+    {
+      "confidence": 0.5,
+      "relation": "related_to",
+      "source": "arxiv:2607.24665v1",
+      "target": "gpu_graphics"
+    },
+    {
+      "confidence": 0.5,
+      "relation": "related_to",
+      "source": "arxiv:2607.24665v1",
+      "target": "llm_agent"
+    },
+    {
+      "confidence": 0.5,
+      "relation": "related_to",
+      "source": "arxiv:2607.24726v1",
+      "target": "llm_agent"
+    },
+    {
+      "confidence": 0.5,
+      "relation": "related_to",
+      "source": "arxiv:2607.24732v1",
+      "target": "llm_agent"
+    },
+    {
+      "confidence": 0.5,
+      "relation": "related_to",
+      "source": "arxiv:2607.24741v1",
+      "target": "architecture"
+    },
+    {
+      "confidence": 0.5,
+      "relation": "related_to",
+      "source": "arxiv:2607.24741v1",
+      "target": "llm_agent"
+    },
+    {
+      "confidence": 0.5,
+      "relation": "related_to",
       "source": "classic:architecture:cache-coherence-and-shared-memory-multiprocessors",
       "target": "architecture"
     },
@@ -1179,6 +1239,57 @@
       "type": "paper"
     },
     {
+      "id": "arxiv:2607.24596v1",
+      "label": "Coherent Visualization of 2D Scalar Field Contour Ensembles With Probabilistic Latent Space Modeling",
+      "topics": [
+        "gpu_graphics"
+      ],
+      "type": "paper"
+    },
+    {
+      "id": "arxiv:2607.24601v1",
+      "label": "Evaluating the Impact of Explainable AI on Trust in AI-Assisted Code Review",
+      "topics": [
+        "llm_agent",
+        "cognition"
+      ],
+      "type": "paper"
+    },
+    {
+      "id": "arxiv:2607.24665v1",
+      "label": "MMOE: Modernizing Diffusion Transformers with Efficient Expert Design",
+      "topics": [
+        "gpu_graphics",
+        "llm_agent"
+      ],
+      "type": "paper"
+    },
+    {
+      "id": "arxiv:2607.24726v1",
+      "label": "Global Convergence of DGM and PINN Algorithms for Solving Nonlinear PDEs",
+      "topics": [
+        "llm_agent"
+      ],
+      "type": "paper"
+    },
+    {
+      "id": "arxiv:2607.24732v1",
+      "label": "Learning Distributions from Multiple Data Providers",
+      "topics": [
+        "llm_agent"
+      ],
+      "type": "paper"
+    },
+    {
+      "id": "arxiv:2607.24741v1",
+      "label": "Certified Parallel-in-Time Sinkhorn for Dynamic Entropic Optimal Transport",
+      "topics": [
+        "architecture",
+        "llm_agent"
+      ],
+      "type": "paper"
+    },
+    {
       "id": "classic:architecture:cache-coherence-and-shared-memory-multiprocessors",
       "label": "Cache coherence and shared-memory multiprocessors",
       "topics": [
@@ -1292,5 +1403,5 @@
     }
   ],
   "public_json_version": "0.2",
-  "updated_at": "2026-07-27T23:13:57+00:00"
+  "updated_at": "2026-07-28T23:10:43+00:00"
 }
