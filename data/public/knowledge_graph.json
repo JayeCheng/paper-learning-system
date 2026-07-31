@@ -723,6 +723,60 @@
     {
       "confidence": 0.5,
       "relation": "related_to",
+      "source": "arxiv:2607.28302v1",
+      "target": "gpu_graphics"
+    },
+    {
+      "confidence": 0.5,
+      "relation": "related_to",
+      "source": "arxiv:2607.28302v1",
+      "target": "cognition"
+    },
+    {
+      "confidence": 0.5,
+      "relation": "related_to",
+      "source": "arxiv:2607.28302v1",
+      "target": "cognition_social"
+    },
+    {
+      "confidence": 0.5,
+      "relation": "related_to",
+      "source": "arxiv:2607.28572v1",
+      "target": "architecture"
+    },
+    {
+      "confidence": 0.5,
+      "relation": "related_to",
+      "source": "arxiv:2607.28587v1",
+      "target": "llm_agent"
+    },
+    {
+      "confidence": 0.5,
+      "relation": "related_to",
+      "source": "arxiv:2607.28591v1",
+      "target": "llm_agent"
+    },
+    {
+      "confidence": 0.5,
+      "relation": "related_to",
+      "source": "arxiv:2607.28625v1",
+      "target": "gpu_graphics"
+    },
+    {
+      "confidence": 0.5,
+      "relation": "related_to",
+      "source": "arxiv:2607.28627v1",
+      "target": "gpu_graphics"
+    },
+    {
+      "confidence": 0.5,
+      "relation": "related_to",
+      "source": "arxiv:2607.28627v1",
+      "target": "llm_agent"
+    },
+    {
+      "confidence": 0.5,
+      "relation": "related_to",
       "source": "classic:architecture:cache-coherence-and-shared-memory-multiprocessors",
       "target": "architecture"
     },
@@ -1477,6 +1531,56 @@
       "type": "paper"
     },
     {
+      "id": "arxiv:2607.28302v1",
+      "label": "Snapshot plots: displaying summary tables as parallel univariate plots with consistent color highlighting",
+      "topics": [
+        "gpu_graphics",
+        "cognition"
+      ],
+      "type": "paper"
+    },
+    {
+      "id": "arxiv:2607.28572v1",
+      "label": "Quantum Fidelity-per-Cost: A Metric for Evaluation of Quantum Computing Systems",
+      "topics": [
+        "architecture"
+      ],
+      "type": "paper"
+    },
+    {
+      "id": "arxiv:2607.28587v1",
+      "label": "PAIChecker: Uncovering and Checking PR-Issue Misalignment in SWE-Bench-Like Benchmarks",
+      "topics": [
+        "llm_agent"
+      ],
+      "type": "paper"
+    },
+    {
+      "id": "arxiv:2607.28591v1",
+      "label": "Change2Task: From Repository Changes to Executable Coding Agent Tasks and Environments",
+      "topics": [
+        "llm_agent"
+      ],
+      "type": "paper"
+    },
+    {
+      "id": "arxiv:2607.28625v1",
+      "label": "ACE-Data-0: Human-Centric Ambient Capture as Embodied Data Engine",
+      "topics": [
+        "gpu_graphics"
+      ],
+      "type": "paper"
+    },
+    {
+      "id": "arxiv:2607.28627v1",
+      "label": "ReToken: One Token to Improve Vision-Language Models for Visual Retrieval",
+      "topics": [
+        "gpu_graphics",
+        "llm_agent"
+      ],
+      "type": "paper"
+    },
+    {
       "id": "classic:architecture:cache-coherence-and-shared-memory-multiprocessors",
       "label": "Cache coherence and shared-memory multiprocessors",
       "topics": [
@@ -1590,5 +1694,5 @@
     }
   ],
   "public_json_version": "0.2",
-  "updated_at": "2026-07-30T23:14:34+00:00"
+  "updated_at": "2026-07-31T23:11:39+00:00"
 }
