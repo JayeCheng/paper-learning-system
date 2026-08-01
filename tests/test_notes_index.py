@@ -1,5 +1,7 @@
 import json
 
+import pytest
+
 from paper_learning.core.models import Paper
 from paper_learning.core.notes_index import (
     add_note,
@@ -106,3 +108,101 @@ def test_note_add_rejects_unknown_paper(tmp_path) -> None:
         assert "does not exist" in str(exc)
     else:
         raise AssertionError("unknown paper should be rejected")
+
+
+def test_local_only_note_round_trips_and_notion_only_remains_supported(tmp_path) -> None:
+    upsert_papers([_paper()], root=tmp_path)
+
+    local_note = add_note(
+        paper_id=_paper().id,
+        note_type="project_note",
+        title="Local note",
+        local_markdown_path="deep_read/local-note.md",
+        root=tmp_path,
+        timestamp="2026-07-27T10:00:00+00:00",
+    )
+    notion_note = add_note(
+        paper_id=_paper().id,
+        note_type="concept_card",
+        title="Notion note",
+        notion_url="https://www.notion.so/notion-only",
+        root=tmp_path,
+        timestamp="2026-07-27T11:00:00+00:00",
+    )
+
+    stored = {note.note_id: note for note in load_notes(tmp_path)}
+    assert stored[local_note.note_id].notion_url is None
+    assert stored[local_note.note_id].local_markdown_path == "deep_read/local-note.md"
+    assert stored[notion_note.note_id].notion_url == "https://www.notion.so/notion-only"
+    assert stored[notion_note.note_id].local_markdown_path is None
+
+
+@pytest.mark.parametrize(
+    ("notion_url", "local_path"),
+    [
+        (None, None),
+        ("notion://invalid", None),
+        (None, "/tmp/absolute.md"),
+        (None, "../traversal.md"),
+        (None, "deep_read/not-markdown.txt"),
+    ],
+)
+def test_note_locations_are_validated_before_state_write(tmp_path, notion_url, local_path) -> None:
+    upsert_papers([_paper()], root=tmp_path)
+
+    with pytest.raises(ValueError):
+        add_note(
+            paper_id=_paper().id,
+            note_type="deep_read",
+            title="Rejected",
+            notion_url=notion_url,
+            local_markdown_path=local_path,
+            root=tmp_path,
+        )
+
+    assert not (tmp_path / "data/state/notes_index.json").exists()
+
+
+def test_note_update_can_change_locations_without_changing_identity(tmp_path) -> None:
+    upsert_papers([_paper()], root=tmp_path)
+    note = add_note(
+        paper_id=_paper().id,
+        note_type="method_card",
+        title="Stable Identity",
+        notion_url="https://www.notion.so/original",
+        root=tmp_path,
+        timestamp="2026-07-27T10:00:00+00:00",
+    )
+
+    updated = update_note(
+        note.note_id,
+        notion_url=None,
+        local_markdown_path="deep_read/stable-identity.md",
+        root=tmp_path,
+        timestamp="2026-07-27T11:00:00+00:00",
+    )
+
+    assert updated.note_id == note.note_id
+    assert updated.paper_id == note.paper_id
+    assert updated.note_type == note.note_type
+    assert updated.notion_url is None
+    assert updated.local_markdown_path == "deep_read/stable-identity.md"
+
+
+def test_invalid_note_update_leaves_existing_state_unchanged(tmp_path) -> None:
+    upsert_papers([_paper()], root=tmp_path)
+    note = add_note(
+        paper_id=_paper().id,
+        note_type="deep_read",
+        title="Preserve Valid State",
+        notion_url="https://www.notion.so/valid",
+        root=tmp_path,
+        timestamp="2026-07-27T10:00:00+00:00",
+    )
+    path = tmp_path / "data/state/notes_index.json"
+    before = path.read_bytes()
+
+    with pytest.raises(ValueError, match="absolute HTTP"):
+        update_note(note.note_id, notion_url="notion://invalid", root=tmp_path)
+
+    assert path.read_bytes() == before

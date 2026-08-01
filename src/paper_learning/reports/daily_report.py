@@ -31,7 +31,7 @@ def build_daily_report(
         generated_at=utc_now_string(),
         summary=summary or f"Selected {len(paper_list)} papers for the daily radar.",
         papers=paper_list,
-        learning_route_position="v0.3 source enrichment",
+        learning_route_position="v0.4 GitHub-owned note bridge",
         source_mode_summary=_source_mode_summary(paper_list),
         s_level_paper_id=s_level_id,
         public_json_version=PUBLIC_JSON_VERSION,

@@ -1,5 +1,6 @@
 from __future__ import annotations
 
+from datetime import date as calendar_date
 from datetime import datetime, timezone
 from pathlib import Path
 
@@ -24,7 +25,7 @@ from paper_learning.utils.config import (
     load_ranking_config,
     load_semantic_scholar_source_config,
 )
-from paper_learning.utils.time import today_string
+from paper_learning.utils.time import report_reference_time, today_string
 
 
 def resolve_report_date(value: str | None) -> str:
@@ -43,10 +44,14 @@ def run_daily_pipeline(date: str | None = None, *, root: Path = Path(".")) -> tu
     semantic_config = load_semantic_scholar_source_config(sources_path)
     ranking_config = load_ranking_config(root / "config/ranking.yaml")
     max_daily = int(ranking_config.get("max_daily_papers", 6))
+    reference_time = report_reference_time(report_date)
 
-    recent_candidates = fetch_recent_candidates_by_group(arxiv_config)
-    recent_candidates.extend(fetch_openreview_candidates_by_config(openreview_config))
-    recent_candidates.extend(fetch_biorxiv_candidates_by_config(biorxiv_config))
+    recent_candidates = fetch_recent_candidates_by_group(arxiv_config, now=reference_time)
+    recent_candidates.extend(
+        fetch_openreview_candidates_by_config(openreview_config, now=reference_time)
+    )
+    recent_candidates.extend(fetch_biorxiv_candidates_by_config(biorxiv_config, now=reference_time))
+    recent_candidates = filter_candidates_for_report_date(recent_candidates, report_date)
 
     unique_papers = build_candidate_pool(
         recent_candidates,
@@ -130,7 +135,11 @@ def fetch_recent_candidates_by_group(arxiv_config: dict, *, now: datetime | None
     return candidates
 
 
-def fetch_openreview_candidates_by_config(openreview_config: dict) -> list:
+def fetch_openreview_candidates_by_config(
+    openreview_config: dict,
+    *,
+    now: datetime | None = None,
+) -> list:
     if not openreview_config.get("enabled", False):
         return []
     return fetch_openreview_candidates(
@@ -138,6 +147,7 @@ def fetch_openreview_candidates_by_config(openreview_config: dict) -> list:
         venue_ids=_as_string_list(openreview_config.get("venue_ids")),
         years=[int(value) for value in _as_string_list(openreview_config.get("years"))],
         limit=int(openreview_config.get("max_results_per_venue", 10)),
+        now=now,
     )
 
 
@@ -173,6 +183,23 @@ def build_candidate_pool(
     )
     classic_papers = normalize_papers(classic_candidates)
     return dedupe_papers([*recent_papers, *classic_papers])
+
+
+def filter_candidates_for_report_date(candidates: list, report_date: str) -> list:
+    """Drop candidates published after the report date, regardless of source."""
+
+    cutoff = calendar_date.fromisoformat(report_date)
+    filtered = []
+    for candidate in candidates:
+        published_date = str(getattr(candidate, "published_date", "") or "")[:10]
+        if published_date:
+            try:
+                if calendar_date.fromisoformat(published_date) > cutoff:
+                    continue
+            except ValueError:
+                pass
+        filtered.append(candidate)
+    return filtered
 
 
 def _summary(papers: list) -> str:

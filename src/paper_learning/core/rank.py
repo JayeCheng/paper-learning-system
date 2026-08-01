@@ -242,6 +242,8 @@ def _recency_score(source_type: str | None, published_date: str | None, report_d
         age_days = (date.fromisoformat(report_date) - date.fromisoformat(published_date[:10])).days
     except ValueError:
         return 0.35
+    if age_days < 0:
+        return 0.0
     if age_days <= 1:
         return 1.0
     if age_days <= 7:

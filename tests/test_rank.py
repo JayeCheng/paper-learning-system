@@ -121,3 +121,14 @@ def test_published_date_wins_over_conflicting_recent_source_type() -> None:
     }
 
     assert score_factors(paper, report_date="2026-07-13")["recency"] == 0.35
+
+
+def test_future_paper_never_receives_highest_recency_score() -> None:
+    paper = {
+        "source": "arxiv",
+        "source_type": "recent_24h",
+        "published_date": "2026-07-14",
+        "topics": ["llm_agent"],
+    }
+
+    assert score_factors(paper, report_date="2026-07-13")["recency"] == 0.0

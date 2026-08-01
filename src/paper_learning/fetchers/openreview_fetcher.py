@@ -1,6 +1,6 @@
 from __future__ import annotations
 
-from datetime import datetime, timezone
+from datetime import date, datetime, timezone
 import json
 import logging
 from urllib.parse import urlencode
@@ -31,6 +31,7 @@ def fetch_openreview_candidates(
     venue_ids: list[str] | None = None,
     years: list[int] | None = None,
     limit: int = 20,
+    now: datetime | None = None,
 ) -> list[PaperCandidate]:
     """Fetch OpenReview submissions as source candidates.
 
@@ -40,6 +41,7 @@ def fetch_openreview_candidates(
     """
 
     candidates: list[PaperCandidate] = []
+    not_after = now.date() if now else None
     ids = _venue_ids(venue=venue, venues=venues, venue_ids=venue_ids, years=years)
     if not ids:
         return candidates
@@ -47,7 +49,9 @@ def fetch_openreview_candidates(
     for venue_id in ids:
         try:
             payload = _fetch_notes_payload(venue_id=venue_id, limit=limit)
-            candidates.extend(_parse_openreview_notes(payload, venue_id=venue_id))
+            candidates.extend(
+                _parse_openreview_notes(payload, venue_id=venue_id, not_after=not_after)
+            )
         except (OSError, json.JSONDecodeError, ValueError) as exc:
             LOGGER.warning("OpenReview fetch failed for venue_id=%s: %s", venue_id, exc)
 
@@ -70,7 +74,12 @@ def _fetch_notes_payload(*, venue_id: str, limit: int) -> dict:
         return json.loads(response.read().decode("utf-8"))
 
 
-def _parse_openreview_notes(payload: dict, *, venue_id: str) -> list[PaperCandidate]:
+def _parse_openreview_notes(
+    payload: dict,
+    *,
+    venue_id: str,
+    not_after: date | None = None,
+) -> list[PaperCandidate]:
     if not isinstance(payload, dict):
         raise ValueError("payload must be an object")
     notes = payload.get("notes")
@@ -96,6 +105,12 @@ def _parse_openreview_notes(payload: dict, *, venue_id: str) -> list[PaperCandid
         source_url = f"{OPENREVIEW_FORUM_URL}?id={note.get('forum') or note_id}"
         pdf_url = _openreview_pdf_url(_content_value(content, "pdf"))
         published_date = _openreview_date(note, content)
+        if published_date and not_after:
+            try:
+                if date.fromisoformat(published_date) > not_after:
+                    continue
+            except ValueError:
+                pass
 
         candidates.append(
             PaperCandidate(

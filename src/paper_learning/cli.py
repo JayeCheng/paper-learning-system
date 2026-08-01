@@ -55,14 +55,23 @@ def build_parser() -> argparse.ArgumentParser:
     note_add.add_argument("--paper-id", required=True)
     note_add.add_argument("--type", required=True, choices=sorted(NOTE_TYPES), dest="note_type")
     note_add.add_argument("--title", required=True)
-    note_add.add_argument("--notion-url", required=True)
-    note_add.add_argument("--local-markdown-path")
+    note_add.add_argument("--notion-url", help="Optional absolute HTTP(S) Notion URL.")
+    note_add.add_argument(
+        "--local-markdown-path",
+        help="Optional repository-relative Markdown path; one note location is required.",
+    )
     note_add.add_argument("--status", choices=sorted(NOTE_STATUSES), default="planned")
     note_add.add_argument("--tag", action="append", default=[], dest="tags")
 
     note_update = note_subparsers.add_parser("update", help="Update note metadata.")
     note_update.add_argument("note_id")
-    note_update.add_argument("--status", required=True, choices=sorted(NOTE_STATUSES))
+    note_update.add_argument(
+        "--status",
+        choices=sorted(NOTE_STATUSES),
+        default=argparse.SUPPRESS,
+    )
+    note_update.add_argument("--notion-url", default=argparse.SUPPRESS)
+    note_update.add_argument("--local-markdown-path", default=argparse.SUPPRESS)
 
     note_link = note_subparsers.add_parser("link", help="Link a note to a knowledge node.")
     note_link.add_argument("--note-id", required=True)
@@ -144,9 +153,10 @@ def _note_list(root: Path = Path(".")) -> int:
         print("No notes found.")
         return 0
     for note in sorted(notes, key=lambda item: (item.updated_at, item.note_id), reverse=True):
+        location = note.notion_url or note.local_markdown_path or ""
         print(
             f"{note.note_id}\t{note.paper_id}\t{note.note_type}\t"
-            f"{note.status}\t{note.notion_url or ''}\t{note.title}"
+            f"{note.status}\t{location}\t{note.title}"
         )
     return 0
 
@@ -172,8 +182,13 @@ def _note_add(args: argparse.Namespace, root: Path = Path(".")) -> int:
 
 
 def _note_update(args: argparse.Namespace, root: Path = Path(".")) -> int:
+    updates = {
+        name: getattr(args, name)
+        for name in ("status", "notion_url", "local_markdown_path")
+        if hasattr(args, name)
+    }
     try:
-        note = update_note(args.note_id, status=args.status, root=root)
+        note = update_note(args.note_id, root=root, **updates)
     except ValueError as exc:
         print(f"Error: {exc}", file=sys.stderr)
         return 1

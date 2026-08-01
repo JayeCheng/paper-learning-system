@@ -1,6 +1,6 @@
 from __future__ import annotations
 
-from datetime import datetime, timedelta, timezone
+from datetime import date, datetime, timedelta, timezone
 import json
 import logging
 from urllib.parse import urlencode
@@ -66,6 +66,7 @@ def fetch_biorxiv_candidates(
                         server=server,
                         query=query,
                         limit=max(0, limit - len(candidates)),
+                        not_after=timestamp.date(),
                     )
                 )
                 if len(candidates) >= limit:
@@ -98,6 +99,7 @@ def _parse_biorxiv_payload(
     server: str,
     query: str | None,
     limit: int,
+    not_after: date | None = None,
 ) -> list[PaperCandidate]:
     if not isinstance(payload, dict):
         raise ValueError("payload must be an object")
@@ -117,6 +119,13 @@ def _parse_biorxiv_payload(
         doi = str(item.get("doi") or "").strip()
         if not title or not doi:
             continue
+        published_date = str(item.get("date") or "")[:10] or None
+        if published_date and not_after:
+            try:
+                if date.fromisoformat(published_date) > not_after:
+                    continue
+            except ValueError:
+                pass
         if not _is_relevant(title=title, abstract=abstract, category=category, query=query):
             continue
 
@@ -130,7 +139,7 @@ def _parse_biorxiv_payload(
                 source="biorxiv",
                 source_url=f"https://doi.org/{doi}",
                 pdf_url=None,
-                published_date=str(item.get("date") or "")[:10] or None,
+                published_date=published_date,
                 categories=[category] if category else [],
                 tags=[tag for tag in [category, "cognition_social", server.lower()] if tag],
                 source_type="recent_7d",

@@ -53,7 +53,8 @@ originating topic lane.
 
 ## Source Enrichment
 
-`config/sources.yaml` controls optional v0.3 sources:
+`config/sources.yaml` controls source enrichment introduced in v0.3 and stabilized
+for the v0.4 baseline:
 
 - OpenReview fetches conference-review metadata for configured venues or explicit
   venue IDs. Each venue request fails independently; ranking derives recency from
@@ -120,7 +121,7 @@ It should not parse free-form Markdown or internal state. Astro, Next.js, or
 Docusaurus can all fit this model as long as the build step treats JSON as the stable
 interface and Markdown as a human archive.
 
-## v0.3 State Files
+## Durable State Files (v0.3+)
 
 - `data/state/papers.jsonl`: full cumulative normalized paper library, including
   source enrichment fields when available.
@@ -140,10 +141,10 @@ daily upserts. It atomically removes known curriculum links misclassified as cod
 repairs inferable topics, preserves reading state and unknown manual fields, and
 regenerates derived exports/public JSON without rewriting historical daily archives.
 
-## v0.3 Non-Goals
+## v0.4 Non-Goals
 
 - No complex crawler implementation.
-- No live Notion or Zotero synchronization.
+- No automatic Notion content synchronization or live Zotero synchronization.
 - No database dependency.
 - No PDF download or parsing.
 - No ranking model beyond deterministic local scoring.

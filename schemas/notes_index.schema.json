@@ -17,6 +17,18 @@
       "type": "array",
       "items": {
         "type": "object",
+        "anyOf": [
+          {
+            "properties": {
+              "notion_url": { "type": "string" }
+            }
+          },
+          {
+            "properties": {
+              "local_markdown_path": { "type": "string" }
+            }
+          }
+        ],
         "required": [
           "note_id",
           "paper_id",
@@ -39,8 +51,15 @@
             "enum": ["deep_read", "concept_card", "method_card", "english_card", "project_note"]
           },
           "title": { "type": "string", "minLength": 1 },
-          "notion_url": { "type": ["string", "null"], "format": "uri" },
-          "local_markdown_path": { "type": ["string", "null"] },
+          "notion_url": {
+            "type": ["string", "null"],
+            "format": "uri",
+            "pattern": "^[Hh][Tt][Tt][Pp][Ss]?://"
+          },
+          "local_markdown_path": {
+            "type": ["string", "null"],
+            "pattern": "^(?!/)(?![A-Za-z]:)(?!.*\\\\)(?!.*(?:^|/)\\.\\.(?:/|$)).+\\.[Mm][Dd]$"
+          },
           "status": {
             "type": "string",
             "enum": ["planned", "drafting", "published", "archived"]

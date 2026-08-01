@@ -1,7 +1,7 @@
 # Contributing
 
-This project is in `v0.0` architecture mode. Contributions should strengthen module
-boundaries before adding broad automation.
+The current stable baseline is `v0.4`. Contributions should preserve the established
+module boundaries while extending the GitHub-owned state and public JSON contracts.
 
 ## Development
 

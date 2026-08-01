@@ -125,15 +125,15 @@ def test_full_fixture_pipeline_is_idempotent_and_schema_valid(tmp_path, monkeypa
     client = _SemanticClient()
     monkeypatch.setattr(
         "paper_learning.core.daily_pipeline.fetch_recent_candidates_by_group",
-        lambda _config: arxiv,
+        lambda _config, **_kwargs: arxiv,
     )
     monkeypatch.setattr(
         "paper_learning.core.daily_pipeline.fetch_openreview_candidates_by_config",
-        lambda _config: openreview,
+        lambda _config, **_kwargs: openreview,
     )
     monkeypatch.setattr(
         "paper_learning.core.daily_pipeline.fetch_biorxiv_candidates_by_config",
-        lambda _config: biorxiv,
+        lambda _config, **_kwargs: biorxiv,
     )
     monkeypatch.setattr(
         "paper_learning.enrichers.semantic_scholar.SemanticScholarClient.from_env",
@@ -159,6 +159,12 @@ def test_full_fixture_pipeline_is_idempotent_and_schema_valid(tmp_path, monkeypa
     assert load_reading_statuses(root)[selected_id].status == "queued"
     assert len(load_reading_statuses(root)) == len(load_papers(root))
     assert len(second_report.papers) <= 6
+    assert [paper.id for paper in second_report.papers] == [
+        paper.id for paper in report.papers
+    ]
+    assert [paper.score for paper in second_report.papers] == [
+        paper.score for paper in report.papers
+    ]
 
     schema_dir = root / "schemas"
     _validate(
@@ -202,15 +208,15 @@ def test_all_live_sources_empty_still_uses_classic_fallback(tmp_path, monkeypatc
     root = _fixture_root(tmp_path)
     monkeypatch.setattr(
         "paper_learning.core.daily_pipeline.fetch_recent_candidates_by_group",
-        lambda _config: [],
+        lambda _config, **_kwargs: [],
     )
     monkeypatch.setattr(
         "paper_learning.core.daily_pipeline.fetch_openreview_candidates_by_config",
-        lambda _config: [],
+        lambda _config, **_kwargs: [],
     )
     monkeypatch.setattr(
         "paper_learning.core.daily_pipeline.fetch_biorxiv_candidates_by_config",
-        lambda _config: [],
+        lambda _config, **_kwargs: [],
     )
     monkeypatch.setattr(
         "paper_learning.enrichers.semantic_scholar.SemanticScholarClient.from_env",

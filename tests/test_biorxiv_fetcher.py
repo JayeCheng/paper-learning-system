@@ -164,3 +164,20 @@ def test_same_doi_from_different_servers_is_deduped_downstream(monkeypatch) -> N
 
     assert len(candidates) == 2
     assert len(dedupe_papers(normalize_papers(candidates))) == 1
+
+
+def test_biorxiv_filters_records_after_reference_date(monkeypatch) -> None:
+    payload = _payload("10.1101/future")
+    payload["collection"][0]["date"] = "2026-07-14"
+    monkeypatch.setattr(
+        "paper_learning.fetchers.biorxiv_fetcher._fetch_details_payload",
+        lambda **_kwargs: payload,
+    )
+
+    candidates = fetch_biorxiv_candidates(
+        categories=["neuroscience"],
+        servers=["biorxiv"],
+        now=datetime(2026, 7, 13, 22, 10, tzinfo=timezone.utc),
+    )
+
+    assert candidates == []

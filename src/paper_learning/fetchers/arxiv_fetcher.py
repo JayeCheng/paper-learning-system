@@ -31,7 +31,10 @@ def fetch_arxiv_candidates(
     categories = categories or ["cs.AI"]
     now = now or datetime.now(timezone.utc)
     cutoff = now - timedelta(days=window_days)
-    query = " OR ".join(f"cat:{category}" for category in categories)
+    category_query = " OR ".join(f"cat:{category}" for category in categories)
+    start = cutoff.astimezone(timezone.utc).strftime("%Y%m%d%H%M")
+    end = now.astimezone(timezone.utc).strftime("%Y%m%d%H%M")
+    query = f"({category_query}) AND submittedDate:[{start} TO {end}]"
     params = urlencode(
         {
             "search_query": query,
@@ -49,7 +52,13 @@ def fetch_arxiv_candidates(
     except OSError:
         return []
 
-    return _parse_arxiv_atom(payload, source_type=source_type, source_group=source_group, cutoff=cutoff)
+    return _parse_arxiv_atom(
+        payload,
+        source_type=source_type,
+        source_group=source_group,
+        cutoff=cutoff,
+        reference_time=now,
+    )
 
 
 def _parse_arxiv_atom(
@@ -58,6 +67,7 @@ def _parse_arxiv_atom(
     source_type: str,
     cutoff: datetime,
     source_group: str | None = None,
+    reference_time: datetime | None = None,
 ) -> list[PaperCandidate]:
     root = ET.fromstring(payload)
     candidates: list[PaperCandidate] = []
@@ -65,6 +75,8 @@ def _parse_arxiv_atom(
         published = _text(entry, "atom:published")
         published_dt = _parse_arxiv_datetime(published)
         if published_dt and published_dt < cutoff:
+            continue
+        if published_dt and reference_time and published_dt > reference_time:
             continue
 
         source_url = _text(entry, "atom:id")

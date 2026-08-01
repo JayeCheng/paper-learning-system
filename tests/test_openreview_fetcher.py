@@ -1,4 +1,5 @@
 import json
+from datetime import datetime, timezone
 
 from paper_learning.fetchers.openreview_fetcher import fetch_openreview_candidates
 
@@ -120,3 +121,21 @@ def test_openreview_invalid_payload_isolated_per_venue(monkeypatch, caplog) -> N
 
     assert [paper.id for paper in candidates] == ["openreview:good"]
     assert "venue_id=malformed" in caplog.text
+
+
+def test_openreview_filters_submissions_after_reference_date(monkeypatch) -> None:
+    future = _note("future")
+    future["cdate"] = int(
+        datetime(2026, 8, 2, tzinfo=timezone.utc).timestamp() * 1000
+    )
+    monkeypatch.setattr(
+        "paper_learning.fetchers.openreview_fetcher._fetch_notes_payload",
+        lambda **_kwargs: {"notes": [future]},
+    )
+
+    candidates = fetch_openreview_candidates(
+        venue_ids=["ICLR.cc/2026/Conference"],
+        now=datetime(2026, 8, 1, 22, 10, tzinfo=timezone.utc),
+    )
+
+    assert candidates == []

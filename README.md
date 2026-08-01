@@ -60,7 +60,10 @@ paper-learning status set arxiv:2601.00001v1 --notes-path deep_read/llm_agent/ex
 paper-learning note list
 paper-learning note add --paper-id arxiv:2601.00001v1 --type deep_read \
   --title "Deep Read: Example" --notion-url "https://www.notion.so/example"
-paper-learning note update note:deep_read:deep-read-example-12345678 --status published
+paper-learning note add --paper-id arxiv:2601.00001v1 --type project_note \
+  --title "Local Project Note" --local-markdown-path "deep_read/project-note.md"
+paper-learning note update note:deep_read:deep-read-example-12345678 \
+  --status published --local-markdown-path "deep_read/llm_agent/example.md"
 paper-learning note link --note-id note:deep_read:deep-read-example-12345678 \
   --knowledge-node retrieval-augmented-generation
 ```
@@ -88,7 +91,7 @@ skills/            Stable AI-agent workflows, not state storage.
 src/               Python package with fetch, core, report, and integration modules.
 apps/web/          Placeholder for a future static visualization frontend.
 schemas/           JSON Schemas for public and internal data contracts.
-tests/             Minimal contract tests for the v0.0 skeleton.
+tests/             Contract, integration, regression, and CLI tests for the v0.4 baseline.
 scripts/           Thin command wrappers for scheduled or manual operations.
 ```
 
@@ -121,7 +124,8 @@ uses UTC, so `06:10` SGT is scheduled as `22:10` UTC on the previous day:
 
 ## Current Status
 
-`v0.3.1` stabilizes source enrichment on top of the backend loop:
+The current stable baseline is `v0.4`. It includes the v0.3.1 source-enrichment
+stabilization plus the GitHub-owned Notion/local note metadata bridge:
 
 - arXiv metadata fetch for configured source groups and recent windows
 - OpenReview metadata fetch for configured venues such as ICLR, NeurIPS, ICML,
@@ -169,10 +173,12 @@ python scripts/migrate_v03_state.py --root .
 
 ## Notion Metadata Bridge
 
-Use `paper-learning note add` to record a Notion URL after creating a note manually.
-The CLI does not contact Notion. `NOTION_API_KEY` and `NOTION_DATABASE_ID` are
-optional; when absent, `scripts/sync_notion.py` exits successfully with a skip
-message. Even when configured, v0.4 does not implement automatic content sync.
+Use `paper-learning note add` to record either a manually created Notion URL, a
+repository-relative Markdown path, or both. The CLI validates locations before
+writing state and does not contact Notion. `NOTION_API_KEY` and
+`NOTION_DATABASE_ID` are optional; when absent, `scripts/sync_notion.py` exits
+successfully with a skip message. Even when configured, v0.4 does not implement
+automatic content sync.
 
 Daily S-level papers include an existing note URL when available and a suggested
 `deep_read` note title. Future frontends can show note entry links using
