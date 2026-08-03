@@ -1260,6 +1260,90 @@
       "status": "backlog",
       "updated_at": "2026-07-31T23:11:39+00:00"
     },
+    "arxiv:2607.29610v1": {
+      "history": [
+        {
+          "at": "2026-08-03T23:13:23+00:00",
+          "source": "daily_pipeline",
+          "status": "backlog"
+        }
+      ],
+      "notes_path": null,
+      "paper_id": "arxiv:2607.29610v1",
+      "priority": "medium",
+      "status": "backlog",
+      "updated_at": "2026-08-03T23:13:23+00:00"
+    },
+    "arxiv:2607.29637v1": {
+      "history": [
+        {
+          "at": "2026-08-03T23:13:23+00:00",
+          "source": "daily_pipeline",
+          "status": "backlog"
+        }
+      ],
+      "notes_path": null,
+      "paper_id": "arxiv:2607.29637v1",
+      "priority": "medium",
+      "status": "backlog",
+      "updated_at": "2026-08-03T23:13:23+00:00"
+    },
+    "arxiv:2607.29645v1": {
+      "history": [
+        {
+          "at": "2026-08-03T23:13:23+00:00",
+          "source": "daily_pipeline",
+          "status": "backlog"
+        }
+      ],
+      "notes_path": null,
+      "paper_id": "arxiv:2607.29645v1",
+      "priority": "medium",
+      "status": "backlog",
+      "updated_at": "2026-08-03T23:13:23+00:00"
+    },
+    "arxiv:2607.29654v1": {
+      "history": [
+        {
+          "at": "2026-08-03T23:13:23+00:00",
+          "source": "daily_pipeline",
+          "status": "backlog"
+        }
+      ],
+      "notes_path": null,
+      "paper_id": "arxiv:2607.29654v1",
+      "priority": "medium",
+      "status": "backlog",
+      "updated_at": "2026-08-03T23:13:23+00:00"
+    },
+    "arxiv:2607.29658v1": {
+      "history": [
+        {
+          "at": "2026-08-03T23:13:23+00:00",
+          "source": "daily_pipeline",
+          "status": "backlog"
+        }
+      ],
+      "notes_path": null,
+      "paper_id": "arxiv:2607.29658v1",
+      "priority": "medium",
+      "status": "backlog",
+      "updated_at": "2026-08-03T23:13:23+00:00"
+    },
+    "arxiv:2607.29678v1": {
+      "history": [
+        {
+          "at": "2026-08-03T23:13:23+00:00",
+          "source": "daily_pipeline",
+          "status": "backlog"
+        }
+      ],
+      "notes_path": null,
+      "paper_id": "arxiv:2607.29678v1",
+      "priority": "medium",
+      "status": "backlog",
+      "updated_at": "2026-08-03T23:13:23+00:00"
+    },
     "classic:architecture:cache-coherence-and-shared-memory-multiprocessors": {
       "history": [
         {
@@ -1374,5 +1458,5 @@
     }
   },
   "state_version": "0.2",
-  "updated_at": "2026-07-31T23:11:39+00:00"
+  "updated_at": "2026-08-03T23:13:23+00:00"
 }

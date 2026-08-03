@@ -777,6 +777,60 @@
     {
       "confidence": 0.5,
       "relation": "related_to",
+      "source": "arxiv:2607.29610v1",
+      "target": "llm_agent"
+    },
+    {
+      "confidence": 0.5,
+      "relation": "related_to",
+      "source": "arxiv:2607.29637v1",
+      "target": "gpu_graphics"
+    },
+    {
+      "confidence": 0.5,
+      "relation": "related_to",
+      "source": "arxiv:2607.29637v1",
+      "target": "llm_agent"
+    },
+    {
+      "confidence": 0.5,
+      "relation": "related_to",
+      "source": "arxiv:2607.29645v1",
+      "target": "cognition"
+    },
+    {
+      "confidence": 0.5,
+      "relation": "related_to",
+      "source": "arxiv:2607.29645v1",
+      "target": "cognition_social"
+    },
+    {
+      "confidence": 0.5,
+      "relation": "related_to",
+      "source": "arxiv:2607.29654v1",
+      "target": "gpu_graphics"
+    },
+    {
+      "confidence": 0.5,
+      "relation": "related_to",
+      "source": "arxiv:2607.29658v1",
+      "target": "llm_agent"
+    },
+    {
+      "confidence": 0.5,
+      "relation": "related_to",
+      "source": "arxiv:2607.29678v1",
+      "target": "llm_agent"
+    },
+    {
+      "confidence": 0.5,
+      "relation": "related_to",
+      "source": "arxiv:2607.29678v1",
+      "target": "architecture"
+    },
+    {
+      "confidence": 0.5,
+      "relation": "related_to",
       "source": "classic:architecture:cache-coherence-and-shared-memory-multiprocessors",
       "target": "architecture"
     },
@@ -1581,6 +1635,56 @@
       "type": "paper"
     },
     {
+      "id": "arxiv:2607.29610v1",
+      "label": "Educating the Agentic Engineer: Curricula, Collaboration, and Continuous Learning in the AI Era",
+      "topics": [
+        "llm_agent"
+      ],
+      "type": "paper"
+    },
+    {
+      "id": "arxiv:2607.29637v1",
+      "label": "CodeShrink: Adaptive Visual Compression for Efficient Multimodal Code Understanding",
+      "topics": [
+        "gpu_graphics",
+        "llm_agent"
+      ],
+      "type": "paper"
+    },
+    {
+      "id": "arxiv:2607.29645v1",
+      "label": "Data Visualization Style Guides in Practice: Why They Emerge, How They Work, and When They Bend",
+      "topics": [
+        "cognition"
+      ],
+      "type": "paper"
+    },
+    {
+      "id": "arxiv:2607.29654v1",
+      "label": "Elastic Curves via Geometric Mechanics",
+      "topics": [
+        "gpu_graphics"
+      ],
+      "type": "paper"
+    },
+    {
+      "id": "arxiv:2607.29658v1",
+      "label": "Reusing Past Repairs Through Hierarchical Trajectory Abstraction for Coding Agents",
+      "topics": [
+        "llm_agent"
+      ],
+      "type": "paper"
+    },
+    {
+      "id": "arxiv:2607.29678v1",
+      "label": "TokTier: Exact Stateful Tokenization for Agentic LLM Serving",
+      "topics": [
+        "llm_agent",
+        "architecture"
+      ],
+      "type": "paper"
+    },
+    {
       "id": "classic:architecture:cache-coherence-and-shared-memory-multiprocessors",
       "label": "Cache coherence and shared-memory multiprocessors",
       "topics": [
@@ -1694,5 +1798,5 @@
     }
   ],
   "public_json_version": "0.2",
-  "updated_at": "2026-08-02T23:02:50+00:00"
+  "updated_at": "2026-08-03T23:13:23+00:00"
 }

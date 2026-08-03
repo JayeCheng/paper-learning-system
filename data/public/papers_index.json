@@ -5212,6 +5212,341 @@
       "why_recommended": "Ranked by recency signal across configured topics."
     },
     {
+      "abstract": "Generative and agentic artificial intelligence (AI) are reconfiguring software and systems engineering from a discipline centered on human authorship of artifacts to one focused on directing, verifying, and governing autonomous systems. This transition demands a new professional archetype, the \\emph{agentic engineer}, whose enduring value lies in intent specification, orchestration of multi-agent workflows, critical evaluation of machine-generated outputs, and ethical judgment. This article presents an integrative conceptual synthesis across engineering education, computing education, human--AI interaction, human factors, and the learning sciences to derive an evidence-grounded educational architecture for this archetype. We introduce the ACCEL framework (Agentic Competencies through Curricula, Collaboration, and Enduring Learning), which organizes five competency pillars and maps them to three delivery vectors: curricula, collaboration, and continuous learning. Drawing on agency theory, trust-in-automation research, and empirical studies of AI-assisted programming, including evidence that AI benefits are unevenly realized and often misperceived, we propose a scaffolded curriculum, a delegation--verification pedagogical loop for human--AI teaming, redesigned assessment, governance-literate ethics integration, and alignment with current curricular guidelines and international AI competency frameworks. We identify key risks, including automation bias, deskilling, superficial engagement, and diffuse accountability, and conclude that educating the agentic engineer requires systemic transformation rather than incremental curricular change: instruction must shift from producing artifacts to exercising judgment over increasingly autonomous socio-technical systems.",
+      "authors": [
+        "Mamdouh Alenezi"
+      ],
+      "categories": [
+        "cs.SE"
+      ],
+      "citation_count": null,
+      "classic_status": null,
+      "code_url": null,
+      "difficulty": null,
+      "field": null,
+      "id": "arxiv:2607.29610v1",
+      "identifiers": {
+        "arxiv_id": "2607.29610v1"
+      },
+      "institutions": [],
+      "pdf_url": "https://arxiv.org/pdf/2607.29610v1",
+      "project_url": null,
+      "published_at": "2026-07-31",
+      "published_date": "2026-07-31",
+      "reading_advice": "save_for_later",
+      "reading_status": "backlog",
+      "recommendation_level": "B",
+      "score": 0.732,
+      "scores": {
+        "classic_value": 0.35,
+        "engineering_transferability": 0.8,
+        "recency": 0.78,
+        "source_quality": 0.78,
+        "total": 0.732,
+        "user_relevance": 0.75
+      },
+      "selected_for_s_level": false,
+      "source": "arxiv",
+      "source_group": "llm_agent",
+      "source_type": "recent_7d",
+      "source_url": "http://arxiv.org/abs/2607.29610v1",
+      "tags": [
+        "cs.SE"
+      ],
+      "title": "Educating the Agentic Engineer: Curricula, Collaboration, and Continuous Learning in the AI Era",
+      "title_zh": null,
+      "topics": [
+        "llm_agent"
+      ],
+      "url": "http://arxiv.org/abs/2607.29610v1",
+      "venue": null,
+      "why_recommended": "Ranked by engineering transferability signal across configured topics."
+    },
+    {
+      "abstract": "Rendering source code as images offers a promising way to reduce the input costs of Multimodal Large Language Models (MLLMs). Adjusting image resolution can trade visual token cost against content fidelity. However, resolution scaling alone overlooks two sources of inefficiency: blank regions created by line breaks and indentation, and code regions irrelevant to the current instruction. Moreover, the best compression setting varies across inputs, tasks, and models, limiting fixed-ratio strategies. We propose CodeShrink, an adaptive visual compression framework with three components. Blank-Free Rendering replaces whitespace-dependent layouts with compact layouts and explicit structural markers, removing layout-induced tokens. Adaptive Compression Configuration uses a lightweight agent trained with reinforcement learning to predict a per-input setting that balances token efficiency and readability. Dominant Token Selection jointly analyzes the instruction and code image to prune task-irrelevant visual tokens during inference. We evaluate CodeShrink on code question answering, clone detection, and code completion. CodeShrink reduces visual token use by up to 71.2\\% while matching or exceeding uncompressed text-only inputs, and consistently outperforms text-based and visual compression baselines across all three tasks. These results show that combining layout compaction, adaptive configuration, and instruction-aware pruning can make multimodal code understanding more efficient. Our code is available at https://github.com/vinsontang1/CodeShrink.",
+      "authors": [
+        "Wenxin Tang",
+        "Jingyu Xiao",
+        "Zhenyu Liu",
+        "Zipeng Xie",
+        "Junliang Liu",
+        "Wang Luo",
+        "Yuan Jiang",
+        "Yintong Huo",
+        "Michael Lyu"
+      ],
+      "categories": [
+        "cs.CV",
+        "cs.SE"
+      ],
+      "citation_count": null,
+      "classic_status": null,
+      "code_url": null,
+      "difficulty": null,
+      "field": null,
+      "id": "arxiv:2607.29637v1",
+      "identifiers": {
+        "arxiv_id": "2607.29637v1"
+      },
+      "institutions": [],
+      "pdf_url": "https://arxiv.org/pdf/2607.29637v1",
+      "project_url": null,
+      "published_at": "2026-07-31",
+      "published_date": "2026-07-31",
+      "reading_advice": "save_for_later",
+      "reading_status": "backlog",
+      "recommendation_level": "B",
+      "score": 0.732,
+      "scores": {
+        "classic_value": 0.35,
+        "engineering_transferability": 0.8,
+        "recency": 0.78,
+        "source_quality": 0.78,
+        "total": 0.732,
+        "user_relevance": 0.75
+      },
+      "selected_for_s_level": false,
+      "source": "arxiv",
+      "source_group": "gpu_graphics",
+      "source_type": "recent_7d",
+      "source_url": "http://arxiv.org/abs/2607.29637v1",
+      "tags": [
+        "cs.CV",
+        "cs.SE"
+      ],
+      "title": "CodeShrink: Adaptive Visual Compression for Efficient Multimodal Code Understanding",
+      "title_zh": null,
+      "topics": [
+        "gpu_graphics",
+        "llm_agent"
+      ],
+      "url": "http://arxiv.org/abs/2607.29637v1",
+      "venue": null,
+      "why_recommended": "Ranked by engineering transferability signal across configured topics."
+    },
+    {
+      "abstract": "Visualization style guides play a crucial role in shaping how data is interpreted and trusted, yet they often receive little scrutiny in their creation and use. Understanding their impact requires looking beyond the specific rules that style guides prescribe and examining how they function within organizations to coordinate visual work, manage trade-offs, and support judgment under real constraints. Analyzing interviews with nine authors of twenty-six style guides across journalism, government, industry, and the public sector, we reveal how these guides reflect the specific challenges of their organizations, including consistency, training, governance, and accountability. Our study highlights the tensions between standardization and flexibility, guidance and discretion, and automation and human oversight. We propose PRISM, a socio-technical framework that characterizes visualization style guides by their Purpose, Rules & Mechanisms, Institutional Enforcers, and Situated Flexibility. We show that publicly available style guides expose only a subset of this system. By viewing style guides as socio-technical systems, we enrich the research on design guidance and offer practical insights for those who create and rely on these guides in critical environments.",
+      "authors": [
+        "Alvitta Ottley",
+        "Jonathan Schwabish"
+      ],
+      "categories": [
+        "cs.HC"
+      ],
+      "citation_count": null,
+      "classic_status": null,
+      "code_url": null,
+      "difficulty": null,
+      "field": null,
+      "id": "arxiv:2607.29645v1",
+      "identifiers": {
+        "arxiv_id": "2607.29645v1"
+      },
+      "institutions": [],
+      "pdf_url": "https://arxiv.org/pdf/2607.29645v1",
+      "project_url": null,
+      "published_at": "2026-07-31",
+      "published_date": "2026-07-31",
+      "reading_advice": "save_for_later",
+      "reading_status": "backlog",
+      "recommendation_level": "B",
+      "score": 0.662,
+      "scores": {
+        "classic_value": 0.35,
+        "engineering_transferability": 0.45,
+        "recency": 0.78,
+        "source_quality": 0.78,
+        "total": 0.662,
+        "user_relevance": 0.75
+      },
+      "selected_for_s_level": false,
+      "source": "arxiv",
+      "source_group": "cognition_social",
+      "source_type": "recent_7d",
+      "source_url": "http://arxiv.org/abs/2607.29645v1",
+      "tags": [
+        "cs.HC"
+      ],
+      "title": "Data Visualization Style Guides in Practice: Why They Emerge, How They Work, and When They Bend",
+      "title_zh": null,
+      "topics": [
+        "cognition"
+      ],
+      "url": "http://arxiv.org/abs/2607.29645v1",
+      "venue": null,
+      "why_recommended": "Ranked by recency signal across configured topics."
+    },
+    {
+      "abstract": "Elastic curves are the mathematical shapes of thin elastic rods in equilibrium, with deep connections to mechanics, geometry, and computer graphics. Traditionally described as stationary points of bending energy under length and torsion constraints, their rich theory admits many equivalent characterizations. We develop a new one from the viewpoint of geometric mechanics. Our main contribution relies on a lesser-known isoperimetric characterization: a curve is elastic if and only if it is a critical point of the length functional under fixed area and volume vectors. We show that these constraints transform naturally under orientation-preserving rigid body motions, identifying them as momentum variables for these symmetries. This structure suggests a new discrete theory. We show that the low-order integral quantities length, area, and volume vectors are all naturally defined for polygonal curves, leaving the same transformation laws exactly satisfied. The resulting definition of discrete elastic curves in terms of the isoperimetric characterization restricted to discrete polygonal curves is variational, structure-preserving, and requires no auxiliary discretizations of curvature or material frames. Finally, the same structure carries the Marsden--Weinstein form, a canonical (pre-)symplectic structure on the space of curves, to polygonal curves. This yields novel approaches to Hamiltonian dynamics on discrete space curves, including tangent, vortex-filament, and modified Korteweg--de Vries flows.",
+      "authors": [
+        "Oliver Gross",
+        "Rohit Jammula",
+        "Albert Chern"
+      ],
+      "categories": [
+        "math.DG",
+        "cs.GR",
+        "math-ph",
+        "math.SG"
+      ],
+      "citation_count": null,
+      "classic_status": null,
+      "code_url": null,
+      "difficulty": null,
+      "field": null,
+      "id": "arxiv:2607.29654v1",
+      "identifiers": {
+        "arxiv_id": "2607.29654v1"
+      },
+      "institutions": [],
+      "pdf_url": "https://arxiv.org/pdf/2607.29654v1",
+      "project_url": null,
+      "published_at": "2026-07-31",
+      "published_date": "2026-07-31",
+      "reading_advice": "save_for_later",
+      "reading_status": "backlog",
+      "recommendation_level": "B",
+      "score": 0.732,
+      "scores": {
+        "classic_value": 0.35,
+        "engineering_transferability": 0.8,
+        "recency": 0.78,
+        "source_quality": 0.78,
+        "total": 0.732,
+        "user_relevance": 0.75
+      },
+      "selected_for_s_level": false,
+      "source": "arxiv",
+      "source_group": "gpu_graphics",
+      "source_type": "recent_7d",
+      "source_url": "http://arxiv.org/abs/2607.29654v1",
+      "tags": [
+        "math.DG",
+        "cs.GR",
+        "math-ph",
+        "math.SG"
+      ],
+      "title": "Elastic Curves via Geometric Mechanics",
+      "title_zh": null,
+      "topics": [
+        "gpu_graphics"
+      ],
+      "url": "http://arxiv.org/abs/2607.29654v1",
+      "venue": null,
+      "why_recommended": "Ranked by engineering transferability signal across configured topics."
+    },
+    {
+      "abstract": "Although LLM-driven repair agents can tackle complex, repository-level issues, they treat every issue independently and discard the procedural knowledge accumulated from previous repairs. We introduce STAIR, a framework that converts historical repair trajectories into hierarchical, reusable plans that can be adapted to steer future repairs. Each past trajectory is transformed into a multi-level tree that ranges from fine-grained diagnostic actions to high-level repair strategies, encoding experience at several granularities. When a new issue arrives, STAIR selects relevant plan nodes from multiple abstraction levels, tailors them into executable, issue-specific plans, and supplies them to the agent through its prompt. On SWE-bench Verified, STAIR integrated with Lingxi reaches 81.2% Pass@1 using MiniMax M2.5 and 79.2% using GPT-5. The generated plans also generalize across agents: without any code change, they lift the Pass@1 of a structurally different agent, mini-SWE-agent v2, from 75.8% to 81.0%. Ablation experiments further show that mixing multiple abstraction levels surpasses any single level and that raw, unabstracted trajectories transfer substantially worse.",
+      "authors": [
+        "Yisen Xu",
+        "Jiayuan Zhou",
+        "Ruiqi Pan",
+        "Tse-Hsun Chen"
+      ],
+      "categories": [
+        "cs.SE"
+      ],
+      "citation_count": null,
+      "classic_status": null,
+      "code_url": null,
+      "difficulty": null,
+      "field": null,
+      "id": "arxiv:2607.29658v1",
+      "identifiers": {
+        "arxiv_id": "2607.29658v1"
+      },
+      "institutions": [],
+      "pdf_url": "https://arxiv.org/pdf/2607.29658v1",
+      "project_url": null,
+      "published_at": "2026-07-31",
+      "published_date": "2026-07-31",
+      "reading_advice": "save_for_later",
+      "reading_status": "backlog",
+      "recommendation_level": "B",
+      "score": 0.732,
+      "scores": {
+        "classic_value": 0.35,
+        "engineering_transferability": 0.8,
+        "recency": 0.78,
+        "source_quality": 0.78,
+        "total": 0.732,
+        "user_relevance": 0.75
+      },
+      "selected_for_s_level": false,
+      "source": "arxiv",
+      "source_group": "llm_agent",
+      "source_type": "recent_7d",
+      "source_url": "http://arxiv.org/abs/2607.29658v1",
+      "tags": [
+        "cs.SE"
+      ],
+      "title": "Reusing Past Repairs Through Hierarchical Trajectory Abstraction for Coding Agents",
+      "title_zh": null,
+      "topics": [
+        "llm_agent"
+      ],
+      "url": "http://arxiv.org/abs/2607.29658v1",
+      "venue": null,
+      "why_recommended": "Ranked by engineering transferability signal across configured topics."
+    },
+    {
+      "abstract": "LLM serving systems cache prompt KV state, yet most front ends still re-tokenize the full request text on every call. The cost lands on coding agents, which resubmit a long transcript after each small tool result, and reuse is hard because even a short append can change token boundaries near the end of the previous sequence. Across 153,951 calls from two agent ecosystems, the median call appends about 1.4K characters, and only 1.0-3.6% of calls start or rebuild a session with contexts of millions of characters. At a 94.1% fleet prompt-cache hit rate, tokenization reaches up to 64% of time to first token. TokTier is a stateful tokenization service with one contract: emitted token IDs are always identical to full reference tokenization of the request text. For a session continuation, it re-tokenizes a small window around the append and splices only after a per-request stable-boundary check, widening the window or falling back to full tokenization on failure. For a call without a reusable prefix, it decomposes GPT-family regex pre-tokenization into run-local rules and runs exact pre-tokenization and BPE on a GPU. A sampled shadow verifier re-checks live traffic. Across 17 tokenizer families, differential campaigns cover 1.5x10^10 split checks, a 12.4 TB real-text corpus, and 93,000+ replayed agent steps, with zero divergence. Incremental repair takes 0.5-1.1 ms from 100K to 3M characters, up to 437x faster than HF tokenization and 2.1x faster at 1M than the strongest cache-based baseline (Gigatoken) fully prewarmed. GPU full tokenization encodes a 1M-character request in 0.87 ms, up to 491x below HF and 23.4x below the fastest published CPU method. With vLLM, median time to first token drops 16-34% and P99 drops 23% under recorded bursts. Under a 50 ms P99 objective, four repair cores plus one GPU sustain 1,821 requests/s where a 16-core stateless front end saturates at 40.",
+      "authors": [
+        "Zhenyu Zhang",
+        "Zhichao Cao"
+      ],
+      "categories": [
+        "cs.CL",
+        "cs.DC",
+        "cs.PF"
+      ],
+      "citation_count": null,
+      "classic_status": null,
+      "code_url": null,
+      "difficulty": null,
+      "field": null,
+      "id": "arxiv:2607.29678v1",
+      "identifiers": {
+        "arxiv_id": "2607.29678v1"
+      },
+      "institutions": [],
+      "pdf_url": "https://arxiv.org/pdf/2607.29678v1",
+      "project_url": null,
+      "published_at": "2026-07-31",
+      "published_date": "2026-07-31",
+      "reading_advice": "save_for_later",
+      "reading_status": "backlog",
+      "recommendation_level": "B",
+      "score": 0.732,
+      "scores": {
+        "classic_value": 0.35,
+        "engineering_transferability": 0.8,
+        "recency": 0.78,
+        "source_quality": 0.78,
+        "total": 0.732,
+        "user_relevance": 0.75
+      },
+      "selected_for_s_level": false,
+      "source": "arxiv",
+      "source_group": "architecture",
+      "source_type": "recent_7d",
+      "source_url": "http://arxiv.org/abs/2607.29678v1",
+      "tags": [
+        "cs.CL",
+        "cs.DC",
+        "cs.PF"
+      ],
+      "title": "TokTier: Exact Stateful Tokenization for Agentic LLM Serving",
+      "title_zh": null,
+      "topics": [
+        "llm_agent",
+        "architecture"
+      ],
+      "url": "http://arxiv.org/abs/2607.29678v1",
+      "venue": null,
+      "why_recommended": "Ranked by engineering transferability signal across configured topics."
+    },
+    {
       "abstract": "Required background for parallel architecture.",
       "authors": [],
       "categories": [
@@ -5597,5 +5932,5 @@
     }
   ],
   "public_json_version": "0.2",
-  "updated_at": "2026-08-02T23:02:50+00:00"
+  "updated_at": "2026-08-03T23:13:23+00:00"
 }
