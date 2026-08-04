@@ -1,7 +1,7 @@
 id,title,source,source_type,source_group,recommendation_level,score,published_date,url,topics,categories,reading_status
-arxiv:2607.29654v1,Elastic Curves via Geometric Mechanics,arxiv,recent_7d,gpu_graphics,B,0.732,2026-07-31,http://arxiv.org/abs/2607.29654v1,gpu_graphics,math.DG;cs.GR;math-ph;math.SG,backlog
-arxiv:2607.29637v1,CodeShrink: Adaptive Visual Compression for Efficient Multimodal Code Understanding,arxiv,recent_7d,gpu_graphics,B,0.732,2026-07-31,http://arxiv.org/abs/2607.29637v1,gpu_graphics;llm_agent,cs.CV;cs.SE,backlog
-arxiv:2607.29678v1,TokTier: Exact Stateful Tokenization for Agentic LLM Serving,arxiv,recent_7d,architecture,B,0.732,2026-07-31,http://arxiv.org/abs/2607.29678v1,llm_agent;architecture,cs.CL;cs.DC;cs.PF,backlog
-arxiv:2607.29658v1,Reusing Past Repairs Through Hierarchical Trajectory Abstraction for Coding Agents,arxiv,recent_7d,llm_agent,B,0.732,2026-07-31,http://arxiv.org/abs/2607.29658v1,llm_agent,cs.SE,backlog
-arxiv:2607.29610v1,"Educating the Agentic Engineer: Curricula, Collaboration, and Continuous Learning in the AI Era",arxiv,recent_7d,llm_agent,B,0.732,2026-07-31,http://arxiv.org/abs/2607.29610v1,llm_agent,cs.SE,backlog
-arxiv:2607.29645v1,"Data Visualization Style Guides in Practice: Why They Emerge, How They Work, and When They Bend",arxiv,recent_7d,cognition_social,B,0.662,2026-07-31,http://arxiv.org/abs/2607.29645v1,cognition,cs.HC,backlog
+arxiv:2608.02460v1,PTI: A Hierarchical Symbolic Color Addressing System,arxiv,recent_7d,gpu_graphics,B,0.732,2026-08-03,http://arxiv.org/abs/2608.02460v1,gpu_graphics,cs.GR,backlog
+arxiv:2608.02603v1,WorldExam: Benchmarking World Models from Apparent Appearance to Inherent Reactivity,arxiv,recent_7d,gpu_graphics,B,0.662,2026-08-03,http://arxiv.org/abs/2608.02603v1,gpu_graphics,cs.CV,backlog
+arxiv:2608.02569v1,AtumAI: A Principled Framework for Agentic Generation of Datacenter Control-Plane Policies,arxiv,recent_7d,architecture,B,0.732,2026-08-03,http://arxiv.org/abs/2608.02569v1,llm_agent;architecture,cs.AI;cs.DC;cs.OS,backlog
+arxiv:2608.02582v1,ACEM: A Cost Estimation Model for Agentic Software Engineering,arxiv,recent_7d,llm_agent,B,0.732,2026-08-03,http://arxiv.org/abs/2608.02582v1,llm_agent,cs.SE,backlog
+arxiv:2608.02541v1,Decomposing the Doer Effect in Programming Practice: Code Writing Stands Out Among Active Practice,arxiv,recent_7d,llm_agent,B,0.732,2026-08-03,http://arxiv.org/abs/2608.02541v1,llm_agent;cognition,cs.SE;cs.HC,backlog
+arxiv:2608.02512v1,On Defining Chart Types Boundaries,arxiv,recent_7d,cognition_social,B,0.662,2026-08-03,http://arxiv.org/abs/2608.02512v1,cognition,cs.HC,backlog
