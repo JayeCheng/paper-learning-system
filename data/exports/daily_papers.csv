@@ -1,7 +1,7 @@
 id,title,source,source_type,source_group,recommendation_level,score,published_date,url,topics,categories,reading_status
-arxiv:2608.02460v1,PTI: A Hierarchical Symbolic Color Addressing System,arxiv,recent_7d,gpu_graphics,B,0.732,2026-08-03,http://arxiv.org/abs/2608.02460v1,gpu_graphics,cs.GR,backlog
-arxiv:2608.02603v1,WorldExam: Benchmarking World Models from Apparent Appearance to Inherent Reactivity,arxiv,recent_7d,gpu_graphics,B,0.662,2026-08-03,http://arxiv.org/abs/2608.02603v1,gpu_graphics,cs.CV,backlog
-arxiv:2608.02569v1,AtumAI: A Principled Framework for Agentic Generation of Datacenter Control-Plane Policies,arxiv,recent_7d,architecture,B,0.732,2026-08-03,http://arxiv.org/abs/2608.02569v1,llm_agent;architecture,cs.AI;cs.DC;cs.OS,backlog
-arxiv:2608.02582v1,ACEM: A Cost Estimation Model for Agentic Software Engineering,arxiv,recent_7d,llm_agent,B,0.732,2026-08-03,http://arxiv.org/abs/2608.02582v1,llm_agent,cs.SE,backlog
-arxiv:2608.02541v1,Decomposing the Doer Effect in Programming Practice: Code Writing Stands Out Among Active Practice,arxiv,recent_7d,llm_agent,B,0.732,2026-08-03,http://arxiv.org/abs/2608.02541v1,llm_agent;cognition,cs.SE;cs.HC,backlog
-arxiv:2608.02512v1,On Defining Chart Types Boundaries,arxiv,recent_7d,cognition_social,B,0.662,2026-08-03,http://arxiv.org/abs/2608.02512v1,cognition,cs.HC,backlog
+arxiv:2608.04010v1,ParVL: Parallel Scaling and Expandable Compute Allocation for Multimodal LLMs,arxiv,recent_7d,gpu_graphics,B,0.662,2026-08-04,http://arxiv.org/abs/2608.04010v1,gpu_graphics;llm_agent,cs.CV;cs.CL,backlog
+arxiv:2608.03991v1,Perceptual Anchoring: Prototype-Guided Text Calibration for Training-free Open-Vocabulary Semantic Segmentation,arxiv,recent_7d,gpu_graphics,B,0.662,2026-08-04,http://arxiv.org/abs/2608.03991v1,gpu_graphics,cs.CV,backlog
+arxiv:2608.03948v1,Real-time decoding of quantum error correction codes using high-performance computing,arxiv,recent_7d,architecture,B,0.732,2026-08-04,http://arxiv.org/abs/2608.03948v1,architecture,quant-ph;cs.DC,backlog
+arxiv:2608.03983v1,Can Large Language Models Recover Semantic Optimization Opportunities That Compilers Miss?,arxiv,recent_7d,llm_agent,B,0.732,2026-08-04,http://arxiv.org/abs/2608.03983v1,llm_agent,cs.PL;cs.AI,backlog
+arxiv:2608.04009v1,SocietyBench: Forecasting Counterfactual Social-World Evolution,arxiv,recent_7d,llm_agent,B,0.662,2026-08-04,http://arxiv.org/abs/2608.04009v1,llm_agent,cs.CL,backlog
+arxiv:2608.03462v1,When AI Joins the Team! A Model of How AI Adoption Relates To Social Patterns in Software Engineering Teams,arxiv,recent_7d,cognition_social,B,0.732,2026-08-04,http://arxiv.org/abs/2608.03462v1,llm_agent;cognition,cs.SE;cs.HC,backlog
