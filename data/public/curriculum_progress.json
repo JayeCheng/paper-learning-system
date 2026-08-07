@@ -7,11 +7,11 @@
       "id": "architecture",
       "label": "Computer Architecture",
       "next_paper_ids": [
+        "arxiv:2608.06188v1",
         "arxiv:2607.09626v1",
-        "arxiv:2607.11859v1",
-        "arxiv:2607.13015v1"
+        "arxiv:2607.11859v1"
       ],
-      "planned_count": 17
+      "planned_count": 21
     },
     {
       "completed_count": 0,
@@ -23,7 +23,7 @@
         "arxiv:2607.15143v1",
         "arxiv:2607.15868v1"
       ],
-      "planned_count": 18
+      "planned_count": 23
     },
     {
       "completed_count": 0,
@@ -35,7 +35,7 @@
         "arxiv:2607.15143v1",
         "arxiv:2607.15868v1"
       ],
-      "planned_count": 15
+      "planned_count": 19
     },
     {
       "completed_count": 0,
@@ -43,11 +43,11 @@
       "id": "gpu_graphics",
       "label": "GPU / Graphics",
       "next_paper_ids": [
+        "arxiv:2608.06117v1",
         "arxiv:2607.11512v1",
-        "arxiv:2607.11734v1",
-        "arxiv:2607.11885v1"
+        "arxiv:2607.11734v1"
       ],
-      "planned_count": 35
+      "planned_count": 43
     },
     {
       "completed_count": 0,
@@ -55,12 +55,12 @@
       "id": "llm_agent",
       "label": "LLM Agent / RAG",
       "next_paper_ids": [
+        "arxiv:2608.06228v1",
         "arxiv:2607.09553v1",
-        "arxiv:2607.11512v1",
-        "arxiv:2607.11734v1"
+        "arxiv:2607.11512v1"
       ],
-      "planned_count": 52
+      "planned_count": 65
     }
   ],
-  "updated_at": "2026-07-31T23:11:39+00:00"
+  "updated_at": "2026-08-07T01:32:25+00:00"
 }

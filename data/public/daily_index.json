@@ -1,15 +1,69 @@
 {
   "latest": {
-    "date": "2026-08-01",
-    "generated_at": "2026-07-31T23:11:39+00:00",
-    "json_path": "daily/2026/08/2026-08-01.json",
-    "markdown_path": "daily/2026/08/2026-08-01.md",
+    "date": "2026-08-07",
+    "generated_at": "2026-08-07T01:32:25+00:00",
+    "json_path": "daily/2026/08/2026-08-07.json",
+    "markdown_path": "daily/2026/08/2026-08-07.md",
     "paper_count": 6,
     "s_level_paper_id": null,
     "status": "success"
   },
   "public_json_version": "0.4",
   "reports": [
+    {
+      "date": "2026-08-07",
+      "generated_at": "2026-08-07T01:32:25+00:00",
+      "json_path": "daily/2026/08/2026-08-07.json",
+      "markdown_path": "daily/2026/08/2026-08-07.md",
+      "paper_count": 6,
+      "s_level_paper_id": null,
+      "status": "success"
+    },
+    {
+      "date": "2026-08-06",
+      "generated_at": "2026-08-05T23:11:35+00:00",
+      "json_path": "daily/2026/08/2026-08-06.json",
+      "markdown_path": "daily/2026/08/2026-08-06.md",
+      "paper_count": 6,
+      "s_level_paper_id": null,
+      "status": "success"
+    },
+    {
+      "date": "2026-08-05",
+      "generated_at": "2026-08-04T23:12:59+00:00",
+      "json_path": "daily/2026/08/2026-08-05.json",
+      "markdown_path": "daily/2026/08/2026-08-05.md",
+      "paper_count": 6,
+      "s_level_paper_id": null,
+      "status": "success"
+    },
+    {
+      "date": "2026-08-04",
+      "generated_at": "2026-08-03T23:13:23+00:00",
+      "json_path": "daily/2026/08/2026-08-04.json",
+      "markdown_path": "daily/2026/08/2026-08-04.md",
+      "paper_count": 6,
+      "s_level_paper_id": null,
+      "status": "success"
+    },
+    {
+      "date": "2026-08-03",
+      "generated_at": "2026-08-02T23:02:50+00:00",
+      "json_path": "daily/2026/08/2026-08-03.json",
+      "markdown_path": "daily/2026/08/2026-08-03.md",
+      "paper_count": 6,
+      "s_level_paper_id": null,
+      "status": "success"
+    },
+    {
+      "date": "2026-08-02",
+      "generated_at": "2026-08-01T23:02:36+00:00",
+      "json_path": "daily/2026/08/2026-08-02.json",
+      "markdown_path": "daily/2026/08/2026-08-02.md",
+      "paper_count": 6,
+      "s_level_paper_id": null,
+      "status": "success"
+    },
     {
       "date": "2026-08-01",
       "generated_at": "2026-07-31T23:11:39+00:00",

@@ -1,0 +1,396 @@
+{
+  "date": "2026-08-06",
+  "frontend_entry": "data/public/latest.json",
+  "generated_at": "2026-08-05T23:11:35+00:00",
+  "generated_paths": {
+    "exports_csv": "data/exports/papers.csv",
+    "exports_daily_csv": "data/exports/daily_papers.csv",
+    "exports_jsonl": "data/exports/papers.jsonl",
+    "exports_reading_status": "data/exports/reading_status.csv",
+    "json": "daily/2026/08/2026-08-06.json",
+    "markdown": "daily/2026/08/2026-08-06.md",
+    "public_curriculum_progress": "data/public/curriculum_progress.json",
+    "public_daily_index": "data/public/daily_index.json",
+    "public_knowledge_graph": "data/public/knowledge_graph.json",
+    "public_latest": "data/public/latest.json",
+    "public_papers_index": "data/public/papers_index.json",
+    "public_reading_status": "data/public/reading_status.json",
+    "state_papers": "data/state/papers.jsonl",
+    "state_reading_status": "data/state/reading_status.json",
+    "state_run_history": "data/state/run_history.json"
+  },
+  "knowledge_graph_delta": [
+    "paper:arxiv:2608.04010v1",
+    "paper:arxiv:2608.03991v1",
+    "paper:arxiv:2608.03948v1",
+    "paper:arxiv:2608.03983v1",
+    "paper:arxiv:2608.04009v1",
+    "paper:arxiv:2608.03462v1"
+  ],
+  "learning_route_position": "v0.2 archive stability and topic group fetching",
+  "next_actions": [
+    "Review S-level candidate",
+    "Update reading status after skim",
+    "Promote durable concepts into the knowledge graph"
+  ],
+  "papers": [
+    {
+      "abstract": "Existing scaling strategies for Multimodal Large Language Models (MLLMs) typically expand either model parameters or sequential inference computation, incurring substantial memory or latency overhead. More importantly, most existing methods fail to alter the rigid, fixed computation allocation between the Vision Transformer and the Large Language Model components, limiting task-specific optimization. To address this, we introduce the Parallel Vision-Language (ParVL) scaling framework for MLLMs, which scales parallel computation by reusing the existing ViT and LLM backbone parameters across multiple vision and language branches. This framework raises a central question: given a fixed backbone parameter budget, how should additional shared-backbone computation be allocated between the vision and language modalities? We instantiate each parallel computational stream with branch-specific prefix parameters over a shared backbone, and train the entire model end-to-end via full-parameter supervised fine-tuning on roughly 13B tokens. We systematically study the computation-allocation trade-off between the ViT encoder and LLM decoder. ParVL improves overall multimodal performance over same-recipe single-branch baselines, and the best evaluated vision--language allocation varies across tasks. Code is available at https://github.com/YangYangGirl/ParVL.",
+      "authors": [
+        "Yang Yang",
+        "Qinyu Zhao",
+        "Mouxiang Chen",
+        "Xiaohui Li",
+        "Lixin Gu",
+        "Wenhai Wang",
+        "Hongjie Zhang",
+        "Wenwei Zhang"
+      ],
+      "categories": [
+        "cs.CV",
+        "cs.CL"
+      ],
+      "citation_count": null,
+      "classic_status": null,
+      "code_url": null,
+      "difficulty": null,
+      "field": null,
+      "id": "arxiv:2608.04010v1",
+      "identifiers": {
+        "arxiv_id": "2608.04010v1"
+      },
+      "institutions": [],
+      "pdf_url": "https://arxiv.org/pdf/2608.04010v1",
+      "project_url": null,
+      "published_at": "2026-08-04",
+      "published_date": "2026-08-04",
+      "reading_advice": "save_for_later",
+      "reading_status": "backlog",
+      "recommendation_level": "B",
+      "score": 0.662,
+      "scores": {
+        "classic_value": 0.35,
+        "engineering_transferability": 0.45,
+        "recency": 0.78,
+        "source_quality": 0.78,
+        "total": 0.662,
+        "user_relevance": 0.75
+      },
+      "selected_for_s_level": false,
+      "source": "arxiv",
+      "source_group": "gpu_graphics",
+      "source_type": "recent_7d",
+      "source_url": "http://arxiv.org/abs/2608.04010v1",
+      "tags": [
+        "cs.CV",
+        "cs.CL"
+      ],
+      "title": "ParVL: Parallel Scaling and Expandable Compute Allocation for Multimodal LLMs",
+      "title_zh": null,
+      "topics": [
+        "gpu_graphics",
+        "llm_agent"
+      ],
+      "url": "http://arxiv.org/abs/2608.04010v1",
+      "venue": null,
+      "why_recommended": "Ranked by recency signal across configured topics."
+    },
+    {
+      "abstract": "Training-free open-vocabulary semantic segmentation (OVSS) partitions an image into semantically distinct regions based on arbitrary text descriptions, without learning any additional parameters. However, existing methods typically focus on improving visual representations while treating text embeddings that encode only generic category concepts as fixed classification references. The resulting semantic gap between these generic concepts and the visual representations that capture the specific appearances of target instances often causes incomplete masks and erroneous predictions in non-target regions. Inspired by the symbol-percept correspondence underlying perceptual anchoring, we propose Prototype-Guided Text Calibration (PTC) for training-free OVSS. In the Perceiving stage, PTC selects reliable visual evidence based on initial matching scores to construct category-specific visual prototypes. In the Anchoring stage, PTC uses these prototypes to calibrate their corresponding text embeddings, with the calibration strength adaptively adjusted based on the amount of visual evidence. Consequently, the calibrated text embeddings align more accurately with instance-specific visual representations while preserving generic category semantics and open-vocabulary generalization. Moreover, PTC requires neither additional training nor external models and can serve as a plug-and-play module for existing methods. Extensive experiments across eight benchmarks show that PTC significantly enhances the performance of six representative methods and yields more complete and accurate segmentation results. These results validate PTC as a simple and effective approach to improving visual-text alignment.",
+      "authors": [
+        "Wanli Ma",
+        "Jiangwen Lu",
+        "Qinmu Peng",
+        "Xinge You"
+      ],
+      "categories": [
+        "cs.CV"
+      ],
+      "citation_count": null,
+      "classic_status": null,
+      "code_url": null,
+      "difficulty": null,
+      "field": null,
+      "id": "arxiv:2608.03991v1",
+      "identifiers": {
+        "arxiv_id": "2608.03991v1"
+      },
+      "institutions": [],
+      "pdf_url": "https://arxiv.org/pdf/2608.03991v1",
+      "project_url": null,
+      "published_at": "2026-08-04",
+      "published_date": "2026-08-04",
+      "reading_advice": "save_for_later",
+      "reading_status": "backlog",
+      "recommendation_level": "B",
+      "score": 0.662,
+      "scores": {
+        "classic_value": 0.35,
+        "engineering_transferability": 0.45,
+        "recency": 0.78,
+        "source_quality": 0.78,
+        "total": 0.662,
+        "user_relevance": 0.75
+      },
+      "selected_for_s_level": false,
+      "source": "arxiv",
+      "source_group": "gpu_graphics",
+      "source_type": "recent_7d",
+      "source_url": "http://arxiv.org/abs/2608.03991v1",
+      "tags": [
+        "cs.CV"
+      ],
+      "title": "Perceptual Anchoring: Prototype-Guided Text Calibration for Training-free Open-Vocabulary Semantic Segmentation",
+      "title_zh": null,
+      "topics": [
+        "gpu_graphics"
+      ],
+      "url": "http://arxiv.org/abs/2608.03991v1",
+      "venue": null,
+      "why_recommended": "Ranked by recency signal across configured topics."
+    },
+    {
+      "abstract": "Quantum error correction (QEC) is indispensable for building scalable fault-tolerant quantum computers. Effective QEC demands stringent real-time decoding: the decoder must process syndrome measurements and determine corrections within a time scale--typically on the order of microseconds, to avoid data backlog. Scaling to large number of logical qubits further necessitates significant computational resources. In this work, we propose an architecture, called \\emph{THQLink}, for real-time decoding of quantum error correction codes using high-performance computing (HPC) resources. The network connecting the HPC and the control system of quantum processing unit (QPU) is built on TH-Express and can be adapted to different quantum technologies and their associated control stacks. We report a round-trip latency of 2.944 $\u03bc$s on average, with an incremental overhead of 130 ns per additional hop. Using a parallel window strategy, we demonstrate real-time decoding (1 $\u03bc$s per QEC round) of the surface code up to distance 19 using a matching-based decoder on CPUs. Our work presents a scalable framework for real-time decoding in fault-tolerant quantum computing. It can be readily applied to quantum-centric supercomputers that feature tight integration between QPU and HPC resources, thereby enabling efficient support for hybrid quantum-classical algorithms and computation-intensive workloads offloaded from the QPU.",
+      "authors": [
+        "Lingling Lao",
+        "Qiang Wang",
+        "Yuanqi Liu",
+        "Yantong Liu",
+        "Haowen Wang",
+        "Yitao Chen",
+        "Yankang Zhao",
+        "Zhenwei Wu",
+        "Wei Zhang",
+        "Yong Dong",
+        "Yingwen Liu",
+        "Mingche Lai",
+        "Junjie Wu"
+      ],
+      "categories": [
+        "quant-ph",
+        "cs.DC"
+      ],
+      "citation_count": null,
+      "classic_status": null,
+      "code_url": null,
+      "difficulty": null,
+      "field": null,
+      "id": "arxiv:2608.03948v1",
+      "identifiers": {
+        "arxiv_id": "2608.03948v1"
+      },
+      "institutions": [],
+      "pdf_url": "https://arxiv.org/pdf/2608.03948v1",
+      "project_url": null,
+      "published_at": "2026-08-04",
+      "published_date": "2026-08-04",
+      "reading_advice": "save_for_later",
+      "reading_status": "backlog",
+      "recommendation_level": "B",
+      "score": 0.732,
+      "scores": {
+        "classic_value": 0.35,
+        "engineering_transferability": 0.8,
+        "recency": 0.78,
+        "source_quality": 0.78,
+        "total": 0.732,
+        "user_relevance": 0.75
+      },
+      "selected_for_s_level": false,
+      "source": "arxiv",
+      "source_group": "architecture",
+      "source_type": "recent_7d",
+      "source_url": "http://arxiv.org/abs/2608.03948v1",
+      "tags": [
+        "quant-ph",
+        "cs.DC"
+      ],
+      "title": "Real-time decoding of quantum error correction codes using high-performance computing",
+      "title_zh": null,
+      "topics": [
+        "architecture"
+      ],
+      "url": "http://arxiv.org/abs/2608.03948v1",
+      "venue": null,
+      "why_recommended": "Ranked by engineering transferability signal across configured topics."
+    },
+    {
+      "abstract": "Optimizing compilers miss profitable transformations when their enabling semantics are absent from the analyzed program representation. We ask whether large language models (LLMs) can recover such semantics from heterogeneous C/C++ context and realize them as validated, contract-preserving artifacts. We introduce SeGaBench, an executable benchmark containing 100 synthetic and 20 source-backed cases spanning low-level assumptions, data-structure invariants, and high-level semantic lifting. Each case includes hidden enabling semantics, an oracle artifact, correctness and semantic validators, and a reproducible performance protocol. We evaluate five LLMs using five independent responses per case. The strongest model produces correct artifacts in 94.8% of responses, achieves at least 1.05x speedup in 83.3%, and obtains a performance success on 93.3% of cases. Nevertheless, correct artifacts often close only part of the oracle gap. These results show that LLMs can complement compiler analysis as speculative semantic proposers, provided that their artifacts are validated and evaluated.",
+      "authors": [
+        "Hailong Jiang",
+        "Feng Yu",
+        "Emran Hossain",
+        "Jianfeng Zhu",
+        "Mengfei Ren",
+        "Qiang Guan",
+        "Chunwei Xia"
+      ],
+      "categories": [
+        "cs.PL",
+        "cs.AI"
+      ],
+      "citation_count": null,
+      "classic_status": null,
+      "code_url": null,
+      "difficulty": null,
+      "field": null,
+      "id": "arxiv:2608.03983v1",
+      "identifiers": {
+        "arxiv_id": "2608.03983v1"
+      },
+      "institutions": [],
+      "pdf_url": "https://arxiv.org/pdf/2608.03983v1",
+      "project_url": null,
+      "published_at": "2026-08-04",
+      "published_date": "2026-08-04",
+      "reading_advice": "save_for_later",
+      "reading_status": "backlog",
+      "recommendation_level": "B",
+      "score": 0.732,
+      "scores": {
+        "classic_value": 0.35,
+        "engineering_transferability": 0.8,
+        "recency": 0.78,
+        "source_quality": 0.78,
+        "total": 0.732,
+        "user_relevance": 0.75
+      },
+      "selected_for_s_level": false,
+      "source": "arxiv",
+      "source_group": "llm_agent",
+      "source_type": "recent_7d",
+      "source_url": "http://arxiv.org/abs/2608.03983v1",
+      "tags": [
+        "cs.PL",
+        "cs.AI"
+      ],
+      "title": "Can Large Language Models Recover Semantic Optimization Opportunities That Compilers Miss?",
+      "title_zh": null,
+      "topics": [
+        "llm_agent"
+      ],
+      "url": "http://arxiv.org/abs/2608.03983v1",
+      "venue": null,
+      "why_recommended": "Ranked by engineering transferability signal across configured topics."
+    },
+    {
+      "abstract": "Large language models (LLMs), and the agents built on top of them, are now benchmarked heavily on whether they can finish a task -- fix a bug, drive a browser, operate a GUI. A complementary social ability, namely how well a model understands and forecasts the way real social events unfold, has barely been measured. We introduce SocietyBench, an end-to-end benchmark that takes a one-line event topic, collects Web news and social-media posts across five platforms, distills them into a date-indexed timeline that keeps factual events and a public-opinion layer separate, and then turns every cutoff date on that timeline into an audited bank of forecasting questions. Questions are scored on two orthogonal 100-point axes: probability calibration and temporal accuracy. Before any model sees a timeline, a three-phase procedure replaces every named entity and shifts every date by a per-event constant, turning a real arc into a counterfactual social world -- structurally identical to what happened, but stripped of the surface labels a model could match against pre-training memory. On five heterogeneous events and 125 prediction points in Chinese and English editions, the strongest of six frontier LLMs reaches only 75.0 out of 100, against a trivial anchor of 50. The two axes come apart: a model can be calibration-strong but time-weak, or the reverse. Three agent frameworks built on a shared base model fail to improve on that base, and two model-free heuristics trail every LLM. Per-event gaps reach 21.4 points on a single axis, which is our main argument for evaluating on several events rather than one. All anonymized timelines, question banks, ground truth, and scoring code are released.",
+      "authors": [
+        "Zhenran Wang",
+        "Zhonghan Bian",
+        "Jinsong Li",
+        "Zhangyang Qi"
+      ],
+      "categories": [
+        "cs.CL"
+      ],
+      "citation_count": null,
+      "classic_status": null,
+      "code_url": null,
+      "difficulty": null,
+      "field": null,
+      "id": "arxiv:2608.04009v1",
+      "identifiers": {
+        "arxiv_id": "2608.04009v1"
+      },
+      "institutions": [],
+      "pdf_url": "https://arxiv.org/pdf/2608.04009v1",
+      "project_url": null,
+      "published_at": "2026-08-04",
+      "published_date": "2026-08-04",
+      "reading_advice": "save_for_later",
+      "reading_status": "backlog",
+      "recommendation_level": "B",
+      "score": 0.662,
+      "scores": {
+        "classic_value": 0.35,
+        "engineering_transferability": 0.45,
+        "recency": 0.78,
+        "source_quality": 0.78,
+        "total": 0.662,
+        "user_relevance": 0.75
+      },
+      "selected_for_s_level": false,
+      "source": "arxiv",
+      "source_group": "llm_agent",
+      "source_type": "recent_7d",
+      "source_url": "http://arxiv.org/abs/2608.04009v1",
+      "tags": [
+        "cs.CL"
+      ],
+      "title": "SocietyBench: Forecasting Counterfactual Social-World Evolution",
+      "title_zh": null,
+      "topics": [
+        "llm_agent"
+      ],
+      "url": "http://arxiv.org/abs/2608.04009v1",
+      "venue": null,
+      "why_recommended": "Ranked by recency signal across configured topics."
+    },
+    {
+      "abstract": "Context: The growing adoption of AI-assisted development tools is changing how software teams collaborate, share knowledge, and coordinate, yet its consequences for team social dynamics remain largely unexplored. Gap: It is unclear whether AI adoption is associated with an increase or reduction in community smells,socio-technical anti-patterns reflecting coordination and communication breakdowns,and through which mechanisms. Method: Grounded in Transactive Memory Systems (TMS) theory, we validate instruments for HumanAI and HumanHuman interaction along two TMS dimensions, Specialization and Coordination, and test five PLS-SEM models on survey data from 152 software professionals using AI tools. Community smell constructs were derived from the literature and validated through expert surveys and factor analysis. Results: AI adoption relates to community smells not in a single way, but through mechanisms depending on the work. In specialization work, AI is associated with higher knowledge-sharing peer interaction, which is in turn associated with fewer smells. In coordination work, AI is directly associated with higher communication quality, complementing rather than replacing human interaction. Contributions: We provide an empirically validated, TMS-grounded model showing that the AIcommunity-smell relationship is contingent on the type of collaboration, with a reusable instrument and evidence-based implications for research and practice.",
+      "authors": [
+        "Giusy Annunziata",
+        "Rudrajit Choudhuri",
+        "Anita Sarma",
+        "Gemma Catolino",
+        "Filomena Ferrucci"
+      ],
+      "categories": [
+        "cs.SE",
+        "cs.HC"
+      ],
+      "citation_count": null,
+      "classic_status": null,
+      "code_url": null,
+      "difficulty": null,
+      "field": null,
+      "id": "arxiv:2608.03462v1",
+      "identifiers": {
+        "arxiv_id": "2608.03462v1"
+      },
+      "institutions": [],
+      "pdf_url": "https://arxiv.org/pdf/2608.03462v1",
+      "project_url": null,
+      "published_at": "2026-08-04",
+      "published_date": "2026-08-04",
+      "reading_advice": "save_for_later",
+      "reading_status": "backlog",
+      "recommendation_level": "B",
+      "score": 0.732,
+      "scores": {
+        "classic_value": 0.35,
+        "engineering_transferability": 0.8,
+        "recency": 0.78,
+        "source_quality": 0.78,
+        "total": 0.732,
+        "user_relevance": 0.75
+      },
+      "selected_for_s_level": false,
+      "source": "arxiv",
+      "source_group": "cognition_social",
+      "source_type": "recent_7d",
+      "source_url": "http://arxiv.org/abs/2608.03462v1",
+      "tags": [
+        "cs.SE",
+        "cs.HC"
+      ],
+      "title": "When AI Joins the Team! A Model of How AI Adoption Relates To Social Patterns in Software Engineering Teams",
+      "title_zh": null,
+      "topics": [
+        "llm_agent",
+        "cognition"
+      ],
+      "url": "http://arxiv.org/abs/2608.03462v1",
+      "venue": null,
+      "why_recommended": "Ranked by engineering transferability signal across configured topics."
+    }
+  ],
+  "public_json_version": "0.2",
+  "s_level_candidate_ids": [],
+  "s_level_paper_id": null,
+  "source_mode_summary": {
+    "recent_7d": 6
+  },
+  "summary": "Selected 6 papers: 6 recent candidates and 0 classic fallback items."
+}
