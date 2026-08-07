@@ -939,6 +939,48 @@
     {
       "confidence": 0.5,
       "relation": "related_to",
+      "source": "arxiv:2608.06117v1",
+      "target": "gpu_graphics"
+    },
+    {
+      "confidence": 0.5,
+      "relation": "related_to",
+      "source": "arxiv:2608.06188v1",
+      "target": "architecture"
+    },
+    {
+      "confidence": 0.5,
+      "relation": "related_to",
+      "source": "arxiv:2608.06219v1",
+      "target": "cognition"
+    },
+    {
+      "confidence": 0.5,
+      "relation": "related_to",
+      "source": "arxiv:2608.06219v1",
+      "target": "cognition_social"
+    },
+    {
+      "confidence": 0.5,
+      "relation": "related_to",
+      "source": "arxiv:2608.06228v1",
+      "target": "llm_agent"
+    },
+    {
+      "confidence": 0.5,
+      "relation": "related_to",
+      "source": "arxiv:2608.06275v1",
+      "target": "gpu_graphics"
+    },
+    {
+      "confidence": 0.5,
+      "relation": "related_to",
+      "source": "arxiv:2608.06276v1",
+      "target": "llm_agent"
+    },
+    {
+      "confidence": 0.5,
+      "relation": "related_to",
       "source": "classic:architecture:cache-coherence-and-shared-memory-multiprocessors",
       "target": "architecture"
     },
@@ -1893,6 +1935,54 @@
       "type": "paper"
     },
     {
+      "id": "arxiv:2608.06117v1",
+      "label": "Confidence matters: Leveraging Multi-view Geometric Priors for GS-based Reconstruction",
+      "topics": [
+        "gpu_graphics"
+      ],
+      "type": "paper"
+    },
+    {
+      "id": "arxiv:2608.06188v1",
+      "label": "Routing LLM Inference to the Cleanest Grid in Real Time",
+      "topics": [
+        "architecture"
+      ],
+      "type": "paper"
+    },
+    {
+      "id": "arxiv:2608.06219v1",
+      "label": "Design and Evaluation of a Touchscreen-Based Teleoperation Interface for Robotic Manipulators",
+      "topics": [
+        "cognition"
+      ],
+      "type": "paper"
+    },
+    {
+      "id": "arxiv:2608.06228v1",
+      "label": "Predicting Agile Success: The Critical Few Factors",
+      "topics": [
+        "llm_agent"
+      ],
+      "type": "paper"
+    },
+    {
+      "id": "arxiv:2608.06275v1",
+      "label": "TLNM: Externally Validated Tooth Detection, Numbering and Segmentation from Smartphone Photographs Using Mask R-CNN",
+      "topics": [
+        "gpu_graphics"
+      ],
+      "type": "paper"
+    },
+    {
+      "id": "arxiv:2608.06276v1",
+      "label": "Stochastic Dynamics on Persistence Diagram Space via Reinforcement Learning",
+      "topics": [
+        "llm_agent"
+      ],
+      "type": "paper"
+    },
+    {
       "id": "classic:architecture:cache-coherence-and-shared-memory-multiprocessors",
       "label": "Cache coherence and shared-memory multiprocessors",
       "topics": [
@@ -2006,5 +2096,5 @@
     }
   ],
   "public_json_version": "0.2",
-  "updated_at": "2026-08-05T23:11:35+00:00"
+  "updated_at": "2026-08-07T01:32:25+00:00"
 }

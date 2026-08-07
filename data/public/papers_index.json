@@ -6239,6 +6239,337 @@
       "why_recommended": "Ranked by recency signal across configured topics."
     },
     {
+      "abstract": "3D Gaussian splatting (3DGS) has emerged as a widely-used tool for novel view synthesis, offering real-time rendering in a sparse representation. However, the method's reliance on structure-from-motion initialization and photometric optimization can lead to suboptimal geometric reconstruction, particularly for objects with high specularity. In this work, we investigate the integration of geometric priors, in the form of predicted normal and depth maps, into the 3DGS framework to improve the reconstruction quality. We analyze the effect of incorporating these priors into GS-based methods and our evaluation reveals that multi-view predictions, as they are done by the recent visual geometry grounded transformer (VGGT), outperform single-view alternatives. A major factor is the existence of a confidence map for the estimations, which comes as a by-product of multi-view models and which can significantly improve the effectiveness of priors by weighting each prediction appropriately. Extensive experiments on standard benchmarks show consistent improvement in reconstruction quality and significant gains in complex scenes including specular objects.",
+      "authors": [
+        "Hongyu Zhou",
+        "Zorah L\u00e4hner"
+      ],
+      "categories": [
+        "cs.CV",
+        "cs.GR"
+      ],
+      "citation_count": null,
+      "classic_status": null,
+      "code_url": null,
+      "difficulty": null,
+      "field": null,
+      "id": "arxiv:2608.06117v1",
+      "identifiers": {
+        "arxiv_id": "2608.06117v1"
+      },
+      "institutions": [],
+      "pdf_url": "https://arxiv.org/pdf/2608.06117v1",
+      "project_url": null,
+      "published_at": "2026-08-06",
+      "published_date": "2026-08-06",
+      "reading_advice": "quick_read",
+      "reading_status": "backlog",
+      "recommendation_level": "A",
+      "score": 0.787,
+      "scores": {
+        "classic_value": 0.35,
+        "engineering_transferability": 0.8,
+        "recency": 1.0,
+        "source_quality": 0.78,
+        "total": 0.787,
+        "user_relevance": 0.75
+      },
+      "selected_for_s_level": false,
+      "source": "arxiv",
+      "source_group": "gpu_graphics",
+      "source_type": "recent_24h",
+      "source_url": "http://arxiv.org/abs/2608.06117v1",
+      "tags": [
+        "cs.CV",
+        "cs.GR"
+      ],
+      "title": "Confidence matters: Leveraging Multi-view Geometric Priors for GS-based Reconstruction",
+      "title_zh": null,
+      "topics": [
+        "gpu_graphics"
+      ],
+      "url": "http://arxiv.org/abs/2608.06117v1",
+      "venue": null,
+      "why_recommended": "Ranked by recency signal across configured topics."
+    },
+    {
+      "abstract": "Large-language-model inference is a fast-growing electricity load whose marginal carbon intensity varies by more than an order of magnitude across grid regions and across the day, making request placement an attractive lever: no retraining, no hardware change. We report a live validation of carbon-aware inference routing on multi-region GPU testbeds driven by marginal operating emissions rate (MOER) signals, with three properties uncommon in prior work: a blind baseline that is an actual production pressure-based router rather than uniform placement; per-request energy attributed from GPU telemetry (NVIDIA DCGM) via measured concurrency curves rather than nameplate TDP; and carbon settlement of every request against historical MOER, not only the forecast that drove the decision. The central live result is feasibility: a MOER signal steered inference across regions with no observed dispatch failures, as a strict and reversible overlay on the production router. To size the effect, we replay a year of hourly MOER across a grid-diverse CONUS fleet. In the primary modeled configuration, carbon-aware placement reduces modeled GPU-attributable operational emissions by 50.9% versus round-robin (95% block-bootstrap CI 48.5-53.3%). Because the replay dispatches against historical MOER rather than a forecast, this is an upper bound under that configuration; forecast error would reduce operationally realized savings. Before session pinning, hourly lowest-MOER routing contributes about 22.4 percentage points, roughly 40% of the 54.0% placement reduction, beyond a static annual-mean-MOER policy. These are modeled results for one fleet and historical year, not a universal estimate. We also record a practical observation: when comparing regions, rank by absolute MOER rather than the percentile signal-index, which is normalized within each region and answers a temporal, not a spatial, question.",
+      "authors": [
+        "Aleks Bernhard",
+        "Arif Baran Yardimci"
+      ],
+      "categories": [
+        "cs.DC",
+        "cs.PF"
+      ],
+      "citation_count": null,
+      "classic_status": null,
+      "code_url": null,
+      "difficulty": null,
+      "field": null,
+      "id": "arxiv:2608.06188v1",
+      "identifiers": {
+        "arxiv_id": "2608.06188v1"
+      },
+      "institutions": [],
+      "pdf_url": "https://arxiv.org/pdf/2608.06188v1",
+      "project_url": null,
+      "published_at": "2026-08-06",
+      "published_date": "2026-08-06",
+      "reading_advice": "quick_read",
+      "reading_status": "backlog",
+      "recommendation_level": "A",
+      "score": 0.787,
+      "scores": {
+        "classic_value": 0.35,
+        "engineering_transferability": 0.8,
+        "recency": 1.0,
+        "source_quality": 0.78,
+        "total": 0.787,
+        "user_relevance": 0.75
+      },
+      "selected_for_s_level": false,
+      "source": "arxiv",
+      "source_group": "architecture",
+      "source_type": "recent_24h",
+      "source_url": "http://arxiv.org/abs/2608.06188v1",
+      "tags": [
+        "cs.DC",
+        "cs.PF"
+      ],
+      "title": "Routing LLM Inference to the Cleanest Grid in Real Time",
+      "title_zh": null,
+      "topics": [
+        "architecture"
+      ],
+      "url": "http://arxiv.org/abs/2608.06188v1",
+      "venue": null,
+      "why_recommended": "Ranked by recency signal across configured topics."
+    },
+    {
+      "abstract": "Intuitive teleoperation interfaces are crucial for the safe and effective operation of robotic manipulators in challenging environments. In the nuclear industry, surface contact tasks such as swab sampling require precise path and force tracking, obstacle avoidance, and sustained operator attention, which conventional joystick interfaces struggle to support effectively. This study designs and evaluates a novel touchscreen teleoperation interface that maps continuous finger movements directly to robotic manipulator motions, provides finer velocity control, and integrates control with visualization, enabling more natural, precise, and intuitive surface interaction than conventional controllers. A comparative user study with 20 participants evaluated task performance and workload using the proposed touchscreen, a conventional joystick, and a single-click autonomous mode. Tasks simulated realistic surface manipulation using a Franka Emika Panda arm, remotely controlled from another country. Kinematic, physiological, and behavioral data were recorded to comprehensively assess task performance, cognitive load, and operator trust across each control condition. Participants completed teleoperation tasks more efficiently and accurately with the touchscreen interface, achieving a 53.5% reduction in completion time (median: 2.50 vs. 5.38 min), higher in-area coverage on the sinusoidal path (90.7% vs. 84.1%), and lower overshoot on both path geometries compared with the joystick. Cognitive load, quantified via NASA-TLX (0-100), decreased from joystick to touchscreen (mean TLX 52 to 43; -9 points, -17.3%) and was lowest under the autonomous one-click mode (31; -21 points vs. joystick, -40.4%; -12 vs. touchscreen, -27.9%). This research presents an easy-to-implement touchscreen interface that improves performance in teleoperated surface tasks while reducing cognitive load.",
+      "authors": [
+        "Juan Jos\u00e9 Garc\u00eda C\u00e1rdenas",
+        "Alperen Kenan",
+        "Hamidreza Raei",
+        "Paul Bremner",
+        "Manuel Giuliani",
+        "Arash Ajoudani",
+        "Adriana Tapus"
+      ],
+      "categories": [
+        "cs.RO",
+        "cs.HC"
+      ],
+      "citation_count": null,
+      "classic_status": null,
+      "code_url": null,
+      "difficulty": null,
+      "field": null,
+      "id": "arxiv:2608.06219v1",
+      "identifiers": {
+        "arxiv_id": "2608.06219v1"
+      },
+      "institutions": [],
+      "pdf_url": "https://arxiv.org/pdf/2608.06219v1",
+      "project_url": null,
+      "published_at": "2026-08-06",
+      "published_date": "2026-08-06",
+      "reading_advice": "save_for_later",
+      "reading_status": "backlog",
+      "recommendation_level": "B",
+      "score": 0.717,
+      "scores": {
+        "classic_value": 0.35,
+        "engineering_transferability": 0.45,
+        "recency": 1.0,
+        "source_quality": 0.78,
+        "total": 0.717,
+        "user_relevance": 0.75
+      },
+      "selected_for_s_level": false,
+      "source": "arxiv",
+      "source_group": "cognition_social",
+      "source_type": "recent_24h",
+      "source_url": "http://arxiv.org/abs/2608.06219v1",
+      "tags": [
+        "cs.RO",
+        "cs.HC"
+      ],
+      "title": "Design and Evaluation of a Touchscreen-Based Teleoperation Interface for Robotic Manipulators",
+      "title_zh": null,
+      "topics": [
+        "cognition"
+      ],
+      "url": "http://arxiv.org/abs/2608.06219v1",
+      "venue": null,
+      "why_recommended": "Ranked by recency signal across configured topics."
+    },
+    {
+      "abstract": "While Agile projects are more successful than traditional software development project management approaches, their overall success rate remains relatively low, with a high percentage of projects still deemed challenged or failed. This low project success rate is attributed to projects not being rigorously evaluated against critical success factors (CSF) of Agile projects and contemporary project success criteria. To identify the CSF that contribute to Agile software development project success as perceived by Agile practitioners, this study used a positivist approach to investigate the CSF of Agile software development projects. PLS-SEM with SmartPLS was used to analyse the data and test the hypotheses to identify significant relationships between the constructs and project success criteria. This research found that a few critical factors significantly contribute to Agile project success. The study developed a novel model that can be used to evaluate and measure project success.",
+      "authors": [
+        "Ridewaan Hanslo",
+        "Maureen Tanner"
+      ],
+      "categories": [
+        "cs.SE"
+      ],
+      "citation_count": null,
+      "classic_status": null,
+      "code_url": null,
+      "difficulty": null,
+      "field": null,
+      "id": "arxiv:2608.06228v1",
+      "identifiers": {
+        "arxiv_id": "2608.06228v1"
+      },
+      "institutions": [],
+      "pdf_url": "https://arxiv.org/pdf/2608.06228v1",
+      "project_url": null,
+      "published_at": "2026-08-06",
+      "published_date": "2026-08-06",
+      "reading_advice": "quick_read",
+      "reading_status": "backlog",
+      "recommendation_level": "A",
+      "score": 0.787,
+      "scores": {
+        "classic_value": 0.35,
+        "engineering_transferability": 0.8,
+        "recency": 1.0,
+        "source_quality": 0.78,
+        "total": 0.787,
+        "user_relevance": 0.75
+      },
+      "selected_for_s_level": false,
+      "source": "arxiv",
+      "source_group": "llm_agent",
+      "source_type": "recent_24h",
+      "source_url": "http://arxiv.org/abs/2608.06228v1",
+      "tags": [
+        "cs.SE"
+      ],
+      "title": "Predicting Agile Success: The Critical Few Factors",
+      "title_zh": null,
+      "topics": [
+        "llm_agent"
+      ],
+      "url": "http://arxiv.org/abs/2608.06228v1",
+      "venue": null,
+      "why_recommended": "Ranked by recency signal across configured topics."
+    },
+    {
+      "abstract": "Oral health issues affect billions globally, but the cost and limited access to professional dental care hinder preventive oral healthcare. Research relies on clinical-grade radiographs or intraoral camera images, unavailable for public self-screening. This study introduces a tooth localisation and numbering model for smartphone photographs. We developed a customised Mask Region-based Convolutional Neural Network (Mask R-CNN) pipeline trained on 1,272 annotated smartphone images. To address variability in patient-generated health data, the pipeline incorporates two domain-informed mechanisms: a masked gray-world white-balancing algorithm to mitigate artificial colour casts and an anatomically constrained detection layer to enforce structural validity and suppress false positives. Evaluation comprised four stages: internal held-out testing, independent external testing, a descriptive ablation study, and fold-based training stability analysis using the same internal test set. On the internal test set, the model achieved an instance-mask AP@50 of 0.818, class-aware PQ of 0.780, and operational F1 of 0.884. Training stability showed limited between-model variation: across ten runs, instance-mask AP@50 had a standard deviation of 0.009. On the external dataset, the model achieved an instance-mask AP@50 of 0.901, class-aware PQ of 0.832, and operational F1 of 0.928 despite differences in population, sensors, and acquisition protocols. The inference pipeline is available as an open-source, containerised API. These results demonstrate that consumer-grade smartphone imagery can support automated tooth-level anatomical mapping, offering a scalable, potentially low-cost foundation for remote screening and tele-dentistry in resource-constrained environments.",
+      "authors": [
+        "Arash Nedaei",
+        "Henna Tiensuu",
+        "Elina V\u00e4yrynen",
+        "Saujanya Karki",
+        "Jaakko Suutala"
+      ],
+      "categories": [
+        "cs.CV",
+        "eess.IV"
+      ],
+      "citation_count": null,
+      "classic_status": null,
+      "code_url": null,
+      "difficulty": null,
+      "field": null,
+      "id": "arxiv:2608.06275v1",
+      "identifiers": {
+        "arxiv_id": "2608.06275v1"
+      },
+      "institutions": [],
+      "pdf_url": "https://arxiv.org/pdf/2608.06275v1",
+      "project_url": null,
+      "published_at": "2026-08-06",
+      "published_date": "2026-08-06",
+      "reading_advice": "save_for_later",
+      "reading_status": "backlog",
+      "recommendation_level": "B",
+      "score": 0.717,
+      "scores": {
+        "classic_value": 0.35,
+        "engineering_transferability": 0.45,
+        "recency": 1.0,
+        "source_quality": 0.78,
+        "total": 0.717,
+        "user_relevance": 0.75
+      },
+      "selected_for_s_level": false,
+      "source": "arxiv",
+      "source_group": "gpu_graphics",
+      "source_type": "recent_24h",
+      "source_url": "http://arxiv.org/abs/2608.06275v1",
+      "tags": [
+        "cs.CV",
+        "eess.IV"
+      ],
+      "title": "TLNM: Externally Validated Tooth Detection, Numbering and Segmentation from Smartphone Photographs Using Mask R-CNN",
+      "title_zh": null,
+      "topics": [
+        "gpu_graphics"
+      ],
+      "url": "http://arxiv.org/abs/2608.06275v1",
+      "venue": null,
+      "why_recommended": "Ranked by recency signal across configured topics."
+    },
+    {
+      "abstract": "Persistence diagrams (PDs) provide stable and interpretable summaries of multiscale topological structure. While substantial progress has been made in the statistical analysis of PDs, existing literature often treats diagrams as static objects and provide limited frameworks for probabilistic modeling and stochastic evolution on PD space. We introduce a reinforcement learning framework for stochastic dynamics on PD space, where diagrams evolve through topology aware local edit operations. The dynamics define controlled Markov processes on spaces of finite PDs with variable cardinality. We establish conditions under which the induced Markov chains are irreducible, aperiodic, and geometrically ergodic, implying the existence of unique stationary probability laws on PD space. To guide the dynamics toward scientifically relevant topological targets, we formulate objectives that encompass distribution matching, task specific topological statistics, and structure-preserving compression. The resulting rewards balance task specific distributional targets, diagram fidelity, and complexity reduction, and yield a framework for adaptive topological simplification and probabilistic modeling. Experiments on synthetic and neuroimaging PDs demonstrate that the proposed framework can preserve dominant topological structure while reducing diagram complexity.",
+      "authors": [
+        "Farzana Nasrin"
+      ],
+      "categories": [
+        "stat.ML",
+        "cs.LG",
+        "math.AT"
+      ],
+      "citation_count": null,
+      "classic_status": null,
+      "code_url": null,
+      "difficulty": null,
+      "field": null,
+      "id": "arxiv:2608.06276v1",
+      "identifiers": {
+        "arxiv_id": "2608.06276v1"
+      },
+      "institutions": [],
+      "pdf_url": "https://arxiv.org/pdf/2608.06276v1",
+      "project_url": null,
+      "published_at": "2026-08-06",
+      "published_date": "2026-08-06",
+      "reading_advice": "save_for_later",
+      "reading_status": "backlog",
+      "recommendation_level": "B",
+      "score": 0.717,
+      "scores": {
+        "classic_value": 0.35,
+        "engineering_transferability": 0.45,
+        "recency": 1.0,
+        "source_quality": 0.78,
+        "total": 0.717,
+        "user_relevance": 0.75
+      },
+      "selected_for_s_level": false,
+      "source": "arxiv",
+      "source_group": "llm_agent",
+      "source_type": "recent_24h",
+      "source_url": "http://arxiv.org/abs/2608.06276v1",
+      "tags": [
+        "stat.ML",
+        "cs.LG",
+        "math.AT"
+      ],
+      "title": "Stochastic Dynamics on Persistence Diagram Space via Reinforcement Learning",
+      "title_zh": null,
+      "topics": [
+        "llm_agent"
+      ],
+      "url": "http://arxiv.org/abs/2608.06276v1",
+      "venue": null,
+      "why_recommended": "Ranked by recency signal across configured topics."
+    },
+    {
       "abstract": "Required background for parallel architecture.",
       "authors": [],
       "categories": [
@@ -6624,5 +6955,5 @@
     }
   ],
   "public_json_version": "0.2",
-  "updated_at": "2026-08-05T23:11:35+00:00"
+  "updated_at": "2026-08-07T01:32:25+00:00"
 }
