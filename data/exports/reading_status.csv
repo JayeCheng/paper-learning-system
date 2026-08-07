@@ -107,12 +107,18 @@ arxiv:2608.03983v1,backlog,medium,,2026-08-05T23:11:35+00:00,Can Large Language 
 arxiv:2608.03991v1,backlog,medium,,2026-08-05T23:11:35+00:00,Perceptual Anchoring: Prototype-Guided Text Calibration for Training-free Open-Vocabulary Semantic Segmentation,gpu_graphics,B
 arxiv:2608.04009v1,backlog,medium,,2026-08-05T23:11:35+00:00,SocietyBench: Forecasting Counterfactual Social-World Evolution,llm_agent,B
 arxiv:2608.04010v1,backlog,medium,,2026-08-05T23:11:35+00:00,ParVL: Parallel Scaling and Expandable Compute Allocation for Multimodal LLMs,gpu_graphics,B
+arxiv:2608.06013v1,backlog,medium,,2026-08-07T22:48:53+00:00,"OneEmo: A Unified Multimodal Reasoning Model for Emotion Perception, Understanding, and Interaction",cognition_social,B
+arxiv:2608.06025v1,backlog,medium,,2026-08-07T22:48:53+00:00,Hybrid-Adaptive Thread Tuning to Mitigate Simulation Execution Bottlenecks in High-Performance Reinforcement Learning Inference,architecture,A
 arxiv:2608.06117v1,backlog,medium,,2026-08-07T01:32:25+00:00,Confidence matters: Leveraging Multi-view Geometric Priors for GS-based Reconstruction,gpu_graphics,A
 arxiv:2608.06188v1,backlog,medium,,2026-08-07T01:32:25+00:00,Routing LLM Inference to the Cleanest Grid in Real Time,architecture,A
+arxiv:2608.06211v1,backlog,medium,,2026-08-07T22:48:53+00:00,Reversible Unlearnable Examples: Towards the Copyright Protection in Deep Learning Era,gpu_graphics,B
 arxiv:2608.06219v1,backlog,medium,,2026-08-07T01:32:25+00:00,Design and Evaluation of a Touchscreen-Based Teleoperation Interface for Robotic Manipulators,cognition_social,B
 arxiv:2608.06228v1,backlog,medium,,2026-08-07T01:32:25+00:00,Predicting Agile Success: The Critical Few Factors,llm_agent,A
+arxiv:2608.06236v1,backlog,medium,,2026-08-07T22:48:53+00:00,Depth-Guided Video Object Counting in Crowded Scenes,gpu_graphics,B
 arxiv:2608.06275v1,backlog,medium,,2026-08-07T01:32:25+00:00,"TLNM: Externally Validated Tooth Detection, Numbering and Segmentation from Smartphone Photographs Using Mask R-CNN",gpu_graphics,B
 arxiv:2608.06276v1,backlog,medium,,2026-08-07T01:32:25+00:00,Stochastic Dynamics on Persistence Diagram Space via Reinforcement Learning,llm_agent,B
+arxiv:2608.06352v1,backlog,medium,,2026-08-07T22:48:53+00:00,CalibForge: Adversarial Solver Calibration for Scaling Learnable Terminal Tasks,llm_agent,B
+arxiv:2608.06377v1,backlog,medium,,2026-08-07T22:48:53+00:00,Learning When to Trust via Selective Context Preference Optimization,llm_agent,B
 classic:architecture:cache-coherence-and-shared-memory-multiprocessors,backlog,medium,,2026-07-09T09:46:00+00:00,Cache coherence and shared-memory multiprocessors,architecture,B
 classic:architecture:the-memory-hierarchy-and-locality,backlog,medium,,2026-07-09T09:46:00+00:00,The memory hierarchy and locality,architecture,B
 classic:cognition:attention-and-working-memory,backlog,medium,,2026-07-09T09:46:00+00:00,Attention and working memory,cognition,B

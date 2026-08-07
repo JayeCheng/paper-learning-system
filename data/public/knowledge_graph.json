@@ -939,6 +939,30 @@
     {
       "confidence": 0.5,
       "relation": "related_to",
+      "source": "arxiv:2608.06013v1",
+      "target": "cognition"
+    },
+    {
+      "confidence": 0.5,
+      "relation": "related_to",
+      "source": "arxiv:2608.06013v1",
+      "target": "cognition_social"
+    },
+    {
+      "confidence": 0.5,
+      "relation": "related_to",
+      "source": "arxiv:2608.06025v1",
+      "target": "llm_agent"
+    },
+    {
+      "confidence": 0.5,
+      "relation": "related_to",
+      "source": "arxiv:2608.06025v1",
+      "target": "architecture"
+    },
+    {
+      "confidence": 0.5,
+      "relation": "related_to",
       "source": "arxiv:2608.06117v1",
       "target": "gpu_graphics"
     },
@@ -947,6 +971,12 @@
       "relation": "related_to",
       "source": "arxiv:2608.06188v1",
       "target": "architecture"
+    },
+    {
+      "confidence": 0.5,
+      "relation": "related_to",
+      "source": "arxiv:2608.06211v1",
+      "target": "gpu_graphics"
     },
     {
       "confidence": 0.5,
@@ -969,6 +999,18 @@
     {
       "confidence": 0.5,
       "relation": "related_to",
+      "source": "arxiv:2608.06236v1",
+      "target": "gpu_graphics"
+    },
+    {
+      "confidence": 0.5,
+      "relation": "related_to",
+      "source": "arxiv:2608.06236v1",
+      "target": "llm_agent"
+    },
+    {
+      "confidence": 0.5,
+      "relation": "related_to",
       "source": "arxiv:2608.06275v1",
       "target": "gpu_graphics"
     },
@@ -976,6 +1018,18 @@
       "confidence": 0.5,
       "relation": "related_to",
       "source": "arxiv:2608.06276v1",
+      "target": "llm_agent"
+    },
+    {
+      "confidence": 0.5,
+      "relation": "related_to",
+      "source": "arxiv:2608.06352v1",
+      "target": "llm_agent"
+    },
+    {
+      "confidence": 0.5,
+      "relation": "related_to",
+      "source": "arxiv:2608.06377v1",
       "target": "llm_agent"
     },
     {
@@ -1935,6 +1989,23 @@
       "type": "paper"
     },
     {
+      "id": "arxiv:2608.06013v1",
+      "label": "OneEmo: A Unified Multimodal Reasoning Model for Emotion Perception, Understanding, and Interaction",
+      "topics": [
+        "cognition"
+      ],
+      "type": "paper"
+    },
+    {
+      "id": "arxiv:2608.06025v1",
+      "label": "Hybrid-Adaptive Thread Tuning to Mitigate Simulation Execution Bottlenecks in High-Performance Reinforcement Learning Inference",
+      "topics": [
+        "llm_agent",
+        "architecture"
+      ],
+      "type": "paper"
+    },
+    {
       "id": "arxiv:2608.06117v1",
       "label": "Confidence matters: Leveraging Multi-view Geometric Priors for GS-based Reconstruction",
       "topics": [
@@ -1947,6 +2018,14 @@
       "label": "Routing LLM Inference to the Cleanest Grid in Real Time",
       "topics": [
         "architecture"
+      ],
+      "type": "paper"
+    },
+    {
+      "id": "arxiv:2608.06211v1",
+      "label": "Reversible Unlearnable Examples: Towards the Copyright Protection in Deep Learning Era",
+      "topics": [
+        "gpu_graphics"
       ],
       "type": "paper"
     },
@@ -1967,6 +2046,15 @@
       "type": "paper"
     },
     {
+      "id": "arxiv:2608.06236v1",
+      "label": "Depth-Guided Video Object Counting in Crowded Scenes",
+      "topics": [
+        "gpu_graphics",
+        "llm_agent"
+      ],
+      "type": "paper"
+    },
+    {
       "id": "arxiv:2608.06275v1",
       "label": "TLNM: Externally Validated Tooth Detection, Numbering and Segmentation from Smartphone Photographs Using Mask R-CNN",
       "topics": [
@@ -1977,6 +2065,22 @@
     {
       "id": "arxiv:2608.06276v1",
       "label": "Stochastic Dynamics on Persistence Diagram Space via Reinforcement Learning",
+      "topics": [
+        "llm_agent"
+      ],
+      "type": "paper"
+    },
+    {
+      "id": "arxiv:2608.06352v1",
+      "label": "CalibForge: Adversarial Solver Calibration for Scaling Learnable Terminal Tasks",
+      "topics": [
+        "llm_agent"
+      ],
+      "type": "paper"
+    },
+    {
+      "id": "arxiv:2608.06377v1",
+      "label": "Learning When to Trust via Selective Context Preference Optimization",
       "topics": [
         "llm_agent"
       ],
@@ -2096,5 +2200,5 @@
     }
   ],
   "public_json_version": "0.4",
-  "updated_at": "2026-08-07T01:32:25+00:00"
+  "updated_at": "2026-08-07T22:48:53+00:00"
 }
