@@ -1,0 +1,208 @@
+import json
+
+import pytest
+
+from paper_learning.core.models import Paper
+from paper_learning.core.notes_index import (
+    add_note,
+    annotate_report_papers,
+    link_knowledge_node,
+    load_notes,
+    update_note,
+)
+from paper_learning.core.state_store import upsert_papers
+from paper_learning.reports.daily_report import build_daily_report
+from paper_learning.reports.markdown_renderer import render_daily_markdown
+
+
+def _paper(*, selected_for_s_level: bool = False) -> Paper:
+    return Paper(
+        id="arxiv:2607.00001",
+        title="Metadata Bridges for Research Notes",
+        source="arxiv",
+        source_type="recent_7d",
+        source_group="llm_agent",
+        topics=["llm_agent"],
+        url="https://example.com/paper",
+        selected_for_s_level=selected_for_s_level,
+        recommendation_level="S" if selected_for_s_level else "A",
+    )
+
+
+def test_notes_index_add_update_and_link(tmp_path) -> None:
+    upsert_papers([_paper()], root=tmp_path)
+
+    note = add_note(
+        paper_id="arxiv:2607.00001",
+        note_type="deep_read",
+        title="Deep Read: Metadata Bridges",
+        notion_url="https://www.notion.so/deep-read",
+        local_markdown_path="deep_read/llm_agent/metadata-bridges.md",
+        tags=["notion", "bridge", "notion"],
+        root=tmp_path,
+        timestamp="2026-07-27T10:00:00+00:00",
+    )
+    updated = update_note(
+        note.note_id,
+        status="published",
+        root=tmp_path,
+        timestamp="2026-07-27T11:00:00+00:00",
+    )
+    linked = link_knowledge_node(
+        note.note_id,
+        knowledge_node="notion-metadata-bridge",
+        root=tmp_path,
+        timestamp="2026-07-27T12:00:00+00:00",
+    )
+    link_knowledge_node(
+        note.note_id,
+        knowledge_node="notion-metadata-bridge",
+        root=tmp_path,
+        timestamp="2026-07-27T13:00:00+00:00",
+    )
+
+    stored = load_notes(tmp_path)[0]
+    payload = json.loads((tmp_path / "data/state/notes_index.json").read_text(encoding="utf-8"))
+
+    assert note.note_id.startswith("note:deep_read:deep-read-metadata-bridges-")
+    assert note.created_at == note.updated_at
+    assert note.tags == ["notion", "bridge"]
+    assert updated.status == "published"
+    assert linked.linked_knowledge_nodes == ["notion-metadata-bridge"]
+    assert stored.linked_knowledge_nodes == ["notion-metadata-bridge"]
+    assert payload["state_version"] == "0.4"
+
+
+def test_s_level_report_gets_note_bridge_fields(tmp_path) -> None:
+    paper = _paper(selected_for_s_level=True)
+    upsert_papers([paper], root=tmp_path)
+    note = add_note(
+        paper_id=paper.id,
+        note_type="deep_read",
+        title="Existing Deep Read",
+        notion_url="https://www.notion.so/existing",
+        root=tmp_path,
+        timestamp="2026-07-27T10:00:00+00:00",
+    )
+
+    annotated = annotate_report_papers([paper], [note])
+    report = build_daily_report(annotated, date="2026-07-27")
+    markdown = render_daily_markdown(report)
+
+    assert annotated[0].existing_note_url == "https://www.notion.so/existing"
+    assert annotated[0].suggested_note_type == "deep_read"
+    assert annotated[0].suggested_note_title == "Deep Read: Metadata Bridges for Research Notes"
+    assert "Existing note: https://www.notion.so/existing" in markdown
+
+
+def test_note_add_rejects_unknown_paper(tmp_path) -> None:
+    try:
+        add_note(
+            paper_id="missing",
+            note_type="deep_read",
+            title="Missing",
+            notion_url="https://www.notion.so/missing",
+            root=tmp_path,
+        )
+    except ValueError as exc:
+        assert "does not exist" in str(exc)
+    else:
+        raise AssertionError("unknown paper should be rejected")
+
+
+def test_local_only_note_round_trips_and_notion_only_remains_supported(tmp_path) -> None:
+    upsert_papers([_paper()], root=tmp_path)
+
+    local_note = add_note(
+        paper_id=_paper().id,
+        note_type="project_note",
+        title="Local note",
+        local_markdown_path="deep_read/local-note.md",
+        root=tmp_path,
+        timestamp="2026-07-27T10:00:00+00:00",
+    )
+    notion_note = add_note(
+        paper_id=_paper().id,
+        note_type="concept_card",
+        title="Notion note",
+        notion_url="https://www.notion.so/notion-only",
+        root=tmp_path,
+        timestamp="2026-07-27T11:00:00+00:00",
+    )
+
+    stored = {note.note_id: note for note in load_notes(tmp_path)}
+    assert stored[local_note.note_id].notion_url is None
+    assert stored[local_note.note_id].local_markdown_path == "deep_read/local-note.md"
+    assert stored[notion_note.note_id].notion_url == "https://www.notion.so/notion-only"
+    assert stored[notion_note.note_id].local_markdown_path is None
+
+
+@pytest.mark.parametrize(
+    ("notion_url", "local_path"),
+    [
+        (None, None),
+        ("notion://invalid", None),
+        (None, "/tmp/absolute.md"),
+        (None, "../traversal.md"),
+        (None, "deep_read/not-markdown.txt"),
+    ],
+)
+def test_note_locations_are_validated_before_state_write(tmp_path, notion_url, local_path) -> None:
+    upsert_papers([_paper()], root=tmp_path)
+
+    with pytest.raises(ValueError):
+        add_note(
+            paper_id=_paper().id,
+            note_type="deep_read",
+            title="Rejected",
+            notion_url=notion_url,
+            local_markdown_path=local_path,
+            root=tmp_path,
+        )
+
+    assert not (tmp_path / "data/state/notes_index.json").exists()
+
+
+def test_note_update_can_change_locations_without_changing_identity(tmp_path) -> None:
+    upsert_papers([_paper()], root=tmp_path)
+    note = add_note(
+        paper_id=_paper().id,
+        note_type="method_card",
+        title="Stable Identity",
+        notion_url="https://www.notion.so/original",
+        root=tmp_path,
+        timestamp="2026-07-27T10:00:00+00:00",
+    )
+
+    updated = update_note(
+        note.note_id,
+        notion_url=None,
+        local_markdown_path="deep_read/stable-identity.md",
+        root=tmp_path,
+        timestamp="2026-07-27T11:00:00+00:00",
+    )
+
+    assert updated.note_id == note.note_id
+    assert updated.paper_id == note.paper_id
+    assert updated.note_type == note.note_type
+    assert updated.notion_url is None
+    assert updated.local_markdown_path == "deep_read/stable-identity.md"
+
+
+def test_invalid_note_update_leaves_existing_state_unchanged(tmp_path) -> None:
+    upsert_papers([_paper()], root=tmp_path)
+    note = add_note(
+        paper_id=_paper().id,
+        note_type="deep_read",
+        title="Preserve Valid State",
+        notion_url="https://www.notion.so/valid",
+        root=tmp_path,
+        timestamp="2026-07-27T10:00:00+00:00",
+    )
+    path = tmp_path / "data/state/notes_index.json"
+    before = path.read_bytes()
+
+    with pytest.raises(ValueError, match="absolute HTTP"):
+        update_note(note.note_id, notion_url="notion://invalid", root=tmp_path)
+
+    assert path.read_bytes() == before

@@ -1,9 +1,10 @@
 from __future__ import annotations
 
-from datetime import datetime, timezone
+from datetime import date, datetime, time, timezone
 from zoneinfo import ZoneInfo
 
 DEFAULT_TIMEZONE_NAME = "Asia/Singapore"
+DEFAULT_REPORT_TIME = time(hour=6, minute=10)
 
 
 def utc_now_string() -> str:
@@ -22,3 +23,17 @@ def local_today_string(
 
 def today_string() -> str:
     return local_today_string()
+
+
+def report_reference_time(
+    report_date: str,
+    *,
+    timezone_name: str = DEFAULT_TIMEZONE_NAME,
+) -> datetime:
+    """Return the timezone-aware scheduled reference time for a report date."""
+
+    return datetime.combine(
+        date.fromisoformat(report_date),
+        DEFAULT_REPORT_TIME,
+        tzinfo=ZoneInfo(timezone_name),
+    )

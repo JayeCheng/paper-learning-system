@@ -9,7 +9,7 @@ from paper_learning.core.models import Paper, ReadingStatus
 from paper_learning.core.normalize import normalize_paper
 from paper_learning.utils.time import utc_now_string
 
-STATE_VERSION = "0.2"
+STATE_VERSION = "0.3"
 VALID_READING_STATUSES = {"backlog", "queued", "skimmed", "deep_read", "archived", "skipped"}
 VALID_PRIORITIES = {"low", "medium", "high", "s_level"}
 

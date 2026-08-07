@@ -6,14 +6,14 @@
   "required": ["public_json_version", "frontend_entry", "latest"],
   "additionalProperties": false,
   "properties": {
-    "public_json_version": { "type": "string", "default": "0.2" },
+    "public_json_version": { "type": "string", "default": "0.4" },
     "frontend_entry": { "type": "string" },
     "latest": {
       "type": ["object", "null"],
       "additionalProperties": false,
       "properties": {
-        "date": { "type": ["string", "null"] },
-        "generated_at": { "type": ["string", "null"] },
+        "date": { "type": ["string", "null"], "format": "date" },
+        "generated_at": { "type": ["string", "null"], "format": "date-time" },
         "markdown_path": { "type": ["string", "null"] },
         "json_path": { "type": ["string", "null"] },
         "paper_count": { "type": "integer", "minimum": 0 },

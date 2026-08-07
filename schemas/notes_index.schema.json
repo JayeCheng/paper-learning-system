@@ -1,0 +1,83 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://github.com/JayeCheng/paper-learning-system/schemas/notes_index.schema.json",
+  "title": "NotesIndex",
+  "type": "object",
+  "required": ["updated_at", "notes"],
+  "anyOf": [
+    { "required": ["state_version"] },
+    { "required": ["public_json_version"] }
+  ],
+  "additionalProperties": false,
+  "properties": {
+    "state_version": { "type": "string" },
+    "public_json_version": { "type": "string", "default": "0.4" },
+    "updated_at": { "type": ["string", "null"], "format": "date-time" },
+    "notes": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "anyOf": [
+          {
+            "properties": {
+              "notion_url": { "type": "string" }
+            }
+          },
+          {
+            "properties": {
+              "local_markdown_path": { "type": "string" }
+            }
+          }
+        ],
+        "required": [
+          "note_id",
+          "paper_id",
+          "note_type",
+          "title",
+          "notion_url",
+          "local_markdown_path",
+          "status",
+          "created_at",
+          "updated_at",
+          "tags",
+          "linked_knowledge_nodes"
+        ],
+        "additionalProperties": false,
+        "properties": {
+          "note_id": { "type": "string", "minLength": 1 },
+          "paper_id": { "type": "string", "minLength": 1 },
+          "note_type": {
+            "type": "string",
+            "enum": ["deep_read", "concept_card", "method_card", "english_card", "project_note"]
+          },
+          "title": { "type": "string", "minLength": 1 },
+          "notion_url": {
+            "type": ["string", "null"],
+            "format": "uri",
+            "pattern": "^[Hh][Tt][Tt][Pp][Ss]?://"
+          },
+          "local_markdown_path": {
+            "type": ["string", "null"],
+            "pattern": "^(?!/)(?![A-Za-z]:)(?!.*\\\\)(?!.*(?:^|/)\\.\\.(?:/|$)).+\\.[Mm][Dd]$"
+          },
+          "status": {
+            "type": "string",
+            "enum": ["planned", "drafting", "published", "archived"]
+          },
+          "created_at": { "type": "string", "format": "date-time" },
+          "updated_at": { "type": "string", "format": "date-time" },
+          "tags": {
+            "type": "array",
+            "items": { "type": "string" },
+            "uniqueItems": true
+          },
+          "linked_knowledge_nodes": {
+            "type": "array",
+            "items": { "type": "string" },
+            "uniqueItems": true
+          }
+        }
+      }
+    }
+  }
+}

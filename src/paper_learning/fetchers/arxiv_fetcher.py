@@ -6,6 +6,7 @@ from urllib.request import Request, urlopen
 import xml.etree.ElementTree as ET
 
 from paper_learning.core.models import PaperCandidate
+from paper_learning.enrichers.links import discover_links
 
 ARXIV_API_URL = "https://export.arxiv.org/api/query"
 ATOM_NS = {"atom": "http://www.w3.org/2005/Atom", "arxiv": "http://arxiv.org/schemas/atom"}
@@ -30,7 +31,10 @@ def fetch_arxiv_candidates(
     categories = categories or ["cs.AI"]
     now = now or datetime.now(timezone.utc)
     cutoff = now - timedelta(days=window_days)
-    query = " OR ".join(f"cat:{category}" for category in categories)
+    category_query = " OR ".join(f"cat:{category}" for category in categories)
+    start = cutoff.astimezone(timezone.utc).strftime("%Y%m%d%H%M")
+    end = now.astimezone(timezone.utc).strftime("%Y%m%d%H%M")
+    query = f"({category_query}) AND submittedDate:[{start} TO {end}]"
     params = urlencode(
         {
             "search_query": query,
@@ -48,7 +52,13 @@ def fetch_arxiv_candidates(
     except OSError:
         return []
 
-    return _parse_arxiv_atom(payload, source_type=source_type, source_group=source_group, cutoff=cutoff)
+    return _parse_arxiv_atom(
+        payload,
+        source_type=source_type,
+        source_group=source_group,
+        cutoff=cutoff,
+        reference_time=now,
+    )
 
 
 def _parse_arxiv_atom(
@@ -57,6 +67,7 @@ def _parse_arxiv_atom(
     source_type: str,
     cutoff: datetime,
     source_group: str | None = None,
+    reference_time: datetime | None = None,
 ) -> list[PaperCandidate]:
     root = ET.fromstring(payload)
     candidates: list[PaperCandidate] = []
@@ -65,19 +76,24 @@ def _parse_arxiv_atom(
         published_dt = _parse_arxiv_datetime(published)
         if published_dt and published_dt < cutoff:
             continue
+        if published_dt and reference_time and published_dt > reference_time:
+            continue
 
         source_url = _text(entry, "atom:id")
         arxiv_id = source_url.rsplit("/", 1)[-1] if source_url else _text(entry, "arxiv:doi")
         categories = [node.attrib.get("term", "") for node in entry.findall("atom:category", ATOM_NS)]
         categories = [category for category in categories if category]
         pdf_url = _pdf_link(entry)
+        abstract = _text(entry, "atom:summary")
+        comment = _text(entry, "arxiv:comment")
+        code_url, project_url = discover_links(f"{abstract} {comment}")
 
         candidates.append(
             PaperCandidate(
                 id=f"arxiv:{arxiv_id}",
                 title=_text(entry, "atom:title"),
                 authors=[_text(author, "atom:name") for author in entry.findall("atom:author", ATOM_NS)],
-                abstract=_text(entry, "atom:summary"),
+                abstract=abstract,
                 source="arxiv",
                 source_url=source_url,
                 pdf_url=pdf_url,
@@ -87,6 +103,8 @@ def _parse_arxiv_atom(
                 source_type=source_type,
                 source_group=source_group,
                 identifiers={"arxiv_id": arxiv_id},
+                code_url=code_url,
+                project_url=project_url,
             )
         )
     return candidates

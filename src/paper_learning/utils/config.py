@@ -20,6 +20,36 @@ DEFAULT_RANKING_WEIGHTS = {
     "engineering_transferability": 0.20,
     "classic_value": 0.10,
 }
+DEFAULT_OPENREVIEW_CONFIG = {
+    "enabled": False,
+    "venues": ["ICLR", "NeurIPS", "ICML", "COLM", "ACL", "EMNLP"],
+    "venue_ids": [],
+    "years": [2026, 2025],
+    "max_results_per_venue": 10,
+}
+DEFAULT_BIORXIV_CONFIG = {
+    "enabled": False,
+    "servers": ["biorxiv", "medrxiv"],
+    "categories": ["neuroscience", "animal behavior and cognition"],
+    "window_days": 7,
+    "max_results": 20,
+    "query": None,
+}
+DEFAULT_SEMANTIC_SCHOLAR_CONFIG = {
+    "enabled": True,
+    "max_enrichments_per_run": 12,
+    "max_without_api_key": 3,
+    "timeout_seconds": 20,
+}
+DEFAULT_SOURCE_QUALITY = {
+    "arxiv": 0.78,
+    "openreview": 0.88,
+    "biorxiv": 0.68,
+    "semantic_scholar_enriched": 0.82,
+    "manual_classic": 0.80,
+    "github": 0.60,
+    "manual": 0.55,
+}
 
 
 def load_arxiv_source_config(path: Path = Path("config/sources.yaml")) -> dict:
@@ -131,6 +161,7 @@ def load_ranking_config(path: Path = Path("config/ranking.yaml")) -> dict:
         "a_level_threshold": 0.74,
         "b_level_threshold": 0.58,
         "weights": dict(DEFAULT_RANKING_WEIGHTS),
+        "source_quality": dict(DEFAULT_SOURCE_QUALITY),
     }
     if not path.exists():
         return config
@@ -151,7 +182,21 @@ def load_ranking_config(path: Path = Path("config/ranking.yaml")) -> dict:
             config[key] = value
         elif section == "weights" and key in config["weights"]:
             config["weights"][key] = float(value)
+        elif section == "source_quality":
+            config["source_quality"][key] = float(value)
     return config
+
+
+def load_openreview_source_config(path: Path = Path("config/sources.yaml")) -> dict:
+    return _load_source_section(path, "openreview", DEFAULT_OPENREVIEW_CONFIG)
+
+
+def load_biorxiv_source_config(path: Path = Path("config/sources.yaml")) -> dict:
+    return _load_source_section(path, "biorxiv", DEFAULT_BIORXIV_CONFIG)
+
+
+def load_semantic_scholar_source_config(path: Path = Path("config/sources.yaml")) -> dict:
+    return _load_source_section(path, "semantic_scholar", DEFAULT_SEMANTIC_SCHOLAR_CONFIG)
 
 
 def load_classic_items(curriculum_dir: Path = Path("curriculum")) -> list[dict]:
@@ -181,6 +226,29 @@ def load_classic_items(curriculum_dir: Path = Path("curriculum")) -> list[dict]:
 def slugify(value: str) -> str:
     slug = re.sub(r"[^a-z0-9]+", "-", value.lower()).strip("-")
     return slug or "untitled"
+
+
+def _load_source_section(path: Path, source_name: str, defaults: dict) -> dict:
+    config = dict(defaults)
+    if not path.exists():
+        return config
+
+    in_source = False
+    for line in path.read_text(encoding="utf-8").splitlines():
+        stripped = line.strip()
+        indent = len(line) - len(line.lstrip(" "))
+        if indent == 2 and stripped.endswith(":"):
+            in_source = stripped == f"{source_name}:"
+            continue
+        if not in_source:
+            continue
+        if indent <= 2 and stripped:
+            break
+        if indent == 4 and ":" in stripped:
+            key, raw_value = stripped.split(":", 1)
+            if key in config:
+                config[key] = _parse_scalar(raw_value)
+    return config
 
 
 def _parse_scalar(value: str) -> object:

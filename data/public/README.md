@@ -9,7 +9,7 @@ Rules:
 - Do not require consumers to parse free-form Markdown.
 - Do not expose internal checkpoint details from `data/state/`.
 
-Generated v0.2 files:
+Generated v0.4 files:
 
 - `latest.json`: pointer to the latest daily Markdown and JSON report.
 - `daily_index.json`: ordered index of daily reports.
@@ -17,3 +17,6 @@ Generated v0.2 files:
 - `knowledge_graph.json`: initial machine-readable graph of papers and topics.
 - `reading_status.json`: public reading status and priority records.
 - `curriculum_progress.json`: route progress derived from papers and status.
+- `notes_index.json`: frontend-safe note metadata and manual Notion entry links.
+
+Consumers must not require Notion credentials or direct Notion API access.

@@ -3,7 +3,8 @@ from __future__ import annotations
 import json
 from pathlib import Path
 
-from paper_learning.core.models import DailyReport, Paper, ReadingStatus
+from paper_learning.core.models import DailyReport, NoteIndexEntry, Paper, ReadingStatus
+from paper_learning.core.notes_index import note_metadata_for_paper
 from paper_learning.core.state_store import apply_reading_statuses
 
 TRACK_LABELS = {
@@ -23,12 +24,14 @@ def write_public_json(
     reading_statuses: dict[str, ReadingStatus],
     run_history: list[dict],
     public_dir: Path = Path("data/public"),
+    notes: list[NoteIndexEntry] | None = None,
 ) -> dict[str, Path]:
     public_dir.mkdir(parents=True, exist_ok=True)
     updated_at = _updated_at(report, run_history)
-    version = report.public_json_version if report else "0.2"
+    version = report.public_json_version if report else "0.4"
     papers_with_status = apply_reading_statuses(papers, reading_statuses)
     latest_entry = _latest_entry(report, run_history)
+    note_entries = notes or []
 
     payloads = {
         "latest": {
@@ -37,10 +40,11 @@ def write_public_json(
             "latest": latest_entry,
         },
         "daily_index": _daily_index_payload(version, latest_entry, run_history),
-        "papers_index": _papers_index_payload(version, updated_at, papers_with_status),
+        "papers_index": _papers_index_payload(version, updated_at, papers_with_status, note_entries),
         "knowledge_graph": _knowledge_graph_payload(version, updated_at, papers_with_status),
         "reading_status": _reading_status_payload(version, updated_at, reading_statuses),
         "curriculum_progress": _curriculum_progress_payload(version, updated_at, papers_with_status, reading_statuses),
+        "notes_index": _notes_index_payload(version, updated_at, note_entries),
     }
 
     paths = {
@@ -50,6 +54,7 @@ def write_public_json(
         "knowledge_graph": public_dir / "knowledge_graph.json",
         "reading_status": public_dir / "reading_status.json",
         "curriculum_progress": public_dir / "curriculum_progress.json",
+        "notes_index": public_dir / "notes_index.json",
     }
     for name, path in paths.items():
         _write_json(path, payloads[name])
@@ -109,11 +114,21 @@ def _run_to_public_entry(run: dict) -> dict:
     }
 
 
-def _papers_index_payload(version: str, updated_at: str, papers: list[Paper]) -> dict:
+def _papers_index_payload(
+    version: str,
+    updated_at: str,
+    papers: list[Paper],
+    notes: list[NoteIndexEntry],
+) -> dict:
+    paper_payloads = []
+    for paper in sorted(papers, key=lambda item: item.id):
+        payload = paper.to_dict()
+        payload.update(note_metadata_for_paper(paper.id, notes))
+        paper_payloads.append(payload)
     return {
         "public_json_version": version,
         "updated_at": updated_at,
-        "papers": [paper.to_dict() for paper in sorted(papers, key=lambda item: item.id)],
+        "papers": paper_payloads,
     }
 
 
@@ -190,6 +205,19 @@ def _curriculum_progress_payload(
         "public_json_version": version,
         "updated_at": updated_at,
         "tracks": tracks,
+    }
+
+
+def _notes_index_payload(
+    version: str,
+    updated_at: str,
+    notes: list[NoteIndexEntry],
+) -> dict:
+    note_updated_at = max((note.updated_at for note in notes), default=None)
+    return {
+        "public_json_version": version,
+        "updated_at": note_updated_at or updated_at or None,
+        "notes": [note.to_dict() for note in sorted(notes, key=lambda item: item.note_id)],
     }
 
 
