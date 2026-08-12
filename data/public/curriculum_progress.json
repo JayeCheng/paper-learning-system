@@ -11,7 +11,7 @@
         "arxiv:2608.06025v1",
         "arxiv:2608.07226v1"
       ],
-      "planned_count": 24
+      "planned_count": 25
     },
     {
       "completed_count": 0,
@@ -19,11 +19,11 @@
       "id": "cognition",
       "label": "Cognitive Science",
       "next_paper_ids": [
+        "arxiv:2608.10839v1",
         "arxiv:2607.11512v1",
-        "arxiv:2607.15143v1",
-        "arxiv:2607.15868v1"
+        "arxiv:2607.15143v1"
       ],
-      "planned_count": 26
+      "planned_count": 27
     },
     {
       "completed_count": 0,
@@ -31,11 +31,11 @@
       "id": "cognition_social",
       "label": "Cognition / Social Systems",
       "next_paper_ids": [
+        "arxiv:2608.10839v1",
         "arxiv:2607.11512v1",
-        "arxiv:2607.15143v1",
-        "arxiv:2607.15868v1"
+        "arxiv:2607.15143v1"
       ],
-      "planned_count": 22
+      "planned_count": 23
     },
     {
       "completed_count": 0,
@@ -44,10 +44,10 @@
       "label": "GPU / Graphics",
       "next_paper_ids": [
         "arxiv:2608.06117v1",
-        "arxiv:2607.11512v1",
-        "arxiv:2607.11734v1"
+        "arxiv:2608.10839v1",
+        "arxiv:2607.11512v1"
       ],
-      "planned_count": 50
+      "planned_count": 53
     },
     {
       "completed_count": 0,
@@ -59,8 +59,8 @@
         "arxiv:2608.06025v1",
         "arxiv:2608.07226v1"
       ],
-      "planned_count": 75
+      "planned_count": 78
     }
   ],
-  "updated_at": "2026-08-11T22:55:11+00:00"
+  "updated_at": "2026-08-12T22:53:48+00:00"
 }

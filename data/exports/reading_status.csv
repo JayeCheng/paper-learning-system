@@ -131,6 +131,12 @@ arxiv:2608.09875v1,backlog,medium,,2026-08-11T22:55:11+00:00,Comprehending Pytho
 arxiv:2608.09908v1,backlog,medium,,2026-08-11T22:55:11+00:00,Beyond Hazard Resemblance: Contrastive Event Adjudication for Training-Free Video Anomaly Detection,gpu_graphics,B
 arxiv:2608.09919v1,backlog,medium,,2026-08-11T22:55:11+00:00,Detecting Behavioral Changes in Python Refactoring Implementations with Foundation Models,llm_agent,B
 arxiv:2608.09926v1,backlog,medium,,2026-08-11T22:55:11+00:00,Learning How the World Evolves: Extrapolative Video World Models via Latent Dynamics Reasoning,gpu_graphics,B
+arxiv:2608.10839v1,backlog,medium,,2026-08-12T22:53:48+00:00,The GENEA Challenge 2026: A Large-Scale Disentangled Evaluation of Speech-Driven Gesture Generation on the Seamless Interaction Dataset,cognition_social,A
+arxiv:2608.11034v1,backlog,medium,,2026-08-12T22:53:48+00:00,SCOUT: Symmetric Consensus Outlier Detection for Failure Localization in LLM Pre-Training,architecture,A
+arxiv:2608.11095v1,backlog,medium,,2026-08-12T22:53:48+00:00,Why Does CLAUDE.md Keep Growing? Catastrophic Remembering in Agentic Coding,llm_agent,B
+arxiv:2608.11100v1,backlog,medium,,2026-08-12T22:53:48+00:00,WildFireGS: Physics-Based Wildfire Simulation in Large-Scale Semantics-Enriched Gaussian Splatting Forest Scenes,gpu_graphics,B
+arxiv:2608.11166v1,backlog,medium,,2026-08-12T22:53:48+00:00,Agentic Configuration Management (ACM): A Reference Configuration Model for Governed Agentic Systems,llm_agent,A
+arxiv:2608.11205v1,backlog,medium,,2026-08-12T22:53:48+00:00,AdvFD: Boosting Visual Generation via Adversarial Fr'echet Distance Loss,gpu_graphics,B
 classic:architecture:cache-coherence-and-shared-memory-multiprocessors,backlog,medium,,2026-07-09T09:46:00+00:00,Cache coherence and shared-memory multiprocessors,architecture,B
 classic:architecture:the-memory-hierarchy-and-locality,backlog,medium,,2026-07-09T09:46:00+00:00,The memory hierarchy and locality,architecture,B
 classic:cognition:attention-and-working-memory,backlog,medium,,2026-07-09T09:46:00+00:00,Attention and working memory,cognition,B
