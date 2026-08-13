@@ -137,6 +137,12 @@ arxiv:2608.11095v1,backlog,medium,,2026-08-12T22:53:48+00:00,Why Does CLAUDE.md 
 arxiv:2608.11100v1,backlog,medium,,2026-08-12T22:53:48+00:00,WildFireGS: Physics-Based Wildfire Simulation in Large-Scale Semantics-Enriched Gaussian Splatting Forest Scenes,gpu_graphics,B
 arxiv:2608.11166v1,backlog,medium,,2026-08-12T22:53:48+00:00,Agentic Configuration Management (ACM): A Reference Configuration Model for Governed Agentic Systems,llm_agent,A
 arxiv:2608.11205v1,backlog,medium,,2026-08-12T22:53:48+00:00,AdvFD: Boosting Visual Generation via Adversarial Fr'echet Distance Loss,gpu_graphics,B
+arxiv:2608.11708v1,backlog,medium,,2026-08-13T22:54:42+00:00,A Browser-Based Gesture-Driven Avatar Interaction Framework for Metaverse Onboarding Environments,cognition_social,B
+arxiv:2608.12140v1,backlog,medium,,2026-08-13T22:54:42+00:00,FQTree: Fine-grained Quantization and Hardware Generation of Boosted Decision Trees,architecture,A
+arxiv:2608.12246v1,backlog,medium,,2026-08-13T22:54:42+00:00,VICBench: A Multi-Language Benchmark for Code Vulnerability Detection,llm_agent,B
+arxiv:2608.12279v1,backlog,medium,,2026-08-13T22:54:42+00:00,Curvature-Aware Zeroth-Order Optimization for Memory-Efficient Test-Time Adaptation,gpu_graphics,B
+arxiv:2608.12311v1,backlog,medium,,2026-08-13T22:54:42+00:00,The Role Specialization Model (RSM): Coordinating LLM-Based Tools in Agentic Software Development - An Exploratory Case Study,llm_agent,B
+arxiv:2608.12314v1,backlog,medium,,2026-08-13T22:54:42+00:00,"StateFlow: Building, Evolving, and Accessing 3D World States for Previsualization",gpu_graphics,B
 classic:architecture:cache-coherence-and-shared-memory-multiprocessors,backlog,medium,,2026-07-09T09:46:00+00:00,Cache coherence and shared-memory multiprocessors,architecture,B
 classic:architecture:the-memory-hierarchy-and-locality,backlog,medium,,2026-07-09T09:46:00+00:00,The memory hierarchy and locality,architecture,B
 classic:cognition:attention-and-working-memory,backlog,medium,,2026-07-09T09:46:00+00:00,Attention and working memory,cognition,B

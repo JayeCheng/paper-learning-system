@@ -1191,6 +1191,60 @@
     {
       "confidence": 0.5,
       "relation": "related_to",
+      "source": "arxiv:2608.11708v1",
+      "target": "cognition"
+    },
+    {
+      "confidence": 0.5,
+      "relation": "related_to",
+      "source": "arxiv:2608.11708v1",
+      "target": "gpu_graphics"
+    },
+    {
+      "confidence": 0.5,
+      "relation": "related_to",
+      "source": "arxiv:2608.11708v1",
+      "target": "cognition_social"
+    },
+    {
+      "confidence": 0.5,
+      "relation": "related_to",
+      "source": "arxiv:2608.12140v1",
+      "target": "architecture"
+    },
+    {
+      "confidence": 0.5,
+      "relation": "related_to",
+      "source": "arxiv:2608.12140v1",
+      "target": "llm_agent"
+    },
+    {
+      "confidence": 0.5,
+      "relation": "related_to",
+      "source": "arxiv:2608.12246v1",
+      "target": "llm_agent"
+    },
+    {
+      "confidence": 0.5,
+      "relation": "related_to",
+      "source": "arxiv:2608.12279v1",
+      "target": "gpu_graphics"
+    },
+    {
+      "confidence": 0.5,
+      "relation": "related_to",
+      "source": "arxiv:2608.12311v1",
+      "target": "llm_agent"
+    },
+    {
+      "confidence": 0.5,
+      "relation": "related_to",
+      "source": "arxiv:2608.12314v1",
+      "target": "gpu_graphics"
+    },
+    {
+      "confidence": 0.5,
+      "relation": "related_to",
       "source": "classic:architecture:cache-coherence-and-shared-memory-multiprocessors",
       "target": "architecture"
     },
@@ -2392,6 +2446,56 @@
       "type": "paper"
     },
     {
+      "id": "arxiv:2608.11708v1",
+      "label": "A Browser-Based Gesture-Driven Avatar Interaction Framework for Metaverse Onboarding Environments",
+      "topics": [
+        "cognition",
+        "gpu_graphics"
+      ],
+      "type": "paper"
+    },
+    {
+      "id": "arxiv:2608.12140v1",
+      "label": "FQTree: Fine-grained Quantization and Hardware Generation of Boosted Decision Trees",
+      "topics": [
+        "architecture",
+        "llm_agent"
+      ],
+      "type": "paper"
+    },
+    {
+      "id": "arxiv:2608.12246v1",
+      "label": "VICBench: A Multi-Language Benchmark for Code Vulnerability Detection",
+      "topics": [
+        "llm_agent"
+      ],
+      "type": "paper"
+    },
+    {
+      "id": "arxiv:2608.12279v1",
+      "label": "Curvature-Aware Zeroth-Order Optimization for Memory-Efficient Test-Time Adaptation",
+      "topics": [
+        "gpu_graphics"
+      ],
+      "type": "paper"
+    },
+    {
+      "id": "arxiv:2608.12311v1",
+      "label": "The Role Specialization Model (RSM): Coordinating LLM-Based Tools in Agentic Software Development - An Exploratory Case Study",
+      "topics": [
+        "llm_agent"
+      ],
+      "type": "paper"
+    },
+    {
+      "id": "arxiv:2608.12314v1",
+      "label": "StateFlow: Building, Evolving, and Accessing 3D World States for Previsualization",
+      "topics": [
+        "gpu_graphics"
+      ],
+      "type": "paper"
+    },
+    {
       "id": "classic:architecture:cache-coherence-and-shared-memory-multiprocessors",
       "label": "Cache coherence and shared-memory multiprocessors",
       "topics": [
@@ -2505,5 +2609,5 @@
     }
   ],
   "public_json_version": "0.4",
-  "updated_at": "2026-08-12T22:53:48+00:00"
+  "updated_at": "2026-08-13T22:54:42+00:00"
 }
