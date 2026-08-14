@@ -11,7 +11,7 @@
         "arxiv:2608.06025v1",
         "arxiv:2608.07226v1"
       ],
-      "planned_count": 26
+      "planned_count": 27
     },
     {
       "completed_count": 0,
@@ -23,7 +23,7 @@
         "arxiv:2607.11512v1",
         "arxiv:2607.15143v1"
       ],
-      "planned_count": 28
+      "planned_count": 29
     },
     {
       "completed_count": 0,
@@ -35,7 +35,7 @@
         "arxiv:2607.11512v1",
         "arxiv:2607.15143v1"
       ],
-      "planned_count": 24
+      "planned_count": 25
     },
     {
       "completed_count": 0,
@@ -45,9 +45,9 @@
       "next_paper_ids": [
         "arxiv:2608.06117v1",
         "arxiv:2608.10839v1",
-        "arxiv:2607.11512v1"
+        "arxiv:2608.13541v1"
       ],
-      "planned_count": 56
+      "planned_count": 59
     },
     {
       "completed_count": 0,
@@ -59,8 +59,8 @@
         "arxiv:2608.06025v1",
         "arxiv:2608.07226v1"
       ],
-      "planned_count": 81
+      "planned_count": 84
     }
   ],
-  "updated_at": "2026-08-13T22:54:42+00:00"
+  "updated_at": "2026-08-14T22:32:53+00:00"
 }
