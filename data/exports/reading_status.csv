@@ -149,6 +149,12 @@ arxiv:2608.13446v1,backlog,medium,,2026-08-14T22:32:53+00:00,Blue Noise as a Lat
 arxiv:2608.13522v1,backlog,medium,,2026-08-14T22:32:53+00:00,Vero: Can AI Agents Build Formally Verified Software Repositories?,llm_agent,A
 arxiv:2608.13541v1,backlog,medium,,2026-08-14T22:32:53+00:00,SCULPT: Subtractive Composition for 3D Part Generation,gpu_graphics,A
 arxiv:2608.13547v1,backlog,medium,,2026-08-14T22:32:53+00:00,QuoteBench: How Matched Scores Can Hide Command-Path Failures,llm_agent,B
+arxiv:2608.13790v1,backlog,medium,,2026-08-17T22:33:47+00:00,PPAPlace: Differentiable Cross-Stage Objectives for Chip Placement Optimization,architecture,A
+arxiv:2608.13884v1,backlog,medium,,2026-08-17T22:33:47+00:00,"Engineering Signals of Human-AI Collaboration in the Agentic Coding Era: A Longitudinal Analysis of 33,228 Pull Requests from vLLM and SGLang with Implications for Biomedical AI Agents and Bioinformatics Pipeline Developmen",cognition_social,B
+arxiv:2608.14409v1,backlog,medium,,2026-08-17T22:33:47+00:00,Uncertainty-Aware Jacobi Set Computation,gpu_graphics,B
+arxiv:2608.14441v1,backlog,medium,,2026-08-17T22:33:47+00:00,PACE-Bench: Benchmarking Physics Adaptation via Code Evolution in Dynamic Environments,llm_agent,B
+arxiv:2608.14490v1,backlog,medium,,2026-08-17T22:33:47+00:00,Twin: Playing an Unknown Game with a Test-Time Digital Twin,llm_agent,B
+arxiv:2608.14530v1,backlog,medium,,2026-08-17T22:33:47+00:00,"Marionette: Predicting World States, Rendering Geometry, Painting Appearance",gpu_graphics,B
 classic:architecture:cache-coherence-and-shared-memory-multiprocessors,backlog,medium,,2026-07-09T09:46:00+00:00,Cache coherence and shared-memory multiprocessors,architecture,B
 classic:architecture:the-memory-hierarchy-and-locality,backlog,medium,,2026-07-09T09:46:00+00:00,The memory hierarchy and locality,architecture,B
 classic:cognition:attention-and-working-memory,backlog,medium,,2026-07-09T09:46:00+00:00,Attention and working memory,cognition,B
