@@ -10722,6 +10722,398 @@
       "why_recommended": "Ranked by recency signal across configured topics."
     },
     {
+      "abstract": "Digital signatures make blocks and votes transferable evidence: one party can prove to another what a third party said. Authenticated channels convince only the direct receiver, so existing high-throughput signature-free protocols complete an availability vote or a broadcast instance for each data block before any proposer may order it. We present Vantage, a partially synchronous Byzantine fault-tolerant protocol for $n \\ge 3f+1$ parties that uses only authenticated channels and collision-resistant hashing. Parties publish blocks on hash-linked author lanes; each view's proposer pairs a quorum-available core manifest of lane frontiers with an optimistic tip manifest of freshly received blocks. A new primitive, Availability-Graded Broadcast (AGB), makes the core irrevocable on a quorum of first-hand responses while grading, rather than blocking on, the tip. Unresolved tips are sealed later through a signature-free control log, by resolutions each correct party checks against its own recorded responses; a crash-only silent view is skipped by a quorum of skip votes without the log. AGB makes a published block proposal-eligible one message delay after publication, matching signed optimistic-tip designs. When all parties are correct and message delays are $\u03b4$, a data-only proposal seals within $2\u03b4$ of its send on all $n$ first-hand acknowledgments, so a block is sequenced within $4\u03b4$ of publication, and within $3\u03b4$ when publication aligns with the next proposal. We prove safety under asynchrony; liveness holds after the Global Stabilization Time. On an emulated ten-region WAN with 100 parties, Vantage has the lowest median latency among the nearest signature-based and signature-free protocols at every accepted load and sequences 239k 512-byte transactions per second with median latency below 500 ms.",
+      "authors": [
+        "Nikita Polyanskii"
+      ],
+      "categories": [
+        "cs.DC",
+        "cs.CR"
+      ],
+      "citation_count": null,
+      "classic_status": null,
+      "code_url": "https://github.com/polinikita/vantage-bft",
+      "deep_read_note_url": null,
+      "difficulty": null,
+      "enrichment_sources": [],
+      "existing_note_url": null,
+      "external_ids": {},
+      "field": null,
+      "fields_of_study": [],
+      "id": "arxiv:2608.16504v1",
+      "identifiers": {
+        "arxiv_id": "2608.16504v1"
+      },
+      "influential_citation_count": null,
+      "institutions": [],
+      "latest_note_url": null,
+      "note_count": 0,
+      "open_access_pdf_url": null,
+      "pdf_url": "https://arxiv.org/pdf/2608.16504v1",
+      "project_url": null,
+      "published_at": "2026-08-17",
+      "published_date": "2026-08-17",
+      "reading_advice": "quick_read",
+      "reading_status": "backlog",
+      "recommendation_level": "A",
+      "score": 0.762,
+      "scores": {
+        "classic_value": 0.35,
+        "engineering_transferability": 0.9500000000000001,
+        "recency": 0.78,
+        "source_quality": 0.78,
+        "total": 0.762,
+        "user_relevance": 0.75
+      },
+      "selected_for_s_level": false,
+      "source": "arxiv",
+      "source_group": "architecture",
+      "source_type": "recent_7d",
+      "source_url": "http://arxiv.org/abs/2608.16504v1",
+      "suggested_note_title": null,
+      "suggested_note_type": null,
+      "tags": [
+        "cs.DC",
+        "cs.CR"
+      ],
+      "title": "Vantage: Availability-Graded Broadcast for Signature-Free BFT",
+      "title_zh": null,
+      "topics": [
+        "architecture"
+      ],
+      "url": "http://arxiv.org/abs/2608.16504v1",
+      "venue": null,
+      "why_recommended": "Ranked by engineering transferability signal across configured topics."
+    },
+    {
+      "abstract": "Per-pixel rendering difficulty is conventionally measured by the sample variance $\\hat\u03c3^2(p)$ of a Monte Carlo estimator, yet this signal is least reliable exactly where difficulty concentrates: under heavy-tailed transport its relative error is governed by the integrand's kurtosis, and the split-half reliability of variance-derived evaluation targets reaches only 0.23-0.29 even at 40,000 samples per pixel. We propose a complementary discrete transport-mechanism descriptor: every contribution event is classified by its end-vertex BSDF lobe, the presence of a delta-specular event, and a single-/multi-bounce distinction, yielding seven mutually exclusive labels whose six named mechanisms receive all observed energy on tested scenes, with continuous side-channels retaining the mechanism mixture. Across seven scenes, the dominant label agrees 87-99.6% between 64 and 4096 samples per pixel -- where quantile-binned variance agrees as little as 21% -- and is robust to restoring the estimator's MIS half. The descriptor exposes cross-scene structure a scalar variance cannot represent, including a geometry-controlled sign reversal of the delta-mediated/glossy correlation. Using the label to correct a noisy pilot variance improves on pilot-variance sample allocation at equal budget on every test-matrix scene with heavy-tailed buckets, while reducing exactly to the incumbent where such buckets are absent, with gains surviving a random-partition placebo and persisting over a robust (median-of-means) pilot baseline. Pre-registered third-party sentinel tests confirm the account out of distribution: coverage and stability transfer, a structural finding survives a blind sign prediction, and on the ajar-door scene, where pilot-variance allocation fails 6.8 dB below uniform sampling, the label identifies from the pilot alone that the failure is not of the kind it repairs, and correctly abstains.",
+      "authors": [
+        "Po-Ting Lin"
+      ],
+      "categories": [
+        "cs.GR"
+      ],
+      "citation_count": null,
+      "classic_status": null,
+      "code_url": null,
+      "deep_read_note_url": null,
+      "difficulty": null,
+      "enrichment_sources": [],
+      "existing_note_url": null,
+      "external_ids": {},
+      "field": null,
+      "fields_of_study": [],
+      "id": "arxiv:2608.16730v1",
+      "identifiers": {
+        "arxiv_id": "2608.16730v1"
+      },
+      "influential_citation_count": null,
+      "institutions": [],
+      "latest_note_url": null,
+      "note_count": 0,
+      "open_access_pdf_url": null,
+      "pdf_url": "https://arxiv.org/pdf/2608.16730v1",
+      "project_url": null,
+      "published_at": "2026-08-17",
+      "published_date": "2026-08-17",
+      "reading_advice": "save_for_later",
+      "reading_status": "backlog",
+      "recommendation_level": "B",
+      "score": 0.732,
+      "scores": {
+        "classic_value": 0.35,
+        "engineering_transferability": 0.8,
+        "recency": 0.78,
+        "source_quality": 0.78,
+        "total": 0.732,
+        "user_relevance": 0.75
+      },
+      "selected_for_s_level": false,
+      "source": "arxiv",
+      "source_group": "gpu_graphics",
+      "source_type": "recent_7d",
+      "source_url": "http://arxiv.org/abs/2608.16730v1",
+      "suggested_note_title": null,
+      "suggested_note_type": null,
+      "tags": [
+        "cs.GR"
+      ],
+      "title": "A Stable Transport-Mechanism Descriptor for Per-Pixel Rendering Difficulty",
+      "title_zh": null,
+      "topics": [
+        "gpu_graphics"
+      ],
+      "url": "http://arxiv.org/abs/2608.16730v1",
+      "venue": null,
+      "why_recommended": "Ranked by engineering transferability signal across configured topics."
+    },
+    {
+      "abstract": "We study how teams of AI coding agents coordinate while solving programming tasks. Current evaluations usually report whether the agents complete the task and how much the run costs, leaving the coordination inside the team largely unmeasured. We introduce an instrument to measure this coordination. Each run is represented as a temporal network in which agents and files are nodes, and messages, file writes, and file reads are timestamped directed edges with an associated cost. We apply this instrument to 1902 runs, each evaluated with a fixed test suite, across configurations that vary the team size, the team structure, and the file policy. The resulting networks show how coordination changes as teams grow and as the work changes. Direct messaging initially increases close to quadratically with the number of agents, with much of this growth coming from an early round of introductions. As the teams grow further, this increase levels off in the largest teams we study, where agents increasingly communicate through broadcast messages. The task also shapes the network that emerges. Work built around a shared specification produces dense, highly connected teams, while pipeline tasks produce sparse networks organised around local interfaces. Shared files can replace repeated 1-to-1 communication, cutting output tokens by about 42% at eight agents on message-heavy work, while adding overhead when files already carry the coordination. Naming one agent as coordinator creates no communication hub and provides no reliable improvement in success. We also observe an unprompted tendency for agents to seek out hidden grading material. We repeat the key experimental conditions in a sealed environment, replacing the hidden material with marked placeholder files. Across 244 additional runs, agents still reach for it in four fifths of runs, while the coordinator and file-channel findings reproduce.",
+      "authors": [
+        "Giuseppe Destefanis",
+        "Tomaso Aste"
+      ],
+      "categories": [
+        "cs.AI",
+        "cs.SE"
+      ],
+      "citation_count": null,
+      "classic_status": null,
+      "code_url": null,
+      "deep_read_note_url": null,
+      "difficulty": null,
+      "enrichment_sources": [],
+      "existing_note_url": null,
+      "external_ids": {},
+      "field": null,
+      "fields_of_study": [],
+      "id": "arxiv:2608.16801v1",
+      "identifiers": {
+        "arxiv_id": "2608.16801v1"
+      },
+      "influential_citation_count": null,
+      "institutions": [],
+      "latest_note_url": null,
+      "note_count": 0,
+      "open_access_pdf_url": null,
+      "pdf_url": "https://arxiv.org/pdf/2608.16801v1",
+      "project_url": null,
+      "published_at": "2026-08-17",
+      "published_date": "2026-08-17",
+      "reading_advice": "save_for_later",
+      "reading_status": "backlog",
+      "recommendation_level": "B",
+      "score": 0.732,
+      "scores": {
+        "classic_value": 0.35,
+        "engineering_transferability": 0.8,
+        "recency": 0.78,
+        "source_quality": 0.78,
+        "total": 0.732,
+        "user_relevance": 0.75
+      },
+      "selected_for_s_level": false,
+      "source": "arxiv",
+      "source_group": "llm_agent",
+      "source_type": "recent_7d",
+      "source_url": "http://arxiv.org/abs/2608.16801v1",
+      "suggested_note_title": null,
+      "suggested_note_type": null,
+      "tags": [
+        "cs.AI",
+        "cs.SE"
+      ],
+      "title": "When Agents Coordinate: Measuring Coordination in Multi-Agent AI Coding",
+      "title_zh": null,
+      "topics": [
+        "llm_agent"
+      ],
+      "url": "http://arxiv.org/abs/2608.16801v1",
+      "venue": null,
+      "why_recommended": "Ranked by engineering transferability signal across configured topics."
+    },
+    {
+      "abstract": "Differentiable triangle-soup reconstruction inherits a limitation from its objective: photometric and geometric losses cannot measure topology, so a reconstruction with a collapsed loop or a punctured enclosed void can score exactly as well as a correct one (on Chamfer-equal probes the diagrams differ 35-40x in bottleneck distance). The standard implicit remedy -- steer *where* the resampler spends its budget -- does not repair this: in a controlled study, a topology-informed prior is largely matched by an equally wide random one, and no prior shape repairs loops. We therefore move topology into the objective: a differentiable persistence term compares the evolving surface's diagram, measured on live surface samples, to a fixed target; gradients flow through a pair-frozen backward re-expressing matched birth/death simplices as closed-form circumradii, plus a recruitment term restoring the gradient optimal matching provably lacks when a feature is missing; one ratio knob calibrates the loss against the photometric gradient, no curriculum needed. Every claim passes a channel-controlled verdict: the loss must beat a norm-matched *non-topological* control through the identical gradient channel, at Chamfer parity. Under that rule the loss is topology-specific for enclosed voids (4.0-7.9x lower error) and -- the class every allocation prior failed -- for loops (2.3x, zero phantom handles, while the control collapses one); loss and prior compose; component counts (H0) are a null result. The verdicts replicate without per-shape tuning on eight external genus-known meshes in two pre-registered groups (group means: loops 1.52x, voids 4.87x; the one non-pass is a no-headroom null), degrading gracefully under noise. All evidence is synthetic and single-machine, with the target diagram known in advance; real scans are future work. Prescription: correct topology in the loss, allocate wide, combine.",
+      "authors": [
+        "Viritphon Chongpermwattanapol",
+        "Nattapat Damnernyut",
+        "Pizzanu Kanongchaiyos"
+      ],
+      "categories": [
+        "cs.GR"
+      ],
+      "citation_count": null,
+      "classic_status": null,
+      "code_url": null,
+      "deep_read_note_url": null,
+      "difficulty": null,
+      "enrichment_sources": [],
+      "existing_note_url": null,
+      "external_ids": {},
+      "field": null,
+      "fields_of_study": [],
+      "id": "arxiv:2608.16848v1",
+      "identifiers": {
+        "arxiv_id": "2608.16848v1"
+      },
+      "influential_citation_count": null,
+      "institutions": [],
+      "latest_note_url": null,
+      "note_count": 0,
+      "open_access_pdf_url": null,
+      "pdf_url": "https://arxiv.org/pdf/2608.16848v1",
+      "project_url": null,
+      "published_at": "2026-08-17",
+      "published_date": "2026-08-17",
+      "reading_advice": "save_for_later",
+      "reading_status": "backlog",
+      "recommendation_level": "B",
+      "score": 0.732,
+      "scores": {
+        "classic_value": 0.35,
+        "engineering_transferability": 0.8,
+        "recency": 0.78,
+        "source_quality": 0.78,
+        "total": 0.732,
+        "user_relevance": 0.75
+      },
+      "selected_for_s_level": false,
+      "source": "arxiv",
+      "source_group": "gpu_graphics",
+      "source_type": "recent_7d",
+      "source_url": "http://arxiv.org/abs/2608.16848v1",
+      "suggested_note_title": null,
+      "suggested_note_type": null,
+      "tags": [
+        "cs.GR"
+      ],
+      "title": "Topology-Aware Differentiable Triangle-Soup Reconstruction via Persistent Homology",
+      "title_zh": null,
+      "topics": [
+        "gpu_graphics"
+      ],
+      "url": "http://arxiv.org/abs/2608.16848v1",
+      "venue": null,
+      "why_recommended": "Ranked by engineering transferability signal across configured topics."
+    },
+    {
+      "abstract": "In survival analysis the way covariates act on the risk of an event often differs between early and late failure times, yet hazard- and mean-based summaries collapse this variation into a single number. Quantile-based modeling instead describes the full conditional distribution on the original time scale, but existing censored-data methods are either inflexible or produce logically inconsistent crossing quantile curves. We propose a Censored Non-crossing Quantile (CNQ) framework for right-censored data that jointly estimates several conditional survival quantiles and guarantees valid ordering by construction, with flexibility supplied by Kolmogorov-Arnold and Transformer backbones, and we establish a finite-sample excess-risk bound holding jointly across all fitted quantile levels. Across 27 simulation settings and six cohorts the framework attains lower pinball loss than quantile-, hazard- and tree-based competitors whenever the conditional distribution is asymmetric, with interval coverage closer to nominal on all six. In two clinical case studies (METABRIC, breast cancer; FLCHAIN, population mortality) it recovers covariate effects that vary across the survival distribution and would be hidden by a single hazard ratio, and yields coherent individualized quantile milestones. Code: https://github.com/BIG-S2/deepcnq",
+      "authors": [
+        "Shuai Huang",
+        "Zhe Qu",
+        "Zhaowei Hua",
+        "Guohao Shen",
+        "Rui Tang",
+        "Hongtu Zhu"
+      ],
+      "categories": [
+        "stat.ML",
+        "cs.LG",
+        "stat.AP"
+      ],
+      "citation_count": null,
+      "classic_status": null,
+      "code_url": "https://github.com/BIG-S2/deepcnq",
+      "deep_read_note_url": null,
+      "difficulty": null,
+      "enrichment_sources": [],
+      "existing_note_url": null,
+      "external_ids": {},
+      "field": null,
+      "fields_of_study": [],
+      "id": "arxiv:2608.16864v1",
+      "identifiers": {
+        "arxiv_id": "2608.16864v1"
+      },
+      "influential_citation_count": null,
+      "institutions": [],
+      "latest_note_url": null,
+      "note_count": 0,
+      "open_access_pdf_url": null,
+      "pdf_url": "https://arxiv.org/pdf/2608.16864v1",
+      "project_url": null,
+      "published_at": "2026-08-17",
+      "published_date": "2026-08-17",
+      "reading_advice": "save_for_later",
+      "reading_status": "backlog",
+      "recommendation_level": "B",
+      "score": 0.692,
+      "scores": {
+        "classic_value": 0.35,
+        "engineering_transferability": 0.6,
+        "recency": 0.78,
+        "source_quality": 0.78,
+        "total": 0.692,
+        "user_relevance": 0.75
+      },
+      "selected_for_s_level": false,
+      "source": "arxiv",
+      "source_group": "llm_agent",
+      "source_type": "recent_7d",
+      "source_url": "http://arxiv.org/abs/2608.16864v1",
+      "suggested_note_title": null,
+      "suggested_note_type": null,
+      "tags": [
+        "stat.ML",
+        "cs.LG",
+        "stat.AP"
+      ],
+      "title": "Non-Crossing Deep Quantile Regression for Distributional Survival Prediction",
+      "title_zh": null,
+      "topics": [
+        "llm_agent"
+      ],
+      "url": "http://arxiv.org/abs/2608.16864v1",
+      "venue": null,
+      "why_recommended": "Ranked by recency signal across configured topics."
+    },
+    {
+      "abstract": "Entrepreneurs increasingly use end-user generative AI technologies such as ChatGPT for high-stakes documents like loan applications and business plans, where AI-generated errors---a wrong price, a fabricated product---can affect loan or funding outcomes. Current approaches to supporting evaluation of AI-generated text assume a single user assessing output alone, on screen. This can be especially demanding for resource-constrained entrepreneurs, whose digital and AI skills vary widely. In this early-stage work, we explore how evaluation might instead be organized in a group setting and completed as a collective activity. We extended BizChat, an AI-powered business-planning tool, with an evaluation module that links each generated claim to the entrepreneur's original input. We partner with community organizations in Maryland---embedding BizChat within various entrepreneurship programs---where workshop attendees (N=14) evaluated their plans through think-pair-share discussion. Early findings suggest interface scaffolds like claim-to-input links primed attendees with concrete, personal evaluations, which the group setting then extended beyond the screen: attendees requested printed copies, used rubrics to compare across plans, and drew on peers' knowledge to verify what they could not easily judge alone.",
+      "authors": [
+        "Qi Zhao",
+        "Marjory Pineda",
+        "Ketul Chhaya",
+        "Aakash Gautam",
+        "Yasmine Kotturi"
+      ],
+      "categories": [
+        "cs.HC"
+      ],
+      "citation_count": null,
+      "classic_status": null,
+      "code_url": null,
+      "deep_read_note_url": null,
+      "difficulty": null,
+      "enrichment_sources": [],
+      "existing_note_url": null,
+      "external_ids": {},
+      "field": null,
+      "fields_of_study": [],
+      "id": "arxiv:2608.16886v1",
+      "identifiers": {
+        "arxiv_id": "2608.16886v1"
+      },
+      "influential_citation_count": null,
+      "institutions": [],
+      "latest_note_url": null,
+      "note_count": 0,
+      "open_access_pdf_url": null,
+      "pdf_url": "https://arxiv.org/pdf/2608.16886v1",
+      "project_url": null,
+      "published_at": "2026-08-17",
+      "published_date": "2026-08-17",
+      "reading_advice": "save_for_later",
+      "reading_status": "backlog",
+      "recommendation_level": "B",
+      "score": 0.662,
+      "scores": {
+        "classic_value": 0.35,
+        "engineering_transferability": 0.45,
+        "recency": 0.78,
+        "source_quality": 0.78,
+        "total": 0.662,
+        "user_relevance": 0.75
+      },
+      "selected_for_s_level": false,
+      "source": "arxiv",
+      "source_group": "cognition_social",
+      "source_type": "recent_7d",
+      "source_url": "http://arxiv.org/abs/2608.16886v1",
+      "suggested_note_title": null,
+      "suggested_note_type": null,
+      "tags": [
+        "cs.HC"
+      ],
+      "title": "Evaluating Beyond the Screen: Collective Assessment of AI-Generated Business Plans with Resource-Constrained Entrepreneurs",
+      "title_zh": null,
+      "topics": [
+        "cognition"
+      ],
+      "url": "http://arxiv.org/abs/2608.16886v1",
+      "venue": null,
+      "why_recommended": "Ranked by recency signal across configured topics."
+    },
+    {
       "abstract": "Required background for parallel architecture.",
       "authors": [],
       "categories": [
@@ -11195,5 +11587,5 @@
     }
   ],
   "public_json_version": "0.4",
-  "updated_at": "2026-08-17T22:33:47+00:00"
+  "updated_at": "2026-08-18T22:33:45+00:00"
 }

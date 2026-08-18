@@ -155,6 +155,12 @@ arxiv:2608.14409v1,backlog,medium,,2026-08-17T22:33:47+00:00,Uncertainty-Aware J
 arxiv:2608.14441v1,backlog,medium,,2026-08-17T22:33:47+00:00,PACE-Bench: Benchmarking Physics Adaptation via Code Evolution in Dynamic Environments,llm_agent,B
 arxiv:2608.14490v1,backlog,medium,,2026-08-17T22:33:47+00:00,Twin: Playing an Unknown Game with a Test-Time Digital Twin,llm_agent,B
 arxiv:2608.14530v1,backlog,medium,,2026-08-17T22:33:47+00:00,"Marionette: Predicting World States, Rendering Geometry, Painting Appearance",gpu_graphics,B
+arxiv:2608.16504v1,backlog,medium,,2026-08-18T22:33:45+00:00,Vantage: Availability-Graded Broadcast for Signature-Free BFT,architecture,A
+arxiv:2608.16730v1,backlog,medium,,2026-08-18T22:33:45+00:00,A Stable Transport-Mechanism Descriptor for Per-Pixel Rendering Difficulty,gpu_graphics,B
+arxiv:2608.16801v1,backlog,medium,,2026-08-18T22:33:45+00:00,When Agents Coordinate: Measuring Coordination in Multi-Agent AI Coding,llm_agent,B
+arxiv:2608.16848v1,backlog,medium,,2026-08-18T22:33:45+00:00,Topology-Aware Differentiable Triangle-Soup Reconstruction via Persistent Homology,gpu_graphics,B
+arxiv:2608.16864v1,backlog,medium,,2026-08-18T22:33:45+00:00,Non-Crossing Deep Quantile Regression for Distributional Survival Prediction,llm_agent,B
+arxiv:2608.16886v1,backlog,medium,,2026-08-18T22:33:45+00:00,Evaluating Beyond the Screen: Collective Assessment of AI-Generated Business Plans with Resource-Constrained Entrepreneurs,cognition_social,B
 classic:architecture:cache-coherence-and-shared-memory-multiprocessors,backlog,medium,,2026-07-09T09:46:00+00:00,Cache coherence and shared-memory multiprocessors,architecture,B
 classic:architecture:the-memory-hierarchy-and-locality,backlog,medium,,2026-07-09T09:46:00+00:00,The memory hierarchy and locality,architecture,B
 classic:cognition:attention-and-working-memory,backlog,medium,,2026-07-09T09:46:00+00:00,Attention and working memory,cognition,B

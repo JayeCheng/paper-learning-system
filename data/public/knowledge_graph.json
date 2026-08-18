@@ -1359,6 +1359,48 @@
     {
       "confidence": 0.5,
       "relation": "related_to",
+      "source": "arxiv:2608.16504v1",
+      "target": "architecture"
+    },
+    {
+      "confidence": 0.5,
+      "relation": "related_to",
+      "source": "arxiv:2608.16730v1",
+      "target": "gpu_graphics"
+    },
+    {
+      "confidence": 0.5,
+      "relation": "related_to",
+      "source": "arxiv:2608.16801v1",
+      "target": "llm_agent"
+    },
+    {
+      "confidence": 0.5,
+      "relation": "related_to",
+      "source": "arxiv:2608.16848v1",
+      "target": "gpu_graphics"
+    },
+    {
+      "confidence": 0.5,
+      "relation": "related_to",
+      "source": "arxiv:2608.16864v1",
+      "target": "llm_agent"
+    },
+    {
+      "confidence": 0.5,
+      "relation": "related_to",
+      "source": "arxiv:2608.16886v1",
+      "target": "cognition"
+    },
+    {
+      "confidence": 0.5,
+      "relation": "related_to",
+      "source": "arxiv:2608.16886v1",
+      "target": "cognition_social"
+    },
+    {
+      "confidence": 0.5,
+      "relation": "related_to",
       "source": "classic:architecture:cache-coherence-and-shared-memory-multiprocessors",
       "target": "architecture"
     },
@@ -2711,6 +2753,54 @@
       "type": "paper"
     },
     {
+      "id": "arxiv:2608.16504v1",
+      "label": "Vantage: Availability-Graded Broadcast for Signature-Free BFT",
+      "topics": [
+        "architecture"
+      ],
+      "type": "paper"
+    },
+    {
+      "id": "arxiv:2608.16730v1",
+      "label": "A Stable Transport-Mechanism Descriptor for Per-Pixel Rendering Difficulty",
+      "topics": [
+        "gpu_graphics"
+      ],
+      "type": "paper"
+    },
+    {
+      "id": "arxiv:2608.16801v1",
+      "label": "When Agents Coordinate: Measuring Coordination in Multi-Agent AI Coding",
+      "topics": [
+        "llm_agent"
+      ],
+      "type": "paper"
+    },
+    {
+      "id": "arxiv:2608.16848v1",
+      "label": "Topology-Aware Differentiable Triangle-Soup Reconstruction via Persistent Homology",
+      "topics": [
+        "gpu_graphics"
+      ],
+      "type": "paper"
+    },
+    {
+      "id": "arxiv:2608.16864v1",
+      "label": "Non-Crossing Deep Quantile Regression for Distributional Survival Prediction",
+      "topics": [
+        "llm_agent"
+      ],
+      "type": "paper"
+    },
+    {
+      "id": "arxiv:2608.16886v1",
+      "label": "Evaluating Beyond the Screen: Collective Assessment of AI-Generated Business Plans with Resource-Constrained Entrepreneurs",
+      "topics": [
+        "cognition"
+      ],
+      "type": "paper"
+    },
+    {
       "id": "classic:architecture:cache-coherence-and-shared-memory-multiprocessors",
       "label": "Cache coherence and shared-memory multiprocessors",
       "topics": [
@@ -2824,5 +2914,5 @@
     }
   ],
   "public_json_version": "0.4",
-  "updated_at": "2026-08-17T22:33:47+00:00"
+  "updated_at": "2026-08-18T22:33:45+00:00"
 }
