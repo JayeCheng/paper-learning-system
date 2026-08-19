@@ -1401,6 +1401,60 @@
     {
       "confidence": 0.5,
       "relation": "related_to",
+      "source": "arxiv:2608.17641v1",
+      "target": "llm_agent"
+    },
+    {
+      "confidence": 0.5,
+      "relation": "related_to",
+      "source": "arxiv:2608.17641v1",
+      "target": "architecture"
+    },
+    {
+      "confidence": 0.5,
+      "relation": "related_to",
+      "source": "arxiv:2608.17969v1",
+      "target": "gpu_graphics"
+    },
+    {
+      "confidence": 0.5,
+      "relation": "related_to",
+      "source": "arxiv:2608.17975v1",
+      "target": "gpu_graphics"
+    },
+    {
+      "confidence": 0.5,
+      "relation": "related_to",
+      "source": "arxiv:2608.17987v1",
+      "target": "sociology"
+    },
+    {
+      "confidence": 0.5,
+      "relation": "related_to",
+      "source": "arxiv:2608.17987v1",
+      "target": "llm_agent"
+    },
+    {
+      "confidence": 0.5,
+      "relation": "related_to",
+      "source": "arxiv:2608.17987v1",
+      "target": "cognition_social"
+    },
+    {
+      "confidence": 0.5,
+      "relation": "related_to",
+      "source": "arxiv:2608.17993v1",
+      "target": "llm_agent"
+    },
+    {
+      "confidence": 0.5,
+      "relation": "related_to",
+      "source": "arxiv:2608.18039v1",
+      "target": "llm_agent"
+    },
+    {
+      "confidence": 0.5,
+      "relation": "related_to",
       "source": "classic:architecture:cache-coherence-and-shared-memory-multiprocessors",
       "target": "architecture"
     },
@@ -2801,6 +2855,56 @@
       "type": "paper"
     },
     {
+      "id": "arxiv:2608.17641v1",
+      "label": "rl-triton: High-Performance Triton GPU Kernels for Reinforcement Learning Credit Assignment",
+      "topics": [
+        "llm_agent",
+        "architecture"
+      ],
+      "type": "paper"
+    },
+    {
+      "id": "arxiv:2608.17969v1",
+      "label": "MetaSapiens v2: Advancing Real-Time Foveated Neural Rendering via Foveation-Aware Pruning and Stereo Warping",
+      "topics": [
+        "gpu_graphics"
+      ],
+      "type": "paper"
+    },
+    {
+      "id": "arxiv:2608.17975v1",
+      "label": "aDSL: Agentic 3D Creation via Joint Agent-Program Design",
+      "topics": [
+        "gpu_graphics"
+      ],
+      "type": "paper"
+    },
+    {
+      "id": "arxiv:2608.17987v1",
+      "label": "Against Political Polarization: A Unified Framework for Tracing Evolving Political Ideologies on Social Media",
+      "topics": [
+        "sociology",
+        "llm_agent"
+      ],
+      "type": "paper"
+    },
+    {
+      "id": "arxiv:2608.17993v1",
+      "label": "What Does It Mean and Why Should I Bother? Motivating Students to Write Better Commit Messages",
+      "topics": [
+        "llm_agent"
+      ],
+      "type": "paper"
+    },
+    {
+      "id": "arxiv:2608.18039v1",
+      "label": "The Polyglot's Dilemma: Conformance Testing a Dozen Specs in as Many Languages",
+      "topics": [
+        "llm_agent"
+      ],
+      "type": "paper"
+    },
+    {
       "id": "classic:architecture:cache-coherence-and-shared-memory-multiprocessors",
       "label": "Cache coherence and shared-memory multiprocessors",
       "topics": [
@@ -2905,6 +3009,14 @@
       "type": "concept"
     },
     {
+      "id": "sociology",
+      "label": "sociology",
+      "topics": [
+        "sociology"
+      ],
+      "type": "concept"
+    },
+    {
       "id": "uncategorized",
       "label": "uncategorized",
       "topics": [
@@ -2914,5 +3026,5 @@
     }
   ],
   "public_json_version": "0.4",
-  "updated_at": "2026-08-18T22:33:45+00:00"
+  "updated_at": "2026-08-19T22:34:24+00:00"
 }
