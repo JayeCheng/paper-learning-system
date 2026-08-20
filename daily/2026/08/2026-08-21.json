@@ -1,0 +1,457 @@
+{
+  "date": "2026-08-21",
+  "frontend_entry": "data/public/latest.json",
+  "generated_at": "2026-08-20T22:37:10+00:00",
+  "generated_paths": {
+    "exports_csv": "data/exports/papers.csv",
+    "exports_daily_csv": "data/exports/daily_papers.csv",
+    "exports_jsonl": "data/exports/papers.jsonl",
+    "exports_notes_index": "data/exports/notes_index.csv",
+    "exports_reading_status": "data/exports/reading_status.csv",
+    "json": "daily/2026/08/2026-08-21.json",
+    "markdown": "daily/2026/08/2026-08-21.md",
+    "public_curriculum_progress": "data/public/curriculum_progress.json",
+    "public_daily_index": "data/public/daily_index.json",
+    "public_knowledge_graph": "data/public/knowledge_graph.json",
+    "public_latest": "data/public/latest.json",
+    "public_notes_index": "data/public/notes_index.json",
+    "public_papers_index": "data/public/papers_index.json",
+    "public_reading_status": "data/public/reading_status.json",
+    "state_notes_index": "data/state/notes_index.json",
+    "state_papers": "data/state/papers.jsonl",
+    "state_reading_status": "data/state/reading_status.json",
+    "state_run_history": "data/state/run_history.json"
+  },
+  "knowledge_graph_delta": [
+    "paper:arxiv:2608.19055v1",
+    "paper:arxiv:2608.19063v1",
+    "paper:arxiv:2608.19147v1",
+    "paper:arxiv:2608.19190v1",
+    "paper:arxiv:2608.19140v1",
+    "paper:arxiv:2608.19164v1"
+  ],
+  "learning_route_position": "v0.4 GitHub-owned note bridge",
+  "next_actions": [
+    "Review S-level candidate",
+    "Update reading status after skim",
+    "Promote durable concepts into the knowledge graph"
+  ],
+  "papers": [
+    {
+      "abstract": "Music-driven character animation enables and enhances transformative applications in entertainment and interactive education. However, synthesizing realistic drumming motion from audio remains challenging due to the inherent tension between high-acceleration dynamics and the need for extreme spatial-temporal precision. Existing approaches, often reliant on motion matching or MIDI input, struggle with generalizing to diverse real-world audio. Moreover, the field lacks standardized evaluation metrics capable of distinguishing precise drumming from noisy motion. In this paper, we introduce a generative diffusion framework featuring a dual-objective loss function that decouples skeletal integrity from drumstick precision, thus enabling centimeter-level stick precision without sacrificing natural body dynamics. Additionally, leveraging our own dataset and data augmentation strategy, the model generalizes to non-curated, in-the-wild audio. To rigorously evaluate performance, we propose two novel metrics: an impact-to-target distance to quantify spatial precision and an audio-motion correlation score to assess temporal alignment. Our quantitative analysis and user studies demonstrate that our system generates high-quality motion that is often indistinguishable from ground-truth performances.",
+      "authors": [
+        "\u00c1lvaro G. I\u00f1esta",
+        "Mattia Ryffel",
+        "Amit H. Bermano",
+        "Robert W. Sumner",
+        "Martin Guay"
+      ],
+      "categories": [
+        "cs.CV",
+        "cs.GR",
+        "cs.SD"
+      ],
+      "citation_count": null,
+      "classic_status": null,
+      "code_url": null,
+      "deep_read_note_url": null,
+      "difficulty": null,
+      "enrichment_sources": [],
+      "existing_note_url": null,
+      "external_ids": {},
+      "field": null,
+      "fields_of_study": [],
+      "id": "arxiv:2608.19055v1",
+      "identifiers": {
+        "arxiv_id": "2608.19055v1"
+      },
+      "influential_citation_count": null,
+      "institutions": [],
+      "latest_note_url": null,
+      "note_count": 0,
+      "open_access_pdf_url": null,
+      "pdf_url": "https://arxiv.org/pdf/2608.19055v1",
+      "project_url": null,
+      "published_at": "2026-08-19",
+      "published_date": "2026-08-19",
+      "reading_advice": "save_for_later",
+      "reading_status": "backlog",
+      "recommendation_level": "B",
+      "score": 0.732,
+      "scores": {
+        "classic_value": 0.35,
+        "engineering_transferability": 0.8,
+        "recency": 0.78,
+        "source_quality": 0.78,
+        "total": 0.732,
+        "user_relevance": 0.75
+      },
+      "selected_for_s_level": false,
+      "source": "arxiv",
+      "source_group": "gpu_graphics",
+      "source_type": "recent_7d",
+      "source_url": "http://arxiv.org/abs/2608.19055v1",
+      "suggested_note_title": null,
+      "suggested_note_type": null,
+      "tags": [
+        "cs.CV",
+        "cs.GR",
+        "cs.SD"
+      ],
+      "title": "Generalized Audio-Driven Synthesis of Precise Drummer Motion",
+      "title_zh": null,
+      "topics": [
+        "gpu_graphics"
+      ],
+      "url": "http://arxiv.org/abs/2608.19055v1",
+      "venue": null,
+      "why_recommended": "Ranked by engineering transferability signal across configured topics."
+    },
+    {
+      "abstract": "PSMA and FDG PET/CT visualise complementary biological information in prostate cancer. Combining both tracers could capture heterogeneous tumour phenotypes that may be missed by either alone, yet there is no consensus on effective deep learning architectures for fusing these modalities. We evaluated multimodal image-fusion strategies for automatic whole-body PET/CT lesion segmentation to estimate total tumour burden. Using the public DEEP-PSMA Challenge dataset, we trained tracer-specific 3D nnU-Net baselines and compared (i) early fusion with a single encoder and one decoder (OEOD) or two decoders (OETD), and (ii) intermediate fusion via a dual-encoder cross-attention U-Net (DECA-UNet). Tracer-specific baselines performed strongly (PSMA Dice = 0.93; FDG = 0.81). Fusion yielded mixed results: OEOD produced a combined Dice of 0.90 (on an easier, non-tracer-specific task), whilst the tracer-specific fusion models reached PSMA/FDG = 0.69/0.64 (OETD) and 0.76/0.57 (DECA-UNet). Whilst fusion often provided reasonable PSMA segmentation, FDG performance degraded and no strategy consistently exceeded the single-tracer baselines. Under the evaluated setting, tracer-specific models remain the stronger baseline; clinically useful gains from multimodal fusion will likely require architectures that better preserve tracer specific representations. Our code is available at: https://github.com/JackJ3636/DEEP_PSMA_code",
+      "authors": [
+        "Jack A. Johnson",
+        "Bart\u0142omiej W. Papie\u017c"
+      ],
+      "categories": [
+        "cs.CV"
+      ],
+      "citation_count": null,
+      "classic_status": null,
+      "code_url": "https://github.com/JackJ3636/DEEP_PSMA_code",
+      "deep_read_note_url": null,
+      "difficulty": null,
+      "enrichment_sources": [],
+      "existing_note_url": null,
+      "external_ids": {},
+      "field": null,
+      "fields_of_study": [],
+      "id": "arxiv:2608.19063v1",
+      "identifiers": {
+        "arxiv_id": "2608.19063v1"
+      },
+      "influential_citation_count": null,
+      "institutions": [],
+      "latest_note_url": null,
+      "note_count": 0,
+      "open_access_pdf_url": null,
+      "pdf_url": "https://arxiv.org/pdf/2608.19063v1",
+      "project_url": null,
+      "published_at": "2026-08-19",
+      "published_date": "2026-08-19",
+      "reading_advice": "save_for_later",
+      "reading_status": "backlog",
+      "recommendation_level": "B",
+      "score": 0.692,
+      "scores": {
+        "classic_value": 0.35,
+        "engineering_transferability": 0.6,
+        "recency": 0.78,
+        "source_quality": 0.78,
+        "total": 0.692,
+        "user_relevance": 0.75
+      },
+      "selected_for_s_level": false,
+      "source": "arxiv",
+      "source_group": "gpu_graphics",
+      "source_type": "recent_7d",
+      "source_url": "http://arxiv.org/abs/2608.19063v1",
+      "suggested_note_title": null,
+      "suggested_note_type": null,
+      "tags": [
+        "cs.CV"
+      ],
+      "title": "When Two Tracers Disagree: An Investigation of Multimodal Fusion for Clinical PET/CT Segmentation",
+      "title_zh": null,
+      "topics": [
+        "gpu_graphics"
+      ],
+      "url": "http://arxiv.org/abs/2608.19063v1",
+      "venue": null,
+      "why_recommended": "Ranked by recency signal across configured topics."
+    },
+    {
+      "abstract": "Modern Intel AI PCs ship capable integrated GPUs and NPUs with 16+ GB of unified memory, and they spend considerable time idle. That is not enough memory to fit a large model such as a 70B-parameter LLM. We show that a handful of AIPCs, working together over an ordinary network, can serve models beyond the capability of any single one. We use pipeline parallelism: a model is split by layer into per-stage shards, each pre-compiled into an OpenVINO graph, so that every machine runs one shard and passes activations to the next. Three techniques make this fast enough to be useful. First, we recover the speed of the unsplit model: a naive per-stage export runs well below monolithic inference because it misses an OpenVINO GPU optimization, and injecting a beam_idx Gather into each shard triggers that optimization (the IndirectKVCache fusion) and brings the shards to parity. Second, we leverage speculative decoding on stateful OpenVINO models. Third, the pipeline serves several users at once by interleaving their requests across the stages, each request carrying its own cache (micro-batching). Together, a two-node Llama 3.1 8B INT4 pipeline serves two concurrent users at 1.79x the single-user throughput of the unsplit model on the same hardware, and the gap widens under simulated wide-area latency. The same design scales to a 70B model that no single fleet member can hold: a four-node deployment of Lunar Lake AI PCs on Intel Tiber Cloud serves a single user at interactive speed, with output token-for-token identical to the same four-node pipeline decoding without speculation. Code, raw benchmark logs, and reproduction scripts ship as a self-contained package at https://github.com/labscommunity/pipeline-sharded-inference-paper (in the top-level reproduction/ directory).",
+      "authors": [
+        "Tate Berenbaum",
+        "Muthaiah Venkatachalam"
+      ],
+      "categories": [
+        "cs.DC",
+        "cs.AI",
+        "cs.SE"
+      ],
+      "citation_count": null,
+      "classic_status": null,
+      "code_url": "https://github.com/labscommunity/pipeline-sharded-inference-paper",
+      "deep_read_note_url": null,
+      "difficulty": null,
+      "enrichment_sources": [],
+      "existing_note_url": null,
+      "external_ids": {},
+      "field": null,
+      "fields_of_study": [],
+      "id": "arxiv:2608.19147v1",
+      "identifiers": {
+        "arxiv_id": "2608.19147v1"
+      },
+      "influential_citation_count": null,
+      "institutions": [],
+      "latest_note_url": null,
+      "note_count": 0,
+      "open_access_pdf_url": null,
+      "pdf_url": "https://arxiv.org/pdf/2608.19147v1",
+      "project_url": null,
+      "published_at": "2026-08-19",
+      "published_date": "2026-08-19",
+      "reading_advice": "quick_read",
+      "reading_status": "backlog",
+      "recommendation_level": "A",
+      "score": 0.762,
+      "scores": {
+        "classic_value": 0.35,
+        "engineering_transferability": 0.9500000000000001,
+        "recency": 0.78,
+        "source_quality": 0.78,
+        "total": 0.762,
+        "user_relevance": 0.75
+      },
+      "selected_for_s_level": false,
+      "source": "arxiv",
+      "source_group": "architecture",
+      "source_type": "recent_7d",
+      "source_url": "http://arxiv.org/abs/2608.19147v1",
+      "suggested_note_title": null,
+      "suggested_note_type": null,
+      "tags": [
+        "cs.DC",
+        "cs.AI",
+        "cs.SE"
+      ],
+      "title": "Pre-Compiled Pipeline Shards for Distributed LLM Inference on Intel AI PC Fleets",
+      "title_zh": null,
+      "topics": [
+        "architecture",
+        "llm_agent"
+      ],
+      "url": "http://arxiv.org/abs/2608.19147v1",
+      "venue": null,
+      "why_recommended": "Ranked by engineering transferability signal across configured topics."
+    },
+    {
+      "abstract": "In today's era of rapid advancements in artificial intelligence, computer security and online safeguarding measures have undergone significant improvements. However, malicious websites continue to facilitate the spread of phishing schemes, fraudulent activities and unsolicited communications. Conventional methodologies in machine learning, deep learning and counterfeit website detection predominantly depend on static data analysis, which frequently proves ineffective against the evolving nature of malicious online entities. In response to these challenges, in this work, we propose a signed network-based approach for malicious URL identification, SiNMULI. We introduce an innovative framework that conceptualises the identification of harmful URLs as a signed network-based binary classification problem strongly rooted in the fundamental principles of social network analysis and social balance theory. In this approach, a signed network is constructed based on the backlinks, i.e., external hyperlinks of URLs, wherein each node symbolises a URL and the hyperlinks function as signed edges. Utilising a balance-theoretic inference mechanism, our methodology propagates edge signs and classifies unlabeled domains by employing a 51% majority rule across incoming links. Experimental results on this real-world dataset demonstrate that SiNMULI achieves 99.89% accuracy, 99.62% precision, and 99.80% F1-score, outperforming traditional ML and deep learning baseline models. Beyond high accuracy, SiNMULI offers interpretability, resilience against adversarial obfuscation, and independence from training data, making it a lightweight and scalable solution for real-world cyber defence.",
+      "authors": [
+        "Avijit Gayen",
+        "Sayan Mondal",
+        "Angshuman Jana"
+      ],
+      "categories": [
+        "cs.CR",
+        "cs.NI",
+        "cs.SE",
+        "cs.SI",
+        "eess.SY"
+      ],
+      "citation_count": null,
+      "classic_status": null,
+      "code_url": null,
+      "deep_read_note_url": null,
+      "difficulty": null,
+      "enrichment_sources": [],
+      "existing_note_url": null,
+      "external_ids": {},
+      "field": null,
+      "fields_of_study": [],
+      "id": "arxiv:2608.19190v1",
+      "identifiers": {
+        "arxiv_id": "2608.19190v1"
+      },
+      "influential_citation_count": null,
+      "institutions": [],
+      "latest_note_url": null,
+      "note_count": 0,
+      "open_access_pdf_url": null,
+      "pdf_url": "https://arxiv.org/pdf/2608.19190v1",
+      "project_url": null,
+      "published_at": "2026-08-19",
+      "published_date": "2026-08-19",
+      "reading_advice": "save_for_later",
+      "reading_status": "backlog",
+      "recommendation_level": "B",
+      "score": 0.732,
+      "scores": {
+        "classic_value": 0.35,
+        "engineering_transferability": 0.8,
+        "recency": 0.78,
+        "source_quality": 0.78,
+        "total": 0.732,
+        "user_relevance": 0.75
+      },
+      "selected_for_s_level": false,
+      "source": "arxiv",
+      "source_group": "llm_agent",
+      "source_type": "recent_7d",
+      "source_url": "http://arxiv.org/abs/2608.19190v1",
+      "suggested_note_title": null,
+      "suggested_note_type": null,
+      "tags": [
+        "cs.CR",
+        "cs.NI",
+        "cs.SE",
+        "cs.SI",
+        "eess.SY"
+      ],
+      "title": "SiNMULI: Novel Signed Network Approach for Malicious URL Identification",
+      "title_zh": null,
+      "topics": [
+        "llm_agent",
+        "sociology"
+      ],
+      "url": "http://arxiv.org/abs/2608.19190v1",
+      "venue": null,
+      "why_recommended": "Ranked by engineering transferability signal across configured topics."
+    },
+    {
+      "abstract": "Frontier language models are compared, marketed, and benchmarked on capability -- what their best or average output can achieve. I argue this measures the wrong axis. The models have saturated accuracy: their mean output lands on the target. What now separates one system from another in practice is precision: how tightly concentrated their outputs are around that target across repeated, identical requests. Borrowing the marksman's distinction, capability is where the average shot lands; reliability is the size of the group. I make three claims. First, precision, not capability, is the frontier differentiator between systems, and benchmark culture systematically fails to measure it, reporting central tendency rather than spread. Second, precision is measurable, cheaply and without circularity, by running a fixed suite of deterministically scored tasks many times at fixed temperature and computing the per-task consistency of outcomes -- no model-in-the-loop grader required. Third, the measurement is not merely descriptive but decision-guiding: it separates consistent failures (a tight group off-centre, correctable by the operating discipline of Paper 1 -- a sight adjustment) from scattered failures (a wide group, correctable only by changing the model or its sampling -- a rifle problem). I define a grouping metric, specify a harness, and show how tracking a human-AI pair's grouping over time yields the compounding signal that Paper 1's field study requires. A first real run, since replicated, illustrates both the method and its most important limit: one measured gap was closed completely by a single rule (0/5 -> 5/5), while a suite of tasks authored from the rules themselves found no value, because a frontier model already embodies explicit good practice -- establishing that a discipline's worth is found by measurement on real work, not constructed from its own rulebook.",
+      "authors": [
+        "George Andrikopoulos"
+      ],
+      "categories": [
+        "cs.AI",
+        "cs.CY",
+        "cs.LG",
+        "cs.SE"
+      ],
+      "citation_count": null,
+      "classic_status": null,
+      "code_url": null,
+      "deep_read_note_url": null,
+      "difficulty": null,
+      "enrichment_sources": [],
+      "existing_note_url": null,
+      "external_ids": {},
+      "field": null,
+      "fields_of_study": [],
+      "id": "arxiv:2608.19140v1",
+      "identifiers": {
+        "arxiv_id": "2608.19140v1"
+      },
+      "influential_citation_count": null,
+      "institutions": [],
+      "latest_note_url": null,
+      "note_count": 0,
+      "open_access_pdf_url": null,
+      "pdf_url": "https://arxiv.org/pdf/2608.19140v1",
+      "project_url": null,
+      "published_at": "2026-08-19",
+      "published_date": "2026-08-19",
+      "reading_advice": "save_for_later",
+      "reading_status": "backlog",
+      "recommendation_level": "B",
+      "score": 0.732,
+      "scores": {
+        "classic_value": 0.35,
+        "engineering_transferability": 0.8,
+        "recency": 0.78,
+        "source_quality": 0.78,
+        "total": 0.732,
+        "user_relevance": 0.75
+      },
+      "selected_for_s_level": false,
+      "source": "arxiv",
+      "source_group": "llm_agent",
+      "source_type": "recent_7d",
+      "source_url": "http://arxiv.org/abs/2608.19140v1",
+      "suggested_note_title": null,
+      "suggested_note_type": null,
+      "tags": [
+        "cs.AI",
+        "cs.CY",
+        "cs.LG",
+        "cs.SE"
+      ],
+      "title": "Grouping the Stochastic Machine: Precision, Not Capability, as the Frontier Metric for AI Systems",
+      "title_zh": null,
+      "topics": [
+        "llm_agent"
+      ],
+      "url": "http://arxiv.org/abs/2608.19140v1",
+      "venue": null,
+      "why_recommended": "Ranked by engineering transferability signal across configured topics."
+    },
+    {
+      "abstract": "As generative AI reshapes professional and educational practice, institutions face a challenge: how to support diverse learners, from non-coders to advanced students, in building confidence and practice with AI-supported problem solving. Most institutional responses bifurcate into conceptual workshops for general audiences or technical courses for computer science majors, leaving few spaces where mixed-ability learners can engage common AI tasks at levels matched to their prior experience. This experience report presents the LearnAI Framework, a two-layer model for just-in-time AI co-creation piloted at a comprehensive teaching university. The Wide-Exposure Layer embeds short presentations in existing courses to build AI awareness at scale, reaching students and faculty across 18 courses in five disciplines. The Customized Co-Creation Layer provides opt-in, one-on-one sessions where clients work with trained undergraduate tutors through a 5-Stage Pedagogical Script: Problem Framing, Tool-Task Mapping, Iterative Co-Prompting, Deployment and Verification, and Ethical Reflection. Over two semesters, 35 clients co-created 36 portfolio websites and over 20 deployed web applications. Interviews with five clients and two tutors suggest a recurring change in how clients described AI use, shifting from treating AI as a passive answer machine to engaging it as a collaborative tool under human direction. A small paired pre/post AI readiness dataset (N = 7) provides preliminary descriptive context, and tutor accounts document how the pedagogical script was enacted and adapted across client types. We report on boundary cases including clients who felt overwhelmed and respondents who deliberately rejected AI use. This paper contributes a practical, adoptable framework with initial evidence from a single institution.",
+      "authors": [
+        "Weihao Qu",
+        "Ling Zheng",
+        "Chris Buzaid",
+        "Daniel Crawford"
+      ],
+      "categories": [
+        "cs.CY",
+        "cs.HC"
+      ],
+      "citation_count": null,
+      "classic_status": null,
+      "code_url": null,
+      "deep_read_note_url": null,
+      "difficulty": null,
+      "enrichment_sources": [],
+      "existing_note_url": null,
+      "external_ids": {},
+      "field": null,
+      "fields_of_study": [],
+      "id": "arxiv:2608.19164v1",
+      "identifiers": {
+        "arxiv_id": "2608.19164v1"
+      },
+      "influential_citation_count": null,
+      "institutions": [],
+      "latest_note_url": null,
+      "note_count": 0,
+      "open_access_pdf_url": null,
+      "pdf_url": "https://arxiv.org/pdf/2608.19164v1",
+      "project_url": null,
+      "published_at": "2026-08-19",
+      "published_date": "2026-08-19",
+      "reading_advice": "save_for_later",
+      "reading_status": "backlog",
+      "recommendation_level": "B",
+      "score": 0.662,
+      "scores": {
+        "classic_value": 0.35,
+        "engineering_transferability": 0.45,
+        "recency": 0.78,
+        "source_quality": 0.78,
+        "total": 0.662,
+        "user_relevance": 0.75
+      },
+      "selected_for_s_level": false,
+      "source": "arxiv",
+      "source_group": "cognition_social",
+      "source_type": "recent_7d",
+      "source_url": "http://arxiv.org/abs/2608.19164v1",
+      "suggested_note_title": null,
+      "suggested_note_type": null,
+      "tags": [
+        "cs.CY",
+        "cs.HC"
+      ],
+      "title": "LearnAI: Just-in-Time AI Co-Creation Across Disciplines at a University",
+      "title_zh": null,
+      "topics": [
+        "cognition"
+      ],
+      "url": "http://arxiv.org/abs/2608.19164v1",
+      "venue": null,
+      "why_recommended": "Ranked by recency signal across configured topics."
+    }
+  ],
+  "public_json_version": "0.4",
+  "s_level_candidate_ids": [],
+  "s_level_paper_id": null,
+  "source_mode_summary": {
+    "recent_7d": 6
+  },
+  "summary": "Selected 6 papers: 6 recent candidates and 0 classic fallback items."
+}

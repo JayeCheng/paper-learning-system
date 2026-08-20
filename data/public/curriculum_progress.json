@@ -11,7 +11,7 @@
         "arxiv:2608.06025v1",
         "arxiv:2608.07226v1"
       ],
-      "planned_count": 30
+      "planned_count": 31
     },
     {
       "completed_count": 0,
@@ -23,7 +23,7 @@
         "arxiv:2607.11512v1",
         "arxiv:2607.15143v1"
       ],
-      "planned_count": 31
+      "planned_count": 32
     },
     {
       "completed_count": 0,
@@ -35,7 +35,7 @@
         "arxiv:2607.11512v1",
         "arxiv:2607.15143v1"
       ],
-      "planned_count": 28
+      "planned_count": 29
     },
     {
       "completed_count": 0,
@@ -47,7 +47,7 @@
         "arxiv:2608.10839v1",
         "arxiv:2608.13541v1"
       ],
-      "planned_count": 65
+      "planned_count": 67
     },
     {
       "completed_count": 0,
@@ -59,7 +59,7 @@
         "arxiv:2608.06025v1",
         "arxiv:2608.07226v1"
       ],
-      "planned_count": 95
+      "planned_count": 98
     },
     {
       "completed_count": 0,
@@ -67,10 +67,11 @@
       "id": "sociology",
       "label": "Sociology",
       "next_paper_ids": [
+        "arxiv:2608.19190v1",
         "arxiv:2608.17987v1"
       ],
-      "planned_count": 1
+      "planned_count": 2
     }
   ],
-  "updated_at": "2026-08-19T22:34:24+00:00"
+  "updated_at": "2026-08-20T22:37:10+00:00"
 }

@@ -1455,6 +1455,60 @@
     {
       "confidence": 0.5,
       "relation": "related_to",
+      "source": "arxiv:2608.19055v1",
+      "target": "gpu_graphics"
+    },
+    {
+      "confidence": 0.5,
+      "relation": "related_to",
+      "source": "arxiv:2608.19063v1",
+      "target": "gpu_graphics"
+    },
+    {
+      "confidence": 0.5,
+      "relation": "related_to",
+      "source": "arxiv:2608.19140v1",
+      "target": "llm_agent"
+    },
+    {
+      "confidence": 0.5,
+      "relation": "related_to",
+      "source": "arxiv:2608.19147v1",
+      "target": "architecture"
+    },
+    {
+      "confidence": 0.5,
+      "relation": "related_to",
+      "source": "arxiv:2608.19147v1",
+      "target": "llm_agent"
+    },
+    {
+      "confidence": 0.5,
+      "relation": "related_to",
+      "source": "arxiv:2608.19164v1",
+      "target": "cognition"
+    },
+    {
+      "confidence": 0.5,
+      "relation": "related_to",
+      "source": "arxiv:2608.19164v1",
+      "target": "cognition_social"
+    },
+    {
+      "confidence": 0.5,
+      "relation": "related_to",
+      "source": "arxiv:2608.19190v1",
+      "target": "llm_agent"
+    },
+    {
+      "confidence": 0.5,
+      "relation": "related_to",
+      "source": "arxiv:2608.19190v1",
+      "target": "sociology"
+    },
+    {
+      "confidence": 0.5,
+      "relation": "related_to",
       "source": "classic:architecture:cache-coherence-and-shared-memory-multiprocessors",
       "target": "architecture"
     },
@@ -2905,6 +2959,56 @@
       "type": "paper"
     },
     {
+      "id": "arxiv:2608.19055v1",
+      "label": "Generalized Audio-Driven Synthesis of Precise Drummer Motion",
+      "topics": [
+        "gpu_graphics"
+      ],
+      "type": "paper"
+    },
+    {
+      "id": "arxiv:2608.19063v1",
+      "label": "When Two Tracers Disagree: An Investigation of Multimodal Fusion for Clinical PET/CT Segmentation",
+      "topics": [
+        "gpu_graphics"
+      ],
+      "type": "paper"
+    },
+    {
+      "id": "arxiv:2608.19140v1",
+      "label": "Grouping the Stochastic Machine: Precision, Not Capability, as the Frontier Metric for AI Systems",
+      "topics": [
+        "llm_agent"
+      ],
+      "type": "paper"
+    },
+    {
+      "id": "arxiv:2608.19147v1",
+      "label": "Pre-Compiled Pipeline Shards for Distributed LLM Inference on Intel AI PC Fleets",
+      "topics": [
+        "architecture",
+        "llm_agent"
+      ],
+      "type": "paper"
+    },
+    {
+      "id": "arxiv:2608.19164v1",
+      "label": "LearnAI: Just-in-Time AI Co-Creation Across Disciplines at a University",
+      "topics": [
+        "cognition"
+      ],
+      "type": "paper"
+    },
+    {
+      "id": "arxiv:2608.19190v1",
+      "label": "SiNMULI: Novel Signed Network Approach for Malicious URL Identification",
+      "topics": [
+        "llm_agent",
+        "sociology"
+      ],
+      "type": "paper"
+    },
+    {
       "id": "classic:architecture:cache-coherence-and-shared-memory-multiprocessors",
       "label": "Cache coherence and shared-memory multiprocessors",
       "topics": [
@@ -3026,5 +3130,5 @@
     }
   ],
   "public_json_version": "0.4",
-  "updated_at": "2026-08-19T22:34:24+00:00"
+  "updated_at": "2026-08-20T22:37:10+00:00"
 }

@@ -167,6 +167,12 @@ arxiv:2608.17975v1,backlog,medium,,2026-08-19T22:34:24+00:00,aDSL: Agentic 3D Cr
 arxiv:2608.17987v1,backlog,medium,,2026-08-19T22:34:24+00:00,Against Political Polarization: A Unified Framework for Tracing Evolving Political Ideologies on Social Media,cognition_social,B
 arxiv:2608.17993v1,backlog,medium,,2026-08-19T22:34:24+00:00,What Does It Mean and Why Should I Bother? Motivating Students to Write Better Commit Messages,llm_agent,B
 arxiv:2608.18039v1,backlog,medium,,2026-08-19T22:34:24+00:00,The Polyglot's Dilemma: Conformance Testing a Dozen Specs in as Many Languages,llm_agent,B
+arxiv:2608.19055v1,backlog,medium,,2026-08-20T22:37:10+00:00,Generalized Audio-Driven Synthesis of Precise Drummer Motion,gpu_graphics,B
+arxiv:2608.19063v1,backlog,medium,,2026-08-20T22:37:10+00:00,When Two Tracers Disagree: An Investigation of Multimodal Fusion for Clinical PET/CT Segmentation,gpu_graphics,B
+arxiv:2608.19140v1,backlog,medium,,2026-08-20T22:37:10+00:00,"Grouping the Stochastic Machine: Precision, Not Capability, as the Frontier Metric for AI Systems",llm_agent,B
+arxiv:2608.19147v1,backlog,medium,,2026-08-20T22:37:10+00:00,Pre-Compiled Pipeline Shards for Distributed LLM Inference on Intel AI PC Fleets,architecture,A
+arxiv:2608.19164v1,backlog,medium,,2026-08-20T22:37:10+00:00,LearnAI: Just-in-Time AI Co-Creation Across Disciplines at a University,cognition_social,B
+arxiv:2608.19190v1,backlog,medium,,2026-08-20T22:37:10+00:00,SiNMULI: Novel Signed Network Approach for Malicious URL Identification,llm_agent,B
 classic:architecture:cache-coherence-and-shared-memory-multiprocessors,backlog,medium,,2026-07-09T09:46:00+00:00,Cache coherence and shared-memory multiprocessors,architecture,B
 classic:architecture:the-memory-hierarchy-and-locality,backlog,medium,,2026-07-09T09:46:00+00:00,The memory hierarchy and locality,architecture,B
 classic:cognition:attention-and-working-memory,backlog,medium,,2026-07-09T09:46:00+00:00,Attention and working memory,cognition,B
