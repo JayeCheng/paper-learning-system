@@ -173,6 +173,12 @@ arxiv:2608.19140v1,backlog,medium,,2026-08-20T22:37:10+00:00,"Grouping the Stoch
 arxiv:2608.19147v1,backlog,medium,,2026-08-20T22:37:10+00:00,Pre-Compiled Pipeline Shards for Distributed LLM Inference on Intel AI PC Fleets,architecture,A
 arxiv:2608.19164v1,backlog,medium,,2026-08-20T22:37:10+00:00,LearnAI: Just-in-Time AI Co-Creation Across Disciplines at a University,cognition_social,B
 arxiv:2608.19190v1,backlog,medium,,2026-08-20T22:37:10+00:00,SiNMULI: Novel Signed Network Approach for Malicious URL Identification,llm_agent,B
+arxiv:2608.20195v1,backlog,medium,,2026-08-21T22:34:02+00:00,"From Agent Behaviour to Agent-Friendly Documentation: An Empirical Study of How Coding Agents Discover, Read, and Write Technical Documentation",cognition_social,B
+arxiv:2608.20237v1,backlog,medium,,2026-08-21T22:34:02+00:00,Rule-Compliant Visual Spatial Planning for Multimodal Large Language Models,llm_agent,B
+arxiv:2608.20283v1,backlog,medium,,2026-08-21T22:34:02+00:00,"Design and Empirical Evaluation of a Network-Centric, On-Premises Architecture for Earth Observation Data Access",architecture,B
+arxiv:2608.20290v1,backlog,medium,,2026-08-21T22:34:02+00:00,Phantom Gains: Auditing Self-Improvement Against a Measured Null,llm_agent,B
+arxiv:2608.20308v1,backlog,medium,,2026-08-21T22:34:02+00:00,DreamHand: Repurposing Video Diffusion Models for Occlusion-Robust Egocentric 3D Hand Motion Recovery,gpu_graphics,B
+arxiv:2608.20335v1,backlog,medium,,2026-08-21T22:34:02+00:00,4DAnyone: Create Anyone in 4D from a Casual Monocular Video,gpu_graphics,B
 classic:architecture:cache-coherence-and-shared-memory-multiprocessors,backlog,medium,,2026-07-09T09:46:00+00:00,Cache coherence and shared-memory multiprocessors,architecture,B
 classic:architecture:the-memory-hierarchy-and-locality,backlog,medium,,2026-07-09T09:46:00+00:00,The memory hierarchy and locality,architecture,B
 classic:cognition:attention-and-working-memory,backlog,medium,,2026-07-09T09:46:00+00:00,Attention and working memory,cognition,B
