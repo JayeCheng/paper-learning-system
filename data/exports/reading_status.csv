@@ -179,6 +179,12 @@ arxiv:2608.20283v1,backlog,medium,,2026-08-21T22:34:02+00:00,"Design and Empiric
 arxiv:2608.20290v1,backlog,medium,,2026-08-21T22:34:02+00:00,Phantom Gains: Auditing Self-Improvement Against a Measured Null,llm_agent,B
 arxiv:2608.20308v1,backlog,medium,,2026-08-21T22:34:02+00:00,DreamHand: Repurposing Video Diffusion Models for Occlusion-Robust Egocentric 3D Hand Motion Recovery,gpu_graphics,B
 arxiv:2608.20335v1,backlog,medium,,2026-08-21T22:34:02+00:00,4DAnyone: Create Anyone in 4D from a Casual Monocular Video,gpu_graphics,B
+arxiv:2608.21074v1,backlog,medium,,2026-08-24T22:36:24+00:00,PromptResponse: Optimizing Prompts for LLM Coding Tasks,cognition_social,B
+arxiv:2608.21300v1,backlog,medium,,2026-08-24T22:36:24+00:00,When Adaptation Hurts: Connecting Representational Drift to OOD Failures in MedSAM Fine-Tuning,gpu_graphics,B
+arxiv:2608.21311v1,backlog,medium,,2026-08-24T22:36:24+00:00,AI-to-AI Code Reviews of GitHub Pull Requests,llm_agent,B
+arxiv:2608.21341v1,backlog,medium,,2026-08-24T22:36:24+00:00,Natural-Language Workflows Are Not Software Yet: Artifact-Driven Compilation for Reliable Agent Execution,llm_agent,B
+arxiv:2608.21356v1,backlog,medium,,2026-08-24T22:36:24+00:00,"AI with Authority, from Application to Silicon",architecture,B
+arxiv:2608.21360v1,backlog,medium,,2026-08-24T22:36:24+00:00,OmniAssistBench: Assistant-style Interaction Benchmark for Omni-LLMs,gpu_graphics,B
 classic:architecture:cache-coherence-and-shared-memory-multiprocessors,backlog,medium,,2026-07-09T09:46:00+00:00,Cache coherence and shared-memory multiprocessors,architecture,B
 classic:architecture:the-memory-hierarchy-and-locality,backlog,medium,,2026-07-09T09:46:00+00:00,The memory hierarchy and locality,architecture,B
 classic:cognition:attention-and-working-memory,backlog,medium,,2026-07-09T09:46:00+00:00,Attention and working memory,cognition,B
