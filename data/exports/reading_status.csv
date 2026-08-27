@@ -191,6 +191,12 @@ arxiv:2608.23549v1,backlog,medium,,2026-08-25T22:37:18+00:00,FixAnything: 3D-Con
 arxiv:2608.23550v1,backlog,medium,,2026-08-25T22:37:18+00:00,"When ""Do Not"" Is Not Deny: Security Rules in CLAUDE.md vs Built-In Controls",cognition_social,B
 arxiv:2608.23552v1,backlog,medium,,2026-08-25T22:37:18+00:00,Prime Agent: A Self-Improving RLM Harness,llm_agent,A
 arxiv:2608.23564v1,backlog,medium,,2026-08-25T22:37:18+00:00,"SWE Refactor Bench: Can Coding Agents Complete a Long-Horizon, Whole-Repository Stack Migration?",llm_agent,B
+biorxiv:10.1101/2025.05.30.657074,backlog,medium,,2026-08-27T03:05:37+00:00,Molecular logic of pheromone recognition enables rational design of insect behavior modulators,cognition_social,B
+biorxiv:10.1101/2025.10.29.684686,backlog,medium,,2026-08-27T03:05:37+00:00,Biased projection neuron-Kenyon cell connectivity shapes odor representations and learning in the Drosophila mushroom body,cognition_social,B
+biorxiv:10.64898/2026.08.14.744902,backlog,medium,,2026-08-27T03:05:37+00:00,Proficiency-Dependent Reorganisation of Language and Control Networks during Second Language Processing: An fMRI Study of Korean-English Bilinguals,cognition_social,B
+biorxiv:10.64898/2026.08.17.745290,backlog,medium,,2026-08-27T03:05:37+00:00,Brain pericytes exhibit spatially organized and dynamically regulated molecular heterogeneity,cognition_social,B
+biorxiv:10.64898/2026.08.17.745292,backlog,medium,,2026-08-27T03:05:37+00:00,Dystonia-associated TorsinA-ΔE mutation induces a gain-of-function interaction with XPO1 via its N-terminal hydrophobic segment,cognition_social,B
+biorxiv:10.64898/2026.08.17.745358,backlog,medium,,2026-08-27T03:05:37+00:00,Optogenetic activation of parabrachial tachykinin1 neurons drives nonphotic circadian entrainment,cognition_social,B
 classic:architecture:cache-coherence-and-shared-memory-multiprocessors,backlog,medium,,2026-07-09T09:46:00+00:00,Cache coherence and shared-memory multiprocessors,architecture,B
 classic:architecture:the-memory-hierarchy-and-locality,backlog,medium,,2026-07-09T09:46:00+00:00,The memory hierarchy and locality,architecture,B
 classic:cognition:attention-and-working-memory,backlog,medium,,2026-07-09T09:46:00+00:00,Attention and working memory,cognition,B

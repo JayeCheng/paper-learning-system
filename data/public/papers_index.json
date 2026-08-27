@@ -13163,6 +13163,471 @@
       "why_recommended": "Ranked by engineering transferability signal across configured topics."
     },
     {
+      "abstract": "Reproductive success across animal taxa relies on the unequivocal identification of volatile chemical cues used for sexual communication. These chemical signals, called pheromones, are often structurally nearly identical, sometimes differing only by the oxidation state of a functional group, yet elicit vastly different behaviors. The structural mechanisms driving this exquisite selectivity remain elusive, hindering the rational development of tools to modulate these pathways. Here, we decode the structural logic of pheromone recognition to rationally manipulate insect behavior. Using cryo-electron microscopy and functional mutagenesis, we show that the silkmoth Bombyx mori distinguishes between two highly similar compounds through the selective formation of a thio-hemiaminal, an uncommon covalent bond between the receptor and the pheromone. We leveraged these structural insights to undertake the first rational design of small molecules to disrupt insect mating. By engineering targeted electrophiles that irreversibly anchor to this reactive pocket, we successfully abolished long-range mate-tracking behavior in an agricultural pest model in vivo. This work identifies an unrecognized chemical strategy driving olfactory specificity and provides a blueprint for the rational design of airborne behavior modulators.",
+      "authors": [
+        "Jang, S. S.",
+        "McDowell, S. A. T.",
+        "KC, P.",
+        "Simjanoska, M.",
+        "Mandala, S.",
+        "Zhang, X.",
+        "Jiang, H.",
+        "Cole, P. A.",
+        "Riffell, J. A.",
+        "Zheng, Q.",
+        "del Marmol, J. I."
+      ],
+      "categories": [
+        "neuroscience"
+      ],
+      "citation_count": null,
+      "classic_status": null,
+      "code_url": null,
+      "deep_read_note_url": null,
+      "difficulty": null,
+      "enrichment_sources": [],
+      "existing_note_url": null,
+      "external_ids": {
+        "DOI": "10.1101/2025.05.30.657074"
+      },
+      "field": null,
+      "fields_of_study": [
+        "Neuroscience"
+      ],
+      "id": "biorxiv:10.1101/2025.05.30.657074",
+      "identifiers": {
+        "DOI": "10.1101/2025.05.30.657074",
+        "doi": "10.1101/2025.05.30.657074",
+        "server": "biorxiv"
+      },
+      "influential_citation_count": null,
+      "institutions": [],
+      "latest_note_url": null,
+      "note_count": 0,
+      "open_access_pdf_url": null,
+      "pdf_url": null,
+      "project_url": null,
+      "published_at": "2026-08-21",
+      "published_date": "2026-08-21",
+      "reading_advice": "save_for_later",
+      "reading_status": "backlog",
+      "recommendation_level": "B",
+      "score": 0.653,
+      "scores": {
+        "classic_value": 0.35,
+        "engineering_transferability": 0.48,
+        "recency": 0.78,
+        "source_quality": 0.68,
+        "total": 0.653,
+        "user_relevance": 0.75
+      },
+      "selected_for_s_level": false,
+      "source": "biorxiv",
+      "source_group": "cognition_social",
+      "source_type": "recent_7d",
+      "source_url": "https://doi.org/10.1101/2025.05.30.657074",
+      "suggested_note_title": null,
+      "suggested_note_type": null,
+      "tags": [
+        "neuroscience",
+        "cognition_social",
+        "biorxiv"
+      ],
+      "title": "Molecular logic of pheromone recognition enables rational design of insect behavior modulators",
+      "title_zh": null,
+      "topics": [
+        "cognition"
+      ],
+      "url": "https://doi.org/10.1101/2025.05.30.657074",
+      "venue": "bioRxiv",
+      "why_recommended": "Ranked by recency signal across configured topics."
+    },
+    {
+      "abstract": "Learning and memory centers must balance maximizing coding capacity with prioritizing biologically relevant information. Expansion layers, a circuit motif common to many learning and memory centers, including the insect mushroom body, transform dense sensory representations into sparse, distributed ones, and theoretical models propose that random connectivity within these layers maximizes coding capacity by generating highly discriminable responses. Yet this solution creates a fundamental problem: purely random connectivity treats all stimuli equally, without prioritizing survival-relevant cues over neutral ones. Here, we show that the Drosophila melanogaster mushroom body resolves this capacity-selectivity trade-off through systematic biases in projection neuron-Kenyon cell connectivity. Although connectivity is random at the single-cell level, some projection neuron types connect up to 15-fold more frequently than others. These biases translate directly into function: Kenyon cell responses scales with projection neuron connectivity, and the breadth of odor-evoked responses predicts learning performance. Odors activating more than 20% of Kenyon cells drive robust associative memories, whereas those activating fewer than 10% are poorly learned. VL1 projection neurons are a notable exception: despite their weak connectivity, they elicit broad Kenyon cell activity but fail to support learning, revealing a circuit-level gate on learning. These results show that the mushroom body embeds a learning hierarchy in its connectivity architecture, prioritizing ethologically relevant odors while preserving coding capacity for diverse associations.",
+      "authors": [
+        "MacKenzie, A. J.",
+        "Beatty, L.",
+        "Butts, A. R.",
+        "Ulibarri, J. M.",
+        "Azhar, D.",
+        "Amematsro, P.",
+        "Caron, S. J. C."
+      ],
+      "categories": [
+        "neuroscience"
+      ],
+      "citation_count": null,
+      "classic_status": null,
+      "code_url": null,
+      "deep_read_note_url": null,
+      "difficulty": null,
+      "enrichment_sources": [],
+      "existing_note_url": null,
+      "external_ids": {
+        "DOI": "10.1101/2025.10.29.684686"
+      },
+      "field": null,
+      "fields_of_study": [
+        "Neuroscience"
+      ],
+      "id": "biorxiv:10.1101/2025.10.29.684686",
+      "identifiers": {
+        "DOI": "10.1101/2025.10.29.684686",
+        "doi": "10.1101/2025.10.29.684686",
+        "server": "biorxiv"
+      },
+      "influential_citation_count": null,
+      "institutions": [],
+      "latest_note_url": null,
+      "note_count": 0,
+      "open_access_pdf_url": null,
+      "pdf_url": null,
+      "project_url": null,
+      "published_at": "2026-08-21",
+      "published_date": "2026-08-21",
+      "reading_advice": "save_for_later",
+      "reading_status": "backlog",
+      "recommendation_level": "B",
+      "score": 0.653,
+      "scores": {
+        "classic_value": 0.35,
+        "engineering_transferability": 0.48,
+        "recency": 0.78,
+        "source_quality": 0.68,
+        "total": 0.653,
+        "user_relevance": 0.75
+      },
+      "selected_for_s_level": false,
+      "source": "biorxiv",
+      "source_group": "cognition_social",
+      "source_type": "recent_7d",
+      "source_url": "https://doi.org/10.1101/2025.10.29.684686",
+      "suggested_note_title": null,
+      "suggested_note_type": null,
+      "tags": [
+        "neuroscience",
+        "cognition_social",
+        "biorxiv"
+      ],
+      "title": "Biased projection neuron-Kenyon cell connectivity shapes odor representations and learning in the Drosophila mushroom body",
+      "title_zh": null,
+      "topics": [
+        "cognition"
+      ],
+      "url": "https://doi.org/10.1101/2025.10.29.684686",
+      "venue": "bioRxiv",
+      "why_recommended": "Ranked by recency signal across configured topics."
+    },
+    {
+      "abstract": "Second language (L2) processing engages both language-specific and domain-general control systems, yet how these systems vary with L2 proficiency remains unclear. We used functional magnetic resonance imaging (fMRI) to examine neural activity during L2 English processing in Korean-English (K-E) bilinguals across three proficiency levels (beginner, intermediate, advanced). Participants performed rhyme and spelling judgement tasks manipulating orthographic-phonological conflict. Behaviourally, conflict conditions reduced accuracy, with proficiency effects observed selectively in the rhyme task. fMRI results showed that conflict processing recruited frontoparietal control regions, including inferior frontal and parietal cortices, accompanied by deactivation in default mode network regions. Critically, proficiency-related effects differed by task. During rhyme judgement, advanced bilinguals showed greater activation in the left supramarginal gyrus (SMG) and cerebellum, whereas intermediate bilinguals exhibited greater recruitment of the left middle orbital gyrus and dorsomedial prefrontal cortex. During spelling judgement, advanced bilinguals showed greater thalamic activation alongside greater deactivation of the right dorsolateral prefrontal cortex. Activity in the left SMG and cerebellum was positively associated with L2 reading score, and cerebellar activity was also associated with rhyme-task performance, whereas right DLPFC activity was negatively associated with the scores. These findings suggest that increasing L2 proficiency is associated less with altered recruitment of core reading regions than with task-specific shifts in the balance between phonological-specialized, subcortical attentional, and domain-general control systems supporting L2 processing.",
+      "authors": [
+        "Kim, J.",
+        "Choi, J.",
+        "Baik, Y.",
+        "van Heuven, W.",
+        "Nam, K.",
+        "Jung, J."
+      ],
+      "categories": [
+        "neuroscience"
+      ],
+      "citation_count": null,
+      "classic_status": null,
+      "code_url": null,
+      "deep_read_note_url": null,
+      "difficulty": null,
+      "enrichment_sources": [],
+      "existing_note_url": null,
+      "external_ids": {
+        "DOI": "10.64898/2026.08.14.744902"
+      },
+      "field": null,
+      "fields_of_study": [
+        "Neuroscience"
+      ],
+      "id": "biorxiv:10.64898/2026.08.14.744902",
+      "identifiers": {
+        "DOI": "10.64898/2026.08.14.744902",
+        "doi": "10.64898/2026.08.14.744902",
+        "server": "biorxiv"
+      },
+      "influential_citation_count": null,
+      "institutions": [],
+      "latest_note_url": null,
+      "note_count": 0,
+      "open_access_pdf_url": null,
+      "pdf_url": null,
+      "project_url": null,
+      "published_at": "2026-08-21",
+      "published_date": "2026-08-21",
+      "reading_advice": "save_for_later",
+      "reading_status": "backlog",
+      "recommendation_level": "B",
+      "score": 0.653,
+      "scores": {
+        "classic_value": 0.35,
+        "engineering_transferability": 0.48,
+        "recency": 0.78,
+        "source_quality": 0.68,
+        "total": 0.653,
+        "user_relevance": 0.75
+      },
+      "selected_for_s_level": false,
+      "source": "biorxiv",
+      "source_group": "cognition_social",
+      "source_type": "recent_7d",
+      "source_url": "https://doi.org/10.64898/2026.08.14.744902",
+      "suggested_note_title": null,
+      "suggested_note_type": null,
+      "tags": [
+        "neuroscience",
+        "cognition_social",
+        "biorxiv"
+      ],
+      "title": "Proficiency-Dependent Reorganisation of Language and Control Networks during Second Language Processing: An fMRI Study of Korean-English Bilinguals",
+      "title_zh": null,
+      "topics": [
+        "cognition"
+      ],
+      "url": "https://doi.org/10.64898/2026.08.14.744902",
+      "venue": "bioRxiv",
+      "why_recommended": "Ranked by recency signal across configured topics."
+    },
+    {
+      "abstract": "Brain capillary pericytes are essential components of the neurovascular unit, yet the extent of their molecular heterogeneity within intact vascular networks remains poorly understood. Here, we combined spatial imaging with reanalysis of independent single-cell transcriptomic datasets to investigate the molecular organization of adult mouse brain pericytes. We identified spatial organization of pericyte molecular heterogeneity associated with anatomical region and position within the vascular network, including recurrent differences in ACE2, CASQ2, Igf2, and OPN expression. Moreover, pericyte molecular phenotypes varied with aging, acute ischemia, and circadian phase. Notably, light-dark phase emerged as a major axis of transcriptional variation, with pericytes exhibiting distinct circadian phase-associated molecular states. Together, these data demonstrate that adult brain pericytes exhibit spatially organized and dynamically regulated molecular heterogeneity associated with vascular and physiological context.",
+      "authors": [
+        "Huang, S.-F.",
+        "Glandorf, L.",
+        "Sauvageot, S.",
+        "Glueck, C.",
+        "Preuss, H.",
+        "Droux, J.",
+        "Maheshwari, U.",
+        "Sridhar, S.",
+        "Wegener, S.",
+        "Weber, B.",
+        "Razansky, D.",
+        "El Amki, M.",
+        "Shih, A. Y.",
+        "Keller, A."
+      ],
+      "categories": [
+        "neuroscience"
+      ],
+      "citation_count": null,
+      "classic_status": null,
+      "code_url": null,
+      "deep_read_note_url": null,
+      "difficulty": null,
+      "enrichment_sources": [],
+      "existing_note_url": null,
+      "external_ids": {
+        "DOI": "10.64898/2026.08.17.745290"
+      },
+      "field": null,
+      "fields_of_study": [
+        "Neuroscience"
+      ],
+      "id": "biorxiv:10.64898/2026.08.17.745290",
+      "identifiers": {
+        "DOI": "10.64898/2026.08.17.745290",
+        "doi": "10.64898/2026.08.17.745290",
+        "server": "biorxiv"
+      },
+      "influential_citation_count": null,
+      "institutions": [],
+      "latest_note_url": null,
+      "note_count": 0,
+      "open_access_pdf_url": null,
+      "pdf_url": null,
+      "project_url": null,
+      "published_at": "2026-08-21",
+      "published_date": "2026-08-21",
+      "reading_advice": "save_for_later",
+      "reading_status": "backlog",
+      "recommendation_level": "B",
+      "score": 0.653,
+      "scores": {
+        "classic_value": 0.35,
+        "engineering_transferability": 0.48,
+        "recency": 0.78,
+        "source_quality": 0.68,
+        "total": 0.653,
+        "user_relevance": 0.75
+      },
+      "selected_for_s_level": false,
+      "source": "biorxiv",
+      "source_group": "cognition_social",
+      "source_type": "recent_7d",
+      "source_url": "https://doi.org/10.64898/2026.08.17.745290",
+      "suggested_note_title": null,
+      "suggested_note_type": null,
+      "tags": [
+        "neuroscience",
+        "cognition_social",
+        "biorxiv"
+      ],
+      "title": "Brain pericytes exhibit spatially organized and dynamically regulated molecular heterogeneity",
+      "title_zh": null,
+      "topics": [
+        "cognition"
+      ],
+      "url": "https://doi.org/10.64898/2026.08.17.745290",
+      "venue": "bioRxiv",
+      "why_recommended": "Ranked by recency signal across configured topics."
+    },
+    {
+      "abstract": "Childhood-onset DYT1 dystonia is a neurodevelopmental movement disorder caused by a three-base-pair deletion ({Delta}GAG; {Delta}E) in the TOR1A gene, which encodes TorsinA, a membrane-associated AAA+ (ATPase associated with diverse cellular activities) ATPase. However, the mechanisms by which the {Delta}E mutation causes neuronal dysfunction remain poorly understood. Using patient-derived neurons, we previously demonstrated that TorsinA-{Delta}E disrupts the nucleocytoplasmic transport (NCT) of both RNA and protein cargos. In the present study, proteomic analysis of induced human motor neurons revealed a markedly enhanced association between {Delta}E and exportin 1 (XPO1), a major nuclear export receptor. This aberrant association was enriched at the nuclear envelope and accompanied by impaired XPO1-mediated nuclear export. By integrating AlphaFold-based structural modeling with molecular, biochemical, and cellular analyses, we identified the N-terminal hydrophobic segment (HS) of TorsinA as a critical contributor to its interaction with XPO1. Deletion of the HS from {Delta}E reduced its association with XPO1, altered its nuclear envelope enrichment, and restored nuclear export. Moreover, expression of HS-derived peptides in patient-derived DYT1 neurons improved nuclear export, neurite outgrowth and branching, maturation-associated gene expression, and neuronal survival. Together, these findings identify an aberrant gain-of-function association between TorsinA-{Delta}E and XPO1 as a mechanism contributing to NCT dysfunction in DYT1 dystonia and establish the HS-dependent {Delta}E-XPO1 interaction as a potential therapeutic target.",
+      "authors": [
+        "Cui, H.",
+        "Duan, Y.",
+        "Islam, M. K.",
+        "Hosain, M. A.",
+        "Li, J.",
+        "Lu, X.",
+        "Ding, B."
+      ],
+      "categories": [
+        "neuroscience"
+      ],
+      "citation_count": null,
+      "classic_status": null,
+      "code_url": null,
+      "deep_read_note_url": null,
+      "difficulty": null,
+      "enrichment_sources": [],
+      "existing_note_url": null,
+      "external_ids": {
+        "DOI": "10.64898/2026.08.17.745292"
+      },
+      "field": null,
+      "fields_of_study": [
+        "Neuroscience"
+      ],
+      "id": "biorxiv:10.64898/2026.08.17.745292",
+      "identifiers": {
+        "DOI": "10.64898/2026.08.17.745292",
+        "doi": "10.64898/2026.08.17.745292",
+        "server": "biorxiv"
+      },
+      "influential_citation_count": null,
+      "institutions": [],
+      "latest_note_url": null,
+      "note_count": 0,
+      "open_access_pdf_url": null,
+      "pdf_url": null,
+      "project_url": null,
+      "published_at": "2026-08-21",
+      "published_date": "2026-08-21",
+      "reading_advice": "save_for_later",
+      "reading_status": "backlog",
+      "recommendation_level": "B",
+      "score": 0.653,
+      "scores": {
+        "classic_value": 0.35,
+        "engineering_transferability": 0.48,
+        "recency": 0.78,
+        "source_quality": 0.68,
+        "total": 0.653,
+        "user_relevance": 0.75
+      },
+      "selected_for_s_level": false,
+      "source": "biorxiv",
+      "source_group": "cognition_social",
+      "source_type": "recent_7d",
+      "source_url": "https://doi.org/10.64898/2026.08.17.745292",
+      "suggested_note_title": null,
+      "suggested_note_type": null,
+      "tags": [
+        "neuroscience",
+        "cognition_social",
+        "biorxiv"
+      ],
+      "title": "Dystonia-associated TorsinA-\u0394E mutation induces a gain-of-function interaction with XPO1 via its N-terminal hydrophobic segment",
+      "title_zh": null,
+      "topics": [
+        "cognition"
+      ],
+      "url": "https://doi.org/10.64898/2026.08.17.745292",
+      "venue": "bioRxiv",
+      "why_recommended": "Ranked by recency signal across configured topics."
+    },
+    {
+      "abstract": "Mammalian circadian rhythms are primarily entrained by light, but nonphotic cues can also reorganize behavioral timing through mechanisms that remain poorly understood. Nocturnal foot shocks delivered to rodents while they forage away from the safety of their nesting area have been shown to entrain circadian behavioral rhythms and shift foraging and feeding to the daytime. To identify the neural circuits underlying this nonphotic fear entrainment, we optogenetically stimulated tachykinin 1-expressing neurons in the parabrachial nucleus (Tac1PBN) during the subjective night while the animals foraged outside of their nest, which recapitulated the total activity-rest phase switch in circadian behaviors induced by foot shocks. Furthermore, selective stimulation of Tac1PBN projections to the central amygdala (CeA) produced a significant but reduced phase shift compared to direct stimulation of Tac1PBN cell bodies. When Bmal1, a core clock gene, was conditionally deleted from the CeA, mice failed to fear-entrain, implicating the CeA molecular clock as a necessary component for fear entrainment. Together, these experiments demonstrate that activation of a defined neuronal population outside of the suprachiasmatic nucleus (SCN) can reorganize circadian behavior by engaging a non-SCN circadian oscillator network that requires an intact CeA molecular clock.",
+      "authors": [
+        "Zhang, V. Y.",
+        "Park, S.",
+        "Derderian, K. D.",
+        "Pauli, J. L.",
+        "Palmiter, R. D.",
+        "de la iglesia, H. O."
+      ],
+      "categories": [
+        "neuroscience"
+      ],
+      "citation_count": null,
+      "classic_status": null,
+      "code_url": null,
+      "deep_read_note_url": null,
+      "difficulty": null,
+      "enrichment_sources": [],
+      "existing_note_url": null,
+      "external_ids": {
+        "DOI": "10.64898/2026.08.17.745358"
+      },
+      "field": null,
+      "fields_of_study": [
+        "Neuroscience"
+      ],
+      "id": "biorxiv:10.64898/2026.08.17.745358",
+      "identifiers": {
+        "DOI": "10.64898/2026.08.17.745358",
+        "doi": "10.64898/2026.08.17.745358",
+        "server": "biorxiv"
+      },
+      "influential_citation_count": null,
+      "institutions": [],
+      "latest_note_url": null,
+      "note_count": 0,
+      "open_access_pdf_url": null,
+      "pdf_url": null,
+      "project_url": null,
+      "published_at": "2026-08-21",
+      "published_date": "2026-08-21",
+      "reading_advice": "save_for_later",
+      "reading_status": "backlog",
+      "recommendation_level": "B",
+      "score": 0.653,
+      "scores": {
+        "classic_value": 0.35,
+        "engineering_transferability": 0.48,
+        "recency": 0.78,
+        "source_quality": 0.68,
+        "total": 0.653,
+        "user_relevance": 0.75
+      },
+      "selected_for_s_level": false,
+      "source": "biorxiv",
+      "source_group": "cognition_social",
+      "source_type": "recent_7d",
+      "source_url": "https://doi.org/10.64898/2026.08.17.745358",
+      "suggested_note_title": null,
+      "suggested_note_type": null,
+      "tags": [
+        "neuroscience",
+        "cognition_social",
+        "biorxiv"
+      ],
+      "title": "Optogenetic activation of parabrachial tachykinin1 neurons drives nonphotic circadian entrainment",
+      "title_zh": null,
+      "topics": [
+        "cognition"
+      ],
+      "url": "https://doi.org/10.64898/2026.08.17.745358",
+      "venue": "bioRxiv",
+      "why_recommended": "Ranked by recency signal across configured topics."
+    },
+    {
       "abstract": "Required background for parallel architecture.",
       "authors": [],
       "categories": [
@@ -13636,5 +14101,5 @@
     }
   ],
   "public_json_version": "0.4",
-  "updated_at": "2026-08-25T22:37:18+00:00"
+  "updated_at": "2026-08-27T03:05:37+00:00"
 }
