@@ -1671,6 +1671,36 @@
     {
       "confidence": 0.5,
       "relation": "related_to",
+      "source": "arxiv:2608.27194v1",
+      "target": "cognition"
+    },
+    {
+      "confidence": 0.5,
+      "relation": "related_to",
+      "source": "arxiv:2608.27194v1",
+      "target": "gpu_graphics"
+    },
+    {
+      "confidence": 0.5,
+      "relation": "related_to",
+      "source": "arxiv:2608.27194v1",
+      "target": "cognition_social"
+    },
+    {
+      "confidence": 0.5,
+      "relation": "related_to",
+      "source": "arxiv:2608.27278v1",
+      "target": "architecture"
+    },
+    {
+      "confidence": 0.5,
+      "relation": "related_to",
+      "source": "arxiv:2608.27278v1",
+      "target": "gpu_graphics"
+    },
+    {
+      "confidence": 0.5,
+      "relation": "related_to",
       "source": "arxiv:2608.27301v1",
       "target": "gpu_graphics"
     },
@@ -1679,12 +1709,6 @@
       "relation": "related_to",
       "source": "arxiv:2608.27301v1",
       "target": "cognition"
-    },
-    {
-      "confidence": 0.5,
-      "relation": "related_to",
-      "source": "arxiv:2608.27301v1",
-      "target": "cognition_social"
     },
     {
       "confidence": 0.5,
@@ -3442,6 +3466,24 @@
       "type": "paper"
     },
     {
+      "id": "arxiv:2608.27194v1",
+      "label": "Surrounded by Friends: Design and Evaluation of Immersive Layouts of Egocentric Network for Visual Analytics",
+      "topics": [
+        "cognition",
+        "gpu_graphics"
+      ],
+      "type": "paper"
+    },
+    {
+      "id": "arxiv:2608.27278v1",
+      "label": "Decoupled I/O-Dominant Pipelines for Large-Scale Whole-Slide Image Embedding Extraction",
+      "topics": [
+        "architecture",
+        "gpu_graphics"
+      ],
+      "type": "paper"
+    },
+    {
       "id": "arxiv:2608.27301v1",
       "label": "Comparative Evaluation of 3D Reconstruction Methods for Immersive Visualization of Laboratory Objects",
       "topics": [
@@ -3652,5 +3694,5 @@
     }
   ],
   "public_json_version": "0.4",
-  "updated_at": "2026-08-28T06:05:55+00:00"
+  "updated_at": "2026-08-29T03:39:14+00:00"
 }
