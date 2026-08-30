@@ -13730,6 +13730,157 @@
       "why_recommended": "Ranked by recency signal across configured topics."
     },
     {
+      "abstract": "Antidepressants are widely used to treat mood and anxiety disorders, yet the cellular and molecular mechanisms underlying their therapeutic effects remain poorly understood. Here, we show that the selective serotonin reuptake inhibitor (SSRI) fluoxetine rejuvenates the dentate gyrus (DG) by reactivating a latent developmental plasticity program in mature neurons, which is required for re-engaging critical period-like synaptic remodeling and antidepressant-like behavioral effects. Single nuclei transcriptomic profiling across all hippocampal cell types revealed a strikingly selective response in the DG, where mature neurons re-engaged a developmental-like transcriptional state, an effect distinct from adult neurogenesis. Chronic fluoxetine treatment induced expression of SOX11, a developmental transcription factor involved in neurodevelopment and axonal regeneration that is normally silenced in the adult brain. Reactivation of SOX11 in mature DG neurons was necessary for both the antidepressant-like behavioral effects of fluoxetine and the re-engagement of critical period-like synaptic remodeling. Notably, SOX11 reactivation was also induced by physiological stimuli, including environmental enrichment and peripheral axon regeneration, suggesting that mature neurons retain access to a conserved developmental plasticity program throughout adulthood. We further identified evidence of this form of developmental plasticity in the adult human brain, an effect distinct from adult neurogenesis. At the structural level, fluoxetine remodeled novel extracellular matrix (ECM) structures within the DG distinct from canonical perineuronal nets, and targeted ECM degradation was sufficient to reactivate SOX11 in mature neurons, identifying the ECM as a key regulator of neuronal rejuvenation. Altogether, these findings demonstrate that mature neurons retain an intrinsic capacity to re-engage dormant developmental programs, and that antidepressants harness this regenerative plasticity to drive neural circuit remodeling and antidepressant-like effects.",
+      "authors": [
+        "Nguyen, P. T.",
+        "Sun, E.",
+        "Shi, Y.",
+        "Tamura, S.",
+        "Xiao, Y.",
+        "Lacefield, C.",
+        "Turi, G.",
+        "Hen, R."
+      ],
+      "categories": [
+        "neuroscience"
+      ],
+      "citation_count": null,
+      "classic_status": null,
+      "code_url": null,
+      "deep_read_note_url": null,
+      "difficulty": null,
+      "enrichment_sources": [],
+      "existing_note_url": null,
+      "external_ids": {
+        "DOI": "10.1101/2025.01.03.631260"
+      },
+      "field": null,
+      "fields_of_study": [
+        "Neuroscience"
+      ],
+      "id": "biorxiv:10.1101/2025.01.03.631260",
+      "identifiers": {
+        "DOI": "10.1101/2025.01.03.631260",
+        "doi": "10.1101/2025.01.03.631260",
+        "server": "biorxiv"
+      },
+      "influential_citation_count": null,
+      "institutions": [],
+      "latest_note_url": null,
+      "note_count": 0,
+      "open_access_pdf_url": null,
+      "pdf_url": null,
+      "project_url": null,
+      "published_at": "2026-08-23",
+      "published_date": "2026-08-23",
+      "reading_advice": "save_for_later",
+      "reading_status": "backlog",
+      "recommendation_level": "B",
+      "score": 0.653,
+      "scores": {
+        "classic_value": 0.35,
+        "engineering_transferability": 0.48,
+        "recency": 0.78,
+        "source_quality": 0.68,
+        "total": 0.653,
+        "user_relevance": 0.75
+      },
+      "selected_for_s_level": false,
+      "source": "biorxiv",
+      "source_group": "cognition_social",
+      "source_type": "recent_7d",
+      "source_url": "https://doi.org/10.1101/2025.01.03.631260",
+      "suggested_note_title": null,
+      "suggested_note_type": null,
+      "tags": [
+        "neuroscience",
+        "cognition_social",
+        "biorxiv"
+      ],
+      "title": "Reactivation of a dormant developmental plasticity program drives synaptic rejuvenation and antidepressant-like responses",
+      "title_zh": null,
+      "topics": [
+        "cognition"
+      ],
+      "url": "https://doi.org/10.1101/2025.01.03.631260",
+      "venue": "bioRxiv",
+      "why_recommended": "Ranked by recency signal across configured topics."
+    },
+    {
+      "abstract": "The event-related P3 is evoked by most task-relevant or salient stimuli, but its neural sources remain controversial. Here we reevaluate the role of hippocampus, unambiguously demonstrated in intracranial recordings, and retro-splenial cortex as sources of the P3 in magneto- and electroencephalography. Observers detected rare visual targets of a deviant shape and ignored rare non-targets of a deviant color. Source analysis was based on noise-normalized minimum-norm estimates in an individual, MRI-based source space. Critically, the cortical source space was extended to include the cornu ammonis of the hippocampus. Source analysis at the P3 peak showed strong sources in retrosplenial cortex and a weaker source in hippocampus. Activity in left somatosensory cortex was related to the button presses. Subsequent activity was observed in insula and anterior mid-cingulate cortex. Further simulation studies explored the spread of these sources and the plausibility of their combination to explain the data, and demonstrate that the combination of magneto- and electroencephalography increased the specificity of the source estimate. Overall, these data support an interpretation of the P3 as physiological indicator of activity in the limbic system for target and distractor stimuli.",
+      "authors": [
+        "Das, D.",
+        "Hamalainen, M. S.",
+        "Dykstra, A. R.",
+        "Rupp, A.",
+        "Gutschalk, A."
+      ],
+      "categories": [
+        "neuroscience"
+      ],
+      "citation_count": null,
+      "classic_status": null,
+      "code_url": null,
+      "deep_read_note_url": null,
+      "difficulty": null,
+      "enrichment_sources": [],
+      "existing_note_url": null,
+      "external_ids": {
+        "DOI": "10.1101/2025.03.24.645008"
+      },
+      "field": null,
+      "fields_of_study": [
+        "Neuroscience"
+      ],
+      "id": "biorxiv:10.1101/2025.03.24.645008",
+      "identifiers": {
+        "DOI": "10.1101/2025.03.24.645008",
+        "doi": "10.1101/2025.03.24.645008",
+        "server": "biorxiv"
+      },
+      "influential_citation_count": null,
+      "institutions": [],
+      "latest_note_url": null,
+      "note_count": 0,
+      "open_access_pdf_url": null,
+      "pdf_url": null,
+      "project_url": null,
+      "published_at": "2026-08-23",
+      "published_date": "2026-08-23",
+      "reading_advice": "save_for_later",
+      "reading_status": "backlog",
+      "recommendation_level": "B",
+      "score": 0.653,
+      "scores": {
+        "classic_value": 0.35,
+        "engineering_transferability": 0.48,
+        "recency": 0.78,
+        "source_quality": 0.68,
+        "total": 0.653,
+        "user_relevance": 0.75
+      },
+      "selected_for_s_level": false,
+      "source": "biorxiv",
+      "source_group": "cognition_social",
+      "source_type": "recent_7d",
+      "source_url": "https://doi.org/10.1101/2025.03.24.645008",
+      "suggested_note_title": null,
+      "suggested_note_type": null,
+      "tags": [
+        "neuroscience",
+        "cognition_social",
+        "biorxiv"
+      ],
+      "title": "Combined MEG and EEG suggest a limbic source network of the P3 including retrosplenial cortex and hippocampus",
+      "title_zh": null,
+      "topics": [
+        "cognition"
+      ],
+      "url": "https://doi.org/10.1101/2025.03.24.645008",
+      "venue": "bioRxiv",
+      "why_recommended": "Ranked by recency signal across configured topics."
+    },
+    {
       "abstract": "Reproductive success across animal taxa relies on the unequivocal identification of volatile chemical cues used for sexual communication. These chemical signals, called pheromones, are often structurally nearly identical, sometimes differing only by the oxidation state of a functional group, yet elicit vastly different behaviors. The structural mechanisms driving this exquisite selectivity remain elusive, hindering the rational development of tools to modulate these pathways. Here, we decode the structural logic of pheromone recognition to rationally manipulate insect behavior. Using cryo-electron microscopy and functional mutagenesis, we show that the silkmoth Bombyx mori distinguishes between two highly similar compounds through the selective formation of a thio-hemiaminal, an uncommon covalent bond between the receptor and the pheromone. We leveraged these structural insights to undertake the first rational design of small molecules to disrupt insect mating. By engineering targeted electrophiles that irreversibly anchor to this reactive pocket, we successfully abolished long-range mate-tracking behavior in an agricultural pest model in vivo. This work identifies an unrecognized chemical strategy driving olfactory specificity and provides a blueprint for the rational design of airborne behavior modulators.",
       "authors": [
         "Jang, S. S.",
@@ -13810,6 +13961,86 @@
       "why_recommended": "Ranked by recency signal across configured topics."
     },
     {
+      "abstract": "The early formation of sensorimotor circuits is essential for survival. While the development and function of exteroceptive circuits and their associated motor pathways are well characterized, far less is known about the circuits that convey viscerosensory inputs to the brain and transmit visceromotor commands from the central nervous system to internal organs. Technical limitations, such as the in utero development of viscerosensory and visceromotor circuits and the invasiveness of procedures required to access them, have hindered studies of their functional development in mammals. Using larval zebrafish, which are genetically accessible and optically transparent, we tracked, in vivo, how cardiosensory and cardiomotor neural circuits assemble and begin to function. We uncovered a staged program. First, a minimal efferent circuit suffices for heart-rate control: direct brain-to-heart vagal motor innervation is required, intracardiac neurons are not, and heart rate is governed exclusively by the motor vagus nerve. Within the hindbrain, we functionally localize a cholinergic vagal premotor locus that engages this early efferent control. Second, sympathetic innervation arrives and enhances the dynamics and amplitude of cardiac responses, as neurons in the most anterior sympathetic ganglia acquire the ability to drive cardiac acceleration. These neurons exhibit proportional, integral, and derivative-like relationships to heart rate, consistent with controller motifs that shape gain and dynamics. Third, vagal sensory neurons innervate the heart. Distinct subsets increase activity when heart rate falls or rises, and across spontaneous fluctuations, responses to aversive stimuli, and optogenetically evoked cardiac perturbations, their dynamics are captured by a single canonical temporal kernel with neuron-specific phase offsets, supporting a population code for heart rate. This temporally segregated maturation isolates three experimentally tractable regimes: unidirectional brain-to-heart communication, dual efferent control, and closed-loop control after sensory feedback engages, providing a framework for mechanistic dissection of organism-wide heart-brain circuits.",
+      "authors": [
+        "Hernandez-Nunez, L.",
+        "Avrami, J.",
+        "Shi, S.",
+        "Markarian, A.",
+        "Kim, A.",
+        "Boulanger-Weill, J.",
+        "Ruetten, V. M.",
+        "Zarghani-Shiraz, A.",
+        "Ahrens, M. B.",
+        "Engert, F.",
+        "Fishman, M. C."
+      ],
+      "categories": [
+        "neuroscience"
+      ],
+      "citation_count": null,
+      "classic_status": null,
+      "code_url": null,
+      "deep_read_note_url": null,
+      "difficulty": null,
+      "enrichment_sources": [],
+      "existing_note_url": null,
+      "external_ids": {
+        "DOI": "10.1101/2025.09.22.677693"
+      },
+      "field": null,
+      "fields_of_study": [
+        "Neuroscience"
+      ],
+      "id": "biorxiv:10.1101/2025.09.22.677693",
+      "identifiers": {
+        "DOI": "10.1101/2025.09.22.677693",
+        "doi": "10.1101/2025.09.22.677693",
+        "server": "biorxiv"
+      },
+      "influential_citation_count": null,
+      "institutions": [],
+      "latest_note_url": null,
+      "note_count": 0,
+      "open_access_pdf_url": null,
+      "pdf_url": null,
+      "project_url": null,
+      "published_at": "2026-08-23",
+      "published_date": "2026-08-23",
+      "reading_advice": "save_for_later",
+      "reading_status": "backlog",
+      "recommendation_level": "B",
+      "score": 0.653,
+      "scores": {
+        "classic_value": 0.35,
+        "engineering_transferability": 0.48,
+        "recency": 0.78,
+        "source_quality": 0.68,
+        "total": 0.653,
+        "user_relevance": 0.75
+      },
+      "selected_for_s_level": false,
+      "source": "biorxiv",
+      "source_group": "cognition_social",
+      "source_type": "recent_7d",
+      "source_url": "https://doi.org/10.1101/2025.09.22.677693",
+      "suggested_note_title": null,
+      "suggested_note_type": null,
+      "tags": [
+        "neuroscience",
+        "cognition_social",
+        "biorxiv"
+      ],
+      "title": "Emergence of Functional Heart-Brain Circuits in a Vertebrate",
+      "title_zh": null,
+      "topics": [
+        "cognition"
+      ],
+      "url": "https://doi.org/10.1101/2025.09.22.677693",
+      "venue": "bioRxiv",
+      "why_recommended": "Ranked by recency signal across configured topics."
+    },
+    {
       "abstract": "Learning and memory centers must balance maximizing coding capacity with prioritizing biologically relevant information. Expansion layers, a circuit motif common to many learning and memory centers, including the insect mushroom body, transform dense sensory representations into sparse, distributed ones, and theoretical models propose that random connectivity within these layers maximizes coding capacity by generating highly discriminable responses. Yet this solution creates a fundamental problem: purely random connectivity treats all stimuli equally, without prioritizing survival-relevant cues over neutral ones. Here, we show that the Drosophila melanogaster mushroom body resolves this capacity-selectivity trade-off through systematic biases in projection neuron-Kenyon cell connectivity. Although connectivity is random at the single-cell level, some projection neuron types connect up to 15-fold more frequently than others. These biases translate directly into function: Kenyon cell responses scales with projection neuron connectivity, and the breadth of odor-evoked responses predicts learning performance. Odors activating more than 20% of Kenyon cells drive robust associative memories, whereas those activating fewer than 10% are poorly learned. VL1 projection neurons are a notable exception: despite their weak connectivity, they elicit broad Kenyon cell activity but fail to support learning, revealing a circuit-level gate on learning. These results show that the mushroom body embeds a learning hierarchy in its connectivity architecture, prioritizing ethologically relevant odors while preserving coding capacity for diverse associations.",
       "authors": [
         "MacKenzie, A. J.",
@@ -13882,6 +14113,86 @@
         "cognition"
       ],
       "url": "https://doi.org/10.1101/2025.10.29.684686",
+      "venue": "bioRxiv",
+      "why_recommended": "Ranked by recency signal across configured topics."
+    },
+    {
+      "abstract": "Psilocybin has emerged as a promising therapeutic agent for psychiatric disorders characterised by cognitive rigidity and disrupted reward processing, including anorexia nervosa. While its pro-cognitive effects have been mechanistically probed almost exclusively through serotonin receptor subtype antagonism, the downstream contributions of dopaminergic systems to these outcomes remain poorly understood. Here, we examined how psilocybin (1.5 mg/kg) alters cognitive flexibility across multiple operant paradigms in female rats and whether ventral striatal dopamine, nutritional state or prior activity-based anorexia (ABA) exposure moderate these effects. In food-restricted rats, psilocybin improved reversal learning with an apparent temporal delay relative to our previously published ad libitum fed cohort. In vivo fiber photometry revealed that psilocybin broadly amplified nucleus accumbens core (NAc) dopamine transients time-locked to both expected and unexpected outcomes during probabilistic reversal learning across 7 days. Computational modelling identified psilocybin-specific increases in learning rate and reductions in prior value weighting, consistent with strengthened feedback-driven updating. In touchscreen paradigms, psilocybin enhanced discrimination accuracy and accelerated reversal learning acquisition when administered prior to initial discrimination, but impaired serial reversal accuracy when administered after initial discrimination. ABA exposure constrained psilocybin's pro-cognitive effects, abolishing discrimination accuracy benefits, suggesting that metabolic disruption and stress alter the neural substrates required for psilocybin-enhanced neuroplasticity and reward learning. These findings provide the first direct evidence that psilocybin modulates striatal dopamine signalling in a behaving animal and demonstrate that current nutritional state and prior experience with pathological weight loss and reward learning moderate its cognitive effects.",
+      "authors": [
+        "Conn, K.",
+        "Wong, N.",
+        "Sunnetci, S.",
+        "Al Siyabi, A.",
+        "McCoy, K.",
+        "Huang, K.",
+        "Greaves, E.",
+        "Milton, L. K.",
+        "Kuhlmann, L.",
+        "Maguire, S.",
+        "Foldi, C. J."
+      ],
+      "categories": [
+        "neuroscience"
+      ],
+      "citation_count": null,
+      "classic_status": null,
+      "code_url": null,
+      "deep_read_note_url": null,
+      "difficulty": null,
+      "enrichment_sources": [],
+      "existing_note_url": null,
+      "external_ids": {
+        "DOI": "10.64898/2026.05.14.725265"
+      },
+      "field": null,
+      "fields_of_study": [
+        "Neuroscience"
+      ],
+      "id": "biorxiv:10.64898/2026.05.14.725265",
+      "identifiers": {
+        "DOI": "10.64898/2026.05.14.725265",
+        "doi": "10.64898/2026.05.14.725265",
+        "server": "biorxiv"
+      },
+      "influential_citation_count": null,
+      "institutions": [],
+      "latest_note_url": null,
+      "note_count": 0,
+      "open_access_pdf_url": null,
+      "pdf_url": null,
+      "project_url": null,
+      "published_at": "2026-08-23",
+      "published_date": "2026-08-23",
+      "reading_advice": "save_for_later",
+      "reading_status": "backlog",
+      "recommendation_level": "B",
+      "score": 0.653,
+      "scores": {
+        "classic_value": 0.35,
+        "engineering_transferability": 0.48,
+        "recency": 0.78,
+        "source_quality": 0.68,
+        "total": 0.653,
+        "user_relevance": 0.75
+      },
+      "selected_for_s_level": false,
+      "source": "biorxiv",
+      "source_group": "cognition_social",
+      "source_type": "recent_7d",
+      "source_url": "https://doi.org/10.64898/2026.05.14.725265",
+      "suggested_note_title": null,
+      "suggested_note_type": null,
+      "tags": [
+        "neuroscience",
+        "cognition_social",
+        "biorxiv"
+      ],
+      "title": "Appetite for change: How nutritional state and ventral striatal dopamine shape psilocybin effects on cognitive flexibility",
+      "title_zh": null,
+      "topics": [
+        "cognition"
+      ],
+      "url": "https://doi.org/10.64898/2026.05.14.725265",
       "venue": "bioRxiv",
       "why_recommended": "Ranked by recency signal across configured topics."
     },
@@ -14191,6 +14502,151 @@
         "cognition"
       ],
       "url": "https://doi.org/10.64898/2026.08.17.745358",
+      "venue": "bioRxiv",
+      "why_recommended": "Ranked by recency signal across configured topics."
+    },
+    {
+      "abstract": "The ventral motor and the centromedian (CM) nuclei receive prominent GABAergic inputs from the basal ganglia, massive glutamatergic projections from motor cortices and significant GABAergic afferents from the reticular thalamic nucleus. There is strong evidence that disrupted processing of information through these connections may contribute to the pathophysiology of the basal ganglia-thalamocortical loop in Parkinson's disease (PD). To further assess potential ultrastructural changes in synaptic connectivity and mitochondrial integrity that may contribute to these network dysfunctions, we used a 3D electron microscopic approach to determine whether the pattern of synaptic innervation and morphological integrity of dendritic mitochondria are altered in the basal ganglia-receiving parvocellular ventral anterior nucleus (VApc) and CM neurons of MPTP-treated parkinsonian monkeys. Three main conclusions can be drawn from our findings: (1) Although the overall pattern of synaptic innervation of VApc and CM neurons is not altered in parkinsonian monkeys, the volume of putative corticothalamic terminals is significantly increased in both nuclei, (2) the prevalence of corticothalamic terminals in contact with distal dendrites is several orders of magnitude higher in VApc than CM in both control and parkinsonian monkeys, (3) the complexity and ultrastructural integrity of dendritic mitochondria is altered in CM, but not in the VApc, of parkinsonian monkeys. These findings lay the foundation for future studies of changes in cortical neuromodulation of VApc and CM neurons in parkinsonism and suggest that mitochondrial defects may contribute to the degeneration of CM neurons in PD.",
+      "authors": [
+        "Masilamoni, G. J.",
+        "Villalba, R. M.",
+        "Pare, J.-F.",
+        "Smith, Y."
+      ],
+      "categories": [
+        "neuroscience"
+      ],
+      "citation_count": null,
+      "classic_status": null,
+      "code_url": null,
+      "deep_read_note_url": null,
+      "difficulty": null,
+      "enrichment_sources": [],
+      "existing_note_url": null,
+      "external_ids": {
+        "DOI": "10.64898/2026.08.20.745566"
+      },
+      "field": null,
+      "fields_of_study": [
+        "Neuroscience"
+      ],
+      "id": "biorxiv:10.64898/2026.08.20.745566",
+      "identifiers": {
+        "DOI": "10.64898/2026.08.20.745566",
+        "doi": "10.64898/2026.08.20.745566",
+        "server": "biorxiv"
+      },
+      "influential_citation_count": null,
+      "institutions": [],
+      "latest_note_url": null,
+      "note_count": 0,
+      "open_access_pdf_url": null,
+      "pdf_url": null,
+      "project_url": null,
+      "published_at": "2026-08-23",
+      "published_date": "2026-08-23",
+      "reading_advice": "save_for_later",
+      "reading_status": "backlog",
+      "recommendation_level": "B",
+      "score": 0.653,
+      "scores": {
+        "classic_value": 0.35,
+        "engineering_transferability": 0.48,
+        "recency": 0.78,
+        "source_quality": 0.68,
+        "total": 0.653,
+        "user_relevance": 0.75
+      },
+      "selected_for_s_level": false,
+      "source": "biorxiv",
+      "source_group": "cognition_social",
+      "source_type": "recent_7d",
+      "source_url": "https://doi.org/10.64898/2026.08.20.745566",
+      "suggested_note_title": null,
+      "suggested_note_type": null,
+      "tags": [
+        "neuroscience",
+        "cognition_social",
+        "biorxiv"
+      ],
+      "title": "GABAergic and glutamatergic synaptic networks and mitochondrial morphology in the thalamic ventral motor and centromedian nuclei of Rhesus Monkey: A comparative 3D Electron Microscopic Analysis between Control and Parkinsonian State",
+      "title_zh": null,
+      "topics": [
+        "cognition"
+      ],
+      "url": "https://doi.org/10.64898/2026.08.20.745566",
+      "venue": "bioRxiv",
+      "why_recommended": "Ranked by recency signal across configured topics."
+    },
+    {
+      "abstract": "Neurons engage compensatory pathways that promote survival when confronted with mitochondrial dysfunction. Indeed, we recently showed that Drosophila neurons upregulate Ldh transcription to help survive the loss of the key mitochondrial fusion gene Opa1. Here, we further characterize this metabolic flexibility and show that it reflects a more general increase in glycolytic activity. A distinct mitochondrial perturbation, TFAM overexpression, similarly induces glycolytic gene expression including Ldh and also elevates lactate levels. LDH is also required to maintain neuronal function under TFAM overexpression. Notably, raising NAD+/NADH ratio by expressing the bacterial NADH oxidase LbNOX does not substitute for LDH function. On the contrary, it further compromises neuronal function in Opa1-deficient and TFAM-overexpressing neurons. Moreover, mitochondria-targeted LbNOX expression alone induces mitochondrial dysfunction and the compensatory glycolytic response. Together, these findings indicate that LDH-mediated rescue does not reflect an increase in NAD+/NADH ratio but is part of a broader neuroprotective metabolic reprogramming which enables neurons to withstand diverse forms of mitochondrial impairment.",
+      "authors": [
+        "Richhariya, S.",
+        "Shah, M.",
+        "Rosbash, M."
+      ],
+      "categories": [
+        "neuroscience"
+      ],
+      "citation_count": null,
+      "classic_status": null,
+      "code_url": null,
+      "deep_read_note_url": null,
+      "difficulty": null,
+      "enrichment_sources": [],
+      "existing_note_url": null,
+      "external_ids": {
+        "DOI": "10.64898/2026.08.20.746069"
+      },
+      "field": null,
+      "fields_of_study": [
+        "Neuroscience"
+      ],
+      "id": "biorxiv:10.64898/2026.08.20.746069",
+      "identifiers": {
+        "DOI": "10.64898/2026.08.20.746069",
+        "doi": "10.64898/2026.08.20.746069",
+        "server": "biorxiv"
+      },
+      "influential_citation_count": null,
+      "institutions": [],
+      "latest_note_url": null,
+      "note_count": 0,
+      "open_access_pdf_url": null,
+      "pdf_url": null,
+      "project_url": null,
+      "published_at": "2026-08-23",
+      "published_date": "2026-08-23",
+      "reading_advice": "save_for_later",
+      "reading_status": "backlog",
+      "recommendation_level": "B",
+      "score": 0.653,
+      "scores": {
+        "classic_value": 0.35,
+        "engineering_transferability": 0.48,
+        "recency": 0.78,
+        "source_quality": 0.68,
+        "total": 0.653,
+        "user_relevance": 0.75
+      },
+      "selected_for_s_level": false,
+      "source": "biorxiv",
+      "source_group": "cognition_social",
+      "source_type": "recent_7d",
+      "source_url": "https://doi.org/10.64898/2026.08.20.746069",
+      "suggested_note_title": null,
+      "suggested_note_type": null,
+      "tags": [
+        "neuroscience",
+        "cognition_social",
+        "biorxiv"
+      ],
+      "title": "Glycolytic compensation rather than NAD+/NADH balance sustains neuronal function during mitochondrial stress",
+      "title_zh": null,
+      "topics": [
+        "cognition"
+      ],
+      "url": "https://doi.org/10.64898/2026.08.20.746069",
       "venue": "bioRxiv",
       "why_recommended": "Ranked by recency signal across configured topics."
     },
@@ -14668,5 +15124,5 @@
     }
   ],
   "public_json_version": "0.4",
-  "updated_at": "2026-08-29T03:39:14+00:00"
+  "updated_at": "2026-08-30T00:10:37+00:00"
 }
