@@ -11,7 +11,7 @@
         "arxiv:2608.06025v1",
         "arxiv:2608.07226v1"
       ],
-      "planned_count": 36
+      "planned_count": 38
     },
     {
       "completed_count": 0,
@@ -35,7 +35,7 @@
         "arxiv:2607.11512v1",
         "arxiv:2607.15143v1"
       ],
-      "planned_count": 45
+      "planned_count": 46
     },
     {
       "completed_count": 0,
@@ -59,7 +59,7 @@
         "arxiv:2608.06025v1",
         "arxiv:2608.07226v1"
       ],
-      "planned_count": 111
+      "planned_count": 112
     },
     {
       "completed_count": 0,
@@ -73,5 +73,5 @@
       "planned_count": 2
     }
   ],
-  "updated_at": "2026-08-30T00:10:37+00:00"
+  "updated_at": "2026-08-31T00:27:18+00:00"
 }

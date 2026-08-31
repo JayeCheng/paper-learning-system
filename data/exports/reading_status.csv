@@ -191,10 +191,12 @@ arxiv:2608.23549v1,backlog,medium,,2026-08-25T22:37:18+00:00,FixAnything: 3D-Con
 arxiv:2608.23550v1,backlog,medium,,2026-08-25T22:37:18+00:00,"When ""Do Not"" Is Not Deny: Security Rules in CLAUDE.md vs Built-In Controls",cognition_social,B
 arxiv:2608.23552v1,backlog,medium,,2026-08-25T22:37:18+00:00,Prime Agent: A Self-Improving RLM Harness,llm_agent,A
 arxiv:2608.23564v1,backlog,medium,,2026-08-25T22:37:18+00:00,"SWE Refactor Bench: Can Coding Agents Complete a Long-Horizon, Whole-Repository Stack Migration?",llm_agent,B
+arxiv:2608.26758v1,backlog,medium,,2026-08-31T00:27:18+00:00,HOLMES: In-Context Failure-Center Localization for High-Dimensional Yield Estimation,architecture,A
+arxiv:2608.27029v1,backlog,medium,,2026-08-31T00:27:18+00:00,FoldPipe: Bounded Remote Streaming of Native Molecular Shards with Asynchronous Prefetch,architecture,A
 arxiv:2608.27184v1,backlog,medium,,2026-08-28T06:05:55+00:00,LLMs in Digital EDA: A perspective on shifting roles from Generation to Orchestration,architecture,A
 arxiv:2608.27194v1,backlog,medium,,2026-08-29T03:39:14+00:00,Surrounded by Friends: Design and Evaluation of Immersive Layouts of Egocentric Network for Visual Analytics,cognition_social,B
 arxiv:2608.27278v1,backlog,medium,,2026-08-29T03:39:14+00:00,Decoupled I/O-Dominant Pipelines for Large-Scale Whole-Slide Image Embedding Extraction,gpu_graphics,B
-arxiv:2608.27301v1,backlog,medium,,2026-08-28T06:05:55+00:00,Comparative Evaluation of 3D Reconstruction Methods for Immersive Visualization of Laboratory Objects,gpu_graphics,B
+arxiv:2608.27301v1,backlog,medium,,2026-08-28T06:05:55+00:00,Comparative Evaluation of 3D Reconstruction Methods for Immersive Visualization of Laboratory Objects,cognition_social,B
 arxiv:2608.27407v1,backlog,medium,,2026-08-28T06:05:55+00:00,Reconstructing Humans and Objects in Interaction using Large Reconstruction Models,gpu_graphics,A
 arxiv:2608.27449v1,backlog,medium,,2026-08-28T06:05:55+00:00,"SWE-Prime: Fewer Trajectories, Better Performance",llm_agent,B
 arxiv:2608.27451v1,backlog,medium,,2026-08-28T06:05:55+00:00,Tacet: A Language and Type System for Automatic Statistical Validity Accounting,llm_agent,A

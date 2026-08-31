@@ -1659,6 +1659,24 @@
     {
       "confidence": 0.5,
       "relation": "related_to",
+      "source": "arxiv:2608.26758v1",
+      "target": "architecture"
+    },
+    {
+      "confidence": 0.5,
+      "relation": "related_to",
+      "source": "arxiv:2608.27029v1",
+      "target": "architecture"
+    },
+    {
+      "confidence": 0.5,
+      "relation": "related_to",
+      "source": "arxiv:2608.27029v1",
+      "target": "llm_agent"
+    },
+    {
+      "confidence": 0.5,
+      "relation": "related_to",
       "source": "arxiv:2608.27184v1",
       "target": "architecture"
     },
@@ -1709,6 +1727,12 @@
       "relation": "related_to",
       "source": "arxiv:2608.27301v1",
       "target": "cognition"
+    },
+    {
+      "confidence": 0.5,
+      "relation": "related_to",
+      "source": "arxiv:2608.27301v1",
+      "target": "cognition_social"
     },
     {
       "confidence": 0.5,
@@ -3529,6 +3553,23 @@
       "type": "paper"
     },
     {
+      "id": "arxiv:2608.26758v1",
+      "label": "HOLMES: In-Context Failure-Center Localization for High-Dimensional Yield Estimation",
+      "topics": [
+        "architecture"
+      ],
+      "type": "paper"
+    },
+    {
+      "id": "arxiv:2608.27029v1",
+      "label": "FoldPipe: Bounded Remote Streaming of Native Molecular Shards with Asynchronous Prefetch",
+      "topics": [
+        "architecture",
+        "llm_agent"
+      ],
+      "type": "paper"
+    },
+    {
       "id": "arxiv:2608.27184v1",
       "label": "LLMs in Digital EDA: A perspective on shifting roles from Generation to Orchestration",
       "topics": [
@@ -3814,5 +3855,5 @@
     }
   ],
   "public_json_version": "0.4",
-  "updated_at": "2026-08-30T00:10:37+00:00"
+  "updated_at": "2026-08-31T00:27:18+00:00"
 }

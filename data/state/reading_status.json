@@ -2688,6 +2688,34 @@
       "status": "backlog",
       "updated_at": "2026-08-25T22:37:18+00:00"
     },
+    "arxiv:2608.26758v1": {
+      "history": [
+        {
+          "at": "2026-08-31T00:27:18+00:00",
+          "source": "daily_pipeline",
+          "status": "backlog"
+        }
+      ],
+      "notes_path": null,
+      "paper_id": "arxiv:2608.26758v1",
+      "priority": "medium",
+      "status": "backlog",
+      "updated_at": "2026-08-31T00:27:18+00:00"
+    },
+    "arxiv:2608.27029v1": {
+      "history": [
+        {
+          "at": "2026-08-31T00:27:18+00:00",
+          "source": "daily_pipeline",
+          "status": "backlog"
+        }
+      ],
+      "notes_path": null,
+      "paper_id": "arxiv:2608.27029v1",
+      "priority": "medium",
+      "status": "backlog",
+      "updated_at": "2026-08-31T00:27:18+00:00"
+    },
     "arxiv:2608.27184v1": {
       "history": [
         {
@@ -3082,5 +3110,5 @@
     }
   },
   "state_version": "0.3",
-  "updated_at": "2026-08-30T00:10:37+00:00"
+  "updated_at": "2026-08-31T00:27:18+00:00"
 }

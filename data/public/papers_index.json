@@ -13163,6 +13163,139 @@
       "why_recommended": "Ranked by engineering transferability signal across configured topics."
     },
     {
+      "abstract": "Importance sampling for high-sigma yield estimation requires locating the failure center from a severely imbalanced sample set. Existing surrogate-assisted methods rely on iterative gradient-based training, ill-posed under extreme class imbalance; model errors propagate into the estimator, causing accuracy collapse in high dimensions. We recast failure-center localization as few-shot binary classification: a prior-fitted tabular foundation model performs gradient-free in-context inference in a single forward pass, eliminating the ill-posed training loop. \\textbf{HOLMES} (High-sigma Optimal Localization via Manifold Estimation and Sampling) pairs this with an SVD-based anisotropic proposal that captures the local geometry of the failure manifold, and a hit-rate-driven adaptive mixing scheme that stabilizes importance weights where conventional adaptation collapses. On 6T SRAM benchmarks spanning $D = 108$ to $D = 1{,}152$, full-dimensional baselines exhibit accuracy collapse at some dimension, with the strongest baseline reaching 25.8\\% relative error; PCA+MNIS is additionally evaluated at the two largest dimensions. HOLMES remains within 5.9\\% across all five configurations with up to $58.8\\times$ speedup over Monte Carlo. The code is available on \\href{https://github.com/IceLab-JCIE/ICE006-Yield-Holmes}",
+      "authors": [
+        "Wei W. Xing",
+        "Xixi Zhou",
+        "Kaiqi Huang",
+        "Jiaye Pan",
+        "Hong Qiu",
+        "Xin Wang",
+        "Shan Shen"
+      ],
+      "categories": [
+        "cs.AR"
+      ],
+      "citation_count": null,
+      "classic_status": null,
+      "code_url": "https://github.com/IceLab-JCIE/ICE006-Yield-Holmes",
+      "deep_read_note_url": null,
+      "difficulty": null,
+      "enrichment_sources": [],
+      "existing_note_url": null,
+      "external_ids": {},
+      "field": null,
+      "fields_of_study": [],
+      "id": "arxiv:2608.26758v1",
+      "identifiers": {
+        "arxiv_id": "2608.26758v1"
+      },
+      "influential_citation_count": null,
+      "institutions": [],
+      "latest_note_url": null,
+      "note_count": 0,
+      "open_access_pdf_url": null,
+      "pdf_url": "https://arxiv.org/pdf/2608.26758v1",
+      "project_url": null,
+      "published_at": "2026-08-27",
+      "published_date": "2026-08-27",
+      "reading_advice": "quick_read",
+      "reading_status": "backlog",
+      "recommendation_level": "A",
+      "score": 0.762,
+      "scores": {
+        "classic_value": 0.35,
+        "engineering_transferability": 0.9500000000000001,
+        "recency": 0.78,
+        "source_quality": 0.78,
+        "total": 0.762,
+        "user_relevance": 0.75
+      },
+      "selected_for_s_level": false,
+      "source": "arxiv",
+      "source_group": "architecture",
+      "source_type": "recent_7d",
+      "source_url": "http://arxiv.org/abs/2608.26758v1",
+      "suggested_note_title": null,
+      "suggested_note_type": null,
+      "tags": [
+        "cs.AR"
+      ],
+      "title": "HOLMES: In-Context Failure-Center Localization for High-Dimensional Yield Estimation",
+      "title_zh": null,
+      "topics": [
+        "architecture"
+      ],
+      "url": "http://arxiv.org/abs/2608.26758v1",
+      "venue": null,
+      "why_recommended": "Ranked by engineering transferability signal across configured topics."
+    },
+    {
+      "abstract": "Training molecular machine-learning models on ephemeral or memory-constrained accelerator instances can require repeatedly retrieving preprocessed molecular graphs from remote storage. FoldPipe is a lightweight Python orchestration layer for already-sharded PyTorch and PyTorch Geometric data. It retrieves one shard ahead in a background thread while the consumer trains on the current shard, keeping the number of live shard payloads bounded with respect to total dataset size. Asynchronous prefetch and bounded buffering are established systems techniques rather than novel scheduling algorithms. FoldPipe's contribution is a small integration targeted at native .pt molecular shards together with a source-pinned empirical characterization of its operating regime. We evaluate a SchNet energy-and-force workload on MD17 aspirin using 20 paired, order-alternating benchmark passes on a Tesla T4. Each pass processes five pinned shards containing 25,000 structures. FoldPipe records 16.33 s mean I/O-compute overlap, compared with zero by construction for the sequential bounded baseline. Mean pass time is 76.78 s for FoldPipe and 83.37 s for the baseline. However, the geometric mean paired speedup is $1.059\\times$ with a 95% bootstrap interval from $0.878\\times$ to $1.288\\times$. The experiment therefore verifies the overlap mechanism but is inconclusive about a reliable wall-clock speed advantage under the observed public-network variability.",
+      "authors": [
+        "Dhiren Mukesh Khatri"
+      ],
+      "categories": [
+        "cs.PF",
+        "cs.LG"
+      ],
+      "citation_count": null,
+      "classic_status": null,
+      "code_url": "https://github.com/aviatorlf/FoldPipe",
+      "deep_read_note_url": null,
+      "difficulty": null,
+      "enrichment_sources": [],
+      "existing_note_url": null,
+      "external_ids": {},
+      "field": null,
+      "fields_of_study": [],
+      "id": "arxiv:2608.27029v1",
+      "identifiers": {
+        "arxiv_id": "2608.27029v1"
+      },
+      "influential_citation_count": null,
+      "institutions": [],
+      "latest_note_url": null,
+      "note_count": 0,
+      "open_access_pdf_url": null,
+      "pdf_url": "https://arxiv.org/pdf/2608.27029v1",
+      "project_url": null,
+      "published_at": "2026-08-27",
+      "published_date": "2026-08-27",
+      "reading_advice": "quick_read",
+      "reading_status": "backlog",
+      "recommendation_level": "A",
+      "score": 0.762,
+      "scores": {
+        "classic_value": 0.35,
+        "engineering_transferability": 0.9500000000000001,
+        "recency": 0.78,
+        "source_quality": 0.78,
+        "total": 0.762,
+        "user_relevance": 0.75
+      },
+      "selected_for_s_level": false,
+      "source": "arxiv",
+      "source_group": "architecture",
+      "source_type": "recent_7d",
+      "source_url": "http://arxiv.org/abs/2608.27029v1",
+      "suggested_note_title": null,
+      "suggested_note_type": null,
+      "tags": [
+        "cs.PF",
+        "cs.LG"
+      ],
+      "title": "FoldPipe: Bounded Remote Streaming of Native Molecular Shards with Asynchronous Prefetch",
+      "title_zh": null,
+      "topics": [
+        "architecture",
+        "llm_agent"
+      ],
+      "url": "http://arxiv.org/abs/2608.27029v1",
+      "venue": null,
+      "why_recommended": "Ranked by engineering transferability signal across configured topics."
+    },
+    {
       "abstract": "Electronic design automation (EDA) has advanced engineering productivity through successive generations of tooling that progressively automate synthesis, optimisation, and verification. Large language models (LLMs) extend this trajectory by enabling direct translation from design intent to hardware implementations. In most of the EDA literature, LLM-based solutions are typically assisting siloed design stages or tasks, however this obscured the drivers by which capability emerges and systems scale. In this Perspective, we instead define three hierarchical roles that reveal how capability accumulates: a Generator that produces design artifacts in a single pass, an Agent that refines outputs through iterative tool feedback, and an Orchestrator that coordinates decisions across EDA-stages. Across published systems, this reveals a syntax trap in which models are trained to produce plausible code rather than physically correct hardware, compounded by fragmented tools and loss of design context that obscure how decisions affect later stages. Comparisons across the three roles show that current approaches struggle to scale to industrial designs, motivating a shift towards a standardised, physics-aware orchestrator that connects tools and agents across the EDA flow for more reliable and accessible hardware design.",
       "authors": [
         "Matthew Youngman",
@@ -13428,7 +13561,7 @@
       },
       "selected_for_s_level": false,
       "source": "arxiv",
-      "source_group": "gpu_graphics",
+      "source_group": "cognition_social",
       "source_type": "recent_7d",
       "source_url": "http://arxiv.org/abs/2608.27301v1",
       "suggested_note_title": null,
@@ -15124,5 +15257,5 @@
     }
   ],
   "public_json_version": "0.4",
-  "updated_at": "2026-08-30T00:10:37+00:00"
+  "updated_at": "2026-08-31T00:27:18+00:00"
 }
