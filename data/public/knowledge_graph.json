@@ -1761,6 +1761,54 @@
     {
       "confidence": 0.5,
       "relation": "related_to",
+      "source": "arxiv:2608.28076v1",
+      "target": "architecture"
+    },
+    {
+      "confidence": 0.5,
+      "relation": "related_to",
+      "source": "arxiv:2608.29538v1",
+      "target": "gpu_graphics"
+    },
+    {
+      "confidence": 0.5,
+      "relation": "related_to",
+      "source": "arxiv:2608.29563v1",
+      "target": "llm_agent"
+    },
+    {
+      "confidence": 0.5,
+      "relation": "related_to",
+      "source": "arxiv:2608.29563v1",
+      "target": "cognition"
+    },
+    {
+      "confidence": 0.5,
+      "relation": "related_to",
+      "source": "arxiv:2608.29563v1",
+      "target": "cognition_social"
+    },
+    {
+      "confidence": 0.5,
+      "relation": "related_to",
+      "source": "arxiv:2608.29622v1",
+      "target": "llm_agent"
+    },
+    {
+      "confidence": 0.5,
+      "relation": "related_to",
+      "source": "arxiv:2608.29626v1",
+      "target": "gpu_graphics"
+    },
+    {
+      "confidence": 0.5,
+      "relation": "related_to",
+      "source": "arxiv:2608.29632v1",
+      "target": "llm_agent"
+    },
+    {
+      "confidence": 0.5,
+      "relation": "related_to",
       "source": "biorxiv:10.1101/2025.01.03.631260",
       "target": "cognition"
     },
@@ -3638,6 +3686,55 @@
       "type": "paper"
     },
     {
+      "id": "arxiv:2608.28076v1",
+      "label": "Performance Evaluation of Fast Fourier Transforms on Emerging RISC-V Hardware with Vector Extension Support",
+      "topics": [
+        "architecture"
+      ],
+      "type": "paper"
+    },
+    {
+      "id": "arxiv:2608.29538v1",
+      "label": "As-Rigid-As-Possible Deformation of Gaussian Radiance Fields",
+      "topics": [
+        "gpu_graphics"
+      ],
+      "type": "paper"
+    },
+    {
+      "id": "arxiv:2608.29563v1",
+      "label": "HoopMind: A Real-Time Neural Game-Tree System for Opponent-Aware Possession Planning",
+      "topics": [
+        "llm_agent",
+        "cognition"
+      ],
+      "type": "paper"
+    },
+    {
+      "id": "arxiv:2608.29622v1",
+      "label": "AgenticRag-R1: Agentic Reinforcement Learning with Stack Memory for Multi-Step Reasoning, Retrieval and Memorizing",
+      "topics": [
+        "llm_agent"
+      ],
+      "type": "paper"
+    },
+    {
+      "id": "arxiv:2608.29626v1",
+      "label": "SPLG-Mamba: Structure-Preserving Local-Global Mamba Network for Salient Object Detection in Optical Remote Sensing Images",
+      "topics": [
+        "gpu_graphics"
+      ],
+      "type": "paper"
+    },
+    {
+      "id": "arxiv:2608.29632v1",
+      "label": "InteractBench: Benchmarking LLMs on Competitive Programming under Unrevealed Information",
+      "topics": [
+        "llm_agent"
+      ],
+      "type": "paper"
+    },
+    {
       "id": "biorxiv:10.1101/2025.01.03.631260",
       "label": "Reactivation of a dormant developmental plasticity program drives synaptic rejuvenation and antidepressant-like responses",
       "topics": [
@@ -3855,5 +3952,5 @@
     }
   ],
   "public_json_version": "0.4",
-  "updated_at": "2026-08-31T00:27:18+00:00"
+  "updated_at": "2026-09-01T01:13:13+00:00"
 }

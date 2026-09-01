@@ -201,6 +201,12 @@ arxiv:2608.27407v1,backlog,medium,,2026-08-28T06:05:55+00:00,Reconstructing Huma
 arxiv:2608.27449v1,backlog,medium,,2026-08-28T06:05:55+00:00,"SWE-Prime: Fewer Trajectories, Better Performance",llm_agent,B
 arxiv:2608.27451v1,backlog,medium,,2026-08-28T06:05:55+00:00,Tacet: A Language and Type System for Automatic Statistical Validity Accounting,llm_agent,A
 arxiv:2608.27456v1,backlog,medium,,2026-08-28T06:05:55+00:00,UrbanGround: From Local Perception to Spatial Agency in a Real-Scale City,gpu_graphics,A
+arxiv:2608.28076v1,backlog,medium,,2026-09-01T01:13:13+00:00,Performance Evaluation of Fast Fourier Transforms on Emerging RISC-V Hardware with Vector Extension Support,architecture,A
+arxiv:2608.29538v1,backlog,medium,,2026-09-01T01:13:13+00:00,As-Rigid-As-Possible Deformation of Gaussian Radiance Fields,gpu_graphics,B
+arxiv:2608.29563v1,backlog,medium,,2026-09-01T01:13:13+00:00,HoopMind: A Real-Time Neural Game-Tree System for Opponent-Aware Possession Planning,cognition_social,B
+arxiv:2608.29622v1,backlog,medium,,2026-09-01T01:13:13+00:00,"AgenticRag-R1: Agentic Reinforcement Learning with Stack Memory for Multi-Step Reasoning, Retrieval and Memorizing",llm_agent,B
+arxiv:2608.29626v1,backlog,medium,,2026-09-01T01:13:13+00:00,SPLG-Mamba: Structure-Preserving Local-Global Mamba Network for Salient Object Detection in Optical Remote Sensing Images,gpu_graphics,B
+arxiv:2608.29632v1,backlog,medium,,2026-09-01T01:13:13+00:00,InteractBench: Benchmarking LLMs on Competitive Programming under Unrevealed Information,llm_agent,A
 biorxiv:10.1101/2025.01.03.631260,backlog,medium,,2026-08-30T00:10:37+00:00,Reactivation of a dormant developmental plasticity program drives synaptic rejuvenation and antidepressant-like responses,cognition_social,B
 biorxiv:10.1101/2025.03.24.645008,backlog,medium,,2026-08-30T00:10:37+00:00,Combined MEG and EEG suggest a limbic source network of the P3 including retrosplenial cortex and hippocampus,cognition_social,B
 biorxiv:10.1101/2025.05.30.657074,backlog,medium,,2026-08-27T03:05:37+00:00,Molecular logic of pheromone recognition enables rational design of insect behavior modulators,cognition_social,B

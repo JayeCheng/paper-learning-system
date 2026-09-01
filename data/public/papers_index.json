@@ -13863,6 +13863,423 @@
       "why_recommended": "Ranked by recency signal across configured topics."
     },
     {
+      "abstract": "This manuscript presents a performance evaluation of Fast Fourier Transform (FFT) implementations on emerging processors supporting the RISC-V Vector Extension (RVV 1.0). By introducing juFFTe, a light-weight high-performance library for discrete Fourier transforms, it is demonstrated how effective vectorization of performance-critical FFT kernels can be achieved on RVV-enabled hardware. Comprehensive benchmarks on three RVV 1.0-ready processors, the SiFive X280, the X100 core of the SpacemiT K3 and the C920v2 core of the Sophon SG2044, reveal substantial performance improvements of juFFTe (https://github.com/FZJ-JSC/juFFTe) over the widely used FFTW3 library. Although RVV-enabled platforms show promising results at this stage of development, a comparison with AMD's Zen 5 architecture indicates that RISC-V needs further maturing to reach the performance of established micro-architectures.",
+      "authors": [
+        "Daniel Seibel",
+        "Kaveh Haghighi Mood",
+        "Jayesh Badwaik",
+        "Prateek Chawla",
+        "Stepan Nassyr",
+        "Andreas Herten"
+      ],
+      "categories": [
+        "cs.MS",
+        "cs.DC",
+        "math.NA"
+      ],
+      "citation_count": null,
+      "classic_status": null,
+      "code_url": "https://github.com/FZJ-JSC/juFFTe",
+      "deep_read_note_url": null,
+      "difficulty": null,
+      "enrichment_sources": [],
+      "existing_note_url": null,
+      "external_ids": {},
+      "field": null,
+      "fields_of_study": [],
+      "id": "arxiv:2608.28076v1",
+      "identifiers": {
+        "arxiv_id": "2608.28076v1"
+      },
+      "influential_citation_count": null,
+      "institutions": [],
+      "latest_note_url": null,
+      "note_count": 0,
+      "open_access_pdf_url": null,
+      "pdf_url": "https://arxiv.org/pdf/2608.28076v1",
+      "project_url": null,
+      "published_at": "2026-08-28",
+      "published_date": "2026-08-28",
+      "reading_advice": "quick_read",
+      "reading_status": "backlog",
+      "recommendation_level": "A",
+      "score": 0.762,
+      "scores": {
+        "classic_value": 0.35,
+        "engineering_transferability": 0.9500000000000001,
+        "recency": 0.78,
+        "source_quality": 0.78,
+        "total": 0.762,
+        "user_relevance": 0.75
+      },
+      "selected_for_s_level": false,
+      "source": "arxiv",
+      "source_group": "architecture",
+      "source_type": "recent_7d",
+      "source_url": "http://arxiv.org/abs/2608.28076v1",
+      "suggested_note_title": null,
+      "suggested_note_type": null,
+      "tags": [
+        "cs.MS",
+        "cs.DC",
+        "math.NA"
+      ],
+      "title": "Performance Evaluation of Fast Fourier Transforms on Emerging RISC-V Hardware with Vector Extension Support",
+      "title_zh": null,
+      "topics": [
+        "architecture"
+      ],
+      "url": "http://arxiv.org/abs/2608.28076v1",
+      "venue": null,
+      "why_recommended": "Ranked by engineering transferability signal across configured topics."
+    },
+    {
+      "abstract": "3D Gaussian Splatting (3DGS) models radiance fields as sparsely distributed 3D Gaussians, providing a compelling solution to novel view synthesis at high resolutions and real-time frame rates. However, deforming objects represented by 3D Gaussians remains a challenging task. Existing methods deform a 3DGS object by editing Gaussians geometrically. These approaches ignore the fact that it is the radiance field that rasterizes and renders the final image. The inconsistency between the deformed 3D Gaussians and the desired radiance field inevitably leads to artifacts in the final results. In this paper, we propose an interactive method for as-rigid-as-possible (ARAP) deformation of the Gaussian radiance fields. Specifically, after performing geometric edits on the Gaussians, we further optimize Gaussians to ensure its rasterization yields a similar result as the deformed radiance field. To facilitate this objective, we design radial features to mathematically describe the radial difference before and after the deformation, which are densely sampled across the radiance field. Additionally, we propose an adaptive anisotropic spatial low-pass filter to prevent aliasing issues during sampling and to preserve the field with the varying non-uniform sampling intervals. Users can interactively employ this tool to achieve large-scale ARAP deformations of the radiance field. Since our method maintains the consistency of the Gaussian radiance field before and after deformation, it avoids artifacts that are common in existing 3DGS deformation frameworks. Meanwhile, our method keeps the high quality and efficiency of 3DGS in rendering.",
+      "authors": [
+        "Xinhao Tong",
+        "Tianjia Shao",
+        "Yanlin Weng",
+        "Yin Yang",
+        "Kun Zhou"
+      ],
+      "categories": [
+        "cs.GR"
+      ],
+      "citation_count": null,
+      "classic_status": null,
+      "code_url": null,
+      "deep_read_note_url": null,
+      "difficulty": null,
+      "enrichment_sources": [],
+      "existing_note_url": null,
+      "external_ids": {},
+      "field": null,
+      "fields_of_study": [],
+      "id": "arxiv:2608.29538v1",
+      "identifiers": {
+        "arxiv_id": "2608.29538v1"
+      },
+      "influential_citation_count": null,
+      "institutions": [],
+      "latest_note_url": null,
+      "note_count": 0,
+      "open_access_pdf_url": null,
+      "pdf_url": "https://arxiv.org/pdf/2608.29538v1",
+      "project_url": null,
+      "published_at": "2026-08-30",
+      "published_date": "2026-08-30",
+      "reading_advice": "save_for_later",
+      "reading_status": "backlog",
+      "recommendation_level": "B",
+      "score": 0.732,
+      "scores": {
+        "classic_value": 0.35,
+        "engineering_transferability": 0.8,
+        "recency": 0.78,
+        "source_quality": 0.78,
+        "total": 0.732,
+        "user_relevance": 0.75
+      },
+      "selected_for_s_level": false,
+      "source": "arxiv",
+      "source_group": "gpu_graphics",
+      "source_type": "recent_7d",
+      "source_url": "http://arxiv.org/abs/2608.29538v1",
+      "suggested_note_title": null,
+      "suggested_note_type": null,
+      "tags": [
+        "cs.GR"
+      ],
+      "title": "As-Rigid-As-Possible Deformation of Gaussian Radiance Fields",
+      "title_zh": null,
+      "topics": [
+        "gpu_graphics"
+      ],
+      "url": "http://arxiv.org/abs/2608.29538v1",
+      "venue": null,
+      "why_recommended": "Ranked by engineering transferability signal across configured topics."
+    },
+    {
+      "abstract": "School coaches prepare for opponents with game film and intuition. The analytics tools of professional teams stay out of reach. We ask how far public data can close this gap. Professional basketball is our case study, chosen for its data rather than the league. We fuse five public sources into one per-shot dataset of 4.23M shots over 21 seasons. The sources are shot locations, two play-by-play feeds, official matchup tracking, and player biometrics. Alignment across them is 99.5% to 100%. We also report two data pitfalls that are easy to miss. We then model a half-court possession as a sequential game. Shot values come from ShotNet, an embedding multilayer perceptron (MLP). On a held-out season it beats a zone-rate baseline and a logistic baseline, and its probabilities are well calibrated. A depth-limited expectimax search then solves the offensive decision tree, with branch-and-bound pruning to keep it real time. All training runs offline, so the online system stays light. A scouting planner and a playable simulator both run in a single browser page.",
+      "authors": [
+        "Yibo Gong",
+        "Cong Guo",
+        "Jiacheng Ding"
+      ],
+      "categories": [
+        "cs.LG",
+        "cs.AI",
+        "cs.HC"
+      ],
+      "citation_count": null,
+      "classic_status": null,
+      "code_url": "https://github.com/sujo666/hoopmind",
+      "deep_read_note_url": null,
+      "difficulty": null,
+      "enrichment_sources": [],
+      "existing_note_url": null,
+      "external_ids": {},
+      "field": null,
+      "fields_of_study": [],
+      "id": "arxiv:2608.29563v1",
+      "identifiers": {
+        "arxiv_id": "2608.29563v1"
+      },
+      "influential_citation_count": null,
+      "institutions": [],
+      "latest_note_url": null,
+      "note_count": 0,
+      "open_access_pdf_url": null,
+      "pdf_url": "https://arxiv.org/pdf/2608.29563v1",
+      "project_url": null,
+      "published_at": "2026-08-30",
+      "published_date": "2026-08-30",
+      "reading_advice": "save_for_later",
+      "reading_status": "backlog",
+      "recommendation_level": "B",
+      "score": 0.692,
+      "scores": {
+        "classic_value": 0.35,
+        "engineering_transferability": 0.6,
+        "recency": 0.78,
+        "source_quality": 0.78,
+        "total": 0.692,
+        "user_relevance": 0.75
+      },
+      "selected_for_s_level": false,
+      "source": "arxiv",
+      "source_group": "cognition_social",
+      "source_type": "recent_7d",
+      "source_url": "http://arxiv.org/abs/2608.29563v1",
+      "suggested_note_title": null,
+      "suggested_note_type": null,
+      "tags": [
+        "cs.LG",
+        "cs.AI",
+        "cs.HC"
+      ],
+      "title": "HoopMind: A Real-Time Neural Game-Tree System for Opponent-Aware Possession Planning",
+      "title_zh": null,
+      "topics": [
+        "llm_agent",
+        "cognition"
+      ],
+      "url": "http://arxiv.org/abs/2608.29563v1",
+      "venue": null,
+      "why_recommended": "Ranked by recency signal across configured topics."
+    },
+    {
+      "abstract": "Retrieval-Augmented Generation (RAG) improves the factuality of large language models (LLMs), yet existing RAG systems often struggle with complex, multi-step reasoning that requires adaptive retrieval and continuous revision of intermediate contexts. Recent reinforcement learning (RL)-based agentic RAG methods partially alleviate this issue, but typically rely on coarse-grained action spaces and trajectory-level rewards, resulting in weak reward assignment and a bias toward short-horizon, stereotyped reasoning template. To address, we propose AgenticRag-R1, a RL framework that deeply integrates reasoning, retrieval, and memory via a memory stack and fine-grained action space, supported by hierarchical action-aware rewards and an information-aware trajectory rejection strategy to enable effective long-horizon learning. Experiments across a diverse set of multi-hop, open-domain, and agentic reasoning benchmarks, spanning multiple backbone model sizes, demonstrate that AgenticRag-R1 consistently outperforms strong baselines. Moreover, AgenticRag-R1 learns more robust, interpretable, and memory-aware reasoning behaviors, highlighting the effect of fine-grained action modeling and information-aware optimization for long-horizon reasoning. Our code is anonymous available at https://github.com/jiangxinke/Harness-RL/tree/AgenticRAG-R1-Whitebox.",
+      "authors": [
+        "Xinke Jiang",
+        "Yue Fang",
+        "Zhibang Yang",
+        "Jiaran Gao",
+        "Zhixin Zhang",
+        "Tao Feng",
+        "Rihong Qiu",
+        "Wentao Zhang",
+        "Hongxin Ding",
+        "Ruizhe Zhang",
+        "Yongxin Xu",
+        "Yuheng Huang",
+        "Xu Chu",
+        "Junfeng Zhao",
+        "Yasha Wang"
+      ],
+      "categories": [
+        "cs.MA",
+        "cs.AI"
+      ],
+      "citation_count": null,
+      "classic_status": null,
+      "code_url": "https://github.com/jiangxinke/Harness-RL/tree/AgenticRAG-R1-Whitebox",
+      "deep_read_note_url": null,
+      "difficulty": null,
+      "enrichment_sources": [],
+      "existing_note_url": null,
+      "external_ids": {},
+      "field": null,
+      "fields_of_study": [],
+      "id": "arxiv:2608.29622v1",
+      "identifiers": {
+        "arxiv_id": "2608.29622v1"
+      },
+      "influential_citation_count": null,
+      "institutions": [],
+      "latest_note_url": null,
+      "note_count": 0,
+      "open_access_pdf_url": null,
+      "pdf_url": "https://arxiv.org/pdf/2608.29622v1",
+      "project_url": null,
+      "published_at": "2026-08-30",
+      "published_date": "2026-08-30",
+      "reading_advice": "save_for_later",
+      "reading_status": "backlog",
+      "recommendation_level": "B",
+      "score": 0.692,
+      "scores": {
+        "classic_value": 0.35,
+        "engineering_transferability": 0.6,
+        "recency": 0.78,
+        "source_quality": 0.78,
+        "total": 0.692,
+        "user_relevance": 0.75
+      },
+      "selected_for_s_level": false,
+      "source": "arxiv",
+      "source_group": "llm_agent",
+      "source_type": "recent_7d",
+      "source_url": "http://arxiv.org/abs/2608.29622v1",
+      "suggested_note_title": null,
+      "suggested_note_type": null,
+      "tags": [
+        "cs.MA",
+        "cs.AI"
+      ],
+      "title": "AgenticRag-R1: Agentic Reinforcement Learning with Stack Memory for Multi-Step Reasoning, Retrieval and Memorizing",
+      "title_zh": null,
+      "topics": [
+        "llm_agent"
+      ],
+      "url": "http://arxiv.org/abs/2608.29622v1",
+      "venue": null,
+      "why_recommended": "Ranked by recency signal across configured topics."
+    },
+    {
+      "abstract": "Salient object detection in optical remote sensing images (ORSI-SOD) requires dense predictions that preserve object completeness and structural continuity under complex backgrounds, scale variation, and irregular object shapes. Existing methods often localize salient regions, but their predictions may still suffer from structural degradation, including fragmented, incomplete, or locally missing foreground responses. This degradation is closely related to hierarchical feature propagation, where shallow details can introduce texture-induced background responses, deep semantics may over-smooth weak structures, and uncontrolled cross-scale fusion can disturb coherent regions. To address this issue, we propose a novel Structure-Preserving Local-Global Mamba Network, SPLG-Mamba, for ORSI-SOD. Specifically, SPLG-Mamba integrates Smooth-Detail Recalibration (SDR), hierarchy-aware Local-Global Mamba, and Gated Cross-Scale Fusion (GCSF). SDR recalibrates smoothed responses and detail residuals before state-space modeling, Local-Global Mamba assigns local modeling to shallow feature levels and global modeling to deep feature levels, and GCSF controls cross-scale detail injection during decoding. Experiments on ORSSD, EORSSD, and ORSI-4199 demonstrate state-of-the-art results and improved structural completeness and continuity. The code is available at https://github.com/yxu9910/SPLG-Mamba",
+      "authors": [
+        "Yi Xu",
+        "Ruichao Hou",
+        "Tongwei Ren",
+        "Gangshan Wu"
+      ],
+      "categories": [
+        "cs.CV"
+      ],
+      "citation_count": null,
+      "classic_status": null,
+      "code_url": "https://github.com/yxu9910/SPLG-Mamba",
+      "deep_read_note_url": null,
+      "difficulty": null,
+      "enrichment_sources": [],
+      "existing_note_url": null,
+      "external_ids": {},
+      "field": null,
+      "fields_of_study": [],
+      "id": "arxiv:2608.29626v1",
+      "identifiers": {
+        "arxiv_id": "2608.29626v1"
+      },
+      "influential_citation_count": null,
+      "institutions": [],
+      "latest_note_url": null,
+      "note_count": 0,
+      "open_access_pdf_url": null,
+      "pdf_url": "https://arxiv.org/pdf/2608.29626v1",
+      "project_url": null,
+      "published_at": "2026-08-30",
+      "published_date": "2026-08-30",
+      "reading_advice": "save_for_later",
+      "reading_status": "backlog",
+      "recommendation_level": "B",
+      "score": 0.692,
+      "scores": {
+        "classic_value": 0.35,
+        "engineering_transferability": 0.6,
+        "recency": 0.78,
+        "source_quality": 0.78,
+        "total": 0.692,
+        "user_relevance": 0.75
+      },
+      "selected_for_s_level": false,
+      "source": "arxiv",
+      "source_group": "gpu_graphics",
+      "source_type": "recent_7d",
+      "source_url": "http://arxiv.org/abs/2608.29626v1",
+      "suggested_note_title": null,
+      "suggested_note_type": null,
+      "tags": [
+        "cs.CV"
+      ],
+      "title": "SPLG-Mamba: Structure-Preserving Local-Global Mamba Network for Salient Object Detection in Optical Remote Sensing Images",
+      "title_zh": null,
+      "topics": [
+        "gpu_graphics"
+      ],
+      "url": "http://arxiv.org/abs/2608.29626v1",
+      "venue": null,
+      "why_recommended": "Ranked by recency signal across configured topics."
+    },
+    {
+      "abstract": "Competitive programming is increasingly being used to evaluate the algorithmic reasoning capabilities of large language models (LLMs). However, existing benchmarks primarily focus on full-information tasks where all problem inputs are provided upfront. This overlooks a critical dimension of algorithmic reasoning: the ability of generated programs to operate when key information is not revealed upfront. Interactive problems, a distinctive component of competitive programming, embody this challenge. These problems require programs to engage in multi-round interaction with an interactor (a judge program) under strict protocol constraints and limited query budgets, with new information revealed only in response to queries. To address this gap, we introduce InteractBench, a benchmark comprising 322 high-quality interactive problems curated from Codeforces, AtCoder, IOI, and ICPC. Each problem is packaged with executable local interactors, enabling fully offline evaluation. Unlike existing benchmarks, InteractBench assesses whether model-generated code can acquire information and track state dynamically. Our evaluation reveals a significant interaction gap: even the most advanced reasoning models achieve limited success on interactive problems. Beyond success rates, we propose a fine-grained failure taxonomy to diagnose the root causes of these deficiencies. Although algorithmic logic errors remain dominant, protocol violations and query-budget overruns are frequent. Code is available at https://github.com/kmsgk0/InteractBench.",
+      "authors": [
+        "Jiaze Li",
+        "Aocheng Shen",
+        "Bing Liu",
+        "Boyu Zhang",
+        "Xiaoxuan Fan",
+        "Qiankun Zhang",
+        "Xianjun Deng"
+      ],
+      "categories": [
+        "cs.SE"
+      ],
+      "citation_count": null,
+      "classic_status": null,
+      "code_url": "https://github.com/kmsgk0/InteractBench",
+      "deep_read_note_url": null,
+      "difficulty": null,
+      "enrichment_sources": [],
+      "existing_note_url": null,
+      "external_ids": {},
+      "field": null,
+      "fields_of_study": [],
+      "id": "arxiv:2608.29632v1",
+      "identifiers": {
+        "arxiv_id": "2608.29632v1"
+      },
+      "influential_citation_count": null,
+      "institutions": [],
+      "latest_note_url": null,
+      "note_count": 0,
+      "open_access_pdf_url": null,
+      "pdf_url": "https://arxiv.org/pdf/2608.29632v1",
+      "project_url": null,
+      "published_at": "2026-08-30",
+      "published_date": "2026-08-30",
+      "reading_advice": "quick_read",
+      "reading_status": "backlog",
+      "recommendation_level": "A",
+      "score": 0.762,
+      "scores": {
+        "classic_value": 0.35,
+        "engineering_transferability": 0.9500000000000001,
+        "recency": 0.78,
+        "source_quality": 0.78,
+        "total": 0.762,
+        "user_relevance": 0.75
+      },
+      "selected_for_s_level": false,
+      "source": "arxiv",
+      "source_group": "llm_agent",
+      "source_type": "recent_7d",
+      "source_url": "http://arxiv.org/abs/2608.29632v1",
+      "suggested_note_title": null,
+      "suggested_note_type": null,
+      "tags": [
+        "cs.SE"
+      ],
+      "title": "InteractBench: Benchmarking LLMs on Competitive Programming under Unrevealed Information",
+      "title_zh": null,
+      "topics": [
+        "llm_agent"
+      ],
+      "url": "http://arxiv.org/abs/2608.29632v1",
+      "venue": null,
+      "why_recommended": "Ranked by engineering transferability signal across configured topics."
+    },
+    {
       "abstract": "Antidepressants are widely used to treat mood and anxiety disorders, yet the cellular and molecular mechanisms underlying their therapeutic effects remain poorly understood. Here, we show that the selective serotonin reuptake inhibitor (SSRI) fluoxetine rejuvenates the dentate gyrus (DG) by reactivating a latent developmental plasticity program in mature neurons, which is required for re-engaging critical period-like synaptic remodeling and antidepressant-like behavioral effects. Single nuclei transcriptomic profiling across all hippocampal cell types revealed a strikingly selective response in the DG, where mature neurons re-engaged a developmental-like transcriptional state, an effect distinct from adult neurogenesis. Chronic fluoxetine treatment induced expression of SOX11, a developmental transcription factor involved in neurodevelopment and axonal regeneration that is normally silenced in the adult brain. Reactivation of SOX11 in mature DG neurons was necessary for both the antidepressant-like behavioral effects of fluoxetine and the re-engagement of critical period-like synaptic remodeling. Notably, SOX11 reactivation was also induced by physiological stimuli, including environmental enrichment and peripheral axon regeneration, suggesting that mature neurons retain access to a conserved developmental plasticity program throughout adulthood. We further identified evidence of this form of developmental plasticity in the adult human brain, an effect distinct from adult neurogenesis. At the structural level, fluoxetine remodeled novel extracellular matrix (ECM) structures within the DG distinct from canonical perineuronal nets, and targeted ECM degradation was sufficient to reactivate SOX11 in mature neurons, identifying the ECM as a key regulator of neuronal rejuvenation. Altogether, these findings demonstrate that mature neurons retain an intrinsic capacity to re-engage dormant developmental programs, and that antidepressants harness this regenerative plasticity to drive neural circuit remodeling and antidepressant-like effects.",
       "authors": [
         "Nguyen, P. T.",
@@ -15257,5 +15674,5 @@
     }
   ],
   "public_json_version": "0.4",
-  "updated_at": "2026-08-31T00:27:18+00:00"
+  "updated_at": "2026-09-01T01:13:13+00:00"
 }
