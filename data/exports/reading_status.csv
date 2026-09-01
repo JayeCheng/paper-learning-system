@@ -207,6 +207,12 @@ arxiv:2608.29563v1,backlog,medium,,2026-09-01T01:13:13+00:00,HoopMind: A Real-Ti
 arxiv:2608.29622v1,backlog,medium,,2026-09-01T01:13:13+00:00,"AgenticRag-R1: Agentic Reinforcement Learning with Stack Memory for Multi-Step Reasoning, Retrieval and Memorizing",llm_agent,B
 arxiv:2608.29626v1,backlog,medium,,2026-09-01T01:13:13+00:00,SPLG-Mamba: Structure-Preserving Local-Global Mamba Network for Salient Object Detection in Optical Remote Sensing Images,gpu_graphics,B
 arxiv:2608.29632v1,backlog,medium,,2026-09-01T01:13:13+00:00,InteractBench: Benchmarking LLMs on Competitive Programming under Unrevealed Information,llm_agent,A
+arxiv:2608.30514v1,backlog,medium,,2026-09-01T23:59:40+00:00,TSExplorer: An interactive data annotation and exploration tool for time-series data,cognition_social,B
+arxiv:2608.30954v1,backlog,medium,,2026-09-01T23:59:40+00:00,Clock-Gating Insertion Strategies on an Open-Source MSP430 Core: A Reproducible PPA Study and a Gate-Level Simulation Caveat,architecture,A
+arxiv:2608.31003v1,backlog,medium,,2026-09-01T23:59:40+00:00,Domain-Varying 2D Green' s Functions for Cage-based Deformation,gpu_graphics,B
+arxiv:2608.31102v1,backlog,medium,,2026-09-01T23:59:40+00:00,LLM Post-Training as Brownfield Maintenance: An Industrial Perspective on Dataware Engineering,llm_agent,B
+arxiv:2608.31107v1,backlog,medium,,2026-09-01T23:59:40+00:00,VeriCam: A Verification Baseline for the Classification of Unknown Data,gpu_graphics,B
+arxiv:2608.31142v1,backlog,medium,,2026-09-01T23:59:40+00:00,Auditing Anonymous AI Models: A Four-Stage Protocol for Black-Box Identity Verification,llm_agent,B
 biorxiv:10.1101/2025.01.03.631260,backlog,medium,,2026-08-30T00:10:37+00:00,Reactivation of a dormant developmental plasticity program drives synaptic rejuvenation and antidepressant-like responses,cognition_social,B
 biorxiv:10.1101/2025.03.24.645008,backlog,medium,,2026-08-30T00:10:37+00:00,Combined MEG and EEG suggest a limbic source network of the P3 including retrosplenial cortex and hippocampus,cognition_social,B
 biorxiv:10.1101/2025.05.30.657074,backlog,medium,,2026-08-27T03:05:37+00:00,Molecular logic of pheromone recognition enables rational design of insect behavior modulators,cognition_social,B

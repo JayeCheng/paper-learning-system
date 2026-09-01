@@ -1809,6 +1809,54 @@
     {
       "confidence": 0.5,
       "relation": "related_to",
+      "source": "arxiv:2608.30514v1",
+      "target": "cognition"
+    },
+    {
+      "confidence": 0.5,
+      "relation": "related_to",
+      "source": "arxiv:2608.30514v1",
+      "target": "llm_agent"
+    },
+    {
+      "confidence": 0.5,
+      "relation": "related_to",
+      "source": "arxiv:2608.30514v1",
+      "target": "cognition_social"
+    },
+    {
+      "confidence": 0.5,
+      "relation": "related_to",
+      "source": "arxiv:2608.30954v1",
+      "target": "architecture"
+    },
+    {
+      "confidence": 0.5,
+      "relation": "related_to",
+      "source": "arxiv:2608.31003v1",
+      "target": "gpu_graphics"
+    },
+    {
+      "confidence": 0.5,
+      "relation": "related_to",
+      "source": "arxiv:2608.31102v1",
+      "target": "llm_agent"
+    },
+    {
+      "confidence": 0.5,
+      "relation": "related_to",
+      "source": "arxiv:2608.31107v1",
+      "target": "gpu_graphics"
+    },
+    {
+      "confidence": 0.5,
+      "relation": "related_to",
+      "source": "arxiv:2608.31142v1",
+      "target": "llm_agent"
+    },
+    {
+      "confidence": 0.5,
+      "relation": "related_to",
       "source": "biorxiv:10.1101/2025.01.03.631260",
       "target": "cognition"
     },
@@ -3735,6 +3783,55 @@
       "type": "paper"
     },
     {
+      "id": "arxiv:2608.30514v1",
+      "label": "TSExplorer: An interactive data annotation and exploration tool for time-series data",
+      "topics": [
+        "cognition",
+        "llm_agent"
+      ],
+      "type": "paper"
+    },
+    {
+      "id": "arxiv:2608.30954v1",
+      "label": "Clock-Gating Insertion Strategies on an Open-Source MSP430 Core: A Reproducible PPA Study and a Gate-Level Simulation Caveat",
+      "topics": [
+        "architecture"
+      ],
+      "type": "paper"
+    },
+    {
+      "id": "arxiv:2608.31003v1",
+      "label": "Domain-Varying 2D Green' s Functions for Cage-based Deformation",
+      "topics": [
+        "gpu_graphics"
+      ],
+      "type": "paper"
+    },
+    {
+      "id": "arxiv:2608.31102v1",
+      "label": "LLM Post-Training as Brownfield Maintenance: An Industrial Perspective on Dataware Engineering",
+      "topics": [
+        "llm_agent"
+      ],
+      "type": "paper"
+    },
+    {
+      "id": "arxiv:2608.31107v1",
+      "label": "VeriCam: A Verification Baseline for the Classification of Unknown Data",
+      "topics": [
+        "gpu_graphics"
+      ],
+      "type": "paper"
+    },
+    {
+      "id": "arxiv:2608.31142v1",
+      "label": "Auditing Anonymous AI Models: A Four-Stage Protocol for Black-Box Identity Verification",
+      "topics": [
+        "llm_agent"
+      ],
+      "type": "paper"
+    },
+    {
       "id": "biorxiv:10.1101/2025.01.03.631260",
       "label": "Reactivation of a dormant developmental plasticity program drives synaptic rejuvenation and antidepressant-like responses",
       "topics": [
@@ -3952,5 +4049,5 @@
     }
   ],
   "public_json_version": "0.4",
-  "updated_at": "2026-09-01T01:13:13+00:00"
+  "updated_at": "2026-09-01T23:59:40+00:00"
 }
