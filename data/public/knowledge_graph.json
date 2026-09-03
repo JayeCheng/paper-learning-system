@@ -1917,6 +1917,18 @@
     {
       "confidence": 0.5,
       "relation": "related_to",
+      "source": "biorxiv:10.1101/2025.11.17.25338859",
+      "target": "uncategorized"
+    },
+    {
+      "confidence": 0.5,
+      "relation": "related_to",
+      "source": "biorxiv:10.1101/2025.11.17.25338859",
+      "target": "cognition_social"
+    },
+    {
+      "confidence": 0.5,
+      "relation": "related_to",
       "source": "biorxiv:10.64898/2026.05.14.725265",
       "target": "cognition"
     },
@@ -1977,6 +1989,18 @@
     {
       "confidence": 0.5,
       "relation": "related_to",
+      "source": "biorxiv:10.64898/2026.08.18.26360681",
+      "target": "uncategorized"
+    },
+    {
+      "confidence": 0.5,
+      "relation": "related_to",
+      "source": "biorxiv:10.64898/2026.08.18.26360681",
+      "target": "cognition_social"
+    },
+    {
+      "confidence": 0.5,
+      "relation": "related_to",
       "source": "biorxiv:10.64898/2026.08.20.745566",
       "target": "cognition"
     },
@@ -1996,6 +2020,54 @@
       "confidence": 0.5,
       "relation": "related_to",
       "source": "biorxiv:10.64898/2026.08.20.746069",
+      "target": "cognition_social"
+    },
+    {
+      "confidence": 0.5,
+      "relation": "related_to",
+      "source": "biorxiv:10.64898/2026.08.24.26361036",
+      "target": "uncategorized"
+    },
+    {
+      "confidence": 0.5,
+      "relation": "related_to",
+      "source": "biorxiv:10.64898/2026.08.24.26361036",
+      "target": "cognition_social"
+    },
+    {
+      "confidence": 0.5,
+      "relation": "related_to",
+      "source": "biorxiv:10.64898/2026.08.24.26361203",
+      "target": "uncategorized"
+    },
+    {
+      "confidence": 0.5,
+      "relation": "related_to",
+      "source": "biorxiv:10.64898/2026.08.24.26361203",
+      "target": "cognition_social"
+    },
+    {
+      "confidence": 0.5,
+      "relation": "related_to",
+      "source": "biorxiv:10.64898/2026.08.24.26361239",
+      "target": "uncategorized"
+    },
+    {
+      "confidence": 0.5,
+      "relation": "related_to",
+      "source": "biorxiv:10.64898/2026.08.24.26361239",
+      "target": "cognition_social"
+    },
+    {
+      "confidence": 0.5,
+      "relation": "related_to",
+      "source": "biorxiv:10.64898/2026.08.25.26361327",
+      "target": "uncategorized"
+    },
+    {
+      "confidence": 0.5,
+      "relation": "related_to",
+      "source": "biorxiv:10.64898/2026.08.25.26361327",
       "target": "cognition_social"
     },
     {
@@ -3872,6 +3944,14 @@
       "type": "paper"
     },
     {
+      "id": "biorxiv:10.1101/2025.11.17.25338859",
+      "label": "Towards a participatory European social contact observatory",
+      "topics": [
+        "uncategorized"
+      ],
+      "type": "paper"
+    },
+    {
       "id": "biorxiv:10.64898/2026.05.14.725265",
       "label": "Appetite for change: How nutritional state and ventral striatal dopamine shape psilocybin effects on cognitive flexibility",
       "topics": [
@@ -3912,6 +3992,14 @@
       "type": "paper"
     },
     {
+      "id": "biorxiv:10.64898/2026.08.18.26360681",
+      "label": "Effectiveness of dual-mobility cups for preventing dislocation after primary total hip arthroplasty by a posterolateral approach and their cost-effectiveness compared to unipolar cups in elderly patients.",
+      "topics": [
+        "uncategorized"
+      ],
+      "type": "paper"
+    },
+    {
       "id": "biorxiv:10.64898/2026.08.20.745566",
       "label": "GABAergic and glutamatergic synaptic networks and mitochondrial morphology in the thalamic ventral motor and centromedian nuclei of Rhesus Monkey: A comparative 3D Electron Microscopic Analysis between Control and Parkinsonian State",
       "topics": [
@@ -3924,6 +4012,38 @@
       "label": "Glycolytic compensation rather than NAD+/NADH balance sustains neuronal function during mitochondrial stress",
       "topics": [
         "cognition"
+      ],
+      "type": "paper"
+    },
+    {
+      "id": "biorxiv:10.64898/2026.08.24.26361036",
+      "label": "Aspirin and healthy longevity within racial and ethnic minoritized older adults in the United States",
+      "topics": [
+        "uncategorized"
+      ],
+      "type": "paper"
+    },
+    {
+      "id": "biorxiv:10.64898/2026.08.24.26361203",
+      "label": "Health, behavioural, and social correlates of depressive symptoms among Brazilian adults: a preregistered exposure-wide association study with discovery and replication in two independent nationally representative cross-sectional surveys",
+      "topics": [
+        "uncategorized"
+      ],
+      "type": "paper"
+    },
+    {
+      "id": "biorxiv:10.64898/2026.08.24.26361239",
+      "label": "Exercise Capacity and Mental Health in Adults With a Systemic Right Ventricle",
+      "topics": [
+        "uncategorized"
+      ],
+      "type": "paper"
+    },
+    {
+      "id": "biorxiv:10.64898/2026.08.25.26361327",
+      "label": "Psychosocial Health Inequalities and Socioeconomic Deprivation Gradients Among Preschool Children in Care and Not in Care: An Administrative Health Data Study",
+      "topics": [
+        "uncategorized"
       ],
       "type": "paper"
     },
@@ -4049,5 +4169,5 @@
     }
   ],
   "public_json_version": "0.4",
-  "updated_at": "2026-09-01T23:59:40+00:00"
+  "updated_at": "2026-09-03T00:05:52+00:00"
 }
