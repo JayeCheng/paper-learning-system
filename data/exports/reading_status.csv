@@ -213,6 +213,11 @@ arxiv:2608.31003v1,backlog,medium,,2026-09-01T23:59:40+00:00,Domain-Varying 2D G
 arxiv:2608.31102v1,backlog,medium,,2026-09-01T23:59:40+00:00,LLM Post-Training as Brownfield Maintenance: An Industrial Perspective on Dataware Engineering,llm_agent,B
 arxiv:2608.31107v1,backlog,medium,,2026-09-01T23:59:40+00:00,VeriCam: A Verification Baseline for the Classification of Unknown Data,gpu_graphics,B
 arxiv:2608.31142v1,backlog,medium,,2026-09-01T23:59:40+00:00,Auditing Anonymous AI Models: A Four-Stage Protocol for Black-Box Identity Verification,llm_agent,B
+arxiv:2609.02789v1,backlog,medium,,2026-09-03T23:58:23+00:00,ShikumiMiner: Mining Recurring Implementation Patterns in AI Codebases,llm_agent,B
+arxiv:2609.02849v1,backlog,medium,,2026-09-03T23:58:23+00:00,Post-Training Language Models for Gold-Medal Performance in Coding Competitions,llm_agent,B
+arxiv:2609.02854v1,backlog,medium,,2026-09-03T23:58:23+00:00,MuyBridge: Mobile Human Center-of-Mass Estimation from Monocular Video via Sparse Fusion,gpu_graphics,B
+arxiv:2609.02876v1,backlog,medium,,2026-09-03T23:58:23+00:00,GRADSOLVE: fast exact gradients for ODE ensembles on GPUs,architecture,A
+arxiv:2609.02886v1,backlog,medium,,2026-09-03T23:58:23+00:00,SolarWM: Open Data and Scalable Training for Long-Horizon Video World Models,gpu_graphics,B
 biorxiv:10.1101/2025.01.03.631260,backlog,medium,,2026-08-30T00:10:37+00:00,Reactivation of a dormant developmental plasticity program drives synaptic rejuvenation and antidepressant-like responses,cognition_social,B
 biorxiv:10.1101/2025.03.24.645008,backlog,medium,,2026-08-30T00:10:37+00:00,Combined MEG and EEG suggest a limbic source network of the P3 including retrosplenial cortex and hippocampus,cognition_social,B
 biorxiv:10.1101/2025.05.30.657074,backlog,medium,,2026-08-27T03:05:37+00:00,Molecular logic of pheromone recognition enables rational design of insect behavior modulators,cognition_social,B
@@ -220,6 +225,7 @@ biorxiv:10.1101/2025.09.22.677693,backlog,medium,,2026-08-30T00:10:37+00:00,Emer
 biorxiv:10.1101/2025.10.29.684686,backlog,medium,,2026-08-27T03:05:37+00:00,Biased projection neuron-Kenyon cell connectivity shapes odor representations and learning in the Drosophila mushroom body,cognition_social,B
 biorxiv:10.1101/2025.11.17.25338859,backlog,medium,,2026-09-03T00:05:52+00:00,Towards a participatory European social contact observatory,cognition_social,B
 biorxiv:10.64898/2026.05.14.725265,backlog,medium,,2026-08-30T00:10:37+00:00,Appetite for change: How nutritional state and ventral striatal dopamine shape psilocybin effects on cognitive flexibility,cognition_social,B
+biorxiv:10.64898/2026.06.29.731229,backlog,medium,,2026-09-03T23:58:23+00:00,Two fundamental timescales organize human vocal behavior,cognition_social,B
 biorxiv:10.64898/2026.08.14.744902,backlog,medium,,2026-08-27T03:05:37+00:00,Proficiency-Dependent Reorganisation of Language and Control Networks during Second Language Processing: An fMRI Study of Korean-English Bilinguals,cognition_social,B
 biorxiv:10.64898/2026.08.17.745290,backlog,medium,,2026-08-27T03:05:37+00:00,Brain pericytes exhibit spatially organized and dynamically regulated molecular heterogeneity,cognition_social,B
 biorxiv:10.64898/2026.08.17.745292,backlog,medium,,2026-08-27T03:05:37+00:00,Dystonia-associated TorsinA-ΔE mutation induces a gain-of-function interaction with XPO1 via its N-terminal hydrophobic segment,cognition_social,B

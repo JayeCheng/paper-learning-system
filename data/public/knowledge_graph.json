@@ -1857,6 +1857,42 @@
     {
       "confidence": 0.5,
       "relation": "related_to",
+      "source": "arxiv:2609.02789v1",
+      "target": "llm_agent"
+    },
+    {
+      "confidence": 0.5,
+      "relation": "related_to",
+      "source": "arxiv:2609.02849v1",
+      "target": "llm_agent"
+    },
+    {
+      "confidence": 0.5,
+      "relation": "related_to",
+      "source": "arxiv:2609.02854v1",
+      "target": "gpu_graphics"
+    },
+    {
+      "confidence": 0.5,
+      "relation": "related_to",
+      "source": "arxiv:2609.02876v1",
+      "target": "architecture"
+    },
+    {
+      "confidence": 0.5,
+      "relation": "related_to",
+      "source": "arxiv:2609.02876v1",
+      "target": "llm_agent"
+    },
+    {
+      "confidence": 0.5,
+      "relation": "related_to",
+      "source": "arxiv:2609.02886v1",
+      "target": "gpu_graphics"
+    },
+    {
+      "confidence": 0.5,
+      "relation": "related_to",
       "source": "biorxiv:10.1101/2025.01.03.631260",
       "target": "cognition"
     },
@@ -1936,6 +1972,18 @@
       "confidence": 0.5,
       "relation": "related_to",
       "source": "biorxiv:10.64898/2026.05.14.725265",
+      "target": "cognition_social"
+    },
+    {
+      "confidence": 0.5,
+      "relation": "related_to",
+      "source": "biorxiv:10.64898/2026.06.29.731229",
+      "target": "cognition"
+    },
+    {
+      "confidence": 0.5,
+      "relation": "related_to",
+      "source": "biorxiv:10.64898/2026.06.29.731229",
       "target": "cognition_social"
     },
     {
@@ -3904,6 +3952,47 @@
       "type": "paper"
     },
     {
+      "id": "arxiv:2609.02789v1",
+      "label": "ShikumiMiner: Mining Recurring Implementation Patterns in AI Codebases",
+      "topics": [
+        "llm_agent"
+      ],
+      "type": "paper"
+    },
+    {
+      "id": "arxiv:2609.02849v1",
+      "label": "Post-Training Language Models for Gold-Medal Performance in Coding Competitions",
+      "topics": [
+        "llm_agent"
+      ],
+      "type": "paper"
+    },
+    {
+      "id": "arxiv:2609.02854v1",
+      "label": "MuyBridge: Mobile Human Center-of-Mass Estimation from Monocular Video via Sparse Fusion",
+      "topics": [
+        "gpu_graphics"
+      ],
+      "type": "paper"
+    },
+    {
+      "id": "arxiv:2609.02876v1",
+      "label": "GRADSOLVE: fast exact gradients for ODE ensembles on GPUs",
+      "topics": [
+        "architecture",
+        "llm_agent"
+      ],
+      "type": "paper"
+    },
+    {
+      "id": "arxiv:2609.02886v1",
+      "label": "SolarWM: Open Data and Scalable Training for Long-Horizon Video World Models",
+      "topics": [
+        "gpu_graphics"
+      ],
+      "type": "paper"
+    },
+    {
       "id": "biorxiv:10.1101/2025.01.03.631260",
       "label": "Reactivation of a dormant developmental plasticity program drives synaptic rejuvenation and antidepressant-like responses",
       "topics": [
@@ -3954,6 +4043,14 @@
     {
       "id": "biorxiv:10.64898/2026.05.14.725265",
       "label": "Appetite for change: How nutritional state and ventral striatal dopamine shape psilocybin effects on cognitive flexibility",
+      "topics": [
+        "cognition"
+      ],
+      "type": "paper"
+    },
+    {
+      "id": "biorxiv:10.64898/2026.06.29.731229",
+      "label": "Two fundamental timescales organize human vocal behavior",
       "topics": [
         "cognition"
       ],
@@ -4169,5 +4266,5 @@
     }
   ],
   "public_json_version": "0.4",
-  "updated_at": "2026-09-03T00:05:52+00:00"
+  "updated_at": "2026-09-03T23:58:23+00:00"
 }
