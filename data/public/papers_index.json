@@ -15039,6 +15039,411 @@
       "why_recommended": "Ranked by recency signal across configured topics."
     },
     {
+      "abstract": "Constant optimization refines the numerical coefficients of candidate expressions in tree-based genetic programming for symbolic regression. But its per-generation cost has led modern GPU-accelerated frameworks to omit it or restrict it to lightweight forms. We present a GPU-resident, batched Levenberg--Marquardt solver that optimizes constants across a structurally heterogeneous population of expression trees using a fixed number of population-wide CUDA launches per iteration. Reverse-mode automatic differentiation assembles the per-tree Jacobian in one backward sweep, making the dominant per-iteration cost independent of the number of constants per tree, and a double-precision delivery guard guarantees that returned constants are never worse than their initial values. On early-generation populations, the solver sustains up to $5.1{\\times}10^{5}$ trees per second on an NVIDIA A100; at a GPU-saturated benchmark configuration it delivers roughly $9.9{\\times}$ the throughput of Operon running on a 64-core EPYC 7763, while matching fp64-reference quality. Integrated in-process into EvoGP, the solver enables end-to-end search to recover governing equations on $10$ of $18$ constructed problems versus 0 for stock EvoGP. Our code is at https://github.com/TensorConv/CuSR.",
+      "authors": [
+        "Hao Mao",
+        "Xu Tony Liu",
+        "Shuai Lu",
+        "Peng Zhao",
+        "Wenzheng Jiang",
+        "Yuntian Chen"
+      ],
+      "categories": [
+        "cs.NE",
+        "cs.DC",
+        "cs.LG",
+        "cs.MS"
+      ],
+      "citation_count": null,
+      "classic_status": null,
+      "code_url": "https://github.com/TensorConv/CuSR",
+      "deep_read_note_url": null,
+      "difficulty": null,
+      "enrichment_sources": [],
+      "existing_note_url": null,
+      "external_ids": {},
+      "field": null,
+      "fields_of_study": [],
+      "id": "arxiv:2609.03352v1",
+      "identifiers": {
+        "arxiv_id": "2609.03352v1"
+      },
+      "influential_citation_count": null,
+      "institutions": [],
+      "latest_note_url": null,
+      "note_count": 0,
+      "open_access_pdf_url": null,
+      "pdf_url": "https://arxiv.org/pdf/2609.03352v1",
+      "project_url": null,
+      "published_at": "2026-09-03",
+      "published_date": "2026-09-03",
+      "reading_advice": "quick_read",
+      "reading_status": "backlog",
+      "recommendation_level": "A",
+      "score": 0.762,
+      "scores": {
+        "classic_value": 0.35,
+        "engineering_transferability": 0.9500000000000001,
+        "recency": 0.78,
+        "source_quality": 0.78,
+        "total": 0.762,
+        "user_relevance": 0.75
+      },
+      "selected_for_s_level": false,
+      "source": "arxiv",
+      "source_group": "architecture",
+      "source_type": "recent_7d",
+      "source_url": "http://arxiv.org/abs/2609.03352v1",
+      "suggested_note_title": null,
+      "suggested_note_type": null,
+      "tags": [
+        "cs.NE",
+        "cs.DC",
+        "cs.LG",
+        "cs.MS"
+      ],
+      "title": "Efficient Constant Optimization for Symbolic Regression with GPU-Accelerated Tree-Based Genetic Programming",
+      "title_zh": null,
+      "topics": [
+        "architecture",
+        "llm_agent"
+      ],
+      "url": "http://arxiv.org/abs/2609.03352v1",
+      "venue": null,
+      "why_recommended": "Ranked by engineering transferability signal across configured topics."
+    },
+    {
+      "abstract": "This work presents ESRIcascade.jl, a Julia package for computing the Economic Systemic Risk Index (ESRI). The package combines computational efficiency with a documented interface designed for research workflows. Our benchmarks show that ESRIcascade.jl is from 140 to 300 times faster than existing implementations. For a realistically sized synthetic economy, this reduces computational time from 16 hours to 7 minutes. By reducing computation times, ESRIcascade.jl makes repeated analyses of larger production networks practical and feasible and may enable broader use of ESRI in empirical and methodological research. The package and its documentation are freely available at https://github.com/Devetak/ESRIcascade.jl under the MIT License.",
+      "authors": [
+        "Mitja Devetak",
+        "Peter Klimek"
+      ],
+      "categories": [
+        "physics.soc-ph"
+      ],
+      "citation_count": null,
+      "classic_status": null,
+      "code_url": "https://github.com/Devetak/ESRIcascade.jl",
+      "deep_read_note_url": null,
+      "difficulty": null,
+      "enrichment_sources": [],
+      "existing_note_url": null,
+      "external_ids": {},
+      "field": null,
+      "fields_of_study": [],
+      "id": "arxiv:2609.03782v1",
+      "identifiers": {
+        "arxiv_id": "2609.03782v1"
+      },
+      "influential_citation_count": null,
+      "institutions": [],
+      "latest_note_url": null,
+      "note_count": 0,
+      "open_access_pdf_url": null,
+      "pdf_url": "https://arxiv.org/pdf/2609.03782v1",
+      "project_url": null,
+      "published_at": "2026-09-03",
+      "published_date": "2026-09-03",
+      "reading_advice": "save_for_later",
+      "reading_status": "backlog",
+      "recommendation_level": "B",
+      "score": 0.692,
+      "scores": {
+        "classic_value": 0.35,
+        "engineering_transferability": 0.6,
+        "recency": 0.78,
+        "source_quality": 0.78,
+        "total": 0.692,
+        "user_relevance": 0.75
+      },
+      "selected_for_s_level": false,
+      "source": "arxiv",
+      "source_group": "cognition_social",
+      "source_type": "recent_7d",
+      "source_url": "http://arxiv.org/abs/2609.03782v1",
+      "suggested_note_title": null,
+      "suggested_note_type": null,
+      "tags": [
+        "physics.soc-ph"
+      ],
+      "title": "ESRIcascade.jl: A Julia package for fast computation of the Economic Systemic Risk Index",
+      "title_zh": null,
+      "topics": [
+        "sociology"
+      ],
+      "url": "http://arxiv.org/abs/2609.03782v1",
+      "venue": null,
+      "why_recommended": "Ranked by recency signal across configured topics."
+    },
+    {
+      "abstract": "Checking a manuscript's reference integrity, its compliance with a target venue's specific submission rules, and its adherence to community reporting standards is manual, repetitive, and different for every venue so in practice it is done inconsistently or skipped. We present ATIBA, a tool that runs five grounded integrity and quality checks on a manuscript: a reference-integrity check that verifies each citation against bibliographic sources and flags retracted or unfindable references; a venue/track compliance check that derives submission criteria directly from a venue's own call-for-papers page and evaluates the manuscript against them, each verdict anchored to a verbatim quote from that page; an empirical-standards compliance check against the ACM SIGSOFT Empirical Standards, with a hallucination defence that discards any evidence quote it cannot locate verbatim in the manuscript; a multi-mode AI review (venue-specific, formal, and page-anchored annotation) powered by GPT-5.4 through Azure OpenAI; and a citation-suggestion feature that proposes candidate references for a manuscript and verifies each against bibliographic sources before it is shown to the user. All five checks are designed around the same principle: an LLM is only trusted to judge, never to invent the evidence it judges against. We evaluated ATIBA through a moderated user study with 13 non-author participants. Agreement across the six survey items ranged from 69% to 92%, with a mean of 85%, providing initial evidence of positive perceived usefulness across the evaluated workflows. These findings establish perceived usefulness; objective accuracy remains to be measured.",
+      "authors": [
+        "Veli Karakaya",
+        "Semih \u00c7a\u011flar",
+        "Yusuf Yi\u011fit Korkmaz",
+        "Eray T\u00fcz\u00fcn"
+      ],
+      "categories": [
+        "cs.SE"
+      ],
+      "citation_count": null,
+      "classic_status": null,
+      "code_url": null,
+      "deep_read_note_url": null,
+      "difficulty": null,
+      "enrichment_sources": [],
+      "existing_note_url": null,
+      "external_ids": {},
+      "field": null,
+      "fields_of_study": [],
+      "id": "arxiv:2609.04123v1",
+      "identifiers": {
+        "arxiv_id": "2609.04123v1"
+      },
+      "influential_citation_count": null,
+      "institutions": [],
+      "latest_note_url": null,
+      "note_count": 0,
+      "open_access_pdf_url": null,
+      "pdf_url": "https://arxiv.org/pdf/2609.04123v1",
+      "project_url": null,
+      "published_at": "2026-09-03",
+      "published_date": "2026-09-03",
+      "reading_advice": "save_for_later",
+      "reading_status": "backlog",
+      "recommendation_level": "B",
+      "score": 0.732,
+      "scores": {
+        "classic_value": 0.35,
+        "engineering_transferability": 0.8,
+        "recency": 0.78,
+        "source_quality": 0.78,
+        "total": 0.732,
+        "user_relevance": 0.75
+      },
+      "selected_for_s_level": false,
+      "source": "arxiv",
+      "source_group": "llm_agent",
+      "source_type": "recent_7d",
+      "source_url": "http://arxiv.org/abs/2609.04123v1",
+      "suggested_note_title": null,
+      "suggested_note_type": null,
+      "tags": [
+        "cs.SE"
+      ],
+      "title": "ATIBA: Grounded Integrity and Quality Checking for Research Papers",
+      "title_zh": null,
+      "topics": [
+        "llm_agent"
+      ],
+      "url": "http://arxiv.org/abs/2609.04123v1",
+      "venue": null,
+      "why_recommended": "Ranked by engineering transferability signal across configured topics."
+    },
+    {
+      "abstract": "Repository-level software engineering benchmarks have significantly advanced the evaluation of coding agents, but existing benchmarks primarily measure whether generated patches pass functional tests and overlook review-derived acceptance constraints (review constraints) that often influence whether a patch is acceptable in real-world software development. We introduce SWE-Gate, a repository-level benchmark for software engineering agents that explicitly evaluates review constraint compliance alongside functional correctness. SWE-Gate derives review constraints from real pull request review comments and synthesizes repository-level repair instances around these constraints. Each instance provides separate functional and constraint tests, together with non-compliant and gold patches, enabling explicit separation between issue resolution capability and review constraint compliance. We construct SWE-Gate with 303 repository-level repair instances spanning 75 open-source Python repositories across diverse software domains. Experiments with four LLM backends spanning different capability levels under a common coding-agent scaffold reveal a substantial gap between functional success and success under the complete repair specification: among 644 repairs that pass the functional tests, 221 fail to satisfy the provided review constraints. These findings show that functional-only evaluation overestimates agents' ability to satisfy the full requirements of repository-level repair tasks. The replication package including code, data, and experimental results is available at https://github.com/DeepSoftwareAnalytics/SWE-Gate.",
+      "authors": [
+        "Xin He",
+        "Yanlin Wang",
+        "Mingwei Liu",
+        "Jiachi Chen",
+        "Hongyu Zhang",
+        "Guanbin Li"
+      ],
+      "categories": [
+        "cs.SE",
+        "cs.AI"
+      ],
+      "citation_count": null,
+      "classic_status": null,
+      "code_url": "https://github.com/DeepSoftwareAnalytics/SWE-Gate",
+      "deep_read_note_url": null,
+      "difficulty": null,
+      "enrichment_sources": [],
+      "existing_note_url": null,
+      "external_ids": {},
+      "field": null,
+      "fields_of_study": [],
+      "id": "arxiv:2609.04167v1",
+      "identifiers": {
+        "arxiv_id": "2609.04167v1"
+      },
+      "influential_citation_count": null,
+      "institutions": [],
+      "latest_note_url": null,
+      "note_count": 0,
+      "open_access_pdf_url": null,
+      "pdf_url": "https://arxiv.org/pdf/2609.04167v1",
+      "project_url": null,
+      "published_at": "2026-09-03",
+      "published_date": "2026-09-03",
+      "reading_advice": "quick_read",
+      "reading_status": "backlog",
+      "recommendation_level": "A",
+      "score": 0.762,
+      "scores": {
+        "classic_value": 0.35,
+        "engineering_transferability": 0.9500000000000001,
+        "recency": 0.78,
+        "source_quality": 0.78,
+        "total": 0.762,
+        "user_relevance": 0.75
+      },
+      "selected_for_s_level": false,
+      "source": "arxiv",
+      "source_group": "llm_agent",
+      "source_type": "recent_7d",
+      "source_url": "http://arxiv.org/abs/2609.04167v1",
+      "suggested_note_title": null,
+      "suggested_note_type": null,
+      "tags": [
+        "cs.SE",
+        "cs.AI"
+      ],
+      "title": "SWE-Gate: Passing Functional Tests Is Not Enough for Software Engineering Agents",
+      "title_zh": null,
+      "topics": [
+        "llm_agent"
+      ],
+      "url": "http://arxiv.org/abs/2609.04167v1",
+      "venue": null,
+      "why_recommended": "Ranked by engineering transferability signal across configured topics."
+    },
+    {
+      "abstract": "Evaluating physical reasoning in video models is difficult because absolute motion measurements depend on frame rate, object scale, and camera calibration, all of which are often ambiguous or unavailable in generated video. We propose a different approach. When two objects in the same scene obey the same physical law, their motions must satisfy predictable relationships, and these relationships hold independent of calibration. We introduce Principia, a benchmark that evaluates Newtonian physics through relational consistency between paired objects. Principia spans eight phenomena - gravity, restitution, friction, rotational inertia, projectile motion, momentum, pendulum, and mass-spring oscillation - across translational, rotational, collisional, and oscillatory dynamics, using real-world scenes recorded under controlled protocols. We also introduce a calibration-independent consistency score that quantifies physical violation directly in image space. Across thousands of generations from six state-of-the-art video generators, no model exceeds 0.42 on Principia despite all scoring around 0.8 on VBench. Vision-language models are evaluated on their ability to detect relational physics violations, with the best model achieving only 67% accuracy and most performing near chance level.",
+      "authors": [
+        "Varun Varma Thozhiyoor",
+        "Shivam Tripathi",
+        "Venkatesh Babu Radhakrishnan",
+        "Anand Bhattad"
+      ],
+      "categories": [
+        "cs.CV"
+      ],
+      "citation_count": null,
+      "classic_status": null,
+      "code_url": null,
+      "deep_read_note_url": null,
+      "difficulty": null,
+      "enrichment_sources": [],
+      "existing_note_url": null,
+      "external_ids": {},
+      "field": null,
+      "fields_of_study": [],
+      "id": "arxiv:2609.04200v1",
+      "identifiers": {
+        "arxiv_id": "2609.04200v1"
+      },
+      "influential_citation_count": null,
+      "institutions": [],
+      "latest_note_url": null,
+      "note_count": 0,
+      "open_access_pdf_url": null,
+      "pdf_url": "https://arxiv.org/pdf/2609.04200v1",
+      "project_url": "https://principiabench.github.io/",
+      "published_at": "2026-09-03",
+      "published_date": "2026-09-03",
+      "reading_advice": "save_for_later",
+      "reading_status": "backlog",
+      "recommendation_level": "B",
+      "score": 0.692,
+      "scores": {
+        "classic_value": 0.35,
+        "engineering_transferability": 0.6,
+        "recency": 0.78,
+        "source_quality": 0.78,
+        "total": 0.692,
+        "user_relevance": 0.75
+      },
+      "selected_for_s_level": false,
+      "source": "arxiv",
+      "source_group": "gpu_graphics",
+      "source_type": "recent_7d",
+      "source_url": "http://arxiv.org/abs/2609.04200v1",
+      "suggested_note_title": null,
+      "suggested_note_type": null,
+      "tags": [
+        "cs.CV"
+      ],
+      "title": "Principia: Relational Physics Tests for Video Models",
+      "title_zh": null,
+      "topics": [
+        "gpu_graphics"
+      ],
+      "url": "http://arxiv.org/abs/2609.04200v1",
+      "venue": null,
+      "why_recommended": "Ranked by recency signal across configured topics."
+    },
+    {
+      "abstract": "Online 3D reconstruction models perform poorly on long videos. This happens because regressing poses relative to a fixed first-frame anchor forces extrapolation far beyond the training distribution. Small drifts accumulate and amplify into significant geometric collapse. However, we observe that per-frame depth remains stable throughout this failure. The backbone's local geometry remains intact; only the global pose head breaks down. Motivated by this decoupling, we introduce Scal3R. This approach reformulates online reconstruction as multi-reference relative pose querying. We use lightweight learnable tokens, which make up about ~1% of the parameters, and inject them into a completely frozen backbone via asymmetric attention. This setup queries poses relative to multiple past keyframes. An online pose-graph optimization system with loop closure suppresses long-range drift. Scal3R reaches convergence in 8 hours on a single GPU. It reduces the average ATE by over 60% on KITTI compared to the online baseline. It also achieves state-of-the-art performance across Virtual KITTI, Sintel, TUM-Dynamic, ScanNet, and 7-Scenes. Project page: https://linjohnss.github.io/scal3r/",
+      "authors": [
+        "Chin-Yang Lin",
+        "Yang-Che Sun",
+        "Cheng Sun",
+        "Fu-En Yang",
+        "Min-Hung Chen",
+        "Yen-Yu Lin",
+        "Wei-Chen Chiu",
+        "Yu-Lun Liu"
+      ],
+      "categories": [
+        "cs.CV"
+      ],
+      "citation_count": null,
+      "classic_status": null,
+      "code_url": null,
+      "deep_read_note_url": null,
+      "difficulty": null,
+      "enrichment_sources": [],
+      "existing_note_url": null,
+      "external_ids": {},
+      "field": null,
+      "fields_of_study": [],
+      "id": "arxiv:2609.04201v1",
+      "identifiers": {
+        "arxiv_id": "2609.04201v1"
+      },
+      "influential_citation_count": null,
+      "institutions": [],
+      "latest_note_url": null,
+      "note_count": 0,
+      "open_access_pdf_url": null,
+      "pdf_url": "https://arxiv.org/pdf/2609.04201v1",
+      "project_url": "https://linjohnss.github.io/scal3r/",
+      "published_at": "2026-09-03",
+      "published_date": "2026-09-03",
+      "reading_advice": "save_for_later",
+      "reading_status": "backlog",
+      "recommendation_level": "B",
+      "score": 0.692,
+      "scores": {
+        "classic_value": 0.35,
+        "engineering_transferability": 0.6,
+        "recency": 0.78,
+        "source_quality": 0.78,
+        "total": 0.692,
+        "user_relevance": 0.75
+      },
+      "selected_for_s_level": false,
+      "source": "arxiv",
+      "source_group": "gpu_graphics",
+      "source_type": "recent_7d",
+      "source_url": "http://arxiv.org/abs/2609.04201v1",
+      "suggested_note_title": null,
+      "suggested_note_type": null,
+      "tags": [
+        "cs.CV"
+      ],
+      "title": "Scal3R: Learning Efficient Multi-Relative Pose Query for Scalable Online 3D Reconstruction",
+      "title_zh": null,
+      "topics": [
+        "gpu_graphics"
+      ],
+      "url": "http://arxiv.org/abs/2609.04201v1",
+      "venue": null,
+      "why_recommended": "Ranked by recency signal across configured topics."
+    },
+    {
       "abstract": "Antidepressants are widely used to treat mood and anxiety disorders, yet the cellular and molecular mechanisms underlying their therapeutic effects remain poorly understood. Here, we show that the selective serotonin reuptake inhibitor (SSRI) fluoxetine rejuvenates the dentate gyrus (DG) by reactivating a latent developmental plasticity program in mature neurons, which is required for re-engaging critical period-like synaptic remodeling and antidepressant-like behavioral effects. Single nuclei transcriptomic profiling across all hippocampal cell types revealed a strikingly selective response in the DG, where mature neurons re-engaged a developmental-like transcriptional state, an effect distinct from adult neurogenesis. Chronic fluoxetine treatment induced expression of SOX11, a developmental transcription factor involved in neurodevelopment and axonal regeneration that is normally silenced in the adult brain. Reactivation of SOX11 in mature DG neurons was necessary for both the antidepressant-like behavioral effects of fluoxetine and the re-engagement of critical period-like synaptic remodeling. Notably, SOX11 reactivation was also induced by physiological stimuli, including environmental enrichment and peripheral axon regeneration, suggesting that mature neurons retain access to a conserved developmental plasticity program throughout adulthood. We further identified evidence of this form of developmental plasticity in the adult human brain, an effect distinct from adult neurogenesis. At the structural level, fluoxetine remodeled novel extracellular matrix (ECM) structures within the DG distinct from canonical perineuronal nets, and targeted ECM degradation was sufficient to reactivate SOX11 in mature neurons, identifying the ECM as a key regulator of neuronal rejuvenation. Altogether, these findings demonstrate that mature neurons retain an intrinsic capacity to re-engage dormant developmental programs, and that antidepressants harness this regenerative plasticity to drive neural circuit remodeling and antidepressant-like effects.",
       "authors": [
         "Nguyen, P. T.",
@@ -16967,5 +17372,5 @@
     }
   ],
   "public_json_version": "0.4",
-  "updated_at": "2026-09-03T23:58:23+00:00"
+  "updated_at": "2026-09-04T23:56:34+00:00"
 }

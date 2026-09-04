@@ -218,6 +218,12 @@ arxiv:2609.02849v1,backlog,medium,,2026-09-03T23:58:23+00:00,Post-Training Langu
 arxiv:2609.02854v1,backlog,medium,,2026-09-03T23:58:23+00:00,MuyBridge: Mobile Human Center-of-Mass Estimation from Monocular Video via Sparse Fusion,gpu_graphics,B
 arxiv:2609.02876v1,backlog,medium,,2026-09-03T23:58:23+00:00,GRADSOLVE: fast exact gradients for ODE ensembles on GPUs,architecture,A
 arxiv:2609.02886v1,backlog,medium,,2026-09-03T23:58:23+00:00,SolarWM: Open Data and Scalable Training for Long-Horizon Video World Models,gpu_graphics,B
+arxiv:2609.03352v1,backlog,medium,,2026-09-04T23:56:34+00:00,Efficient Constant Optimization for Symbolic Regression with GPU-Accelerated Tree-Based Genetic Programming,architecture,A
+arxiv:2609.03782v1,backlog,medium,,2026-09-04T23:56:34+00:00,ESRIcascade.jl: A Julia package for fast computation of the Economic Systemic Risk Index,cognition_social,B
+arxiv:2609.04123v1,backlog,medium,,2026-09-04T23:56:34+00:00,ATIBA: Grounded Integrity and Quality Checking for Research Papers,llm_agent,B
+arxiv:2609.04167v1,backlog,medium,,2026-09-04T23:56:34+00:00,SWE-Gate: Passing Functional Tests Is Not Enough for Software Engineering Agents,llm_agent,A
+arxiv:2609.04200v1,backlog,medium,,2026-09-04T23:56:34+00:00,Principia: Relational Physics Tests for Video Models,gpu_graphics,B
+arxiv:2609.04201v1,backlog,medium,,2026-09-04T23:56:34+00:00,Scal3R: Learning Efficient Multi-Relative Pose Query for Scalable Online 3D Reconstruction,gpu_graphics,B
 biorxiv:10.1101/2025.01.03.631260,backlog,medium,,2026-08-30T00:10:37+00:00,Reactivation of a dormant developmental plasticity program drives synaptic rejuvenation and antidepressant-like responses,cognition_social,B
 biorxiv:10.1101/2025.03.24.645008,backlog,medium,,2026-08-30T00:10:37+00:00,Combined MEG and EEG suggest a limbic source network of the P3 including retrosplenial cortex and hippocampus,cognition_social,B
 biorxiv:10.1101/2025.05.30.657074,backlog,medium,,2026-08-27T03:05:37+00:00,Molecular logic of pheromone recognition enables rational design of insect behavior modulators,cognition_social,B
