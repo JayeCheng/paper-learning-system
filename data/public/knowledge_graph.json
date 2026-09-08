@@ -1941,6 +1941,66 @@
     {
       "confidence": 0.5,
       "relation": "related_to",
+      "source": "arxiv:2609.04705v1",
+      "target": "architecture"
+    },
+    {
+      "confidence": 0.5,
+      "relation": "related_to",
+      "source": "arxiv:2609.04705v1",
+      "target": "gpu_graphics"
+    },
+    {
+      "confidence": 0.5,
+      "relation": "related_to",
+      "source": "arxiv:2609.04705v1",
+      "target": "llm_agent"
+    },
+    {
+      "confidence": 0.5,
+      "relation": "related_to",
+      "source": "arxiv:2609.05255v1",
+      "target": "gpu_graphics"
+    },
+    {
+      "confidence": 0.5,
+      "relation": "related_to",
+      "source": "arxiv:2609.05335v1",
+      "target": "llm_agent"
+    },
+    {
+      "confidence": 0.5,
+      "relation": "related_to",
+      "source": "arxiv:2609.05347v1",
+      "target": "cognition"
+    },
+    {
+      "confidence": 0.5,
+      "relation": "related_to",
+      "source": "arxiv:2609.05347v1",
+      "target": "cognition_social"
+    },
+    {
+      "confidence": 0.5,
+      "relation": "related_to",
+      "source": "arxiv:2609.05364v1",
+      "target": "llm_agent"
+    },
+    {
+      "confidence": 0.5,
+      "relation": "related_to",
+      "source": "arxiv:2609.05415v1",
+      "target": "gpu_graphics"
+    },
+    {
+      "confidence": 0.5,
+      "relation": "related_to",
+      "source": "arxiv:2609.05415v1",
+      "target": "llm_agent"
+    },
+    {
+      "confidence": 0.5,
+      "relation": "related_to",
       "source": "biorxiv:10.1101/2025.01.03.631260",
       "target": "cognition"
     },
@@ -4090,6 +4150,57 @@
       "type": "paper"
     },
     {
+      "id": "arxiv:2609.04705v1",
+      "label": "Sustainable Edge Vision via Empirically Calibrated DVFS: Eliminating Thermal Throttling on Passively Cooled Hardware",
+      "topics": [
+        "architecture",
+        "gpu_graphics",
+        "llm_agent"
+      ],
+      "type": "paper"
+    },
+    {
+      "id": "arxiv:2609.05255v1",
+      "label": "Compact Neural Appearance Models for Efficient Gaussian Splatting",
+      "topics": [
+        "gpu_graphics"
+      ],
+      "type": "paper"
+    },
+    {
+      "id": "arxiv:2609.05335v1",
+      "label": "The History Is the Detector: Executing CVE Patch History, End-to-End",
+      "topics": [
+        "llm_agent"
+      ],
+      "type": "paper"
+    },
+    {
+      "id": "arxiv:2609.05347v1",
+      "label": "TherMosaic: Accelerating Perceived Thermal Transitions Through Spatiotemporal Thermal Feedback",
+      "topics": [
+        "cognition"
+      ],
+      "type": "paper"
+    },
+    {
+      "id": "arxiv:2609.05364v1",
+      "label": "Design Docs Are All You Need: An AI-native Machine-Learning Performance Tool",
+      "topics": [
+        "llm_agent"
+      ],
+      "type": "paper"
+    },
+    {
+      "id": "arxiv:2609.05415v1",
+      "label": "UniMate: One Unified Model to Animate Diverse Skeletons",
+      "topics": [
+        "gpu_graphics",
+        "llm_agent"
+      ],
+      "type": "paper"
+    },
+    {
       "id": "biorxiv:10.1101/2025.01.03.631260",
       "label": "Reactivation of a dormant developmental plasticity program drives synaptic rejuvenation and antidepressant-like responses",
       "topics": [
@@ -4363,5 +4474,5 @@
     }
   ],
   "public_json_version": "0.4",
-  "updated_at": "2026-09-06T23:46:54+00:00"
+  "updated_at": "2026-09-08T00:12:13+00:00"
 }

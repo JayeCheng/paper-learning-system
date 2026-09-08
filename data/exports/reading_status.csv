@@ -224,6 +224,12 @@ arxiv:2609.04123v1,backlog,medium,,2026-09-04T23:56:34+00:00,ATIBA: Grounded Int
 arxiv:2609.04167v1,backlog,medium,,2026-09-04T23:56:34+00:00,SWE-Gate: Passing Functional Tests Is Not Enough for Software Engineering Agents,llm_agent,A
 arxiv:2609.04200v1,backlog,medium,,2026-09-04T23:56:34+00:00,Principia: Relational Physics Tests for Video Models,gpu_graphics,B
 arxiv:2609.04201v1,backlog,medium,,2026-09-04T23:56:34+00:00,Scal3R: Learning Efficient Multi-Relative Pose Query for Scalable Online 3D Reconstruction,gpu_graphics,B
+arxiv:2609.04705v1,backlog,medium,,2026-09-08T00:12:13+00:00,Sustainable Edge Vision via Empirically Calibrated DVFS: Eliminating Thermal Throttling on Passively Cooled Hardware,architecture,A
+arxiv:2609.05255v1,backlog,medium,,2026-09-08T00:12:13+00:00,Compact Neural Appearance Models for Efficient Gaussian Splatting,gpu_graphics,A
+arxiv:2609.05335v1,backlog,medium,,2026-09-08T00:12:13+00:00,"The History Is the Detector: Executing CVE Patch History, End-to-End",llm_agent,B
+arxiv:2609.05347v1,backlog,medium,,2026-09-08T00:12:13+00:00,TherMosaic: Accelerating Perceived Thermal Transitions Through Spatiotemporal Thermal Feedback,cognition_social,B
+arxiv:2609.05364v1,backlog,medium,,2026-09-08T00:12:13+00:00,Design Docs Are All You Need: An AI-native Machine-Learning Performance Tool,llm_agent,B
+arxiv:2609.05415v1,backlog,medium,,2026-09-08T00:12:13+00:00,UniMate: One Unified Model to Animate Diverse Skeletons,gpu_graphics,B
 biorxiv:10.1101/2025.01.03.631260,backlog,medium,,2026-08-30T00:10:37+00:00,Reactivation of a dormant developmental plasticity program drives synaptic rejuvenation and antidepressant-like responses,cognition_social,B
 biorxiv:10.1101/2025.03.24.645008,backlog,medium,,2026-08-30T00:10:37+00:00,Combined MEG and EEG suggest a limbic source network of the P3 including retrosplenial cortex and hippocampus,cognition_social,B
 biorxiv:10.1101/2025.05.30.657074,backlog,medium,,2026-08-27T03:05:37+00:00,Molecular logic of pheromone recognition enables rational design of insect behavior modulators,cognition_social,B
