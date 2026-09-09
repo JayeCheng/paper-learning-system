@@ -2037,6 +2037,18 @@
     {
       "confidence": 0.5,
       "relation": "related_to",
+      "source": "biorxiv:10.1101/2025.08.06.668906",
+      "target": "cognition"
+    },
+    {
+      "confidence": 0.5,
+      "relation": "related_to",
+      "source": "biorxiv:10.1101/2025.08.06.668906",
+      "target": "cognition_social"
+    },
+    {
+      "confidence": 0.5,
+      "relation": "related_to",
       "source": "biorxiv:10.1101/2025.09.22.677693",
       "target": "cognition"
     },
@@ -2073,6 +2085,18 @@
     {
       "confidence": 0.5,
       "relation": "related_to",
+      "source": "biorxiv:10.64898/2026.03.02.709083",
+      "target": "cognition"
+    },
+    {
+      "confidence": 0.5,
+      "relation": "related_to",
+      "source": "biorxiv:10.64898/2026.03.02.709083",
+      "target": "cognition_social"
+    },
+    {
+      "confidence": 0.5,
+      "relation": "related_to",
       "source": "biorxiv:10.64898/2026.05.14.725265",
       "target": "cognition"
     },
@@ -2080,6 +2104,30 @@
       "confidence": 0.5,
       "relation": "related_to",
       "source": "biorxiv:10.64898/2026.05.14.725265",
+      "target": "cognition_social"
+    },
+    {
+      "confidence": 0.5,
+      "relation": "related_to",
+      "source": "biorxiv:10.64898/2026.05.19.726180",
+      "target": "cognition"
+    },
+    {
+      "confidence": 0.5,
+      "relation": "related_to",
+      "source": "biorxiv:10.64898/2026.05.19.726180",
+      "target": "cognition_social"
+    },
+    {
+      "confidence": 0.5,
+      "relation": "related_to",
+      "source": "biorxiv:10.64898/2026.05.27.728254",
+      "target": "cognition"
+    },
+    {
+      "confidence": 0.5,
+      "relation": "related_to",
+      "source": "biorxiv:10.64898/2026.05.27.728254",
       "target": "cognition_social"
     },
     {
@@ -2224,6 +2272,30 @@
       "confidence": 0.5,
       "relation": "related_to",
       "source": "biorxiv:10.64898/2026.08.25.26361327",
+      "target": "cognition_social"
+    },
+    {
+      "confidence": 0.5,
+      "relation": "related_to",
+      "source": "biorxiv:10.64898/2026.08.25.747062",
+      "target": "cognition"
+    },
+    {
+      "confidence": 0.5,
+      "relation": "related_to",
+      "source": "biorxiv:10.64898/2026.08.25.747062",
+      "target": "cognition_social"
+    },
+    {
+      "confidence": 0.5,
+      "relation": "related_to",
+      "source": "biorxiv:10.64898/2026.08.26.747434",
+      "target": "cognition"
+    },
+    {
+      "confidence": 0.5,
+      "relation": "related_to",
+      "source": "biorxiv:10.64898/2026.08.26.747434",
       "target": "cognition_social"
     },
     {
@@ -4225,6 +4297,14 @@
       "type": "paper"
     },
     {
+      "id": "biorxiv:10.1101/2025.08.06.668906",
+      "label": "Precision Functional Mapping of Imagined and Experienced Pain",
+      "topics": [
+        "cognition"
+      ],
+      "type": "paper"
+    },
+    {
       "id": "biorxiv:10.1101/2025.09.22.677693",
       "label": "Emergence of Functional Heart-Brain Circuits in a Vertebrate",
       "topics": [
@@ -4249,8 +4329,32 @@
       "type": "paper"
     },
     {
+      "id": "biorxiv:10.64898/2026.03.02.709083",
+      "label": "Magnitude estimation reveals Poisson-like noise underlying perception",
+      "topics": [
+        "cognition"
+      ],
+      "type": "paper"
+    },
+    {
       "id": "biorxiv:10.64898/2026.05.14.725265",
       "label": "Appetite for change: How nutritional state and ventral striatal dopamine shape psilocybin effects on cognitive flexibility",
+      "topics": [
+        "cognition"
+      ],
+      "type": "paper"
+    },
+    {
+      "id": "biorxiv:10.64898/2026.05.19.726180",
+      "label": "The microstructure-weighted human connectome: network properties and structure-function correlations across spatial scales",
+      "topics": [
+        "cognition"
+      ],
+      "type": "paper"
+    },
+    {
+      "id": "biorxiv:10.64898/2026.05.27.728254",
+      "label": "iClima: a ratiometric genetically encoded sensor for optical imaging of fast GABAergic chloride currents in vitro and in vivo",
       "topics": [
         "cognition"
       ],
@@ -4349,6 +4453,22 @@
       "label": "Psychosocial Health Inequalities and Socioeconomic Deprivation Gradients Among Preschool Children in Care and Not in Care: An Administrative Health Data Study",
       "topics": [
         "uncategorized"
+      ],
+      "type": "paper"
+    },
+    {
+      "id": "biorxiv:10.64898/2026.08.25.747062",
+      "label": "A neuro-computational approximation of the qualities of mental images",
+      "topics": [
+        "cognition"
+      ],
+      "type": "paper"
+    },
+    {
+      "id": "biorxiv:10.64898/2026.08.26.747434",
+      "label": "Linoleic Acid-Lyso PG Axis promoting lipid droplet-mitochondria tethering by stabilizing Noncanonically Mitochondrial PPAR \u03b2/\u03b4 to Ameliorate Microglial Dysfunction in subarachnoid hemorrhage",
+      "topics": [
+        "cognition"
       ],
       "type": "paper"
     },
@@ -4474,5 +4594,5 @@
     }
   ],
   "public_json_version": "0.4",
-  "updated_at": "2026-09-08T00:12:13+00:00"
+  "updated_at": "2026-09-09T00:05:20+00:00"
 }

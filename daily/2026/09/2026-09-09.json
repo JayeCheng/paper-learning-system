@@ -1,0 +1,524 @@
+{
+  "date": "2026-09-09",
+  "frontend_entry": "data/public/latest.json",
+  "generated_at": "2026-09-09T00:05:20+00:00",
+  "generated_paths": {
+    "exports_csv": "data/exports/papers.csv",
+    "exports_daily_csv": "data/exports/daily_papers.csv",
+    "exports_jsonl": "data/exports/papers.jsonl",
+    "exports_notes_index": "data/exports/notes_index.csv",
+    "exports_reading_status": "data/exports/reading_status.csv",
+    "json": "daily/2026/09/2026-09-09.json",
+    "markdown": "daily/2026/09/2026-09-09.md",
+    "public_curriculum_progress": "data/public/curriculum_progress.json",
+    "public_daily_index": "data/public/daily_index.json",
+    "public_knowledge_graph": "data/public/knowledge_graph.json",
+    "public_latest": "data/public/latest.json",
+    "public_notes_index": "data/public/notes_index.json",
+    "public_papers_index": "data/public/papers_index.json",
+    "public_reading_status": "data/public/reading_status.json",
+    "state_notes_index": "data/state/notes_index.json",
+    "state_papers": "data/state/papers.jsonl",
+    "state_reading_status": "data/state/reading_status.json",
+    "state_run_history": "data/state/run_history.json"
+  },
+  "knowledge_graph_delta": [
+    "paper:biorxiv:10.1101/2025.08.06.668906",
+    "paper:biorxiv:10.64898/2026.08.25.747062",
+    "paper:biorxiv:10.64898/2026.05.27.728254",
+    "paper:biorxiv:10.64898/2026.08.26.747434",
+    "paper:biorxiv:10.64898/2026.05.19.726180",
+    "paper:biorxiv:10.64898/2026.03.02.709083"
+  ],
+  "learning_route_position": "v0.4 GitHub-owned note bridge",
+  "next_actions": [
+    "Review S-level candidate",
+    "Update reading status after skim",
+    "Promote durable concepts into the knowledge graph"
+  ],
+  "papers": [
+    {
+      "abstract": "Imagination is a principal human capacity, enabling simulation of sensations and situations for planning, learning, and empathy. We examined neural representations of experienced and imagined pain across eight body sites using deep-phenotyping, precision functional MRI with over seven hours of scanning per participant (N = 9). Here we show, using conventional mapping, pattern classification, and representational similarity analyses, that both imagined and experienced pain activated nociceptive regions (e.g., dorsoposterior insula) and non-nociceptive regions (e.g., premotor areas). However, imagined pain did not reliably reactivate body site-selective nociceptive patterns in any region. Instead, imagined and experienced pain shared multivariate representations across widespread cortical and subcortical regions, particularly transmodal cortical areas including dorsomedial and lateral prefrontal cortex, hippocampus, and thalamus. These findings suggest that imagination generates distributed pain-like activity while preserving a neural distinction from experienced pain. This distinction may explain the difficulty of vividly imagining pain and underlie its role in empathy, planning, and pain vulnerability.",
+      "authors": [
+        "Sun, M.",
+        "Petre, B.",
+        "Bo, K.",
+        "Bango, C. I.",
+        "Hershkop, M.",
+        "Shohan, S. L.",
+        "Jung, H.",
+        "Wager, T. D."
+      ],
+      "categories": [
+        "neuroscience"
+      ],
+      "citation_count": 0,
+      "classic_status": null,
+      "code_url": null,
+      "deep_read_note_url": null,
+      "difficulty": null,
+      "enrichment_sources": [
+        "semantic_scholar"
+      ],
+      "existing_note_url": null,
+      "external_ids": {
+        "CorpusId": "282310176",
+        "DOI": "10.1101/2025.08.06.668906"
+      },
+      "field": "Neuroscience",
+      "fields_of_study": [
+        "Neuroscience"
+      ],
+      "id": "biorxiv:10.1101/2025.08.06.668906",
+      "identifiers": {
+        "CorpusId": "282310176",
+        "DOI": "10.1101/2025.08.06.668906",
+        "doi": "10.1101/2025.08.06.668906",
+        "server": "biorxiv"
+      },
+      "influential_citation_count": 0,
+      "institutions": [],
+      "latest_note_url": null,
+      "note_count": 0,
+      "open_access_pdf_url": "https://www.biorxiv.org/content/biorxiv/early/2025/08/09/2025.08.06.668906.full.pdf",
+      "pdf_url": null,
+      "project_url": null,
+      "published_at": "2026-09-02",
+      "published_date": "2026-09-02",
+      "reading_advice": "save_for_later",
+      "reading_status": "backlog",
+      "recommendation_level": "B",
+      "score": 0.6755,
+      "scores": {
+        "classic_value": 0.35,
+        "engineering_transferability": 0.48,
+        "recency": 0.78,
+        "source_quality": 0.83,
+        "total": 0.6755,
+        "user_relevance": 0.75
+      },
+      "selected_for_s_level": false,
+      "source": "biorxiv",
+      "source_group": "cognition_social",
+      "source_type": "recent_7d",
+      "source_url": "https://doi.org/10.1101/2025.08.06.668906",
+      "suggested_note_title": null,
+      "suggested_note_type": null,
+      "tags": [
+        "neuroscience",
+        "cognition_social",
+        "biorxiv"
+      ],
+      "title": "Precision Functional Mapping of Imagined and Experienced Pain",
+      "title_zh": null,
+      "topics": [
+        "cognition"
+      ],
+      "url": "https://doi.org/10.1101/2025.08.06.668906",
+      "venue": "bioRxiv",
+      "why_recommended": "Ranked by source quality signal across configured topics."
+    },
+    {
+      "abstract": "Mental images are challenging to study, given that our conscious experience is notoriously hard to access. The currently prevalent introspective methods are inherently subjective and can thus only provide limited access to their qualities. Here, we developed a neuro-computational approach that approximates and assesses the properties of mental images without the need for introspection. To enable this approach, we collected a large-scale EEG dataset (10 participants, 10 sessions each, 43,200 trials total) of participants imagining 16 scenes based on text prompts. We employed AI image generation to create candidate image sets that approximate the content of mental images (based on the imagined text prompts), computationally simulated visual cortex responses to these images and then assessed their representational alignment with rhythmic EEG responses during imagery. In line with previous reports, mid- to high-level features of the AI-generated candidate images yielded reliable alignment with human alpha activity. By manipulating the qualities of the candidate images, we then tested which qualities predisposed higher representational alignment with cortical imagery representations. We found an increased representational alignment for spatially blurred and low contrast images, providing evidence for the prevalent notion of a reduced sensory quality of mental images. We further found that mental imagery may be characterized by a psychedelic image style, which envelops the images in visual flows that distort the image proportions. These results show that our approach can objectively capture qualities of mental images without the need of introspection, providing a hypothesis-based alternative to emerging reconstruction approaches.",
+      "authors": [
+        "Stecher, R.",
+        "Kaiser, D."
+      ],
+      "categories": [
+        "neuroscience"
+      ],
+      "citation_count": null,
+      "classic_status": null,
+      "code_url": null,
+      "deep_read_note_url": null,
+      "difficulty": null,
+      "enrichment_sources": [],
+      "existing_note_url": null,
+      "external_ids": {
+        "DOI": "10.64898/2026.08.25.747062"
+      },
+      "field": null,
+      "fields_of_study": [
+        "Neuroscience"
+      ],
+      "id": "biorxiv:10.64898/2026.08.25.747062",
+      "identifiers": {
+        "DOI": "10.64898/2026.08.25.747062",
+        "doi": "10.64898/2026.08.25.747062",
+        "server": "biorxiv"
+      },
+      "influential_citation_count": null,
+      "institutions": [],
+      "latest_note_url": null,
+      "note_count": 0,
+      "open_access_pdf_url": null,
+      "pdf_url": null,
+      "project_url": null,
+      "published_at": "2026-09-02",
+      "published_date": "2026-09-02",
+      "reading_advice": "save_for_later",
+      "reading_status": "backlog",
+      "recommendation_level": "B",
+      "score": 0.653,
+      "scores": {
+        "classic_value": 0.35,
+        "engineering_transferability": 0.48,
+        "recency": 0.78,
+        "source_quality": 0.68,
+        "total": 0.653,
+        "user_relevance": 0.75
+      },
+      "selected_for_s_level": false,
+      "source": "biorxiv",
+      "source_group": "cognition_social",
+      "source_type": "recent_7d",
+      "source_url": "https://doi.org/10.64898/2026.08.25.747062",
+      "suggested_note_title": null,
+      "suggested_note_type": null,
+      "tags": [
+        "neuroscience",
+        "cognition_social",
+        "biorxiv"
+      ],
+      "title": "A neuro-computational approximation of the qualities of mental images",
+      "title_zh": null,
+      "topics": [
+        "cognition"
+      ],
+      "url": "https://doi.org/10.64898/2026.08.25.747062",
+      "venue": "bioRxiv",
+      "why_recommended": "Ranked by recency signal across configured topics."
+    },
+    {
+      "abstract": "Fast GABAergic inhibition in the brain is mediated by chloride currents whose driving force depends on intracellular Chloride concentration ([Cl-]i). Resolving the spatiotemporal dynamics of [Cl-]i in neurons requires a sensor combining high Cl- affinity, pH independence, and photostability - properties no existing tool achieves simultaneously. Here we introduce iClima (improved Chloride Imaging), a ratiometric genetically encoded sensor with high Cl- affinity (Kd=3.5 mM at pH 7.2), pH-insensitive under physiological conditions, and markedly improved photostability compared to existing sensors. These properties enable dynamic Cl- imaging without simultaneous pH correction. We demonstrate that iClima resolves GABAA-driven Cl- transients in cultured neurons, detects discrete Cl- hotspots along dendrites, and captures sensory-evoked Cl- transients in vivo. Finally, exploiting the spectral compatibility of iClima with GCaMP6f, we measure in interleaved trials Cl- and Ca2+ transients in the same neurons in vivo, revealing a divergence between the somatic inhibitory drive and the neuronal excitation state as reported by Ca2+ dynamics.",
+      "authors": [
+        "Pasquini, G.",
+        "Giubbolini, S.",
+        "Nardi, G.",
+        "Brondi, M.",
+        "Beyene, E.",
+        "Balsi, C.",
+        "Egidi, A.",
+        "Tsushima Semini, H.",
+        "Landi, S.",
+        "Stancampiano, M.",
+        "Beale, A. D.",
+        "Watson, E. M.",
+        "Edgar, R. S.",
+        "ONeill, J. S.",
+        "Arosio, D.",
+        "Santi, M.",
+        "Fassio, A.",
+        "Lodovichi, C.",
+        "Ratto, G. M."
+      ],
+      "categories": [
+        "neuroscience"
+      ],
+      "citation_count": null,
+      "classic_status": null,
+      "code_url": null,
+      "deep_read_note_url": null,
+      "difficulty": null,
+      "enrichment_sources": [],
+      "existing_note_url": null,
+      "external_ids": {
+        "DOI": "10.64898/2026.05.27.728254"
+      },
+      "field": null,
+      "fields_of_study": [
+        "Neuroscience"
+      ],
+      "id": "biorxiv:10.64898/2026.05.27.728254",
+      "identifiers": {
+        "DOI": "10.64898/2026.05.27.728254",
+        "doi": "10.64898/2026.05.27.728254",
+        "server": "biorxiv"
+      },
+      "influential_citation_count": null,
+      "institutions": [],
+      "latest_note_url": null,
+      "note_count": 0,
+      "open_access_pdf_url": null,
+      "pdf_url": null,
+      "project_url": null,
+      "published_at": "2026-09-02",
+      "published_date": "2026-09-02",
+      "reading_advice": "save_for_later",
+      "reading_status": "backlog",
+      "recommendation_level": "B",
+      "score": 0.653,
+      "scores": {
+        "classic_value": 0.35,
+        "engineering_transferability": 0.48,
+        "recency": 0.78,
+        "source_quality": 0.68,
+        "total": 0.653,
+        "user_relevance": 0.75
+      },
+      "selected_for_s_level": false,
+      "source": "biorxiv",
+      "source_group": "cognition_social",
+      "source_type": "recent_7d",
+      "source_url": "https://doi.org/10.64898/2026.05.27.728254",
+      "suggested_note_title": null,
+      "suggested_note_type": null,
+      "tags": [
+        "neuroscience",
+        "cognition_social",
+        "biorxiv"
+      ],
+      "title": "iClima: a ratiometric genetically encoded sensor for optical imaging of fast GABAergic chloride currents in vitro and in vivo",
+      "title_zh": null,
+      "topics": [
+        "cognition"
+      ],
+      "url": "https://doi.org/10.64898/2026.05.27.728254",
+      "venue": "bioRxiv",
+      "why_recommended": "Ranked by recency signal across configured topics."
+    },
+    {
+      "abstract": "Background Microglial lipid handling and mitochondrial failure contribute to brain injury after subarachnoid hemorrhage (SAH), but the lipid signals coupling these processes remain unclear. We investigated whether linoleic acid (LA) restores microglial homeostasis through lysophosphatidylglycerol 16:0 (LPG[16:0]) and peroxisome proliferator-activated receptor-{delta} (PPAR{delta}). Methods Cerebrospinal fluid metabolomics included 30 patients with aneurysmal SAH and 10 control participants. Mechanisms were examined in a blood-injection mouse model and hemoglobin-exposed primary mouse microglia using targeted lipidomics, RNA sequencing, mitochondrial and phagocytosis assays, pharmacological perturbation, fractionation, coimmunoprecipitation, thermal shift analysis, and structural modeling. Behavioral outcomes were evaluated by open-field, Y-maze, and Morris water-maze testing. Results; CSF LA was higher in SAH and discriminated the groups within this cohort (area under the curve, 0.9967 [95% CI, 0.9859-1.000]; P<0.001). LA attenuated inflammatory activation and restored phagocytosis, mitochondrial membrane potential, respiration, and ATP production in hemoglobin-exposed microglia. LA restored PLA2G15-associated LPG(16:0), which phenocopied these effects. Transcriptomic and inhibitor analyses identified PPAR{delta} as a downstream effector. LPG(16:0) increased PPAR{delta} stability, and fractionation and protease protection identified a PPAR{delta} pool on the cytosolic face of the outer mitochondrial membrane. PPAR{delta} associated with PLIN2 and CPT1A, promoted lipid droplet-mitochondria apposition, and supported fatty acid oxidation. In mice, LA reduced neuroinflammatory injury and partially improved anxiety-related behavior and spatial memory.",
+      "authors": [
+        "Zou, L.-X.",
+        "Hu, H.",
+        "Liu, X.-z.",
+        "shen, j.",
+        "Gao, S.",
+        "Ding, P.-F.",
+        "Tian, K.",
+        "Dong, X.",
+        "Lu, X.",
+        "Liu, R.-y.",
+        "Li, X.-J.",
+        "Peng, Z.",
+        "Chen, X.-X.",
+        "Hang, C.",
+        "Li, W."
+      ],
+      "categories": [
+        "neuroscience"
+      ],
+      "citation_count": null,
+      "classic_status": null,
+      "code_url": null,
+      "deep_read_note_url": null,
+      "difficulty": null,
+      "enrichment_sources": [],
+      "existing_note_url": null,
+      "external_ids": {
+        "DOI": "10.64898/2026.08.26.747434"
+      },
+      "field": null,
+      "fields_of_study": [
+        "Neuroscience"
+      ],
+      "id": "biorxiv:10.64898/2026.08.26.747434",
+      "identifiers": {
+        "DOI": "10.64898/2026.08.26.747434",
+        "doi": "10.64898/2026.08.26.747434",
+        "server": "biorxiv"
+      },
+      "influential_citation_count": null,
+      "institutions": [],
+      "latest_note_url": null,
+      "note_count": 0,
+      "open_access_pdf_url": null,
+      "pdf_url": null,
+      "project_url": null,
+      "published_at": "2026-09-02",
+      "published_date": "2026-09-02",
+      "reading_advice": "save_for_later",
+      "reading_status": "backlog",
+      "recommendation_level": "B",
+      "score": 0.653,
+      "scores": {
+        "classic_value": 0.35,
+        "engineering_transferability": 0.48,
+        "recency": 0.78,
+        "source_quality": 0.68,
+        "total": 0.653,
+        "user_relevance": 0.75
+      },
+      "selected_for_s_level": false,
+      "source": "biorxiv",
+      "source_group": "cognition_social",
+      "source_type": "recent_7d",
+      "source_url": "https://doi.org/10.64898/2026.08.26.747434",
+      "suggested_note_title": null,
+      "suggested_note_type": null,
+      "tags": [
+        "neuroscience",
+        "cognition_social",
+        "biorxiv"
+      ],
+      "title": "Linoleic Acid-Lyso PG Axis promoting lipid droplet-mitochondria tethering by stabilizing Noncanonically Mitochondrial PPAR \u03b2/\u03b4 to Ameliorate Microglial Dysfunction in subarachnoid hemorrhage",
+      "title_zh": null,
+      "topics": [
+        "cognition"
+      ],
+      "url": "https://doi.org/10.64898/2026.08.26.747434",
+      "venue": "bioRxiv",
+      "why_recommended": "Ranked by recency signal across configured topics."
+    },
+    {
+      "abstract": "Conventional connectome edge weights, such as number of streamlines (NOS) or diffusion tensor imaging (DTI) metrics, lack specificity to microstructural details which may hold relevance for macroscale brain organisation. Since biophysical diffusion modelling offers greater specificity to microstructure, we investigated whether parameters from the Standard Model of white matter diffusion provide informative alternatives for connectome weights - namely the intra-axonal signal fraction (f) and perpendicular extra-axonal diffusivity (DePerp). Using diffusion MRI data from healthy adults, we constructed structural networks at four parcellation scales, weighted by f, DePerp, NOS, fractional anisotropy (FA) and radial diffusivity (RD). While all weights reproduced expected small-world properties and hub structure, only DePerp and normalised NOS captured non-random properties of local organisation at all spatial scales. We then correlated each weighted connectome with resting-state fMRI functional connectivity and intracranial measurements of conduction velocity. At both the whole-brain and regional level, NOS gave strong coupling with fMRI functional connectivity. Connectomes weighted by DePerp, FA and RD gave weak but significant coupling with fMRI functional connectivity and conduction velocity. Notably, DePerp and RD gave highest consistency in regional structure-function coupling across spatial scales. Thus, connectome weights derived from DePerp capture meaningful aspects of brain network organisation with functional relevance.",
+      "authors": [
+        "Spencer, A. P. C.",
+        "Asadi, S.",
+        "Aleman-Gomez, Y.",
+        "Wang, Q.",
+        "Jedynak, M.",
+        "Chan, C. H. M.",
+        "Cionca, A.",
+        "Van De Ville, D.",
+        "David, O.",
+        "Hagmann, P.",
+        "Jelescu, I."
+      ],
+      "categories": [
+        "neuroscience"
+      ],
+      "citation_count": null,
+      "classic_status": null,
+      "code_url": null,
+      "deep_read_note_url": null,
+      "difficulty": null,
+      "enrichment_sources": [],
+      "existing_note_url": null,
+      "external_ids": {
+        "DOI": "10.64898/2026.05.19.726180"
+      },
+      "field": null,
+      "fields_of_study": [
+        "Neuroscience"
+      ],
+      "id": "biorxiv:10.64898/2026.05.19.726180",
+      "identifiers": {
+        "DOI": "10.64898/2026.05.19.726180",
+        "doi": "10.64898/2026.05.19.726180",
+        "server": "biorxiv"
+      },
+      "influential_citation_count": null,
+      "institutions": [],
+      "latest_note_url": null,
+      "note_count": 0,
+      "open_access_pdf_url": null,
+      "pdf_url": null,
+      "project_url": null,
+      "published_at": "2026-09-02",
+      "published_date": "2026-09-02",
+      "reading_advice": "save_for_later",
+      "reading_status": "backlog",
+      "recommendation_level": "B",
+      "score": 0.653,
+      "scores": {
+        "classic_value": 0.35,
+        "engineering_transferability": 0.48,
+        "recency": 0.78,
+        "source_quality": 0.68,
+        "total": 0.653,
+        "user_relevance": 0.75
+      },
+      "selected_for_s_level": false,
+      "source": "biorxiv",
+      "source_group": "cognition_social",
+      "source_type": "recent_7d",
+      "source_url": "https://doi.org/10.64898/2026.05.19.726180",
+      "suggested_note_title": null,
+      "suggested_note_type": null,
+      "tags": [
+        "neuroscience",
+        "cognition_social",
+        "biorxiv"
+      ],
+      "title": "The microstructure-weighted human connectome: network properties and structure-function correlations across spatial scales",
+      "title_zh": null,
+      "topics": [
+        "cognition"
+      ],
+      "url": "https://doi.org/10.64898/2026.05.19.726180",
+      "venue": "bioRxiv",
+      "why_recommended": "Ranked by recency signal across configured topics."
+    },
+    {
+      "abstract": "Understanding how physical stimuli map onto perceptual experience is the founding goal of psychophysics. Insights into this process have primarily relied on measurements of sensitivity, how finely people tell stimuli apart, but these cannot identify the internal noise distribution underlying perception because they cannot separate it from signal amplification. Here, using visual contrast, we show that the trial-to-trial variability of subjective ratings derived from magnitude estimation, where people rate stimulus intensity with numbers, provides access to this noise. We validated this estimate by demonstrating that the analysis of this variability alongside mean responses reveals an internal representation comprising a sigmoidal response function and Poisson-like noise that quantitatively predicts sensitivity without free parameters. These predictions include the classic phenomena of the pedestal effect and Weber's law, which we can now trace back to the response nonlinearities and signal-dependent noise. These findings establish subjective rating variability as a behavioral measure of internal noise.",
+      "authors": [
+        "Rodriguez-Arribas, C.",
+        "Lopez-Moliner, J.",
+        "Linares, D."
+      ],
+      "categories": [
+        "neuroscience"
+      ],
+      "citation_count": null,
+      "classic_status": null,
+      "code_url": null,
+      "deep_read_note_url": null,
+      "difficulty": null,
+      "enrichment_sources": [],
+      "existing_note_url": null,
+      "external_ids": {
+        "DOI": "10.64898/2026.03.02.709083"
+      },
+      "field": null,
+      "fields_of_study": [
+        "Neuroscience"
+      ],
+      "id": "biorxiv:10.64898/2026.03.02.709083",
+      "identifiers": {
+        "DOI": "10.64898/2026.03.02.709083",
+        "doi": "10.64898/2026.03.02.709083",
+        "server": "biorxiv"
+      },
+      "influential_citation_count": null,
+      "institutions": [],
+      "latest_note_url": null,
+      "note_count": 0,
+      "open_access_pdf_url": null,
+      "pdf_url": null,
+      "project_url": null,
+      "published_at": "2026-09-02",
+      "published_date": "2026-09-02",
+      "reading_advice": "save_for_later",
+      "reading_status": "backlog",
+      "recommendation_level": "B",
+      "score": 0.653,
+      "scores": {
+        "classic_value": 0.35,
+        "engineering_transferability": 0.48,
+        "recency": 0.78,
+        "source_quality": 0.68,
+        "total": 0.653,
+        "user_relevance": 0.75
+      },
+      "selected_for_s_level": false,
+      "source": "biorxiv",
+      "source_group": "cognition_social",
+      "source_type": "recent_7d",
+      "source_url": "https://doi.org/10.64898/2026.03.02.709083",
+      "suggested_note_title": null,
+      "suggested_note_type": null,
+      "tags": [
+        "neuroscience",
+        "cognition_social",
+        "biorxiv"
+      ],
+      "title": "Magnitude estimation reveals Poisson-like noise underlying perception",
+      "title_zh": null,
+      "topics": [
+        "cognition"
+      ],
+      "url": "https://doi.org/10.64898/2026.03.02.709083",
+      "venue": "bioRxiv",
+      "why_recommended": "Ranked by recency signal across configured topics."
+    }
+  ],
+  "public_json_version": "0.4",
+  "s_level_candidate_ids": [],
+  "s_level_paper_id": null,
+  "source_mode_summary": {
+    "recent_7d": 6
+  },
+  "summary": "Selected 6 papers: 6 recent candidates and 0 classic fallback items."
+}

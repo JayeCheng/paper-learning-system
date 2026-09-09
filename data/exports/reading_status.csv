@@ -233,10 +233,14 @@ arxiv:2609.05415v1,backlog,medium,,2026-09-08T00:12:13+00:00,UniMate: One Unifie
 biorxiv:10.1101/2025.01.03.631260,backlog,medium,,2026-08-30T00:10:37+00:00,Reactivation of a dormant developmental plasticity program drives synaptic rejuvenation and antidepressant-like responses,cognition_social,B
 biorxiv:10.1101/2025.03.24.645008,backlog,medium,,2026-08-30T00:10:37+00:00,Combined MEG and EEG suggest a limbic source network of the P3 including retrosplenial cortex and hippocampus,cognition_social,B
 biorxiv:10.1101/2025.05.30.657074,backlog,medium,,2026-08-27T03:05:37+00:00,Molecular logic of pheromone recognition enables rational design of insect behavior modulators,cognition_social,B
+biorxiv:10.1101/2025.08.06.668906,backlog,medium,,2026-09-09T00:05:20+00:00,Precision Functional Mapping of Imagined and Experienced Pain,cognition_social,B
 biorxiv:10.1101/2025.09.22.677693,backlog,medium,,2026-08-30T00:10:37+00:00,Emergence of Functional Heart-Brain Circuits in a Vertebrate,cognition_social,B
 biorxiv:10.1101/2025.10.29.684686,backlog,medium,,2026-08-27T03:05:37+00:00,Biased projection neuron-Kenyon cell connectivity shapes odor representations and learning in the Drosophila mushroom body,cognition_social,B
 biorxiv:10.1101/2025.11.17.25338859,backlog,medium,,2026-09-03T00:05:52+00:00,Towards a participatory European social contact observatory,cognition_social,B
+biorxiv:10.64898/2026.03.02.709083,backlog,medium,,2026-09-09T00:05:20+00:00,Magnitude estimation reveals Poisson-like noise underlying perception,cognition_social,B
 biorxiv:10.64898/2026.05.14.725265,backlog,medium,,2026-08-30T00:10:37+00:00,Appetite for change: How nutritional state and ventral striatal dopamine shape psilocybin effects on cognitive flexibility,cognition_social,B
+biorxiv:10.64898/2026.05.19.726180,backlog,medium,,2026-09-09T00:05:20+00:00,The microstructure-weighted human connectome: network properties and structure-function correlations across spatial scales,cognition_social,B
+biorxiv:10.64898/2026.05.27.728254,backlog,medium,,2026-09-09T00:05:20+00:00,iClima: a ratiometric genetically encoded sensor for optical imaging of fast GABAergic chloride currents in vitro and in vivo,cognition_social,B
 biorxiv:10.64898/2026.06.29.731229,backlog,medium,,2026-09-03T23:58:23+00:00,Two fundamental timescales organize human vocal behavior,cognition_social,B
 biorxiv:10.64898/2026.08.14.744902,backlog,medium,,2026-08-27T03:05:37+00:00,Proficiency-Dependent Reorganisation of Language and Control Networks during Second Language Processing: An fMRI Study of Korean-English Bilinguals,cognition_social,B
 biorxiv:10.64898/2026.08.17.745290,backlog,medium,,2026-08-27T03:05:37+00:00,Brain pericytes exhibit spatially organized and dynamically regulated molecular heterogeneity,cognition_social,B
@@ -249,6 +253,8 @@ biorxiv:10.64898/2026.08.24.26361036,backlog,medium,,2026-09-03T00:05:52+00:00,A
 biorxiv:10.64898/2026.08.24.26361203,backlog,medium,,2026-09-03T00:05:52+00:00,"Health, behavioural, and social correlates of depressive symptoms among Brazilian adults: a preregistered exposure-wide association study with discovery and replication in two independent nationally representative cross-sectional surveys",cognition_social,B
 biorxiv:10.64898/2026.08.24.26361239,backlog,medium,,2026-09-03T00:05:52+00:00,Exercise Capacity and Mental Health in Adults With a Systemic Right Ventricle,cognition_social,B
 biorxiv:10.64898/2026.08.25.26361327,backlog,medium,,2026-09-03T00:05:52+00:00,Psychosocial Health Inequalities and Socioeconomic Deprivation Gradients Among Preschool Children in Care and Not in Care: An Administrative Health Data Study,cognition_social,B
+biorxiv:10.64898/2026.08.25.747062,backlog,medium,,2026-09-09T00:05:20+00:00,A neuro-computational approximation of the qualities of mental images,cognition_social,B
+biorxiv:10.64898/2026.08.26.747434,backlog,medium,,2026-09-09T00:05:20+00:00,Linoleic Acid-Lyso PG Axis promoting lipid droplet-mitochondria tethering by stabilizing Noncanonically Mitochondrial PPAR β/δ to Ameliorate Microglial Dysfunction in subarachnoid hemorrhage,cognition_social,B
 classic:architecture:cache-coherence-and-shared-memory-multiprocessors,backlog,medium,,2026-07-09T09:46:00+00:00,Cache coherence and shared-memory multiprocessors,architecture,B
 classic:architecture:the-memory-hierarchy-and-locality,backlog,medium,,2026-07-09T09:46:00+00:00,The memory hierarchy and locality,architecture,B
 classic:cognition:attention-and-working-memory,backlog,medium,,2026-07-09T09:46:00+00:00,Attention and working memory,cognition,B
