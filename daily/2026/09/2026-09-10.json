@@ -1,0 +1,465 @@
+{
+  "date": "2026-09-10",
+  "frontend_entry": "data/public/latest.json",
+  "generated_at": "2026-09-10T00:06:24+00:00",
+  "generated_paths": {
+    "exports_csv": "data/exports/papers.csv",
+    "exports_daily_csv": "data/exports/daily_papers.csv",
+    "exports_jsonl": "data/exports/papers.jsonl",
+    "exports_notes_index": "data/exports/notes_index.csv",
+    "exports_reading_status": "data/exports/reading_status.csv",
+    "json": "daily/2026/09/2026-09-10.json",
+    "markdown": "daily/2026/09/2026-09-10.md",
+    "public_curriculum_progress": "data/public/curriculum_progress.json",
+    "public_daily_index": "data/public/daily_index.json",
+    "public_knowledge_graph": "data/public/knowledge_graph.json",
+    "public_latest": "data/public/latest.json",
+    "public_notes_index": "data/public/notes_index.json",
+    "public_papers_index": "data/public/papers_index.json",
+    "public_reading_status": "data/public/reading_status.json",
+    "state_notes_index": "data/state/notes_index.json",
+    "state_papers": "data/state/papers.jsonl",
+    "state_reading_status": "data/state/reading_status.json",
+    "state_run_history": "data/state/run_history.json"
+  },
+  "knowledge_graph_delta": [
+    "paper:arxiv:2609.09145v1",
+    "paper:arxiv:2609.09123v1",
+    "paper:arxiv:2609.08682v1",
+    "paper:arxiv:2609.09133v1",
+    "paper:arxiv:2609.09115v1",
+    "paper:arxiv:2609.09112v1"
+  ],
+  "learning_route_position": "v0.4 GitHub-owned note bridge",
+  "next_actions": [
+    "Review S-level candidate",
+    "Update reading status after skim",
+    "Promote durable concepts into the knowledge graph"
+  ],
+  "papers": [
+    {
+      "abstract": "We introduce Point4D, a feed-forward model for 4D reconstruction of long-range video sequences. Point4D is able to reliably infer dense per-point 3D trajectories across multi-hundred-frame videos, unlike existing 4D methods that are limited to short input windows of at most a few dozen frames. A key innovation that enables this is our flexible 3D query-based motion decoder that decouples trajectory prediction from image-plane visibility. The predicted 3D endpoints are then directly re-queried in the next chunk without re-projection or matching. Furthermore, we show that extracting and reusing a visual descriptor from an arbitrary frame where the point is visible leads to better performance than relying solely on the source patch. Overall, Point4D achieves state-of-the-art performance across diverse long-video tracking benchmarks spanning over 200 frames and largely outperforms previous feed-forward 4D method. Project page: https://point-4d.github.io",
+      "authors": [
+        "Minsik Jeon",
+        "Jay Karhade",
+        "Deva Ramanan",
+        "Shubham Tulsiani"
+      ],
+      "categories": [
+        "cs.CV"
+      ],
+      "citation_count": null,
+      "classic_status": null,
+      "code_url": null,
+      "deep_read_note_url": null,
+      "difficulty": null,
+      "enrichment_sources": [],
+      "existing_note_url": null,
+      "external_ids": {},
+      "field": null,
+      "fields_of_study": [],
+      "id": "arxiv:2609.09145v1",
+      "identifiers": {
+        "arxiv_id": "2609.09145v1"
+      },
+      "influential_citation_count": null,
+      "institutions": [],
+      "latest_note_url": null,
+      "note_count": 0,
+      "open_access_pdf_url": null,
+      "pdf_url": "https://arxiv.org/pdf/2609.09145v1",
+      "project_url": "https://point-4d.github.io",
+      "published_at": "2026-09-08",
+      "published_date": "2026-09-08",
+      "reading_advice": "save_for_later",
+      "reading_status": "backlog",
+      "recommendation_level": "B",
+      "score": 0.692,
+      "scores": {
+        "classic_value": 0.35,
+        "engineering_transferability": 0.6,
+        "recency": 0.78,
+        "source_quality": 0.78,
+        "total": 0.692,
+        "user_relevance": 0.75
+      },
+      "selected_for_s_level": false,
+      "source": "arxiv",
+      "source_group": "gpu_graphics",
+      "source_type": "recent_7d",
+      "source_url": "http://arxiv.org/abs/2609.09145v1",
+      "suggested_note_title": null,
+      "suggested_note_type": null,
+      "tags": [
+        "cs.CV"
+      ],
+      "title": "Point4D: Long-range 4D Motion Reconstruction",
+      "title_zh": null,
+      "topics": [
+        "gpu_graphics"
+      ],
+      "url": "http://arxiv.org/abs/2609.09145v1",
+      "venue": null,
+      "why_recommended": "Ranked by recency signal across configured topics."
+    },
+    {
+      "abstract": "Autoregressive (AR) video diffusion models have shown great potential in real-time video generation. Recent methods distill pretrained bidirectional video diffusion models into causal AR students through Distribution Matching Distillation (DMD), but the generated videos often suffer from over-saturation and over-smoothing issues, resulting in limited visual quality and realism. The key contributing factor is the mode-seeking behavior of the reverse KL objective in DMD, which can cause the student distribution to collapse onto only a few modes of the teacher distribution. To address this, we propose Mask Forcing, a Dual-Noise Masking Rollout strategy that perturbs the AR student self-rollout to mitigate mode collapse induced by reverse-KL mode seeking. The core idea is to inject cleaner signals into noisy rollout inputs via random masks along spatial and temporal axes during the self-rollout process of AR diffusion distillation. Such perturbations encourage the student rollouts to explore more regions of the teacher distribution, allowing DMD to provide learning signals beyond the modes already covered by the student. Moreover, the cleaner tokens act as denoising guidance for other noisier tokens, improving the intermediate rollout predictions and reducing error accumulation. Extensive experiments demonstrate that our method improves multiple AR video diffusion distillation methods with higher visual quality efficiently, without incorporating real video data or additional post-training stages.",
+      "authors": [
+        "Zhuoran Zhao",
+        "Shengju Qian",
+        "Tongtong Liang",
+        "Xianghao Kong",
+        "Songchun Zhang",
+        "Junchao Huang",
+        "Guian Fang",
+        "Xin Wang",
+        "Pan Hui",
+        "Anyi Rao"
+      ],
+      "categories": [
+        "cs.CV"
+      ],
+      "citation_count": null,
+      "classic_status": null,
+      "code_url": null,
+      "deep_read_note_url": null,
+      "difficulty": null,
+      "enrichment_sources": [],
+      "existing_note_url": null,
+      "external_ids": {},
+      "field": null,
+      "fields_of_study": [],
+      "id": "arxiv:2609.09123v1",
+      "identifiers": {
+        "arxiv_id": "2609.09123v1"
+      },
+      "influential_citation_count": null,
+      "institutions": [],
+      "latest_note_url": null,
+      "note_count": 0,
+      "open_access_pdf_url": null,
+      "pdf_url": "https://arxiv.org/pdf/2609.09123v1",
+      "project_url": "https://alicezrzhao.github.io/mask_forcing/",
+      "published_at": "2026-09-08",
+      "published_date": "2026-09-08",
+      "reading_advice": "save_for_later",
+      "reading_status": "backlog",
+      "recommendation_level": "B",
+      "score": 0.692,
+      "scores": {
+        "classic_value": 0.35,
+        "engineering_transferability": 0.6,
+        "recency": 0.78,
+        "source_quality": 0.78,
+        "total": 0.692,
+        "user_relevance": 0.75
+      },
+      "selected_for_s_level": false,
+      "source": "arxiv",
+      "source_group": "gpu_graphics",
+      "source_type": "recent_7d",
+      "source_url": "http://arxiv.org/abs/2609.09123v1",
+      "suggested_note_title": null,
+      "suggested_note_type": null,
+      "tags": [
+        "cs.CV"
+      ],
+      "title": "Mask Forcing: Improving Autoregressive Video Diffusion Distillation via Dual-Noise Masking Rollout",
+      "title_zh": null,
+      "topics": [
+        "gpu_graphics"
+      ],
+      "url": "http://arxiv.org/abs/2609.09123v1",
+      "venue": null,
+      "why_recommended": "Ranked by recency signal across configured topics."
+    },
+    {
+      "abstract": "Mixture-of-Experts (MoE) architectures have become a key technique for scaling Large Language Models (LLMs), enabling high model capacity with reduced computational cost. However, this efficiency comes at the expense of increased memory capacity and bandwidth demands. Recent 3D Near-Memory Processing (NMP) architectures, which vertically integrate memory and compute through hybrid bonding, provide high internal bandwidth and energy efficiency, making them attractive for accelerating MoE inference. Nevertheless, the distributed memory and compute organization of NMP systems introduces new challenges for mapping MoE workloads. Existing parallelization strategies, such as Tensor Parallelism (TP) and Expert Parallelism (EP), suffer from either high communication costs or unbalanced computation utilization, leading to inferior efficiency. In addition, the dynamic routing behavior of MoE models further complicates efficient deployment. To address these challenges, we present HDA-MoE, a framework that optimizes MoE execution on NMP architectures through hybrid parallel deployment and runtime scheduling. HDA-MoE integrates an offline hybrid parallel mapping algorithm with an online dynamic and adaptive scheduling mechanism to reduce communication overhead while improving computation utilization. Experimental results show that HDA-MoE achieves a speedup of 1.1x--3.4x over TP, 1.1x--1.5x over EP, 1.1x--3.7x over the Hybrid TP-EP compute-balanced baseline, and 1.1x--1.3x over HD-MoE. Source code is available at https://github.com/PKU-SEC-Lab/HDA-MoE-TCAD26.",
+      "authors": [
+        "Haochen Huang",
+        "Shuzhang Zhong",
+        "Shengxuan Qiu",
+        "Zhe Zhang",
+        "Shuangchen Li",
+        "Cong Li",
+        "Dimin Niu",
+        "Hongzhong Zheng",
+        "Guangyu Sun",
+        "Runsheng Wang",
+        "Meng Li"
+      ],
+      "categories": [
+        "cs.AR"
+      ],
+      "citation_count": null,
+      "classic_status": null,
+      "code_url": "https://github.com/PKU-SEC-Lab/HDA-MoE-TCAD26",
+      "deep_read_note_url": null,
+      "difficulty": null,
+      "enrichment_sources": [],
+      "existing_note_url": null,
+      "external_ids": {},
+      "field": null,
+      "fields_of_study": [],
+      "id": "arxiv:2609.08682v1",
+      "identifiers": {
+        "arxiv_id": "2609.08682v1"
+      },
+      "influential_citation_count": null,
+      "institutions": [],
+      "latest_note_url": null,
+      "note_count": 0,
+      "open_access_pdf_url": null,
+      "pdf_url": "https://arxiv.org/pdf/2609.08682v1",
+      "project_url": null,
+      "published_at": "2026-09-08",
+      "published_date": "2026-09-08",
+      "reading_advice": "quick_read",
+      "reading_status": "backlog",
+      "recommendation_level": "A",
+      "score": 0.762,
+      "scores": {
+        "classic_value": 0.35,
+        "engineering_transferability": 0.9500000000000001,
+        "recency": 0.78,
+        "source_quality": 0.78,
+        "total": 0.762,
+        "user_relevance": 0.75
+      },
+      "selected_for_s_level": false,
+      "source": "arxiv",
+      "source_group": "architecture",
+      "source_type": "recent_7d",
+      "source_url": "http://arxiv.org/abs/2609.08682v1",
+      "suggested_note_title": null,
+      "suggested_note_type": null,
+      "tags": [
+        "cs.AR"
+      ],
+      "title": "HDA-MoE: Hybrid Parallelism and Dynamic, Adaptive Scheduling for Mixture-of-Experts with 3D Near-Memory Processing",
+      "title_zh": null,
+      "topics": [
+        "architecture"
+      ],
+      "url": "http://arxiv.org/abs/2609.08682v1",
+      "venue": null,
+      "why_recommended": "Ranked by engineering transferability signal across configured topics."
+    },
+    {
+      "abstract": "Execution feedback can guide coding agents toward correct repository repairs, but only when the tests capture the behavior requested by the issue. Agent-generated tests can encode incomplete or incorrect behavioral targets; when the same trajectory writes both the patch and the test, their errors can agree and create false confidence. We introduce ExecCritic, combining a test--verify--revise scaffold with a role-specific reinforcement learning recipe for training agents within it. The scaffold separates test construction from source-code repair: a Test agent independently generates repository-native tests, a fail-closed harness qualifies and freezes them, and a Repair agent revises source code from their execution feedback without changing the tests. Both roles use Qwen-3.5-35B-A3B as the backbone and are trained separately. In Learn to Test, the Test agent learns to produce behaviorally valid tests that distinguish correct from incorrect patches. In Test to Improve, the Repair agent learns both direct task resolution and feedback-guided revision. On SWE-bench Verified, test quality determines whether feedback helps: holding the base Repair agent fixed, tests from the base Test agent reduce resolved rate from a no-test baseline of 61.2% to 57.3%, whereas tests from GPT-5.6-sol raise it to 65.3%. Role-specific post-training raises the Qwen Test agent's Base-to-Gold success from 22.2% to 62.2%; composing the two post-trained Qwen agents reaches 72.6%, an 11.4-point gain over the original no-test baseline without stronger-model or Oracle feedback at evaluation time. Code is publicly available at https://github.com/MSR-Orchard/execcritic.",
+      "authors": [
+        "Leitian Tao",
+        "Baolin Peng",
+        "Haorui Wang",
+        "Hang Wang",
+        "Hao Cheng",
+        "Wenlin Yao",
+        "Qianhui Wu",
+        "Tao Ge",
+        "Sharon Li",
+        "Jianfeng Gao"
+      ],
+      "categories": [
+        "cs.AI",
+        "cs.CL",
+        "cs.SE"
+      ],
+      "citation_count": null,
+      "classic_status": null,
+      "code_url": "https://github.com/MSR-Orchard/execcritic",
+      "deep_read_note_url": null,
+      "difficulty": null,
+      "enrichment_sources": [],
+      "existing_note_url": null,
+      "external_ids": {},
+      "field": null,
+      "fields_of_study": [],
+      "id": "arxiv:2609.09133v1",
+      "identifiers": {
+        "arxiv_id": "2609.09133v1"
+      },
+      "influential_citation_count": null,
+      "institutions": [],
+      "latest_note_url": null,
+      "note_count": 0,
+      "open_access_pdf_url": null,
+      "pdf_url": "https://arxiv.org/pdf/2609.09133v1",
+      "project_url": null,
+      "published_at": "2026-09-08",
+      "published_date": "2026-09-08",
+      "reading_advice": "quick_read",
+      "reading_status": "backlog",
+      "recommendation_level": "A",
+      "score": 0.762,
+      "scores": {
+        "classic_value": 0.35,
+        "engineering_transferability": 0.9500000000000001,
+        "recency": 0.78,
+        "source_quality": 0.78,
+        "total": 0.762,
+        "user_relevance": 0.75
+      },
+      "selected_for_s_level": false,
+      "source": "arxiv",
+      "source_group": "llm_agent",
+      "source_type": "recent_7d",
+      "source_url": "http://arxiv.org/abs/2609.09133v1",
+      "suggested_note_title": null,
+      "suggested_note_type": null,
+      "tags": [
+        "cs.AI",
+        "cs.CL",
+        "cs.SE"
+      ],
+      "title": "ExecCritic: Learn to Test, Test to Improve for Coding Agents",
+      "title_zh": null,
+      "topics": [
+        "llm_agent"
+      ],
+      "url": "http://arxiv.org/abs/2609.09133v1",
+      "venue": null,
+      "why_recommended": "Ranked by engineering transferability signal across configured topics."
+    },
+    {
+      "abstract": "Long horizon Large Language Model (LLM) agents rely on external memory systems to preserve user preferences and task knowledge across extended interactions. Conventional retrieval mechanisms optimize semantic compatibility rather than downstream utility, frequently introducing outdated, misleading, or conflicting evidence into the active context. We present MeClear, a task conditioned memory clearance framework that identifies memories featuring negative downstream utility through cooperative attribution and selectively suppresses them from agent execution. MeClear combines Leave One Out screening with sampled cooperative Shapley attribution to distribute utility across interacting evidence, effectively resolving redundant conflict masking where single removal evaluations fail. Utilizing attribution rankings, MeClear executes a query scoped minimal clearance strategy over a nested filtration, verifying task recovery on the cleared context without permanently altering the persistent memory bank. Comprehensive experimental evaluations across ten long dialogue memory pools demonstrate that MeClear achieves a target recall of 85.9% and an overall task recovery rate of 82.3%, representing a 25.5 percentage point improvement over Leave One Out (LOO) baselines.",
+      "authors": [
+        "Boyu Yang",
+        "Jiazheng Sun",
+        "Zilong Lu",
+        "Zhi Qiu",
+        "Xin Peng",
+        "Jun Zheng"
+      ],
+      "categories": [
+        "cs.AI",
+        "cs.SE"
+      ],
+      "citation_count": null,
+      "classic_status": null,
+      "code_url": null,
+      "deep_read_note_url": null,
+      "difficulty": null,
+      "enrichment_sources": [],
+      "existing_note_url": null,
+      "external_ids": {},
+      "field": null,
+      "fields_of_study": [],
+      "id": "arxiv:2609.09115v1",
+      "identifiers": {
+        "arxiv_id": "2609.09115v1"
+      },
+      "influential_citation_count": null,
+      "institutions": [],
+      "latest_note_url": null,
+      "note_count": 0,
+      "open_access_pdf_url": null,
+      "pdf_url": "https://arxiv.org/pdf/2609.09115v1",
+      "project_url": null,
+      "published_at": "2026-09-08",
+      "published_date": "2026-09-08",
+      "reading_advice": "save_for_later",
+      "reading_status": "backlog",
+      "recommendation_level": "B",
+      "score": 0.732,
+      "scores": {
+        "classic_value": 0.35,
+        "engineering_transferability": 0.8,
+        "recency": 0.78,
+        "source_quality": 0.78,
+        "total": 0.732,
+        "user_relevance": 0.75
+      },
+      "selected_for_s_level": false,
+      "source": "arxiv",
+      "source_group": "llm_agent",
+      "source_type": "recent_7d",
+      "source_url": "http://arxiv.org/abs/2609.09115v1",
+      "suggested_note_title": null,
+      "suggested_note_type": null,
+      "tags": [
+        "cs.AI",
+        "cs.SE"
+      ],
+      "title": "MeClear: Cooperative Game-Theoretic Attribution and Risk-Aware Memory Clearance for Long-Horizon LLM Agents",
+      "title_zh": null,
+      "topics": [
+        "llm_agent"
+      ],
+      "url": "http://arxiv.org/abs/2609.09115v1",
+      "venue": null,
+      "why_recommended": "Ranked by engineering transferability signal across configured topics."
+    },
+    {
+      "abstract": "These days we are witnessing many mobile applications based on the recommended systems, which have become a great technology which is been used by the various mobile applications according to the situation. Recommendation provided by the mobile application is a key element for the person who is traveling to several places. For any tourist information application contextual information is much needed to guide the user on his interests this can be achieved by the Context-aware computing. Which provides the user most interactive system with the suggestions provided by it based on the input from the user in a certain location, here context includes the user's mental, social, physical environments. To achieve this contextual information, we will design and implement the context-aware user interface based on the user for which we have to study the user and design a rich user interface. The final outcome for which users have the satisfaction when using context-aware functionality will be much better than non-context-aware application.",
+      "authors": [
+        "K Sai Karthik",
+        "CH Naveen Aaditya",
+        "Ravi Kiran",
+        "Swarnalatha P"
+      ],
+      "categories": [
+        "cs.HC"
+      ],
+      "citation_count": null,
+      "classic_status": null,
+      "code_url": null,
+      "deep_read_note_url": null,
+      "difficulty": null,
+      "enrichment_sources": [],
+      "existing_note_url": null,
+      "external_ids": {},
+      "field": null,
+      "fields_of_study": [],
+      "id": "arxiv:2609.09112v1",
+      "identifiers": {
+        "arxiv_id": "2609.09112v1"
+      },
+      "influential_citation_count": null,
+      "institutions": [],
+      "latest_note_url": null,
+      "note_count": 0,
+      "open_access_pdf_url": null,
+      "pdf_url": "https://arxiv.org/pdf/2609.09112v1",
+      "project_url": null,
+      "published_at": "2026-09-08",
+      "published_date": "2026-09-08",
+      "reading_advice": "save_for_later",
+      "reading_status": "backlog",
+      "recommendation_level": "B",
+      "score": 0.662,
+      "scores": {
+        "classic_value": 0.35,
+        "engineering_transferability": 0.45,
+        "recency": 0.78,
+        "source_quality": 0.78,
+        "total": 0.662,
+        "user_relevance": 0.75
+      },
+      "selected_for_s_level": false,
+      "source": "arxiv",
+      "source_group": "cognition_social",
+      "source_type": "recent_7d",
+      "source_url": "http://arxiv.org/abs/2609.09112v1",
+      "suggested_note_title": null,
+      "suggested_note_type": null,
+      "tags": [
+        "cs.HC"
+      ],
+      "title": "Travel Package Booking Application with API Bot",
+      "title_zh": null,
+      "topics": [
+        "cognition"
+      ],
+      "url": "http://arxiv.org/abs/2609.09112v1",
+      "venue": null,
+      "why_recommended": "Ranked by recency signal across configured topics."
+    }
+  ],
+  "public_json_version": "0.4",
+  "s_level_candidate_ids": [],
+  "s_level_paper_id": null,
+  "source_mode_summary": {
+    "recent_7d": 6
+  },
+  "summary": "Selected 6 papers: 6 recent candidates and 0 classic fallback items."
+}

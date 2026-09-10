@@ -230,6 +230,12 @@ arxiv:2609.05335v1,backlog,medium,,2026-09-08T00:12:13+00:00,"The History Is the
 arxiv:2609.05347v1,backlog,medium,,2026-09-08T00:12:13+00:00,TherMosaic: Accelerating Perceived Thermal Transitions Through Spatiotemporal Thermal Feedback,cognition_social,B
 arxiv:2609.05364v1,backlog,medium,,2026-09-08T00:12:13+00:00,Design Docs Are All You Need: An AI-native Machine-Learning Performance Tool,llm_agent,B
 arxiv:2609.05415v1,backlog,medium,,2026-09-08T00:12:13+00:00,UniMate: One Unified Model to Animate Diverse Skeletons,gpu_graphics,B
+arxiv:2609.08682v1,backlog,medium,,2026-09-10T00:06:24+00:00,"HDA-MoE: Hybrid Parallelism and Dynamic, Adaptive Scheduling for Mixture-of-Experts with 3D Near-Memory Processing",architecture,A
+arxiv:2609.09112v1,backlog,medium,,2026-09-10T00:06:24+00:00,Travel Package Booking Application with API Bot,cognition_social,B
+arxiv:2609.09115v1,backlog,medium,,2026-09-10T00:06:24+00:00,MeClear: Cooperative Game-Theoretic Attribution and Risk-Aware Memory Clearance for Long-Horizon LLM Agents,llm_agent,B
+arxiv:2609.09123v1,backlog,medium,,2026-09-10T00:06:24+00:00,Mask Forcing: Improving Autoregressive Video Diffusion Distillation via Dual-Noise Masking Rollout,gpu_graphics,B
+arxiv:2609.09133v1,backlog,medium,,2026-09-10T00:06:24+00:00,"ExecCritic: Learn to Test, Test to Improve for Coding Agents",llm_agent,A
+arxiv:2609.09145v1,backlog,medium,,2026-09-10T00:06:24+00:00,Point4D: Long-range 4D Motion Reconstruction,gpu_graphics,B
 biorxiv:10.1101/2025.01.03.631260,backlog,medium,,2026-08-30T00:10:37+00:00,Reactivation of a dormant developmental plasticity program drives synaptic rejuvenation and antidepressant-like responses,cognition_social,B
 biorxiv:10.1101/2025.03.24.645008,backlog,medium,,2026-08-30T00:10:37+00:00,Combined MEG and EEG suggest a limbic source network of the P3 including retrosplenial cortex and hippocampus,cognition_social,B
 biorxiv:10.1101/2025.05.30.657074,backlog,medium,,2026-08-27T03:05:37+00:00,Molecular logic of pheromone recognition enables rational design of insect behavior modulators,cognition_social,B

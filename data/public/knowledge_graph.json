@@ -2001,6 +2001,48 @@
     {
       "confidence": 0.5,
       "relation": "related_to",
+      "source": "arxiv:2609.08682v1",
+      "target": "architecture"
+    },
+    {
+      "confidence": 0.5,
+      "relation": "related_to",
+      "source": "arxiv:2609.09112v1",
+      "target": "cognition"
+    },
+    {
+      "confidence": 0.5,
+      "relation": "related_to",
+      "source": "arxiv:2609.09112v1",
+      "target": "cognition_social"
+    },
+    {
+      "confidence": 0.5,
+      "relation": "related_to",
+      "source": "arxiv:2609.09115v1",
+      "target": "llm_agent"
+    },
+    {
+      "confidence": 0.5,
+      "relation": "related_to",
+      "source": "arxiv:2609.09123v1",
+      "target": "gpu_graphics"
+    },
+    {
+      "confidence": 0.5,
+      "relation": "related_to",
+      "source": "arxiv:2609.09133v1",
+      "target": "llm_agent"
+    },
+    {
+      "confidence": 0.5,
+      "relation": "related_to",
+      "source": "arxiv:2609.09145v1",
+      "target": "gpu_graphics"
+    },
+    {
+      "confidence": 0.5,
+      "relation": "related_to",
       "source": "biorxiv:10.1101/2025.01.03.631260",
       "target": "cognition"
     },
@@ -4273,6 +4315,54 @@
       "type": "paper"
     },
     {
+      "id": "arxiv:2609.08682v1",
+      "label": "HDA-MoE: Hybrid Parallelism and Dynamic, Adaptive Scheduling for Mixture-of-Experts with 3D Near-Memory Processing",
+      "topics": [
+        "architecture"
+      ],
+      "type": "paper"
+    },
+    {
+      "id": "arxiv:2609.09112v1",
+      "label": "Travel Package Booking Application with API Bot",
+      "topics": [
+        "cognition"
+      ],
+      "type": "paper"
+    },
+    {
+      "id": "arxiv:2609.09115v1",
+      "label": "MeClear: Cooperative Game-Theoretic Attribution and Risk-Aware Memory Clearance for Long-Horizon LLM Agents",
+      "topics": [
+        "llm_agent"
+      ],
+      "type": "paper"
+    },
+    {
+      "id": "arxiv:2609.09123v1",
+      "label": "Mask Forcing: Improving Autoregressive Video Diffusion Distillation via Dual-Noise Masking Rollout",
+      "topics": [
+        "gpu_graphics"
+      ],
+      "type": "paper"
+    },
+    {
+      "id": "arxiv:2609.09133v1",
+      "label": "ExecCritic: Learn to Test, Test to Improve for Coding Agents",
+      "topics": [
+        "llm_agent"
+      ],
+      "type": "paper"
+    },
+    {
+      "id": "arxiv:2609.09145v1",
+      "label": "Point4D: Long-range 4D Motion Reconstruction",
+      "topics": [
+        "gpu_graphics"
+      ],
+      "type": "paper"
+    },
+    {
       "id": "biorxiv:10.1101/2025.01.03.631260",
       "label": "Reactivation of a dormant developmental plasticity program drives synaptic rejuvenation and antidepressant-like responses",
       "topics": [
@@ -4594,5 +4684,5 @@
     }
   ],
   "public_json_version": "0.4",
-  "updated_at": "2026-09-09T00:05:20+00:00"
+  "updated_at": "2026-09-10T00:06:24+00:00"
 }
