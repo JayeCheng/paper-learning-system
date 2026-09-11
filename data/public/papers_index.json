@@ -18242,13 +18242,13 @@
       "reading_advice": "save_for_later",
       "reading_status": "backlog",
       "recommendation_level": "B",
-      "score": 0.68,
+      "score": 0.719,
       "scores": {
         "classic_value": 1.0,
         "engineering_transferability": 0.8,
         "recency": 0.45,
-        "source_quality": 0.55,
-        "total": 0.68,
+        "source_quality": 0.81,
+        "total": 0.719,
         "user_relevance": 0.75
       },
       "selected_for_s_level": false,
@@ -18301,13 +18301,13 @@
       "reading_advice": "save_for_later",
       "reading_status": "backlog",
       "recommendation_level": "B",
-      "score": 0.68,
+      "score": 0.719,
       "scores": {
         "classic_value": 1.0,
         "engineering_transferability": 0.8,
         "recency": 0.45,
-        "source_quality": 0.55,
-        "total": 0.68,
+        "source_quality": 0.81,
+        "total": 0.719,
         "user_relevance": 0.75
       },
       "selected_for_s_level": false,
@@ -18478,13 +18478,13 @@
       "reading_advice": "save_for_later",
       "reading_status": "backlog",
       "recommendation_level": "B",
-      "score": 0.68,
+      "score": 0.719,
       "scores": {
         "classic_value": 1.0,
         "engineering_transferability": 0.8,
         "recency": 0.45,
-        "source_quality": 0.55,
-        "total": 0.68,
+        "source_quality": 0.81,
+        "total": 0.719,
         "user_relevance": 0.75
       },
       "selected_for_s_level": false,
@@ -18537,13 +18537,13 @@
       "reading_advice": "save_for_later",
       "reading_status": "backlog",
       "recommendation_level": "B",
-      "score": 0.68,
+      "score": 0.719,
       "scores": {
         "classic_value": 1.0,
         "engineering_transferability": 0.8,
         "recency": 0.45,
-        "source_quality": 0.55,
-        "total": 0.68,
+        "source_quality": 0.81,
+        "total": 0.719,
         "user_relevance": 0.75
       },
       "selected_for_s_level": false,
@@ -18596,13 +18596,13 @@
       "reading_advice": "save_for_later",
       "reading_status": "backlog",
       "recommendation_level": "B",
-      "score": 0.61,
+      "score": 0.649,
       "scores": {
         "classic_value": 1.0,
         "engineering_transferability": 0.45,
         "recency": 0.45,
-        "source_quality": 0.55,
-        "total": 0.61,
+        "source_quality": 0.81,
+        "total": 0.649,
         "user_relevance": 0.75
       },
       "selected_for_s_level": false,
@@ -18655,13 +18655,13 @@
       "reading_advice": "save_for_later",
       "reading_status": "backlog",
       "recommendation_level": "B",
-      "score": 0.61,
+      "score": 0.649,
       "scores": {
         "classic_value": 1.0,
         "engineering_transferability": 0.45,
         "recency": 0.45,
-        "source_quality": 0.55,
-        "total": 0.61,
+        "source_quality": 0.81,
+        "total": 0.649,
         "user_relevance": 0.75
       },
       "selected_for_s_level": false,
@@ -18686,5 +18686,5 @@
     }
   ],
   "public_json_version": "0.4",
-  "updated_at": "2026-09-10T00:06:24+00:00"
+  "updated_at": "2026-09-11T00:03:20+00:00"
 }
