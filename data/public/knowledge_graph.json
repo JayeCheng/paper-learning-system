@@ -2103,6 +2103,18 @@
     {
       "confidence": 0.5,
       "relation": "related_to",
+      "source": "biorxiv:10.1101/2025.10.14.25337322",
+      "target": "uncategorized"
+    },
+    {
+      "confidence": 0.5,
+      "relation": "related_to",
+      "source": "biorxiv:10.1101/2025.10.14.25337322",
+      "target": "cognition_social"
+    },
+    {
+      "confidence": 0.5,
+      "relation": "related_to",
       "source": "biorxiv:10.1101/2025.10.29.684686",
       "target": "cognition"
     },
@@ -2139,6 +2151,30 @@
     {
       "confidence": 0.5,
       "relation": "related_to",
+      "source": "biorxiv:10.64898/2026.03.23.26349095",
+      "target": "uncategorized"
+    },
+    {
+      "confidence": 0.5,
+      "relation": "related_to",
+      "source": "biorxiv:10.64898/2026.03.23.26349095",
+      "target": "cognition_social"
+    },
+    {
+      "confidence": 0.5,
+      "relation": "related_to",
+      "source": "biorxiv:10.64898/2026.03.24.26348063",
+      "target": "uncategorized"
+    },
+    {
+      "confidence": 0.5,
+      "relation": "related_to",
+      "source": "biorxiv:10.64898/2026.03.24.26348063",
+      "target": "cognition_social"
+    },
+    {
+      "confidence": 0.5,
+      "relation": "related_to",
       "source": "biorxiv:10.64898/2026.05.14.725265",
       "target": "cognition"
     },
@@ -2175,6 +2211,18 @@
     {
       "confidence": 0.5,
       "relation": "related_to",
+      "source": "biorxiv:10.64898/2026.06.03.26354854",
+      "target": "uncategorized"
+    },
+    {
+      "confidence": 0.5,
+      "relation": "related_to",
+      "source": "biorxiv:10.64898/2026.06.03.26354854",
+      "target": "cognition_social"
+    },
+    {
+      "confidence": 0.5,
+      "relation": "related_to",
       "source": "biorxiv:10.64898/2026.06.29.731229",
       "target": "cognition"
     },
@@ -2194,6 +2242,18 @@
       "confidence": 0.5,
       "relation": "related_to",
       "source": "biorxiv:10.64898/2026.08.14.744902",
+      "target": "cognition_social"
+    },
+    {
+      "confidence": 0.5,
+      "relation": "related_to",
+      "source": "biorxiv:10.64898/2026.08.16.26360542",
+      "target": "uncategorized"
+    },
+    {
+      "confidence": 0.5,
+      "relation": "related_to",
+      "source": "biorxiv:10.64898/2026.08.16.26360542",
       "target": "cognition_social"
     },
     {
@@ -2338,6 +2398,18 @@
       "confidence": 0.5,
       "relation": "related_to",
       "source": "biorxiv:10.64898/2026.08.26.747434",
+      "target": "cognition_social"
+    },
+    {
+      "confidence": 0.5,
+      "relation": "related_to",
+      "source": "biorxiv:10.64898/2026.09.02.26362017",
+      "target": "uncategorized"
+    },
+    {
+      "confidence": 0.5,
+      "relation": "related_to",
+      "source": "biorxiv:10.64898/2026.09.02.26362017",
       "target": "cognition_social"
     },
     {
@@ -4403,6 +4475,14 @@
       "type": "paper"
     },
     {
+      "id": "biorxiv:10.1101/2025.10.14.25337322",
+      "label": "Deep Learning-Driven Pattern Analysis of Dried E. coli-Laden Urine Deposits for Point-of-Care Diagnostics",
+      "topics": [
+        "uncategorized"
+      ],
+      "type": "paper"
+    },
+    {
       "id": "biorxiv:10.1101/2025.10.29.684686",
       "label": "Biased projection neuron-Kenyon cell connectivity shapes odor representations and learning in the Drosophila mushroom body",
       "topics": [
@@ -4423,6 +4503,22 @@
       "label": "Magnitude estimation reveals Poisson-like noise underlying perception",
       "topics": [
         "cognition"
+      ],
+      "type": "paper"
+    },
+    {
+      "id": "biorxiv:10.64898/2026.03.23.26349095",
+      "label": "Ancestry-specific effects of APOE on Alzheimer Disease Endophenotypes",
+      "topics": [
+        "uncategorized"
+      ],
+      "type": "paper"
+    },
+    {
+      "id": "biorxiv:10.64898/2026.03.24.26348063",
+      "label": "Predicting Infant Nonattendance at the Next Recommended Well-Child Visit: Model Development and Validation",
+      "topics": [
+        "uncategorized"
       ],
       "type": "paper"
     },
@@ -4451,6 +4547,14 @@
       "type": "paper"
     },
     {
+      "id": "biorxiv:10.64898/2026.06.03.26354854",
+      "label": "Study Design Indexing in Transition: A Focused Comparison of manual NLM Indexing vs. Transformer-based Automated Models",
+      "topics": [
+        "uncategorized"
+      ],
+      "type": "paper"
+    },
+    {
       "id": "biorxiv:10.64898/2026.06.29.731229",
       "label": "Two fundamental timescales organize human vocal behavior",
       "topics": [
@@ -4463,6 +4567,14 @@
       "label": "Proficiency-Dependent Reorganisation of Language and Control Networks during Second Language Processing: An fMRI Study of Korean-English Bilinguals",
       "topics": [
         "cognition"
+      ],
+      "type": "paper"
+    },
+    {
+      "id": "biorxiv:10.64898/2026.08.16.26360542",
+      "label": "Air sampling in team congregate spaces for early detection of respiratory virus threats at the 2026 FIFA World Cup\u2122",
+      "topics": [
+        "uncategorized"
       ],
       "type": "paper"
     },
@@ -4559,6 +4671,14 @@
       "label": "Linoleic Acid-Lyso PG Axis promoting lipid droplet-mitochondria tethering by stabilizing Noncanonically Mitochondrial PPAR \u03b2/\u03b4 to Ameliorate Microglial Dysfunction in subarachnoid hemorrhage",
       "topics": [
         "cognition"
+      ],
+      "type": "paper"
+    },
+    {
+      "id": "biorxiv:10.64898/2026.09.02.26362017",
+      "label": "A Time-Dependent Diffusion MRI Framework for Clinical Characterisation of Human Brain Cellular Architecture",
+      "topics": [
+        "uncategorized"
       ],
       "type": "paper"
     },
@@ -4684,5 +4804,5 @@
     }
   ],
   "public_json_version": "0.4",
-  "updated_at": "2026-09-11T00:03:20+00:00"
+  "updated_at": "2026-09-12T00:11:42+00:00"
 }

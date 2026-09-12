@@ -1,0 +1,519 @@
+{
+  "date": "2026-09-12",
+  "frontend_entry": "data/public/latest.json",
+  "generated_at": "2026-09-12T00:11:42+00:00",
+  "generated_paths": {
+    "exports_csv": "data/exports/papers.csv",
+    "exports_daily_csv": "data/exports/daily_papers.csv",
+    "exports_jsonl": "data/exports/papers.jsonl",
+    "exports_notes_index": "data/exports/notes_index.csv",
+    "exports_reading_status": "data/exports/reading_status.csv",
+    "json": "daily/2026/09/2026-09-12.json",
+    "markdown": "daily/2026/09/2026-09-12.md",
+    "public_curriculum_progress": "data/public/curriculum_progress.json",
+    "public_daily_index": "data/public/daily_index.json",
+    "public_knowledge_graph": "data/public/knowledge_graph.json",
+    "public_latest": "data/public/latest.json",
+    "public_notes_index": "data/public/notes_index.json",
+    "public_papers_index": "data/public/papers_index.json",
+    "public_reading_status": "data/public/reading_status.json",
+    "state_notes_index": "data/state/notes_index.json",
+    "state_papers": "data/state/papers.jsonl",
+    "state_reading_status": "data/state/reading_status.json",
+    "state_run_history": "data/state/run_history.json"
+  },
+  "knowledge_graph_delta": [
+    "paper:biorxiv:10.64898/2026.08.16.26360542",
+    "paper:biorxiv:10.64898/2026.03.23.26349095",
+    "paper:biorxiv:10.64898/2026.06.03.26354854",
+    "paper:biorxiv:10.64898/2026.09.02.26362017",
+    "paper:biorxiv:10.1101/2025.10.14.25337322",
+    "paper:biorxiv:10.64898/2026.03.24.26348063"
+  ],
+  "learning_route_position": "v0.4 GitHub-owned note bridge",
+  "next_actions": [
+    "Review S-level candidate",
+    "Update reading status after skim",
+    "Promote durable concepts into the knowledge graph"
+  ],
+  "papers": [
+    {
+      "abstract": "BackgroundRespiratory infections are the leading cause of illness at major sporting events, yet surveillance relies on athletes recognising and reporting symptoms, missing asymptomatic, pre-symptomatic and unreported infections. During competitions, teams are housed together and share spaces with members of the broader community. AimTo evaluate whether continuous air sampling with point-of-care testing could detect respiratory-virus nucleic acids in an elite teams congregate spaces during competition, and whether the signals were operationally useful. MethodsProspective, descriptive environmental-surveillance study following the Canadian mens national soccer team across five host cities during the 2026 FIFA World Cup (3 June to 4 July 2026). InBio Apollo bioaerosol samplers ran continuously in up to four team-designated rooms per hotel (physiotherapy, meal, equipment and coaches room or hallway); filters were changed approximately twice daily, eluted on-site and tested with the Cepheid Xpert(R) Xpress SARS-CoV-2/Flu/RSV plus assay. A sample was considered positive if any cycle-threshold (Ct) value was reported, as less than 45, for a target. ResultsOf 174 air filters, 13 yielded detections of viral genetic material (9 SARS-CoV-2, 3 influenza A virus, 1 influenza B virus, 0 RSV). Detections were sparse early and clustered late in the tournament. An influenza A signal appeared the morning a player was sent home febrile, and SARS-CoV-2 signals coincided with visibly ill hotel staff, with signals falling after ill staff were excluded. ConclusionAir sampling with point-of-care testing is feasible in the context of an elite team and can surface behavior-independent viral signals during competition that may offer opportunities for earlier precautionary actions. Key public health messageO_ST_ABSWhat did you want to address in this study and why?C_ST_ABSRespiratory infections are the most common illness at major sporting events, but they are usually found only when someone notices symptoms and reports them. That misses infections in people who feel well or who choose not to say anything. We hypothesized that sampling and quickly testing the air of the shared rooms a national team occupies in a hotel would identify respiratory viruses, and that this could provide a behaviour-independent tool for improving elite athlete health. What have we learnt from this study?Air sampling with same-day testing worked in practice across five host cities and a month of competition. Most samples were negative, but viral genetic material was found in team rooms in every city. Some signals coincided with a febrile player and visibly unwell hotel staff. What are the implications of your findings for public health?Air sampling is a practical way to watch a shared indoor space for respiratory viruses without testing individuals or collecting personal data. When viruses are detected in a room, low-cost precautions such as ventilation, air cleaning or excluding unwell staff can be implemented. The same approach could be used for teams, delegations, and other groups housed together at mass gatherings in Europe and elsewhere.",
+      "authors": [
+        "Simon, D.",
+        "Locksmith, T. J.",
+        "Minor, N. R.",
+        "Emmen, I. E.",
+        "Wilson, N. A.",
+        "O'Connor, E. J.",
+        "O'Connor, S. L.",
+        "O'Connor, D. H."
+      ],
+      "categories": [
+        "infectious diseases"
+      ],
+      "citation_count": null,
+      "classic_status": null,
+      "code_url": null,
+      "deep_read_note_url": null,
+      "difficulty": null,
+      "enrichment_sources": [],
+      "existing_note_url": null,
+      "external_ids": {
+        "DOI": "10.64898/2026.08.16.26360542"
+      },
+      "field": null,
+      "fields_of_study": [
+        "Psychology"
+      ],
+      "id": "biorxiv:10.64898/2026.08.16.26360542",
+      "identifiers": {
+        "DOI": "10.64898/2026.08.16.26360542",
+        "doi": "10.64898/2026.08.16.26360542",
+        "server": "medrxiv"
+      },
+      "influential_citation_count": null,
+      "institutions": [],
+      "latest_note_url": null,
+      "note_count": 0,
+      "open_access_pdf_url": null,
+      "pdf_url": null,
+      "project_url": null,
+      "published_at": "2026-09-05",
+      "published_date": "2026-09-05",
+      "reading_advice": "save_for_later",
+      "reading_status": "backlog",
+      "recommendation_level": "B",
+      "score": 0.653,
+      "scores": {
+        "classic_value": 0.35,
+        "engineering_transferability": 0.48,
+        "recency": 0.78,
+        "source_quality": 0.68,
+        "total": 0.653,
+        "user_relevance": 0.75
+      },
+      "selected_for_s_level": false,
+      "source": "biorxiv",
+      "source_group": "cognition_social",
+      "source_type": "recent_7d",
+      "source_url": "https://doi.org/10.64898/2026.08.16.26360542",
+      "suggested_note_title": null,
+      "suggested_note_type": null,
+      "tags": [
+        "infectious diseases",
+        "cognition_social",
+        "medrxiv"
+      ],
+      "title": "Air sampling in team congregate spaces for early detection of respiratory virus threats at the 2026 FIFA World Cup\u2122",
+      "title_zh": null,
+      "topics": [
+        "uncategorized"
+      ],
+      "url": "https://doi.org/10.64898/2026.08.16.26360542",
+      "venue": "medRxiv",
+      "why_recommended": "Ranked by recency signal across configured topics."
+    },
+    {
+      "abstract": "INTRODUCTIONAPOE*{varepsilon}4 is the strongest genetic risk factor for Alzheimers disease (AD), yet its effect varies across ancestral populations. As plasma biomarkers increasingly inform AD diagnosis, failure to account for both APOE genotype and genetic ancestry could lead to diagnostic misclassification. METHODSIn 2,733 participants from the Health and Aging Brain Study-Health Disparities (HABS-HD), we evaluated whether genetically-inferred ancestry modifies APOE associations with AD endophenotypes. Regression models were applied across three frameworks: ancestry-stratified analyses, compositional modeling of global ancestry, and local ancestry analyses at the APOE locus. RESULTSAPOE {varepsilon}4+ was associated with higher pTau217 and pTau181, lower A{beta}42/A{beta}40, and worse global cognition (CDR-SB), significant within ancestry groups after FDR correction. The {varepsilon}4+ effect on pTau217 was [~]2.5-fold larger in EUR-like than AFR-like participants. DISCUSSIONAfrican ancestry attenuates APOE*{varepsilon}4+ associations with pTau217, highlighting the need to consider both APOE genotype and ancestry in biomarker-based AD evaluations.",
+      "authors": [
+        "Boeriu, A. I.",
+        "Gu, T.",
+        "Fulton-Howard, B.",
+        "Lucero, E. M.",
+        "Garg, P.",
+        "Sharp, A.",
+        "Shortt, J. A.",
+        "Gignoux, C. A.",
+        "Rajabli, F. J.",
+        "Griswold, A. J.",
+        "Yaffe, K.",
+        "Andrews, S. J."
+      ],
+      "categories": [
+        "neurology"
+      ],
+      "citation_count": null,
+      "classic_status": null,
+      "code_url": null,
+      "deep_read_note_url": null,
+      "difficulty": null,
+      "enrichment_sources": [],
+      "existing_note_url": null,
+      "external_ids": {
+        "DOI": "10.64898/2026.03.23.26349095"
+      },
+      "field": null,
+      "fields_of_study": [
+        "Neuroscience"
+      ],
+      "id": "biorxiv:10.64898/2026.03.23.26349095",
+      "identifiers": {
+        "DOI": "10.64898/2026.03.23.26349095",
+        "doi": "10.64898/2026.03.23.26349095",
+        "server": "medrxiv"
+      },
+      "influential_citation_count": null,
+      "institutions": [],
+      "latest_note_url": null,
+      "note_count": 0,
+      "open_access_pdf_url": null,
+      "pdf_url": null,
+      "project_url": null,
+      "published_at": "2026-09-05",
+      "published_date": "2026-09-05",
+      "reading_advice": "save_for_later",
+      "reading_status": "backlog",
+      "recommendation_level": "B",
+      "score": 0.653,
+      "scores": {
+        "classic_value": 0.35,
+        "engineering_transferability": 0.48,
+        "recency": 0.78,
+        "source_quality": 0.68,
+        "total": 0.653,
+        "user_relevance": 0.75
+      },
+      "selected_for_s_level": false,
+      "source": "biorxiv",
+      "source_group": "cognition_social",
+      "source_type": "recent_7d",
+      "source_url": "https://doi.org/10.64898/2026.03.23.26349095",
+      "suggested_note_title": null,
+      "suggested_note_type": null,
+      "tags": [
+        "neurology",
+        "cognition_social",
+        "medrxiv"
+      ],
+      "title": "Ancestry-specific effects of APOE on Alzheimer Disease Endophenotypes",
+      "title_zh": null,
+      "topics": [
+        "uncategorized"
+      ],
+      "url": "https://doi.org/10.64898/2026.03.23.26349095",
+      "venue": "medRxiv",
+      "why_recommended": "Ranked by recency signal across configured topics."
+    },
+    {
+      "abstract": "ObjectivesWe sought to evaluate the accuracy and suitability of a transformer-based model (TM) for indexing clinical study designs, in comparison to National Library of Medicine (NLM) indexing. Materials and MethodsFor 2016 (manual NLM) and 2025 (automated NLM) published articles, we conducted a limited evaluation of the TM model, with articles that received the most confident predictions, with which NLM assignments disagreed. Ground truth was established through independent dual annotation for four prominent study designs: cohort, case-control, cross-sectional, and case report. ResultsFor three designs (case-control, case report, cross-sectional), the articles having the top 100 predictive TM scores (when NLM failed to assign that design) were judged to exhibit that design in the great majority (86-100%) of cases. Conversely, the articles having the lowest 100 predictive TM scores (when NLM did assign the study design) exhibited the design only in relatively few (0-21%) of cases. The most confident predictions of the TM model were highly accurate and not redundant with automated NLM indexing; the exception was cohort studies articles, in which both TM and NLM labels showed high error rates of both omission and commission. DiscussionTM may have value for identifying articles exhibiting study designs, which is important for clinical decision-making and evidence syntheses. ConclusionNLMs cohort studies indexing is unreliable as a gold standard for building automated systems, warranting efforts to create a new manually annotated corpus. LAY SUMMARYCollecting all relevant evidence on a given clinical question can be important. However, the existing indexing in PubMed/MEDLINE is neither accurate nor comprehensive enough for many purposes. Our group has created an automated machine learning model for finding and indexing articles using important clinical study designs. We compared our indexing against the existing indexing to see whether our approach adds value. When our model is highly confident, and disagrees with PubMed/MEDLINE indexing, our model is significantly more accurate. However, for one study design (cohort studies), both approaches frequently made errors such as missing studies or mislabeling them. For this study design, the current PubMed/MEDLINE indexing is not reliable enough to serve as a standard for training future automated indexing systems. This work advances automatic detection of important clinical study designs and complements existing PubMed/MEDLINE indexing.",
+      "authors": [
+        "Das, P.",
+        "Schneider, J.",
+        "Mayo-Wilson, E.",
+        "Kilicoglu, H.",
+        "Menke, J. D.",
+        "Nam, D.",
+        "Ninan, K.",
+        "Oberste, J.-P.",
+        "Troy, A. M.",
+        "Ying, X.",
+        "Holt, A. W.",
+        "Smalheiser, N. R."
+      ],
+      "categories": [
+        "health informatics"
+      ],
+      "citation_count": null,
+      "classic_status": null,
+      "code_url": null,
+      "deep_read_note_url": null,
+      "difficulty": null,
+      "enrichment_sources": [],
+      "existing_note_url": null,
+      "external_ids": {
+        "DOI": "10.64898/2026.06.03.26354854"
+      },
+      "field": null,
+      "fields_of_study": [
+        "Psychology"
+      ],
+      "id": "biorxiv:10.64898/2026.06.03.26354854",
+      "identifiers": {
+        "DOI": "10.64898/2026.06.03.26354854",
+        "doi": "10.64898/2026.06.03.26354854",
+        "server": "medrxiv"
+      },
+      "influential_citation_count": null,
+      "institutions": [],
+      "latest_note_url": null,
+      "note_count": 0,
+      "open_access_pdf_url": null,
+      "pdf_url": null,
+      "project_url": null,
+      "published_at": "2026-09-05",
+      "published_date": "2026-09-05",
+      "reading_advice": "save_for_later",
+      "reading_status": "backlog",
+      "recommendation_level": "B",
+      "score": 0.653,
+      "scores": {
+        "classic_value": 0.35,
+        "engineering_transferability": 0.48,
+        "recency": 0.78,
+        "source_quality": 0.68,
+        "total": 0.653,
+        "user_relevance": 0.75
+      },
+      "selected_for_s_level": false,
+      "source": "biorxiv",
+      "source_group": "cognition_social",
+      "source_type": "recent_7d",
+      "source_url": "https://doi.org/10.64898/2026.06.03.26354854",
+      "suggested_note_title": null,
+      "suggested_note_type": null,
+      "tags": [
+        "health informatics",
+        "cognition_social",
+        "medrxiv"
+      ],
+      "title": "Study Design Indexing in Transition: A Focused Comparison of manual NLM Indexing vs. Transformer-based Automated Models",
+      "title_zh": null,
+      "topics": [
+        "uncategorized"
+      ],
+      "url": "https://doi.org/10.64898/2026.06.03.26354854",
+      "venue": "medRxiv",
+      "why_recommended": "Ranked by recency signal across configured topics."
+    },
+    {
+      "abstract": "Diffusion-weighted MRI, beyond the commonly used diffusion tensor framework, offers a unique window into tissue microstructure in vivo, yet its clinical adoption has remained limited. Major barriers include the complexity of diffusion MRI sequence design, lengthy acquisition protocols, and the challenges associated with robust estimation of high-dimensional microstructural model parameters. Here, we address these limitations by combining optimised diffusion encoding with state-of-the-art simulation-based inference, establishing a clinically feasible framework for multi-compartment diffusion modelling. We validate the approach through i) in-depth in silico experiments and ii) in vivo studies made up of both human and rodent data. The resulting microstructural metrics are robust, reproducible across healthy individuals and show significant spatial associations with brain-wide expression patterns of cell-specific genes. Requiring less than 10 minutes of acquisition time, this framework substantially lowers the barriers to advanced microstructural imaging, a prerequisite step toward its eventual evaluation for the diagnosis, stratification, and monitoring of brain disorders.",
+      "authors": [
+        "Leibovici, A.",
+        "Espinos Soler, E.",
+        "Mesika, D.",
+        "Tsarfaty, G.",
+        "Livny, A.",
+        "De Santis, S.",
+        "Eggl, M. F."
+      ],
+      "categories": [
+        "radiology and imaging"
+      ],
+      "citation_count": null,
+      "classic_status": null,
+      "code_url": null,
+      "deep_read_note_url": null,
+      "difficulty": null,
+      "enrichment_sources": [],
+      "existing_note_url": null,
+      "external_ids": {
+        "DOI": "10.64898/2026.09.02.26362017"
+      },
+      "field": null,
+      "fields_of_study": [
+        "Psychology"
+      ],
+      "id": "biorxiv:10.64898/2026.09.02.26362017",
+      "identifiers": {
+        "DOI": "10.64898/2026.09.02.26362017",
+        "doi": "10.64898/2026.09.02.26362017",
+        "server": "medrxiv"
+      },
+      "influential_citation_count": null,
+      "institutions": [],
+      "latest_note_url": null,
+      "note_count": 0,
+      "open_access_pdf_url": null,
+      "pdf_url": null,
+      "project_url": null,
+      "published_at": "2026-09-05",
+      "published_date": "2026-09-05",
+      "reading_advice": "save_for_later",
+      "reading_status": "backlog",
+      "recommendation_level": "B",
+      "score": 0.653,
+      "scores": {
+        "classic_value": 0.35,
+        "engineering_transferability": 0.48,
+        "recency": 0.78,
+        "source_quality": 0.68,
+        "total": 0.653,
+        "user_relevance": 0.75
+      },
+      "selected_for_s_level": false,
+      "source": "biorxiv",
+      "source_group": "cognition_social",
+      "source_type": "recent_7d",
+      "source_url": "https://doi.org/10.64898/2026.09.02.26362017",
+      "suggested_note_title": null,
+      "suggested_note_type": null,
+      "tags": [
+        "radiology and imaging",
+        "cognition_social",
+        "medrxiv"
+      ],
+      "title": "A Time-Dependent Diffusion MRI Framework for Clinical Characterisation of Human Brain Cellular Architecture",
+      "title_zh": null,
+      "topics": [
+        "uncategorized"
+      ],
+      "url": "https://doi.org/10.64898/2026.09.02.26362017",
+      "venue": "medRxiv",
+      "why_recommended": "Ranked by recency signal across configured topics."
+    },
+    {
+      "abstract": "Urinary tract infections (UTIs) are a rising global health concern, primarily caused by Escherichia coli (E. coli), disproportionately affecting women and the elderly. Despite advancements in diagnostic techniques, critical gaps persist: time delays, high costs, and false-positive predictions. This necessitates the development of rapid, reliable, and low-cost point-of-care diagnostic tools. As a vital step towards addressing this need, we present a machine learning-based morphological pattern analysis framework that evaluates dried deposits formed by E. co/i-laden urine droplets. Following controlled evaporation, urine samples inoculated with E. coli at three distinct concentrations are imaged via brightfield microscopy. The computational objective of this study is twofold. First, we perform supervised ternary classification of the deposits based on bacterial concentration, utilizing a lightweight deep convolutional backbone strictly as a spatial feature extractor. Furthermore, to visually analyze feature cluster distributions, the standardized highdimensional feature embeddings are projected using RCA and t-SNE. Second, beyond pattern classification, we define a Severity Factor by applying internal cluster validity indices (CVIs) to these extracted feature embeddings to evaluate morphological pattern deviation. Ultimately, this study establishes a proof-of-concept methodology for analyzing E. coZi-laden dried deposits, offering a robust foundation with potential for integration into cyber-physical systems and real-time point-of-care diagnostics in resource-limited settings. Graphical Abstract O_FIG O_LINKSMALLFIG WIDTH=200 HEIGHT=146 SRC=\"FIGDIR/small/25337322v3_ufig1.gif\" ALT=\"Figure 1\"> View larger version (47K): org.highwire.dtl.DTLVardef@181a4aborg.highwire.dtl.DTLVardef@620789org.highwire.dtl.DTLVardef@1dcd04aorg.highwire.dtl.DTLVardef@1eec0c5_HPS_FORMAT_FIGEXP M_FIG C_FIG HighlightsO_LIProposed a morphological pattern analysis framework for dried deposits from E. coZz-laden urine droplets. C_LIO_LIAchieved 92.5% accuracy in ternary pattern classification, with MobileNetV2 as the primary feature extractor. C_LIO_LIHigh-dimensional feature embeddings were projected using PCA and t-SNE to visualize feature clusters. C_LIO_LIFormulated a novel Severity Factor (S) using internal Cluster Validity Indices to evaluate morphological deviation. C_LI",
+      "authors": [
+        "Ganesh, M. A.",
+        "M, S.",
+        "Poopady, J. J.",
+        "Rasheed, A.",
+        "Roy, D.",
+        "Agharkar, A. N.",
+        "Vaikuntanathan, V.",
+        "Parmar, K.",
+        "Chakravortty, D.",
+        "Basu, S."
+      ],
+      "categories": [
+        "infectious diseases"
+      ],
+      "citation_count": null,
+      "classic_status": null,
+      "code_url": null,
+      "deep_read_note_url": null,
+      "difficulty": null,
+      "enrichment_sources": [],
+      "existing_note_url": null,
+      "external_ids": {
+        "DOI": "10.1101/2025.10.14.25337322"
+      },
+      "field": null,
+      "fields_of_study": [
+        "Psychology"
+      ],
+      "id": "biorxiv:10.1101/2025.10.14.25337322",
+      "identifiers": {
+        "DOI": "10.1101/2025.10.14.25337322",
+        "doi": "10.1101/2025.10.14.25337322",
+        "server": "medrxiv"
+      },
+      "influential_citation_count": null,
+      "institutions": [],
+      "latest_note_url": null,
+      "note_count": 0,
+      "open_access_pdf_url": null,
+      "pdf_url": null,
+      "project_url": null,
+      "published_at": "2026-09-05",
+      "published_date": "2026-09-05",
+      "reading_advice": "save_for_later",
+      "reading_status": "backlog",
+      "recommendation_level": "B",
+      "score": 0.653,
+      "scores": {
+        "classic_value": 0.35,
+        "engineering_transferability": 0.48,
+        "recency": 0.78,
+        "source_quality": 0.68,
+        "total": 0.653,
+        "user_relevance": 0.75
+      },
+      "selected_for_s_level": false,
+      "source": "biorxiv",
+      "source_group": "cognition_social",
+      "source_type": "recent_7d",
+      "source_url": "https://doi.org/10.1101/2025.10.14.25337322",
+      "suggested_note_title": null,
+      "suggested_note_type": null,
+      "tags": [
+        "infectious diseases",
+        "cognition_social",
+        "medrxiv"
+      ],
+      "title": "Deep Learning-Driven Pattern Analysis of Dried E. coli-Laden Urine Deposits for Point-of-Care Diagnostics",
+      "title_zh": null,
+      "topics": [
+        "uncategorized"
+      ],
+      "url": "https://doi.org/10.1101/2025.10.14.25337322",
+      "venue": "medRxiv",
+      "why_recommended": "Ranked by recency signal across configured topics."
+    },
+    {
+      "abstract": "BackgroundWell-child visits (WCVs) are essential for monitoring infant development, yet nonattendance remains common. Machine learning models have predicted appointment no-shows, but these approaches require a visit to be scheduled and cannot identify children whose visits are never scheduled or are cancelled in advance. We developed and validated models that predict infant nonattendance at the next recommended WCV using information available at the current visit. MethodsWe used visit-level electronic health record data from two demographically distinct pediatric practices: Practice A (5,300 visits, 1,215 patients) served as the training and internal validation set; Practice B (5,274 visits, 1,271 patients) served as the external validation set. We compared regularized logistic regression, random forest, and XGBoost using group k-fold cross-validation. Model discrimination was assessed using AUC and average precision, and threshold-dependent metrics were reported at the F1-maximizing threshold. We evaluated subgroup performance by race/ethnicity, preferred language, and insurance type in the external validation set. ResultsAll three models achieved similar discrimination in internal validation (AUC 0.69-0.72, average precision 0.36-0.41) and external validation (AUC 0.66-0.68, average precision 0.36-0.38). Across all models, care delivery features, including visit timepoint, visit delay, scheduling lead time, and prior no-shows, were the most influential predictors. Logistic regression with LASSO regularization retained six nonzero coefficients, suggesting comparable performance is achievable with a reduced feature set. Model discrimination was similar across insurance groups, between English- and Spanish-speaking patients, and between Hispanic and non-Hispanic Black patients relative to non-Hispanic white patients. Estimates for smaller subgroups were imprecise due to limited sample sizes. ConclusionsPredicting WCV nonattendance at the next recommended timepoint is feasible using routine visit data. A parsimonious logistic regression model performed comparably to more complex algorithms. Because prediction occurs during an active visit, clinicians can address barriers to the next visit while the family is still present.",
+      "authors": [
+        "Luff, A.",
+        "Shields, M.",
+        "Hirschtick, J.",
+        "Ingle, M.",
+        "Crosh, C.",
+        "Marsh, M.",
+        "Modave, F.",
+        "Fitzpatrick, V."
+      ],
+      "categories": [
+        "pediatrics"
+      ],
+      "citation_count": null,
+      "classic_status": null,
+      "code_url": null,
+      "deep_read_note_url": null,
+      "difficulty": null,
+      "enrichment_sources": [],
+      "existing_note_url": null,
+      "external_ids": {
+        "DOI": "10.64898/2026.03.24.26348063"
+      },
+      "field": null,
+      "fields_of_study": [
+        "Psychology"
+      ],
+      "id": "biorxiv:10.64898/2026.03.24.26348063",
+      "identifiers": {
+        "DOI": "10.64898/2026.03.24.26348063",
+        "doi": "10.64898/2026.03.24.26348063",
+        "server": "medrxiv"
+      },
+      "influential_citation_count": null,
+      "institutions": [],
+      "latest_note_url": null,
+      "note_count": 0,
+      "open_access_pdf_url": null,
+      "pdf_url": null,
+      "project_url": null,
+      "published_at": "2026-09-05",
+      "published_date": "2026-09-05",
+      "reading_advice": "save_for_later",
+      "reading_status": "backlog",
+      "recommendation_level": "B",
+      "score": 0.653,
+      "scores": {
+        "classic_value": 0.35,
+        "engineering_transferability": 0.48,
+        "recency": 0.78,
+        "source_quality": 0.68,
+        "total": 0.653,
+        "user_relevance": 0.75
+      },
+      "selected_for_s_level": false,
+      "source": "biorxiv",
+      "source_group": "cognition_social",
+      "source_type": "recent_7d",
+      "source_url": "https://doi.org/10.64898/2026.03.24.26348063",
+      "suggested_note_title": null,
+      "suggested_note_type": null,
+      "tags": [
+        "pediatrics",
+        "cognition_social",
+        "medrxiv"
+      ],
+      "title": "Predicting Infant Nonattendance at the Next Recommended Well-Child Visit: Model Development and Validation",
+      "title_zh": null,
+      "topics": [
+        "uncategorized"
+      ],
+      "url": "https://doi.org/10.64898/2026.03.24.26348063",
+      "venue": "medRxiv",
+      "why_recommended": "Ranked by recency signal across configured topics."
+    }
+  ],
+  "public_json_version": "0.4",
+  "s_level_candidate_ids": [],
+  "s_level_paper_id": null,
+  "source_mode_summary": {
+    "recent_7d": 6
+  },
+  "summary": "Selected 6 papers: 6 recent candidates and 0 classic fallback items."
+}
