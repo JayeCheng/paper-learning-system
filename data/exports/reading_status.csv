@@ -236,7 +236,9 @@ arxiv:2609.09115v1,backlog,medium,,2026-09-10T00:06:24+00:00,MeClear: Cooperativ
 arxiv:2609.09123v1,backlog,medium,,2026-09-10T00:06:24+00:00,Mask Forcing: Improving Autoregressive Video Diffusion Distillation via Dual-Noise Masking Rollout,gpu_graphics,B
 arxiv:2609.09133v1,backlog,medium,,2026-09-10T00:06:24+00:00,"ExecCritic: Learn to Test, Test to Improve for Coding Agents",llm_agent,A
 arxiv:2609.09145v1,backlog,medium,,2026-09-10T00:06:24+00:00,Point4D: Long-range 4D Motion Reconstruction,gpu_graphics,B
+biorxiv:10.1101/2024.12.20.629771,backlog,medium,,2026-09-12T23:57:10+00:00,Encoding of natural variability in a dexterous motor skill over multiple days in the cortex of freely behaving mice,cognition_social,B
 biorxiv:10.1101/2025.01.03.631260,backlog,medium,,2026-08-30T00:10:37+00:00,Reactivation of a dormant developmental plasticity program drives synaptic rejuvenation and antidepressant-like responses,cognition_social,B
+biorxiv:10.1101/2025.02.04.636500,backlog,medium,,2026-09-12T23:57:10+00:00,Modulation of oscillatory activity in response to very weak intensity transcranial magnetic stimulation in the human primary motor cortex,cognition_social,B
 biorxiv:10.1101/2025.03.24.645008,backlog,medium,,2026-08-30T00:10:37+00:00,Combined MEG and EEG suggest a limbic source network of the P3 including retrosplenial cortex and hippocampus,cognition_social,B
 biorxiv:10.1101/2025.05.30.657074,backlog,medium,,2026-08-27T03:05:37+00:00,Molecular logic of pheromone recognition enables rational design of insect behavior modulators,cognition_social,B
 biorxiv:10.1101/2025.08.06.668906,backlog,medium,,2026-09-09T00:05:20+00:00,Precision Functional Mapping of Imagined and Experienced Pain,cognition_social,B
@@ -244,6 +246,8 @@ biorxiv:10.1101/2025.09.22.677693,backlog,medium,,2026-08-30T00:10:37+00:00,Emer
 biorxiv:10.1101/2025.10.14.25337322,backlog,medium,,2026-09-12T00:11:42+00:00,Deep Learning-Driven Pattern Analysis of Dried E. coli-Laden Urine Deposits for Point-of-Care Diagnostics,cognition_social,B
 biorxiv:10.1101/2025.10.29.684686,backlog,medium,,2026-08-27T03:05:37+00:00,Biased projection neuron-Kenyon cell connectivity shapes odor representations and learning in the Drosophila mushroom body,cognition_social,B
 biorxiv:10.1101/2025.11.17.25338859,backlog,medium,,2026-09-03T00:05:52+00:00,Towards a participatory European social contact observatory,cognition_social,B
+biorxiv:10.64898/2025.12.24.696231,backlog,medium,,2026-09-12T23:57:10+00:00,SynTEF1 restores the functional disease phenotype of SCA27B in an hiPSC-derived neuronal model,cognition_social,B
+biorxiv:10.64898/2026.01.05.697602,backlog,medium,,2026-09-12T23:57:10+00:00,Elements of Olfactory Intelligence in Drosophila,cognition_social,B
 biorxiv:10.64898/2026.03.02.709083,backlog,medium,,2026-09-09T00:05:20+00:00,Magnitude estimation reveals Poisson-like noise underlying perception,cognition_social,B
 biorxiv:10.64898/2026.03.23.26349095,backlog,medium,,2026-09-12T00:11:42+00:00,Ancestry-specific effects of APOE on Alzheimer Disease Endophenotypes,cognition_social,B
 biorxiv:10.64898/2026.03.24.26348063,backlog,medium,,2026-09-12T00:11:42+00:00,Predicting Infant Nonattendance at the Next Recommended Well-Child Visit: Model Development and Validation,cognition_social,B
@@ -266,6 +270,8 @@ biorxiv:10.64898/2026.08.24.26361239,backlog,medium,,2026-09-03T00:05:52+00:00,E
 biorxiv:10.64898/2026.08.25.26361327,backlog,medium,,2026-09-03T00:05:52+00:00,Psychosocial Health Inequalities and Socioeconomic Deprivation Gradients Among Preschool Children in Care and Not in Care: An Administrative Health Data Study,cognition_social,B
 biorxiv:10.64898/2026.08.25.747062,backlog,medium,,2026-09-09T00:05:20+00:00,A neuro-computational approximation of the qualities of mental images,cognition_social,B
 biorxiv:10.64898/2026.08.26.747434,backlog,medium,,2026-09-09T00:05:20+00:00,Linoleic Acid-Lyso PG Axis promoting lipid droplet-mitochondria tethering by stabilizing Noncanonically Mitochondrial PPAR β/δ to Ameliorate Microglial Dysfunction in subarachnoid hemorrhage,cognition_social,B
+biorxiv:10.64898/2026.09.01.748526,backlog,medium,,2026-09-12T23:57:10+00:00,The Adhesion GPCR Flamingo-Like 1 (FMIL-1) Directs Synapse Formation in a Nociceptive Circuit,cognition_social,B
+biorxiv:10.64898/2026.09.01.748702,backlog,medium,,2026-09-12T23:57:10+00:00,Striatal dopamine dynamics across temporal scales in brain-specific Atp2a2 heterozygous knockout mice during reward conditioning,cognition_social,B
 biorxiv:10.64898/2026.09.02.26362017,backlog,medium,,2026-09-12T00:11:42+00:00,A Time-Dependent Diffusion MRI Framework for Clinical Characterisation of Human Brain Cellular Architecture,cognition_social,B
 classic:architecture:cache-coherence-and-shared-memory-multiprocessors,backlog,medium,,2026-07-09T09:46:00+00:00,Cache coherence and shared-memory multiprocessors,architecture,B
 classic:architecture:the-memory-hierarchy-and-locality,backlog,medium,,2026-07-09T09:46:00+00:00,The memory hierarchy and locality,architecture,B

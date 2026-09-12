@@ -1,0 +1,507 @@
+{
+  "date": "2026-09-13",
+  "frontend_entry": "data/public/latest.json",
+  "generated_at": "2026-09-12T23:57:10+00:00",
+  "generated_paths": {
+    "exports_csv": "data/exports/papers.csv",
+    "exports_daily_csv": "data/exports/daily_papers.csv",
+    "exports_jsonl": "data/exports/papers.jsonl",
+    "exports_notes_index": "data/exports/notes_index.csv",
+    "exports_reading_status": "data/exports/reading_status.csv",
+    "json": "daily/2026/09/2026-09-13.json",
+    "markdown": "daily/2026/09/2026-09-13.md",
+    "public_curriculum_progress": "data/public/curriculum_progress.json",
+    "public_daily_index": "data/public/daily_index.json",
+    "public_knowledge_graph": "data/public/knowledge_graph.json",
+    "public_latest": "data/public/latest.json",
+    "public_notes_index": "data/public/notes_index.json",
+    "public_papers_index": "data/public/papers_index.json",
+    "public_reading_status": "data/public/reading_status.json",
+    "state_notes_index": "data/state/notes_index.json",
+    "state_papers": "data/state/papers.jsonl",
+    "state_reading_status": "data/state/reading_status.json",
+    "state_run_history": "data/state/run_history.json"
+  },
+  "knowledge_graph_delta": [
+    "paper:biorxiv:10.64898/2026.01.05.697602",
+    "paper:biorxiv:10.1101/2024.12.20.629771",
+    "paper:biorxiv:10.64898/2025.12.24.696231",
+    "paper:biorxiv:10.1101/2025.02.04.636500",
+    "paper:biorxiv:10.64898/2026.09.01.748526",
+    "paper:biorxiv:10.64898/2026.09.01.748702"
+  ],
+  "learning_route_position": "v0.4 GitHub-owned note bridge",
+  "next_actions": [
+    "Review S-level candidate",
+    "Update reading status after skim",
+    "Promote durable concepts into the knowledge graph"
+  ],
+  "papers": [
+    {
+      "abstract": "The ability to make the world of odorants intelligible is a key capability of the Drosophila olfactory system that we shall call olfactory intelligence. Characterizing the functional logic of the Drosophila early olfactory system that makes the natural world of odorants intelligible is a major challenge in neuroscience. Starting by modeling the space of odorants using constructs of both semantic and syntactic information, we establish that the Antenna Lobe and Mushroom Body Calyx first decompose the confounding representation of the Antenna into a concentration independent odorant semantics information and the ON-OFF timing of the syntactic information. Subsequently the two streams of information are integrated and produce a novel time and rank-based representation of Kenyon Cell outputs, called the marked first spike sequence code. In conjunction with a novel distance measure for the spike sequence code, we demonstrate that the rank-based representation supports accurate classification of ON-OFF odorant semantics. Computationally, these elements of olfactory intelligence are realized by a class of differential divisive normalization processors modeling the feedback circuits in a causal chain of stages including the Antenna, Antennal Lobe and the Mushroom Body Calyx. Consequently, the early olfactory system makes the natural world of odorants intelligible.",
+      "authors": [
+        "Lazar, A. A.",
+        "Zhou, Y."
+      ],
+      "categories": [
+        "neuroscience"
+      ],
+      "citation_count": null,
+      "classic_status": null,
+      "code_url": null,
+      "deep_read_note_url": null,
+      "difficulty": null,
+      "enrichment_sources": [],
+      "existing_note_url": null,
+      "external_ids": {
+        "DOI": "10.64898/2026.01.05.697602"
+      },
+      "field": null,
+      "fields_of_study": [
+        "Neuroscience"
+      ],
+      "id": "biorxiv:10.64898/2026.01.05.697602",
+      "identifiers": {
+        "DOI": "10.64898/2026.01.05.697602",
+        "doi": "10.64898/2026.01.05.697602",
+        "server": "biorxiv"
+      },
+      "influential_citation_count": null,
+      "institutions": [],
+      "latest_note_url": null,
+      "note_count": 0,
+      "open_access_pdf_url": null,
+      "pdf_url": null,
+      "project_url": null,
+      "published_at": "2026-09-06",
+      "published_date": "2026-09-06",
+      "reading_advice": "save_for_later",
+      "reading_status": "backlog",
+      "recommendation_level": "B",
+      "score": 0.653,
+      "scores": {
+        "classic_value": 0.35,
+        "engineering_transferability": 0.48,
+        "recency": 0.78,
+        "source_quality": 0.68,
+        "total": 0.653,
+        "user_relevance": 0.75
+      },
+      "selected_for_s_level": false,
+      "source": "biorxiv",
+      "source_group": "cognition_social",
+      "source_type": "recent_7d",
+      "source_url": "https://doi.org/10.64898/2026.01.05.697602",
+      "suggested_note_title": null,
+      "suggested_note_type": null,
+      "tags": [
+        "neuroscience",
+        "cognition_social",
+        "biorxiv"
+      ],
+      "title": "Elements of Olfactory Intelligence in Drosophila",
+      "title_zh": null,
+      "topics": [
+        "cognition"
+      ],
+      "url": "https://doi.org/10.64898/2026.01.05.697602",
+      "venue": "bioRxiv",
+      "why_recommended": "Ranked by recency signal across configured topics."
+    },
+    {
+      "abstract": "Skilled, goal-directed movements exhibit trial-to-trial variability even in experts, particularly in response to dynamic environmental conditions or when perfect repetition is not required for success. Identifying where, to what extent, and how stably this variability is encoded in the nervous system is essential for understanding how learned movements are robustly maintained over time yet flexibly executed on each trial. We record calcium fluorescence activity in forelimb motor cortex (M1), a key node in the multi-areal network responsible for movement control, in freely-moving mice of both sexes as they performed a self-paced, precision reach-to-grasp task. High trial counts and rich single-trial variability enable rigorous statistical analysis of moment-to-moment movement encoding across matched behavioral sets over five days. Approximately 80% of recorded neurons significantly encoded paw, digit, and head movements during reaching, as quantified using linear models. Across days, encoding similarity shows a small but measurable decline that increases with the interval between recording sessions. This drift is heterogeneously distributed across the population, with many neurons retaining high encoding similarity even in sessions four days apart, as assessed using shuffle controls and comparison to encoding for trial-averaged movements. Thus, over the timescale examined, M1 is capable of maintaining stable encoding of movement details at the level of single cells, even for complex, sensory-guided tasks like reach-to-grasp. Together, these results raise the question of whether downstream circuits support consistent behavior by preferentially relying on neurons with greater stability or instead through population-level readout that is robust to a modest level of representational change.",
+      "authors": [
+        "de Laittre, E. A.",
+        "MacLean, J. N."
+      ],
+      "categories": [
+        "neuroscience"
+      ],
+      "citation_count": null,
+      "classic_status": null,
+      "code_url": null,
+      "deep_read_note_url": null,
+      "difficulty": null,
+      "enrichment_sources": [],
+      "existing_note_url": null,
+      "external_ids": {
+        "DOI": "10.1101/2024.12.20.629771"
+      },
+      "field": null,
+      "fields_of_study": [
+        "Neuroscience"
+      ],
+      "id": "biorxiv:10.1101/2024.12.20.629771",
+      "identifiers": {
+        "DOI": "10.1101/2024.12.20.629771",
+        "doi": "10.1101/2024.12.20.629771",
+        "server": "biorxiv"
+      },
+      "influential_citation_count": null,
+      "institutions": [],
+      "latest_note_url": null,
+      "note_count": 0,
+      "open_access_pdf_url": null,
+      "pdf_url": null,
+      "project_url": null,
+      "published_at": "2026-09-06",
+      "published_date": "2026-09-06",
+      "reading_advice": "save_for_later",
+      "reading_status": "backlog",
+      "recommendation_level": "B",
+      "score": 0.653,
+      "scores": {
+        "classic_value": 0.35,
+        "engineering_transferability": 0.48,
+        "recency": 0.78,
+        "source_quality": 0.68,
+        "total": 0.653,
+        "user_relevance": 0.75
+      },
+      "selected_for_s_level": false,
+      "source": "biorxiv",
+      "source_group": "cognition_social",
+      "source_type": "recent_7d",
+      "source_url": "https://doi.org/10.1101/2024.12.20.629771",
+      "suggested_note_title": null,
+      "suggested_note_type": null,
+      "tags": [
+        "neuroscience",
+        "cognition_social",
+        "biorxiv"
+      ],
+      "title": "Encoding of natural variability in a dexterous motor skill over multiple days in the cortex of freely behaving mice",
+      "title_zh": null,
+      "topics": [
+        "cognition"
+      ],
+      "url": "https://doi.org/10.1101/2024.12.20.629771",
+      "venue": "bioRxiv",
+      "why_recommended": "Ranked by recency signal across configured topics."
+    },
+    {
+      "abstract": "Spinocerebellar Ataxia 27B (SCA27B), caused by a deep-intronic GAA repeat expansion in the first intron of the FGF14 gene, is one of the most frequent genetic ataxias. Its underlying disease mechanisms remain largely unknown, and disease-modifying therapies targeting upstream processes are lacking. Here we hypothesized that (i) SCA27B is driven by transcriptional repression of FGF14, which encodes a protein regulating ion channels at the axon initial segment (AIS), resulting in reduced Na+ channel availability and neuronal excitability, and that (ii) these defects can be restored by a synthetic elongation transcription factor (Syn-TEF1). We assessed FGF14 mRNA levels by qPCR and neuronal function by whole-cell patch-clamp recordings in iPSC-derived neurons from two SCA27B patients and two healthy controls. Patients carried GAA repeat expansions that were either monoallelic (391/16 repeats) or biallelic (315/290 repeats), exceeding the common pathogenicity threshold of >250 repeats. FGF14 mRNA levels were reduced approximately to 60% and 70% of control levels in monoallelic and biallelic SCA27B neurons, respectively. This was accompanied by impaired excitability, with cumulative action potential (AP) firing reduced to 38% and 45% of control levels in monoallelic and biallelic lines, respectively, and peak Na current density reduced to 46% and 41%, while voltage-dependent gating of Na channels remained unchanged. Treatment with Syn-TEF1 significantly increased FGF14 mRNA expression and restored cumulative AP firing to 83% and 135% of control levels in monoallelic and biallelic neurons, respectively, and Na peak current density to 95% and 138%. These findings strongly suggest that the pathophysiological cascade in SCA27B - from FGF14 repression to impaired Na+ currents and decreased neuronal excitability - can be reversed by an elongation transcription factor. Our results thus provide a rationale for further exploring Syn-TEF1 as a first gene-targeted, disease-modifying therapeutic approach for SCA27B.",
+      "authors": [
+        "Gsell, F. G.",
+        "Pellerin, D.",
+        "Vinogradov, O.",
+        "Zuchner, S.",
+        "Haag, C.",
+        "Hedrich, U.",
+        "Napierala, M.",
+        "Saporta, M.",
+        "Yanick, C.",
+        "Brais, B.",
+        "Baumgartner, M. E.",
+        "Lerche, H.",
+        "Schwarz, N.",
+        "Synofzik, M."
+      ],
+      "categories": [
+        "neuroscience"
+      ],
+      "citation_count": null,
+      "classic_status": null,
+      "code_url": null,
+      "deep_read_note_url": null,
+      "difficulty": null,
+      "enrichment_sources": [],
+      "existing_note_url": null,
+      "external_ids": {
+        "DOI": "10.64898/2025.12.24.696231"
+      },
+      "field": null,
+      "fields_of_study": [
+        "Neuroscience"
+      ],
+      "id": "biorxiv:10.64898/2025.12.24.696231",
+      "identifiers": {
+        "DOI": "10.64898/2025.12.24.696231",
+        "doi": "10.64898/2025.12.24.696231",
+        "server": "biorxiv"
+      },
+      "influential_citation_count": null,
+      "institutions": [],
+      "latest_note_url": null,
+      "note_count": 0,
+      "open_access_pdf_url": null,
+      "pdf_url": null,
+      "project_url": null,
+      "published_at": "2026-09-06",
+      "published_date": "2026-09-06",
+      "reading_advice": "save_for_later",
+      "reading_status": "backlog",
+      "recommendation_level": "B",
+      "score": 0.653,
+      "scores": {
+        "classic_value": 0.35,
+        "engineering_transferability": 0.48,
+        "recency": 0.78,
+        "source_quality": 0.68,
+        "total": 0.653,
+        "user_relevance": 0.75
+      },
+      "selected_for_s_level": false,
+      "source": "biorxiv",
+      "source_group": "cognition_social",
+      "source_type": "recent_7d",
+      "source_url": "https://doi.org/10.64898/2025.12.24.696231",
+      "suggested_note_title": null,
+      "suggested_note_type": null,
+      "tags": [
+        "neuroscience",
+        "cognition_social",
+        "biorxiv"
+      ],
+      "title": "SynTEF1 restores the functional disease phenotype of SCA27B in an hiPSC-derived neuronal model",
+      "title_zh": null,
+      "topics": [
+        "cognition"
+      ],
+      "url": "https://doi.org/10.64898/2025.12.24.696231",
+      "venue": "bioRxiv",
+      "why_recommended": "Ranked by recency signal across configured topics."
+    },
+    {
+      "abstract": "Transcranial Magnetic Stimulation is widely used to probe and modulate human brain function, yet the neural effects of stimulation delivered at very low intensities remain unclear. Here, we show that very low intensity magnetic pulses can alter ongoing oscillatory activity in the human primary motor cortex. In healthy participants, we combined transcranial magnetic stimulation with electroencephalography to assess neural responses to single pulses and rhythmic stimulation in the motor cortex. Conventional high intensity stimulation produced robust evoked responses and synchronized beta-frequency oscillations. Low-intensity rhythmic stimulation, despite generating much weaker direct responses, modified local oscillatory activity in a manner consistent with phase-dependent enhancement of ongoing rhythms. These findings suggest that cortical oscillations can be influenced by magnetic fields substantially weaker than those typically used in human studies. Low-intensity stimulation may therefore offer a route towards portable, energy-efficient technologies for investigating and modulating brain networks.",
+      "authors": [
+        "Corominas-Teruel, X.",
+        "Bracco, M.",
+        "Lohof, A.",
+        "Sherrard, R.",
+        "Colomina, M. T.",
+        "Mahon, S.",
+        "Charpier, S.",
+        "Valero-Cabre, A."
+      ],
+      "categories": [
+        "neuroscience"
+      ],
+      "citation_count": null,
+      "classic_status": null,
+      "code_url": null,
+      "deep_read_note_url": null,
+      "difficulty": null,
+      "enrichment_sources": [],
+      "existing_note_url": null,
+      "external_ids": {
+        "DOI": "10.1101/2025.02.04.636500"
+      },
+      "field": null,
+      "fields_of_study": [
+        "Neuroscience"
+      ],
+      "id": "biorxiv:10.1101/2025.02.04.636500",
+      "identifiers": {
+        "DOI": "10.1101/2025.02.04.636500",
+        "doi": "10.1101/2025.02.04.636500",
+        "server": "biorxiv"
+      },
+      "influential_citation_count": null,
+      "institutions": [],
+      "latest_note_url": null,
+      "note_count": 0,
+      "open_access_pdf_url": null,
+      "pdf_url": null,
+      "project_url": null,
+      "published_at": "2026-09-06",
+      "published_date": "2026-09-06",
+      "reading_advice": "save_for_later",
+      "reading_status": "backlog",
+      "recommendation_level": "B",
+      "score": 0.653,
+      "scores": {
+        "classic_value": 0.35,
+        "engineering_transferability": 0.48,
+        "recency": 0.78,
+        "source_quality": 0.68,
+        "total": 0.653,
+        "user_relevance": 0.75
+      },
+      "selected_for_s_level": false,
+      "source": "biorxiv",
+      "source_group": "cognition_social",
+      "source_type": "recent_7d",
+      "source_url": "https://doi.org/10.1101/2025.02.04.636500",
+      "suggested_note_title": null,
+      "suggested_note_type": null,
+      "tags": [
+        "neuroscience",
+        "cognition_social",
+        "biorxiv"
+      ],
+      "title": "Modulation of oscillatory activity in response to very weak intensity transcranial magnetic stimulation in the human primary motor cortex",
+      "title_zh": null,
+      "topics": [
+        "cognition"
+      ],
+      "url": "https://doi.org/10.1101/2025.02.04.636500",
+      "venue": "bioRxiv",
+      "why_recommended": "Ranked by recency signal across configured topics."
+    },
+    {
+      "abstract": "The species-specific anatomy of nervous systems suggests that circuit architecture is largely encoded by genetic blueprints. In C. elegans, PVD nociceptive neurons synapse with PVC and AVA interneurons to drive escape responses to noxious stimuli. We used fluorescent markers for PVD synapses with PVC and AVA in a candidate screen to detect connectivity genes. This approach revealed that the LIM homeodomain transcription factor MEC-3 and its target, FMIL-1 (Flamingo-like), function in PVD to direct connectivity with PVC and AVA. FMIL-1 is an adhesion class G Protein-coupled receptor (aGPCR), a protein family with members also implicated in mammalian synapse formation. We show that FMIL-1 acts early in PVD and is also sufficient to induce ectopic synapses in another circuit, thus suggesting that FMIL-1 promotes synaptogenesis. Our work establishes a new experimental circuit in C. elegans for investigating neuronal connectivity and provides evidence that FMIL-1/aGPCRs regulate synapse formation.",
+      "authors": [
+        "Kennedy, T.",
+        "Oje, D.",
+        "Howerter, K.",
+        "Reese, S.",
+        "McWhirter, R.",
+        "O'Brien, B. M. J.",
+        "Stern, J.",
+        "Ottley, M.",
+        "Arac, D.",
+        "Ozkan, E.",
+        "Sando, R.",
+        "Dillin, A.",
+        "Miller, D. M."
+      ],
+      "categories": [
+        "neuroscience"
+      ],
+      "citation_count": null,
+      "classic_status": null,
+      "code_url": null,
+      "deep_read_note_url": null,
+      "difficulty": null,
+      "enrichment_sources": [],
+      "existing_note_url": null,
+      "external_ids": {
+        "DOI": "10.64898/2026.09.01.748526"
+      },
+      "field": null,
+      "fields_of_study": [
+        "Neuroscience"
+      ],
+      "id": "biorxiv:10.64898/2026.09.01.748526",
+      "identifiers": {
+        "DOI": "10.64898/2026.09.01.748526",
+        "doi": "10.64898/2026.09.01.748526",
+        "server": "biorxiv"
+      },
+      "influential_citation_count": null,
+      "institutions": [],
+      "latest_note_url": null,
+      "note_count": 0,
+      "open_access_pdf_url": null,
+      "pdf_url": null,
+      "project_url": null,
+      "published_at": "2026-09-06",
+      "published_date": "2026-09-06",
+      "reading_advice": "save_for_later",
+      "reading_status": "backlog",
+      "recommendation_level": "B",
+      "score": 0.653,
+      "scores": {
+        "classic_value": 0.35,
+        "engineering_transferability": 0.48,
+        "recency": 0.78,
+        "source_quality": 0.68,
+        "total": 0.653,
+        "user_relevance": 0.75
+      },
+      "selected_for_s_level": false,
+      "source": "biorxiv",
+      "source_group": "cognition_social",
+      "source_type": "recent_7d",
+      "source_url": "https://doi.org/10.64898/2026.09.01.748526",
+      "suggested_note_title": null,
+      "suggested_note_type": null,
+      "tags": [
+        "neuroscience",
+        "cognition_social",
+        "biorxiv"
+      ],
+      "title": "The Adhesion GPCR Flamingo-Like 1 (FMIL-1) Directs Synapse Formation in a Nociceptive Circuit",
+      "title_zh": null,
+      "topics": [
+        "cognition"
+      ],
+      "url": "https://doi.org/10.64898/2026.09.01.748526",
+      "venue": "bioRxiv",
+      "why_recommended": "Ranked by recency signal across configured topics."
+    },
+    {
+      "abstract": "Dysregulated dopamine signaling is implicated in schizophrenia and mood disorders, yet how disease-associated genes alter dopamine dynamics during behavior remains poorly understood. ATP2A2 encodes sarco/endoplasmic reticulum Ca2+-ATPase 2 (SERCA2), a regulator of intracellular Ca2+ homeostasis, and has been associated with psychiatric vulnerability. Brain-specific Atp2a2 heterozygous conditional knockout (het-cKO) mice exhibit behavioral abnormalities and elevated extracellular dopamine in the nucleus accumbens (NAc) with microdialysis, but it lacks the temporal resolution to resolve rapid, context-dependent dopamine dynamics. Here, we used dual-site fiber photometry with the genetically encoded dopamine sensor dLight1.2 to monitor dopamine signals simultaneously in the NAc and tail of the striatum (TS) during classical reward conditioning. Control and het-cKO mice acquired task-related licking comparably. Nevertheless, het-cKO mice showed enhanced NAc reward-evoked dopamine responses in the pooled analysis, with indications of more frequent and longer-lasting spontaneous transients. Responses to unexpected reward omission were larger in het-cKO mice in both regions during the early phase, but they were not detected after further training. Notably, late-phase suppression of reward-predictive NAc dopamine responses by a preceding aversive outcome persisted in het-cKO mice, although evidence for genotype dependence was inconclusive. Regional dopamine transporter (DAT) protein expression showed no clear genotype differences. These findings identify context-dependent alterations in dopamine signaling across multiple temporal scales and striatal regions in brain-specific Atp2a2 haploinsufficiency, highlighting intracellular Ca2+ regulation and dopamine release as priorities for direct investigation. These results may help clarify the biological links between ATP2A2 haploinsufficiency and neuropsychiatric dysfunction.",
+      "authors": [
+        "Niido, M.",
+        "Yoshida, T.",
+        "Isoo, N.",
+        "Mimaki, M.",
+        "Nakajima, K.",
+        "Hayashi, T."
+      ],
+      "categories": [
+        "neuroscience"
+      ],
+      "citation_count": null,
+      "classic_status": null,
+      "code_url": null,
+      "deep_read_note_url": null,
+      "difficulty": null,
+      "enrichment_sources": [],
+      "existing_note_url": null,
+      "external_ids": {
+        "DOI": "10.64898/2026.09.01.748702"
+      },
+      "field": null,
+      "fields_of_study": [
+        "Neuroscience"
+      ],
+      "id": "biorxiv:10.64898/2026.09.01.748702",
+      "identifiers": {
+        "DOI": "10.64898/2026.09.01.748702",
+        "doi": "10.64898/2026.09.01.748702",
+        "server": "biorxiv"
+      },
+      "influential_citation_count": null,
+      "institutions": [],
+      "latest_note_url": null,
+      "note_count": 0,
+      "open_access_pdf_url": null,
+      "pdf_url": null,
+      "project_url": null,
+      "published_at": "2026-09-06",
+      "published_date": "2026-09-06",
+      "reading_advice": "save_for_later",
+      "reading_status": "backlog",
+      "recommendation_level": "B",
+      "score": 0.653,
+      "scores": {
+        "classic_value": 0.35,
+        "engineering_transferability": 0.48,
+        "recency": 0.78,
+        "source_quality": 0.68,
+        "total": 0.653,
+        "user_relevance": 0.75
+      },
+      "selected_for_s_level": false,
+      "source": "biorxiv",
+      "source_group": "cognition_social",
+      "source_type": "recent_7d",
+      "source_url": "https://doi.org/10.64898/2026.09.01.748702",
+      "suggested_note_title": null,
+      "suggested_note_type": null,
+      "tags": [
+        "neuroscience",
+        "cognition_social",
+        "biorxiv"
+      ],
+      "title": "Striatal dopamine dynamics across temporal scales in brain-specific Atp2a2 heterozygous knockout mice during reward conditioning",
+      "title_zh": null,
+      "topics": [
+        "cognition"
+      ],
+      "url": "https://doi.org/10.64898/2026.09.01.748702",
+      "venue": "bioRxiv",
+      "why_recommended": "Ranked by recency signal across configured topics."
+    }
+  ],
+  "public_json_version": "0.4",
+  "s_level_candidate_ids": [],
+  "s_level_paper_id": null,
+  "source_mode_summary": {
+    "recent_7d": 6
+  },
+  "summary": "Selected 6 papers: 6 recent candidates and 0 classic fallback items."
+}

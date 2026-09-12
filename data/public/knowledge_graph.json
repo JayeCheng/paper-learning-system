@@ -2043,6 +2043,18 @@
     {
       "confidence": 0.5,
       "relation": "related_to",
+      "source": "biorxiv:10.1101/2024.12.20.629771",
+      "target": "cognition"
+    },
+    {
+      "confidence": 0.5,
+      "relation": "related_to",
+      "source": "biorxiv:10.1101/2024.12.20.629771",
+      "target": "cognition_social"
+    },
+    {
+      "confidence": 0.5,
+      "relation": "related_to",
       "source": "biorxiv:10.1101/2025.01.03.631260",
       "target": "cognition"
     },
@@ -2050,6 +2062,18 @@
       "confidence": 0.5,
       "relation": "related_to",
       "source": "biorxiv:10.1101/2025.01.03.631260",
+      "target": "cognition_social"
+    },
+    {
+      "confidence": 0.5,
+      "relation": "related_to",
+      "source": "biorxiv:10.1101/2025.02.04.636500",
+      "target": "cognition"
+    },
+    {
+      "confidence": 0.5,
+      "relation": "related_to",
+      "source": "biorxiv:10.1101/2025.02.04.636500",
       "target": "cognition_social"
     },
     {
@@ -2134,6 +2158,30 @@
       "confidence": 0.5,
       "relation": "related_to",
       "source": "biorxiv:10.1101/2025.11.17.25338859",
+      "target": "cognition_social"
+    },
+    {
+      "confidence": 0.5,
+      "relation": "related_to",
+      "source": "biorxiv:10.64898/2025.12.24.696231",
+      "target": "cognition"
+    },
+    {
+      "confidence": 0.5,
+      "relation": "related_to",
+      "source": "biorxiv:10.64898/2025.12.24.696231",
+      "target": "cognition_social"
+    },
+    {
+      "confidence": 0.5,
+      "relation": "related_to",
+      "source": "biorxiv:10.64898/2026.01.05.697602",
+      "target": "cognition"
+    },
+    {
+      "confidence": 0.5,
+      "relation": "related_to",
+      "source": "biorxiv:10.64898/2026.01.05.697602",
       "target": "cognition_social"
     },
     {
@@ -2398,6 +2446,30 @@
       "confidence": 0.5,
       "relation": "related_to",
       "source": "biorxiv:10.64898/2026.08.26.747434",
+      "target": "cognition_social"
+    },
+    {
+      "confidence": 0.5,
+      "relation": "related_to",
+      "source": "biorxiv:10.64898/2026.09.01.748526",
+      "target": "cognition"
+    },
+    {
+      "confidence": 0.5,
+      "relation": "related_to",
+      "source": "biorxiv:10.64898/2026.09.01.748526",
+      "target": "cognition_social"
+    },
+    {
+      "confidence": 0.5,
+      "relation": "related_to",
+      "source": "biorxiv:10.64898/2026.09.01.748702",
+      "target": "cognition"
+    },
+    {
+      "confidence": 0.5,
+      "relation": "related_to",
+      "source": "biorxiv:10.64898/2026.09.01.748702",
       "target": "cognition_social"
     },
     {
@@ -4435,8 +4507,24 @@
       "type": "paper"
     },
     {
+      "id": "biorxiv:10.1101/2024.12.20.629771",
+      "label": "Encoding of natural variability in a dexterous motor skill over multiple days in the cortex of freely behaving mice",
+      "topics": [
+        "cognition"
+      ],
+      "type": "paper"
+    },
+    {
       "id": "biorxiv:10.1101/2025.01.03.631260",
       "label": "Reactivation of a dormant developmental plasticity program drives synaptic rejuvenation and antidepressant-like responses",
+      "topics": [
+        "cognition"
+      ],
+      "type": "paper"
+    },
+    {
+      "id": "biorxiv:10.1101/2025.02.04.636500",
+      "label": "Modulation of oscillatory activity in response to very weak intensity transcranial magnetic stimulation in the human primary motor cortex",
       "topics": [
         "cognition"
       ],
@@ -4495,6 +4583,22 @@
       "label": "Towards a participatory European social contact observatory",
       "topics": [
         "uncategorized"
+      ],
+      "type": "paper"
+    },
+    {
+      "id": "biorxiv:10.64898/2025.12.24.696231",
+      "label": "SynTEF1 restores the functional disease phenotype of SCA27B in an hiPSC-derived neuronal model",
+      "topics": [
+        "cognition"
+      ],
+      "type": "paper"
+    },
+    {
+      "id": "biorxiv:10.64898/2026.01.05.697602",
+      "label": "Elements of Olfactory Intelligence in Drosophila",
+      "topics": [
+        "cognition"
       ],
       "type": "paper"
     },
@@ -4675,6 +4779,22 @@
       "type": "paper"
     },
     {
+      "id": "biorxiv:10.64898/2026.09.01.748526",
+      "label": "The Adhesion GPCR Flamingo-Like 1 (FMIL-1) Directs Synapse Formation in a Nociceptive Circuit",
+      "topics": [
+        "cognition"
+      ],
+      "type": "paper"
+    },
+    {
+      "id": "biorxiv:10.64898/2026.09.01.748702",
+      "label": "Striatal dopamine dynamics across temporal scales in brain-specific Atp2a2 heterozygous knockout mice during reward conditioning",
+      "topics": [
+        "cognition"
+      ],
+      "type": "paper"
+    },
+    {
       "id": "biorxiv:10.64898/2026.09.02.26362017",
       "label": "A Time-Dependent Diffusion MRI Framework for Clinical Characterisation of Human Brain Cellular Architecture",
       "topics": [
@@ -4804,5 +4924,5 @@
     }
   ],
   "public_json_version": "0.4",
-  "updated_at": "2026-09-12T00:11:42+00:00"
+  "updated_at": "2026-09-12T23:57:10+00:00"
 }
