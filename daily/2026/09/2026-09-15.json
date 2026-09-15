@@ -1,0 +1,488 @@
+{
+  "date": "2026-09-15",
+  "frontend_entry": "data/public/latest.json",
+  "generated_at": "2026-09-15T00:31:00+00:00",
+  "generated_paths": {
+    "exports_csv": "data/exports/papers.csv",
+    "exports_daily_csv": "data/exports/daily_papers.csv",
+    "exports_jsonl": "data/exports/papers.jsonl",
+    "exports_notes_index": "data/exports/notes_index.csv",
+    "exports_reading_status": "data/exports/reading_status.csv",
+    "json": "daily/2026/09/2026-09-15.json",
+    "markdown": "daily/2026/09/2026-09-15.md",
+    "public_curriculum_progress": "data/public/curriculum_progress.json",
+    "public_daily_index": "data/public/daily_index.json",
+    "public_knowledge_graph": "data/public/knowledge_graph.json",
+    "public_latest": "data/public/latest.json",
+    "public_notes_index": "data/public/notes_index.json",
+    "public_papers_index": "data/public/papers_index.json",
+    "public_reading_status": "data/public/reading_status.json",
+    "state_notes_index": "data/state/notes_index.json",
+    "state_papers": "data/state/papers.jsonl",
+    "state_reading_status": "data/state/reading_status.json",
+    "state_run_history": "data/state/run_history.json"
+  },
+  "knowledge_graph_delta": [
+    "paper:biorxiv:10.64898/2026.09.07.749904",
+    "paper:biorxiv:10.64898/2026.09.08.749671",
+    "paper:biorxiv:10.64898/2026.09.08.750049",
+    "paper:biorxiv:10.64898/2026.09.11.751080",
+    "paper:biorxiv:10.64898/2026.09.11.750852",
+    "paper:biorxiv:10.64898/2026.05.01.721665"
+  ],
+  "learning_route_position": "v0.4 GitHub-owned note bridge",
+  "next_actions": [
+    "Review S-level candidate",
+    "Update reading status after skim",
+    "Promote durable concepts into the knowledge graph"
+  ],
+  "papers": [
+    {
+      "abstract": "The visual environment contains more information than can be fully processed. To cope with this information, the visual system selects, integrates, and compresses sensory inputs. These processes are particularly evident in peripheral vision, where nearby items strongly limit access to individual elements, as in crowding and redundancy masking. In redundancy masking, repeated items are compressed into fewer items than are physically present, for example, three spatially separated items presented in the periphery are often perceived as only two items. Whether these interactions among items merely limit access to visual information or serve a functional role in perception remains unknown. Here, we investigated whether redundancy masking, despite reducing the number of perceived items, improves feature discrimination. In two experiments, participants viewed arrays of identical bars in peripheral vision, reported the number of bars they perceived, and adjusted a foveal probe to match perceived width (Experiment 1) or width and spacing (Experiment 2). Strong redundancy masking occurred in both experiments. When participants perceived fewer bars than were presented, perceived width was closer to the presented bar width than when all bars were perceived, where width was systematically underestimated. In Experiment 2, the perceived spacing between the (fewer) perceived bars increased. We modeled feature discrimination under redundancy masking and found that the observed improvement could not be explained by averaging features of the lost and perceived bars. These results suggest that the visual system efficiently compresses redundant information, reducing the number of perceived items while improving feature discrimination.",
+      "authors": [
+        "L-Miao, L.",
+        "O\u0308ztas, D. N.",
+        "Alp, N.",
+        "Sayim, B."
+      ],
+      "categories": [
+        "animal behavior and cognition"
+      ],
+      "citation_count": null,
+      "classic_status": null,
+      "code_url": null,
+      "deep_read_note_url": null,
+      "difficulty": null,
+      "enrichment_sources": [],
+      "existing_note_url": null,
+      "external_ids": {
+        "DOI": "10.64898/2026.09.07.749904"
+      },
+      "field": null,
+      "fields_of_study": [
+        "Psychology"
+      ],
+      "id": "biorxiv:10.64898/2026.09.07.749904",
+      "identifiers": {
+        "DOI": "10.64898/2026.09.07.749904",
+        "doi": "10.64898/2026.09.07.749904",
+        "server": "biorxiv"
+      },
+      "influential_citation_count": null,
+      "institutions": [],
+      "latest_note_url": null,
+      "note_count": 0,
+      "open_access_pdf_url": null,
+      "pdf_url": null,
+      "project_url": null,
+      "published_at": "2026-09-14",
+      "published_date": "2026-09-14",
+      "reading_advice": "save_for_later",
+      "reading_status": "backlog",
+      "recommendation_level": "B",
+      "score": 0.708,
+      "scores": {
+        "classic_value": 0.35,
+        "engineering_transferability": 0.48,
+        "recency": 1.0,
+        "source_quality": 0.68,
+        "total": 0.708,
+        "user_relevance": 0.75
+      },
+      "selected_for_s_level": false,
+      "source": "biorxiv",
+      "source_group": "cognition_social",
+      "source_type": "recent_7d",
+      "source_url": "https://doi.org/10.64898/2026.09.07.749904",
+      "suggested_note_title": null,
+      "suggested_note_type": null,
+      "tags": [
+        "animal behavior and cognition",
+        "cognition_social",
+        "biorxiv"
+      ],
+      "title": "Compression of redundant visual information improves feature discrimination in human vision",
+      "title_zh": null,
+      "topics": [
+        "cognition"
+      ],
+      "url": "https://doi.org/10.64898/2026.09.07.749904",
+      "venue": "bioRxiv",
+      "why_recommended": "Ranked by recency signal across configured topics."
+    },
+    {
+      "abstract": "Changes in fire regimes negatively impact biodiversity worldwide1,2. The immediate behavioral responses of animals to fire, however, are largely unknown. Despite presenting obvious dangers, fire can also attract animals by providing unique foraging opportunities3. Such attraction to fire (pyrophilia) has already been observed in some bird species, yet its underlying motivation remains unidentified. Here, we examined the abundance and behavior of 16 bird species before, during, and after prescribed burns in the northern Australian savanna. Eight species were on average 3 to 23 times more abundant during fires. Raptors caught on average ten times more prey per hour during burns than in the absence of fire, and their foraging success increased with fire size. Black kites, the most pyrophilic birds observed, were more numerous during larger fires and foraged more efficiently on the ground than in the air. These results underscore the importance of investigating animal behavior in response to active fire and the effects of shifting fire regimes on the foraging ecology of pyrophilic animals.",
+      "authors": [
+        "Jacobs, I.",
+        "Webb, J. L.",
+        "Horvath, K.",
+        "Rangers, M."
+      ],
+      "categories": [
+        "animal behavior and cognition"
+      ],
+      "citation_count": null,
+      "classic_status": null,
+      "code_url": null,
+      "deep_read_note_url": null,
+      "difficulty": null,
+      "enrichment_sources": [],
+      "existing_note_url": null,
+      "external_ids": {
+        "DOI": "10.64898/2026.09.08.749671"
+      },
+      "field": null,
+      "fields_of_study": [
+        "Psychology"
+      ],
+      "id": "biorxiv:10.64898/2026.09.08.749671",
+      "identifiers": {
+        "DOI": "10.64898/2026.09.08.749671",
+        "doi": "10.64898/2026.09.08.749671",
+        "server": "biorxiv"
+      },
+      "influential_citation_count": null,
+      "institutions": [],
+      "latest_note_url": null,
+      "note_count": 0,
+      "open_access_pdf_url": null,
+      "pdf_url": null,
+      "project_url": null,
+      "published_at": "2026-09-14",
+      "published_date": "2026-09-14",
+      "reading_advice": "save_for_later",
+      "reading_status": "backlog",
+      "recommendation_level": "B",
+      "score": 0.708,
+      "scores": {
+        "classic_value": 0.35,
+        "engineering_transferability": 0.48,
+        "recency": 1.0,
+        "source_quality": 0.68,
+        "total": 0.708,
+        "user_relevance": 0.75
+      },
+      "selected_for_s_level": false,
+      "source": "biorxiv",
+      "source_group": "cognition_social",
+      "source_type": "recent_7d",
+      "source_url": "https://doi.org/10.64898/2026.09.08.749671",
+      "suggested_note_title": null,
+      "suggested_note_type": null,
+      "tags": [
+        "animal behavior and cognition",
+        "cognition_social",
+        "biorxiv"
+      ],
+      "title": "Fires attract and fuel hunting success of Australian pyrophilic birds",
+      "title_zh": null,
+      "topics": [
+        "cognition"
+      ],
+      "url": "https://doi.org/10.64898/2026.09.08.749671",
+      "venue": "bioRxiv",
+      "why_recommended": "Ranked by recency signal across configured topics."
+    },
+    {
+      "abstract": "Animals differ in how they acquire and retain information, and modify their behavior while interacting with their environment. These differences have been linked to personality type, yet how personality type and sex influence reward-associated memory is not well understood. We investigated the effects of personality type, sex, days of conditioning, and food reward on learning and memory retention in zebrafish using the conditioned place preference paradigm. We conditioned zebrafish to associate a visual background with a food reward across eleven sessions and assessed memory recall seven days later by measuring duration, frequency of entry, and latency to first entry in the conditioned zone. We observed that bold fish had early conditioned zone engagement, whereas shy zebrafish gradually increased their behavior into the conditioned zone with repeated conditioning. With food reward, preference for the conditioned zone increased after 7 and 11 days post-conditioning relative to baseline. Seven days after the last conditioning with food reward, the preference for conditioned zone remained unchanged in shy fish. This suggests that shy fish retain the ability to recall the learned association for at least 7 days after conditioning. Overall, personality, food reward, and sex influence behavioral changes in food reward-associated cognition, with shy-treated males showing gradual increases in behavior into the conditioned zone. These findings suggest that personality and sex differences may depend on the nature and valence of the associative task to recall. Thus, this study emphasizes the importance of assessing memory retention alongside learning acquisition to understand the relationship between personality types and cognition.",
+      "authors": [
+        "Sunday-Jimmy, P. B.",
+        "Le, T. T. A.",
+        "Wong, R. Y."
+      ],
+      "categories": [
+        "animal behavior and cognition"
+      ],
+      "citation_count": null,
+      "classic_status": null,
+      "code_url": null,
+      "deep_read_note_url": null,
+      "difficulty": null,
+      "enrichment_sources": [],
+      "existing_note_url": null,
+      "external_ids": {
+        "DOI": "10.64898/2026.09.08.750049"
+      },
+      "field": null,
+      "fields_of_study": [
+        "Psychology"
+      ],
+      "id": "biorxiv:10.64898/2026.09.08.750049",
+      "identifiers": {
+        "DOI": "10.64898/2026.09.08.750049",
+        "doi": "10.64898/2026.09.08.750049",
+        "server": "biorxiv"
+      },
+      "influential_citation_count": null,
+      "institutions": [],
+      "latest_note_url": null,
+      "note_count": 0,
+      "open_access_pdf_url": null,
+      "pdf_url": null,
+      "project_url": null,
+      "published_at": "2026-09-14",
+      "published_date": "2026-09-14",
+      "reading_advice": "save_for_later",
+      "reading_status": "backlog",
+      "recommendation_level": "B",
+      "score": 0.708,
+      "scores": {
+        "classic_value": 0.35,
+        "engineering_transferability": 0.48,
+        "recency": 1.0,
+        "source_quality": 0.68,
+        "total": 0.708,
+        "user_relevance": 0.75
+      },
+      "selected_for_s_level": false,
+      "source": "biorxiv",
+      "source_group": "cognition_social",
+      "source_type": "recent_7d",
+      "source_url": "https://doi.org/10.64898/2026.09.08.750049",
+      "suggested_note_title": null,
+      "suggested_note_type": null,
+      "tags": [
+        "animal behavior and cognition",
+        "cognition_social",
+        "biorxiv"
+      ],
+      "title": "Personality Variation in Associative Learning and Memory Retention in Zebrafish (Danio rerio)",
+      "title_zh": null,
+      "topics": [
+        "cognition"
+      ],
+      "url": "https://doi.org/10.64898/2026.09.08.750049",
+      "venue": "bioRxiv",
+      "why_recommended": "Ranked by recency signal across configured topics."
+    },
+    {
+      "abstract": "Odors allow animals to evaluate resources and risks, but the neural and inherited consequences of experience with ecologically meaningful odors remain poorly understood. Since both parasitoids and entomopathogenic fungi are widely used as agents in integrated biocontrol, we asked whether exposure to pathogen-associated volatiles can reassign odor value in a parasitoid wasp and whether the acquired bias is transmitted to descendants. Adult female Scleroderma guani were exposed, without host contact, to volatiles from Beauveria bassiana-infected hosts or to methyl cinnamate (MC), a representative component of the infected-host odor. Twelve-hour exposure shifted subsequent choices away from infected-host odor and MC, whereas shorter exposure produced different effects, indicating duration-dependent olfactory plasticity. The shift occurred without an explicit reward or punishment and is therefore consistent with non-associative learning. Unexposed F1 and F2 descendants of MC-exposed females expressed the same avoidance bias. MC stimulation elicited stronger calcium responses in mushroom-body regions of trained females and their descendants. Head transcriptomes identified reduced expression of the crustacean cardioactive peptide receptor (CCAPR) as a shared molecular signature, and CCAPR RNA interference phenocopied the odor-avoidance behavior. Finally, maternal treatment with sinefungin, a broad S-adenosylmethionine-dependent methyltransferase inhibitor, left maternal behavioral shift intact but abolished the F1 bias, implicating a methylation-sensitive process in transmission. Together, these results reveal that a pathogen-associated odor can induce durable, cross-generational reweighting of olfactory value in a non-model insect and identify candidate neural and neuropeptidergic mechanisms linking sensory experience to inherited behavior, and providing a new perspective on utilizing training in integrated biocontrol as well.",
+      "authors": [
+        "Liu, S.",
+        "Ge, J.",
+        "Sun, J."
+      ],
+      "categories": [
+        "animal behavior and cognition"
+      ],
+      "citation_count": null,
+      "classic_status": null,
+      "code_url": null,
+      "deep_read_note_url": null,
+      "difficulty": null,
+      "enrichment_sources": [],
+      "existing_note_url": null,
+      "external_ids": {
+        "DOI": "10.64898/2026.09.11.751080"
+      },
+      "field": null,
+      "fields_of_study": [
+        "Psychology"
+      ],
+      "id": "biorxiv:10.64898/2026.09.11.751080",
+      "identifiers": {
+        "DOI": "10.64898/2026.09.11.751080",
+        "doi": "10.64898/2026.09.11.751080",
+        "server": "biorxiv"
+      },
+      "influential_citation_count": null,
+      "institutions": [],
+      "latest_note_url": null,
+      "note_count": 0,
+      "open_access_pdf_url": null,
+      "pdf_url": null,
+      "project_url": null,
+      "published_at": "2026-09-14",
+      "published_date": "2026-09-14",
+      "reading_advice": "save_for_later",
+      "reading_status": "backlog",
+      "recommendation_level": "B",
+      "score": 0.708,
+      "scores": {
+        "classic_value": 0.35,
+        "engineering_transferability": 0.48,
+        "recency": 1.0,
+        "source_quality": 0.68,
+        "total": 0.708,
+        "user_relevance": 0.75
+      },
+      "selected_for_s_level": false,
+      "source": "biorxiv",
+      "source_group": "cognition_social",
+      "source_type": "recent_7d",
+      "source_url": "https://doi.org/10.64898/2026.09.11.751080",
+      "suggested_note_title": null,
+      "suggested_note_type": null,
+      "tags": [
+        "animal behavior and cognition",
+        "cognition_social",
+        "biorxiv"
+      ],
+      "title": "Pathogen-associated odor experience induces inherited olfactory avoidance in a parasitoid wasp",
+      "title_zh": null,
+      "topics": [
+        "cognition"
+      ],
+      "url": "https://doi.org/10.64898/2026.09.11.751080",
+      "venue": "bioRxiv",
+      "why_recommended": "Ranked by recency signal across configured topics."
+    },
+    {
+      "abstract": "Japanese quail (Coturnix japonica) rely on an extensive vocal repertoire to coordinate social behaviour and respond to predation risk, yet how individual call types are modulated by predator identity remains poorly characterized. In this pilot case-series, two sexually mature Japanese quail (each contributing more than 2,000 classified vocalizations across repeated predator-exposure trials) were exposed to simulated aerial (hawk) and terrestrial (cat) predator stimuli across four social contexts, before, during, and after stimulus presentation. Vocalizations were classified, via blind dual-observer review, into 18 spectrographically distinct call types (an exploratory repertoire estimate, not independently statistically validated), of which 10 were acoustically characterized. Chi-square analyses of the full call-type composition revealed highly significant differences between hawk and cat exposure in both individuals (both p < 0.0001); call types 5 and 10 were significantly cat-biased and call type 2 was significantly hawk-biased in both individuals. An exploratory correlation suggested that call types with a higher maximum frequency tended to be relatively hawk-biased (Spearman rho = -0.67, p = 0.033, uncorrected for multiple comparisons). Independently, call-type composition shifted significantly between the pre- and post-exposure phases in all four individual-by-predator combinations (all p < 0.0001), driven substantially by a consistent post-exposure increase in call type 9 across both individuals and both predator classes. Additional exploratory analyses of social-context (mirror and concealed-conspecific) effects on call-type composition are presented in the supporting information. Given the small sample size (n = 2), these findings are presented as case-based, hypothesis-generating observations intended to justify and inform a fully powered follow-up study, rather than as population-level conclusions.",
+      "authors": [
+        "Ham, K.",
+        "Park, S.",
+        "Park, G.",
+        "Kim, C."
+      ],
+      "categories": [
+        "animal behavior and cognition"
+      ],
+      "citation_count": null,
+      "classic_status": null,
+      "code_url": null,
+      "deep_read_note_url": null,
+      "difficulty": null,
+      "enrichment_sources": [],
+      "existing_note_url": null,
+      "external_ids": {
+        "DOI": "10.64898/2026.09.11.750852"
+      },
+      "field": null,
+      "fields_of_study": [
+        "Psychology"
+      ],
+      "id": "biorxiv:10.64898/2026.09.11.750852",
+      "identifiers": {
+        "DOI": "10.64898/2026.09.11.750852",
+        "doi": "10.64898/2026.09.11.750852",
+        "server": "biorxiv"
+      },
+      "influential_citation_count": null,
+      "institutions": [],
+      "latest_note_url": null,
+      "note_count": 0,
+      "open_access_pdf_url": null,
+      "pdf_url": null,
+      "project_url": null,
+      "published_at": "2026-09-14",
+      "published_date": "2026-09-14",
+      "reading_advice": "save_for_later",
+      "reading_status": "backlog",
+      "recommendation_level": "B",
+      "score": 0.708,
+      "scores": {
+        "classic_value": 0.35,
+        "engineering_transferability": 0.48,
+        "recency": 1.0,
+        "source_quality": 0.68,
+        "total": 0.708,
+        "user_relevance": 0.75
+      },
+      "selected_for_s_level": false,
+      "source": "biorxiv",
+      "source_group": "cognition_social",
+      "source_type": "recent_7d",
+      "source_url": "https://doi.org/10.64898/2026.09.11.750852",
+      "suggested_note_title": null,
+      "suggested_note_type": null,
+      "tags": [
+        "animal behavior and cognition",
+        "cognition_social",
+        "biorxiv"
+      ],
+      "title": "Predator type shapes call-type composition and post-threat vocal dynamics in Japanese quail (Coturnix japonica): a pilot case-series",
+      "title_zh": null,
+      "topics": [
+        "cognition"
+      ],
+      "url": "https://doi.org/10.64898/2026.09.11.750852",
+      "venue": "bioRxiv",
+      "why_recommended": "Ranked by recency signal across configured topics."
+    },
+    {
+      "abstract": "Convolutional neural networks (CNNs) operating on spectrogram images are the established method for automated cetacean whistle detection in passive acoustic monitoring (PAM). The FFT window length (N_fft) used during spectrogram generation is routinely fixed without justification, yet it determines the time-frequency resolution and, consequently, how the resulting image is distorted when resized to a fixed CNN input dimension. This study presents a controlled sensitivity analysis of N_fft across five values (128, 256, 512, 1024, 2048) on binary Tursiops truncatus whistle detection, using 10-fold cross-validation on an in-domain dataset (Oltremare, 192 kHz) and cross-domain evaluation on an independent open-ocean benchmark (DCLDE 2022). All experiments were conducted within a formally defined, open-source pipeline (ai-pam-pipeline). In-domain performance is uniformly high across all configurations. Cross-domain results diverge: N_fft = 256 significantly outperforms 512, 1024, and 2048 in macro F1, while maintaining a false discovery rate (FDR) of exactly zero across all 10 folds and all tested classification thresholds. N_fft = 128 achieves comparable recall but produces FDR > 0 in all 10 folds, exhibiting a transfer failure that is undetectable by in-domain validation. These results show that a preprocessing parameter routinely treated as an implementation detail has a large, systematic effect on cross-domain generalization. The study does not aim to propose N_fft = 256 as a universal optimum; rather, it tests the common assumption that this parameter is neutral and safe under a fully specified representation regime, and demonstrates that it is not.",
+      "authors": [
+        "De Marco, R.",
+        "Iurcev, M.",
+        "Trebbi, A.",
+        "Lagorio, S."
+      ],
+      "categories": [
+        "animal behavior and cognition"
+      ],
+      "citation_count": 0,
+      "classic_status": null,
+      "code_url": null,
+      "deep_read_note_url": null,
+      "difficulty": null,
+      "enrichment_sources": [
+        "semantic_scholar"
+      ],
+      "existing_note_url": null,
+      "external_ids": {
+        "CorpusId": "288107315",
+        "DOI": "10.64898/2026.05.01.721665"
+      },
+      "field": "Psychology",
+      "fields_of_study": [
+        "Psychology"
+      ],
+      "id": "biorxiv:10.64898/2026.05.01.721665",
+      "identifiers": {
+        "CorpusId": "288107315",
+        "DOI": "10.64898/2026.05.01.721665",
+        "doi": "10.64898/2026.05.01.721665",
+        "server": "biorxiv"
+      },
+      "influential_citation_count": 0,
+      "institutions": [],
+      "latest_note_url": null,
+      "note_count": 0,
+      "open_access_pdf_url": "https://doi.org/10.64898/2026.05.01.721665",
+      "pdf_url": null,
+      "project_url": null,
+      "published_at": "2026-09-08",
+      "published_date": "2026-09-08",
+      "reading_advice": "save_for_later",
+      "reading_status": "backlog",
+      "recommendation_level": "B",
+      "score": 0.6755,
+      "scores": {
+        "classic_value": 0.35,
+        "engineering_transferability": 0.48,
+        "recency": 0.78,
+        "source_quality": 0.83,
+        "total": 0.6755,
+        "user_relevance": 0.75
+      },
+      "selected_for_s_level": false,
+      "source": "biorxiv",
+      "source_group": "cognition_social",
+      "source_type": "recent_7d",
+      "source_url": "https://doi.org/10.64898/2026.05.01.721665",
+      "suggested_note_title": null,
+      "suggested_note_type": null,
+      "tags": [
+        "animal behavior and cognition",
+        "cognition_social",
+        "biorxiv"
+      ],
+      "title": "Is FFT window length a neutral preprocessing choice in CNN-based dolphin whistle detection? A cross-domain sensitivity analysis.",
+      "title_zh": null,
+      "topics": [
+        "cognition"
+      ],
+      "url": "https://doi.org/10.64898/2026.05.01.721665",
+      "venue": "bioRxiv",
+      "why_recommended": "Ranked by source quality signal across configured topics."
+    }
+  ],
+  "public_json_version": "0.4",
+  "s_level_candidate_ids": [],
+  "s_level_paper_id": null,
+  "source_mode_summary": {
+    "recent_7d": 6
+  },
+  "summary": "Selected 6 papers: 6 recent candidates and 0 classic fallback items."
+}

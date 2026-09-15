@@ -251,6 +251,7 @@ biorxiv:10.64898/2026.01.05.697602,backlog,medium,,2026-09-12T23:57:10+00:00,Ele
 biorxiv:10.64898/2026.03.02.709083,backlog,medium,,2026-09-09T00:05:20+00:00,Magnitude estimation reveals Poisson-like noise underlying perception,cognition_social,B
 biorxiv:10.64898/2026.03.23.26349095,backlog,medium,,2026-09-12T00:11:42+00:00,Ancestry-specific effects of APOE on Alzheimer Disease Endophenotypes,cognition_social,B
 biorxiv:10.64898/2026.03.24.26348063,backlog,medium,,2026-09-12T00:11:42+00:00,Predicting Infant Nonattendance at the Next Recommended Well-Child Visit: Model Development and Validation,cognition_social,B
+biorxiv:10.64898/2026.05.01.721665,backlog,medium,,2026-09-15T00:31:00+00:00,Is FFT window length a neutral preprocessing choice in CNN-based dolphin whistle detection? A cross-domain sensitivity analysis.,cognition_social,B
 biorxiv:10.64898/2026.05.14.725265,backlog,medium,,2026-08-30T00:10:37+00:00,Appetite for change: How nutritional state and ventral striatal dopamine shape psilocybin effects on cognitive flexibility,cognition_social,B
 biorxiv:10.64898/2026.05.19.726180,backlog,medium,,2026-09-09T00:05:20+00:00,The microstructure-weighted human connectome: network properties and structure-function correlations across spatial scales,cognition_social,B
 biorxiv:10.64898/2026.05.27.728254,backlog,medium,,2026-09-09T00:05:20+00:00,iClima: a ratiometric genetically encoded sensor for optical imaging of fast GABAergic chloride currents in vitro and in vivo,cognition_social,B
@@ -273,6 +274,11 @@ biorxiv:10.64898/2026.08.26.747434,backlog,medium,,2026-09-09T00:05:20+00:00,Lin
 biorxiv:10.64898/2026.09.01.748526,backlog,medium,,2026-09-12T23:57:10+00:00,The Adhesion GPCR Flamingo-Like 1 (FMIL-1) Directs Synapse Formation in a Nociceptive Circuit,cognition_social,B
 biorxiv:10.64898/2026.09.01.748702,backlog,medium,,2026-09-12T23:57:10+00:00,Striatal dopamine dynamics across temporal scales in brain-specific Atp2a2 heterozygous knockout mice during reward conditioning,cognition_social,B
 biorxiv:10.64898/2026.09.02.26362017,backlog,medium,,2026-09-12T00:11:42+00:00,A Time-Dependent Diffusion MRI Framework for Clinical Characterisation of Human Brain Cellular Architecture,cognition_social,B
+biorxiv:10.64898/2026.09.07.749904,backlog,medium,,2026-09-15T00:31:00+00:00,Compression of redundant visual information improves feature discrimination in human vision,cognition_social,B
+biorxiv:10.64898/2026.09.08.749671,backlog,medium,,2026-09-15T00:31:00+00:00,Fires attract and fuel hunting success of Australian pyrophilic birds,cognition_social,B
+biorxiv:10.64898/2026.09.08.750049,backlog,medium,,2026-09-15T00:31:00+00:00,Personality Variation in Associative Learning and Memory Retention in Zebrafish (Danio rerio),cognition_social,B
+biorxiv:10.64898/2026.09.11.750852,backlog,medium,,2026-09-15T00:31:00+00:00,Predator type shapes call-type composition and post-threat vocal dynamics in Japanese quail (Coturnix japonica): a pilot case-series,cognition_social,B
+biorxiv:10.64898/2026.09.11.751080,backlog,medium,,2026-09-15T00:31:00+00:00,Pathogen-associated odor experience induces inherited olfactory avoidance in a parasitoid wasp,cognition_social,B
 classic:architecture:cache-coherence-and-shared-memory-multiprocessors,backlog,medium,,2026-07-09T09:46:00+00:00,Cache coherence and shared-memory multiprocessors,architecture,B
 classic:architecture:the-memory-hierarchy-and-locality,backlog,medium,,2026-07-09T09:46:00+00:00,The memory hierarchy and locality,architecture,B
 classic:cognition:attention-and-working-memory,backlog,medium,,2026-07-09T09:46:00+00:00,Attention and working memory,cognition,B

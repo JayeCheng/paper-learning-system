@@ -2223,6 +2223,18 @@
     {
       "confidence": 0.5,
       "relation": "related_to",
+      "source": "biorxiv:10.64898/2026.05.01.721665",
+      "target": "cognition"
+    },
+    {
+      "confidence": 0.5,
+      "relation": "related_to",
+      "source": "biorxiv:10.64898/2026.05.01.721665",
+      "target": "cognition_social"
+    },
+    {
+      "confidence": 0.5,
+      "relation": "related_to",
       "source": "biorxiv:10.64898/2026.05.14.725265",
       "target": "cognition"
     },
@@ -2482,6 +2494,66 @@
       "confidence": 0.5,
       "relation": "related_to",
       "source": "biorxiv:10.64898/2026.09.02.26362017",
+      "target": "cognition_social"
+    },
+    {
+      "confidence": 0.5,
+      "relation": "related_to",
+      "source": "biorxiv:10.64898/2026.09.07.749904",
+      "target": "cognition"
+    },
+    {
+      "confidence": 0.5,
+      "relation": "related_to",
+      "source": "biorxiv:10.64898/2026.09.07.749904",
+      "target": "cognition_social"
+    },
+    {
+      "confidence": 0.5,
+      "relation": "related_to",
+      "source": "biorxiv:10.64898/2026.09.08.749671",
+      "target": "cognition"
+    },
+    {
+      "confidence": 0.5,
+      "relation": "related_to",
+      "source": "biorxiv:10.64898/2026.09.08.749671",
+      "target": "cognition_social"
+    },
+    {
+      "confidence": 0.5,
+      "relation": "related_to",
+      "source": "biorxiv:10.64898/2026.09.08.750049",
+      "target": "cognition"
+    },
+    {
+      "confidence": 0.5,
+      "relation": "related_to",
+      "source": "biorxiv:10.64898/2026.09.08.750049",
+      "target": "cognition_social"
+    },
+    {
+      "confidence": 0.5,
+      "relation": "related_to",
+      "source": "biorxiv:10.64898/2026.09.11.750852",
+      "target": "cognition"
+    },
+    {
+      "confidence": 0.5,
+      "relation": "related_to",
+      "source": "biorxiv:10.64898/2026.09.11.750852",
+      "target": "cognition_social"
+    },
+    {
+      "confidence": 0.5,
+      "relation": "related_to",
+      "source": "biorxiv:10.64898/2026.09.11.751080",
+      "target": "cognition"
+    },
+    {
+      "confidence": 0.5,
+      "relation": "related_to",
+      "source": "biorxiv:10.64898/2026.09.11.751080",
       "target": "cognition_social"
     },
     {
@@ -4627,6 +4699,14 @@
       "type": "paper"
     },
     {
+      "id": "biorxiv:10.64898/2026.05.01.721665",
+      "label": "Is FFT window length a neutral preprocessing choice in CNN-based dolphin whistle detection? A cross-domain sensitivity analysis.",
+      "topics": [
+        "cognition"
+      ],
+      "type": "paper"
+    },
+    {
       "id": "biorxiv:10.64898/2026.05.14.725265",
       "label": "Appetite for change: How nutritional state and ventral striatal dopamine shape psilocybin effects on cognitive flexibility",
       "topics": [
@@ -4803,6 +4883,46 @@
       "type": "paper"
     },
     {
+      "id": "biorxiv:10.64898/2026.09.07.749904",
+      "label": "Compression of redundant visual information improves feature discrimination in human vision",
+      "topics": [
+        "cognition"
+      ],
+      "type": "paper"
+    },
+    {
+      "id": "biorxiv:10.64898/2026.09.08.749671",
+      "label": "Fires attract and fuel hunting success of Australian pyrophilic birds",
+      "topics": [
+        "cognition"
+      ],
+      "type": "paper"
+    },
+    {
+      "id": "biorxiv:10.64898/2026.09.08.750049",
+      "label": "Personality Variation in Associative Learning and Memory Retention in Zebrafish (Danio rerio)",
+      "topics": [
+        "cognition"
+      ],
+      "type": "paper"
+    },
+    {
+      "id": "biorxiv:10.64898/2026.09.11.750852",
+      "label": "Predator type shapes call-type composition and post-threat vocal dynamics in Japanese quail (Coturnix japonica): a pilot case-series",
+      "topics": [
+        "cognition"
+      ],
+      "type": "paper"
+    },
+    {
+      "id": "biorxiv:10.64898/2026.09.11.751080",
+      "label": "Pathogen-associated odor experience induces inherited olfactory avoidance in a parasitoid wasp",
+      "topics": [
+        "cognition"
+      ],
+      "type": "paper"
+    },
+    {
       "id": "classic:architecture:cache-coherence-and-shared-memory-multiprocessors",
       "label": "Cache coherence and shared-memory multiprocessors",
       "topics": [
@@ -4924,5 +5044,5 @@
     }
   ],
   "public_json_version": "0.4",
-  "updated_at": "2026-09-14T00:06:21+00:00"
+  "updated_at": "2026-09-15T00:31:00+00:00"
 }
