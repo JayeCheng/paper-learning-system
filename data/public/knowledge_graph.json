@@ -2043,6 +2043,54 @@
     {
       "confidence": 0.5,
       "relation": "related_to",
+      "source": "arxiv:2609.15397v1",
+      "target": "llm_agent"
+    },
+    {
+      "confidence": 0.5,
+      "relation": "related_to",
+      "source": "arxiv:2609.15397v1",
+      "target": "architecture"
+    },
+    {
+      "confidence": 0.5,
+      "relation": "related_to",
+      "source": "arxiv:2609.15735v1",
+      "target": "gpu_graphics"
+    },
+    {
+      "confidence": 0.5,
+      "relation": "related_to",
+      "source": "arxiv:2609.15746v1",
+      "target": "gpu_graphics"
+    },
+    {
+      "confidence": 0.5,
+      "relation": "related_to",
+      "source": "arxiv:2609.15796v1",
+      "target": "sociology"
+    },
+    {
+      "confidence": 0.5,
+      "relation": "related_to",
+      "source": "arxiv:2609.15796v1",
+      "target": "cognition_social"
+    },
+    {
+      "confidence": 0.5,
+      "relation": "related_to",
+      "source": "arxiv:2609.15963v1",
+      "target": "llm_agent"
+    },
+    {
+      "confidence": 0.5,
+      "relation": "related_to",
+      "source": "arxiv:2609.15975v1",
+      "target": "llm_agent"
+    },
+    {
+      "confidence": 0.5,
+      "relation": "related_to",
       "source": "biorxiv:10.1101/2024.12.20.629771",
       "target": "cognition"
     },
@@ -4579,6 +4627,55 @@
       "type": "paper"
     },
     {
+      "id": "arxiv:2609.15397v1",
+      "label": "When Tool Calls Succeed but Workflows Fail: Anomalies at the Agent-Tool Boundary",
+      "topics": [
+        "llm_agent",
+        "architecture"
+      ],
+      "type": "paper"
+    },
+    {
+      "id": "arxiv:2609.15735v1",
+      "label": "Transforming harmonic coefficients for 3D splat compression",
+      "topics": [
+        "gpu_graphics"
+      ],
+      "type": "paper"
+    },
+    {
+      "id": "arxiv:2609.15746v1",
+      "label": "TopoRig: Topology-Agnostic Facial Rigging via Multi-Source Supervision",
+      "topics": [
+        "gpu_graphics"
+      ],
+      "type": "paper"
+    },
+    {
+      "id": "arxiv:2609.15796v1",
+      "label": "Penalized Maximum Likelihood Inference of Core-Periphery Networks",
+      "topics": [
+        "sociology"
+      ],
+      "type": "paper"
+    },
+    {
+      "id": "arxiv:2609.15963v1",
+      "label": "Adversarial Testing of Automated Program Repair Agents for Security Vulnerabilities",
+      "topics": [
+        "llm_agent"
+      ],
+      "type": "paper"
+    },
+    {
+      "id": "arxiv:2609.15975v1",
+      "label": "Disentangling Representation Evolution in Transformers through Directional Decomposition",
+      "topics": [
+        "llm_agent"
+      ],
+      "type": "paper"
+    },
+    {
       "id": "biorxiv:10.1101/2024.12.20.629771",
       "label": "Encoding of natural variability in a dexterous motor skill over multiple days in the cortex of freely behaving mice",
       "topics": [
@@ -5044,5 +5141,5 @@
     }
   ],
   "public_json_version": "0.4",
-  "updated_at": "2026-09-15T00:31:00+00:00"
+  "updated_at": "2026-09-16T00:10:08+00:00"
 }

@@ -236,6 +236,12 @@ arxiv:2609.09115v1,backlog,medium,,2026-09-10T00:06:24+00:00,MeClear: Cooperativ
 arxiv:2609.09123v1,backlog,medium,,2026-09-10T00:06:24+00:00,Mask Forcing: Improving Autoregressive Video Diffusion Distillation via Dual-Noise Masking Rollout,gpu_graphics,B
 arxiv:2609.09133v1,backlog,medium,,2026-09-10T00:06:24+00:00,"ExecCritic: Learn to Test, Test to Improve for Coding Agents",llm_agent,A
 arxiv:2609.09145v1,backlog,medium,,2026-09-10T00:06:24+00:00,Point4D: Long-range 4D Motion Reconstruction,gpu_graphics,B
+arxiv:2609.15397v1,backlog,medium,,2026-09-16T00:10:08+00:00,When Tool Calls Succeed but Workflows Fail: Anomalies at the Agent-Tool Boundary,architecture,A
+arxiv:2609.15735v1,backlog,medium,,2026-09-16T00:10:08+00:00,Transforming harmonic coefficients for 3D splat compression,gpu_graphics,B
+arxiv:2609.15746v1,backlog,medium,,2026-09-16T00:10:08+00:00,TopoRig: Topology-Agnostic Facial Rigging via Multi-Source Supervision,gpu_graphics,A
+arxiv:2609.15796v1,backlog,medium,,2026-09-16T00:10:08+00:00,Penalized Maximum Likelihood Inference of Core-Periphery Networks,cognition_social,B
+arxiv:2609.15963v1,backlog,medium,,2026-09-16T00:10:08+00:00,Adversarial Testing of Automated Program Repair Agents for Security Vulnerabilities,llm_agent,B
+arxiv:2609.15975v1,backlog,medium,,2026-09-16T00:10:08+00:00,Disentangling Representation Evolution in Transformers through Directional Decomposition,llm_agent,B
 biorxiv:10.1101/2024.12.20.629771,backlog,medium,,2026-09-12T23:57:10+00:00,Encoding of natural variability in a dexterous motor skill over multiple days in the cortex of freely behaving mice,cognition_social,B
 biorxiv:10.1101/2025.01.03.631260,backlog,medium,,2026-08-30T00:10:37+00:00,Reactivation of a dormant developmental plasticity program drives synaptic rejuvenation and antidepressant-like responses,cognition_social,B
 biorxiv:10.1101/2025.02.04.636500,backlog,medium,,2026-09-12T23:57:10+00:00,Modulation of oscillatory activity in response to very weak intensity transcranial magnetic stimulation in the human primary motor cortex,cognition_social,B
