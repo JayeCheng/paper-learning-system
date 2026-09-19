@@ -2331,6 +2331,30 @@
     {
       "confidence": 0.5,
       "relation": "related_to",
+      "source": "biorxiv:10.64898/2026.06.22.733700",
+      "target": "cognition"
+    },
+    {
+      "confidence": 0.5,
+      "relation": "related_to",
+      "source": "biorxiv:10.64898/2026.06.22.733700",
+      "target": "cognition_social"
+    },
+    {
+      "confidence": 0.5,
+      "relation": "related_to",
+      "source": "biorxiv:10.64898/2026.06.28.735033",
+      "target": "cognition"
+    },
+    {
+      "confidence": 0.5,
+      "relation": "related_to",
+      "source": "biorxiv:10.64898/2026.06.28.735033",
+      "target": "cognition_social"
+    },
+    {
+      "confidence": 0.5,
+      "relation": "related_to",
       "source": "biorxiv:10.64898/2026.06.29.731229",
       "target": "cognition"
     },
@@ -2487,6 +2511,18 @@
     {
       "confidence": 0.5,
       "relation": "related_to",
+      "source": "biorxiv:10.64898/2026.08.25.746978",
+      "target": "cognition"
+    },
+    {
+      "confidence": 0.5,
+      "relation": "related_to",
+      "source": "biorxiv:10.64898/2026.08.25.746978",
+      "target": "cognition_social"
+    },
+    {
+      "confidence": 0.5,
+      "relation": "related_to",
       "source": "biorxiv:10.64898/2026.08.25.747062",
       "target": "cognition"
     },
@@ -2547,6 +2583,18 @@
     {
       "confidence": 0.5,
       "relation": "related_to",
+      "source": "biorxiv:10.64898/2026.09.06.749703",
+      "target": "cognition"
+    },
+    {
+      "confidence": 0.5,
+      "relation": "related_to",
+      "source": "biorxiv:10.64898/2026.09.06.749703",
+      "target": "cognition_social"
+    },
+    {
+      "confidence": 0.5,
+      "relation": "related_to",
       "source": "biorxiv:10.64898/2026.09.07.749904",
       "target": "cognition"
     },
@@ -2578,6 +2626,18 @@
       "confidence": 0.5,
       "relation": "related_to",
       "source": "biorxiv:10.64898/2026.09.08.750049",
+      "target": "cognition_social"
+    },
+    {
+      "confidence": 0.5,
+      "relation": "related_to",
+      "source": "biorxiv:10.64898/2026.09.09.750388",
+      "target": "cognition"
+    },
+    {
+      "confidence": 0.5,
+      "relation": "related_to",
+      "source": "biorxiv:10.64898/2026.09.09.750388",
       "target": "cognition_social"
     },
     {
@@ -4836,6 +4896,22 @@
       "type": "paper"
     },
     {
+      "id": "biorxiv:10.64898/2026.06.22.733700",
+      "label": "Post-attack bioluminescence is an aposematic signal in luminin ostracods",
+      "topics": [
+        "cognition"
+      ],
+      "type": "paper"
+    },
+    {
+      "id": "biorxiv:10.64898/2026.06.28.735033",
+      "label": "Sublethal effects of the organosilicone surfactant Silwet L-77 and its interactions with acetamiprid and sulfoxaflor on honeybee (Apis mellifera) gustatory responsiveness and olfactory learning",
+      "topics": [
+        "cognition"
+      ],
+      "type": "paper"
+    },
+    {
       "id": "biorxiv:10.64898/2026.06.29.731229",
       "label": "Two fundamental timescales organize human vocal behavior",
       "topics": [
@@ -4940,6 +5016,14 @@
       "type": "paper"
     },
     {
+      "id": "biorxiv:10.64898/2026.08.25.746978",
+      "label": "Self-organized Regulation of Group Size and Number in Natural and Artificial Collectives",
+      "topics": [
+        "cognition"
+      ],
+      "type": "paper"
+    },
+    {
       "id": "biorxiv:10.64898/2026.08.25.747062",
       "label": "A neuro-computational approximation of the qualities of mental images",
       "topics": [
@@ -4980,6 +5064,14 @@
       "type": "paper"
     },
     {
+      "id": "biorxiv:10.64898/2026.09.06.749703",
+      "label": "Toward standardized behavioral analysis in IntelliCage experiments",
+      "topics": [
+        "cognition"
+      ],
+      "type": "paper"
+    },
+    {
       "id": "biorxiv:10.64898/2026.09.07.749904",
       "label": "Compression of redundant visual information improves feature discrimination in human vision",
       "topics": [
@@ -4998,6 +5090,14 @@
     {
       "id": "biorxiv:10.64898/2026.09.08.750049",
       "label": "Personality Variation in Associative Learning and Memory Retention in Zebrafish (Danio rerio)",
+      "topics": [
+        "cognition"
+      ],
+      "type": "paper"
+    },
+    {
+      "id": "biorxiv:10.64898/2026.09.09.750388",
+      "label": "Paired exposure to blue light and nutrient alters subsequent photo-avoidance in Physarum polycephalum",
       "topics": [
         "cognition"
       ],
@@ -5141,5 +5241,5 @@
     }
   ],
   "public_json_version": "0.4",
-  "updated_at": "2026-09-18T00:07:07+00:00"
+  "updated_at": "2026-09-19T00:10:51+00:00"
 }

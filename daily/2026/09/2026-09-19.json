@@ -1,0 +1,487 @@
+{
+  "date": "2026-09-19",
+  "frontend_entry": "data/public/latest.json",
+  "generated_at": "2026-09-19T00:10:51+00:00",
+  "generated_paths": {
+    "exports_csv": "data/exports/papers.csv",
+    "exports_daily_csv": "data/exports/daily_papers.csv",
+    "exports_jsonl": "data/exports/papers.jsonl",
+    "exports_notes_index": "data/exports/notes_index.csv",
+    "exports_reading_status": "data/exports/reading_status.csv",
+    "json": "daily/2026/09/2026-09-19.json",
+    "markdown": "daily/2026/09/2026-09-19.md",
+    "public_curriculum_progress": "data/public/curriculum_progress.json",
+    "public_daily_index": "data/public/daily_index.json",
+    "public_knowledge_graph": "data/public/knowledge_graph.json",
+    "public_latest": "data/public/latest.json",
+    "public_notes_index": "data/public/notes_index.json",
+    "public_papers_index": "data/public/papers_index.json",
+    "public_reading_status": "data/public/reading_status.json",
+    "state_notes_index": "data/state/notes_index.json",
+    "state_papers": "data/state/papers.jsonl",
+    "state_reading_status": "data/state/reading_status.json",
+    "state_run_history": "data/state/run_history.json"
+  },
+  "knowledge_graph_delta": [
+    "paper:biorxiv:10.64898/2026.08.25.746978",
+    "paper:biorxiv:10.64898/2026.06.22.733700",
+    "paper:biorxiv:10.64898/2026.06.28.735033",
+    "paper:biorxiv:10.64898/2026.09.09.750388",
+    "paper:biorxiv:10.64898/2026.09.06.749703",
+    "paper:biorxiv:10.64898/2026.09.07.749904"
+  ],
+  "learning_route_position": "v0.4 GitHub-owned note bridge",
+  "next_actions": [
+    "Review S-level candidate",
+    "Update reading status after skim",
+    "Promote durable concepts into the knowledge graph"
+  ],
+  "papers": [
+    {
+      "abstract": "From animal societies to self-organizing multi-agent systems, collectives adapt their group structure to tasks and environments. However, how they determine appropriate group sizes and the number of subgroups to form remains unclear. We formulate the Group Size and Number Regulation Problem (GSNRP), which asks how individuals regulate group sizes and numbers using only local information. In a first step, we establish a graph-theoretic model demonstrating that simple following behavior suffices to form group structures that match theoretical expectations, but is insufficient for active regulation of group size and number. In a second step, we operationalize individual group-size preferences in a decentralized fission-fusion mechanism based on perceived group size. Through multi-agent simulations, we validate that this mechanism achieves stable convergence across three signaling regimes, from position-only sensing to continuous group-size communication. Using tracking data from wild white-nosed coatis (mammals in the raccoon family), we calibrate individual group-size preferences and show that the controller recovers selected group-size, subgroup-count, and transition statistics. This in-sample case study demonstrates descriptive consistency with natural fission-fusion dynamics without establishing the underlying behavioral mechanism. These results suggest that natural and engineered collectives may share local principles of perception, preference, and response for regulating group structure.",
+      "authors": [
+        "Zhang, T.",
+        "Lee, S.",
+        "Hamann, H."
+      ],
+      "categories": [
+        "animal behavior and cognition"
+      ],
+      "citation_count": null,
+      "classic_status": null,
+      "code_url": null,
+      "deep_read_note_url": null,
+      "difficulty": null,
+      "enrichment_sources": [],
+      "existing_note_url": null,
+      "external_ids": {
+        "DOI": "10.64898/2026.08.25.746978"
+      },
+      "field": null,
+      "fields_of_study": [
+        "Psychology"
+      ],
+      "id": "biorxiv:10.64898/2026.08.25.746978",
+      "identifiers": {
+        "DOI": "10.64898/2026.08.25.746978",
+        "doi": "10.64898/2026.08.25.746978",
+        "server": "biorxiv"
+      },
+      "influential_citation_count": null,
+      "institutions": [],
+      "latest_note_url": null,
+      "note_count": 0,
+      "open_access_pdf_url": null,
+      "pdf_url": null,
+      "project_url": null,
+      "published_at": "2026-09-12",
+      "published_date": "2026-09-12",
+      "reading_advice": "save_for_later",
+      "reading_status": "backlog",
+      "recommendation_level": "B",
+      "score": 0.653,
+      "scores": {
+        "classic_value": 0.35,
+        "engineering_transferability": 0.48,
+        "recency": 0.78,
+        "source_quality": 0.68,
+        "total": 0.653,
+        "user_relevance": 0.75
+      },
+      "selected_for_s_level": false,
+      "source": "biorxiv",
+      "source_group": "cognition_social",
+      "source_type": "recent_7d",
+      "source_url": "https://doi.org/10.64898/2026.08.25.746978",
+      "suggested_note_title": null,
+      "suggested_note_type": null,
+      "tags": [
+        "animal behavior and cognition",
+        "cognition_social",
+        "biorxiv"
+      ],
+      "title": "Self-organized Regulation of Group Size and Number in Natural and Artificial Collectives",
+      "title_zh": null,
+      "topics": [
+        "cognition"
+      ],
+      "url": "https://doi.org/10.64898/2026.08.25.746978",
+      "venue": "bioRxiv",
+      "why_recommended": "Ranked by recency signal across configured topics."
+    },
+    {
+      "abstract": "Aposematic signals convey information about prey unpalatability to potential predators. Such signals are defined as advertisements, with prey usually signalling unpalatability before an attack. Overlooked, however, is whether signals presented after an attack can function as aposematic warnings and influence the efficacy of defense. Here, we test if post-attack signals can be aposematic by observing fish predators responding to prey (Ostracoda, Cypridinidae) that produce bioluminescence following an attack. By manipulating potential chemical defenses of prey, and by comparing feeding responses to both bioluminescent and nonluminescent prey, we provide multiple lines of evidence to show bioluminescent prey are unpalatable and use post-attack bioluminescence as an aposematic signal. First, live, bioluminescent prey secrete bioluminescence only after being attacked. Second, predatory fishes rarely consumed bioluminescent prey, especially compared to nonluminescent alternatives. Third, because fishes readily ate bioluminescent prey that had been treated (frozen or boiled), which should remove defenses, bioluminescent species likely possess some unidentified defense over nonluminescent relatives. Finally, over the course of four experimental trials, predators were less likely to consume bioluminescent prey as their cumulative exposure to bioluminescent displays increased, indicative of learning. Post-attack aposematic signals, like bioluminescence, may be as common and effective a defensive strategy as pre-attack signals.",
+      "authors": [
+        "Hensley, N. M.",
+        "Shulman, L. M.",
+        "Rivers, T. J.",
+        "Gerrish, G. A.",
+        "Herbert-Read, J.",
+        "Morin, J. G."
+      ],
+      "categories": [
+        "animal behavior and cognition"
+      ],
+      "citation_count": null,
+      "classic_status": null,
+      "code_url": null,
+      "deep_read_note_url": null,
+      "difficulty": null,
+      "enrichment_sources": [],
+      "existing_note_url": null,
+      "external_ids": {
+        "DOI": "10.64898/2026.06.22.733700"
+      },
+      "field": null,
+      "fields_of_study": [
+        "Psychology"
+      ],
+      "id": "biorxiv:10.64898/2026.06.22.733700",
+      "identifiers": {
+        "DOI": "10.64898/2026.06.22.733700",
+        "doi": "10.64898/2026.06.22.733700",
+        "server": "biorxiv"
+      },
+      "influential_citation_count": null,
+      "institutions": [],
+      "latest_note_url": null,
+      "note_count": 0,
+      "open_access_pdf_url": null,
+      "pdf_url": null,
+      "project_url": null,
+      "published_at": "2026-09-12",
+      "published_date": "2026-09-12",
+      "reading_advice": "save_for_later",
+      "reading_status": "backlog",
+      "recommendation_level": "B",
+      "score": 0.653,
+      "scores": {
+        "classic_value": 0.35,
+        "engineering_transferability": 0.48,
+        "recency": 0.78,
+        "source_quality": 0.68,
+        "total": 0.653,
+        "user_relevance": 0.75
+      },
+      "selected_for_s_level": false,
+      "source": "biorxiv",
+      "source_group": "cognition_social",
+      "source_type": "recent_7d",
+      "source_url": "https://doi.org/10.64898/2026.06.22.733700",
+      "suggested_note_title": null,
+      "suggested_note_type": null,
+      "tags": [
+        "animal behavior and cognition",
+        "cognition_social",
+        "biorxiv"
+      ],
+      "title": "Post-attack bioluminescence is an aposematic signal in luminin ostracods",
+      "title_zh": null,
+      "topics": [
+        "cognition"
+      ],
+      "url": "https://doi.org/10.64898/2026.06.22.733700",
+      "venue": "bioRxiv",
+      "why_recommended": "Ranked by recency signal across configured topics."
+    },
+    {
+      "abstract": "Pesticides remain indispensable for global food security, yet their use must be reconciled with the preservation of biodiversity. Despite advances in developing \"safer\" pesticides, their sublethal effects and synergistic potential with co-formulants in tank-mixtures, including \"inert\" spray adjuvants, often remain poorly understood in beneficial insects like bees. In this study, we assessed the effects of acute oral exposure to both single compounds and adjuvant-insecticide mixtures on gustatory responsiveness, associative olfactory learning, and 90-minute short-term memory retention in honeybee foragers (Apis mellifera L.). Specifically, individual foragers were exposed to either single compounds (0.1%, 0.5%, 1% or 2.5% SilwetTM L-77; 6, 30 or 150 ng acetamiprid; 3, 9 or 27 ng sulfoxaflor), adjuvant-insecticide mixtures (0.5% or 1% SilwetTM L-77 combined with 6 or 30 ng acetamiprid, or 3 or 9 ng sulfoxaflor), a positive control (6 ng imidacloprid), or negative controls (0%, 0.1%, and 1% acetone). While we found no significant interaction effects for these adjuvant-insecticide mixtures, single-compound exposure to the highest doses of 2.5% SilwetTM L-77 and 27 ng sulfoxaflor significantly reduced gustatory responsiveness. Furthermore, all three agrochemicals alone weakly affected associative learning without impacting short-term memory retention. Although adjuvant-insecticide mixtures did not significantly impair learning ability, these adjuvants may impact sensory perception. Moving beyond mortality-based assessments and including behavioural assay to test sensory perception and learning ability is essential for gaining a more holistic understanding of pollinator health.",
+      "authors": [
+        "Achatz, M.",
+        "Benda, N.",
+        "Mair, M. M.",
+        "Osterman, J.",
+        "Kurze, C."
+      ],
+      "categories": [
+        "animal behavior and cognition"
+      ],
+      "citation_count": null,
+      "classic_status": null,
+      "code_url": null,
+      "deep_read_note_url": null,
+      "difficulty": null,
+      "enrichment_sources": [],
+      "existing_note_url": null,
+      "external_ids": {
+        "DOI": "10.64898/2026.06.28.735033"
+      },
+      "field": null,
+      "fields_of_study": [
+        "Psychology"
+      ],
+      "id": "biorxiv:10.64898/2026.06.28.735033",
+      "identifiers": {
+        "DOI": "10.64898/2026.06.28.735033",
+        "doi": "10.64898/2026.06.28.735033",
+        "server": "biorxiv"
+      },
+      "influential_citation_count": null,
+      "institutions": [],
+      "latest_note_url": null,
+      "note_count": 0,
+      "open_access_pdf_url": null,
+      "pdf_url": null,
+      "project_url": null,
+      "published_at": "2026-09-12",
+      "published_date": "2026-09-12",
+      "reading_advice": "save_for_later",
+      "reading_status": "backlog",
+      "recommendation_level": "B",
+      "score": 0.653,
+      "scores": {
+        "classic_value": 0.35,
+        "engineering_transferability": 0.48,
+        "recency": 0.78,
+        "source_quality": 0.68,
+        "total": 0.653,
+        "user_relevance": 0.75
+      },
+      "selected_for_s_level": false,
+      "source": "biorxiv",
+      "source_group": "cognition_social",
+      "source_type": "recent_7d",
+      "source_url": "https://doi.org/10.64898/2026.06.28.735033",
+      "suggested_note_title": null,
+      "suggested_note_type": null,
+      "tags": [
+        "animal behavior and cognition",
+        "cognition_social",
+        "biorxiv"
+      ],
+      "title": "Sublethal effects of the organosilicone surfactant Silwet L-77 and its interactions with acetamiprid and sulfoxaflor on honeybee (Apis mellifera) gustatory responsiveness and olfactory learning",
+      "title_zh": null,
+      "topics": [
+        "cognition"
+      ],
+      "url": "https://doi.org/10.64898/2026.06.28.735033",
+      "venue": "bioRxiv",
+      "why_recommended": "Ranked by recency signal across configured topics."
+    },
+    {
+      "abstract": "Whilst forms of non-associative learning such as habituation are widely reported in single-celled organisms, whether associative learning is possible in systems without a nervous system is contested. In this study, we implemented a conditioning paradigm in the acellular slime mould Physarum polycephalum through repeated pairings of nutrients with an aversive blue light stimulus. We first established that blue light is aversive under our conditioning protocol, slowing migration and producing broader, less directed growth, confirming its well documented effect on behaviour. Subjects were then trained in up to four training sessions by placing an oat stimulus inside a region with blue light before testing with the light presented alone. Trained subjects were more likely to reach the blue light region compared to untrained controls, with shorter latency, suggesting that Physarum weakens its avoidance of blue light after the region has repeatedly coincided with a nutrient. However, engagement did not strengthen with additional pairings, a pattern that admits multiple competing explanations in which associative and non-associative processes plausibly contribute to more transient associative-like effects. We conclude that a history of co-presentation is sufficient to relax an aversive response in Physarum but cannot, within the present study, attribute that change to associative learning.",
+      "authors": [
+        "Wang, Q.",
+        "Gaspers, N.",
+        "Sims, M.",
+        "Schlicht, T.",
+        "Severs, L."
+      ],
+      "categories": [
+        "animal behavior and cognition"
+      ],
+      "citation_count": null,
+      "classic_status": null,
+      "code_url": null,
+      "deep_read_note_url": null,
+      "difficulty": null,
+      "enrichment_sources": [],
+      "existing_note_url": null,
+      "external_ids": {
+        "DOI": "10.64898/2026.09.09.750388"
+      },
+      "field": null,
+      "fields_of_study": [
+        "Psychology"
+      ],
+      "id": "biorxiv:10.64898/2026.09.09.750388",
+      "identifiers": {
+        "DOI": "10.64898/2026.09.09.750388",
+        "doi": "10.64898/2026.09.09.750388",
+        "server": "biorxiv"
+      },
+      "influential_citation_count": null,
+      "institutions": [],
+      "latest_note_url": null,
+      "note_count": 0,
+      "open_access_pdf_url": null,
+      "pdf_url": null,
+      "project_url": null,
+      "published_at": "2026-09-13",
+      "published_date": "2026-09-13",
+      "reading_advice": "save_for_later",
+      "reading_status": "backlog",
+      "recommendation_level": "B",
+      "score": 0.653,
+      "scores": {
+        "classic_value": 0.35,
+        "engineering_transferability": 0.48,
+        "recency": 0.78,
+        "source_quality": 0.68,
+        "total": 0.653,
+        "user_relevance": 0.75
+      },
+      "selected_for_s_level": false,
+      "source": "biorxiv",
+      "source_group": "cognition_social",
+      "source_type": "recent_7d",
+      "source_url": "https://doi.org/10.64898/2026.09.09.750388",
+      "suggested_note_title": null,
+      "suggested_note_type": null,
+      "tags": [
+        "animal behavior and cognition",
+        "cognition_social",
+        "biorxiv"
+      ],
+      "title": "Paired exposure to blue light and nutrient alters subsequent photo-avoidance in Physarum polycephalum",
+      "title_zh": null,
+      "topics": [
+        "cognition"
+      ],
+      "url": "https://doi.org/10.64898/2026.09.09.750388",
+      "venue": "bioRxiv",
+      "why_recommended": "Ranked by recency signal across configured topics."
+    },
+    {
+      "abstract": "Automated home-cage systems measure individual behavior in social groups for days to months. Among these systems, the IntelliCage has become a widely used platform for longitudinal and socially embedded behavioral phenotyping. Yet the analysis layer often remains less standardized than the experiment itself: raw exports, phase definitions, exclusion rules, time alignment, and derived behavioral metrics are transformed by lab-specific scripts that are difficult to audit, compare, or reuse. We present ic-analysis, an open-source Python toolkit for standardized, scriptable, and shareable IntelliCage workflows. The toolkit separates user-defined experiment metadata and workflow scripts from a reusable analysis core with modular analysis and plotting functions, allowing users to flexibly assemble experiment-specific pipelines without editing package internals. Due to its modular design, the analysis core can be applied to a broad range of experimental paradigms, including general activity, exploratory, motivational, cognitive, and social readouts, rather than being limited to a single fixed protocol. It aligns biological phase windows across staggered cage runs and exports plots together with quantitative result tables, applied settings, and audit files that support reproducible and FAIR reporting. Here, we demonstrate this flexible design in a realistic synthetic place-learning/place-reversal experiment with two mouse groups and deliberately offset cage starts. The workflow recovered the implanted behavioral differences while preserving the required experimental-time alignment. Group A showed stronger endpoint saccharin preference (81.7 +/- 1.7% vs. 27.4 +/- 3.4%, p = 1.9e-), higher liquid uptake, faster place-learning onset (56.6 +/- 8.1 vs. 278.3 +/- 33.2 visits), and better reversal performance (64.1 +/- 1.3% vs. 25.6 +/- 1.7% rewarded correct-corner visits) compared to Group B. This demonstration shows how standardized, explicitly defined readouts can turn complex IntelliCage exports into interpretable behavioral profiles while preserving the analysis history needed for inspection and reuse. ic-analysis therefore provides both a working analysis scaffold and an extensible, community-friendly route toward IntelliCage workflows that are easier to reproduce, compare, extend, and share.",
+      "authors": [
+        "Musacchio, F.",
+        "Fuhrmann, M."
+      ],
+      "categories": [
+        "animal behavior and cognition"
+      ],
+      "citation_count": null,
+      "classic_status": null,
+      "code_url": null,
+      "deep_read_note_url": null,
+      "difficulty": null,
+      "enrichment_sources": [],
+      "existing_note_url": null,
+      "external_ids": {
+        "DOI": "10.64898/2026.09.06.749703"
+      },
+      "field": null,
+      "fields_of_study": [
+        "Psychology"
+      ],
+      "id": "biorxiv:10.64898/2026.09.06.749703",
+      "identifiers": {
+        "DOI": "10.64898/2026.09.06.749703",
+        "doi": "10.64898/2026.09.06.749703",
+        "server": "biorxiv"
+      },
+      "influential_citation_count": null,
+      "institutions": [],
+      "latest_note_url": null,
+      "note_count": 0,
+      "open_access_pdf_url": null,
+      "pdf_url": null,
+      "project_url": null,
+      "published_at": "2026-09-13",
+      "published_date": "2026-09-13",
+      "reading_advice": "save_for_later",
+      "reading_status": "backlog",
+      "recommendation_level": "B",
+      "score": 0.653,
+      "scores": {
+        "classic_value": 0.35,
+        "engineering_transferability": 0.48,
+        "recency": 0.78,
+        "source_quality": 0.68,
+        "total": 0.653,
+        "user_relevance": 0.75
+      },
+      "selected_for_s_level": false,
+      "source": "biorxiv",
+      "source_group": "cognition_social",
+      "source_type": "recent_7d",
+      "source_url": "https://doi.org/10.64898/2026.09.06.749703",
+      "suggested_note_title": null,
+      "suggested_note_type": null,
+      "tags": [
+        "animal behavior and cognition",
+        "cognition_social",
+        "biorxiv"
+      ],
+      "title": "Toward standardized behavioral analysis in IntelliCage experiments",
+      "title_zh": null,
+      "topics": [
+        "cognition"
+      ],
+      "url": "https://doi.org/10.64898/2026.09.06.749703",
+      "venue": "bioRxiv",
+      "why_recommended": "Ranked by recency signal across configured topics."
+    },
+    {
+      "abstract": "The visual environment contains more information than can be fully processed. To cope with this information, the visual system selects, integrates, and compresses sensory inputs. These processes are particularly evident in peripheral vision, where nearby items strongly limit access to individual elements, as in crowding and redundancy masking. In redundancy masking, repeated items are compressed into fewer items than are physically present, for example, three spatially separated items presented in the periphery are often perceived as only two items. Whether these interactions among items merely limit access to visual information or serve a functional role in perception remains unknown. Here, we investigated whether redundancy masking, despite reducing the number of perceived items, improves feature discrimination. In two experiments, participants viewed arrays of identical bars in peripheral vision, reported the number of bars they perceived, and adjusted a foveal probe to match perceived width (Experiment 1) or width and spacing (Experiment 2). Strong redundancy masking occurred in both experiments. When participants perceived fewer bars than were presented, perceived width was closer to the presented bar width than when all bars were perceived, where width was systematically underestimated. In Experiment 2, the perceived spacing between the (fewer) perceived bars increased. We modeled feature discrimination under redundancy masking and found that the observed improvement could not be explained by averaging features of the lost and perceived bars. These results suggest that the visual system efficiently compresses redundant information, reducing the number of perceived items while improving feature discrimination.",
+      "authors": [
+        "L-Miao, L.",
+        "O\u0308ztas, D. N.",
+        "Alp, N.",
+        "Sayim, B."
+      ],
+      "categories": [
+        "animal behavior and cognition"
+      ],
+      "citation_count": null,
+      "classic_status": null,
+      "code_url": null,
+      "deep_read_note_url": null,
+      "difficulty": null,
+      "enrichment_sources": [],
+      "existing_note_url": null,
+      "external_ids": {
+        "DOI": "10.64898/2026.09.07.749904"
+      },
+      "field": null,
+      "fields_of_study": [
+        "Psychology"
+      ],
+      "id": "biorxiv:10.64898/2026.09.07.749904",
+      "identifiers": {
+        "DOI": "10.64898/2026.09.07.749904",
+        "doi": "10.64898/2026.09.07.749904",
+        "server": "biorxiv"
+      },
+      "influential_citation_count": null,
+      "institutions": [],
+      "latest_note_url": null,
+      "note_count": 0,
+      "open_access_pdf_url": null,
+      "pdf_url": null,
+      "project_url": null,
+      "published_at": "2026-09-14",
+      "published_date": "2026-09-14",
+      "reading_advice": "save_for_later",
+      "reading_status": "backlog",
+      "recommendation_level": "B",
+      "score": 0.653,
+      "scores": {
+        "classic_value": 0.35,
+        "engineering_transferability": 0.48,
+        "recency": 0.78,
+        "source_quality": 0.68,
+        "total": 0.653,
+        "user_relevance": 0.75
+      },
+      "selected_for_s_level": false,
+      "source": "biorxiv",
+      "source_group": "cognition_social",
+      "source_type": "recent_7d",
+      "source_url": "https://doi.org/10.64898/2026.09.07.749904",
+      "suggested_note_title": null,
+      "suggested_note_type": null,
+      "tags": [
+        "animal behavior and cognition",
+        "cognition_social",
+        "biorxiv"
+      ],
+      "title": "Compression of redundant visual information improves feature discrimination in human vision",
+      "title_zh": null,
+      "topics": [
+        "cognition"
+      ],
+      "url": "https://doi.org/10.64898/2026.09.07.749904",
+      "venue": "bioRxiv",
+      "why_recommended": "Ranked by recency signal across configured topics."
+    }
+  ],
+  "public_json_version": "0.4",
+  "s_level_candidate_ids": [],
+  "s_level_paper_id": null,
+  "source_mode_summary": {
+    "recent_7d": 6
+  },
+  "summary": "Selected 6 papers: 6 recent candidates and 0 classic fallback items."
+}
