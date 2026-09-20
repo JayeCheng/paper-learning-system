@@ -2595,6 +2595,18 @@
     {
       "confidence": 0.5,
       "relation": "related_to",
+      "source": "biorxiv:10.64898/2026.09.07.749795",
+      "target": "cognition"
+    },
+    {
+      "confidence": 0.5,
+      "relation": "related_to",
+      "source": "biorxiv:10.64898/2026.09.07.749795",
+      "target": "cognition_social"
+    },
+    {
+      "confidence": 0.5,
+      "relation": "related_to",
       "source": "biorxiv:10.64898/2026.09.07.749904",
       "target": "cognition"
     },
@@ -2631,6 +2643,18 @@
     {
       "confidence": 0.5,
       "relation": "related_to",
+      "source": "biorxiv:10.64898/2026.09.09.749230",
+      "target": "cognition"
+    },
+    {
+      "confidence": 0.5,
+      "relation": "related_to",
+      "source": "biorxiv:10.64898/2026.09.09.749230",
+      "target": "cognition_social"
+    },
+    {
+      "confidence": 0.5,
+      "relation": "related_to",
       "source": "biorxiv:10.64898/2026.09.09.750388",
       "target": "cognition"
     },
@@ -2643,6 +2667,18 @@
     {
       "confidence": 0.5,
       "relation": "related_to",
+      "source": "biorxiv:10.64898/2026.09.10.750698",
+      "target": "cognition"
+    },
+    {
+      "confidence": 0.5,
+      "relation": "related_to",
+      "source": "biorxiv:10.64898/2026.09.10.750698",
+      "target": "cognition_social"
+    },
+    {
+      "confidence": 0.5,
+      "relation": "related_to",
       "source": "biorxiv:10.64898/2026.09.11.750852",
       "target": "cognition"
     },
@@ -2650,6 +2686,42 @@
       "confidence": 0.5,
       "relation": "related_to",
       "source": "biorxiv:10.64898/2026.09.11.750852",
+      "target": "cognition_social"
+    },
+    {
+      "confidence": 0.5,
+      "relation": "related_to",
+      "source": "biorxiv:10.64898/2026.09.11.750870",
+      "target": "cognition"
+    },
+    {
+      "confidence": 0.5,
+      "relation": "related_to",
+      "source": "biorxiv:10.64898/2026.09.11.750870",
+      "target": "cognition_social"
+    },
+    {
+      "confidence": 0.5,
+      "relation": "related_to",
+      "source": "biorxiv:10.64898/2026.09.11.750874",
+      "target": "cognition"
+    },
+    {
+      "confidence": 0.5,
+      "relation": "related_to",
+      "source": "biorxiv:10.64898/2026.09.11.750874",
+      "target": "cognition_social"
+    },
+    {
+      "confidence": 0.5,
+      "relation": "related_to",
+      "source": "biorxiv:10.64898/2026.09.11.750906",
+      "target": "cognition"
+    },
+    {
+      "confidence": 0.5,
+      "relation": "related_to",
+      "source": "biorxiv:10.64898/2026.09.11.750906",
       "target": "cognition_social"
     },
     {
@@ -5072,6 +5144,14 @@
       "type": "paper"
     },
     {
+      "id": "biorxiv:10.64898/2026.09.07.749795",
+      "label": "ESCRT-I Inhibition Protects against NMDAR Hypofunction and Restores Synaptic Homeostasis in a Cellular Model of Schizophrenia",
+      "topics": [
+        "cognition"
+      ],
+      "type": "paper"
+    },
+    {
       "id": "biorxiv:10.64898/2026.09.07.749904",
       "label": "Compression of redundant visual information improves feature discrimination in human vision",
       "topics": [
@@ -5096,6 +5176,14 @@
       "type": "paper"
     },
     {
+      "id": "biorxiv:10.64898/2026.09.09.749230",
+      "label": "Neural tracking of surprisal and semantic distance in naturalistic movie viewing",
+      "topics": [
+        "cognition"
+      ],
+      "type": "paper"
+    },
+    {
       "id": "biorxiv:10.64898/2026.09.09.750388",
       "label": "Paired exposure to blue light and nutrient alters subsequent photo-avoidance in Physarum polycephalum",
       "topics": [
@@ -5104,8 +5192,40 @@
       "type": "paper"
     },
     {
+      "id": "biorxiv:10.64898/2026.09.10.750698",
+      "label": "Delta rhythm and voice familiarity organize neural entrainment in the infant brain",
+      "topics": [
+        "cognition"
+      ],
+      "type": "paper"
+    },
+    {
       "id": "biorxiv:10.64898/2026.09.11.750852",
       "label": "Predator type shapes call-type composition and post-threat vocal dynamics in Japanese quail (Coturnix japonica): a pilot case-series",
+      "topics": [
+        "cognition"
+      ],
+      "type": "paper"
+    },
+    {
+      "id": "biorxiv:10.64898/2026.09.11.750870",
+      "label": "Reward expectation signals in the superior colliculus during associative learning",
+      "topics": [
+        "cognition"
+      ],
+      "type": "paper"
+    },
+    {
+      "id": "biorxiv:10.64898/2026.09.11.750874",
+      "label": "From Geometry to Hierarchy: Charting the Dominant Modes of Human Cortical Function Through Development",
+      "topics": [
+        "cognition"
+      ],
+      "type": "paper"
+    },
+    {
+      "id": "biorxiv:10.64898/2026.09.11.750906",
+      "label": "Cortical high frequency oscillations reflect encoding and retrieval of specific word concepts",
       "topics": [
         "cognition"
       ],
@@ -5241,5 +5361,5 @@
     }
   ],
   "public_json_version": "0.4",
-  "updated_at": "2026-09-19T00:10:51+00:00"
+  "updated_at": "2026-09-20T00:04:23+00:00"
 }
