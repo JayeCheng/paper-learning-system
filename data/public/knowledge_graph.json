@@ -2595,6 +2595,18 @@
     {
       "confidence": 0.5,
       "relation": "related_to",
+      "source": "biorxiv:10.64898/2026.09.07.26361905",
+      "target": "uncategorized"
+    },
+    {
+      "confidence": 0.5,
+      "relation": "related_to",
+      "source": "biorxiv:10.64898/2026.09.07.26361905",
+      "target": "cognition_social"
+    },
+    {
+      "confidence": 0.5,
+      "relation": "related_to",
       "source": "biorxiv:10.64898/2026.09.07.749795",
       "target": "cognition"
     },
@@ -2667,6 +2679,30 @@
     {
       "confidence": 0.5,
       "relation": "related_to",
+      "source": "biorxiv:10.64898/2026.09.10.26362802",
+      "target": "uncategorized"
+    },
+    {
+      "confidence": 0.5,
+      "relation": "related_to",
+      "source": "biorxiv:10.64898/2026.09.10.26362802",
+      "target": "cognition_social"
+    },
+    {
+      "confidence": 0.5,
+      "relation": "related_to",
+      "source": "biorxiv:10.64898/2026.09.10.26362809",
+      "target": "uncategorized"
+    },
+    {
+      "confidence": 0.5,
+      "relation": "related_to",
+      "source": "biorxiv:10.64898/2026.09.10.26362809",
+      "target": "cognition_social"
+    },
+    {
+      "confidence": 0.5,
+      "relation": "related_to",
       "source": "biorxiv:10.64898/2026.09.10.750698",
       "target": "cognition"
     },
@@ -2674,6 +2710,42 @@
       "confidence": 0.5,
       "relation": "related_to",
       "source": "biorxiv:10.64898/2026.09.10.750698",
+      "target": "cognition_social"
+    },
+    {
+      "confidence": 0.5,
+      "relation": "related_to",
+      "source": "biorxiv:10.64898/2026.09.11.26362849",
+      "target": "uncategorized"
+    },
+    {
+      "confidence": 0.5,
+      "relation": "related_to",
+      "source": "biorxiv:10.64898/2026.09.11.26362849",
+      "target": "cognition_social"
+    },
+    {
+      "confidence": 0.5,
+      "relation": "related_to",
+      "source": "biorxiv:10.64898/2026.09.11.26362881",
+      "target": "uncategorized"
+    },
+    {
+      "confidence": 0.5,
+      "relation": "related_to",
+      "source": "biorxiv:10.64898/2026.09.11.26362881",
+      "target": "cognition_social"
+    },
+    {
+      "confidence": 0.5,
+      "relation": "related_to",
+      "source": "biorxiv:10.64898/2026.09.11.26362885",
+      "target": "uncategorized"
+    },
+    {
+      "confidence": 0.5,
+      "relation": "related_to",
+      "source": "biorxiv:10.64898/2026.09.11.26362885",
       "target": "cognition_social"
     },
     {
@@ -5144,6 +5216,14 @@
       "type": "paper"
     },
     {
+      "id": "biorxiv:10.64898/2026.09.07.26361905",
+      "label": "Language, perceived discrimination and barriers to complaint use: sub-Saharan African immigrants' healthcare experiences in Oslo, a qualitative interview study",
+      "topics": [
+        "uncategorized"
+      ],
+      "type": "paper"
+    },
+    {
       "id": "biorxiv:10.64898/2026.09.07.749795",
       "label": "ESCRT-I Inhibition Protects against NMDAR Hypofunction and Restores Synaptic Homeostasis in a Cellular Model of Schizophrenia",
       "topics": [
@@ -5192,10 +5272,50 @@
       "type": "paper"
     },
     {
+      "id": "biorxiv:10.64898/2026.09.10.26362802",
+      "label": "Estimated cardiorespiratory fitness and incident cardiometabolic multimorbidity: findings from three nationally representative cohorts",
+      "topics": [
+        "uncategorized"
+      ],
+      "type": "paper"
+    },
+    {
+      "id": "biorxiv:10.64898/2026.09.10.26362809",
+      "label": "Lightweight Frequency-Gated Enhancement of nnU-Net Improves Data Efficiency in Nasal Sinus CT Segmentation",
+      "topics": [
+        "uncategorized"
+      ],
+      "type": "paper"
+    },
+    {
       "id": "biorxiv:10.64898/2026.09.10.750698",
       "label": "Delta rhythm and voice familiarity organize neural entrainment in the infant brain",
       "topics": [
         "cognition"
+      ],
+      "type": "paper"
+    },
+    {
+      "id": "biorxiv:10.64898/2026.09.11.26362849",
+      "label": "Target-dependent parameter-effect landscapes of low-intensity focused ultrasound neuromodulation in humans: a systematic review",
+      "topics": [
+        "uncategorized"
+      ],
+      "type": "paper"
+    },
+    {
+      "id": "biorxiv:10.64898/2026.09.11.26362881",
+      "label": "Innovative mHealth Intervention Providing Sustained Anticipatory Guidance (Zero Cavity): Design, Validation, User Perception and Effectiveness - A Randomized Controlled Trial Protocol",
+      "topics": [
+        "uncategorized"
+      ],
+      "type": "paper"
+    },
+    {
+      "id": "biorxiv:10.64898/2026.09.11.26362885",
+      "label": "GFAP as a Biomarker of Stroke Subtype and Brain Tissue Damage in Acute Stroke: A Systematic Review and Meta-Analysis",
+      "topics": [
+        "uncategorized"
       ],
       "type": "paper"
     },
@@ -5361,5 +5481,5 @@
     }
   ],
   "public_json_version": "0.4",
-  "updated_at": "2026-09-20T00:04:23+00:00"
+  "updated_at": "2026-09-21T00:09:14+00:00"
 }

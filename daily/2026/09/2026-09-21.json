@@ -1,0 +1,492 @@
+{
+  "date": "2026-09-21",
+  "frontend_entry": "data/public/latest.json",
+  "generated_at": "2026-09-21T00:09:14+00:00",
+  "generated_paths": {
+    "exports_csv": "data/exports/papers.csv",
+    "exports_daily_csv": "data/exports/daily_papers.csv",
+    "exports_jsonl": "data/exports/papers.jsonl",
+    "exports_notes_index": "data/exports/notes_index.csv",
+    "exports_reading_status": "data/exports/reading_status.csv",
+    "json": "daily/2026/09/2026-09-21.json",
+    "markdown": "daily/2026/09/2026-09-21.md",
+    "public_curriculum_progress": "data/public/curriculum_progress.json",
+    "public_daily_index": "data/public/daily_index.json",
+    "public_knowledge_graph": "data/public/knowledge_graph.json",
+    "public_latest": "data/public/latest.json",
+    "public_notes_index": "data/public/notes_index.json",
+    "public_papers_index": "data/public/papers_index.json",
+    "public_reading_status": "data/public/reading_status.json",
+    "state_notes_index": "data/state/notes_index.json",
+    "state_papers": "data/state/papers.jsonl",
+    "state_reading_status": "data/state/reading_status.json",
+    "state_run_history": "data/state/run_history.json"
+  },
+  "knowledge_graph_delta": [
+    "paper:biorxiv:10.64898/2026.09.07.26361905",
+    "paper:biorxiv:10.64898/2026.09.10.26362809",
+    "paper:biorxiv:10.64898/2026.09.11.26362849",
+    "paper:biorxiv:10.64898/2026.09.11.26362881",
+    "paper:biorxiv:10.64898/2026.09.10.26362802",
+    "paper:biorxiv:10.64898/2026.09.11.26362885"
+  ],
+  "learning_route_position": "v0.4 GitHub-owned note bridge",
+  "next_actions": [
+    "Review S-level candidate",
+    "Update reading status after skim",
+    "Promote durable concepts into the knowledge graph"
+  ],
+  "papers": [
+    {
+      "abstract": "Universal coverage alone does not ensure equitable healthcare. Racism is consistently associated with poorer healthcare experiences, but not consistently with lower healthcare use. What patients do after an encounter they interpret as discriminatory therefore remains unclear. This study examined how sub-Saharan African immigrants in Oslo interpreted such encounters, how language shaped comprehension and participation, how those experiences related to later service use, and what their accounts indicated about rights and accountability. We interviewed 15 first-generation immigrants from five sub-Saharan African countries, individually and in English, in 2021. Recruitment was purposive and referral-based. We analysed the data using reflexive thematic analysis. A working definition of discrimination was provided before participants described events. Awareness of the Equality and Anti-Discrimination Ombud and Tribunal was prompted rather than spontaneously recalled. We applied candidacy and a right-to-health framework, covering availability, accessibility, acceptability, quality, participation and accountability, abductively after initial theme development. Ten participants reported encounters they interpreted as discriminatory, including dismissive conduct, an explicitly group-based remark, ambiguous double-gloving and inadequate language support. All five contrasting accounts included communication described as adequate in a shared language, which we advance as a tentative linguistic recognition hypothesis rather than as evidence of cause. Inadequate communication affected reported comprehension and participation, and troubling encounters were followed by continued attendance, avoidance or self-medication. When prompted, all participants agreed that discrimination violated human rights. None described making a formal complaint, and their accounts point to five overlapping mechanisms of non-use: anticipated futility, emotional conservation, normalisation, procedural uncertainty and relational risk. Attendance can therefore record clinical need or absent alternatives rather than acceptable care. Healthcare use is an inadequate equity indicator. Complaint mechanisms that go unused generate institutional records showing no problem. Integrating candidacy, a right-to-health framework and the naming, blaming and claiming sequence, the study proposes language accessibility as a testable determinant of recognition, participation and accountability. It does not establish legal violations or causal effects.",
+      "authors": [
+        "Taadi, P. K.",
+        "Derman, B."
+      ],
+      "categories": [
+        "public and global health"
+      ],
+      "citation_count": null,
+      "classic_status": null,
+      "code_url": null,
+      "deep_read_note_url": null,
+      "difficulty": null,
+      "enrichment_sources": [],
+      "existing_note_url": null,
+      "external_ids": {
+        "DOI": "10.64898/2026.09.07.26361905"
+      },
+      "field": null,
+      "fields_of_study": [
+        "Psychology"
+      ],
+      "id": "biorxiv:10.64898/2026.09.07.26361905",
+      "identifiers": {
+        "DOI": "10.64898/2026.09.07.26361905",
+        "doi": "10.64898/2026.09.07.26361905",
+        "server": "medrxiv"
+      },
+      "influential_citation_count": null,
+      "institutions": [],
+      "latest_note_url": null,
+      "note_count": 0,
+      "open_access_pdf_url": null,
+      "pdf_url": null,
+      "project_url": null,
+      "published_at": "2026-09-14",
+      "published_date": "2026-09-14",
+      "reading_advice": "save_for_later",
+      "reading_status": "backlog",
+      "recommendation_level": "B",
+      "score": 0.653,
+      "scores": {
+        "classic_value": 0.35,
+        "engineering_transferability": 0.48,
+        "recency": 0.78,
+        "source_quality": 0.68,
+        "total": 0.653,
+        "user_relevance": 0.75
+      },
+      "selected_for_s_level": false,
+      "source": "biorxiv",
+      "source_group": "cognition_social",
+      "source_type": "recent_7d",
+      "source_url": "https://doi.org/10.64898/2026.09.07.26361905",
+      "suggested_note_title": null,
+      "suggested_note_type": null,
+      "tags": [
+        "public and global health",
+        "cognition_social",
+        "medrxiv"
+      ],
+      "title": "Language, perceived discrimination and barriers to complaint use: sub-Saharan African immigrants' healthcare experiences in Oslo, a qualitative interview study",
+      "title_zh": null,
+      "topics": [
+        "uncategorized"
+      ],
+      "url": "https://doi.org/10.64898/2026.09.07.26361905",
+      "venue": "medRxiv",
+      "why_recommended": "Ranked by recency signal across configured topics."
+    },
+    {
+      "abstract": "Background and ObjectivesAutomatic segmentation of the nasal cavity and paranasal sinuses from CT aids diagnosis and surgical planning, but clinical datasets in this domain remain small, which can affect training stability and evaluation validity. This study investigates whether the frequency-domain mechanisms of the Adaptive Frequency-Spatial Dual-Stream Network (AFS-DSN) can be transferred, in a lightweight form, into the self-configuring nnU-Net framework, and whether the resulting performance improvement survives rigorous statistical validation. We integrated the AFS-DSN frequency branch and cross-domain attention mechanism into nnU-Net, and corrected a zero-initialization gating deadlock in the original design, using the corrected model (v2) as a common base. On this base, we evaluated three variants: X1, an input-conditioned learnable spectral gate applied to 24 wavelet sub-bands; X2, which adds a boundary-distance training objective; and X3, combining X1 and X2. Experiments used the 130-volume NasalSeg CT dataset, under a full 91/19/20 protocol and a rebuilt, genuine 3-fold cross-validation in which the training set for each fold was reduced by approximately 19%, from 91 to 73-74 cases. Under the full protocol, all variants showed a small but statistically detectable improvement over a matched nnU-Net baseline. X3 achieved a Dice score of 95.78% versus 95.59% for the baseline, an improvement of 0.19 percentage points (95% CI [0.09, 0.29]; Holm-adjusted p = 0.004), and X3 also reduced average surface distance (ASD) from 0.252 mm to 0.235 mm. X3 was statistically equivalent to either individual component within a margin of {+/-}0.10 percentage points, suggesting a shared performance ceiling rather than a complementary gain. Under reduced training data, baseline Dice dropped by 2.71 percentage points (95.59% to 92.88%), while X3 remained essentially unchanged (95.78% to 95.75%), a cross-fold advantage of +2.88 percentage points (fold-level 95% CI [0.80, 4.96]) that held across all 20 test cases (sign test, p = 1.9x10-6) and was corroborated by average surface distance. The practical value of this combined approach lies primarily in within-distribution data efficiency, rather than in maximizing peak segmentation accuracy.",
+      "authors": [
+        "Chen, Y.-C.",
+        "Wan, S.-Y."
+      ],
+      "categories": [
+        "radiology and imaging"
+      ],
+      "citation_count": null,
+      "classic_status": null,
+      "code_url": null,
+      "deep_read_note_url": null,
+      "difficulty": null,
+      "enrichment_sources": [],
+      "existing_note_url": null,
+      "external_ids": {
+        "DOI": "10.64898/2026.09.10.26362809"
+      },
+      "field": null,
+      "fields_of_study": [
+        "Psychology"
+      ],
+      "id": "biorxiv:10.64898/2026.09.10.26362809",
+      "identifiers": {
+        "DOI": "10.64898/2026.09.10.26362809",
+        "doi": "10.64898/2026.09.10.26362809",
+        "server": "medrxiv"
+      },
+      "influential_citation_count": null,
+      "institutions": [],
+      "latest_note_url": null,
+      "note_count": 0,
+      "open_access_pdf_url": null,
+      "pdf_url": null,
+      "project_url": null,
+      "published_at": "2026-09-14",
+      "published_date": "2026-09-14",
+      "reading_advice": "save_for_later",
+      "reading_status": "backlog",
+      "recommendation_level": "B",
+      "score": 0.653,
+      "scores": {
+        "classic_value": 0.35,
+        "engineering_transferability": 0.48,
+        "recency": 0.78,
+        "source_quality": 0.68,
+        "total": 0.653,
+        "user_relevance": 0.75
+      },
+      "selected_for_s_level": false,
+      "source": "biorxiv",
+      "source_group": "cognition_social",
+      "source_type": "recent_7d",
+      "source_url": "https://doi.org/10.64898/2026.09.10.26362809",
+      "suggested_note_title": null,
+      "suggested_note_type": null,
+      "tags": [
+        "radiology and imaging",
+        "cognition_social",
+        "medrxiv"
+      ],
+      "title": "Lightweight Frequency-Gated Enhancement of nnU-Net Improves Data Efficiency in Nasal Sinus CT Segmentation",
+      "title_zh": null,
+      "topics": [
+        "uncategorized"
+      ],
+      "url": "https://doi.org/10.64898/2026.09.10.26362809",
+      "venue": "medRxiv",
+      "why_recommended": "Ranked by recency signal across configured topics."
+    },
+    {
+      "abstract": "Transcranial low-intensity focused ultrasound (LIFU) offers a rare ability to noninvasively modulate human brain activity in superficial and deep neural structures. Yet the field still cannot reliably predict how a given acoustic protocol will affect a specific brain target. We synthesize 230 LIFU experiments targeting the human cerebrum from 136 articles reporting sufficient acoustic information and neuromodulatory outcomes. We compare associations between acoustic parameters and reported outcomes across cortical and subcortical targets. This reveals divergent parameter-effect landscapes across cortical and subcortical targets. Cortical outcomes follow a nonmonotonic organization across pulse repetition frequency and duty cycle, with distinct zones associated with facilitation, suppression, and null or ambiguous effects. Subcortical outcomes instead vary predominantly along duty cycle, shifting from suppression at lower values toward facilitation at higher values. Intensity and dose factors do not provide a consistent target-independent explanation for outcome polarity, and current evidence is insufficient to identify parameters promoting lasting effects. These findings challenge the assumption that acoustic protocols have generalizable effects across the brain and identify anatomical target as a central dimension that should inform LIFU protocol design. We provide SonoMap, an open, interactive web resource that supports a more systematic, evidence-based approach to human LIFU neuromodulation.",
+      "authors": [
+        "Jang, H.",
+        "Meka, K. S.",
+        "Yang, A.",
+        "Mashour, G. A.",
+        "Hudetz, A. G.",
+        "Huang, Z."
+      ],
+      "categories": [
+        "neurology"
+      ],
+      "citation_count": null,
+      "classic_status": null,
+      "code_url": null,
+      "deep_read_note_url": null,
+      "difficulty": null,
+      "enrichment_sources": [],
+      "existing_note_url": null,
+      "external_ids": {
+        "DOI": "10.64898/2026.09.11.26362849"
+      },
+      "field": null,
+      "fields_of_study": [
+        "Neuroscience"
+      ],
+      "id": "biorxiv:10.64898/2026.09.11.26362849",
+      "identifiers": {
+        "DOI": "10.64898/2026.09.11.26362849",
+        "doi": "10.64898/2026.09.11.26362849",
+        "server": "medrxiv"
+      },
+      "influential_citation_count": null,
+      "institutions": [],
+      "latest_note_url": null,
+      "note_count": 0,
+      "open_access_pdf_url": null,
+      "pdf_url": null,
+      "project_url": null,
+      "published_at": "2026-09-14",
+      "published_date": "2026-09-14",
+      "reading_advice": "save_for_later",
+      "reading_status": "backlog",
+      "recommendation_level": "B",
+      "score": 0.653,
+      "scores": {
+        "classic_value": 0.35,
+        "engineering_transferability": 0.48,
+        "recency": 0.78,
+        "source_quality": 0.68,
+        "total": 0.653,
+        "user_relevance": 0.75
+      },
+      "selected_for_s_level": false,
+      "source": "biorxiv",
+      "source_group": "cognition_social",
+      "source_type": "recent_7d",
+      "source_url": "https://doi.org/10.64898/2026.09.11.26362849",
+      "suggested_note_title": null,
+      "suggested_note_type": null,
+      "tags": [
+        "neurology",
+        "cognition_social",
+        "medrxiv"
+      ],
+      "title": "Target-dependent parameter-effect landscapes of low-intensity focused ultrasound neuromodulation in humans: a systematic review",
+      "title_zh": null,
+      "topics": [
+        "uncategorized"
+      ],
+      "url": "https://doi.org/10.64898/2026.09.11.26362849",
+      "venue": "medRxiv",
+      "why_recommended": "Ranked by recency signal across configured topics."
+    },
+    {
+      "abstract": "IntroductionEarly Childhood Caries (ECC) remains one of the most common chronic conditions in childhood, affecting over 600 million children globally. When untreated, it can lead to severe pain, abscesses, difficulty in chewing that contributes to malnutrition, impaired speech, disrupted sleep, low self-esteem, social withdrawal, and poor academic performance, all of which diminish a childs overall quality of life. Although largely preventable, ECC remains highly prevalent because of delayed preventive care and low parental awareness. Effective health education needs to be consistent, accessible, and available whenever parents need it. Although current evidence indicates that anticipatory guidance is a proven approach, its long-term reinforcement through a mobile app has not yet been tested. This study aims to develop and evaluate the effectiveness of a mobile health (mHealth) application delivering Sustained Anticipatory Guidance (SAG) for the prevention of ECC. Methods and analysisA two-arm parallel hospital-based randomized controlled trial will be conducted at Sri Ramachandra Institute of Higher Education & Research, Chennai, India. The study will enrol 540 mother-infant dyads from the departments of Pediatric Medicine and the Centre for Early Childhood Caries Research (CECCRe). Eligible dyads with infants aged 6-12 months in the predentate stage will be randomized to the \"Zero-Cavity\" mHealth app (intervention) or standard care (control). Baseline and semi-annual data on oral hygiene, fluoride exposure, and feeding/diet will be collected. Calibrated dentists will perform quarterly clinical exams using ICDAS II criteria, recording cavitated and non-cavitated lesions. For children at high risk or with enamel defects/incipient lesions, clinical photographs will be taken to support individualized preventive guidance. The primary outcome will be the effectiveness of the app in preventing ECC, while the secondary outcomes will include ECC incidence and prevalence. DiscussionDespite being largely preventable, ECC remains a major public health challenge, sustained by limited preventive access and inconsistent counselling, especially in LMICs. This trial evaluates the Zero Cavity app, believed to bridge this gap by providing sustained, age-appropriate anticipatory guidance beyond clinic settings on oral development, hygiene, diet/feeding, and fluoride use. The behavioural theory-driven approach is expected to enhance cultural relevance, usability, and behaviour change, with optimism that process evaluation will illuminate engagement and implementation. It is believed that this large, adequately powered, parallel-group RCT with intention-to-treat analysis will offer, with optimism, a scalable, low-cost model that will expand the reach and consistency of continuous preventive care in diverse urban and peri-urban populations. Trial registration: CTRI/2026/04/107305",
+      "authors": [
+        "Muthu, M. S.",
+        "Dhar, V.",
+        "Saikia, A.",
+        "S, V.",
+        "R, H.",
+        "Balakrishnan, K.",
+        "Nirmal, L.",
+        "P, U.",
+        "Davis, J."
+      ],
+      "categories": [
+        "dentistry and oral medicine"
+      ],
+      "citation_count": null,
+      "classic_status": null,
+      "code_url": null,
+      "deep_read_note_url": null,
+      "difficulty": null,
+      "enrichment_sources": [],
+      "existing_note_url": null,
+      "external_ids": {
+        "DOI": "10.64898/2026.09.11.26362881"
+      },
+      "field": null,
+      "fields_of_study": [
+        "Psychology"
+      ],
+      "id": "biorxiv:10.64898/2026.09.11.26362881",
+      "identifiers": {
+        "DOI": "10.64898/2026.09.11.26362881",
+        "doi": "10.64898/2026.09.11.26362881",
+        "server": "medrxiv"
+      },
+      "influential_citation_count": null,
+      "institutions": [],
+      "latest_note_url": null,
+      "note_count": 0,
+      "open_access_pdf_url": null,
+      "pdf_url": null,
+      "project_url": null,
+      "published_at": "2026-09-14",
+      "published_date": "2026-09-14",
+      "reading_advice": "save_for_later",
+      "reading_status": "backlog",
+      "recommendation_level": "B",
+      "score": 0.653,
+      "scores": {
+        "classic_value": 0.35,
+        "engineering_transferability": 0.48,
+        "recency": 0.78,
+        "source_quality": 0.68,
+        "total": 0.653,
+        "user_relevance": 0.75
+      },
+      "selected_for_s_level": false,
+      "source": "biorxiv",
+      "source_group": "cognition_social",
+      "source_type": "recent_7d",
+      "source_url": "https://doi.org/10.64898/2026.09.11.26362881",
+      "suggested_note_title": null,
+      "suggested_note_type": null,
+      "tags": [
+        "dentistry and oral medicine",
+        "cognition_social",
+        "medrxiv"
+      ],
+      "title": "Innovative mHealth Intervention Providing Sustained Anticipatory Guidance (Zero Cavity): Design, Validation, User Perception and Effectiveness - A Randomized Controlled Trial Protocol",
+      "title_zh": null,
+      "topics": [
+        "uncategorized"
+      ],
+      "url": "https://doi.org/10.64898/2026.09.11.26362881",
+      "venue": "medRxiv",
+      "why_recommended": "Ranked by recency signal across configured topics."
+    },
+    {
+      "abstract": "ObjectiveCardiorespiratory fitness is a modifiable marker of cardiometabolic health, but its association with cardiometabolic multimorbidity (CMM) and the generalisability of that association across populations remain unclear. We examined the association between estimated cardiorespiratory fitness (eCRF) and incident CMM in three nationally representative cohorts. Materials and methodsWe used data from the China Health and Retirement Longitudinal Study, the English Longitudinal Study of Ageing, and the US Health and Retirement Study. eCRF was derived from a validated sex-specific non-exercise equation and modelled per 1-SD increment and as sex-specific categories. CMM was defined as the coexistence of two or more of hypertension, diabetes, heart disease, and stroke. Associations were assessed using Cox proportional hazards models, with supplementary analyses of proportional hazards, competing death, multiple imputation, prediction performance, and meta-analysis. ResultsAmong 12,944 participants, 3,029 developed incident CMM. Each 1-SD increment in eCRF was associated with a lower risk in the pooled model (hazard ratio 0.61, 95% CI 0.58-0.64). Compared with low fitness, high fitness was associated with a substantially lower risk (hazard ratio 0.40, 95% CI 0.35-0.45; P for trend <0.001). Adding eCRF to sociodemographic and behavioural predictors improved discrimination, and the association remained directionally consistent across sensitivity analyses. ConclusionsHigher estimated cardiorespiratory fitness was independently associated with a lower risk of incident CMM across three diverse populations and provided modest incremental prognostic information. As an easily obtained, non-exercise measure, eCRF may help characterise cardiometabolic risk in ageing populations, although between-cohort heterogeneity and the observational design warrant cautious interpretation.",
+      "authors": [
+        "Feng, H.",
+        "Zhao, T.",
+        "Xie, Z.",
+        "Li, S."
+      ],
+      "categories": [
+        "epidemiology"
+      ],
+      "citation_count": null,
+      "classic_status": null,
+      "code_url": null,
+      "deep_read_note_url": null,
+      "difficulty": null,
+      "enrichment_sources": [],
+      "existing_note_url": null,
+      "external_ids": {
+        "DOI": "10.64898/2026.09.10.26362802"
+      },
+      "field": null,
+      "fields_of_study": [
+        "Psychology"
+      ],
+      "id": "biorxiv:10.64898/2026.09.10.26362802",
+      "identifiers": {
+        "DOI": "10.64898/2026.09.10.26362802",
+        "doi": "10.64898/2026.09.10.26362802",
+        "server": "medrxiv"
+      },
+      "influential_citation_count": null,
+      "institutions": [],
+      "latest_note_url": null,
+      "note_count": 0,
+      "open_access_pdf_url": null,
+      "pdf_url": null,
+      "project_url": null,
+      "published_at": "2026-09-14",
+      "published_date": "2026-09-14",
+      "reading_advice": "save_for_later",
+      "reading_status": "backlog",
+      "recommendation_level": "B",
+      "score": 0.653,
+      "scores": {
+        "classic_value": 0.35,
+        "engineering_transferability": 0.48,
+        "recency": 0.78,
+        "source_quality": 0.68,
+        "total": 0.653,
+        "user_relevance": 0.75
+      },
+      "selected_for_s_level": false,
+      "source": "biorxiv",
+      "source_group": "cognition_social",
+      "source_type": "recent_7d",
+      "source_url": "https://doi.org/10.64898/2026.09.10.26362802",
+      "suggested_note_title": null,
+      "suggested_note_type": null,
+      "tags": [
+        "epidemiology",
+        "cognition_social",
+        "medrxiv"
+      ],
+      "title": "Estimated cardiorespiratory fitness and incident cardiometabolic multimorbidity: findings from three nationally representative cohorts",
+      "title_zh": null,
+      "topics": [
+        "uncategorized"
+      ],
+      "url": "https://doi.org/10.64898/2026.09.10.26362802",
+      "venue": "medRxiv",
+      "why_recommended": "Ranked by recency signal across configured topics."
+    },
+    {
+      "abstract": "BackgroundGlial fibrillary acidic protein (GFAP) is a promising blood biomarker that can distinguish intracerebral hemorrhage (ICH) from acute ischemic stroke (AIS). We aimed to summarize the existing evidence regarding: 1) the diagnostic accuracy of GFAP to differentiate ICH from AIS, and from undifferentiated suspected stroke, and 2) characterize GFAPs diagnostic accuracy across time strata from stroke onset. As a secondary objective, associations between GFAP and clinical and radiological outcomes were narratively summarized. MethodsFive databases [(MEDLINE/EMBASE/EBM Reviews/CINAHL Complete/Google Scholar] were searched (03/2026) for studies reporting blood GFAP levels in acute stroke. GFAP levels were analyzed according to time from onset to sampling. Risk of bias was assessed using QUADAS-2 for studies reporting diagnostic accuracy data. Forest plots, pooled sensitivities and specificities were calculated. ResultsTwo reviewers independently screened 6,336 studies; 64 were included for systematic review and 18 for meta-analysis. Risk of bias was low overall among diagnostic studies. For differentiating ICH from AIS, pooled AUC was 0.86 (95% CI: 0.76-0.92), pooled sensitivity 74.4% (95% CI:63.2-84.2%) and pooled specificity 87.2% (95% CI:77.0-94.7%). For ICH versus undifferentiated suspected stroke, pooled AUC was 0.88 (95% CI: 0.79-0.95), pooled sensitivity 75.4% (95% CI: 63.6-83.3%) and pooled specificity 90.5% (95% CI:88.0-96.2%). Diagnostic precision improved in earlier time strata: <6h: AUC 0.91, sensitivity 75.0%, specificity 92.7%; <2h: AUC 0.96, sensitivity 76.7%, specificity 96.4%. GFAP correlated with ICH volume in 11/12 studies, although smaller hematomas (<10 mL) were frequently associated with GFAP values below limits of detection. Few studies (n=3) suggest higher GFAP levels correlate with greater ischemic injury in AIS. ConclusionsAs a blood biomarker in acute stroke, GFAP has strong rule-in value (i.e. high specificity) for ICH, which is preserved in earlier time windows. Nevertheless, sensitivity remains limited, restricting its use as a rule-out test, particularly for smaller ICH volumes. Knowledge gaps remain regarding GFAPs potential in assessing ischemic injury extent in AIS.",
+      "authors": [
+        "Brassard, C.",
+        "Paul, J. F.",
+        "ZIEGLER, D.",
+        "Chagnon, M.",
+        "Bereznyakova, O.",
+        "Keezer, M. R.",
+        "Gioia, L. C."
+      ],
+      "categories": [
+        "neurology"
+      ],
+      "citation_count": null,
+      "classic_status": null,
+      "code_url": null,
+      "deep_read_note_url": null,
+      "difficulty": null,
+      "enrichment_sources": [],
+      "existing_note_url": null,
+      "external_ids": {
+        "DOI": "10.64898/2026.09.11.26362885"
+      },
+      "field": null,
+      "fields_of_study": [
+        "Neuroscience"
+      ],
+      "id": "biorxiv:10.64898/2026.09.11.26362885",
+      "identifiers": {
+        "DOI": "10.64898/2026.09.11.26362885",
+        "doi": "10.64898/2026.09.11.26362885",
+        "server": "medrxiv"
+      },
+      "influential_citation_count": null,
+      "institutions": [],
+      "latest_note_url": null,
+      "note_count": 0,
+      "open_access_pdf_url": null,
+      "pdf_url": null,
+      "project_url": null,
+      "published_at": "2026-09-14",
+      "published_date": "2026-09-14",
+      "reading_advice": "save_for_later",
+      "reading_status": "backlog",
+      "recommendation_level": "B",
+      "score": 0.653,
+      "scores": {
+        "classic_value": 0.35,
+        "engineering_transferability": 0.48,
+        "recency": 0.78,
+        "source_quality": 0.68,
+        "total": 0.653,
+        "user_relevance": 0.75
+      },
+      "selected_for_s_level": false,
+      "source": "biorxiv",
+      "source_group": "cognition_social",
+      "source_type": "recent_7d",
+      "source_url": "https://doi.org/10.64898/2026.09.11.26362885",
+      "suggested_note_title": null,
+      "suggested_note_type": null,
+      "tags": [
+        "neurology",
+        "cognition_social",
+        "medrxiv"
+      ],
+      "title": "GFAP as a Biomarker of Stroke Subtype and Brain Tissue Damage in Acute Stroke: A Systematic Review and Meta-Analysis",
+      "title_zh": null,
+      "topics": [
+        "uncategorized"
+      ],
+      "url": "https://doi.org/10.64898/2026.09.11.26362885",
+      "venue": "medRxiv",
+      "why_recommended": "Ranked by recency signal across configured topics."
+    }
+  ],
+  "public_json_version": "0.4",
+  "s_level_candidate_ids": [],
+  "s_level_paper_id": null,
+  "source_mode_summary": {
+    "recent_7d": 6
+  },
+  "summary": "Selected 6 papers: 6 recent candidates and 0 classic fallback items."
+}
