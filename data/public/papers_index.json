@@ -16691,6 +16691,81 @@
       "why_recommended": "Ranked by recency signal across configured topics."
     },
     {
+      "abstract": "How sensory information is interpreted depends on context, yet the neural mechanisms by which context shapes sensory processing remain poorly understood. To address this question, we developed a computational model constrained by in vivo functional imaging of cortical neurons in mice during reversal learning of a tactile sensory discrimination task. During learning, layer 2/3 somatosensory neurons enhanced their response to reward-predictive stimuli. The model accounted for these observations through selective top-down gain amplification of apical dendritic inputs, accompanied by reduced reward-prediction errors and increased confidence in outcome predictions. Upon rule-reversal, the lateral orbitofrontal cortex, through disinhibitory VIP interneurons, encoded a context-prediction error signaling a loss of confidence. The hierarchy of reward- and context-prediction errors across cortical areas is mirrored in top-down signals modulating apical activity of simulated pyramidal neurons in the primary sensory cortex. The model explains how contextual changes are detected and how reward- and context-prediction error signals, originating in different cortical regions, interact to reshape the sensory representation.",
+      "authors": [
+        "Tsai, M. C.",
+        "Teutsch, J.",
+        "Wybo, W. A. M.",
+        "Helmchen, F.",
+        "Banerjee, A.",
+        "Senn, W."
+      ],
+      "categories": [
+        "neuroscience"
+      ],
+      "citation_count": null,
+      "classic_status": null,
+      "code_url": null,
+      "deep_read_note_url": null,
+      "difficulty": null,
+      "enrichment_sources": [],
+      "existing_note_url": null,
+      "external_ids": {
+        "DOI": "10.1101/2024.09.30.615819"
+      },
+      "field": null,
+      "fields_of_study": [
+        "Neuroscience"
+      ],
+      "id": "biorxiv:10.1101/2024.09.30.615819",
+      "identifiers": {
+        "DOI": "10.1101/2024.09.30.615819",
+        "doi": "10.1101/2024.09.30.615819",
+        "server": "biorxiv"
+      },
+      "influential_citation_count": null,
+      "institutions": [],
+      "latest_note_url": null,
+      "note_count": 0,
+      "open_access_pdf_url": null,
+      "pdf_url": null,
+      "project_url": null,
+      "published_at": "2026-09-15",
+      "published_date": "2026-09-15",
+      "reading_advice": "save_for_later",
+      "reading_status": "backlog",
+      "recommendation_level": "B",
+      "score": 0.653,
+      "scores": {
+        "classic_value": 0.35,
+        "engineering_transferability": 0.48,
+        "recency": 0.78,
+        "source_quality": 0.68,
+        "total": 0.653,
+        "user_relevance": 0.75
+      },
+      "selected_for_s_level": false,
+      "source": "biorxiv",
+      "source_group": "cognition_social",
+      "source_type": "recent_7d",
+      "source_url": "https://doi.org/10.1101/2024.09.30.615819",
+      "suggested_note_title": null,
+      "suggested_note_type": null,
+      "tags": [
+        "neuroscience",
+        "cognition_social",
+        "biorxiv"
+      ],
+      "title": "Hierarchy of prediction errors shapes the learning of context-dependent sensory representations",
+      "title_zh": null,
+      "topics": [
+        "cognition"
+      ],
+      "url": "https://doi.org/10.1101/2024.09.30.615819",
+      "venue": "bioRxiv",
+      "why_recommended": "Ranked by recency signal across configured topics."
+    },
+    {
       "abstract": "Skilled, goal-directed movements exhibit trial-to-trial variability even in experts, particularly in response to dynamic environmental conditions or when perfect repetition is not required for success. Identifying where, to what extent, and how stably this variability is encoded in the nervous system is essential for understanding how learned movements are robustly maintained over time yet flexibly executed on each trial. We record calcium fluorescence activity in forelimb motor cortex (M1), a key node in the multi-areal network responsible for movement control, in freely-moving mice of both sexes as they performed a self-paced, precision reach-to-grasp task. High trial counts and rich single-trial variability enable rigorous statistical analysis of moment-to-moment movement encoding across matched behavioral sets over five days. Approximately 80% of recorded neurons significantly encoded paw, digit, and head movements during reaching, as quantified using linear models. Across days, encoding similarity shows a small but measurable decline that increases with the interval between recording sessions. This drift is heterogeneously distributed across the population, with many neurons retaining high encoding similarity even in sessions four days apart, as assessed using shuffle controls and comparison to encoding for trial-averaged movements. Thus, over the timescale examined, M1 is capable of maintaining stable encoding of movement details at the level of single cells, even for complex, sensory-guided tasks like reach-to-grasp. Together, these results raise the question of whether downstream circuits support consistent behavior by preferentially relying on neurons with greater stability or instead through population-level readout that is robust to a modest level of representational change.",
       "authors": [
         "de Laittre, E. A.",
@@ -17692,6 +17767,81 @@
       "why_recommended": "Ranked by recency signal across configured topics."
     },
     {
+      "abstract": "Brain activity unfolds across space and time, giving rise to spatiotemporal dynamics that can manifest as cortical traveling waves -smooth phase shifts propagating across the cortex. Although traveling waves have been observed across species and measurement scales, their functional role in human cognition remains largely inferred from correlational evidence. In healthy humans, large-scale neural dynamics must be studied non-invasively, which provides limited access to their neural origins. Here, we tested whether global traveling waves causally contribute to inter-areal communication during attention. Using transcranial magnetic stimulation (TMS), we induced long-range traveling waves detectable with electroencephalography and assessed their neural and behavioral consequences during an attentional search task. Double-pulse TMS applied over the right frontal eye field transiently disrupted ongoing global waves and selectively induced direction- and frequency-specific traveling waves propagating toward the occipital visual cortex. These TMS-induced anterior-to-posterior theta traveling waves were rhythmically modulated by stimulation latency relative to search-trial onset. Critically, behavioral performance exhibited the same rhythmic pattern, with improved attentional search performance when TMS-induced traveling waves were more prominent. Together, these findings provide causal evidence that large-scale traveling waves support inter-areal communication during rhythmic visual attention.",
+      "authors": [
+        "Kong, Y.",
+        "Petras, K.",
+        "Marque, P.",
+        "VanRullen, R.",
+        "Alexander, D. M.",
+        "Dugue, L."
+      ],
+      "categories": [
+        "neuroscience"
+      ],
+      "citation_count": null,
+      "classic_status": null,
+      "code_url": null,
+      "deep_read_note_url": null,
+      "difficulty": null,
+      "enrichment_sources": [],
+      "existing_note_url": null,
+      "external_ids": {
+        "DOI": "10.64898/2026.03.16.712044"
+      },
+      "field": null,
+      "fields_of_study": [
+        "Neuroscience"
+      ],
+      "id": "biorxiv:10.64898/2026.03.16.712044",
+      "identifiers": {
+        "DOI": "10.64898/2026.03.16.712044",
+        "doi": "10.64898/2026.03.16.712044",
+        "server": "biorxiv"
+      },
+      "influential_citation_count": null,
+      "institutions": [],
+      "latest_note_url": null,
+      "note_count": 0,
+      "open_access_pdf_url": null,
+      "pdf_url": null,
+      "project_url": null,
+      "published_at": "2026-09-15",
+      "published_date": "2026-09-15",
+      "reading_advice": "save_for_later",
+      "reading_status": "backlog",
+      "recommendation_level": "B",
+      "score": 0.653,
+      "scores": {
+        "classic_value": 0.35,
+        "engineering_transferability": 0.48,
+        "recency": 0.78,
+        "source_quality": 0.68,
+        "total": 0.653,
+        "user_relevance": 0.75
+      },
+      "selected_for_s_level": false,
+      "source": "biorxiv",
+      "source_group": "cognition_social",
+      "source_type": "recent_7d",
+      "source_url": "https://doi.org/10.64898/2026.03.16.712044",
+      "suggested_note_title": null,
+      "suggested_note_type": null,
+      "tags": [
+        "neuroscience",
+        "cognition_social",
+        "biorxiv"
+      ],
+      "title": "Traveling waves support rhythmic attentional search",
+      "title_zh": null,
+      "topics": [
+        "cognition"
+      ],
+      "url": "https://doi.org/10.64898/2026.03.16.712044",
+      "venue": "bioRxiv",
+      "why_recommended": "Ranked by recency signal across configured topics."
+    },
+    {
       "abstract": "INTRODUCTIONAPOE*{varepsilon}4 is the strongest genetic risk factor for Alzheimers disease (AD), yet its effect varies across ancestral populations. As plasma biomarkers increasingly inform AD diagnosis, failure to account for both APOE genotype and genetic ancestry could lead to diagnostic misclassification. METHODSIn 2,733 participants from the Health and Aging Brain Study-Health Disparities (HABS-HD), we evaluated whether genetically-inferred ancestry modifies APOE associations with AD endophenotypes. Regression models were applied across three frameworks: ancestry-stratified analyses, compositional modeling of global ancestry, and local ancestry analyses at the APOE locus. RESULTSAPOE {varepsilon}4+ was associated with higher pTau217 and pTau181, lower A{beta}42/A{beta}40, and worse global cognition (CDR-SB), significant within ancestry groups after FDR correction. The {varepsilon}4+ effect on pTau217 was [~]2.5-fold larger in EUR-like than AFR-like participants. DISCUSSIONAfrican ancestry attenuates APOE*{varepsilon}4+ associations with pTau217, highlighting the need to consider both APOE genotype and ancestry in biomarker-based AD evaluations.",
       "authors": [
         "Boeriu, A. I.",
@@ -18476,6 +18626,83 @@
       "url": "https://doi.org/10.64898/2026.06.29.731229",
       "venue": "bioRxiv",
       "why_recommended": "Ranked by recency signal across configured topics."
+    },
+    {
+      "abstract": "The infralimbic cortex (IL) is critical for the extinction of conditioned fear and receives dense cholinergic innervation from the basal forebrain, particularly from the horizontal limb of the diagonal band of Broca (HDB). Acetylcholine release in the IL regulates fear-related processes, but the mechanisms involved remain poorly understood. We investigated whether cholinergic projections from the HDB to the IL regulate the formation, extinction, and renewal of fear memories. Using optogenetics in male and female transgenic rats, we silenced the HDB to IL cholinergic pathway during either fear conditioning or extinction. Silencing during fear conditioning had no effect, whereas silencing during extinction enhanced extinction retrieval and prevented fear renewal. These effects were anatomically specific, as silencing the neighboring HDB to prelimbic cortex pathway had no such consequence. In ex vivo IL slices, stimulation of HDB cholinergic terminals preferentially excited interneurons over pyramidal neurons, consistent with feedforward inhibition of IL output. Finally, blockade of IL nicotinic acetylcholine receptors during extinction fully reproduced the effects of silencing the pathway, whereas muscarinic blockade attenuated renewal without affecting extinction retrieval. These findings indicate that cholinergic input from the HDB to the IL controls the acquisition and contextual specificity of extinction and identify nicotinic signaling in the IL as a potential target for improving extinction-based therapies.",
+      "authors": [
+        "Lay, B. P. P.",
+        "Chieng, B.",
+        "Maren, S.",
+        "Laurent, V."
+      ],
+      "categories": [
+        "neuroscience"
+      ],
+      "citation_count": 0,
+      "classic_status": null,
+      "code_url": null,
+      "deep_read_note_url": null,
+      "difficulty": null,
+      "enrichment_sources": [
+        "semantic_scholar"
+      ],
+      "existing_note_url": null,
+      "external_ids": {
+        "CorpusId": "290121089",
+        "DOI": "10.64898/2026.07.06.736678"
+      },
+      "field": "Neuroscience",
+      "fields_of_study": [
+        "Neuroscience"
+      ],
+      "id": "biorxiv:10.64898/2026.07.06.736678",
+      "identifiers": {
+        "CorpusId": "290121089",
+        "DOI": "10.64898/2026.07.06.736678",
+        "doi": "10.64898/2026.07.06.736678",
+        "server": "biorxiv"
+      },
+      "influential_citation_count": 0,
+      "institutions": [],
+      "latest_note_url": null,
+      "note_count": 0,
+      "open_access_pdf_url": "https://doi.org/10.64898/2026.07.06.736678",
+      "pdf_url": null,
+      "project_url": null,
+      "published_at": "2026-09-15",
+      "published_date": "2026-09-15",
+      "reading_advice": "save_for_later",
+      "reading_status": "backlog",
+      "recommendation_level": "B",
+      "score": 0.6755,
+      "scores": {
+        "classic_value": 0.35,
+        "engineering_transferability": 0.48,
+        "recency": 0.78,
+        "source_quality": 0.83,
+        "total": 0.6755,
+        "user_relevance": 0.75
+      },
+      "selected_for_s_level": false,
+      "source": "biorxiv",
+      "source_group": "cognition_social",
+      "source_type": "recent_7d",
+      "source_url": "https://doi.org/10.64898/2026.07.06.736678",
+      "suggested_note_title": null,
+      "suggested_note_type": null,
+      "tags": [
+        "neuroscience",
+        "cognition_social",
+        "biorxiv"
+      ],
+      "title": "Silencing basal forebrain cholinergic input to the infralimbic cortex renders fear extinction resistant to renewal",
+      "title_zh": null,
+      "topics": [
+        "cognition"
+      ],
+      "url": "https://doi.org/10.64898/2026.07.06.736678",
+      "venue": "bioRxiv",
+      "why_recommended": "Ranked by source quality signal across configured topics."
     },
     {
       "abstract": "Second language (L2) processing engages both language-specific and domain-general control systems, yet how these systems vary with L2 proficiency remains unclear. We used functional magnetic resonance imaging (fMRI) to examine neural activity during L2 English processing in Korean-English (K-E) bilinguals across three proficiency levels (beginner, intermediate, advanced). Participants performed rhyme and spelling judgement tasks manipulating orthographic-phonological conflict. Behaviourally, conflict conditions reduced accuracy, with proficiency effects observed selectively in the rhyme task. fMRI results showed that conflict processing recruited frontoparietal control regions, including inferior frontal and parietal cortices, accompanied by deactivation in default mode network regions. Critically, proficiency-related effects differed by task. During rhyme judgement, advanced bilinguals showed greater activation in the left supramarginal gyrus (SMG) and cerebellum, whereas intermediate bilinguals exhibited greater recruitment of the left middle orbital gyrus and dorsomedial prefrontal cortex. During spelling judgement, advanced bilinguals showed greater thalamic activation alongside greater deactivation of the right dorsolateral prefrontal cortex. Activity in the left SMG and cerebellum was positively associated with L2 reading score, and cerebellar activity was also associated with rhyme-task performance, whereas right DLPFC activity was negatively associated with the scores. These findings suggest that increasing L2 proficiency is associated less with altered recruitment of core reading regions than with task-specific shifts in the balance between phonological-specialized, subcortical attentional, and domain-general control systems supporting L2 processing.",
@@ -19850,6 +20077,83 @@
       "why_recommended": "Ranked by recency signal across configured topics."
     },
     {
+      "abstract": "Purpose: Magnetic resonance spectroscopic imaging (MRSI) is a versatile technique to investigate the spatial distribution of in vivo metabolism. However, processing MRSI data is demanding, and only a few software packages support end-to-end analysis. The goal of this study was to implement fully automated, end-to-end MRSI analysis into the open-source 'Osprey-MRSI' software package. Methods: MRSI-specific analysis and visualization capabilities were implemented, building on the existing Osprey workflow. Modifications included spatial transformation and filtering operations, automated brain masking and tissue segmentation of the MRSI data, improved lipid filtering, rapid integral maps, linear-combination modeling with explicit B0 frequency-shift correction, and generation of quality-control maps and metabolic images. A fully interactive GUI and semi-interactive HTML reports provide a user-friendly way to inspect each step of the analysis. All analysis derivatives are also exported in NIfTI and NIfTI-MRS format for easy visualization and synergies with other toolboxes and modalities. Results: The automated MRSI workflow was successfully used to analyze short- and medium-TE 3T in vivo MRSI datasets from all major vendors (Philips, GE, Siemens) across multiple sites. Correct coregistration of MRSI data and MR images was validated using phantom data from each vendor and existing MRSI processing tools. Conclusion: Osprey-MRSI offers state-of-the-art methods with minimal user interaction available for non-expert users. The modularity of the workflow and the modeling algorithm will foster innovation and development of novel MRSI-specific analysis methods.",
+      "authors": [
+        "Zoellner, H. J.",
+        "Craven, A. R.",
+        "Karlaftis, V.",
+        "Clarke, W. T.",
+        "Senapati, D. K.",
+        "Lin, D. D. M.",
+        "Oeltzschner, G.",
+        "Barker, P. B."
+      ],
+      "categories": [
+        "neuroscience"
+      ],
+      "citation_count": null,
+      "classic_status": null,
+      "code_url": null,
+      "deep_read_note_url": null,
+      "difficulty": null,
+      "enrichment_sources": [],
+      "existing_note_url": null,
+      "external_ids": {
+        "DOI": "10.64898/2026.09.02.748934"
+      },
+      "field": null,
+      "fields_of_study": [
+        "Neuroscience"
+      ],
+      "id": "biorxiv:10.64898/2026.09.02.748934",
+      "identifiers": {
+        "DOI": "10.64898/2026.09.02.748934",
+        "doi": "10.64898/2026.09.02.748934",
+        "server": "biorxiv"
+      },
+      "influential_citation_count": null,
+      "institutions": [],
+      "latest_note_url": null,
+      "note_count": 0,
+      "open_access_pdf_url": null,
+      "pdf_url": null,
+      "project_url": null,
+      "published_at": "2026-09-15",
+      "published_date": "2026-09-15",
+      "reading_advice": "save_for_later",
+      "reading_status": "backlog",
+      "recommendation_level": "B",
+      "score": 0.653,
+      "scores": {
+        "classic_value": 0.35,
+        "engineering_transferability": 0.48,
+        "recency": 0.78,
+        "source_quality": 0.68,
+        "total": 0.653,
+        "user_relevance": 0.75
+      },
+      "selected_for_s_level": false,
+      "source": "biorxiv",
+      "source_group": "cognition_social",
+      "source_type": "recent_7d",
+      "source_url": "https://doi.org/10.64898/2026.09.02.748934",
+      "suggested_note_title": null,
+      "suggested_note_type": null,
+      "tags": [
+        "neuroscience",
+        "cognition_social",
+        "biorxiv"
+      ],
+      "title": "Fully automated open-source analysis and interactive visualization of magnetic resonance spectroscopic imaging (MRSI) data in Osprey-MRSI",
+      "title_zh": null,
+      "topics": [
+        "cognition"
+      ],
+      "url": "https://doi.org/10.64898/2026.09.02.748934",
+      "venue": "bioRxiv",
+      "why_recommended": "Ranked by recency signal across configured topics."
+    },
+    {
       "abstract": "Automated home-cage systems measure individual behavior in social groups for days to months. Among these systems, the IntelliCage has become a widely used platform for longitudinal and socially embedded behavioral phenotyping. Yet the analysis layer often remains less standardized than the experiment itself: raw exports, phase definitions, exclusion rules, time alignment, and derived behavioral metrics are transformed by lab-specific scripts that are difficult to audit, compare, or reuse. We present ic-analysis, an open-source Python toolkit for standardized, scriptable, and shareable IntelliCage workflows. The toolkit separates user-defined experiment metadata and workflow scripts from a reusable analysis core with modular analysis and plotting functions, allowing users to flexibly assemble experiment-specific pipelines without editing package internals. Due to its modular design, the analysis core can be applied to a broad range of experimental paradigms, including general activity, exploratory, motivational, cognitive, and social readouts, rather than being limited to a single fixed protocol. It aligns biological phase windows across staggered cage runs and exports plots together with quantitative result tables, applied settings, and audit files that support reproducible and FAIR reporting. Here, we demonstrate this flexible design in a realistic synthetic place-learning/place-reversal experiment with two mouse groups and deliberately offset cage starts. The workflow recovered the implanted behavioral differences while preserving the required experimental-time alignment. Group A showed stronger endpoint saccharin preference (81.7 +/- 1.7% vs. 27.4 +/- 3.4%, p = 1.9e-), higher liquid uptake, faster place-learning onset (56.6 +/- 8.1 vs. 278.3 +/- 33.2 visits), and better reversal performance (64.1 +/- 1.3% vs. 25.6 +/- 1.7% rewarded correct-corner visits) compared to Group B. This demonstration shows how standardized, explicitly defined readouts can turn complex IntelliCage exports into interpretable behavioral profiles while preserving the analysis history needed for inspection and reuse. ic-analysis therefore provides both a working analysis scaffold and an extensible, community-friendly route toward IntelliCage workflows that are easier to reproduce, compare, extend, and share.",
       "authors": [
         "Musacchio, F.",
@@ -20433,6 +20737,84 @@
       "why_recommended": "Ranked by recency signal across configured topics."
     },
     {
+      "abstract": "How the brain produces different behaviors from a fixed anatomical substrate is a foundational question in neuroscience. The dominant account holds that behavioral flexibility requires distinct neural circuits: dedicated systems selectively recruited for different processing modes. An alternative proposes that flexibility arises not from switching between circuits, but from dynamically controlling the speed at which a shared circuit operates. Here, we test this account directly using intracranial EEG recordings from nineteen human patients performing two visual search tasks of markedly different difficulty: an easy color-singleton search and a difficult orientation search, a fast vs. slow dissociation attributed for four decades to distinct anatomical and oscillatory neural systems. We show that both search tasks recruit the same cortical regions, oscillatory frequencies, and processing hierarchy. Dynamic time warping reveals that the two neural trajectories are time-stretched versions of one another; the same temporal scaling appears within each condition between faster and slower trials, indexing response speed rather than the distinction between tasks. Alpha-band oscillations (~8-10 Hz) support this temporal scaling through two coordinated mechanisms: synchronizing activity across a posterior cortical network and phase-gating local high-frequency activity (70-150 Hz) within those regions at the same preferred phase in both conditions. These findings establish that, for the two tasks studied here, fast and slow visual search are not implemented by selecting between distinct dedicated circuits, but by adjusting the speed of a single alpha-coordinated architecture. The same principle may apply to other search tasks, and to other domains in which dual-process architectures have been invoked, a testable prediction for future studies.",
+      "authors": [
+        "Pagnotta, M. F.",
+        "Zhuang, H.",
+        "Slama, S. J. K.",
+        "King-Stephens, D.",
+        "Laxer, K. D.",
+        "Endestad, T.",
+        "Solbakk, A.-K.",
+        "Lin, J. J.",
+        "Knight, R. T."
+      ],
+      "categories": [
+        "neuroscience"
+      ],
+      "citation_count": null,
+      "classic_status": null,
+      "code_url": null,
+      "deep_read_note_url": null,
+      "difficulty": null,
+      "enrichment_sources": [],
+      "existing_note_url": null,
+      "external_ids": {
+        "DOI": "10.64898/2026.09.09.750509"
+      },
+      "field": null,
+      "fields_of_study": [
+        "Neuroscience"
+      ],
+      "id": "biorxiv:10.64898/2026.09.09.750509",
+      "identifiers": {
+        "DOI": "10.64898/2026.09.09.750509",
+        "doi": "10.64898/2026.09.09.750509",
+        "server": "biorxiv"
+      },
+      "influential_citation_count": null,
+      "institutions": [],
+      "latest_note_url": null,
+      "note_count": 0,
+      "open_access_pdf_url": null,
+      "pdf_url": null,
+      "project_url": null,
+      "published_at": "2026-09-15",
+      "published_date": "2026-09-15",
+      "reading_advice": "save_for_later",
+      "reading_status": "backlog",
+      "recommendation_level": "B",
+      "score": 0.653,
+      "scores": {
+        "classic_value": 0.35,
+        "engineering_transferability": 0.48,
+        "recency": 0.78,
+        "source_quality": 0.68,
+        "total": 0.653,
+        "user_relevance": 0.75
+      },
+      "selected_for_s_level": false,
+      "source": "biorxiv",
+      "source_group": "cognition_social",
+      "source_type": "recent_7d",
+      "source_url": "https://doi.org/10.64898/2026.09.09.750509",
+      "suggested_note_title": null,
+      "suggested_note_type": null,
+      "tags": [
+        "neuroscience",
+        "cognition_social",
+        "biorxiv"
+      ],
+      "title": "A single cortical circuit implements fast and slow visual search",
+      "title_zh": null,
+      "topics": [
+        "cognition"
+      ],
+      "url": "https://doi.org/10.64898/2026.09.09.750509",
+      "venue": "bioRxiv",
+      "why_recommended": "Ranked by recency signal across configured topics."
+    },
+    {
       "abstract": "ObjectiveCardiorespiratory fitness is a modifiable marker of cardiometabolic health, but its association with cardiometabolic multimorbidity (CMM) and the generalisability of that association across populations remain unclear. We examined the association between estimated cardiorespiratory fitness (eCRF) and incident CMM in three nationally representative cohorts. Materials and methodsWe used data from the China Health and Retirement Longitudinal Study, the English Longitudinal Study of Ageing, and the US Health and Retirement Study. eCRF was derived from a validated sex-specific non-exercise equation and modelled per 1-SD increment and as sex-specific categories. CMM was defined as the coexistence of two or more of hypertension, diabetes, heart disease, and stroke. Associations were assessed using Cox proportional hazards models, with supplementary analyses of proportional hazards, competing death, multiple imputation, prediction performance, and meta-analysis. ResultsAmong 12,944 participants, 3,029 developed incident CMM. Each 1-SD increment in eCRF was associated with a lower risk in the pooled model (hazard ratio 0.61, 95% CI 0.58-0.64). Compared with low fitness, high fitness was associated with a substantially lower risk (hazard ratio 0.40, 95% CI 0.35-0.45; P for trend <0.001). Adding eCRF to sociodemographic and behavioural predictors improved discrimination, and the association remained directionally consistent across sensitivity analyses. ConclusionsHigher estimated cardiorespiratory fitness was independently associated with a lower risk of incident CMM across three diverse populations and provided modest incremental prognostic information. As an easily obtained, non-exercise measure, eCRF may help characterise cardiometabolic risk in ageing populations, although between-cohort heterogeneity and the observational design warrant cautious interpretation.",
       "authors": [
         "Feng, H.",
@@ -20879,6 +21261,79 @@
       ],
       "url": "https://doi.org/10.64898/2026.09.11.26362885",
       "venue": "medRxiv",
+      "why_recommended": "Ranked by recency signal across configured topics."
+    },
+    {
+      "abstract": "Neural progenitor-stem cells (NPSCs) reside in mechanically dynamic brain microenvironments and give rise to neurons, astrocytes, and oligodendrocytes. Although recent studies have shown that matrix viscoelasticity can influence neural maturation and neurogenic differentiation, its role in primary NPSCs beyond neurogenesis remains less defined. How matrix viscoelasticity or stress relaxation regulates primary NPSC stemness, neuronal and glial differentiation, and the associated matrix-cell mechanotransduction pathways are not well understood. Here, we use alginate hydrogels with independently tunable stiffness and stress relaxation properties to investigate how matrix stress relaxation regulates the fate of primary subventricular zone (SVZ)-derived NPSCs in 3D. The results suggested that matrices with faster stress relaxation enhances stemness maintenance, radial glial-like marker expression, and differentiation of NPSCs toward neuronal, astrocytic, and oligodendrocytic lineages in the corresponding biochemical environments. In mixed neuronal/astrocytic differentiation conditions, fast-relaxing matrices preferentially promote neuronal differentiation. Mechanistically, NPSC responses to matrix stress relaxation involve integrin-mediated adhesion, actomyosin contractility, actin polymerization, and Piezo1 activity, with distinct contributions across differentiation lineages. Together, these findings reveal how matrix stress relaxation regulates primary NPSC stemness and multilineage differentiation through multiple mechanotransduction pathways in 3D.",
+      "authors": [
+        "Ding, S.",
+        "Kim, J. H.",
+        "Wang, M.",
+        "Gu, L."
+      ],
+      "categories": [
+        "neuroscience"
+      ],
+      "citation_count": null,
+      "classic_status": null,
+      "code_url": null,
+      "deep_read_note_url": null,
+      "difficulty": null,
+      "enrichment_sources": [],
+      "existing_note_url": null,
+      "external_ids": {
+        "DOI": "10.64898/2026.09.11.750834"
+      },
+      "field": null,
+      "fields_of_study": [
+        "Neuroscience"
+      ],
+      "id": "biorxiv:10.64898/2026.09.11.750834",
+      "identifiers": {
+        "DOI": "10.64898/2026.09.11.750834",
+        "doi": "10.64898/2026.09.11.750834",
+        "server": "biorxiv"
+      },
+      "influential_citation_count": null,
+      "institutions": [],
+      "latest_note_url": null,
+      "note_count": 0,
+      "open_access_pdf_url": null,
+      "pdf_url": null,
+      "project_url": null,
+      "published_at": "2026-09-15",
+      "published_date": "2026-09-15",
+      "reading_advice": "save_for_later",
+      "reading_status": "backlog",
+      "recommendation_level": "B",
+      "score": 0.653,
+      "scores": {
+        "classic_value": 0.35,
+        "engineering_transferability": 0.48,
+        "recency": 0.78,
+        "source_quality": 0.68,
+        "total": 0.653,
+        "user_relevance": 0.75
+      },
+      "selected_for_s_level": false,
+      "source": "biorxiv",
+      "source_group": "cognition_social",
+      "source_type": "recent_7d",
+      "source_url": "https://doi.org/10.64898/2026.09.11.750834",
+      "suggested_note_title": null,
+      "suggested_note_type": null,
+      "tags": [
+        "neuroscience",
+        "cognition_social",
+        "biorxiv"
+      ],
+      "title": "Matrix Viscoelasticity Regulates the Stemness and Multilineage differentiation of Primary Neural Progenitor-Stem Cells in 3D",
+      "title_zh": null,
+      "topics": [
+        "cognition"
+      ],
+      "url": "https://doi.org/10.64898/2026.09.11.750834",
+      "venue": "bioRxiv",
       "why_recommended": "Ranked by recency signal across configured topics."
     },
     {
@@ -21735,5 +22190,5 @@
     }
   ],
   "public_json_version": "0.4",
-  "updated_at": "2026-09-21T00:09:14+00:00"
+  "updated_at": "2026-09-22T00:43:20+00:00"
 }

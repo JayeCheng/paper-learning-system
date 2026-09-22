@@ -1,0 +1,503 @@
+{
+  "date": "2026-09-22",
+  "frontend_entry": "data/public/latest.json",
+  "generated_at": "2026-09-22T00:43:20+00:00",
+  "generated_paths": {
+    "exports_csv": "data/exports/papers.csv",
+    "exports_daily_csv": "data/exports/daily_papers.csv",
+    "exports_jsonl": "data/exports/papers.jsonl",
+    "exports_notes_index": "data/exports/notes_index.csv",
+    "exports_reading_status": "data/exports/reading_status.csv",
+    "json": "daily/2026/09/2026-09-22.json",
+    "markdown": "daily/2026/09/2026-09-22.md",
+    "public_curriculum_progress": "data/public/curriculum_progress.json",
+    "public_daily_index": "data/public/daily_index.json",
+    "public_knowledge_graph": "data/public/knowledge_graph.json",
+    "public_latest": "data/public/latest.json",
+    "public_notes_index": "data/public/notes_index.json",
+    "public_papers_index": "data/public/papers_index.json",
+    "public_reading_status": "data/public/reading_status.json",
+    "state_notes_index": "data/state/notes_index.json",
+    "state_papers": "data/state/papers.jsonl",
+    "state_reading_status": "data/state/reading_status.json",
+    "state_run_history": "data/state/run_history.json"
+  },
+  "knowledge_graph_delta": [
+    "paper:biorxiv:10.64898/2026.07.06.736678",
+    "paper:biorxiv:10.64898/2026.09.02.748934",
+    "paper:biorxiv:10.64898/2026.03.16.712044",
+    "paper:biorxiv:10.1101/2024.09.30.615819",
+    "paper:biorxiv:10.64898/2026.09.11.750834",
+    "paper:biorxiv:10.64898/2026.09.09.750509"
+  ],
+  "learning_route_position": "v0.4 GitHub-owned note bridge",
+  "next_actions": [
+    "Review S-level candidate",
+    "Update reading status after skim",
+    "Promote durable concepts into the knowledge graph"
+  ],
+  "papers": [
+    {
+      "abstract": "The infralimbic cortex (IL) is critical for the extinction of conditioned fear and receives dense cholinergic innervation from the basal forebrain, particularly from the horizontal limb of the diagonal band of Broca (HDB). Acetylcholine release in the IL regulates fear-related processes, but the mechanisms involved remain poorly understood. We investigated whether cholinergic projections from the HDB to the IL regulate the formation, extinction, and renewal of fear memories. Using optogenetics in male and female transgenic rats, we silenced the HDB to IL cholinergic pathway during either fear conditioning or extinction. Silencing during fear conditioning had no effect, whereas silencing during extinction enhanced extinction retrieval and prevented fear renewal. These effects were anatomically specific, as silencing the neighboring HDB to prelimbic cortex pathway had no such consequence. In ex vivo IL slices, stimulation of HDB cholinergic terminals preferentially excited interneurons over pyramidal neurons, consistent with feedforward inhibition of IL output. Finally, blockade of IL nicotinic acetylcholine receptors during extinction fully reproduced the effects of silencing the pathway, whereas muscarinic blockade attenuated renewal without affecting extinction retrieval. These findings indicate that cholinergic input from the HDB to the IL controls the acquisition and contextual specificity of extinction and identify nicotinic signaling in the IL as a potential target for improving extinction-based therapies.",
+      "authors": [
+        "Lay, B. P. P.",
+        "Chieng, B.",
+        "Maren, S.",
+        "Laurent, V."
+      ],
+      "categories": [
+        "neuroscience"
+      ],
+      "citation_count": 0,
+      "classic_status": null,
+      "code_url": null,
+      "deep_read_note_url": null,
+      "difficulty": null,
+      "enrichment_sources": [
+        "semantic_scholar"
+      ],
+      "existing_note_url": null,
+      "external_ids": {
+        "CorpusId": "290121089",
+        "DOI": "10.64898/2026.07.06.736678"
+      },
+      "field": "Neuroscience",
+      "fields_of_study": [
+        "Neuroscience"
+      ],
+      "id": "biorxiv:10.64898/2026.07.06.736678",
+      "identifiers": {
+        "CorpusId": "290121089",
+        "DOI": "10.64898/2026.07.06.736678",
+        "doi": "10.64898/2026.07.06.736678",
+        "server": "biorxiv"
+      },
+      "influential_citation_count": 0,
+      "institutions": [],
+      "latest_note_url": null,
+      "note_count": 0,
+      "open_access_pdf_url": "https://doi.org/10.64898/2026.07.06.736678",
+      "pdf_url": null,
+      "project_url": null,
+      "published_at": "2026-09-15",
+      "published_date": "2026-09-15",
+      "reading_advice": "save_for_later",
+      "reading_status": "backlog",
+      "recommendation_level": "B",
+      "score": 0.6755,
+      "scores": {
+        "classic_value": 0.35,
+        "engineering_transferability": 0.48,
+        "recency": 0.78,
+        "source_quality": 0.83,
+        "total": 0.6755,
+        "user_relevance": 0.75
+      },
+      "selected_for_s_level": false,
+      "source": "biorxiv",
+      "source_group": "cognition_social",
+      "source_type": "recent_7d",
+      "source_url": "https://doi.org/10.64898/2026.07.06.736678",
+      "suggested_note_title": null,
+      "suggested_note_type": null,
+      "tags": [
+        "neuroscience",
+        "cognition_social",
+        "biorxiv"
+      ],
+      "title": "Silencing basal forebrain cholinergic input to the infralimbic cortex renders fear extinction resistant to renewal",
+      "title_zh": null,
+      "topics": [
+        "cognition"
+      ],
+      "url": "https://doi.org/10.64898/2026.07.06.736678",
+      "venue": "bioRxiv",
+      "why_recommended": "Ranked by source quality signal across configured topics."
+    },
+    {
+      "abstract": "Purpose: Magnetic resonance spectroscopic imaging (MRSI) is a versatile technique to investigate the spatial distribution of in vivo metabolism. However, processing MRSI data is demanding, and only a few software packages support end-to-end analysis. The goal of this study was to implement fully automated, end-to-end MRSI analysis into the open-source 'Osprey-MRSI' software package. Methods: MRSI-specific analysis and visualization capabilities were implemented, building on the existing Osprey workflow. Modifications included spatial transformation and filtering operations, automated brain masking and tissue segmentation of the MRSI data, improved lipid filtering, rapid integral maps, linear-combination modeling with explicit B0 frequency-shift correction, and generation of quality-control maps and metabolic images. A fully interactive GUI and semi-interactive HTML reports provide a user-friendly way to inspect each step of the analysis. All analysis derivatives are also exported in NIfTI and NIfTI-MRS format for easy visualization and synergies with other toolboxes and modalities. Results: The automated MRSI workflow was successfully used to analyze short- and medium-TE 3T in vivo MRSI datasets from all major vendors (Philips, GE, Siemens) across multiple sites. Correct coregistration of MRSI data and MR images was validated using phantom data from each vendor and existing MRSI processing tools. Conclusion: Osprey-MRSI offers state-of-the-art methods with minimal user interaction available for non-expert users. The modularity of the workflow and the modeling algorithm will foster innovation and development of novel MRSI-specific analysis methods.",
+      "authors": [
+        "Zoellner, H. J.",
+        "Craven, A. R.",
+        "Karlaftis, V.",
+        "Clarke, W. T.",
+        "Senapati, D. K.",
+        "Lin, D. D. M.",
+        "Oeltzschner, G.",
+        "Barker, P. B."
+      ],
+      "categories": [
+        "neuroscience"
+      ],
+      "citation_count": null,
+      "classic_status": null,
+      "code_url": null,
+      "deep_read_note_url": null,
+      "difficulty": null,
+      "enrichment_sources": [],
+      "existing_note_url": null,
+      "external_ids": {
+        "DOI": "10.64898/2026.09.02.748934"
+      },
+      "field": null,
+      "fields_of_study": [
+        "Neuroscience"
+      ],
+      "id": "biorxiv:10.64898/2026.09.02.748934",
+      "identifiers": {
+        "DOI": "10.64898/2026.09.02.748934",
+        "doi": "10.64898/2026.09.02.748934",
+        "server": "biorxiv"
+      },
+      "influential_citation_count": null,
+      "institutions": [],
+      "latest_note_url": null,
+      "note_count": 0,
+      "open_access_pdf_url": null,
+      "pdf_url": null,
+      "project_url": null,
+      "published_at": "2026-09-15",
+      "published_date": "2026-09-15",
+      "reading_advice": "save_for_later",
+      "reading_status": "backlog",
+      "recommendation_level": "B",
+      "score": 0.653,
+      "scores": {
+        "classic_value": 0.35,
+        "engineering_transferability": 0.48,
+        "recency": 0.78,
+        "source_quality": 0.68,
+        "total": 0.653,
+        "user_relevance": 0.75
+      },
+      "selected_for_s_level": false,
+      "source": "biorxiv",
+      "source_group": "cognition_social",
+      "source_type": "recent_7d",
+      "source_url": "https://doi.org/10.64898/2026.09.02.748934",
+      "suggested_note_title": null,
+      "suggested_note_type": null,
+      "tags": [
+        "neuroscience",
+        "cognition_social",
+        "biorxiv"
+      ],
+      "title": "Fully automated open-source analysis and interactive visualization of magnetic resonance spectroscopic imaging (MRSI) data in Osprey-MRSI",
+      "title_zh": null,
+      "topics": [
+        "cognition"
+      ],
+      "url": "https://doi.org/10.64898/2026.09.02.748934",
+      "venue": "bioRxiv",
+      "why_recommended": "Ranked by recency signal across configured topics."
+    },
+    {
+      "abstract": "Brain activity unfolds across space and time, giving rise to spatiotemporal dynamics that can manifest as cortical traveling waves -smooth phase shifts propagating across the cortex. Although traveling waves have been observed across species and measurement scales, their functional role in human cognition remains largely inferred from correlational evidence. In healthy humans, large-scale neural dynamics must be studied non-invasively, which provides limited access to their neural origins. Here, we tested whether global traveling waves causally contribute to inter-areal communication during attention. Using transcranial magnetic stimulation (TMS), we induced long-range traveling waves detectable with electroencephalography and assessed their neural and behavioral consequences during an attentional search task. Double-pulse TMS applied over the right frontal eye field transiently disrupted ongoing global waves and selectively induced direction- and frequency-specific traveling waves propagating toward the occipital visual cortex. These TMS-induced anterior-to-posterior theta traveling waves were rhythmically modulated by stimulation latency relative to search-trial onset. Critically, behavioral performance exhibited the same rhythmic pattern, with improved attentional search performance when TMS-induced traveling waves were more prominent. Together, these findings provide causal evidence that large-scale traveling waves support inter-areal communication during rhythmic visual attention.",
+      "authors": [
+        "Kong, Y.",
+        "Petras, K.",
+        "Marque, P.",
+        "VanRullen, R.",
+        "Alexander, D. M.",
+        "Dugue, L."
+      ],
+      "categories": [
+        "neuroscience"
+      ],
+      "citation_count": null,
+      "classic_status": null,
+      "code_url": null,
+      "deep_read_note_url": null,
+      "difficulty": null,
+      "enrichment_sources": [],
+      "existing_note_url": null,
+      "external_ids": {
+        "DOI": "10.64898/2026.03.16.712044"
+      },
+      "field": null,
+      "fields_of_study": [
+        "Neuroscience"
+      ],
+      "id": "biorxiv:10.64898/2026.03.16.712044",
+      "identifiers": {
+        "DOI": "10.64898/2026.03.16.712044",
+        "doi": "10.64898/2026.03.16.712044",
+        "server": "biorxiv"
+      },
+      "influential_citation_count": null,
+      "institutions": [],
+      "latest_note_url": null,
+      "note_count": 0,
+      "open_access_pdf_url": null,
+      "pdf_url": null,
+      "project_url": null,
+      "published_at": "2026-09-15",
+      "published_date": "2026-09-15",
+      "reading_advice": "save_for_later",
+      "reading_status": "backlog",
+      "recommendation_level": "B",
+      "score": 0.653,
+      "scores": {
+        "classic_value": 0.35,
+        "engineering_transferability": 0.48,
+        "recency": 0.78,
+        "source_quality": 0.68,
+        "total": 0.653,
+        "user_relevance": 0.75
+      },
+      "selected_for_s_level": false,
+      "source": "biorxiv",
+      "source_group": "cognition_social",
+      "source_type": "recent_7d",
+      "source_url": "https://doi.org/10.64898/2026.03.16.712044",
+      "suggested_note_title": null,
+      "suggested_note_type": null,
+      "tags": [
+        "neuroscience",
+        "cognition_social",
+        "biorxiv"
+      ],
+      "title": "Traveling waves support rhythmic attentional search",
+      "title_zh": null,
+      "topics": [
+        "cognition"
+      ],
+      "url": "https://doi.org/10.64898/2026.03.16.712044",
+      "venue": "bioRxiv",
+      "why_recommended": "Ranked by recency signal across configured topics."
+    },
+    {
+      "abstract": "How sensory information is interpreted depends on context, yet the neural mechanisms by which context shapes sensory processing remain poorly understood. To address this question, we developed a computational model constrained by in vivo functional imaging of cortical neurons in mice during reversal learning of a tactile sensory discrimination task. During learning, layer 2/3 somatosensory neurons enhanced their response to reward-predictive stimuli. The model accounted for these observations through selective top-down gain amplification of apical dendritic inputs, accompanied by reduced reward-prediction errors and increased confidence in outcome predictions. Upon rule-reversal, the lateral orbitofrontal cortex, through disinhibitory VIP interneurons, encoded a context-prediction error signaling a loss of confidence. The hierarchy of reward- and context-prediction errors across cortical areas is mirrored in top-down signals modulating apical activity of simulated pyramidal neurons in the primary sensory cortex. The model explains how contextual changes are detected and how reward- and context-prediction error signals, originating in different cortical regions, interact to reshape the sensory representation.",
+      "authors": [
+        "Tsai, M. C.",
+        "Teutsch, J.",
+        "Wybo, W. A. M.",
+        "Helmchen, F.",
+        "Banerjee, A.",
+        "Senn, W."
+      ],
+      "categories": [
+        "neuroscience"
+      ],
+      "citation_count": null,
+      "classic_status": null,
+      "code_url": null,
+      "deep_read_note_url": null,
+      "difficulty": null,
+      "enrichment_sources": [],
+      "existing_note_url": null,
+      "external_ids": {
+        "DOI": "10.1101/2024.09.30.615819"
+      },
+      "field": null,
+      "fields_of_study": [
+        "Neuroscience"
+      ],
+      "id": "biorxiv:10.1101/2024.09.30.615819",
+      "identifiers": {
+        "DOI": "10.1101/2024.09.30.615819",
+        "doi": "10.1101/2024.09.30.615819",
+        "server": "biorxiv"
+      },
+      "influential_citation_count": null,
+      "institutions": [],
+      "latest_note_url": null,
+      "note_count": 0,
+      "open_access_pdf_url": null,
+      "pdf_url": null,
+      "project_url": null,
+      "published_at": "2026-09-15",
+      "published_date": "2026-09-15",
+      "reading_advice": "save_for_later",
+      "reading_status": "backlog",
+      "recommendation_level": "B",
+      "score": 0.653,
+      "scores": {
+        "classic_value": 0.35,
+        "engineering_transferability": 0.48,
+        "recency": 0.78,
+        "source_quality": 0.68,
+        "total": 0.653,
+        "user_relevance": 0.75
+      },
+      "selected_for_s_level": false,
+      "source": "biorxiv",
+      "source_group": "cognition_social",
+      "source_type": "recent_7d",
+      "source_url": "https://doi.org/10.1101/2024.09.30.615819",
+      "suggested_note_title": null,
+      "suggested_note_type": null,
+      "tags": [
+        "neuroscience",
+        "cognition_social",
+        "biorxiv"
+      ],
+      "title": "Hierarchy of prediction errors shapes the learning of context-dependent sensory representations",
+      "title_zh": null,
+      "topics": [
+        "cognition"
+      ],
+      "url": "https://doi.org/10.1101/2024.09.30.615819",
+      "venue": "bioRxiv",
+      "why_recommended": "Ranked by recency signal across configured topics."
+    },
+    {
+      "abstract": "Neural progenitor-stem cells (NPSCs) reside in mechanically dynamic brain microenvironments and give rise to neurons, astrocytes, and oligodendrocytes. Although recent studies have shown that matrix viscoelasticity can influence neural maturation and neurogenic differentiation, its role in primary NPSCs beyond neurogenesis remains less defined. How matrix viscoelasticity or stress relaxation regulates primary NPSC stemness, neuronal and glial differentiation, and the associated matrix-cell mechanotransduction pathways are not well understood. Here, we use alginate hydrogels with independently tunable stiffness and stress relaxation properties to investigate how matrix stress relaxation regulates the fate of primary subventricular zone (SVZ)-derived NPSCs in 3D. The results suggested that matrices with faster stress relaxation enhances stemness maintenance, radial glial-like marker expression, and differentiation of NPSCs toward neuronal, astrocytic, and oligodendrocytic lineages in the corresponding biochemical environments. In mixed neuronal/astrocytic differentiation conditions, fast-relaxing matrices preferentially promote neuronal differentiation. Mechanistically, NPSC responses to matrix stress relaxation involve integrin-mediated adhesion, actomyosin contractility, actin polymerization, and Piezo1 activity, with distinct contributions across differentiation lineages. Together, these findings reveal how matrix stress relaxation regulates primary NPSC stemness and multilineage differentiation through multiple mechanotransduction pathways in 3D.",
+      "authors": [
+        "Ding, S.",
+        "Kim, J. H.",
+        "Wang, M.",
+        "Gu, L."
+      ],
+      "categories": [
+        "neuroscience"
+      ],
+      "citation_count": null,
+      "classic_status": null,
+      "code_url": null,
+      "deep_read_note_url": null,
+      "difficulty": null,
+      "enrichment_sources": [],
+      "existing_note_url": null,
+      "external_ids": {
+        "DOI": "10.64898/2026.09.11.750834"
+      },
+      "field": null,
+      "fields_of_study": [
+        "Neuroscience"
+      ],
+      "id": "biorxiv:10.64898/2026.09.11.750834",
+      "identifiers": {
+        "DOI": "10.64898/2026.09.11.750834",
+        "doi": "10.64898/2026.09.11.750834",
+        "server": "biorxiv"
+      },
+      "influential_citation_count": null,
+      "institutions": [],
+      "latest_note_url": null,
+      "note_count": 0,
+      "open_access_pdf_url": null,
+      "pdf_url": null,
+      "project_url": null,
+      "published_at": "2026-09-15",
+      "published_date": "2026-09-15",
+      "reading_advice": "save_for_later",
+      "reading_status": "backlog",
+      "recommendation_level": "B",
+      "score": 0.653,
+      "scores": {
+        "classic_value": 0.35,
+        "engineering_transferability": 0.48,
+        "recency": 0.78,
+        "source_quality": 0.68,
+        "total": 0.653,
+        "user_relevance": 0.75
+      },
+      "selected_for_s_level": false,
+      "source": "biorxiv",
+      "source_group": "cognition_social",
+      "source_type": "recent_7d",
+      "source_url": "https://doi.org/10.64898/2026.09.11.750834",
+      "suggested_note_title": null,
+      "suggested_note_type": null,
+      "tags": [
+        "neuroscience",
+        "cognition_social",
+        "biorxiv"
+      ],
+      "title": "Matrix Viscoelasticity Regulates the Stemness and Multilineage differentiation of Primary Neural Progenitor-Stem Cells in 3D",
+      "title_zh": null,
+      "topics": [
+        "cognition"
+      ],
+      "url": "https://doi.org/10.64898/2026.09.11.750834",
+      "venue": "bioRxiv",
+      "why_recommended": "Ranked by recency signal across configured topics."
+    },
+    {
+      "abstract": "How the brain produces different behaviors from a fixed anatomical substrate is a foundational question in neuroscience. The dominant account holds that behavioral flexibility requires distinct neural circuits: dedicated systems selectively recruited for different processing modes. An alternative proposes that flexibility arises not from switching between circuits, but from dynamically controlling the speed at which a shared circuit operates. Here, we test this account directly using intracranial EEG recordings from nineteen human patients performing two visual search tasks of markedly different difficulty: an easy color-singleton search and a difficult orientation search, a fast vs. slow dissociation attributed for four decades to distinct anatomical and oscillatory neural systems. We show that both search tasks recruit the same cortical regions, oscillatory frequencies, and processing hierarchy. Dynamic time warping reveals that the two neural trajectories are time-stretched versions of one another; the same temporal scaling appears within each condition between faster and slower trials, indexing response speed rather than the distinction between tasks. Alpha-band oscillations (~8-10 Hz) support this temporal scaling through two coordinated mechanisms: synchronizing activity across a posterior cortical network and phase-gating local high-frequency activity (70-150 Hz) within those regions at the same preferred phase in both conditions. These findings establish that, for the two tasks studied here, fast and slow visual search are not implemented by selecting between distinct dedicated circuits, but by adjusting the speed of a single alpha-coordinated architecture. The same principle may apply to other search tasks, and to other domains in which dual-process architectures have been invoked, a testable prediction for future studies.",
+      "authors": [
+        "Pagnotta, M. F.",
+        "Zhuang, H.",
+        "Slama, S. J. K.",
+        "King-Stephens, D.",
+        "Laxer, K. D.",
+        "Endestad, T.",
+        "Solbakk, A.-K.",
+        "Lin, J. J.",
+        "Knight, R. T."
+      ],
+      "categories": [
+        "neuroscience"
+      ],
+      "citation_count": null,
+      "classic_status": null,
+      "code_url": null,
+      "deep_read_note_url": null,
+      "difficulty": null,
+      "enrichment_sources": [],
+      "existing_note_url": null,
+      "external_ids": {
+        "DOI": "10.64898/2026.09.09.750509"
+      },
+      "field": null,
+      "fields_of_study": [
+        "Neuroscience"
+      ],
+      "id": "biorxiv:10.64898/2026.09.09.750509",
+      "identifiers": {
+        "DOI": "10.64898/2026.09.09.750509",
+        "doi": "10.64898/2026.09.09.750509",
+        "server": "biorxiv"
+      },
+      "influential_citation_count": null,
+      "institutions": [],
+      "latest_note_url": null,
+      "note_count": 0,
+      "open_access_pdf_url": null,
+      "pdf_url": null,
+      "project_url": null,
+      "published_at": "2026-09-15",
+      "published_date": "2026-09-15",
+      "reading_advice": "save_for_later",
+      "reading_status": "backlog",
+      "recommendation_level": "B",
+      "score": 0.653,
+      "scores": {
+        "classic_value": 0.35,
+        "engineering_transferability": 0.48,
+        "recency": 0.78,
+        "source_quality": 0.68,
+        "total": 0.653,
+        "user_relevance": 0.75
+      },
+      "selected_for_s_level": false,
+      "source": "biorxiv",
+      "source_group": "cognition_social",
+      "source_type": "recent_7d",
+      "source_url": "https://doi.org/10.64898/2026.09.09.750509",
+      "suggested_note_title": null,
+      "suggested_note_type": null,
+      "tags": [
+        "neuroscience",
+        "cognition_social",
+        "biorxiv"
+      ],
+      "title": "A single cortical circuit implements fast and slow visual search",
+      "title_zh": null,
+      "topics": [
+        "cognition"
+      ],
+      "url": "https://doi.org/10.64898/2026.09.09.750509",
+      "venue": "bioRxiv",
+      "why_recommended": "Ranked by recency signal across configured topics."
+    }
+  ],
+  "public_json_version": "0.4",
+  "s_level_candidate_ids": [],
+  "s_level_paper_id": null,
+  "source_mode_summary": {
+    "recent_7d": 6
+  },
+  "summary": "Selected 6 papers: 6 recent candidates and 0 classic fallback items."
+}

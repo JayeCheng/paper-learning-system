@@ -2091,6 +2091,18 @@
     {
       "confidence": 0.5,
       "relation": "related_to",
+      "source": "biorxiv:10.1101/2024.09.30.615819",
+      "target": "cognition"
+    },
+    {
+      "confidence": 0.5,
+      "relation": "related_to",
+      "source": "biorxiv:10.1101/2024.09.30.615819",
+      "target": "cognition_social"
+    },
+    {
+      "confidence": 0.5,
+      "relation": "related_to",
       "source": "biorxiv:10.1101/2024.12.20.629771",
       "target": "cognition"
     },
@@ -2247,6 +2259,18 @@
     {
       "confidence": 0.5,
       "relation": "related_to",
+      "source": "biorxiv:10.64898/2026.03.16.712044",
+      "target": "cognition"
+    },
+    {
+      "confidence": 0.5,
+      "relation": "related_to",
+      "source": "biorxiv:10.64898/2026.03.16.712044",
+      "target": "cognition_social"
+    },
+    {
+      "confidence": 0.5,
+      "relation": "related_to",
       "source": "biorxiv:10.64898/2026.03.23.26349095",
       "target": "uncategorized"
     },
@@ -2362,6 +2386,18 @@
       "confidence": 0.5,
       "relation": "related_to",
       "source": "biorxiv:10.64898/2026.06.29.731229",
+      "target": "cognition_social"
+    },
+    {
+      "confidence": 0.5,
+      "relation": "related_to",
+      "source": "biorxiv:10.64898/2026.07.06.736678",
+      "target": "cognition"
+    },
+    {
+      "confidence": 0.5,
+      "relation": "related_to",
+      "source": "biorxiv:10.64898/2026.07.06.736678",
       "target": "cognition_social"
     },
     {
@@ -2583,6 +2619,18 @@
     {
       "confidence": 0.5,
       "relation": "related_to",
+      "source": "biorxiv:10.64898/2026.09.02.748934",
+      "target": "cognition"
+    },
+    {
+      "confidence": 0.5,
+      "relation": "related_to",
+      "source": "biorxiv:10.64898/2026.09.02.748934",
+      "target": "cognition_social"
+    },
+    {
+      "confidence": 0.5,
+      "relation": "related_to",
       "source": "biorxiv:10.64898/2026.09.06.749703",
       "target": "cognition"
     },
@@ -2679,6 +2727,18 @@
     {
       "confidence": 0.5,
       "relation": "related_to",
+      "source": "biorxiv:10.64898/2026.09.09.750509",
+      "target": "cognition"
+    },
+    {
+      "confidence": 0.5,
+      "relation": "related_to",
+      "source": "biorxiv:10.64898/2026.09.09.750509",
+      "target": "cognition_social"
+    },
+    {
+      "confidence": 0.5,
+      "relation": "related_to",
       "source": "biorxiv:10.64898/2026.09.10.26362802",
       "target": "uncategorized"
     },
@@ -2746,6 +2806,18 @@
       "confidence": 0.5,
       "relation": "related_to",
       "source": "biorxiv:10.64898/2026.09.11.26362885",
+      "target": "cognition_social"
+    },
+    {
+      "confidence": 0.5,
+      "relation": "related_to",
+      "source": "biorxiv:10.64898/2026.09.11.750834",
+      "target": "cognition"
+    },
+    {
+      "confidence": 0.5,
+      "relation": "related_to",
+      "source": "biorxiv:10.64898/2026.09.11.750834",
       "target": "cognition_social"
     },
     {
@@ -4880,6 +4952,14 @@
       "type": "paper"
     },
     {
+      "id": "biorxiv:10.1101/2024.09.30.615819",
+      "label": "Hierarchy of prediction errors shapes the learning of context-dependent sensory representations",
+      "topics": [
+        "cognition"
+      ],
+      "type": "paper"
+    },
+    {
       "id": "biorxiv:10.1101/2024.12.20.629771",
       "label": "Encoding of natural variability in a dexterous motor skill over multiple days in the cortex of freely behaving mice",
       "topics": [
@@ -4984,6 +5064,14 @@
       "type": "paper"
     },
     {
+      "id": "biorxiv:10.64898/2026.03.16.712044",
+      "label": "Traveling waves support rhythmic attentional search",
+      "topics": [
+        "cognition"
+      ],
+      "type": "paper"
+    },
+    {
       "id": "biorxiv:10.64898/2026.03.23.26349095",
       "label": "Ancestry-specific effects of APOE on Alzheimer Disease Endophenotypes",
       "topics": [
@@ -5058,6 +5146,14 @@
     {
       "id": "biorxiv:10.64898/2026.06.29.731229",
       "label": "Two fundamental timescales organize human vocal behavior",
+      "topics": [
+        "cognition"
+      ],
+      "type": "paper"
+    },
+    {
+      "id": "biorxiv:10.64898/2026.07.06.736678",
+      "label": "Silencing basal forebrain cholinergic input to the infralimbic cortex renders fear extinction resistant to renewal",
       "topics": [
         "cognition"
       ],
@@ -5208,6 +5304,14 @@
       "type": "paper"
     },
     {
+      "id": "biorxiv:10.64898/2026.09.02.748934",
+      "label": "Fully automated open-source analysis and interactive visualization of magnetic resonance spectroscopic imaging (MRSI) data in Osprey-MRSI",
+      "topics": [
+        "cognition"
+      ],
+      "type": "paper"
+    },
+    {
       "id": "biorxiv:10.64898/2026.09.06.749703",
       "label": "Toward standardized behavioral analysis in IntelliCage experiments",
       "topics": [
@@ -5272,6 +5376,14 @@
       "type": "paper"
     },
     {
+      "id": "biorxiv:10.64898/2026.09.09.750509",
+      "label": "A single cortical circuit implements fast and slow visual search",
+      "topics": [
+        "cognition"
+      ],
+      "type": "paper"
+    },
+    {
       "id": "biorxiv:10.64898/2026.09.10.26362802",
       "label": "Estimated cardiorespiratory fitness and incident cardiometabolic multimorbidity: findings from three nationally representative cohorts",
       "topics": [
@@ -5316,6 +5428,14 @@
       "label": "GFAP as a Biomarker of Stroke Subtype and Brain Tissue Damage in Acute Stroke: A Systematic Review and Meta-Analysis",
       "topics": [
         "uncategorized"
+      ],
+      "type": "paper"
+    },
+    {
+      "id": "biorxiv:10.64898/2026.09.11.750834",
+      "label": "Matrix Viscoelasticity Regulates the Stemness and Multilineage differentiation of Primary Neural Progenitor-Stem Cells in 3D",
+      "topics": [
+        "cognition"
       ],
       "type": "paper"
     },
@@ -5481,5 +5601,5 @@
     }
   ],
   "public_json_version": "0.4",
-  "updated_at": "2026-09-21T00:09:14+00:00"
+  "updated_at": "2026-09-22T00:43:20+00:00"
 }
