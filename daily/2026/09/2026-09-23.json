@@ -1,0 +1,505 @@
+{
+  "date": "2026-09-23",
+  "frontend_entry": "data/public/latest.json",
+  "generated_at": "2026-09-23T00:19:20+00:00",
+  "generated_paths": {
+    "exports_csv": "data/exports/papers.csv",
+    "exports_daily_csv": "data/exports/daily_papers.csv",
+    "exports_jsonl": "data/exports/papers.jsonl",
+    "exports_notes_index": "data/exports/notes_index.csv",
+    "exports_reading_status": "data/exports/reading_status.csv",
+    "json": "daily/2026/09/2026-09-23.json",
+    "markdown": "daily/2026/09/2026-09-23.md",
+    "public_curriculum_progress": "data/public/curriculum_progress.json",
+    "public_daily_index": "data/public/daily_index.json",
+    "public_knowledge_graph": "data/public/knowledge_graph.json",
+    "public_latest": "data/public/latest.json",
+    "public_notes_index": "data/public/notes_index.json",
+    "public_papers_index": "data/public/papers_index.json",
+    "public_reading_status": "data/public/reading_status.json",
+    "state_notes_index": "data/state/notes_index.json",
+    "state_papers": "data/state/papers.jsonl",
+    "state_reading_status": "data/state/reading_status.json",
+    "state_run_history": "data/state/run_history.json"
+  },
+  "knowledge_graph_delta": [
+    "paper:biorxiv:10.64898/2026.05.03.722293",
+    "paper:biorxiv:10.1101/2024.10.24.620089",
+    "paper:biorxiv:10.64898/2026.07.12.738094",
+    "paper:biorxiv:10.64898/2026.08.22.746476",
+    "paper:biorxiv:10.64898/2026.09.11.750997",
+    "paper:biorxiv:10.64898/2026.05.11.724160"
+  ],
+  "learning_route_position": "v0.4 GitHub-owned note bridge",
+  "next_actions": [
+    "Review S-level candidate",
+    "Update reading status after skim",
+    "Promote durable concepts into the knowledge graph"
+  ],
+  "papers": [
+    {
+      "abstract": "Understanding how nervous systems generate coordinated movement requires precise measurement of body kinematics during natural behavior. The fruit fly, Drosophila, is a model organism with sophisticated behavior and well-studied neural circuits, but tracking fly movements in 3D remains challenging because of their teeny bodies, rapid movements, and frequent self-occlusions. Here we present a pipeline for markerless, full-body 3D pose estimation of fly terrestrial behavior, combining seven synchronized high-speed cameras to capture whole-body kinematics at 800 frames per second. We trained a hybrid 2D/3D deep learning model to track 50 keypoints, then refined them to produce anatomically feasible kinematic trajectories through a retargeting process that solved an inverse kinematics problem constrained by a biomechanical body model. Analysis of 3D kinematics revealed that flies perform grounded running across their full speed range, without transitioning between discrete gaits. Using multi-animal tracking, we found that courting males coordinate both wings during song and modulate body pitch to track the female's vertical position. Our open-source pipeline and large 3D kinematic dataset of fly behavior provide a foundation for neuromechanical modeling and mechanistic studies of motor control in a genetically tractable model organism.",
+      "authors": [
+        "Ispizua, J. I.",
+        "Abe, E. T. T.",
+        "Yan, J.",
+        "Othayoth, R.",
+        "Sawtelle, S.",
+        "Atkins, F.",
+        "Shiozaki, H.",
+        "Meier, N. R.",
+        "Wong, J.",
+        "Tran, T. T.",
+        "Mori, C. K.",
+        "Chen, W.",
+        "Voigts, J.",
+        "Stern, D. L.",
+        "Brunton, B. W.",
+        "Tuthill, J. C.",
+        "Johnson, R. E."
+      ],
+      "categories": [
+        "neuroscience"
+      ],
+      "citation_count": null,
+      "classic_status": null,
+      "code_url": null,
+      "deep_read_note_url": null,
+      "difficulty": null,
+      "enrichment_sources": [],
+      "existing_note_url": null,
+      "external_ids": {
+        "DOI": "10.64898/2026.05.03.722293"
+      },
+      "field": null,
+      "fields_of_study": [
+        "Neuroscience"
+      ],
+      "id": "biorxiv:10.64898/2026.05.03.722293",
+      "identifiers": {
+        "DOI": "10.64898/2026.05.03.722293",
+        "doi": "10.64898/2026.05.03.722293",
+        "server": "biorxiv"
+      },
+      "influential_citation_count": null,
+      "institutions": [],
+      "latest_note_url": null,
+      "note_count": 0,
+      "open_access_pdf_url": null,
+      "pdf_url": null,
+      "project_url": null,
+      "published_at": "2026-09-16",
+      "published_date": "2026-09-16",
+      "reading_advice": "save_for_later",
+      "reading_status": "backlog",
+      "recommendation_level": "B",
+      "score": 0.653,
+      "scores": {
+        "classic_value": 0.35,
+        "engineering_transferability": 0.48,
+        "recency": 0.78,
+        "source_quality": 0.68,
+        "total": 0.653,
+        "user_relevance": 0.75
+      },
+      "selected_for_s_level": false,
+      "source": "biorxiv",
+      "source_group": "cognition_social",
+      "source_type": "recent_7d",
+      "source_url": "https://doi.org/10.64898/2026.05.03.722293",
+      "suggested_note_title": null,
+      "suggested_note_type": null,
+      "tags": [
+        "neuroscience",
+        "cognition_social",
+        "biorxiv"
+      ],
+      "title": "Whole-body 3D kinematics of freely behaving Drosophila",
+      "title_zh": null,
+      "topics": [
+        "cognition"
+      ],
+      "url": "https://doi.org/10.64898/2026.05.03.722293",
+      "venue": "bioRxiv",
+      "why_recommended": "Ranked by recency signal across configured topics."
+    },
+    {
+      "abstract": "A challenge in sensory neuroscience is understanding how populations of neurons operate in concert to represent diverse stimuli. To meet this challenge, we have created ``encoding manifolds'' that reveal the overall responses of brain areas to diverse stimuli and organize individual neurons in stimulus-response coordinates according to their selectivity and response dynamics. Here we use encoding manifolds to compare the population-level encoding of primary visual cortex (VISp) with that of five higher visual areas (VISam, VISal, VISpm, VISlm, and VISrl), using data from the Allen Institute Visual Coding-Neuropixels dataset from the mouse. We show that the topology of the encoding manifold for VISp and for higher visual areas is continuous, with smooth coordinates along which stimulus selectivity and response dynamics are organized with layer and cell-type specificity. Surprisingly, the manifolds revealed novel relationships between how natural scenes are encoded relative to static gratings--a relationship conserved across visual areas. Namely, neurons preferring natural scenes preferred either low or high spatial frequency gratings, but not intermediate ones. Analyzing responses by cortical layer reveals a preference for gratings concentrated in layer 6, whereas preferences for natural scenes tended to be higher in layers 2/3 and 4. The results demonstrate how machine learning approaches can be used to organize and visualize the structure of sensory coding, thereby revealing novel relationships within and across brain areas and sensory stimuli.",
+      "authors": [
+        "Dyballa, L.",
+        "Field, G. D.",
+        "Stryker, M. P.",
+        "Zucker, S. W."
+      ],
+      "categories": [
+        "neuroscience"
+      ],
+      "citation_count": null,
+      "classic_status": null,
+      "code_url": null,
+      "deep_read_note_url": null,
+      "difficulty": null,
+      "enrichment_sources": [],
+      "existing_note_url": null,
+      "external_ids": {
+        "DOI": "10.1101/2024.10.24.620089"
+      },
+      "field": null,
+      "fields_of_study": [
+        "Neuroscience"
+      ],
+      "id": "biorxiv:10.1101/2024.10.24.620089",
+      "identifiers": {
+        "DOI": "10.1101/2024.10.24.620089",
+        "doi": "10.1101/2024.10.24.620089",
+        "server": "biorxiv"
+      },
+      "influential_citation_count": null,
+      "institutions": [],
+      "latest_note_url": null,
+      "note_count": 0,
+      "open_access_pdf_url": null,
+      "pdf_url": null,
+      "project_url": null,
+      "published_at": "2026-09-16",
+      "published_date": "2026-09-16",
+      "reading_advice": "save_for_later",
+      "reading_status": "backlog",
+      "recommendation_level": "B",
+      "score": 0.653,
+      "scores": {
+        "classic_value": 0.35,
+        "engineering_transferability": 0.48,
+        "recency": 0.78,
+        "source_quality": 0.68,
+        "total": 0.653,
+        "user_relevance": 0.75
+      },
+      "selected_for_s_level": false,
+      "source": "biorxiv",
+      "source_group": "cognition_social",
+      "source_type": "recent_7d",
+      "source_url": "https://doi.org/10.1101/2024.10.24.620089",
+      "suggested_note_title": null,
+      "suggested_note_type": null,
+      "tags": [
+        "neuroscience",
+        "cognition_social",
+        "biorxiv"
+      ],
+      "title": "Functional organization and natural scene responses across mouse visual cortical areas revealed with encoding manifolds",
+      "title_zh": null,
+      "topics": [
+        "cognition"
+      ],
+      "url": "https://doi.org/10.1101/2024.10.24.620089",
+      "venue": "bioRxiv",
+      "why_recommended": "Ranked by recency signal across configured topics."
+    },
+    {
+      "abstract": "Underlying the very notion of choice is the fundamental idea of free-will, which is challenged by decision-neuroscience aiming to explain and predict choices as outcomes of neural processes embedded within an ongoing chain of physical causes. The question of whether any choice is truly a free-choice and born out of free-will has long been a subject of philosophical debate. In this work, we do not take a position on this debate; rather we investigate the subjective experience of free-will, whose existence is more universally accepted. We had healthy participants report the level of their experienced free-will while performing a value-based risky decision-making task during an fMRI session to find the neural and behavioral correlates of this experience. We identified regions in mid-cingulum and middle frontal gyrus showing positive association with self-reported free-will as well as a region in hippocampus and parahippocampal gyrus showing a negative association. The requirement to report the experience of free-will was associated at a trend-level with a higher BOLD signal in striatum during decision-making. Behaviorally, we found a positive trend between RT and free-will. While our sample size is small, these results help form hypotheses for further studies with larger cohorts and provide a proof-of-concept for the investigations of neural and behavioral mechanisms of the subjective experience of free-will in decision research.",
+      "authors": [
+        "Modak, P.",
+        "Brown, J. W."
+      ],
+      "categories": [
+        "neuroscience"
+      ],
+      "citation_count": null,
+      "classic_status": null,
+      "code_url": null,
+      "deep_read_note_url": null,
+      "difficulty": null,
+      "enrichment_sources": [],
+      "existing_note_url": null,
+      "external_ids": {
+        "DOI": "10.64898/2026.07.12.738094"
+      },
+      "field": null,
+      "fields_of_study": [
+        "Neuroscience"
+      ],
+      "id": "biorxiv:10.64898/2026.07.12.738094",
+      "identifiers": {
+        "DOI": "10.64898/2026.07.12.738094",
+        "doi": "10.64898/2026.07.12.738094",
+        "server": "biorxiv"
+      },
+      "influential_citation_count": null,
+      "institutions": [],
+      "latest_note_url": null,
+      "note_count": 0,
+      "open_access_pdf_url": null,
+      "pdf_url": null,
+      "project_url": null,
+      "published_at": "2026-09-16",
+      "published_date": "2026-09-16",
+      "reading_advice": "save_for_later",
+      "reading_status": "backlog",
+      "recommendation_level": "B",
+      "score": 0.653,
+      "scores": {
+        "classic_value": 0.35,
+        "engineering_transferability": 0.48,
+        "recency": 0.78,
+        "source_quality": 0.68,
+        "total": 0.653,
+        "user_relevance": 0.75
+      },
+      "selected_for_s_level": false,
+      "source": "biorxiv",
+      "source_group": "cognition_social",
+      "source_type": "recent_7d",
+      "source_url": "https://doi.org/10.64898/2026.07.12.738094",
+      "suggested_note_title": null,
+      "suggested_note_type": null,
+      "tags": [
+        "neuroscience",
+        "cognition_social",
+        "biorxiv"
+      ],
+      "title": "Neural correlates of the subjective experience of free-will during value-based risky decisions: a pilot study",
+      "title_zh": null,
+      "topics": [
+        "cognition"
+      ],
+      "url": "https://doi.org/10.64898/2026.07.12.738094",
+      "venue": "bioRxiv",
+      "why_recommended": "Ranked by recency signal across configured topics."
+    },
+    {
+      "abstract": "In this study, we investigated the neural and behavioral basis of motivationally objective versus subjective value-based decisions. Using a within-subject fMRI design, healthy participants performed a risky decision-making task that elicited different levels of subjectivity in decision-making in two task conditions. In the Best or objective condition, choices were rewarded only when they were objectively best on a given trial, incentivizing decisions based on externally specified per-trial point maximization. In the Choice or subjective condition, participants received the reward associated with the chosen option, irrespective of how it compared to the unchosen option, allowing greater freedom to exercise subjective preferences in decision policy. Behaviorally, participants relied more on objectively optimal policy in the Best than the Choice condition. There was also a greater consensus across participants in behaviorally displayed and self-reported policies in the Best condition as well as a greater commitment to a single policy by individual participants in this condition, further confirming more objective behavior in the Best condition, compared to Choice. Moreover, behavioral inferences showed a greater agreement with self-report in the Best condition. Our fMRI results showed that the decision-making in Choice, relative to the Best condition, was associated with greater BOLD response in mid-cingulum/posterior cingulate cortex and dorsal anterior cingulate cortex, suggesting their involvement in less externally constrained, or motivationally subjective, decision-making.",
+      "authors": [
+        "Modak, P.",
+        "Brown, J. W."
+      ],
+      "categories": [
+        "neuroscience"
+      ],
+      "citation_count": null,
+      "classic_status": null,
+      "code_url": null,
+      "deep_read_note_url": null,
+      "difficulty": null,
+      "enrichment_sources": [],
+      "existing_note_url": null,
+      "external_ids": {
+        "DOI": "10.64898/2026.08.22.746476"
+      },
+      "field": null,
+      "fields_of_study": [
+        "Neuroscience"
+      ],
+      "id": "biorxiv:10.64898/2026.08.22.746476",
+      "identifiers": {
+        "DOI": "10.64898/2026.08.22.746476",
+        "doi": "10.64898/2026.08.22.746476",
+        "server": "biorxiv"
+      },
+      "influential_citation_count": null,
+      "institutions": [],
+      "latest_note_url": null,
+      "note_count": 0,
+      "open_access_pdf_url": null,
+      "pdf_url": null,
+      "project_url": null,
+      "published_at": "2026-09-16",
+      "published_date": "2026-09-16",
+      "reading_advice": "save_for_later",
+      "reading_status": "backlog",
+      "recommendation_level": "B",
+      "score": 0.653,
+      "scores": {
+        "classic_value": 0.35,
+        "engineering_transferability": 0.48,
+        "recency": 0.78,
+        "source_quality": 0.68,
+        "total": 0.653,
+        "user_relevance": 0.75
+      },
+      "selected_for_s_level": false,
+      "source": "biorxiv",
+      "source_group": "cognition_social",
+      "source_type": "recent_7d",
+      "source_url": "https://doi.org/10.64898/2026.08.22.746476",
+      "suggested_note_title": null,
+      "suggested_note_type": null,
+      "tags": [
+        "neuroscience",
+        "cognition_social",
+        "biorxiv"
+      ],
+      "title": "Motivationally objective versus subjective decision-making: Neural correlates, behavior, and self-report",
+      "title_zh": null,
+      "topics": [
+        "cognition"
+      ],
+      "url": "https://doi.org/10.64898/2026.08.22.746476",
+      "venue": "bioRxiv",
+      "why_recommended": "Ranked by recency signal across configured topics."
+    },
+    {
+      "abstract": "Persistent breathlessness is common after COVID-19, yet its severity typically correlates weakly with objective clinical measures. This discordance is often attributed to perceptual inference amplified by anxiety. Because breathing involves a closed perception-action loop, breathlessness may also reflect alterations in interoceptive and visceromotor pathways. We acquired 7-tesla resting-state functional MRI in 53 post-COVID patients with varying breathlessness and estimated functional connectivity across 18 pre-defined interoceptive and visceromotor regions. Linear regression identified two connections associated with breathlessness catastrophising: reduced dorsal periaqueductal grey-posterior insula (dPAG-PoI1) and increased basolateral amygdala-dorsal anterior cingulate (BLA-dACC) connectivity. The dPAG-PoI1 association was stronger in patients who had required mechanical ventilation, whereas the BLA-dACC association was attenuated at higher generalised anxiety. These findings are consistent with two potentially separable contributions to symptom burden: weakened interoceptive signalling between brainstem and sensory cortex, and heightened visceromotor influence of threat processing on autonomic control, rather than anxiety-driven misperception alone.",
+      "authors": [
+        "Qiu, L.",
+        "Raman, B.",
+        "Cassar, M.",
+        "Fraser, E.",
+        "Atkinson, L. Z.",
+        "Clare, S.",
+        "Clarke, W. T.",
+        "Neubauer, S.",
+        "Davies, H. E.",
+        "Harrison, N. A.",
+        "Evans, C. J.",
+        "Ezra, M.",
+        "Pattinson, K. T. S."
+      ],
+      "categories": [
+        "neuroscience"
+      ],
+      "citation_count": null,
+      "classic_status": null,
+      "code_url": null,
+      "deep_read_note_url": null,
+      "difficulty": null,
+      "enrichment_sources": [],
+      "existing_note_url": null,
+      "external_ids": {
+        "DOI": "10.64898/2026.09.11.750997"
+      },
+      "field": null,
+      "fields_of_study": [
+        "Neuroscience"
+      ],
+      "id": "biorxiv:10.64898/2026.09.11.750997",
+      "identifiers": {
+        "DOI": "10.64898/2026.09.11.750997",
+        "doi": "10.64898/2026.09.11.750997",
+        "server": "biorxiv"
+      },
+      "influential_citation_count": null,
+      "institutions": [],
+      "latest_note_url": null,
+      "note_count": 0,
+      "open_access_pdf_url": null,
+      "pdf_url": null,
+      "project_url": null,
+      "published_at": "2026-09-16",
+      "published_date": "2026-09-16",
+      "reading_advice": "save_for_later",
+      "reading_status": "backlog",
+      "recommendation_level": "B",
+      "score": 0.653,
+      "scores": {
+        "classic_value": 0.35,
+        "engineering_transferability": 0.48,
+        "recency": 0.78,
+        "source_quality": 0.68,
+        "total": 0.653,
+        "user_relevance": 0.75
+      },
+      "selected_for_s_level": false,
+      "source": "biorxiv",
+      "source_group": "cognition_social",
+      "source_type": "recent_7d",
+      "source_url": "https://doi.org/10.64898/2026.09.11.750997",
+      "suggested_note_title": null,
+      "suggested_note_type": null,
+      "tags": [
+        "neuroscience",
+        "cognition_social",
+        "biorxiv"
+      ],
+      "title": "Breathlessness catastrophising after COVID-19 involves both interoceptive and visceromotor connectivity",
+      "title_zh": null,
+      "topics": [
+        "cognition"
+      ],
+      "url": "https://doi.org/10.64898/2026.09.11.750997",
+      "venue": "bioRxiv",
+      "why_recommended": "Ranked by recency signal across configured topics."
+    },
+    {
+      "abstract": "Lack of social interaction results in various behavioral abnormalities in rodents, including increased anxiety levels, altered sociability, and impaired cognitive ability. Epigenetic factors regulate gene expression, however, how they are involved in juvenile social isolation (jSI)-induced behavioral alterations remains largely unknown. Here, we focused on the nucleus accumbens (NAc), a critical brain region of the reward system that regulates motivation-related behaviors. We first performed RNA-seq on neuronal nuclei and found alterations in genes related to neuronal function, as well as in transcriptional and epigenetic regulation. Protein-protein interaction (PPI) analysis of differentially expressed genes (DEGs) showed that top key nodes among down-regulated genes include membrane receptors (Ntrk2, Grin3a, and Grik1) and an apoptosis regulator (Bcl2). To further investigate the association between jSI-induced gene expression alterations and histone modifications, we next performed CUT&Tag for four histone modifications (H3K4me1, H3K4me3, H3K27ac, and H3K27me3), and the results implied that epigenetic alterations may also play a role in neuronal function as well as transcriptional regulation. Reanalysis of previously published RNA-seq data on the manipulation of histone modification-associated factors (including Kdm6b, Brd4, and Setd1a) suggested that these enzymes are candidate regulators of jSI-induced gene expression alterations. Taken together, our comprehensive analysis characterizes the association between histone modification and jSI-related alterations of gene expression in the NAc of female mice.",
+      "authors": [
+        "You, J.",
+        "Uematsu, A.",
+        "Jouji-Nishino, A.",
+        "Saeki, M.",
+        "Kishi, Y."
+      ],
+      "categories": [
+        "neuroscience"
+      ],
+      "citation_count": null,
+      "classic_status": null,
+      "code_url": null,
+      "deep_read_note_url": null,
+      "difficulty": null,
+      "enrichment_sources": [],
+      "existing_note_url": null,
+      "external_ids": {
+        "DOI": "10.64898/2026.05.11.724160"
+      },
+      "field": null,
+      "fields_of_study": [
+        "Neuroscience"
+      ],
+      "id": "biorxiv:10.64898/2026.05.11.724160",
+      "identifiers": {
+        "DOI": "10.64898/2026.05.11.724160",
+        "doi": "10.64898/2026.05.11.724160",
+        "server": "biorxiv"
+      },
+      "influential_citation_count": null,
+      "institutions": [],
+      "latest_note_url": null,
+      "note_count": 0,
+      "open_access_pdf_url": null,
+      "pdf_url": null,
+      "project_url": null,
+      "published_at": "2026-09-16",
+      "published_date": "2026-09-16",
+      "reading_advice": "save_for_later",
+      "reading_status": "backlog",
+      "recommendation_level": "B",
+      "score": 0.653,
+      "scores": {
+        "classic_value": 0.35,
+        "engineering_transferability": 0.48,
+        "recency": 0.78,
+        "source_quality": 0.68,
+        "total": 0.653,
+        "user_relevance": 0.75
+      },
+      "selected_for_s_level": false,
+      "source": "biorxiv",
+      "source_group": "cognition_social",
+      "source_type": "recent_7d",
+      "source_url": "https://doi.org/10.64898/2026.05.11.724160",
+      "suggested_note_title": null,
+      "suggested_note_type": null,
+      "tags": [
+        "neuroscience",
+        "cognition_social",
+        "biorxiv"
+      ],
+      "title": "Juvenile social isolation induces gene expression alterations and histone modification dysregulations in nucleus accumbens (NAc) neurons of female mice",
+      "title_zh": null,
+      "topics": [
+        "cognition"
+      ],
+      "url": "https://doi.org/10.64898/2026.05.11.724160",
+      "venue": "bioRxiv",
+      "why_recommended": "Ranked by recency signal across configured topics."
+    }
+  ],
+  "public_json_version": "0.4",
+  "s_level_candidate_ids": [],
+  "s_level_paper_id": null,
+  "source_mode_summary": {
+    "recent_7d": 6
+  },
+  "summary": "Selected 6 papers: 6 recent candidates and 0 classic fallback items."
+}

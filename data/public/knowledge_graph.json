@@ -2103,6 +2103,18 @@
     {
       "confidence": 0.5,
       "relation": "related_to",
+      "source": "biorxiv:10.1101/2024.10.24.620089",
+      "target": "cognition"
+    },
+    {
+      "confidence": 0.5,
+      "relation": "related_to",
+      "source": "biorxiv:10.1101/2024.10.24.620089",
+      "target": "cognition_social"
+    },
+    {
+      "confidence": 0.5,
+      "relation": "related_to",
       "source": "biorxiv:10.1101/2024.12.20.629771",
       "target": "cognition"
     },
@@ -2307,6 +2319,30 @@
     {
       "confidence": 0.5,
       "relation": "related_to",
+      "source": "biorxiv:10.64898/2026.05.03.722293",
+      "target": "cognition"
+    },
+    {
+      "confidence": 0.5,
+      "relation": "related_to",
+      "source": "biorxiv:10.64898/2026.05.03.722293",
+      "target": "cognition_social"
+    },
+    {
+      "confidence": 0.5,
+      "relation": "related_to",
+      "source": "biorxiv:10.64898/2026.05.11.724160",
+      "target": "cognition"
+    },
+    {
+      "confidence": 0.5,
+      "relation": "related_to",
+      "source": "biorxiv:10.64898/2026.05.11.724160",
+      "target": "cognition_social"
+    },
+    {
+      "confidence": 0.5,
+      "relation": "related_to",
       "source": "biorxiv:10.64898/2026.05.14.725265",
       "target": "cognition"
     },
@@ -2403,6 +2439,18 @@
     {
       "confidence": 0.5,
       "relation": "related_to",
+      "source": "biorxiv:10.64898/2026.07.12.738094",
+      "target": "cognition"
+    },
+    {
+      "confidence": 0.5,
+      "relation": "related_to",
+      "source": "biorxiv:10.64898/2026.07.12.738094",
+      "target": "cognition_social"
+    },
+    {
+      "confidence": 0.5,
+      "relation": "related_to",
       "source": "biorxiv:10.64898/2026.08.14.744902",
       "target": "cognition"
     },
@@ -2494,6 +2542,18 @@
       "confidence": 0.5,
       "relation": "related_to",
       "source": "biorxiv:10.64898/2026.08.20.746069",
+      "target": "cognition_social"
+    },
+    {
+      "confidence": 0.5,
+      "relation": "related_to",
+      "source": "biorxiv:10.64898/2026.08.22.746476",
+      "target": "cognition"
+    },
+    {
+      "confidence": 0.5,
+      "relation": "related_to",
+      "source": "biorxiv:10.64898/2026.08.22.746476",
       "target": "cognition_social"
     },
     {
@@ -2866,6 +2926,18 @@
       "confidence": 0.5,
       "relation": "related_to",
       "source": "biorxiv:10.64898/2026.09.11.750906",
+      "target": "cognition_social"
+    },
+    {
+      "confidence": 0.5,
+      "relation": "related_to",
+      "source": "biorxiv:10.64898/2026.09.11.750997",
+      "target": "cognition"
+    },
+    {
+      "confidence": 0.5,
+      "relation": "related_to",
+      "source": "biorxiv:10.64898/2026.09.11.750997",
       "target": "cognition_social"
     },
     {
@@ -4960,6 +5032,14 @@
       "type": "paper"
     },
     {
+      "id": "biorxiv:10.1101/2024.10.24.620089",
+      "label": "Functional organization and natural scene responses across mouse visual cortical areas revealed with encoding manifolds",
+      "topics": [
+        "cognition"
+      ],
+      "type": "paper"
+    },
+    {
       "id": "biorxiv:10.1101/2024.12.20.629771",
       "label": "Encoding of natural variability in a dexterous motor skill over multiple days in the cortex of freely behaving mice",
       "topics": [
@@ -5096,6 +5176,22 @@
       "type": "paper"
     },
     {
+      "id": "biorxiv:10.64898/2026.05.03.722293",
+      "label": "Whole-body 3D kinematics of freely behaving Drosophila",
+      "topics": [
+        "cognition"
+      ],
+      "type": "paper"
+    },
+    {
+      "id": "biorxiv:10.64898/2026.05.11.724160",
+      "label": "Juvenile social isolation induces gene expression alterations and histone modification dysregulations in nucleus accumbens (NAc) neurons of female mice",
+      "topics": [
+        "cognition"
+      ],
+      "type": "paper"
+    },
+    {
       "id": "biorxiv:10.64898/2026.05.14.725265",
       "label": "Appetite for change: How nutritional state and ventral striatal dopamine shape psilocybin effects on cognitive flexibility",
       "topics": [
@@ -5160,6 +5256,14 @@
       "type": "paper"
     },
     {
+      "id": "biorxiv:10.64898/2026.07.12.738094",
+      "label": "Neural correlates of the subjective experience of free-will during value-based risky decisions: a pilot study",
+      "topics": [
+        "cognition"
+      ],
+      "type": "paper"
+    },
+    {
       "id": "biorxiv:10.64898/2026.08.14.744902",
       "label": "Proficiency-Dependent Reorganisation of Language and Control Networks during Second Language Processing: An fMRI Study of Korean-English Bilinguals",
       "topics": [
@@ -5218,6 +5322,14 @@
     {
       "id": "biorxiv:10.64898/2026.08.20.746069",
       "label": "Glycolytic compensation rather than NAD+/NADH balance sustains neuronal function during mitochondrial stress",
+      "topics": [
+        "cognition"
+      ],
+      "type": "paper"
+    },
+    {
+      "id": "biorxiv:10.64898/2026.08.22.746476",
+      "label": "Motivationally objective versus subjective decision-making: Neural correlates, behavior, and self-report",
       "topics": [
         "cognition"
       ],
@@ -5472,6 +5584,14 @@
       "type": "paper"
     },
     {
+      "id": "biorxiv:10.64898/2026.09.11.750997",
+      "label": "Breathlessness catastrophising after COVID-19 involves both interoceptive and visceromotor connectivity",
+      "topics": [
+        "cognition"
+      ],
+      "type": "paper"
+    },
+    {
       "id": "biorxiv:10.64898/2026.09.11.751080",
       "label": "Pathogen-associated odor experience induces inherited olfactory avoidance in a parasitoid wasp",
       "topics": [
@@ -5601,5 +5721,5 @@
     }
   ],
   "public_json_version": "0.4",
-  "updated_at": "2026-09-22T00:43:20+00:00"
+  "updated_at": "2026-09-23T00:19:20+00:00"
 }
