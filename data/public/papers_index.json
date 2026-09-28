@@ -16691,6 +16691,80 @@
       "why_recommended": "Ranked by recency signal across configured topics."
     },
     {
+      "abstract": "Occam's razor is the principle that, all else being equal, simpler explanations should be preferred over more complex ones. This principle is thought to guide human decision-making, but the nature of this guidance is not known. Here we used preregistered behavioral experiments to show that people tend to prefer the simpler of two alternative explanations for uncertain data. These preferences align quantitatively with predictions of formal theories of model selection that penalize excessive flexibility. These penalties emerge when considering not just the best explanation but the integral over all possible, relevant explanations. We further show that these simplicity preferences persist in humans, but not in certain artificial neural networks, even when they are maladaptive. Our results imply that principled notions of statistical model selection, including integrating over possible, latent causes to avoid overfitting to noisy data, may play a central role in human decision-making.",
+      "authors": [
+        "Piasini, E.",
+        "Liu, S.",
+        "Chaudhari, P.",
+        "Balasubramanian, V.",
+        "Gold, J. I."
+      ],
+      "categories": [
+        "neuroscience"
+      ],
+      "citation_count": null,
+      "classic_status": null,
+      "code_url": null,
+      "deep_read_note_url": null,
+      "difficulty": null,
+      "enrichment_sources": [],
+      "existing_note_url": null,
+      "external_ids": {
+        "DOI": "10.1101/2023.01.10.523479"
+      },
+      "field": null,
+      "fields_of_study": [
+        "Neuroscience"
+      ],
+      "id": "biorxiv:10.1101/2023.01.10.523479",
+      "identifiers": {
+        "DOI": "10.1101/2023.01.10.523479",
+        "doi": "10.1101/2023.01.10.523479",
+        "server": "biorxiv"
+      },
+      "influential_citation_count": null,
+      "institutions": [],
+      "latest_note_url": null,
+      "note_count": 0,
+      "open_access_pdf_url": null,
+      "pdf_url": null,
+      "project_url": null,
+      "published_at": "2026-09-21",
+      "published_date": "2026-09-21",
+      "reading_advice": "save_for_later",
+      "reading_status": "backlog",
+      "recommendation_level": "B",
+      "score": 0.653,
+      "scores": {
+        "classic_value": 0.35,
+        "engineering_transferability": 0.48,
+        "recency": 0.78,
+        "source_quality": 0.68,
+        "total": 0.653,
+        "user_relevance": 0.75
+      },
+      "selected_for_s_level": false,
+      "source": "biorxiv",
+      "source_group": "cognition_social",
+      "source_type": "recent_7d",
+      "source_url": "https://doi.org/10.1101/2023.01.10.523479",
+      "suggested_note_title": null,
+      "suggested_note_type": null,
+      "tags": [
+        "neuroscience",
+        "cognition_social",
+        "biorxiv"
+      ],
+      "title": "How Occam's razor guides human decision-making",
+      "title_zh": null,
+      "topics": [
+        "cognition"
+      ],
+      "url": "https://doi.org/10.1101/2023.01.10.523479",
+      "venue": "bioRxiv",
+      "why_recommended": "Ranked by recency signal across configured topics."
+    },
+    {
       "abstract": "How sensory information is interpreted depends on context, yet the neural mechanisms by which context shapes sensory processing remain poorly understood. To address this question, we developed a computational model constrained by in vivo functional imaging of cortical neurons in mice during reversal learning of a tactile sensory discrimination task. During learning, layer 2/3 somatosensory neurons enhanced their response to reward-predictive stimuli. The model accounted for these observations through selective top-down gain amplification of apical dendritic inputs, accompanied by reduced reward-prediction errors and increased confidence in outcome predictions. Upon rule-reversal, the lateral orbitofrontal cortex, through disinhibitory VIP interneurons, encoded a context-prediction error signaling a loss of confidence. The hierarchy of reward- and context-prediction errors across cortical areas is mirrored in top-down signals modulating apical activity of simulated pyramidal neurons in the primary sensory cortex. The model explains how contextual changes are detected and how reward- and context-prediction error signals, originating in different cortical regions, interact to reshape the sensory representation.",
       "authors": [
         "Tsai, M. C.",
@@ -17218,6 +17292,89 @@
       "why_recommended": "Ranked by recency signal across configured topics."
     },
     {
+      "abstract": "Locomotor, reward and other critical functions of the body are regulated by the ventral midbrain, with the central role played by dopamine (DA) neurons. The function of these cells from the early development to maturity is critically dependent on the orchestrated expression of coding and non-coding genes. For example, in the stem cells the miR-290-295 cluster constitutes the majority of expressed microRNAs and is critical for stemness in rodents. During development towards various terminally differentiated lineages, such as neurons, the cells typically switch off transcription of these stem cell-specific microRNAs. Here we report that within the adult Substantia Nigra pars compacta (SNpc), the miR-290-295 cluster is exclusively expressed in DA neurons (SNDA), preventing the locomotor deficits and maintaining an adequate expression of proteins involved in DA biogenesis, such as tyrosine hydroxylase (TH), dopa decarboxylase (DDC) and DA transporter (DAT). Importantly, a global knock-out of the miR-290-295 cluster leads to decreased numbers of SNDA neurons in adult mice. Using in vitro and in vivo DA cell-specific loss-of-function models, we demonstrated that miR-292a-3p, the most abundant microRNA in this cluster, directly targets PTEN, a phosphatase antagonizing the neuroprotective phosphatidylinositol-4,5-bisphosphate 3-kinase (PI3K)-AKT-mechanistic target of rapamycin kinase (mTOR) pathways regulating translation initiation. Accordingly, when labelled with the click chemistry-compatible methionine analogue L-azidohomoalanine, miR-290-295 cluster-deficient SNDA neurons revealed a drastic impairment of protein synthesis, which is critical for DA biogenesis. Our surprising findings demonstrate for the first time a selective expression of stem cell-specific and stemness-promoting microRNAs in a distinct population of mature neurons to maintain their physiological functions in the adulthood, suggesting that similar epigenetic disinhibition mechanisms may be also critical for other terminally differentiated cells across species.",
+      "authors": [
+        "Li, Z.",
+        "Xu, Y.",
+        "Murgia, N.",
+        "Liu, R.",
+        "Tasci, E.",
+        "Kovzel, N.",
+        "Ng, D. S.",
+        "Jiang, H.",
+        "Liu, Y.",
+        "Kang, X.",
+        "Sun, D.",
+        "Domanskyi, A.",
+        "Zhang, W.",
+        "Vinnikov, I. A."
+      ],
+      "categories": [
+        "neuroscience"
+      ],
+      "citation_count": null,
+      "classic_status": null,
+      "code_url": null,
+      "deep_read_note_url": null,
+      "difficulty": null,
+      "enrichment_sources": [],
+      "existing_note_url": null,
+      "external_ids": {
+        "DOI": "10.1101/2025.08.05.668587"
+      },
+      "field": null,
+      "fields_of_study": [
+        "Neuroscience"
+      ],
+      "id": "biorxiv:10.1101/2025.08.05.668587",
+      "identifiers": {
+        "DOI": "10.1101/2025.08.05.668587",
+        "doi": "10.1101/2025.08.05.668587",
+        "server": "biorxiv"
+      },
+      "influential_citation_count": null,
+      "institutions": [],
+      "latest_note_url": null,
+      "note_count": 0,
+      "open_access_pdf_url": null,
+      "pdf_url": null,
+      "project_url": null,
+      "published_at": "2026-09-21",
+      "published_date": "2026-09-21",
+      "reading_advice": "save_for_later",
+      "reading_status": "backlog",
+      "recommendation_level": "B",
+      "score": 0.653,
+      "scores": {
+        "classic_value": 0.35,
+        "engineering_transferability": 0.48,
+        "recency": 0.78,
+        "source_quality": 0.68,
+        "total": 0.653,
+        "user_relevance": 0.75
+      },
+      "selected_for_s_level": false,
+      "source": "biorxiv",
+      "source_group": "cognition_social",
+      "source_type": "recent_7d",
+      "source_url": "https://doi.org/10.1101/2025.08.05.668587",
+      "suggested_note_title": null,
+      "suggested_note_type": null,
+      "tags": [
+        "neuroscience",
+        "cognition_social",
+        "biorxiv"
+      ],
+      "title": "Selective abundance of miR-290-295 in the adult Substantia Nigra dopamine neurons is neuroprotective via preservation of protein synthesis",
+      "title_zh": null,
+      "topics": [
+        "cognition"
+      ],
+      "url": "https://doi.org/10.1101/2025.08.05.668587",
+      "venue": "bioRxiv",
+      "why_recommended": "Ranked by recency signal across configured topics."
+    },
+    {
       "abstract": "Imagination is a principal human capacity, enabling simulation of sensations and situations for planning, learning, and empathy. We examined neural representations of experienced and imagined pain across eight body sites using deep-phenotyping, precision functional MRI with over seven hours of scanning per participant (N = 9). Here we show, using conventional mapping, pattern classification, and representational similarity analyses, that both imagined and experienced pain activated nociceptive regions (e.g., dorsoposterior insula) and non-nociceptive regions (e.g., premotor areas). However, imagined pain did not reliably reactivate body site-selective nociceptive patterns in any region. Instead, imagined and experienced pain shared multivariate representations across widespread cortical and subcortical regions, particularly transmodal cortical areas including dorsomedial and lateral prefrontal cortex, hippocampus, and thalamus. These findings suggest that imagination generates distributed pain-like activity while preserving a neural distinction from experienced pain. This distinction may explain the difficulty of vividly imagining pain and underlie its role in empathy, planning, and pain vulnerability.",
       "authors": [
         "Sun, M.",
@@ -17611,6 +17768,87 @@
       ],
       "url": "https://doi.org/10.1101/2025.11.17.25338859",
       "venue": "medRxiv",
+      "why_recommended": "Ranked by recency signal across configured topics."
+    },
+    {
+      "abstract": "Early life adversity (ELA) has lasting impacts on emotion circuit function1. Exposure to early maltreatment, neglect, or household instability is associated with enduring alterations in threat evaluation and response, hallmarks of mood and anxiety disorders2-4. These alterations often emerge during adolescence and are characterized by excessive avoidance that limits engagement in rewarding experiences5,6. However, the neurodevelopmental mechanisms linking ELA to increased threat responses remain unclear. We identified a stress-sensitive medial prefrontal cortex (mPFC)-basolateral amygdala pathway that co-expresses corticotropin-releasing hormone (CRH) and glutamate. We find that ELA strengthens this pathway and increases threat avoidance behavior during adolescence. Optogenetic inhibition and developmental CRH knockdown in this pathway both rescue ELA-induced elevations in adolescent avoidance, whereas broadly reducing mPFC CRH expression in typically reared mice mimics ELA phenotypes. The same manipulations produced no behavioral effects in adults. Together, our findings indicate that cell type-specific CRH signaling regulates developmental circuit plasticity, biasing emotional circuit function and potentially contributing to psychiatric vulnerability.",
+      "authors": [
+        "Goodpaster, C. M.",
+        "Zeidler, Z.",
+        "Gongwer, M. W.",
+        "Bland, C. J.",
+        "Shari, M.",
+        "Klune, C. B.",
+        "Jones, N. S.",
+        "Ramirez, M.",
+        "Batul-Alturki, M.",
+        "Hundley, R.",
+        "Utter, J.",
+        "DeNardo, L. A."
+      ],
+      "categories": [
+        "neuroscience"
+      ],
+      "citation_count": null,
+      "classic_status": null,
+      "code_url": null,
+      "deep_read_note_url": null,
+      "difficulty": null,
+      "enrichment_sources": [],
+      "existing_note_url": null,
+      "external_ids": {
+        "DOI": "10.64898/2025.12.23.696229"
+      },
+      "field": null,
+      "fields_of_study": [
+        "Neuroscience"
+      ],
+      "id": "biorxiv:10.64898/2025.12.23.696229",
+      "identifiers": {
+        "DOI": "10.64898/2025.12.23.696229",
+        "doi": "10.64898/2025.12.23.696229",
+        "server": "biorxiv"
+      },
+      "influential_citation_count": null,
+      "institutions": [],
+      "latest_note_url": null,
+      "note_count": 0,
+      "open_access_pdf_url": null,
+      "pdf_url": null,
+      "project_url": null,
+      "published_at": "2026-09-21",
+      "published_date": "2026-09-21",
+      "reading_advice": "save_for_later",
+      "reading_status": "backlog",
+      "recommendation_level": "B",
+      "score": 0.653,
+      "scores": {
+        "classic_value": 0.35,
+        "engineering_transferability": 0.48,
+        "recency": 0.78,
+        "source_quality": 0.68,
+        "total": 0.653,
+        "user_relevance": 0.75
+      },
+      "selected_for_s_level": false,
+      "source": "biorxiv",
+      "source_group": "cognition_social",
+      "source_type": "recent_7d",
+      "source_url": "https://doi.org/10.64898/2025.12.23.696229",
+      "suggested_note_title": null,
+      "suggested_note_type": null,
+      "tags": [
+        "neuroscience",
+        "cognition_social",
+        "biorxiv"
+      ],
+      "title": "Early adversity promotes adolescent avoidance behavior by enhancing prefrontal-amygdala communication through CRH+ glutamatergic neurons",
+      "title_zh": null,
+      "topics": [
+        "cognition"
+      ],
+      "url": "https://doi.org/10.64898/2025.12.23.696229",
+      "venue": "bioRxiv",
       "why_recommended": "Ranked by recency signal across configured topics."
     },
     {
@@ -18070,6 +18308,78 @@
       ],
       "url": "https://doi.org/10.64898/2026.03.24.26348063",
       "venue": "medRxiv",
+      "why_recommended": "Ranked by recency signal across configured topics."
+    },
+    {
+      "abstract": "Adaptive behavior under threat requires balancing reward pursuit against the risk of harm. During approach-avoidance conflict, animals often pause at decision points, but whether these pauses reflect a unified process or distinct decision states remains unclear. Here, we replicate and extend findings from Calvin et al. (2025) by analyzing hippocampal activity in rats performing a pseudo-predator foraging task across two cohorts. We compared mid-track aborts (MTAs), mid-track continues (MTCs), and retreats. Behaviorally, MTAs and MTCs emerged from a shared pause state but diverged in outcome, whereas retreats reflected rapid escape following attack. Despite similar endpoints, retreats and MTAs differed in movement dynamics and neural activity. During retreats, hippocampal representations remained biased toward the attack location. In contrast, representations during MTAs shifted toward safe locations. During pauses, representations differed according to subsequent behavior: pauses preceding MTAs showed greater decoded probability near the attack region, whereas pauses preceding MTCs showed greater decoded probability to goal locations. These differences were present during the outbound approach, suggesting decision-related processes emerged early on in the journey. Together, these findings dissociate hippocampal representations associated with reactive escape from those underlying anticipatory, anxiety-like decision-making, suggesting that the hippocampus dynamically tracks behaviorally relevant features to guide decisions under threat.",
+      "authors": [
+        "Damphousse, C. C.",
+        "Calvin, O. L.",
+        "Redish, A. D."
+      ],
+      "categories": [
+        "neuroscience"
+      ],
+      "citation_count": null,
+      "classic_status": null,
+      "code_url": null,
+      "deep_read_note_url": null,
+      "difficulty": null,
+      "enrichment_sources": [],
+      "existing_note_url": null,
+      "external_ids": {
+        "DOI": "10.64898/2026.04.17.719234"
+      },
+      "field": null,
+      "fields_of_study": [
+        "Neuroscience"
+      ],
+      "id": "biorxiv:10.64898/2026.04.17.719234",
+      "identifiers": {
+        "DOI": "10.64898/2026.04.17.719234",
+        "doi": "10.64898/2026.04.17.719234",
+        "server": "biorxiv"
+      },
+      "influential_citation_count": null,
+      "institutions": [],
+      "latest_note_url": null,
+      "note_count": 0,
+      "open_access_pdf_url": null,
+      "pdf_url": null,
+      "project_url": null,
+      "published_at": "2026-09-21",
+      "published_date": "2026-09-21",
+      "reading_advice": "save_for_later",
+      "reading_status": "backlog",
+      "recommendation_level": "B",
+      "score": 0.653,
+      "scores": {
+        "classic_value": 0.35,
+        "engineering_transferability": 0.48,
+        "recency": 0.78,
+        "source_quality": 0.68,
+        "total": 0.653,
+        "user_relevance": 0.75
+      },
+      "selected_for_s_level": false,
+      "source": "biorxiv",
+      "source_group": "cognition_social",
+      "source_type": "recent_7d",
+      "source_url": "https://doi.org/10.64898/2026.04.17.719234",
+      "suggested_note_title": null,
+      "suggested_note_type": null,
+      "tags": [
+        "neuroscience",
+        "cognition_social",
+        "biorxiv"
+      ],
+      "title": "Hippocampal representations differentiate reactive and anticipatory responses during foraging under threat",
+      "title_zh": null,
+      "topics": [
+        "cognition"
+      ],
+      "url": "https://doi.org/10.64898/2026.04.17.719234",
+      "venue": "bioRxiv",
       "why_recommended": "Ranked by recency signal across configured topics."
     },
     {
@@ -19005,6 +19315,79 @@
         "cognition"
       ],
       "url": "https://doi.org/10.64898/2026.07.12.738094",
+      "venue": "bioRxiv",
+      "why_recommended": "Ranked by recency signal across configured topics."
+    },
+    {
+      "abstract": "Epilepsy is one of the most common neurological disorders, yet the mechanisms controlling seizure termination remain poorly understood. In particular, why rhythmic spike-wave discharges decelerate before stopping is unexplained. Here, using human iPSC-derived excitatory neurons differentiated via targeted forward-programming, we report a similar deceleration phenomenon in cultured neuronal networks. These networks exhibit glutamate-dependent, epileptiform 'super-bursts' with a slowing rhythm from ~4 Hz to ~2 Hz. Combining in silico simulations and in vitro experiments, we correlate this activity pattern with the hierarchical organization of presynaptic vesicle pools. Nested bursts link to the recycling pool (RP), and sub-bursts associate with the readily releasable pool (RRP). Decelerating RP-to-RRP vesicle translocation shortened the super-bursts, indicating that epileptiform dynamics depend heavily on this translocation process. These findings depict human neuronal networks derived from forward-programmed cells as a model for epileptology, revealing a presynaptic framework for rhythmic discharges in excitatory networks.",
+      "authors": [
+        "Wen, J.",
+        "Li, J.",
+        "Peitz, M.",
+        "Bruestle, O."
+      ],
+      "categories": [
+        "neuroscience"
+      ],
+      "citation_count": null,
+      "classic_status": null,
+      "code_url": null,
+      "deep_read_note_url": null,
+      "difficulty": null,
+      "enrichment_sources": [],
+      "existing_note_url": null,
+      "external_ids": {
+        "DOI": "10.64898/2026.08.04.742761"
+      },
+      "field": null,
+      "fields_of_study": [
+        "Neuroscience"
+      ],
+      "id": "biorxiv:10.64898/2026.08.04.742761",
+      "identifiers": {
+        "DOI": "10.64898/2026.08.04.742761",
+        "doi": "10.64898/2026.08.04.742761",
+        "server": "biorxiv"
+      },
+      "influential_citation_count": null,
+      "institutions": [],
+      "latest_note_url": null,
+      "note_count": 0,
+      "open_access_pdf_url": null,
+      "pdf_url": null,
+      "project_url": null,
+      "published_at": "2026-09-21",
+      "published_date": "2026-09-21",
+      "reading_advice": "save_for_later",
+      "reading_status": "backlog",
+      "recommendation_level": "B",
+      "score": 0.653,
+      "scores": {
+        "classic_value": 0.35,
+        "engineering_transferability": 0.48,
+        "recency": 0.78,
+        "source_quality": 0.68,
+        "total": 0.653,
+        "user_relevance": 0.75
+      },
+      "selected_for_s_level": false,
+      "source": "biorxiv",
+      "source_group": "cognition_social",
+      "source_type": "recent_7d",
+      "source_url": "https://doi.org/10.64898/2026.08.04.742761",
+      "suggested_note_title": null,
+      "suggested_note_type": null,
+      "tags": [
+        "neuroscience",
+        "cognition_social",
+        "biorxiv"
+      ],
+      "title": "Presynaptic mechanism of epileptiform activities in forward-programmed human excitatory neuronal networks",
+      "title_zh": null,
+      "topics": [
+        "cognition"
+      ],
+      "url": "https://doi.org/10.64898/2026.08.04.742761",
       "venue": "bioRxiv",
       "why_recommended": "Ranked by recency signal across configured topics."
     },
@@ -22174,6 +22557,79 @@
       "why_recommended": "Ranked by recency signal across configured topics."
     },
     {
+      "abstract": "Extracranial lipid contamination remains a challenge in proton magnetic resonance spectroscopic imaging (MRSI), especially in short acquisition delay MRSI, where broad lipid resonances overlap with metabolite and macromolecular signals. Although retrospective lipid suppression techniques are widely used in human MRSI, their effects on metabolite quantification in preclinical MRSI, which is more prone to lipid contamination, have not yet been examined. In this study, we assessed how the retrospective lipid suppression and spectral fitting range influence spectral quality, spatial metabolite mapping, and quantification variability using proton MRSI of rat brains at 14.1 T. Lipid suppression was applied via an orthogonal projection method to both fully sampled and compressed sensing datasets, each comprising data with minimal and pronounced lipid contamination. Spectral fitting was performed with both broad (4.1 - 0.2 ppm) and narrow (4.1 - 1.8 ppm) ranges. When lipid contamination was minimal, suppression caused only slight spectral and spatial changes, with consistent metabolite quantification across conditions. In contrast, datasets with pronounced lipid contamination exhibited notable spectral changes following suppression, consequently affecting spatial metabolite mapping and concentration estimates. Group analysis revealed that metabolites with low concentration estimates were most affected. Similar effects were observed in compressed sensing datasets. Our results provide a better understanding of the impact of retrospective lipid suppression on metabolite quantification in preclinical MRSI, thereby supporting future optimizations for its effective application.",
+      "authors": [
+        "Phan, T. T.",
+        "Alves, B.",
+        "Lanz, B.",
+        "Cudalbu, C."
+      ],
+      "categories": [
+        "neuroscience"
+      ],
+      "citation_count": null,
+      "classic_status": null,
+      "code_url": null,
+      "deep_read_note_url": null,
+      "difficulty": null,
+      "enrichment_sources": [],
+      "existing_note_url": null,
+      "external_ids": {
+        "DOI": "10.64898/2026.09.14.751356"
+      },
+      "field": null,
+      "fields_of_study": [
+        "Neuroscience"
+      ],
+      "id": "biorxiv:10.64898/2026.09.14.751356",
+      "identifiers": {
+        "DOI": "10.64898/2026.09.14.751356",
+        "doi": "10.64898/2026.09.14.751356",
+        "server": "biorxiv"
+      },
+      "influential_citation_count": null,
+      "institutions": [],
+      "latest_note_url": null,
+      "note_count": 0,
+      "open_access_pdf_url": null,
+      "pdf_url": null,
+      "project_url": null,
+      "published_at": "2026-09-21",
+      "published_date": "2026-09-21",
+      "reading_advice": "save_for_later",
+      "reading_status": "backlog",
+      "recommendation_level": "B",
+      "score": 0.653,
+      "scores": {
+        "classic_value": 0.35,
+        "engineering_transferability": 0.48,
+        "recency": 0.78,
+        "source_quality": 0.68,
+        "total": 0.653,
+        "user_relevance": 0.75
+      },
+      "selected_for_s_level": false,
+      "source": "biorxiv",
+      "source_group": "cognition_social",
+      "source_type": "recent_7d",
+      "source_url": "https://doi.org/10.64898/2026.09.14.751356",
+      "suggested_note_title": null,
+      "suggested_note_type": null,
+      "tags": [
+        "neuroscience",
+        "cognition_social",
+        "biorxiv"
+      ],
+      "title": "Impacts of retrospective lipid suppression on metabolite quantification in preclinical proton MR spectroscopic imaging",
+      "title_zh": null,
+      "topics": [
+        "cognition"
+      ],
+      "url": "https://doi.org/10.64898/2026.09.14.751356",
+      "venue": "bioRxiv",
+      "why_recommended": "Ranked by recency signal across configured topics."
+    },
+    {
       "abstract": "Required background for parallel architecture.",
       "authors": [],
       "categories": [
@@ -22647,5 +23103,5 @@
     }
   ],
   "public_json_version": "0.4",
-  "updated_at": "2026-09-27T00:26:50+00:00"
+  "updated_at": "2026-09-28T00:33:07+00:00"
 }

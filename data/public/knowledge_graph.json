@@ -2091,6 +2091,18 @@
     {
       "confidence": 0.5,
       "relation": "related_to",
+      "source": "biorxiv:10.1101/2023.01.10.523479",
+      "target": "cognition"
+    },
+    {
+      "confidence": 0.5,
+      "relation": "related_to",
+      "source": "biorxiv:10.1101/2023.01.10.523479",
+      "target": "cognition_social"
+    },
+    {
+      "confidence": 0.5,
+      "relation": "related_to",
       "source": "biorxiv:10.1101/2024.09.30.615819",
       "target": "cognition"
     },
@@ -2175,6 +2187,18 @@
     {
       "confidence": 0.5,
       "relation": "related_to",
+      "source": "biorxiv:10.1101/2025.08.05.668587",
+      "target": "cognition"
+    },
+    {
+      "confidence": 0.5,
+      "relation": "related_to",
+      "source": "biorxiv:10.1101/2025.08.05.668587",
+      "target": "cognition_social"
+    },
+    {
+      "confidence": 0.5,
+      "relation": "related_to",
       "source": "biorxiv:10.1101/2025.08.06.668906",
       "target": "cognition"
     },
@@ -2230,6 +2254,18 @@
       "confidence": 0.5,
       "relation": "related_to",
       "source": "biorxiv:10.1101/2025.11.17.25338859",
+      "target": "cognition_social"
+    },
+    {
+      "confidence": 0.5,
+      "relation": "related_to",
+      "source": "biorxiv:10.64898/2025.12.23.696229",
+      "target": "cognition"
+    },
+    {
+      "confidence": 0.5,
+      "relation": "related_to",
+      "source": "biorxiv:10.64898/2025.12.23.696229",
       "target": "cognition_social"
     },
     {
@@ -2302,6 +2338,18 @@
       "confidence": 0.5,
       "relation": "related_to",
       "source": "biorxiv:10.64898/2026.03.24.26348063",
+      "target": "cognition_social"
+    },
+    {
+      "confidence": 0.5,
+      "relation": "related_to",
+      "source": "biorxiv:10.64898/2026.04.17.719234",
+      "target": "cognition"
+    },
+    {
+      "confidence": 0.5,
+      "relation": "related_to",
+      "source": "biorxiv:10.64898/2026.04.17.719234",
       "target": "cognition_social"
     },
     {
@@ -2446,6 +2494,18 @@
       "confidence": 0.5,
       "relation": "related_to",
       "source": "biorxiv:10.64898/2026.07.12.738094",
+      "target": "cognition_social"
+    },
+    {
+      "confidence": 0.5,
+      "relation": "related_to",
+      "source": "biorxiv:10.64898/2026.08.04.742761",
+      "target": "cognition"
+    },
+    {
+      "confidence": 0.5,
+      "relation": "related_to",
+      "source": "biorxiv:10.64898/2026.08.04.742761",
       "target": "cognition_social"
     },
     {
@@ -2950,6 +3010,18 @@
       "confidence": 0.5,
       "relation": "related_to",
       "source": "biorxiv:10.64898/2026.09.11.751080",
+      "target": "cognition_social"
+    },
+    {
+      "confidence": 0.5,
+      "relation": "related_to",
+      "source": "biorxiv:10.64898/2026.09.14.751356",
+      "target": "cognition"
+    },
+    {
+      "confidence": 0.5,
+      "relation": "related_to",
+      "source": "biorxiv:10.64898/2026.09.14.751356",
       "target": "cognition_social"
     },
     {
@@ -5024,6 +5096,14 @@
       "type": "paper"
     },
     {
+      "id": "biorxiv:10.1101/2023.01.10.523479",
+      "label": "How Occam's razor guides human decision-making",
+      "topics": [
+        "cognition"
+      ],
+      "type": "paper"
+    },
+    {
       "id": "biorxiv:10.1101/2024.09.30.615819",
       "label": "Hierarchy of prediction errors shapes the learning of context-dependent sensory representations",
       "topics": [
@@ -5080,6 +5160,14 @@
       "type": "paper"
     },
     {
+      "id": "biorxiv:10.1101/2025.08.05.668587",
+      "label": "Selective abundance of miR-290-295 in the adult Substantia Nigra dopamine neurons is neuroprotective via preservation of protein synthesis",
+      "topics": [
+        "cognition"
+      ],
+      "type": "paper"
+    },
+    {
       "id": "biorxiv:10.1101/2025.08.06.668906",
       "label": "Precision Functional Mapping of Imagined and Experienced Pain",
       "topics": [
@@ -5116,6 +5204,14 @@
       "label": "Towards a participatory European social contact observatory",
       "topics": [
         "uncategorized"
+      ],
+      "type": "paper"
+    },
+    {
+      "id": "biorxiv:10.64898/2025.12.23.696229",
+      "label": "Early adversity promotes adolescent avoidance behavior by enhancing prefrontal-amygdala communication through CRH+ glutamatergic neurons",
+      "topics": [
+        "cognition"
       ],
       "type": "paper"
     },
@@ -5164,6 +5260,14 @@
       "label": "Predicting Infant Nonattendance at the Next Recommended Well-Child Visit: Model Development and Validation",
       "topics": [
         "uncategorized"
+      ],
+      "type": "paper"
+    },
+    {
+      "id": "biorxiv:10.64898/2026.04.17.719234",
+      "label": "Hippocampal representations differentiate reactive and anticipatory responses during foraging under threat",
+      "topics": [
+        "cognition"
       ],
       "type": "paper"
     },
@@ -5258,6 +5362,14 @@
     {
       "id": "biorxiv:10.64898/2026.07.12.738094",
       "label": "Neural correlates of the subjective experience of free-will during value-based risky decisions: a pilot study",
+      "topics": [
+        "cognition"
+      ],
+      "type": "paper"
+    },
+    {
+      "id": "biorxiv:10.64898/2026.08.04.742761",
+      "label": "Presynaptic mechanism of epileptiform activities in forward-programmed human excitatory neuronal networks",
       "topics": [
         "cognition"
       ],
@@ -5600,6 +5712,14 @@
       "type": "paper"
     },
     {
+      "id": "biorxiv:10.64898/2026.09.14.751356",
+      "label": "Impacts of retrospective lipid suppression on metabolite quantification in preclinical proton MR spectroscopic imaging",
+      "topics": [
+        "cognition"
+      ],
+      "type": "paper"
+    },
+    {
       "id": "classic:architecture:cache-coherence-and-shared-memory-multiprocessors",
       "label": "Cache coherence and shared-memory multiprocessors",
       "topics": [
@@ -5721,5 +5841,5 @@
     }
   ],
   "public_json_version": "0.4",
-  "updated_at": "2026-09-27T00:26:50+00:00"
+  "updated_at": "2026-09-28T00:33:07+00:00"
 }

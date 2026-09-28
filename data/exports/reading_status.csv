@@ -242,6 +242,7 @@ arxiv:2609.15746v1,backlog,medium,,2026-09-16T00:10:08+00:00,TopoRig: Topology-A
 arxiv:2609.15796v1,backlog,medium,,2026-09-16T00:10:08+00:00,Penalized Maximum Likelihood Inference of Core-Periphery Networks,cognition_social,B
 arxiv:2609.15963v1,backlog,medium,,2026-09-16T00:10:08+00:00,Adversarial Testing of Automated Program Repair Agents for Security Vulnerabilities,llm_agent,B
 arxiv:2609.15975v1,backlog,medium,,2026-09-16T00:10:08+00:00,Disentangling Representation Evolution in Transformers through Directional Decomposition,llm_agent,B
+biorxiv:10.1101/2023.01.10.523479,backlog,medium,,2026-09-28T00:33:07+00:00,How Occam's razor guides human decision-making,cognition_social,B
 biorxiv:10.1101/2024.09.30.615819,backlog,medium,,2026-09-22T00:43:20+00:00,Hierarchy of prediction errors shapes the learning of context-dependent sensory representations,cognition_social,B
 biorxiv:10.1101/2024.10.24.620089,backlog,medium,,2026-09-23T00:19:20+00:00,Functional organization and natural scene responses across mouse visual cortical areas revealed with encoding manifolds,cognition_social,B
 biorxiv:10.1101/2024.12.20.629771,backlog,medium,,2026-09-12T23:57:10+00:00,Encoding of natural variability in a dexterous motor skill over multiple days in the cortex of freely behaving mice,cognition_social,B
@@ -249,17 +250,20 @@ biorxiv:10.1101/2025.01.03.631260,backlog,medium,,2026-08-30T00:10:37+00:00,Reac
 biorxiv:10.1101/2025.02.04.636500,backlog,medium,,2026-09-12T23:57:10+00:00,Modulation of oscillatory activity in response to very weak intensity transcranial magnetic stimulation in the human primary motor cortex,cognition_social,B
 biorxiv:10.1101/2025.03.24.645008,backlog,medium,,2026-08-30T00:10:37+00:00,Combined MEG and EEG suggest a limbic source network of the P3 including retrosplenial cortex and hippocampus,cognition_social,B
 biorxiv:10.1101/2025.05.30.657074,backlog,medium,,2026-08-27T03:05:37+00:00,Molecular logic of pheromone recognition enables rational design of insect behavior modulators,cognition_social,B
+biorxiv:10.1101/2025.08.05.668587,backlog,medium,,2026-09-28T00:33:07+00:00,Selective abundance of miR-290-295 in the adult Substantia Nigra dopamine neurons is neuroprotective via preservation of protein synthesis,cognition_social,B
 biorxiv:10.1101/2025.08.06.668906,backlog,medium,,2026-09-09T00:05:20+00:00,Precision Functional Mapping of Imagined and Experienced Pain,cognition_social,B
 biorxiv:10.1101/2025.09.22.677693,backlog,medium,,2026-08-30T00:10:37+00:00,Emergence of Functional Heart-Brain Circuits in a Vertebrate,cognition_social,B
 biorxiv:10.1101/2025.10.14.25337322,backlog,medium,,2026-09-12T00:11:42+00:00,Deep Learning-Driven Pattern Analysis of Dried E. coli-Laden Urine Deposits for Point-of-Care Diagnostics,cognition_social,B
 biorxiv:10.1101/2025.10.29.684686,backlog,medium,,2026-08-27T03:05:37+00:00,Biased projection neuron-Kenyon cell connectivity shapes odor representations and learning in the Drosophila mushroom body,cognition_social,B
 biorxiv:10.1101/2025.11.17.25338859,backlog,medium,,2026-09-03T00:05:52+00:00,Towards a participatory European social contact observatory,cognition_social,B
+biorxiv:10.64898/2025.12.23.696229,backlog,medium,,2026-09-28T00:33:07+00:00,Early adversity promotes adolescent avoidance behavior by enhancing prefrontal-amygdala communication through CRH+ glutamatergic neurons,cognition_social,B
 biorxiv:10.64898/2025.12.24.696231,backlog,medium,,2026-09-12T23:57:10+00:00,SynTEF1 restores the functional disease phenotype of SCA27B in an hiPSC-derived neuronal model,cognition_social,B
 biorxiv:10.64898/2026.01.05.697602,backlog,medium,,2026-09-12T23:57:10+00:00,Elements of Olfactory Intelligence in Drosophila,cognition_social,B
 biorxiv:10.64898/2026.03.02.709083,backlog,medium,,2026-09-09T00:05:20+00:00,Magnitude estimation reveals Poisson-like noise underlying perception,cognition_social,B
 biorxiv:10.64898/2026.03.16.712044,backlog,medium,,2026-09-22T00:43:20+00:00,Traveling waves support rhythmic attentional search,cognition_social,B
 biorxiv:10.64898/2026.03.23.26349095,backlog,medium,,2026-09-12T00:11:42+00:00,Ancestry-specific effects of APOE on Alzheimer Disease Endophenotypes,cognition_social,B
 biorxiv:10.64898/2026.03.24.26348063,backlog,medium,,2026-09-12T00:11:42+00:00,Predicting Infant Nonattendance at the Next Recommended Well-Child Visit: Model Development and Validation,cognition_social,B
+biorxiv:10.64898/2026.04.17.719234,backlog,medium,,2026-09-28T00:33:07+00:00,Hippocampal representations differentiate reactive and anticipatory responses during foraging under threat,cognition_social,B
 biorxiv:10.64898/2026.05.01.721665,backlog,medium,,2026-09-15T00:31:00+00:00,Is FFT window length a neutral preprocessing choice in CNN-based dolphin whistle detection? A cross-domain sensitivity analysis.,cognition_social,B
 biorxiv:10.64898/2026.05.03.722293,backlog,medium,,2026-09-23T00:19:20+00:00,Whole-body 3D kinematics of freely behaving Drosophila,cognition_social,B
 biorxiv:10.64898/2026.05.11.724160,backlog,medium,,2026-09-23T00:19:20+00:00,Juvenile social isolation induces gene expression alterations and histone modification dysregulations in nucleus accumbens (NAc) neurons of female mice,cognition_social,B
@@ -272,6 +276,7 @@ biorxiv:10.64898/2026.06.28.735033,backlog,medium,,2026-09-19T00:10:51+00:00,Sub
 biorxiv:10.64898/2026.06.29.731229,backlog,medium,,2026-09-03T23:58:23+00:00,Two fundamental timescales organize human vocal behavior,cognition_social,B
 biorxiv:10.64898/2026.07.06.736678,backlog,medium,,2026-09-22T00:43:20+00:00,Silencing basal forebrain cholinergic input to the infralimbic cortex renders fear extinction resistant to renewal,cognition_social,B
 biorxiv:10.64898/2026.07.12.738094,backlog,medium,,2026-09-23T00:19:20+00:00,Neural correlates of the subjective experience of free-will during value-based risky decisions: a pilot study,cognition_social,B
+biorxiv:10.64898/2026.08.04.742761,backlog,medium,,2026-09-28T00:33:07+00:00,Presynaptic mechanism of epileptiform activities in forward-programmed human excitatory neuronal networks,cognition_social,B
 biorxiv:10.64898/2026.08.14.744902,backlog,medium,,2026-08-27T03:05:37+00:00,Proficiency-Dependent Reorganisation of Language and Control Networks during Second Language Processing: An fMRI Study of Korean-English Bilinguals,cognition_social,B
 biorxiv:10.64898/2026.08.16.26360542,backlog,medium,,2026-09-12T00:11:42+00:00,Air sampling in team congregate spaces for early detection of respiratory virus threats at the 2026 FIFA World Cup™,cognition_social,B
 biorxiv:10.64898/2026.08.17.745290,backlog,medium,,2026-08-27T03:05:37+00:00,Brain pericytes exhibit spatially organized and dynamically regulated molecular heterogeneity,cognition_social,B
@@ -314,6 +319,7 @@ biorxiv:10.64898/2026.09.11.750874,backlog,medium,,2026-09-20T00:04:23+00:00,Fro
 biorxiv:10.64898/2026.09.11.750906,backlog,medium,,2026-09-20T00:04:23+00:00,Cortical high frequency oscillations reflect encoding and retrieval of specific word concepts,cognition_social,B
 biorxiv:10.64898/2026.09.11.750997,backlog,medium,,2026-09-23T00:19:20+00:00,Breathlessness catastrophising after COVID-19 involves both interoceptive and visceromotor connectivity,cognition_social,B
 biorxiv:10.64898/2026.09.11.751080,backlog,medium,,2026-09-15T00:31:00+00:00,Pathogen-associated odor experience induces inherited olfactory avoidance in a parasitoid wasp,cognition_social,B
+biorxiv:10.64898/2026.09.14.751356,backlog,medium,,2026-09-28T00:33:07+00:00,Impacts of retrospective lipid suppression on metabolite quantification in preclinical proton MR spectroscopic imaging,cognition_social,B
 classic:architecture:cache-coherence-and-shared-memory-multiprocessors,backlog,medium,,2026-07-09T09:46:00+00:00,Cache coherence and shared-memory multiprocessors,architecture,B
 classic:architecture:the-memory-hierarchy-and-locality,backlog,medium,,2026-07-09T09:46:00+00:00,The memory hierarchy and locality,architecture,B
 classic:cognition:attention-and-working-memory,backlog,medium,,2026-07-09T09:46:00+00:00,Attention and working memory,cognition,B
