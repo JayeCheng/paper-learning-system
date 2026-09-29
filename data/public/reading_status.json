@@ -3406,6 +3406,90 @@
     {
       "history": [
         {
+          "at": "2026-09-29T01:47:11+00:00",
+          "source": "daily_pipeline",
+          "status": "backlog"
+        }
+      ],
+      "notes_path": null,
+      "paper_id": "arxiv:2609.32057v1",
+      "priority": "medium",
+      "status": "backlog",
+      "updated_at": "2026-09-29T01:47:11+00:00"
+    },
+    {
+      "history": [
+        {
+          "at": "2026-09-29T01:47:11+00:00",
+          "source": "daily_pipeline",
+          "status": "backlog"
+        }
+      ],
+      "notes_path": null,
+      "paper_id": "arxiv:2609.32811v1",
+      "priority": "medium",
+      "status": "backlog",
+      "updated_at": "2026-09-29T01:47:11+00:00"
+    },
+    {
+      "history": [
+        {
+          "at": "2026-09-29T01:47:11+00:00",
+          "source": "daily_pipeline",
+          "status": "backlog"
+        }
+      ],
+      "notes_path": null,
+      "paper_id": "arxiv:2609.32823v1",
+      "priority": "medium",
+      "status": "backlog",
+      "updated_at": "2026-09-29T01:47:11+00:00"
+    },
+    {
+      "history": [
+        {
+          "at": "2026-09-29T01:47:11+00:00",
+          "source": "daily_pipeline",
+          "status": "backlog"
+        }
+      ],
+      "notes_path": null,
+      "paper_id": "arxiv:2609.32825v1",
+      "priority": "medium",
+      "status": "backlog",
+      "updated_at": "2026-09-29T01:47:11+00:00"
+    },
+    {
+      "history": [
+        {
+          "at": "2026-09-29T01:47:11+00:00",
+          "source": "daily_pipeline",
+          "status": "backlog"
+        }
+      ],
+      "notes_path": null,
+      "paper_id": "arxiv:2609.32840v1",
+      "priority": "medium",
+      "status": "backlog",
+      "updated_at": "2026-09-29T01:47:11+00:00"
+    },
+    {
+      "history": [
+        {
+          "at": "2026-09-29T01:47:11+00:00",
+          "source": "daily_pipeline",
+          "status": "backlog"
+        }
+      ],
+      "notes_path": null,
+      "paper_id": "arxiv:2609.32848v1",
+      "priority": "medium",
+      "status": "backlog",
+      "updated_at": "2026-09-29T01:47:11+00:00"
+    },
+    {
+      "history": [
+        {
           "at": "2026-09-28T00:33:07+00:00",
           "source": "daily_pipeline",
           "status": "backlog"
@@ -4608,5 +4692,5 @@
       "updated_at": "2026-07-09T09:48:54+00:00"
     }
   ],
-  "updated_at": "2026-09-28T00:33:07+00:00"
+  "updated_at": "2026-09-29T01:47:11+00:00"
 }

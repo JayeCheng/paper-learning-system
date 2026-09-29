@@ -242,6 +242,12 @@ arxiv:2609.15746v1,backlog,medium,,2026-09-16T00:10:08+00:00,TopoRig: Topology-A
 arxiv:2609.15796v1,backlog,medium,,2026-09-16T00:10:08+00:00,Penalized Maximum Likelihood Inference of Core-Periphery Networks,cognition_social,B
 arxiv:2609.15963v1,backlog,medium,,2026-09-16T00:10:08+00:00,Adversarial Testing of Automated Program Repair Agents for Security Vulnerabilities,llm_agent,B
 arxiv:2609.15975v1,backlog,medium,,2026-09-16T00:10:08+00:00,Disentangling Representation Evolution in Transformers through Directional Decomposition,llm_agent,B
+arxiv:2609.32057v1,backlog,medium,,2026-09-29T01:47:11+00:00,CG-Diff: Organizing Code Changes Around Call Graphs,cognition_social,B
+arxiv:2609.32811v1,backlog,medium,,2026-09-29T01:47:11+00:00,Progressive Risk Estimation for Accident Anticipation,gpu_graphics,B
+arxiv:2609.32823v1,backlog,medium,,2026-09-29T01:47:11+00:00,"Social3Source: Connecting Social Provenance, Societal Qualities, and Social Purpose on an Open-Source Software Foundation",llm_agent,B
+arxiv:2609.32825v1,backlog,medium,,2026-09-29T01:47:11+00:00,The Decomposition Tax: LLM Pipelines Lose Up to 40 Accuracy Points at Their Own Interfaces,llm_agent,B
+arxiv:2609.32840v1,backlog,medium,,2026-09-29T01:47:11+00:00,VCRE-Fib: View-Conditioned Regional Evidence for Fine-Grained Ultrasound Grading of Schistosoma japonicum-Associated Liver Fibrosis,gpu_graphics,B
+arxiv:2609.32848v1,backlog,medium,,2026-09-29T01:47:11+00:00,"Packets, Transactions and Queues: Design Principles for HFT Systems from a Measurement Study of CME Market Data",architecture,A
 biorxiv:10.1101/2023.01.10.523479,backlog,medium,,2026-09-28T00:33:07+00:00,How Occam's razor guides human decision-making,cognition_social,B
 biorxiv:10.1101/2024.09.30.615819,backlog,medium,,2026-09-22T00:43:20+00:00,Hierarchy of prediction errors shapes the learning of context-dependent sensory representations,cognition_social,B
 biorxiv:10.1101/2024.10.24.620089,backlog,medium,,2026-09-23T00:19:20+00:00,Functional organization and natural scene responses across mouse visual cortical areas revealed with encoding manifolds,cognition_social,B
