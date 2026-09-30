@@ -2145,6 +2145,66 @@
     {
       "confidence": 0.5,
       "relation": "related_to",
+      "source": "arxiv:2609.36289v1",
+      "target": "llm_agent"
+    },
+    {
+      "confidence": 0.5,
+      "relation": "related_to",
+      "source": "arxiv:2609.36289v1",
+      "target": "cognition"
+    },
+    {
+      "confidence": 0.5,
+      "relation": "related_to",
+      "source": "arxiv:2609.36289v1",
+      "target": "cognition_social"
+    },
+    {
+      "confidence": 0.5,
+      "relation": "related_to",
+      "source": "arxiv:2609.36898v1",
+      "target": "gpu_graphics"
+    },
+    {
+      "confidence": 0.5,
+      "relation": "related_to",
+      "source": "arxiv:2609.36898v1",
+      "target": "cognition"
+    },
+    {
+      "confidence": 0.5,
+      "relation": "related_to",
+      "source": "arxiv:2609.36934v1",
+      "target": "llm_agent"
+    },
+    {
+      "confidence": 0.5,
+      "relation": "related_to",
+      "source": "arxiv:2609.36935v1",
+      "target": "llm_agent"
+    },
+    {
+      "confidence": 0.5,
+      "relation": "related_to",
+      "source": "arxiv:2609.36959v1",
+      "target": "architecture"
+    },
+    {
+      "confidence": 0.5,
+      "relation": "related_to",
+      "source": "arxiv:2609.36965v1",
+      "target": "llm_agent"
+    },
+    {
+      "confidence": 0.5,
+      "relation": "related_to",
+      "source": "arxiv:2609.36965v1",
+      "target": "gpu_graphics"
+    },
+    {
+      "confidence": 0.5,
+      "relation": "related_to",
       "source": "biorxiv:10.1101/2023.01.10.523479",
       "target": "cognition"
     },
@@ -5200,6 +5260,57 @@
       "type": "paper"
     },
     {
+      "id": "arxiv:2609.36289v1",
+      "label": "How Much Prompt Is Enough? A Blackbox Minimization of Few-Shots in LLMs",
+      "topics": [
+        "llm_agent",
+        "cognition"
+      ],
+      "type": "paper"
+    },
+    {
+      "id": "arxiv:2609.36898v1",
+      "label": "Volcanite: Commodity-Hardware Segmentation Volume Visualization for Connectomics and Beyond",
+      "topics": [
+        "gpu_graphics",
+        "cognition"
+      ],
+      "type": "paper"
+    },
+    {
+      "id": "arxiv:2609.36934v1",
+      "label": "VLALight: A Vision-Language-Action Model for Traffic Signal Control",
+      "topics": [
+        "llm_agent"
+      ],
+      "type": "paper"
+    },
+    {
+      "id": "arxiv:2609.36935v1",
+      "label": "CoEM: Empowering Long-Context Reasoning with Commit-on-Evidence Memory",
+      "topics": [
+        "llm_agent"
+      ],
+      "type": "paper"
+    },
+    {
+      "id": "arxiv:2609.36959v1",
+      "label": "Cobalt: Leveraging Expert Co-activation for Efficient Distributed MoE Training",
+      "topics": [
+        "architecture"
+      ],
+      "type": "paper"
+    },
+    {
+      "id": "arxiv:2609.36965v1",
+      "label": "Chinese-Jev: Bringing System One Model to Chinese-Language Tasks",
+      "topics": [
+        "llm_agent",
+        "gpu_graphics"
+      ],
+      "type": "paper"
+    },
+    {
       "id": "biorxiv:10.1101/2023.01.10.523479",
       "label": "How Occam's razor guides human decision-making",
       "topics": [
@@ -5945,5 +6056,5 @@
     }
   ],
   "public_json_version": "0.4",
-  "updated_at": "2026-09-29T01:47:11+00:00"
+  "updated_at": "2026-09-30T01:14:40+00:00"
 }

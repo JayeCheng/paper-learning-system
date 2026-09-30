@@ -8,10 +8,10 @@
       "label": "Computer Architecture",
       "next_paper_ids": [
         "arxiv:2608.06188v1",
-        "arxiv:2608.06025v1",
-        "arxiv:2608.07226v1"
+        "arxiv:2609.36959v1",
+        "arxiv:2608.06025v1"
       ],
-      "planned_count": 46
+      "planned_count": 47
     },
     {
       "completed_count": 0,
@@ -19,11 +19,11 @@
       "id": "cognition",
       "label": "Cognitive Science",
       "next_paper_ids": [
+        "arxiv:2609.36898v1",
         "arxiv:2608.10839v1",
-        "arxiv:2607.11512v1",
-        "arxiv:2607.15143v1"
+        "arxiv:2607.11512v1"
       ],
-      "planned_count": 102
+      "planned_count": 104
     },
     {
       "completed_count": 0,
@@ -35,7 +35,7 @@
         "arxiv:2607.11512v1",
         "arxiv:2607.15143v1"
       ],
-      "planned_count": 119
+      "planned_count": 120
     },
     {
       "completed_count": 0,
@@ -44,10 +44,10 @@
       "label": "GPU / Graphics",
       "next_paper_ids": [
         "arxiv:2608.06117v1",
-        "arxiv:2608.10839v1",
-        "arxiv:2608.13541v1"
+        "arxiv:2609.36898v1",
+        "arxiv:2608.10839v1"
       ],
-      "planned_count": 95
+      "planned_count": 97
     },
     {
       "completed_count": 0,
@@ -59,7 +59,7 @@
         "arxiv:2608.06025v1",
         "arxiv:2608.07226v1"
       ],
-      "planned_count": 137
+      "planned_count": 141
     },
     {
       "completed_count": 0,
@@ -74,5 +74,5 @@
       "planned_count": 4
     }
   ],
-  "updated_at": "2026-09-29T01:47:11+00:00"
+  "updated_at": "2026-09-30T01:14:40+00:00"
 }
