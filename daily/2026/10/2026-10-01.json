@@ -1,0 +1,468 @@
+{
+  "date": "2026-10-01",
+  "frontend_entry": "data/public/latest.json",
+  "generated_at": "2026-10-01T01:12:54+00:00",
+  "generated_paths": {
+    "exports_csv": "data/exports/papers.csv",
+    "exports_daily_csv": "data/exports/daily_papers.csv",
+    "exports_jsonl": "data/exports/papers.jsonl",
+    "exports_notes_index": "data/exports/notes_index.csv",
+    "exports_reading_status": "data/exports/reading_status.csv",
+    "json": "daily/2026/10/2026-10-01.json",
+    "markdown": "daily/2026/10/2026-10-01.md",
+    "public_curriculum_progress": "data/public/curriculum_progress.json",
+    "public_daily_index": "data/public/daily_index.json",
+    "public_knowledge_graph": "data/public/knowledge_graph.json",
+    "public_latest": "data/public/latest.json",
+    "public_notes_index": "data/public/notes_index.json",
+    "public_papers_index": "data/public/papers_index.json",
+    "public_reading_status": "data/public/reading_status.json",
+    "state_notes_index": "data/state/notes_index.json",
+    "state_papers": "data/state/papers.jsonl",
+    "state_reading_status": "data/state/reading_status.json",
+    "state_run_history": "data/state/run_history.json"
+  },
+  "knowledge_graph_delta": [
+    "paper:arxiv:2609.39184v1",
+    "paper:arxiv:2609.39147v1",
+    "paper:arxiv:2609.39131v1",
+    "paper:arxiv:2609.39168v1",
+    "paper:arxiv:2609.39154v1",
+    "paper:arxiv:2609.39080v1"
+  ],
+  "learning_route_position": "v0.4 GitHub-owned note bridge",
+  "next_actions": [
+    "Review S-level candidate",
+    "Update reading status after skim",
+    "Promote durable concepts into the knowledge graph"
+  ],
+  "papers": [
+    {
+      "abstract": "Fiber orientation and compartmental microstructure are central to the characterization of white matter tissue in diffusion MRI, yet existing methods either resolve fiber orientations without quantifying microstructure, or quantify microstructure while assuming a fixed number of compartments and a single fiber direction. Nonparametric approaches that recover both require tensor-valued diffusion encoding and computationally expensive Monte-Carlo inversion of an ill-posed inverse Laplace transform. We propose to reframe this problem as an object detection-like task, adopting the Detection Transformer (DETR) architecture to jointly predict mean diffusivity (MD), fractional anisotropy (FA), main fiber direction, and signal fraction for a variable number of compartments per voxel from standard multi-shell diffusion MRI with linear encoding. Hungarian matching during training resolves permutation invariance across compartments. We introduce mean Average Precision as a reproducible benchmark metric. Evaluated on synthetic test data with up to five compartments per voxel, our model achieves $R^2=0.95$ for MD, $R^2=0.88$ for FA, and a median angular error of 4.2\u00b0, with performance scaling naturally with compartmental signal fraction.",
+      "authors": [
+        "Sebastian Endt",
+        "Marcus Wirth",
+        "Johannes Reinhold Schlund",
+        "Marion Irene Menzel"
+      ],
+      "categories": [
+        "cs.CV",
+        "cs.LG",
+        "physics.med-ph"
+      ],
+      "citation_count": null,
+      "classic_status": null,
+      "code_url": "https://github.com/Marcus02W/Diffusion-DETR",
+      "deep_read_note_url": null,
+      "difficulty": null,
+      "enrichment_sources": [],
+      "existing_note_url": null,
+      "external_ids": {},
+      "field": null,
+      "fields_of_study": [],
+      "id": "arxiv:2609.39184v1",
+      "identifiers": {
+        "arxiv_id": "2609.39184v1"
+      },
+      "influential_citation_count": null,
+      "institutions": [],
+      "latest_note_url": null,
+      "note_count": 0,
+      "open_access_pdf_url": null,
+      "pdf_url": "https://arxiv.org/pdf/2609.39184v1",
+      "project_url": null,
+      "published_at": "2026-09-30",
+      "published_date": "2026-09-30",
+      "reading_advice": "quick_read",
+      "reading_status": "backlog",
+      "recommendation_level": "A",
+      "score": 0.747,
+      "scores": {
+        "classic_value": 0.35,
+        "engineering_transferability": 0.6,
+        "recency": 1.0,
+        "source_quality": 0.78,
+        "total": 0.747,
+        "user_relevance": 0.75
+      },
+      "selected_for_s_level": false,
+      "source": "arxiv",
+      "source_group": "gpu_graphics",
+      "source_type": "recent_24h",
+      "source_url": "http://arxiv.org/abs/2609.39184v1",
+      "suggested_note_title": null,
+      "suggested_note_type": null,
+      "tags": [
+        "cs.CV",
+        "cs.LG",
+        "physics.med-ph"
+      ],
+      "title": "Fiber-Resolved Microstructure Quantification from Multi-Shell Diffusion MRI using Detection Transformers",
+      "title_zh": null,
+      "topics": [
+        "gpu_graphics",
+        "llm_agent"
+      ],
+      "url": "http://arxiv.org/abs/2609.39184v1",
+      "venue": null,
+      "why_recommended": "Ranked by recency signal across configured topics."
+    },
+    {
+      "abstract": "Current image-to-video models achieve visual realism and physical plausibility, but reasoning about mental states remains unexplored. Actions are driven by belief, desire, and perception, requiring inference beyond explicit instructions. We introduce MindWorldBench to evaluate mental-state-conditioned video generation. We formalize this as mental-state-to-behavior reasoning, where models generate actions from a world state and latent variables without explicit action prompts. MindWorldBench utilizes Zero-Action Prompting and a counterfactual design with 744 prompts to isolate the causal effects of mental states. An automated pipeline evaluates video quality, commonsense plausibility, and mental-state consistency. Evaluations of 11 models show that despite visual fidelity and physical reasoning, models fail to align behaviors with latent mental states. We identify a failure mode, termed Omniscient Bias, where models default to the objective world state rather than human's subjective belief. These results demonstrate a disconnect between visual generation and cognitive reasoning, suggesting a need for explicit mental-state modeling in video generation systems. Project website: https://richard2049-lee.github.io/MindWorldBench/",
+      "authors": [
+        "Ruiqi Li",
+        "Xuanyi Liu",
+        "Sijia Li",
+        "Haofeng Wang",
+        "Yuxin Liu",
+        "Feng Xie",
+        "Songchao Tan",
+        "Shiqi Wang",
+        "Hanwei Zhu",
+        "Yizong Wang",
+        "Chuanmin Jia",
+        "Siwei Ma"
+      ],
+      "categories": [
+        "cs.CV"
+      ],
+      "citation_count": null,
+      "classic_status": null,
+      "code_url": null,
+      "deep_read_note_url": null,
+      "difficulty": null,
+      "enrichment_sources": [],
+      "existing_note_url": null,
+      "external_ids": {},
+      "field": null,
+      "fields_of_study": [],
+      "id": "arxiv:2609.39147v1",
+      "identifiers": {
+        "arxiv_id": "2609.39147v1"
+      },
+      "influential_citation_count": null,
+      "institutions": [],
+      "latest_note_url": null,
+      "note_count": 0,
+      "open_access_pdf_url": null,
+      "pdf_url": "https://arxiv.org/pdf/2609.39147v1",
+      "project_url": "https://richard2049-lee.github.io/MindWorldBench/",
+      "published_at": "2026-09-30",
+      "published_date": "2026-09-30",
+      "reading_advice": "quick_read",
+      "reading_status": "backlog",
+      "recommendation_level": "A",
+      "score": 0.747,
+      "scores": {
+        "classic_value": 0.35,
+        "engineering_transferability": 0.6,
+        "recency": 1.0,
+        "source_quality": 0.78,
+        "total": 0.747,
+        "user_relevance": 0.75
+      },
+      "selected_for_s_level": false,
+      "source": "arxiv",
+      "source_group": "gpu_graphics",
+      "source_type": "recent_24h",
+      "source_url": "http://arxiv.org/abs/2609.39147v1",
+      "suggested_note_title": null,
+      "suggested_note_type": null,
+      "tags": [
+        "cs.CV"
+      ],
+      "title": "MindWorldBench: Evaluating Mental-State-to-Behavior Reasoning in Image-to-Video Generation",
+      "title_zh": null,
+      "topics": [
+        "gpu_graphics"
+      ],
+      "url": "http://arxiv.org/abs/2609.39147v1",
+      "venue": null,
+      "why_recommended": "Ranked by recency signal across configured topics."
+    },
+    {
+      "abstract": "Large language model (LLM) serving requires substantial memory to store model weights and KV caches. As models grow larger and contexts become longer, memory capacity and bandwidth increasingly become bottlenecks for serving performance. Agentic workloads compound this pressure through repeated interactions over growing contexts, making it increasingly important to retain KV state for reuse. High-bandwidth flash (HBF) offers a way to expand accelerator memory capacity for large language model (LLM) serving, but its access costs and limited write endurance complicate its use. We evaluate HBF for high-throughput agentic serving across system design and scheduling choices to understand when additional capacity improves serving performance and energy efficiency. We introduce an HBM-HBF-host hierarchical storage system and buffered cache-aware scheduling, and use trace-driven simulations to analyze their effects on performance, energy consumption, and HBF write lifetime. Across the evaluated workloads, the fastest HBF-augmented systems reduce completion time by 36.1-87.0% relative to HBM-only systems. Modeled energy savings reach 55.8%, although HBF increases energy consumption on some light workloads. Buffered cache-aware scheduling extends estimated HBF write lifetime from 4.77 to 14.82 years in the evaluated configuration. These results demonstrate the importance of coordinating data placement and scheduling to improve serving efficiency while sustaining a practical HBF write lifetime.",
+      "authors": [
+        "Zack Yu",
+        "Chloe Wong",
+        "Coleman Hooper",
+        "Minjae Lee",
+        "Wonjun Kang",
+        "Youngjin Cho",
+        "Michael W. Mahoney",
+        "Yakun Sophia Shao",
+        "Kurt Keutzer",
+        "Amir Gholami"
+      ],
+      "categories": [
+        "cs.LG",
+        "cs.AR",
+        "cs.DC"
+      ],
+      "citation_count": null,
+      "classic_status": null,
+      "code_url": null,
+      "deep_read_note_url": null,
+      "difficulty": null,
+      "enrichment_sources": [],
+      "existing_note_url": null,
+      "external_ids": {},
+      "field": null,
+      "fields_of_study": [],
+      "id": "arxiv:2609.39131v1",
+      "identifiers": {
+        "arxiv_id": "2609.39131v1"
+      },
+      "influential_citation_count": null,
+      "institutions": [],
+      "latest_note_url": null,
+      "note_count": 0,
+      "open_access_pdf_url": null,
+      "pdf_url": "https://arxiv.org/pdf/2609.39131v1",
+      "project_url": null,
+      "published_at": "2026-09-30",
+      "published_date": "2026-09-30",
+      "reading_advice": "quick_read",
+      "reading_status": "backlog",
+      "recommendation_level": "A",
+      "score": 0.787,
+      "scores": {
+        "classic_value": 0.35,
+        "engineering_transferability": 0.8,
+        "recency": 1.0,
+        "source_quality": 0.78,
+        "total": 0.787,
+        "user_relevance": 0.75
+      },
+      "selected_for_s_level": false,
+      "source": "arxiv",
+      "source_group": "architecture",
+      "source_type": "recent_24h",
+      "source_url": "http://arxiv.org/abs/2609.39131v1",
+      "suggested_note_title": null,
+      "suggested_note_type": null,
+      "tags": [
+        "cs.LG",
+        "cs.AR",
+        "cs.DC"
+      ],
+      "title": "Characterizing High Bandwidth Flash for LLM Serving",
+      "title_zh": null,
+      "topics": [
+        "llm_agent",
+        "architecture"
+      ],
+      "url": "http://arxiv.org/abs/2609.39131v1",
+      "venue": null,
+      "why_recommended": "Ranked by recency signal across configured topics."
+    },
+    {
+      "abstract": "Reinforcement Learning with Verifiable Rewards (RLVR) has improved the reasoning capabilities of Multimodal Large Language Models (MLLMs), yet existing frameworks rely on coarse, sequence-level reward signals that lack the fine-grained supervision over the visually-grounded steps within a multimodal reasoning chain. We investigate this gap through the lens of two token-level metrics: visual dependency (i.e. how much a token's prediction relies on the input image features) and predictive entropy. Our empirical analysis reveals two key findings: (1) correct reasoning chains exhibit a markedly sharper entropy reduction as visual grounding intensifies, compared to incorrect ones; (2) pivotal tokens, those whose misprediction triggers reasoning collapse, are statistical outliers in the joint distribution of visual dependency and predictive entropy derived from correct chains. Motivated by these findings, we propose token-level perception-grounded advantage estimation (TPAE), which estimates token-level advantages by measuring each token's statistical consistency with the vision-entropy patterns of correct rollouts. TPAE leverages this granular score to modulate the sequence-level advantage, producing a fine-grained supervision signal that can be integrated into various RLVR frameworks. Extensive experiments on seven benchmarks show that TPAE consistently outperforms leading strong baselines, yielding more stable and efficient optimization for multimodal reasoning. The code is publicly available at https://github.com/Zhihan72/TPAE.",
+      "authors": [
+        "Zhihan Zhang",
+        "Lizi Liao"
+      ],
+      "categories": [
+        "cs.AI"
+      ],
+      "citation_count": null,
+      "classic_status": null,
+      "code_url": "https://github.com/Zhihan72/TPAE",
+      "deep_read_note_url": null,
+      "difficulty": null,
+      "enrichment_sources": [],
+      "existing_note_url": null,
+      "external_ids": {},
+      "field": null,
+      "fields_of_study": [],
+      "id": "arxiv:2609.39168v1",
+      "identifiers": {
+        "arxiv_id": "2609.39168v1"
+      },
+      "influential_citation_count": null,
+      "institutions": [],
+      "latest_note_url": null,
+      "note_count": 0,
+      "open_access_pdf_url": null,
+      "pdf_url": "https://arxiv.org/pdf/2609.39168v1",
+      "project_url": null,
+      "published_at": "2026-09-30",
+      "published_date": "2026-09-30",
+      "reading_advice": "quick_read",
+      "reading_status": "backlog",
+      "recommendation_level": "A",
+      "score": 0.747,
+      "scores": {
+        "classic_value": 0.35,
+        "engineering_transferability": 0.6,
+        "recency": 1.0,
+        "source_quality": 0.78,
+        "total": 0.747,
+        "user_relevance": 0.75
+      },
+      "selected_for_s_level": false,
+      "source": "arxiv",
+      "source_group": "llm_agent",
+      "source_type": "recent_24h",
+      "source_url": "http://arxiv.org/abs/2609.39168v1",
+      "suggested_note_title": null,
+      "suggested_note_type": null,
+      "tags": [
+        "cs.AI"
+      ],
+      "title": "Reinforcing Multimodal Reasoning via Token-Level Perception-Grounded Advantage Estimation",
+      "title_zh": null,
+      "topics": [
+        "llm_agent"
+      ],
+      "url": "http://arxiv.org/abs/2609.39168v1",
+      "venue": null,
+      "why_recommended": "Ranked by recency signal across configured topics."
+    },
+    {
+      "abstract": "Deep research tasks require agents to navigate large knowledge spaces, synthesize evidence across many sources, and adapt their plans as findings emerge. Directed acyclic graph (DAG)-based multi-agent systems suit this setting because they support parallel execution and isolate each sub-task within a focused dependency context. Yet existing DAG-based agents instantiate a task-level plan before execution and repair the graph only after failures or missing evidence are observed. This Plan-then-Patch strategy is brittle for deep research: the system commits most strongly when its evidence is weakest, and later revisions waste computation on branches that should not have been planned. We propose DAGent, a DAG-based multi-agent framework with Evaluate-then-Grow incremental planning: an Orchestrator grows the task graph one batch at a time, conditioning each expansion on confidence and uncertainty signals from completed nodes. A hierarchical context layer propagates compact QueryDocs by default while preserving full execution traces for on-demand recall. The recorded DAG topology admits structural RL signals that outcome-only recipes cannot define; DAGRPO, a GRPO adaptation, injects topology-conditioned credit on Executor rollouts and a structural compliance regularization on Orchestrator plans. Across BrowseComp-Plus, GAIA, and xbench-DeepSearch, DAGent surpasses the strongest open-source baseline by 5.3 / 5.8 / 2.0 points at the Qwen3-235B-A22B scale, and the lead replicates across four open-source backbones and extends to GPT-5 at 327K context. At the Qwen3-8B scale, DAGRPO improves over a same-budget outcome-only GRPO baseline by 3.0 average Pass@1 points. A same-architecture comparison shows that evidence-conditioned planning reaches higher accuracy at lower per-task token, tool-call, and step footprints than its Plan-then-Patch counterpart. Code: https://github.com/hanwenliu6825/DAGent",
+      "authors": [
+        "Hanwen Liu",
+        "Yuanfu Sun",
+        "Qiaoyu Tan"
+      ],
+      "categories": [
+        "cs.CL",
+        "cs.AI"
+      ],
+      "citation_count": null,
+      "classic_status": null,
+      "code_url": "https://github.com/hanwenliu6825/DAGent",
+      "deep_read_note_url": null,
+      "difficulty": null,
+      "enrichment_sources": [],
+      "existing_note_url": null,
+      "external_ids": {},
+      "field": null,
+      "fields_of_study": [],
+      "id": "arxiv:2609.39154v1",
+      "identifiers": {
+        "arxiv_id": "2609.39154v1"
+      },
+      "influential_citation_count": null,
+      "institutions": [],
+      "latest_note_url": null,
+      "note_count": 0,
+      "open_access_pdf_url": null,
+      "pdf_url": "https://arxiv.org/pdf/2609.39154v1",
+      "project_url": null,
+      "published_at": "2026-09-30",
+      "published_date": "2026-09-30",
+      "reading_advice": "quick_read",
+      "reading_status": "backlog",
+      "recommendation_level": "A",
+      "score": 0.747,
+      "scores": {
+        "classic_value": 0.35,
+        "engineering_transferability": 0.6,
+        "recency": 1.0,
+        "source_quality": 0.78,
+        "total": 0.747,
+        "user_relevance": 0.75
+      },
+      "selected_for_s_level": false,
+      "source": "arxiv",
+      "source_group": "llm_agent",
+      "source_type": "recent_24h",
+      "source_url": "http://arxiv.org/abs/2609.39154v1",
+      "suggested_note_title": null,
+      "suggested_note_type": null,
+      "tags": [
+        "cs.CL",
+        "cs.AI"
+      ],
+      "title": "DAGent: Evaluate-then-Grow Planning for Deep Research Agents",
+      "title_zh": null,
+      "topics": [
+        "llm_agent"
+      ],
+      "url": "http://arxiv.org/abs/2609.39154v1",
+      "venue": null,
+      "why_recommended": "Ranked by recency signal across configured topics."
+    },
+    {
+      "abstract": "Intracortical motor decoders degrade across sessions because the set of recorded units changes and persisting units can alter how their firing relates to behavior. Most existing methods update network weights on each new session or rely on unlabeled activity, which does not directly reveal such changes. We present APST, an Association Profile-conditioned Set-Temporal transformer that adapts to new sessions with all network weights frozen. From a few labeled calibration trials, APST summarizes how each unit's firing relates to behavior in a four-dimensional association profile computed in closed form. The profiles condition a set-attention encoder that accepts any number and order of units, followed by a causal transformer for streaming decoding. On held-out DANDI688 sessions from two monkeys, APST reaches velocity $R^2$ of $0.78$ and $0.81$, versus $0.40$ and $0.58$ for a variant that uses neural activity alone, and matches or exceeds an RNN fine-tuned on the same trials. On FALCON private held-out evaluation, it attains $R^2$ of $0.65$, $0.42$, and $0.44$ on M1, M2, and H1.",
+      "authors": [
+        "Xinyuan Zhang",
+        "Handong Mo",
+        "Pengfei Wen",
+        "Shuang Liang",
+        "Jichang Yang",
+        "Yan Zeng",
+        "Zhongrui Wang",
+        "Han Wang"
+      ],
+      "categories": [
+        "q-bio.NC",
+        "cs.AI"
+      ],
+      "citation_count": null,
+      "classic_status": null,
+      "code_url": null,
+      "deep_read_note_url": null,
+      "difficulty": null,
+      "enrichment_sources": [],
+      "existing_note_url": null,
+      "external_ids": {},
+      "field": null,
+      "fields_of_study": [],
+      "id": "arxiv:2609.39080v1",
+      "identifiers": {
+        "arxiv_id": "2609.39080v1"
+      },
+      "influential_citation_count": null,
+      "institutions": [],
+      "latest_note_url": null,
+      "note_count": 0,
+      "open_access_pdf_url": null,
+      "pdf_url": "https://arxiv.org/pdf/2609.39080v1",
+      "project_url": null,
+      "published_at": "2026-09-30",
+      "published_date": "2026-09-30",
+      "reading_advice": "save_for_later",
+      "reading_status": "backlog",
+      "recommendation_level": "B",
+      "score": 0.717,
+      "scores": {
+        "classic_value": 0.35,
+        "engineering_transferability": 0.45,
+        "recency": 1.0,
+        "source_quality": 0.78,
+        "total": 0.717,
+        "user_relevance": 0.75
+      },
+      "selected_for_s_level": false,
+      "source": "arxiv",
+      "source_group": "cognition_social",
+      "source_type": "recent_24h",
+      "source_url": "http://arxiv.org/abs/2609.39080v1",
+      "suggested_note_title": null,
+      "suggested_note_type": null,
+      "tags": [
+        "q-bio.NC",
+        "cs.AI"
+      ],
+      "title": "Association profile conditioning in a set-temporal transformer for cross-session intracortical motor decoding",
+      "title_zh": null,
+      "topics": [
+        "cognition",
+        "llm_agent"
+      ],
+      "url": "http://arxiv.org/abs/2609.39080v1",
+      "venue": null,
+      "why_recommended": "Ranked by recency signal across configured topics."
+    }
+  ],
+  "public_json_version": "0.4",
+  "s_level_candidate_ids": [],
+  "s_level_paper_id": null,
+  "source_mode_summary": {
+    "recent_24h": 6
+  },
+  "summary": "Selected 6 papers: 6 recent candidates and 0 classic fallback items."
+}

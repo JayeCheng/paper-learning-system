@@ -2205,6 +2205,66 @@
     {
       "confidence": 0.5,
       "relation": "related_to",
+      "source": "arxiv:2609.39080v1",
+      "target": "cognition"
+    },
+    {
+      "confidence": 0.5,
+      "relation": "related_to",
+      "source": "arxiv:2609.39080v1",
+      "target": "llm_agent"
+    },
+    {
+      "confidence": 0.5,
+      "relation": "related_to",
+      "source": "arxiv:2609.39080v1",
+      "target": "cognition_social"
+    },
+    {
+      "confidence": 0.5,
+      "relation": "related_to",
+      "source": "arxiv:2609.39131v1",
+      "target": "llm_agent"
+    },
+    {
+      "confidence": 0.5,
+      "relation": "related_to",
+      "source": "arxiv:2609.39131v1",
+      "target": "architecture"
+    },
+    {
+      "confidence": 0.5,
+      "relation": "related_to",
+      "source": "arxiv:2609.39147v1",
+      "target": "gpu_graphics"
+    },
+    {
+      "confidence": 0.5,
+      "relation": "related_to",
+      "source": "arxiv:2609.39154v1",
+      "target": "llm_agent"
+    },
+    {
+      "confidence": 0.5,
+      "relation": "related_to",
+      "source": "arxiv:2609.39168v1",
+      "target": "llm_agent"
+    },
+    {
+      "confidence": 0.5,
+      "relation": "related_to",
+      "source": "arxiv:2609.39184v1",
+      "target": "gpu_graphics"
+    },
+    {
+      "confidence": 0.5,
+      "relation": "related_to",
+      "source": "arxiv:2609.39184v1",
+      "target": "llm_agent"
+    },
+    {
+      "confidence": 0.5,
+      "relation": "related_to",
       "source": "biorxiv:10.1101/2023.01.10.523479",
       "target": "cognition"
     },
@@ -5311,6 +5371,57 @@
       "type": "paper"
     },
     {
+      "id": "arxiv:2609.39080v1",
+      "label": "Association profile conditioning in a set-temporal transformer for cross-session intracortical motor decoding",
+      "topics": [
+        "cognition",
+        "llm_agent"
+      ],
+      "type": "paper"
+    },
+    {
+      "id": "arxiv:2609.39131v1",
+      "label": "Characterizing High Bandwidth Flash for LLM Serving",
+      "topics": [
+        "llm_agent",
+        "architecture"
+      ],
+      "type": "paper"
+    },
+    {
+      "id": "arxiv:2609.39147v1",
+      "label": "MindWorldBench: Evaluating Mental-State-to-Behavior Reasoning in Image-to-Video Generation",
+      "topics": [
+        "gpu_graphics"
+      ],
+      "type": "paper"
+    },
+    {
+      "id": "arxiv:2609.39154v1",
+      "label": "DAGent: Evaluate-then-Grow Planning for Deep Research Agents",
+      "topics": [
+        "llm_agent"
+      ],
+      "type": "paper"
+    },
+    {
+      "id": "arxiv:2609.39168v1",
+      "label": "Reinforcing Multimodal Reasoning via Token-Level Perception-Grounded Advantage Estimation",
+      "topics": [
+        "llm_agent"
+      ],
+      "type": "paper"
+    },
+    {
+      "id": "arxiv:2609.39184v1",
+      "label": "Fiber-Resolved Microstructure Quantification from Multi-Shell Diffusion MRI using Detection Transformers",
+      "topics": [
+        "gpu_graphics",
+        "llm_agent"
+      ],
+      "type": "paper"
+    },
+    {
       "id": "biorxiv:10.1101/2023.01.10.523479",
       "label": "How Occam's razor guides human decision-making",
       "topics": [
@@ -6056,5 +6167,5 @@
     }
   ],
   "public_json_version": "0.4",
-  "updated_at": "2026-09-30T01:14:40+00:00"
+  "updated_at": "2026-10-01T01:12:54+00:00"
 }

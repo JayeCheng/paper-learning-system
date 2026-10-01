@@ -9,9 +9,9 @@
       "next_paper_ids": [
         "arxiv:2608.06188v1",
         "arxiv:2609.36959v1",
-        "arxiv:2608.06025v1"
+        "arxiv:2609.39131v1"
       ],
-      "planned_count": 47
+      "planned_count": 48
     },
     {
       "completed_count": 0,
@@ -23,7 +23,7 @@
         "arxiv:2608.10839v1",
         "arxiv:2607.11512v1"
       ],
-      "planned_count": 104
+      "planned_count": 105
     },
     {
       "completed_count": 0,
@@ -35,7 +35,7 @@
         "arxiv:2607.11512v1",
         "arxiv:2607.15143v1"
       ],
-      "planned_count": 120
+      "planned_count": 121
     },
     {
       "completed_count": 0,
@@ -47,7 +47,7 @@
         "arxiv:2609.36898v1",
         "arxiv:2608.10839v1"
       ],
-      "planned_count": 97
+      "planned_count": 99
     },
     {
       "completed_count": 0,
@@ -56,10 +56,10 @@
       "label": "LLM Agent / RAG",
       "next_paper_ids": [
         "arxiv:2608.06228v1",
-        "arxiv:2608.06025v1",
-        "arxiv:2608.07226v1"
+        "arxiv:2609.39131v1",
+        "arxiv:2608.06025v1"
       ],
-      "planned_count": 141
+      "planned_count": 146
     },
     {
       "completed_count": 0,
@@ -74,5 +74,5 @@
       "planned_count": 4
     }
   ],
-  "updated_at": "2026-09-30T01:14:40+00:00"
+  "updated_at": "2026-10-01T01:12:54+00:00"
 }
