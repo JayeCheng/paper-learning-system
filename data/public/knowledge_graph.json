@@ -2361,6 +2361,18 @@
     {
       "confidence": 0.5,
       "relation": "related_to",
+      "source": "biorxiv:10.1101/2025.06.27.661903",
+      "target": "cognition"
+    },
+    {
+      "confidence": 0.5,
+      "relation": "related_to",
+      "source": "biorxiv:10.1101/2025.06.27.661903",
+      "target": "cognition_social"
+    },
+    {
+      "confidence": 0.5,
+      "relation": "related_to",
       "source": "biorxiv:10.1101/2025.08.05.668587",
       "target": "cognition"
     },
@@ -2589,6 +2601,18 @@
     {
       "confidence": 0.5,
       "relation": "related_to",
+      "source": "biorxiv:10.64898/2026.05.27.728219",
+      "target": "cognition"
+    },
+    {
+      "confidence": 0.5,
+      "relation": "related_to",
+      "source": "biorxiv:10.64898/2026.05.27.728219",
+      "target": "cognition_social"
+    },
+    {
+      "confidence": 0.5,
+      "relation": "related_to",
       "source": "biorxiv:10.64898/2026.05.27.728254",
       "target": "cognition"
     },
@@ -2668,6 +2692,18 @@
       "confidence": 0.5,
       "relation": "related_to",
       "source": "biorxiv:10.64898/2026.07.12.738094",
+      "target": "cognition_social"
+    },
+    {
+      "confidence": 0.5,
+      "relation": "related_to",
+      "source": "biorxiv:10.64898/2026.07.31.742027",
+      "target": "cognition"
+    },
+    {
+      "confidence": 0.5,
+      "relation": "related_to",
+      "source": "biorxiv:10.64898/2026.07.31.742027",
       "target": "cognition_social"
     },
     {
@@ -3196,6 +3232,42 @@
       "confidence": 0.5,
       "relation": "related_to",
       "source": "biorxiv:10.64898/2026.09.14.751356",
+      "target": "cognition_social"
+    },
+    {
+      "confidence": 0.5,
+      "relation": "related_to",
+      "source": "biorxiv:10.64898/2026.09.16.752180",
+      "target": "cognition"
+    },
+    {
+      "confidence": 0.5,
+      "relation": "related_to",
+      "source": "biorxiv:10.64898/2026.09.16.752180",
+      "target": "cognition_social"
+    },
+    {
+      "confidence": 0.5,
+      "relation": "related_to",
+      "source": "biorxiv:10.64898/2026.09.22.752944",
+      "target": "cognition"
+    },
+    {
+      "confidence": 0.5,
+      "relation": "related_to",
+      "source": "biorxiv:10.64898/2026.09.22.752944",
+      "target": "cognition_social"
+    },
+    {
+      "confidence": 0.5,
+      "relation": "related_to",
+      "source": "biorxiv:10.64898/2026.09.23.753620",
+      "target": "cognition"
+    },
+    {
+      "confidence": 0.5,
+      "relation": "related_to",
+      "source": "biorxiv:10.64898/2026.09.23.753620",
       "target": "cognition_social"
     },
     {
@@ -5486,6 +5558,14 @@
       "type": "paper"
     },
     {
+      "id": "biorxiv:10.1101/2025.06.27.661903",
+      "label": "Neural adolescent pragmatic development mirrors pragmatic differences in adulthood: an fMRI-study",
+      "topics": [
+        "cognition"
+      ],
+      "type": "paper"
+    },
+    {
       "id": "biorxiv:10.1101/2025.08.05.668587",
       "label": "Selective abundance of miR-290-295 in the adult Substantia Nigra dopamine neurons is neuroprotective via preservation of protein synthesis",
       "topics": [
@@ -5638,6 +5718,14 @@
       "type": "paper"
     },
     {
+      "id": "biorxiv:10.64898/2026.05.27.728219",
+      "label": "Altered Brain Extracellular Matrix Structure and Sex-Specific Learning/Memory Dysfunction in Mice Lacking the Functional Amyloid Cystatin-Related Epididymal Spermatogenic (CRES)",
+      "topics": [
+        "cognition"
+      ],
+      "type": "paper"
+    },
+    {
       "id": "biorxiv:10.64898/2026.05.27.728254",
       "label": "iClima: a ratiometric genetically encoded sensor for optical imaging of fast GABAergic chloride currents in vitro and in vivo",
       "topics": [
@@ -5688,6 +5776,14 @@
     {
       "id": "biorxiv:10.64898/2026.07.12.738094",
       "label": "Neural correlates of the subjective experience of free-will during value-based risky decisions: a pilot study",
+      "topics": [
+        "cognition"
+      ],
+      "type": "paper"
+    },
+    {
+      "id": "biorxiv:10.64898/2026.07.31.742027",
+      "label": "Reduced Microtubule Polyglutamylation Perturbs Neuronal Function and Accelerates Tau-Induced Neurodegeneration",
       "topics": [
         "cognition"
       ],
@@ -6046,6 +6142,30 @@
       "type": "paper"
     },
     {
+      "id": "biorxiv:10.64898/2026.09.16.752180",
+      "label": "Disruption of a Structural Niche for Otoconia Maintenance May Underlie Common Vestibular Disorders",
+      "topics": [
+        "cognition"
+      ],
+      "type": "paper"
+    },
+    {
+      "id": "biorxiv:10.64898/2026.09.22.752944",
+      "label": "Streamlined Production of Recombinant Adeno-Associated Viruses Using Gateway Cloning Technology for Neural Circuit All-Optical Interrogation",
+      "topics": [
+        "cognition"
+      ],
+      "type": "paper"
+    },
+    {
+      "id": "biorxiv:10.64898/2026.09.23.753620",
+      "label": "Altered Dopamine-Linked Striatal Hemodynamic Latency in Early Psychosis",
+      "topics": [
+        "cognition"
+      ],
+      "type": "paper"
+    },
+    {
       "id": "classic:architecture:cache-coherence-and-shared-memory-multiprocessors",
       "label": "Cache coherence and shared-memory multiprocessors",
       "topics": [
@@ -6167,5 +6287,5 @@
     }
   ],
   "public_json_version": "0.4",
-  "updated_at": "2026-10-01T01:12:54+00:00"
+  "updated_at": "2026-10-02T01:37:28+00:00"
 }

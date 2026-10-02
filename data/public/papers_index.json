@@ -18530,6 +18530,81 @@
       "why_recommended": "Ranked by recency signal across configured topics."
     },
     {
+      "abstract": "Pragmatic development is still ongoing during adolescence. However, the developmental trajectory during this period is understudied and the underlying neural correlates of pragmatic development are unknown. In this study, we used an established fMRI paradigm contrasting indirect and direct speech acts in a newly acquired adolescent sample (n = 51) and a previously collected adult sample (n = 57). The adolescent sample was subdivided into Young (ages 13-15) and Mid (ages 16-18) groups and the adult sample (Old, ages 20-36) was split based on pragmatic skill level (established in separate behavioral tests). We observed age-related increases in activity in the posterior medial superior frontal gyrus, and a combination of age-related differences and adult individual differences in the dorsal aspects of the posterior cingulate cortex (dPCC). Both clusters were located outside the classic perisylvian language network. We interpret the dPCC findings in terms of its overlap with the Default Mode Network. Similar activity in the dPCC between adolescents and adults with lower pragmatic skill is consistent with a view that a delayed adolescent development may lead to persistent pragmatic difficulties in adulthood. The findings also indicate development towards context-specific processing. By studying adolescence, a presumably uniquely human extended developmental period, we provide a rare empirical angle on the question of which aspects of brain and cultural evolution contributed to the human communicative faculty.",
+      "authors": [
+        "Forbes Schieche, C.",
+        "Udden, J."
+      ],
+      "categories": [
+        "neuroscience"
+      ],
+      "citation_count": 2,
+      "classic_status": null,
+      "code_url": null,
+      "deep_read_note_url": null,
+      "difficulty": null,
+      "enrichment_sources": [
+        "semantic_scholar"
+      ],
+      "existing_note_url": null,
+      "external_ids": {
+        "CorpusId": "279799531",
+        "DOI": "10.1101/2025.06.27.661903"
+      },
+      "field": "Neuroscience",
+      "fields_of_study": [
+        "Neuroscience"
+      ],
+      "id": "biorxiv:10.1101/2025.06.27.661903",
+      "identifiers": {
+        "CorpusId": "279799531",
+        "DOI": "10.1101/2025.06.27.661903",
+        "doi": "10.1101/2025.06.27.661903",
+        "server": "biorxiv"
+      },
+      "influential_citation_count": 0,
+      "institutions": [],
+      "latest_note_url": null,
+      "note_count": 0,
+      "open_access_pdf_url": "https://doi.org/10.1101/2025.06.27.661903",
+      "pdf_url": null,
+      "project_url": null,
+      "published_at": "2026-09-25",
+      "published_date": "2026-09-25",
+      "reading_advice": "save_for_later",
+      "reading_status": "backlog",
+      "recommendation_level": "B",
+      "score": 0.6809,
+      "scores": {
+        "classic_value": 0.3897543524036107,
+        "engineering_transferability": 0.48,
+        "recency": 0.78,
+        "source_quality": 0.8395410445768665,
+        "total": 0.6809,
+        "user_relevance": 0.75
+      },
+      "selected_for_s_level": false,
+      "source": "biorxiv",
+      "source_group": "cognition_social",
+      "source_type": "recent_7d",
+      "source_url": "https://doi.org/10.1101/2025.06.27.661903",
+      "suggested_note_title": null,
+      "suggested_note_type": null,
+      "tags": [
+        "neuroscience",
+        "cognition_social",
+        "biorxiv"
+      ],
+      "title": "Neural adolescent pragmatic development mirrors pragmatic differences in adulthood: an fMRI-study",
+      "title_zh": null,
+      "topics": [
+        "cognition"
+      ],
+      "url": "https://doi.org/10.1101/2025.06.27.661903",
+      "venue": "bioRxiv",
+      "why_recommended": "Ranked by source quality signal across configured topics."
+    },
+    {
       "abstract": "Locomotor, reward and other critical functions of the body are regulated by the ventral midbrain, with the central role played by dopamine (DA) neurons. The function of these cells from the early development to maturity is critically dependent on the orchestrated expression of coding and non-coding genes. For example, in the stem cells the miR-290-295 cluster constitutes the majority of expressed microRNAs and is critical for stemness in rodents. During development towards various terminally differentiated lineages, such as neurons, the cells typically switch off transcription of these stem cell-specific microRNAs. Here we report that within the adult Substantia Nigra pars compacta (SNpc), the miR-290-295 cluster is exclusively expressed in DA neurons (SNDA), preventing the locomotor deficits and maintaining an adequate expression of proteins involved in DA biogenesis, such as tyrosine hydroxylase (TH), dopa decarboxylase (DDC) and DA transporter (DAT). Importantly, a global knock-out of the miR-290-295 cluster leads to decreased numbers of SNDA neurons in adult mice. Using in vitro and in vivo DA cell-specific loss-of-function models, we demonstrated that miR-292a-3p, the most abundant microRNA in this cluster, directly targets PTEN, a phosphatase antagonizing the neuroprotective phosphatidylinositol-4,5-bisphosphate 3-kinase (PI3K)-AKT-mechanistic target of rapamycin kinase (mTOR) pathways regulating translation initiation. Accordingly, when labelled with the click chemistry-compatible methionine analogue L-azidohomoalanine, miR-290-295 cluster-deficient SNDA neurons revealed a drastic impairment of protein synthesis, which is critical for DA biogenesis. Our surprising findings demonstrate for the first time a selective expression of stem cell-specific and stemness-promoting microRNAs in a distinct population of mature neurons to maintain their physiological functions in the adulthood, suggesting that similar epigenetic disinhibition mechanisms may be also critical for other terminally differentiated cells across species.",
       "authors": [
         "Li, Z.",
@@ -20018,6 +20093,79 @@
       "why_recommended": "Ranked by recency signal across configured topics."
     },
     {
+      "abstract": "Cystatin-related epididymal spermatogenic (CRES) is a member of a reproductive subgroup of family 2 cystatins and part of a functional amyloid-containing extracellular matrix (ECM) with host defense functions in the epididymal lumen. CRES and the endogenous epididymal amyloid matrix exhibit high plasticity, forming distinct amyloid structures, with antimicrobial functions tailored to specific bacterial strains. We recently demonstrated that CRES/CRES amyloid is also present in the mammalian brain ECM. In this study, we utilized a CRES knockout (KO) mouse model to determine if the loss of CRES altered the structure of the hippocampal and cortical ECM and impacted brain function. We report that CRES KO male and female mice exhibited sex-specific structural changes in both the loose/interstitial and perineuronal net (PNN) ECM. Additionally, young CRES KO males but not females displayed deficits in learning, memory and executive functioning when compared to WT controls. In contrast, older CRES KO males did not exhibit behavioral deficits, a finding that correlated with the observation of a similar PNN ECM structure when compared to WT mice. Our data suggest that CRES functions as a regulatory or structural component of the brain ECM, contributing to its sex-specific structural organization and plasticity, affecting sex-specific behaviors of learning and memory.",
+      "authors": [
+        "Gomez, A.",
+        "Logsdon, A. F.",
+        "Bailoo, J. D.",
+        "Cornwall, G. A."
+      ],
+      "categories": [
+        "neuroscience"
+      ],
+      "citation_count": null,
+      "classic_status": null,
+      "code_url": null,
+      "deep_read_note_url": null,
+      "difficulty": null,
+      "enrichment_sources": [],
+      "existing_note_url": null,
+      "external_ids": {
+        "DOI": "10.64898/2026.05.27.728219"
+      },
+      "field": null,
+      "fields_of_study": [
+        "Neuroscience"
+      ],
+      "id": "biorxiv:10.64898/2026.05.27.728219",
+      "identifiers": {
+        "DOI": "10.64898/2026.05.27.728219",
+        "doi": "10.64898/2026.05.27.728219",
+        "server": "biorxiv"
+      },
+      "influential_citation_count": null,
+      "institutions": [],
+      "latest_note_url": null,
+      "note_count": 0,
+      "open_access_pdf_url": null,
+      "pdf_url": null,
+      "project_url": null,
+      "published_at": "2026-09-25",
+      "published_date": "2026-09-25",
+      "reading_advice": "save_for_later",
+      "reading_status": "backlog",
+      "recommendation_level": "B",
+      "score": 0.653,
+      "scores": {
+        "classic_value": 0.35,
+        "engineering_transferability": 0.48,
+        "recency": 0.78,
+        "source_quality": 0.68,
+        "total": 0.653,
+        "user_relevance": 0.75
+      },
+      "selected_for_s_level": false,
+      "source": "biorxiv",
+      "source_group": "cognition_social",
+      "source_type": "recent_7d",
+      "source_url": "https://doi.org/10.64898/2026.05.27.728219",
+      "suggested_note_title": null,
+      "suggested_note_type": null,
+      "tags": [
+        "neuroscience",
+        "cognition_social",
+        "biorxiv"
+      ],
+      "title": "Altered Brain Extracellular Matrix Structure and Sex-Specific Learning/Memory Dysfunction in Mice Lacking the Functional Amyloid Cystatin-Related Epididymal Spermatogenic (CRES)",
+      "title_zh": null,
+      "topics": [
+        "cognition"
+      ],
+      "url": "https://doi.org/10.64898/2026.05.27.728219",
+      "venue": "bioRxiv",
+      "why_recommended": "Ranked by recency signal across configured topics."
+    },
+    {
       "abstract": "Fast GABAergic inhibition in the brain is mediated by chloride currents whose driving force depends on intracellular Chloride concentration ([Cl-]i). Resolving the spatiotemporal dynamics of [Cl-]i in neurons requires a sensor combining high Cl- affinity, pH independence, and photostability - properties no existing tool achieves simultaneously. Here we introduce iClima (improved Chloride Imaging), a ratiometric genetically encoded sensor with high Cl- affinity (Kd=3.5 mM at pH 7.2), pH-insensitive under physiological conditions, and markedly improved photostability compared to existing sensors. These properties enable dynamic Cl- imaging without simultaneous pH correction. We demonstrate that iClima resolves GABAA-driven Cl- transients in cultured neurons, detects discrete Cl- hotspots along dendrites, and captures sensory-evoked Cl- transients in vivo. Finally, exploiting the spectral compatibility of iClima with GCaMP6f, we measure in interleaved trials Cl- and Ca2+ transients in the same neurons in vivo, revealing a divergence between the somatic inhibitory drive and the neuronal excitation state as reported by Ca2+ dynamics.",
       "authors": [
         "Pasquini, G.",
@@ -20553,6 +20701,93 @@
         "cognition"
       ],
       "url": "https://doi.org/10.64898/2026.07.12.738094",
+      "venue": "bioRxiv",
+      "why_recommended": "Ranked by recency signal across configured topics."
+    },
+    {
+      "abstract": "Microtubules are essential for neuronal functions and are involved in many neurodegenerative disorders. A posttranslational modification (PTM) of neuronal microtubules, polyglutamylation, was shown to control cargo transport, Tau protein binding to microtubules and to induce early-onset neurodegeneration when exceeding physiological levels. To determine the physiological importance of this PTM, we characterised mouse models with reduced polyglutamylation. We demonstrate that these mice develop late-onset atrophy of the olfactory bulb and frontal cortex, progressively reduced dendritic spine density, and deficits in olfaction, memory, and cognitive control. This indicates an important role of polyglutamylation in neuronal function. To test whether the observed defects are linked to neurodegeneration, we combined mice with reduced polyglutamylation with a transgenic model for tauopathy. Strikingly, reduced polyglutamylation accelerated the premature demise of mice transgenic for human Tau carrying the P301S mutation. Our work thus reveals key roles of microtubule polyglutamylation in neuronal function with implications for late-onset neurodegeneration linked to Tau pathology.",
+      "authors": [
+        "Chakraborty, S.",
+        "Poggini, S.",
+        "Ruskova, M.",
+        "Lavenir, I.",
+        "Boido, D.",
+        "Karhanova, A.",
+        "Besse, L.",
+        "Albanese, N. C.",
+        "Al-Inaya, Y.",
+        "Lebrun, L.",
+        "Henriot, V.",
+        "Lansky, Z.",
+        "Goedert, M.",
+        "Ciobanu, L.",
+        "Balastik, M.",
+        "Branchi, I.",
+        "Janke, C.",
+        "Magiera, M. M."
+      ],
+      "categories": [
+        "neuroscience"
+      ],
+      "citation_count": null,
+      "classic_status": null,
+      "code_url": null,
+      "deep_read_note_url": null,
+      "difficulty": null,
+      "enrichment_sources": [],
+      "existing_note_url": null,
+      "external_ids": {
+        "DOI": "10.64898/2026.07.31.742027"
+      },
+      "field": null,
+      "fields_of_study": [
+        "Neuroscience"
+      ],
+      "id": "biorxiv:10.64898/2026.07.31.742027",
+      "identifiers": {
+        "DOI": "10.64898/2026.07.31.742027",
+        "doi": "10.64898/2026.07.31.742027",
+        "server": "biorxiv"
+      },
+      "influential_citation_count": null,
+      "institutions": [],
+      "latest_note_url": null,
+      "note_count": 0,
+      "open_access_pdf_url": null,
+      "pdf_url": null,
+      "project_url": null,
+      "published_at": "2026-09-25",
+      "published_date": "2026-09-25",
+      "reading_advice": "save_for_later",
+      "reading_status": "backlog",
+      "recommendation_level": "B",
+      "score": 0.653,
+      "scores": {
+        "classic_value": 0.35,
+        "engineering_transferability": 0.48,
+        "recency": 0.78,
+        "source_quality": 0.68,
+        "total": 0.653,
+        "user_relevance": 0.75
+      },
+      "selected_for_s_level": false,
+      "source": "biorxiv",
+      "source_group": "cognition_social",
+      "source_type": "recent_7d",
+      "source_url": "https://doi.org/10.64898/2026.07.31.742027",
+      "suggested_note_title": null,
+      "suggested_note_type": null,
+      "tags": [
+        "neuroscience",
+        "cognition_social",
+        "biorxiv"
+      ],
+      "title": "Reduced Microtubule Polyglutamylation Perturbs Neuronal Function and Accelerates Tau-Induced Neurodegeneration",
+      "title_zh": null,
+      "topics": [
+        "cognition"
+      ],
+      "url": "https://doi.org/10.64898/2026.07.31.742027",
       "venue": "bioRxiv",
       "why_recommended": "Ranked by recency signal across configured topics."
     },
@@ -23868,6 +24103,240 @@
       "why_recommended": "Ranked by recency signal across configured topics."
     },
     {
+      "abstract": "Many falls and balance disorders in older adults originate in the otolith organs, the gravity sensors of the inner ear. These sensors maintain upright posture through otoconia, calcium carbonate crystals that mass-load the sensory maculae. Otoconia dislodgement causes the most common form of vertigo, and their age-related loss reduces gravity sensation and undermines balance. Yet the cellular mechanisms of otoconia formation and maintenance -and how they fail in disease- remain unknown. Using mineral-preserving histology, crystal-sensitive imaging, volume electron microscopy, and immunolabeling in human and animal otolith organs, we found otoconia biogenesis-related proteins and early crystallization at the pole opposing the macula, the roof domain. We discovered filigree extracellular matrix scaffolds bridging roof and macula, loaded with nascent otoconia, suggesting scaffold-guided transport across the organ. Single-cell transcriptomics nominated a specialized roof mesenchyme, signaling to the roof epithelium, as a driver of otoconia and scaffold production. In guinea pigs with endolymphatic hydrops, fluid expansion of the organs ruptured the otoconia-trafficking scaffolds as roof and macula separated, followed by a decline in macular otoconial mass. We propose a new disease model for common vertigo and balance disorders in which disruption of the otoconia-generating and -trafficking epithelial-mesenchymal roof niche leads to displacement and depletion of otoconia.",
+      "authors": [
+        "Correa, D. M.",
+        "David, A. P.",
+        "Zhou, R.",
+        "Osgood, R.",
+        "Indzhykulian, A. A.",
+        "Kraemer, S.",
+        "Jan, T. A.",
+        "Eckhard, A. H."
+      ],
+      "categories": [
+        "neuroscience"
+      ],
+      "citation_count": null,
+      "classic_status": null,
+      "code_url": null,
+      "deep_read_note_url": null,
+      "difficulty": null,
+      "enrichment_sources": [],
+      "existing_note_url": null,
+      "external_ids": {
+        "DOI": "10.64898/2026.09.16.752180"
+      },
+      "field": null,
+      "fields_of_study": [
+        "Neuroscience"
+      ],
+      "id": "biorxiv:10.64898/2026.09.16.752180",
+      "identifiers": {
+        "DOI": "10.64898/2026.09.16.752180",
+        "doi": "10.64898/2026.09.16.752180",
+        "server": "biorxiv"
+      },
+      "influential_citation_count": null,
+      "institutions": [],
+      "latest_note_url": null,
+      "note_count": 0,
+      "open_access_pdf_url": null,
+      "pdf_url": null,
+      "project_url": null,
+      "published_at": "2026-09-25",
+      "published_date": "2026-09-25",
+      "reading_advice": "save_for_later",
+      "reading_status": "backlog",
+      "recommendation_level": "B",
+      "score": 0.653,
+      "scores": {
+        "classic_value": 0.35,
+        "engineering_transferability": 0.48,
+        "recency": 0.78,
+        "source_quality": 0.68,
+        "total": 0.653,
+        "user_relevance": 0.75
+      },
+      "selected_for_s_level": false,
+      "source": "biorxiv",
+      "source_group": "cognition_social",
+      "source_type": "recent_7d",
+      "source_url": "https://doi.org/10.64898/2026.09.16.752180",
+      "suggested_note_title": null,
+      "suggested_note_type": null,
+      "tags": [
+        "neuroscience",
+        "cognition_social",
+        "biorxiv"
+      ],
+      "title": "Disruption of a Structural Niche for Otoconia Maintenance May Underlie Common Vestibular Disorders",
+      "title_zh": null,
+      "topics": [
+        "cognition"
+      ],
+      "url": "https://doi.org/10.64898/2026.09.16.752180",
+      "venue": "bioRxiv",
+      "why_recommended": "Ranked by recency signal across configured topics."
+    },
+    {
+      "abstract": "The advent of optogenetics and the rapid development of genetically encoded actuators and reporters for calcium, voltage, neurotransmitters, and other molecules have revolutionized neuroscience research by enabling precise, non-invasive optical interrogation of neural circuits. Successful implementation, however, critically depends on efficient reporter expression in defined neuronal populations. We present a Gateway(R)-based cloning platform providing a robust pipeline for rapid, efficient construction of recombinant adeno-associated virus (rAAV) vectors optimized for neuroscience applications. This platform addresses promoter selection, indicator engineering, and capsid-type optimization, and enables systematic optimization of vector components across a range of optical tools. The benefit of this modular approach is illustrated in the case of ULoVE, a two-photon microscopy method based on acousto-optic deflectors (AODs). This method provides serial light-targeting with kHz sampling rates and high signal-to-noise ratio in vivo, which imposes stringent requirements on indicator expression -- including cell-type specificity, sparse labelling, and precise control of expression levels-- efficiently met through the combinatorial flexibility of the Gateway pipeline. As specific examples, Gateway-constructed Cre-driver viruses combined with Cre-dependent reporters enabled cell-type-specific labelling for two complementary applications. In cerebellar Purkinje cells, an L7::Cre driver virus paired with a Gateway-constructed voltage indicator (JEDI2P-Kv) and ULoVE two-photon excitation at ~5 kHz enables resolution of sub-millisecond dendritic voltage dynamics in awake, behaving mice, including optical detection of dendritic spikelets previously accessible only via intracellular electrophysiology. The same driver virus paired with calcium indicators (GCaMP6f, jRGECO1a) resolves climbing fiber-evoked calcium kinetics under the same conditions. In acute cerebellar slices, a kit::Cre driver virus enabled cell-type-specific expression of the optogenetic actuator ChR2(H134R) in molecular layer interneurons, where ULoVE doughnut-pattern photostimulation achieved single-cell, sub-millisecond optogenetic activation with micron-scale spatial resolution. Beyond ULoVE applications, the same sparse, strong labelling also proved suitable for anatomical tracing of axonal projections in cleared cerebellar tissue, resolving individual DCN axon terminals at the granule cell layer --molecular layer boundary. Taken together, our dual-front approach --combining a modular AAV expression pipeline with AOD-based optical acquisition --provides an integrated platform for developing sophisticated optical tools, including but not limited to AOD-based microscopy, for neural circuit interrogation.",
+      "authors": [
+        "Ayon, A.",
+        "Jalil, A.",
+        "Egan, C.",
+        "Ducos, B.",
+        "Mailhes-Hamon, C.",
+        "Tangara, A.",
+        "Mathieu, B.",
+        "Bemelmans, A.-P.",
+        "Llano, I.",
+        "Bourdieu, L.",
+        "Dieudonne, S.",
+        "Villette, V.",
+        "Bradley, J."
+      ],
+      "categories": [
+        "neuroscience"
+      ],
+      "citation_count": null,
+      "classic_status": null,
+      "code_url": null,
+      "deep_read_note_url": null,
+      "difficulty": null,
+      "enrichment_sources": [],
+      "existing_note_url": null,
+      "external_ids": {
+        "DOI": "10.64898/2026.09.22.752944"
+      },
+      "field": null,
+      "fields_of_study": [
+        "Neuroscience"
+      ],
+      "id": "biorxiv:10.64898/2026.09.22.752944",
+      "identifiers": {
+        "DOI": "10.64898/2026.09.22.752944",
+        "doi": "10.64898/2026.09.22.752944",
+        "server": "biorxiv"
+      },
+      "influential_citation_count": null,
+      "institutions": [],
+      "latest_note_url": null,
+      "note_count": 0,
+      "open_access_pdf_url": null,
+      "pdf_url": null,
+      "project_url": null,
+      "published_at": "2026-09-25",
+      "published_date": "2026-09-25",
+      "reading_advice": "save_for_later",
+      "reading_status": "backlog",
+      "recommendation_level": "B",
+      "score": 0.653,
+      "scores": {
+        "classic_value": 0.35,
+        "engineering_transferability": 0.48,
+        "recency": 0.78,
+        "source_quality": 0.68,
+        "total": 0.653,
+        "user_relevance": 0.75
+      },
+      "selected_for_s_level": false,
+      "source": "biorxiv",
+      "source_group": "cognition_social",
+      "source_type": "recent_7d",
+      "source_url": "https://doi.org/10.64898/2026.09.22.752944",
+      "suggested_note_title": null,
+      "suggested_note_type": null,
+      "tags": [
+        "neuroscience",
+        "cognition_social",
+        "biorxiv"
+      ],
+      "title": "Streamlined Production of Recombinant Adeno-Associated Viruses Using Gateway Cloning Technology for Neural Circuit All-Optical Interrogation",
+      "title_zh": null,
+      "topics": [
+        "cognition"
+      ],
+      "url": "https://doi.org/10.64898/2026.09.22.752944",
+      "venue": "bioRxiv",
+      "why_recommended": "Ranked by recency signal across configured topics."
+    },
+    {
+      "abstract": "Key Points Question: Is striatal hemodynamic latency, a novel indirect correlate of dopamine physiology, altered in individuals with early psychosis? Findings: In this cross-sectional study of 105 individuals with early psychosis and 55 healthy comparison participants, early psychosis was associated with significantly lower striatal hemodynamic latency. Differences were observed in the dorsal striatum (caudate and putamen), whereas ventral striatal (nucleus accumbens) latency did not significantly differ between groups. Meaning: These findings support further evaluation of striatal hemodynamic latency as a noninvasive, indirect marker of dopamine-linked physiology in early psychosis. Abstract Importance: Psychosis is strongly associated with striatal dopamine dysfunction, but noninvasive measures that capture variation in dopamine remain limited. Hemodynamic latency, which quantifies the timing of low-frequency blood oxygen level-dependent (BOLD) fluctuations, may provide a way to indirectly probe dopamine dysfunction in psychosis. Objective: To determine whether striatal hemodynamic latency differs between individuals with early psychosis (EP) and healthy control (HC) participants and whether latency is associated with positive or negative symptom severity. Design: Cross-sectional analysis of resting-state functional magnetic resonance imaging (fMRI) data from the Human Connectome Project (HCP)-EP dataset. Setting: Multisite study at 4 sites using 3T Siemens Prisma MRI scanners. Participants: 105 individuals with EP and 55 HC participants with usable resting-state fMRI and hemodynamic latency data. Exposure: EP status. Main Outcomes and Measures: Voxel-wise hemodynamic latency was estimated using RapidTide and summarized within 6 striatal regions: nucleus accumbens core and shell, anterior and posterior caudate and putamen. Group differences were evaluated using linear mixed-effects models accounting for region and subject-level random effects and controlling for age, sex, and mean framewise displacement. Positive symptoms were measured using the Positive and Negative Syndrome Scale positive subscale; negative symptoms using the Clinical Assessment Interview for Negative Symptoms. Associations with symptoms were assessed using nested linear regressions within the EP group. Results: Latency was significantly lower in the dorsal than ventral striatum in HC and EP, with a greater difference in EP (b=-119.46 ms, SE=52.16, p=.022). Follow-up six-subregion models found significant main effects of group F(1,156.55)=7.79, p=.006, and region F(5,2760)=187.99; p< .001, but no group-by-region interaction F(5,2760)=1.74; p=.121. Region-specific contrasts showed lower latency in EP in the anterior caudate (p=.014), posterior caudate (p<.001), anterior putamen (p=.007), and posterior putamen (p=.029), but not NAc core or shell. Striatal latency was not significantly associated with positive or negative symptom severity among participants with EP. Conclusions and Relevance: EP was associated with broadly reduced striatal hemodynamic latency, with the strongest differences in the caudate and putamen. Altered striatal latency in psychosis warrants further evaluation as a noninvasive indirect marker of striatal pathophysiology linked to dopamine.",
+      "authors": [
+        "Mopuru, R.",
+        "Elliott, B. L.",
+        "Hoffman, L. J.",
+        "Ellman, L. M.",
+        "Olson, I. R.",
+        "Ballard, I."
+      ],
+      "categories": [
+        "neuroscience"
+      ],
+      "citation_count": null,
+      "classic_status": null,
+      "code_url": null,
+      "deep_read_note_url": null,
+      "difficulty": null,
+      "enrichment_sources": [],
+      "existing_note_url": null,
+      "external_ids": {
+        "DOI": "10.64898/2026.09.23.753620"
+      },
+      "field": null,
+      "fields_of_study": [
+        "Neuroscience"
+      ],
+      "id": "biorxiv:10.64898/2026.09.23.753620",
+      "identifiers": {
+        "DOI": "10.64898/2026.09.23.753620",
+        "doi": "10.64898/2026.09.23.753620",
+        "server": "biorxiv"
+      },
+      "influential_citation_count": null,
+      "institutions": [],
+      "latest_note_url": null,
+      "note_count": 0,
+      "open_access_pdf_url": null,
+      "pdf_url": null,
+      "project_url": null,
+      "published_at": "2026-09-25",
+      "published_date": "2026-09-25",
+      "reading_advice": "save_for_later",
+      "reading_status": "backlog",
+      "recommendation_level": "B",
+      "score": 0.653,
+      "scores": {
+        "classic_value": 0.35,
+        "engineering_transferability": 0.48,
+        "recency": 0.78,
+        "source_quality": 0.68,
+        "total": 0.653,
+        "user_relevance": 0.75
+      },
+      "selected_for_s_level": false,
+      "source": "biorxiv",
+      "source_group": "cognition_social",
+      "source_type": "recent_7d",
+      "source_url": "https://doi.org/10.64898/2026.09.23.753620",
+      "suggested_note_title": null,
+      "suggested_note_type": null,
+      "tags": [
+        "neuroscience",
+        "cognition_social",
+        "biorxiv"
+      ],
+      "title": "Altered Dopamine-Linked Striatal Hemodynamic Latency in Early Psychosis",
+      "title_zh": null,
+      "topics": [
+        "cognition"
+      ],
+      "url": "https://doi.org/10.64898/2026.09.23.753620",
+      "venue": "bioRxiv",
+      "why_recommended": "Ranked by recency signal across configured topics."
+    },
+    {
       "abstract": "Required background for parallel architecture.",
       "authors": [],
       "categories": [
@@ -24341,5 +24810,5 @@
     }
   ],
   "public_json_version": "0.4",
-  "updated_at": "2026-10-01T01:12:54+00:00"
+  "updated_at": "2026-10-02T01:37:28+00:00"
 }
