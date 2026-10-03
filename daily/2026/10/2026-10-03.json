@@ -1,0 +1,465 @@
+{
+  "date": "2026-10-03",
+  "frontend_entry": "data/public/latest.json",
+  "generated_at": "2026-10-03T01:05:42+00:00",
+  "generated_paths": {
+    "exports_csv": "data/exports/papers.csv",
+    "exports_daily_csv": "data/exports/daily_papers.csv",
+    "exports_jsonl": "data/exports/papers.jsonl",
+    "exports_notes_index": "data/exports/notes_index.csv",
+    "exports_reading_status": "data/exports/reading_status.csv",
+    "json": "daily/2026/10/2026-10-03.json",
+    "markdown": "daily/2026/10/2026-10-03.md",
+    "public_curriculum_progress": "data/public/curriculum_progress.json",
+    "public_daily_index": "data/public/daily_index.json",
+    "public_knowledge_graph": "data/public/knowledge_graph.json",
+    "public_latest": "data/public/latest.json",
+    "public_notes_index": "data/public/notes_index.json",
+    "public_papers_index": "data/public/papers_index.json",
+    "public_reading_status": "data/public/reading_status.json",
+    "state_notes_index": "data/state/notes_index.json",
+    "state_papers": "data/state/papers.jsonl",
+    "state_reading_status": "data/state/reading_status.json",
+    "state_run_history": "data/state/run_history.json"
+  },
+  "knowledge_graph_delta": [
+    "paper:arxiv:2610.02121v1",
+    "paper:arxiv:2610.02207v1",
+    "paper:arxiv:2610.02023v1",
+    "paper:arxiv:2610.01445v1",
+    "paper:arxiv:2610.01305v1",
+    "paper:arxiv:2610.01303v1"
+  ],
+  "learning_route_position": "v0.4 GitHub-owned note bridge",
+  "next_actions": [
+    "Review S-level candidate",
+    "Update reading status after skim",
+    "Promote durable concepts into the knowledge graph"
+  ],
+  "papers": [
+    {
+      "abstract": "Processor pipeline visualization tools are routine inside industry CPU teams, but few of them are described or released publicly. As a result, students, researchers, and other practitioners rarely see the tooling that processor architects use to debug performance before silicon. This paper describes two pieces of Ampere Computing's performance- analysis infrastructure that we have released to the community as open source: event streams, a simulator-output format, and Catscan, an interactive viewer built around that format. Event streams record microarchitectural activity as typed events connected by transaction relationships, so a user can move between a symptom and the instruction, uop, or memory transaction that explains it. Catscan uses that structure to support resource- and transaction-oriented views, persistent highlighting, domain-specific search, comparative trace synchronization, and other workflows used during product development. In this paper we report the design choices that survived production use, the limitations we encountered, and the lessons we think are useful for future microarchitectural visualization tools.",
+      "authors": [
+        "Aaron Lindsay",
+        "Nicholas Kelly",
+        "Scott Witscher",
+        "Mahesh Madhav"
+      ],
+      "categories": [
+        "cs.AR",
+        "cs.HC",
+        "cs.PF"
+      ],
+      "citation_count": null,
+      "classic_status": null,
+      "code_url": null,
+      "deep_read_note_url": null,
+      "difficulty": null,
+      "enrichment_sources": [],
+      "existing_note_url": null,
+      "external_ids": {},
+      "field": null,
+      "fields_of_study": [],
+      "id": "arxiv:2610.02121v1",
+      "identifiers": {
+        "arxiv_id": "2610.02121v1"
+      },
+      "influential_citation_count": null,
+      "institutions": [],
+      "latest_note_url": null,
+      "note_count": 0,
+      "open_access_pdf_url": null,
+      "pdf_url": "https://arxiv.org/pdf/2610.02121v1",
+      "project_url": null,
+      "published_at": "2026-10-01",
+      "published_date": "2026-10-01",
+      "reading_advice": "save_for_later",
+      "reading_status": "backlog",
+      "recommendation_level": "B",
+      "score": 0.732,
+      "scores": {
+        "classic_value": 0.35,
+        "engineering_transferability": 0.8,
+        "recency": 0.78,
+        "source_quality": 0.78,
+        "total": 0.732,
+        "user_relevance": 0.75
+      },
+      "selected_for_s_level": false,
+      "source": "arxiv",
+      "source_group": "cognition_social",
+      "source_type": "recent_7d",
+      "source_url": "http://arxiv.org/abs/2610.02121v1",
+      "suggested_note_title": null,
+      "suggested_note_type": null,
+      "tags": [
+        "cs.AR",
+        "cs.HC",
+        "cs.PF"
+      ],
+      "title": "Catscan: Visualizing Pipelines of CPU Performance Simulation",
+      "title_zh": null,
+      "topics": [
+        "architecture",
+        "cognition"
+      ],
+      "url": "http://arxiv.org/abs/2610.02121v1",
+      "venue": null,
+      "why_recommended": "Ranked by engineering transferability signal across configured topics."
+    },
+    {
+      "abstract": "3D Gaussian avatars support fast rendering, however, their real-time animation is often challenged by the costly neural inference. We address this bottleneck and show that the animation of pretrained avatar models can be closely approximated by a linear combination of identity-independent blendshapes. Building on this finding, we introduce GALA (Gaussian Animation via Linear Approximation), a distillation method that replaces per-frame heavy neural decoding with a shallow coefficient predictor and a linear blend. To improve fidelity and reduce memory requirements, we propose to construct the basis using block-local PCA under a rendering-aware metric and a memory budget. Our method learns a shallow MLP network to predict blendshape coefficients and applies to various animation architectures without retraining original models. We validate GALA by accelerating the inference of three distinct avatar models for 3D animation of facial expressions and full-bodies with clothing dynamics. Across these models, our distillation generalizes to held-out identities and reduces CPU animation cost by up to three orders of magnitude while preserving most of the rendering quality. Excellent results of our method confirm the shared linear structure of learned avatar representations and enable highly efficient and accurate animation at frame rates reaching up to 60fps on mobile devices. Project page: https://ramazan793.github.io/gala/",
+      "authors": [
+        "Ramazan Fazylov",
+        "Stamatis Lefkimmiatis",
+        "Ivan Laptev"
+      ],
+      "categories": [
+        "cs.CV",
+        "cs.AI",
+        "cs.HC",
+        "cs.LG"
+      ],
+      "citation_count": null,
+      "classic_status": null,
+      "code_url": null,
+      "deep_read_note_url": null,
+      "difficulty": null,
+      "enrichment_sources": [],
+      "existing_note_url": null,
+      "external_ids": {},
+      "field": null,
+      "fields_of_study": [],
+      "id": "arxiv:2610.02207v1",
+      "identifiers": {
+        "arxiv_id": "2610.02207v1"
+      },
+      "influential_citation_count": null,
+      "institutions": [],
+      "latest_note_url": null,
+      "note_count": 0,
+      "open_access_pdf_url": null,
+      "pdf_url": "https://arxiv.org/pdf/2610.02207v1",
+      "project_url": "https://ramazan793.github.io/gala/",
+      "published_at": "2026-10-01",
+      "published_date": "2026-10-01",
+      "reading_advice": "save_for_later",
+      "reading_status": "backlog",
+      "recommendation_level": "B",
+      "score": 0.692,
+      "scores": {
+        "classic_value": 0.35,
+        "engineering_transferability": 0.6,
+        "recency": 0.78,
+        "source_quality": 0.78,
+        "total": 0.692,
+        "user_relevance": 0.75
+      },
+      "selected_for_s_level": false,
+      "source": "arxiv",
+      "source_group": "cognition_social",
+      "source_type": "recent_7d",
+      "source_url": "http://arxiv.org/abs/2610.02207v1",
+      "suggested_note_title": null,
+      "suggested_note_type": null,
+      "tags": [
+        "cs.CV",
+        "cs.AI",
+        "cs.HC",
+        "cs.LG"
+      ],
+      "title": "One Basis to Animate Them All: Gaussian Blendshape Distillation for Real-Time Avatars",
+      "title_zh": null,
+      "topics": [
+        "gpu_graphics",
+        "llm_agent",
+        "cognition"
+      ],
+      "url": "http://arxiv.org/abs/2610.02207v1",
+      "venue": null,
+      "why_recommended": "Ranked by recency signal across configured topics."
+    },
+    {
+      "abstract": "While Large Language Models (LLMs) advance 3D indoor scene synthesis, current pipelines fail to retain user-specific preferences across sessions, making immersive authoring a repetitive and physically fatiguing process. We present SPHERE, an adaptive VR generation framework that transforms isolated synthesis into continuous human-AI co-creation. SPHERE extracts persistent spatial preferences from natural multimodal interactions (speech and controller edits). To ensure geometric resilience against spatial distortions, it abstracts these raw edits into hierarchical constraints modeling both local functional and global topological contexts. Furthermore, a human-in-the-loop reinforcement learning mechanism dynamically updates retrieval policies based on the user's final edited scenes. A mixed-design user study ($N=42$) and an offline ablation demonstrate that SPHERE significantly reduces corrective edits and physical demand, preventing bias toward shallow object-level traits to yield geometrically resilient, profile-aligned layouts. Ultimately, SPHERE demonstrates how capturing demonstrated spatial logic enables controlled spatial adaptation, establishing a reliable, governed human-AI collaboration framework for immersive authoring. Project page and source code will be available at: https://github.com/hyeonmin11/SPHERE",
+      "authors": [
+        "Hyeonmin Lee",
+        "Zheng Wei",
+        "Kyungmin Kwon",
+        "Jumin Seo",
+        "Jiwon Park",
+        "Hayoung Oh"
+      ],
+      "categories": [
+        "cs.AI",
+        "cs.HC"
+      ],
+      "citation_count": null,
+      "classic_status": null,
+      "code_url": "https://github.com/hyeonmin11/SPHERE",
+      "deep_read_note_url": null,
+      "difficulty": null,
+      "enrichment_sources": [],
+      "existing_note_url": null,
+      "external_ids": {},
+      "field": null,
+      "fields_of_study": [],
+      "id": "arxiv:2610.02023v1",
+      "identifiers": {
+        "arxiv_id": "2610.02023v1"
+      },
+      "influential_citation_count": null,
+      "institutions": [],
+      "latest_note_url": null,
+      "note_count": 0,
+      "open_access_pdf_url": null,
+      "pdf_url": "https://arxiv.org/pdf/2610.02023v1",
+      "project_url": null,
+      "published_at": "2026-10-01",
+      "published_date": "2026-10-01",
+      "reading_advice": "save_for_later",
+      "reading_status": "backlog",
+      "recommendation_level": "B",
+      "score": 0.692,
+      "scores": {
+        "classic_value": 0.35,
+        "engineering_transferability": 0.6,
+        "recency": 0.78,
+        "source_quality": 0.78,
+        "total": 0.692,
+        "user_relevance": 0.75
+      },
+      "selected_for_s_level": false,
+      "source": "arxiv",
+      "source_group": "cognition_social",
+      "source_type": "recent_7d",
+      "source_url": "http://arxiv.org/abs/2610.02023v1",
+      "suggested_note_title": null,
+      "suggested_note_type": null,
+      "tags": [
+        "cs.AI",
+        "cs.HC"
+      ],
+      "title": "SPHERE: Adaptive VR Indoor Scene Generation via LLM-Enhanced Spatial Preference Learning and Human-in-the-Loop RL",
+      "title_zh": null,
+      "topics": [
+        "llm_agent",
+        "cognition"
+      ],
+      "url": "http://arxiv.org/abs/2610.02023v1",
+      "venue": null,
+      "why_recommended": "Ranked by recency signal across configured topics."
+    },
+    {
+      "abstract": "UMAP achieves scalable layout optimization through stochastic negative sampling. However, this stochasticity can lead to unstable embeddings across reruns and downstream reuse, as the estimated repulsive forces depend on the ordering of sampling events. We present ibUMAP, a coherent field-based alternative that evaluates attraction and repulsion from a shared embedding snapshot and applies them synchronously. Its degree-weighted repulsive field is motivated by the conditional expectation of negative sampling for a fixed embedding and represented by three scalar moments, which are evaluated efficiently on CPUs and GPUs using an interpolation-based FFT scheme. This formulation avoids explicit all-pairs computations while inducing optimization dynamics that differ from those of standard online UMAP. Controlled experiments show that synchrony and kernel capping alter the local-global fidelity trade-off, whereas FFT evaluation produces small average changes in final quality. End-to-end benchmarks show median speedups of 3.29x unseeded and 5.79x seeded over umap-learn on CPU, and 1.44x over cuML on million-scale datasets under unseeded GPU execution. These gains accompany greater run-to-run stability and measurable fidelity trade-offs.",
+      "authors": [
+        "Bin Chen",
+        "Yumeng Xue",
+        "Patrick Paetzold",
+        "Yunhai Wang",
+        "Oliver Deussen"
+      ],
+      "categories": [
+        "cs.LG",
+        "cs.HC"
+      ],
+      "citation_count": null,
+      "classic_status": null,
+      "code_url": "https://github.com/Bachery/ibUMAP",
+      "deep_read_note_url": null,
+      "difficulty": null,
+      "enrichment_sources": [],
+      "existing_note_url": null,
+      "external_ids": {},
+      "field": null,
+      "fields_of_study": [],
+      "id": "arxiv:2610.01445v1",
+      "identifiers": {
+        "arxiv_id": "2610.01445v1"
+      },
+      "influential_citation_count": null,
+      "institutions": [],
+      "latest_note_url": null,
+      "note_count": 0,
+      "open_access_pdf_url": null,
+      "pdf_url": "https://arxiv.org/pdf/2610.01445v1",
+      "project_url": null,
+      "published_at": "2026-10-01",
+      "published_date": "2026-10-01",
+      "reading_advice": "save_for_later",
+      "reading_status": "backlog",
+      "recommendation_level": "B",
+      "score": 0.692,
+      "scores": {
+        "classic_value": 0.35,
+        "engineering_transferability": 0.6,
+        "recency": 0.78,
+        "source_quality": 0.78,
+        "total": 0.692,
+        "user_relevance": 0.75
+      },
+      "selected_for_s_level": false,
+      "source": "arxiv",
+      "source_group": "cognition_social",
+      "source_type": "recent_7d",
+      "source_url": "http://arxiv.org/abs/2610.01445v1",
+      "suggested_note_title": null,
+      "suggested_note_type": null,
+      "tags": [
+        "cs.LG",
+        "cs.HC"
+      ],
+      "title": "ibUMAP: Coherent and Scalable Field Evaluation for UMAP Optimization",
+      "title_zh": null,
+      "topics": [
+        "llm_agent",
+        "cognition"
+      ],
+      "url": "http://arxiv.org/abs/2610.01445v1",
+      "venue": null,
+      "why_recommended": "Ranked by recency signal across configured topics."
+    },
+    {
+      "abstract": "Learning analytics increasingly represents the relations in co-occurrence data---codes in a window of discourse, participants in a thread, tags on a post---as simplicial complexes and analyses them with persistent homology. The standard approach uses the clique complex. Because its simplices are determined by the pairwise network alone, it cannot distinguish \"three elements co-occurred together\" from \"each of the three pairs co-occurred separately\". The Dowker complex, in contrast, takes as simplices the sets of entities actually observed to co-occur. We compare analyses based on these two complexes. First, we show that, on the same 1-skeleton, the Dowker complex is a subcomplex of the clique complex, the map on first homology induced by the inclusion is surjective, and its kernel is generated by phantom triangles that never co-occurred; that is, the clique construction can only erase holes. We then test this on real data. On four Stack Exchange data sets, 46--91% of clique triangles are phantom and 522--1,970 holes are erased. On the example data of the learning analytics R packages tna/Nestimate, the first Betti number $\u03b2_1$ of the clique complex is 0 at every threshold, whereas the Dowker complex detects holes. Against a degree-preserving null model, the Dowker complex departs strongly in five of the six data sets. Moreover, this difference does not appear in the fixed-threshold analyses used in practice. We conclude that the construction should follow the data type and that, for observed groups, the Dowker complex is the appropriate choice; it fills a gap in current tooling. Code is available at https://github.com/igu-lab/beyond-the-clique.",
+      "authors": [
+        "Koichi Yasutake",
+        "Wakana Tsuji",
+        "Hitoshi Inoue"
+      ],
+      "categories": [
+        "cs.SI"
+      ],
+      "citation_count": null,
+      "classic_status": null,
+      "code_url": "https://github.com/igu-lab/beyond-the-clique",
+      "deep_read_note_url": null,
+      "difficulty": null,
+      "enrichment_sources": [],
+      "existing_note_url": null,
+      "external_ids": {},
+      "field": null,
+      "fields_of_study": [],
+      "id": "arxiv:2610.01305v1",
+      "identifiers": {
+        "arxiv_id": "2610.01305v1"
+      },
+      "influential_citation_count": null,
+      "institutions": [],
+      "latest_note_url": null,
+      "note_count": 0,
+      "open_access_pdf_url": null,
+      "pdf_url": "https://arxiv.org/pdf/2610.01305v1",
+      "project_url": null,
+      "published_at": "2026-10-01",
+      "published_date": "2026-10-01",
+      "reading_advice": "save_for_later",
+      "reading_status": "backlog",
+      "recommendation_level": "B",
+      "score": 0.692,
+      "scores": {
+        "classic_value": 0.35,
+        "engineering_transferability": 0.6,
+        "recency": 0.78,
+        "source_quality": 0.78,
+        "total": 0.692,
+        "user_relevance": 0.75
+      },
+      "selected_for_s_level": false,
+      "source": "arxiv",
+      "source_group": "cognition_social",
+      "source_type": "recent_7d",
+      "source_url": "http://arxiv.org/abs/2610.01305v1",
+      "suggested_note_title": null,
+      "suggested_note_type": null,
+      "tags": [
+        "cs.SI"
+      ],
+      "title": "Beyond the Clique: Comparing Clique and Dowker Complexes for Co-occurrence Data in Learning Analytics",
+      "title_zh": null,
+      "topics": [
+        "sociology"
+      ],
+      "url": "http://arxiv.org/abs/2610.01305v1",
+      "venue": null,
+      "why_recommended": "Ranked by recency signal across configured topics."
+    },
+    {
+      "abstract": "Stimulus-driven auditory attention determines which sound gains priority when multiple sources compete without an explicit listening goal, yet most computational studies focus either on acoustic salience or on decoding predefined attended targets. This study investigates instruction-free auditory competition using the Stimulus-driven Auditory Attention (SAAD) paradigm and develops a neurophysiologically informed framework that integrates stimulus-derived sound priority with trial-specific EEG evidence. Behavioral analysis using a Bradley--Terry model showed that sound priority estimated from previous competitions generalized to unseen sound pairings, improving held-out prediction from an AUC of 0.577 to 0.718. EEG analysis further revealed mid-to-late centro-temporal lateralization associated with the reported selection side, with neural information remaining predictive beyond acoustic asymmetry. Guided by these findings, the proposed model first estimates a latent priority for each competing sound and forms relative stimulus evidence from their difference. A multi-scale EEG pathway with complementary signed and power-based readouts then extracts trial-specific neural evidence, which is incorporated through gated decision-level integration. The framework is evaluated using mirror-constrained and pairing-held-out protocols, together with representative acoustic, EEG, multimodal baselines, and systematic ablations. The results support a computational account in which spontaneous auditory selection reflects the interaction between generalizable stimulus priority and trial-specific neural variability.",
+      "authors": [
+        "Ruofan Yan",
+        "Na Lu",
+        "Shu Peng",
+        "Wenlong You",
+        "Zhige Chen",
+        "Yuxuan Yan",
+        "Yan Liu",
+        "Kay Chen Tan",
+        "Jibin Wu"
+      ],
+      "categories": [
+        "q-bio.NC",
+        "cs.DB"
+      ],
+      "citation_count": null,
+      "classic_status": null,
+      "code_url": "https://github.com/yanruofan628/saad-preprocessing",
+      "deep_read_note_url": null,
+      "difficulty": null,
+      "enrichment_sources": [],
+      "existing_note_url": null,
+      "external_ids": {},
+      "field": null,
+      "fields_of_study": [],
+      "id": "arxiv:2610.01303v1",
+      "identifiers": {
+        "arxiv_id": "2610.01303v1"
+      },
+      "influential_citation_count": null,
+      "institutions": [],
+      "latest_note_url": null,
+      "note_count": 0,
+      "open_access_pdf_url": null,
+      "pdf_url": "https://arxiv.org/pdf/2610.01303v1",
+      "project_url": null,
+      "published_at": "2026-10-01",
+      "published_date": "2026-10-01",
+      "reading_advice": "save_for_later",
+      "reading_status": "backlog",
+      "recommendation_level": "B",
+      "score": 0.692,
+      "scores": {
+        "classic_value": 0.35,
+        "engineering_transferability": 0.6,
+        "recency": 0.78,
+        "source_quality": 0.78,
+        "total": 0.692,
+        "user_relevance": 0.75
+      },
+      "selected_for_s_level": false,
+      "source": "arxiv",
+      "source_group": "cognition_social",
+      "source_type": "recent_7d",
+      "source_url": "http://arxiv.org/abs/2610.01303v1",
+      "suggested_note_title": null,
+      "suggested_note_type": null,
+      "tags": [
+        "q-bio.NC",
+        "cs.DB"
+      ],
+      "title": "A High-Density EEG Dataset for Stimulus-Driven Auditory Attention",
+      "title_zh": null,
+      "topics": [
+        "cognition"
+      ],
+      "url": "http://arxiv.org/abs/2610.01303v1",
+      "venue": null,
+      "why_recommended": "Ranked by recency signal across configured topics."
+    }
+  ],
+  "public_json_version": "0.4",
+  "s_level_candidate_ids": [],
+  "s_level_paper_id": null,
+  "source_mode_summary": {
+    "recent_7d": 6
+  },
+  "summary": "Selected 6 papers: 6 recent candidates and 0 classic fallback items."
+}

@@ -260,6 +260,12 @@ arxiv:2609.39147v1,backlog,medium,,2026-10-01T01:12:54+00:00,MindWorldBench: Eva
 arxiv:2609.39154v1,backlog,medium,,2026-10-01T01:12:54+00:00,DAGent: Evaluate-then-Grow Planning for Deep Research Agents,llm_agent,A
 arxiv:2609.39168v1,backlog,medium,,2026-10-01T01:12:54+00:00,Reinforcing Multimodal Reasoning via Token-Level Perception-Grounded Advantage Estimation,llm_agent,A
 arxiv:2609.39184v1,backlog,medium,,2026-10-01T01:12:54+00:00,Fiber-Resolved Microstructure Quantification from Multi-Shell Diffusion MRI using Detection Transformers,gpu_graphics,A
+arxiv:2610.01303v1,backlog,medium,,2026-10-03T01:05:42+00:00,A High-Density EEG Dataset for Stimulus-Driven Auditory Attention,cognition_social,B
+arxiv:2610.01305v1,backlog,medium,,2026-10-03T01:05:42+00:00,Beyond the Clique: Comparing Clique and Dowker Complexes for Co-occurrence Data in Learning Analytics,cognition_social,B
+arxiv:2610.01445v1,backlog,medium,,2026-10-03T01:05:42+00:00,ibUMAP: Coherent and Scalable Field Evaluation for UMAP Optimization,cognition_social,B
+arxiv:2610.02023v1,backlog,medium,,2026-10-03T01:05:42+00:00,SPHERE: Adaptive VR Indoor Scene Generation via LLM-Enhanced Spatial Preference Learning and Human-in-the-Loop RL,cognition_social,B
+arxiv:2610.02121v1,backlog,medium,,2026-10-03T01:05:42+00:00,Catscan: Visualizing Pipelines of CPU Performance Simulation,cognition_social,B
+arxiv:2610.02207v1,backlog,medium,,2026-10-03T01:05:42+00:00,One Basis to Animate Them All: Gaussian Blendshape Distillation for Real-Time Avatars,cognition_social,B
 biorxiv:10.1101/2023.01.10.523479,backlog,medium,,2026-09-28T00:33:07+00:00,How Occam's razor guides human decision-making,cognition_social,B
 biorxiv:10.1101/2024.09.30.615819,backlog,medium,,2026-09-22T00:43:20+00:00,Hierarchy of prediction errors shapes the learning of context-dependent sensory representations,cognition_social,B
 biorxiv:10.1101/2024.10.24.620089,backlog,medium,,2026-09-23T00:19:20+00:00,Functional organization and natural scene responses across mouse visual cortical areas revealed with encoding manifolds,cognition_social,B

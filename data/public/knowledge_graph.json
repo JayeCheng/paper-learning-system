@@ -2265,6 +2265,108 @@
     {
       "confidence": 0.5,
       "relation": "related_to",
+      "source": "arxiv:2610.01303v1",
+      "target": "cognition"
+    },
+    {
+      "confidence": 0.5,
+      "relation": "related_to",
+      "source": "arxiv:2610.01303v1",
+      "target": "cognition_social"
+    },
+    {
+      "confidence": 0.5,
+      "relation": "related_to",
+      "source": "arxiv:2610.01305v1",
+      "target": "sociology"
+    },
+    {
+      "confidence": 0.5,
+      "relation": "related_to",
+      "source": "arxiv:2610.01305v1",
+      "target": "cognition_social"
+    },
+    {
+      "confidence": 0.5,
+      "relation": "related_to",
+      "source": "arxiv:2610.01445v1",
+      "target": "llm_agent"
+    },
+    {
+      "confidence": 0.5,
+      "relation": "related_to",
+      "source": "arxiv:2610.01445v1",
+      "target": "cognition"
+    },
+    {
+      "confidence": 0.5,
+      "relation": "related_to",
+      "source": "arxiv:2610.01445v1",
+      "target": "cognition_social"
+    },
+    {
+      "confidence": 0.5,
+      "relation": "related_to",
+      "source": "arxiv:2610.02023v1",
+      "target": "llm_agent"
+    },
+    {
+      "confidence": 0.5,
+      "relation": "related_to",
+      "source": "arxiv:2610.02023v1",
+      "target": "cognition"
+    },
+    {
+      "confidence": 0.5,
+      "relation": "related_to",
+      "source": "arxiv:2610.02023v1",
+      "target": "cognition_social"
+    },
+    {
+      "confidence": 0.5,
+      "relation": "related_to",
+      "source": "arxiv:2610.02121v1",
+      "target": "architecture"
+    },
+    {
+      "confidence": 0.5,
+      "relation": "related_to",
+      "source": "arxiv:2610.02121v1",
+      "target": "cognition"
+    },
+    {
+      "confidence": 0.5,
+      "relation": "related_to",
+      "source": "arxiv:2610.02121v1",
+      "target": "cognition_social"
+    },
+    {
+      "confidence": 0.5,
+      "relation": "related_to",
+      "source": "arxiv:2610.02207v1",
+      "target": "gpu_graphics"
+    },
+    {
+      "confidence": 0.5,
+      "relation": "related_to",
+      "source": "arxiv:2610.02207v1",
+      "target": "llm_agent"
+    },
+    {
+      "confidence": 0.5,
+      "relation": "related_to",
+      "source": "arxiv:2610.02207v1",
+      "target": "cognition"
+    },
+    {
+      "confidence": 0.5,
+      "relation": "related_to",
+      "source": "arxiv:2610.02207v1",
+      "target": "cognition_social"
+    },
+    {
+      "confidence": 0.5,
+      "relation": "related_to",
       "source": "biorxiv:10.1101/2023.01.10.523479",
       "target": "cognition"
     },
@@ -5494,6 +5596,59 @@
       "type": "paper"
     },
     {
+      "id": "arxiv:2610.01303v1",
+      "label": "A High-Density EEG Dataset for Stimulus-Driven Auditory Attention",
+      "topics": [
+        "cognition"
+      ],
+      "type": "paper"
+    },
+    {
+      "id": "arxiv:2610.01305v1",
+      "label": "Beyond the Clique: Comparing Clique and Dowker Complexes for Co-occurrence Data in Learning Analytics",
+      "topics": [
+        "sociology"
+      ],
+      "type": "paper"
+    },
+    {
+      "id": "arxiv:2610.01445v1",
+      "label": "ibUMAP: Coherent and Scalable Field Evaluation for UMAP Optimization",
+      "topics": [
+        "llm_agent",
+        "cognition"
+      ],
+      "type": "paper"
+    },
+    {
+      "id": "arxiv:2610.02023v1",
+      "label": "SPHERE: Adaptive VR Indoor Scene Generation via LLM-Enhanced Spatial Preference Learning and Human-in-the-Loop RL",
+      "topics": [
+        "llm_agent",
+        "cognition"
+      ],
+      "type": "paper"
+    },
+    {
+      "id": "arxiv:2610.02121v1",
+      "label": "Catscan: Visualizing Pipelines of CPU Performance Simulation",
+      "topics": [
+        "architecture",
+        "cognition"
+      ],
+      "type": "paper"
+    },
+    {
+      "id": "arxiv:2610.02207v1",
+      "label": "One Basis to Animate Them All: Gaussian Blendshape Distillation for Real-Time Avatars",
+      "topics": [
+        "gpu_graphics",
+        "llm_agent",
+        "cognition"
+      ],
+      "type": "paper"
+    },
+    {
       "id": "biorxiv:10.1101/2023.01.10.523479",
       "label": "How Occam's razor guides human decision-making",
       "topics": [
@@ -6287,5 +6442,5 @@
     }
   ],
   "public_json_version": "0.4",
-  "updated_at": "2026-10-02T01:37:28+00:00"
+  "updated_at": "2026-10-03T01:05:42+00:00"
 }
