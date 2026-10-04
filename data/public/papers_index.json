@@ -18065,6 +18065,75 @@
       "why_recommended": "Ranked by recency signal across configured topics."
     },
     {
+      "abstract": "GPU-initiated communication lets GPU threads post RDMA operations directly to the NIC. It underpins NVSHMEM, NCCL GIN, and DeepEP, which serve the fine-grained, latency-critical communication of Mixture-of-Experts (MoE) models, yet its performance characteristics and optimizations remain scarcely documented beyond source code, and library comparisons fail to separate the costs of the hardware mechanism from those of the library around it. This paper dissects GPU-initiated communication at the GPU-NIC boundary. We first detail the GPU-side network path: queue placement, work-request construction, doorbell ordering, and completion semantics. We then introduce mini-gda and mini-proxy, minimal transports for the GPU and CPU-proxy submission paths, and measure them alongside NVSHMEM IBGDA, NCCL GIN, DeepEP, UCCL-EP, MSCCL++, and fabric-lib on NVIDIA H100, H200, B200, and GB200 platforms. A minimal GPU path issues an operation in 0.7 $\u03bc$s and completes in 4.0 $\u03bc$s; libraries add up to 4.6 $\u03bc$s of issue time through queue management, memory ordering, and completion scope, and issue time scales with the SM clock. A tuned CPU proxy matches or beats the GPU path at idle, at the cost of a dedicated core whose operating state sets its latency and throughput. On either path, sharing a queue with bulk traffic raises latency by one to three orders of magnitude. Reaching the 260 M msg/s ceiling of our InfiniBand platform requires doorbell batching and queue parallelism, and both have resource costs: communication code can reduce GPU block residency even when unused, and all-to-all traffic loses 59% of its NIC message rate at about 3,000 active connections. The submission path alone therefore does not predict communication performance. Our experiment code and results are available at https://github.com/ParCoreLab/Dissecting-GPU-Communication-Experiments.",
+      "authors": [
+        "Javid Baydamirli",
+        "Ismayil Ismayilov",
+        "Kaan Oktay",
+        "Didem Unat"
+      ],
+      "categories": [
+        "cs.DC",
+        "cs.NI",
+        "cs.PF"
+      ],
+      "citation_count": null,
+      "classic_status": null,
+      "code_url": "https://github.com/ParCoreLab/Dissecting-GPU-Communication-Experiments",
+      "deep_read_note_url": null,
+      "difficulty": null,
+      "enrichment_sources": [],
+      "existing_note_url": null,
+      "external_ids": {},
+      "field": null,
+      "fields_of_study": [],
+      "id": "arxiv:2610.01380v1",
+      "identifiers": {
+        "arxiv_id": "2610.01380v1"
+      },
+      "influential_citation_count": null,
+      "institutions": [],
+      "latest_note_url": null,
+      "note_count": 0,
+      "open_access_pdf_url": null,
+      "pdf_url": "https://arxiv.org/pdf/2610.01380v1",
+      "project_url": null,
+      "published_at": "2026-10-01",
+      "published_date": "2026-10-01",
+      "reading_advice": "quick_read",
+      "reading_status": "backlog",
+      "recommendation_level": "A",
+      "score": 0.762,
+      "scores": {
+        "classic_value": 0.35,
+        "engineering_transferability": 0.9500000000000001,
+        "recency": 0.78,
+        "source_quality": 0.78,
+        "total": 0.762,
+        "user_relevance": 0.75
+      },
+      "selected_for_s_level": false,
+      "source": "arxiv",
+      "source_group": "architecture",
+      "source_type": "recent_7d",
+      "source_url": "http://arxiv.org/abs/2610.01380v1",
+      "suggested_note_title": null,
+      "suggested_note_type": null,
+      "tags": [
+        "cs.DC",
+        "cs.NI",
+        "cs.PF"
+      ],
+      "title": "GPU-Initiated Communication: Dissecting Down to the Bone",
+      "title_zh": null,
+      "topics": [
+        "architecture"
+      ],
+      "url": "http://arxiv.org/abs/2610.01380v1",
+      "venue": null,
+      "why_recommended": "Ranked by engineering transferability signal across configured topics."
+    },
+    {
       "abstract": "UMAP achieves scalable layout optimization through stochastic negative sampling. However, this stochasticity can lead to unstable embeddings across reruns and downstream reuse, as the estimated repulsive forces depend on the ordering of sampling events. We present ibUMAP, a coherent field-based alternative that evaluates attraction and repulsion from a shared embedding snapshot and applies them synchronously. Its degree-weighted repulsive field is motivated by the conditional expectation of negative sampling for a fixed embedding and represented by three scalar moments, which are evaluated efficiently on CPUs and GPUs using an interpolation-based FFT scheme. This formulation avoids explicit all-pairs computations while inducing optimization dynamics that differ from those of standard online UMAP. Controlled experiments show that synchrony and kernel capping alter the local-global fidelity trade-off, whereas FFT evaluation produces small average changes in final quality. End-to-end benchmarks show median speedups of 3.29x unseeded and 5.79x seeded over umap-learn on CPU, and 1.44x over cuML on million-scale datasets under unseeded GPU execution. These gains accompany greater run-to-run stability and measurable fidelity trade-offs.",
       "authors": [
         "Bin Chen",
@@ -18272,6 +18341,290 @@
       "url": "http://arxiv.org/abs/2610.02121v1",
       "venue": null,
       "why_recommended": "Ranked by engineering transferability signal across configured topics."
+    },
+    {
+      "abstract": "Long-horizon autoregressive video generation is limited by a finite context window. When an object or scene falls out of context, its fine-grained visual details may be lost and difficult to recover upon reappearance. To retain access to such visual details, we introduce MosaiChunk, a spatio-temporal memory mechanism that composes a mosaic of selected historical key-value (KV) entries across space and time. Our approach is motivated by the observation that a frozen video generator can directly consume such non-contiguous historical KV and recover the corresponding visual content. We therefore keep the generator fixed and learn only a lightweight router that determines which historical sections to include in the mosaic under a fixed active-memory budget. We further introduce RememBench, a benchmark of long-horizon revisits with prompt-driven text-to-video (T2V) and camera-driven image-to-video (I2V) splits. Our experiments show that MosaiChunk consistently improves revisit consistency over both sliding-window inference and whole-chunk retrieval under matched memory budgets, across both T2V and I2V settings.",
+      "authors": [
+        "Yiwen Zhang",
+        "Haocheng Xi",
+        "Michael Tian-Yue Liu",
+        "Alexei A. Efros",
+        "Hadar Averbuch-Elor",
+        "Qianqian Wang",
+        "Haiwen Feng"
+      ],
+      "categories": [
+        "cs.CV",
+        "cs.GR"
+      ],
+      "citation_count": null,
+      "classic_status": null,
+      "code_url": null,
+      "deep_read_note_url": null,
+      "difficulty": null,
+      "enrichment_sources": [],
+      "existing_note_url": null,
+      "external_ids": {},
+      "field": null,
+      "fields_of_study": [],
+      "id": "arxiv:2610.02153v1",
+      "identifiers": {
+        "arxiv_id": "2610.02153v1"
+      },
+      "influential_citation_count": null,
+      "institutions": [],
+      "latest_note_url": null,
+      "note_count": 0,
+      "open_access_pdf_url": null,
+      "pdf_url": "https://arxiv.org/pdf/2610.02153v1",
+      "project_url": "https://mosaichunk.github.io/",
+      "published_at": "2026-10-01",
+      "published_date": "2026-10-01",
+      "reading_advice": "quick_read",
+      "reading_status": "backlog",
+      "recommendation_level": "A",
+      "score": 0.762,
+      "scores": {
+        "classic_value": 0.35,
+        "engineering_transferability": 0.9500000000000001,
+        "recency": 0.78,
+        "source_quality": 0.78,
+        "total": 0.762,
+        "user_relevance": 0.75
+      },
+      "selected_for_s_level": false,
+      "source": "arxiv",
+      "source_group": "gpu_graphics",
+      "source_type": "recent_7d",
+      "source_url": "http://arxiv.org/abs/2610.02153v1",
+      "suggested_note_title": null,
+      "suggested_note_type": null,
+      "tags": [
+        "cs.CV",
+        "cs.GR"
+      ],
+      "title": "MosaiChunk: Compositing Spatio-Temporal Memory for Autoregressive Video Generation",
+      "title_zh": null,
+      "topics": [
+        "gpu_graphics"
+      ],
+      "url": "http://arxiv.org/abs/2610.02153v1",
+      "venue": null,
+      "why_recommended": "Ranked by engineering transferability signal across configured topics."
+    },
+    {
+      "abstract": "We study test-time evolution for humanoid loco-manipulation: solving tasks that a controller was never trained for by repurposing its existing skills, improving from its own attempts, and retaining what it learns, without retraining. Our key insight is that a broad controller already holds much of the competence a new task needs, and that this competence becomes accessible through an interface between planning and control that is expressive enough to specify contact-rich, multi-stage interactions, yet executable and measurable enough that execution feedback can guide planning from experience. InterEvolve realizes this interface with two components. First, we develop an object-aware forward-backward (FB) behavioral foundation model, whose object residuals on a frozen body prior turn a new reward about the body or objects into loco-manipulation behavior at test time. Second, we specify tasks as reward programs: staged rewards with completion conditions and tunable constants. A large language model (LLM) agent revises the program structure in context, drawing on execution feedback and a skill library of verified programs, while a numerical optimizer tunes its constants. With every candidate verified across parallel simulation scenarios, the program explores new ways to induce, repurpose, and compose the controller's existing motor competence for the task at hand, and thus improves over iterations. Experiments show that human-designed rewards leave much of the FB model's loco-manipulation competence untapped, whereas the programs InterEvolve evolves release it, sometimes through novel strategies. It further produces behaviors for diverse tasks, complex scenes, and long-horizon compositions in simulation, and evolved skills run autonomously on a physical Unitree G1 from egocentric onboard perception.",
+      "authors": [
+        "Zhuo Lin",
+        "Sirui Xu",
+        "Liuyu Bian",
+        "Yu-Xiong Wang",
+        "Liang-Yan Gui"
+      ],
+      "categories": [
+        "cs.RO",
+        "cs.CV",
+        "cs.GR"
+      ],
+      "citation_count": null,
+      "classic_status": null,
+      "code_url": null,
+      "deep_read_note_url": null,
+      "difficulty": null,
+      "enrichment_sources": [],
+      "existing_note_url": null,
+      "external_ids": {},
+      "field": null,
+      "fields_of_study": [],
+      "id": "arxiv:2610.02196v1",
+      "identifiers": {
+        "arxiv_id": "2610.02196v1"
+      },
+      "influential_citation_count": null,
+      "institutions": [],
+      "latest_note_url": null,
+      "note_count": 0,
+      "open_access_pdf_url": null,
+      "pdf_url": "https://arxiv.org/pdf/2610.02196v1",
+      "project_url": "https://sirui-xu.github.io/InterEvolve",
+      "published_at": "2026-10-01",
+      "published_date": "2026-10-01",
+      "reading_advice": "quick_read",
+      "reading_status": "backlog",
+      "recommendation_level": "A",
+      "score": 0.762,
+      "scores": {
+        "classic_value": 0.35,
+        "engineering_transferability": 0.9500000000000001,
+        "recency": 0.78,
+        "source_quality": 0.78,
+        "total": 0.762,
+        "user_relevance": 0.75
+      },
+      "selected_for_s_level": false,
+      "source": "arxiv",
+      "source_group": "gpu_graphics",
+      "source_type": "recent_7d",
+      "source_url": "http://arxiv.org/abs/2610.02196v1",
+      "suggested_note_title": null,
+      "suggested_note_type": null,
+      "tags": [
+        "cs.RO",
+        "cs.CV",
+        "cs.GR"
+      ],
+      "title": "InterEvolve: Test-Time Evolution of Reward Programs for Humanoid Loco-Manipulation",
+      "title_zh": null,
+      "topics": [
+        "gpu_graphics"
+      ],
+      "url": "http://arxiv.org/abs/2610.02196v1",
+      "venue": null,
+      "why_recommended": "Ranked by engineering transferability signal across configured topics."
+    },
+    {
+      "abstract": "Building reliable robot capabilities across diverse tasks requires substantial human effort to develop and maintain skills, design rewards, and integrate perception with control. We present Reconstruct, Practice, Go Real (RPG), a framework for autonomous improvement of robot execution systems without updating model weights. RPG identifies manipulation capabilities in an offline dataset and constructs related practice tasks in simulation. During practice, RPG uses execution feedback, privileged simulator state, and available dataset videos to diagnose failures. It develops new reusable symbolic skills, refines existing skills, and revises the system prompt based on these diagnoses. Cross-task evaluation tests individual candidate changes and merged revisions before they are retained for reuse. At test time, a multimodal LLM uses the resulting system prompt and skill library to coordinate perception and robot control. On held-out initializations of 22 manipulation tasks, RPG improves task success from 28.6% after the first practice round to 95.0% after 15 rounds, outperforming all evaluated baselines, including ASPIRE (75.5%) and CaP-Agent0 powered by GPT-6 Astra Pro (60.0%). After a common calibration and hardware-adaptation procedure, the frozen system succeeds in all 30 physical trials, with ten trials on each of three tasks. Project Website: https://rpg-robot.github.io/",
+      "authors": [
+        "Yen-Jen Wang",
+        "Haozhe Jiang",
+        "Shuying Deng",
+        "Haoru Xue",
+        "Weirui Ye",
+        "Rocky Duan",
+        "Nika Haghtalab",
+        "S. Shankar Sastry",
+        "Pieter Abbeel",
+        "Haozhi Qi"
+      ],
+      "categories": [
+        "cs.RO",
+        "cs.AI",
+        "eess.SY"
+      ],
+      "citation_count": null,
+      "classic_status": null,
+      "code_url": null,
+      "deep_read_note_url": null,
+      "difficulty": null,
+      "enrichment_sources": [],
+      "existing_note_url": null,
+      "external_ids": {},
+      "field": null,
+      "fields_of_study": [],
+      "id": "arxiv:2610.02204v1",
+      "identifiers": {
+        "arxiv_id": "2610.02204v1"
+      },
+      "influential_citation_count": null,
+      "institutions": [],
+      "latest_note_url": null,
+      "note_count": 0,
+      "open_access_pdf_url": null,
+      "pdf_url": "https://arxiv.org/pdf/2610.02204v1",
+      "project_url": "https://rpg-robot.github.io/",
+      "published_at": "2026-10-01",
+      "published_date": "2026-10-01",
+      "reading_advice": "save_for_later",
+      "reading_status": "backlog",
+      "recommendation_level": "B",
+      "score": 0.692,
+      "scores": {
+        "classic_value": 0.35,
+        "engineering_transferability": 0.6,
+        "recency": 0.78,
+        "source_quality": 0.78,
+        "total": 0.692,
+        "user_relevance": 0.75
+      },
+      "selected_for_s_level": false,
+      "source": "arxiv",
+      "source_group": "llm_agent",
+      "source_type": "recent_7d",
+      "source_url": "http://arxiv.org/abs/2610.02204v1",
+      "suggested_note_title": null,
+      "suggested_note_type": null,
+      "tags": [
+        "cs.RO",
+        "cs.AI",
+        "eess.SY"
+      ],
+      "title": "Reconstruct, Practice, Go Real: Guided Self-Improvement for Embodied Agents",
+      "title_zh": null,
+      "topics": [
+        "llm_agent"
+      ],
+      "url": "http://arxiv.org/abs/2610.02204v1",
+      "venue": null,
+      "why_recommended": "Ranked by recency signal across configured topics."
+    },
+    {
+      "abstract": "LLMs are increasingly applied to cybersecurity workflows, where they are expected to translate analysts' intent into tool invocations. However, existing evaluations focus on knowledge-based assessments or end-to-end agentic tasks, and do not directly measure LLMs' ability to generate executable commands for real-world cybersecurity tools. This gap is critical because cybersecurity operations rely on strict command-line interfaces (CLIs), where minor syntax errors, incorrect flag--value bindings, or argument misordering can invalidate execution. We introduce KaliBench, a fine-grained benchmark and dataset for natural-language--to--CLI translation on Kali Linux, comprising 8,504 query--command pairs spanning 1,642 tools across 23 capability dimensions and 5 security phases. KaliBench is constructed via a manuscript-grounded pipeline with deterministic canonicalization and alias-aware evaluation, enabling precise and reproducible assessment of tool selection and argument construction. To ensure both semantic correctness and practical executability, we develop a multi-stage verification pipeline that combines LLM-based validation, sandboxed terminal execution, and human-in-the-loop refinement. Building on these fine-grained, deterministic signals, KaliBench further enables runtime-free verifiable rewards for training. Across three evaluation modes and 24 configurations of general-purpose and security-focused open-weight models, no open-weight model exceeds 42% exact-command accuracy in the unrestricted setting, highlighting the difficulty of accurate CLI-based cybersecurity tool use without explicit tool hints. We further show that supervised fine-tuning and reinforcement learning with verifiable rewards derived from KaliBench significantly improve an 8B model and achieve performance comparable to a 685B MoE model.",
+      "authors": [
+        "Pengfei Li",
+        "Naufal Suryanto",
+        "Sicheng Zhang",
+        "Muzammal Naseer"
+      ],
+      "categories": [
+        "cs.CL",
+        "cs.AI",
+        "cs.CR"
+      ],
+      "citation_count": null,
+      "classic_status": null,
+      "code_url": "https://github.com/RISys-Lab/KaliBench",
+      "deep_read_note_url": null,
+      "difficulty": null,
+      "enrichment_sources": [],
+      "existing_note_url": null,
+      "external_ids": {},
+      "field": null,
+      "fields_of_study": [],
+      "id": "arxiv:2610.02206v1",
+      "identifiers": {
+        "arxiv_id": "2610.02206v1"
+      },
+      "influential_citation_count": null,
+      "institutions": [],
+      "latest_note_url": null,
+      "note_count": 0,
+      "open_access_pdf_url": null,
+      "pdf_url": "https://arxiv.org/pdf/2610.02206v1",
+      "project_url": "https://risys-lab.github.io/KaliBench/",
+      "published_at": "2026-10-01",
+      "published_date": "2026-10-01",
+      "reading_advice": "save_for_later",
+      "reading_status": "backlog",
+      "recommendation_level": "B",
+      "score": 0.692,
+      "scores": {
+        "classic_value": 0.35,
+        "engineering_transferability": 0.6,
+        "recency": 0.78,
+        "source_quality": 0.78,
+        "total": 0.692,
+        "user_relevance": 0.75
+      },
+      "selected_for_s_level": false,
+      "source": "arxiv",
+      "source_group": "llm_agent",
+      "source_type": "recent_7d",
+      "source_url": "http://arxiv.org/abs/2610.02206v1",
+      "suggested_note_title": null,
+      "suggested_note_type": null,
+      "tags": [
+        "cs.CL",
+        "cs.AI",
+        "cs.CR"
+      ],
+      "title": "KaliBench: A Fine-Grained Benchmark for Cybersecurity Tool Use on Kali Linux with Runtime-Free Verifiable Rewards",
+      "title_zh": null,
+      "topics": [
+        "llm_agent"
+      ],
+      "url": "http://arxiv.org/abs/2610.02206v1",
+      "venue": null,
+      "why_recommended": "Ranked by recency signal across configured topics."
     },
     {
       "abstract": "3D Gaussian avatars support fast rendering, however, their real-time animation is often challenged by the costly neural inference. We address this bottleneck and show that the animation of pretrained avatar models can be closely approximated by a linear combination of identity-independent blendshapes. Building on this finding, we introduce GALA (Gaussian Animation via Linear Approximation), a distillation method that replaces per-frame heavy neural decoding with a shallow coefficient predictor and a linear blend. To improve fidelity and reduce memory requirements, we propose to construct the basis using block-local PCA under a rendering-aware metric and a memory budget. Our method learns a shallow MLP network to predict blendshape coefficients and applies to various animation architectures without retraining original models. We validate GALA by accelerating the inference of three distinct avatar models for 3D animation of facial expressions and full-bodies with clothing dynamics. Across these models, our distillation generalizes to held-out identities and reduces CPU animation cost by up to three orders of magnitude while preserving most of the rendering quality. Excellent results of our method confirm the shared linear structure of learned avatar representations and enable highly efficient and accurate animation at frame rates reaching up to 60fps on mobile devices. Project page: https://ramazan793.github.io/gala/",
@@ -25227,5 +25580,5 @@
     }
   ],
   "public_json_version": "0.4",
-  "updated_at": "2026-10-03T01:05:42+00:00"
+  "updated_at": "2026-10-04T00:30:14+00:00"
 }

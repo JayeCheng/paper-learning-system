@@ -3686,6 +3686,20 @@
     {
       "history": [
         {
+          "at": "2026-10-04T00:30:14+00:00",
+          "source": "daily_pipeline",
+          "status": "backlog"
+        }
+      ],
+      "notes_path": null,
+      "paper_id": "arxiv:2610.01380v1",
+      "priority": "medium",
+      "status": "backlog",
+      "updated_at": "2026-10-04T00:30:14+00:00"
+    },
+    {
+      "history": [
+        {
           "at": "2026-10-03T01:05:42+00:00",
           "source": "daily_pipeline",
           "status": "backlog"
@@ -3724,6 +3738,62 @@
       "priority": "medium",
       "status": "backlog",
       "updated_at": "2026-10-03T01:05:42+00:00"
+    },
+    {
+      "history": [
+        {
+          "at": "2026-10-04T00:30:14+00:00",
+          "source": "daily_pipeline",
+          "status": "backlog"
+        }
+      ],
+      "notes_path": null,
+      "paper_id": "arxiv:2610.02153v1",
+      "priority": "medium",
+      "status": "backlog",
+      "updated_at": "2026-10-04T00:30:14+00:00"
+    },
+    {
+      "history": [
+        {
+          "at": "2026-10-04T00:30:14+00:00",
+          "source": "daily_pipeline",
+          "status": "backlog"
+        }
+      ],
+      "notes_path": null,
+      "paper_id": "arxiv:2610.02196v1",
+      "priority": "medium",
+      "status": "backlog",
+      "updated_at": "2026-10-04T00:30:14+00:00"
+    },
+    {
+      "history": [
+        {
+          "at": "2026-10-04T00:30:14+00:00",
+          "source": "daily_pipeline",
+          "status": "backlog"
+        }
+      ],
+      "notes_path": null,
+      "paper_id": "arxiv:2610.02204v1",
+      "priority": "medium",
+      "status": "backlog",
+      "updated_at": "2026-10-04T00:30:14+00:00"
+    },
+    {
+      "history": [
+        {
+          "at": "2026-10-04T00:30:14+00:00",
+          "source": "daily_pipeline",
+          "status": "backlog"
+        }
+      ],
+      "notes_path": null,
+      "paper_id": "arxiv:2610.02206v1",
+      "priority": "medium",
+      "status": "backlog",
+      "updated_at": "2026-10-04T00:30:14+00:00"
     },
     {
       "history": [
@@ -5028,5 +5098,5 @@
       "updated_at": "2026-07-09T09:48:54+00:00"
     }
   ],
-  "updated_at": "2026-10-03T01:05:42+00:00"
+  "updated_at": "2026-10-04T00:30:14+00:00"
 }

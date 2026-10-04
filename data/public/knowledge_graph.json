@@ -2289,6 +2289,12 @@
     {
       "confidence": 0.5,
       "relation": "related_to",
+      "source": "arxiv:2610.01380v1",
+      "target": "architecture"
+    },
+    {
+      "confidence": 0.5,
+      "relation": "related_to",
       "source": "arxiv:2610.01445v1",
       "target": "llm_agent"
     },
@@ -2339,6 +2345,30 @@
       "relation": "related_to",
       "source": "arxiv:2610.02121v1",
       "target": "cognition_social"
+    },
+    {
+      "confidence": 0.5,
+      "relation": "related_to",
+      "source": "arxiv:2610.02153v1",
+      "target": "gpu_graphics"
+    },
+    {
+      "confidence": 0.5,
+      "relation": "related_to",
+      "source": "arxiv:2610.02196v1",
+      "target": "gpu_graphics"
+    },
+    {
+      "confidence": 0.5,
+      "relation": "related_to",
+      "source": "arxiv:2610.02204v1",
+      "target": "llm_agent"
+    },
+    {
+      "confidence": 0.5,
+      "relation": "related_to",
+      "source": "arxiv:2610.02206v1",
+      "target": "llm_agent"
     },
     {
       "confidence": 0.5,
@@ -5612,6 +5642,14 @@
       "type": "paper"
     },
     {
+      "id": "arxiv:2610.01380v1",
+      "label": "GPU-Initiated Communication: Dissecting Down to the Bone",
+      "topics": [
+        "architecture"
+      ],
+      "type": "paper"
+    },
+    {
       "id": "arxiv:2610.01445v1",
       "label": "ibUMAP: Coherent and Scalable Field Evaluation for UMAP Optimization",
       "topics": [
@@ -5635,6 +5673,38 @@
       "topics": [
         "architecture",
         "cognition"
+      ],
+      "type": "paper"
+    },
+    {
+      "id": "arxiv:2610.02153v1",
+      "label": "MosaiChunk: Compositing Spatio-Temporal Memory for Autoregressive Video Generation",
+      "topics": [
+        "gpu_graphics"
+      ],
+      "type": "paper"
+    },
+    {
+      "id": "arxiv:2610.02196v1",
+      "label": "InterEvolve: Test-Time Evolution of Reward Programs for Humanoid Loco-Manipulation",
+      "topics": [
+        "gpu_graphics"
+      ],
+      "type": "paper"
+    },
+    {
+      "id": "arxiv:2610.02204v1",
+      "label": "Reconstruct, Practice, Go Real: Guided Self-Improvement for Embodied Agents",
+      "topics": [
+        "llm_agent"
+      ],
+      "type": "paper"
+    },
+    {
+      "id": "arxiv:2610.02206v1",
+      "label": "KaliBench: A Fine-Grained Benchmark for Cybersecurity Tool Use on Kali Linux with Runtime-Free Verifiable Rewards",
+      "topics": [
+        "llm_agent"
       ],
       "type": "paper"
     },
@@ -6442,5 +6512,5 @@
     }
   ],
   "public_json_version": "0.4",
-  "updated_at": "2026-10-03T01:05:42+00:00"
+  "updated_at": "2026-10-04T00:30:14+00:00"
 }
