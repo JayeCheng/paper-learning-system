@@ -264,8 +264,11 @@ arxiv:2610.01303v1,backlog,medium,,2026-10-03T01:05:42+00:00,A High-Density EEG 
 arxiv:2610.01305v1,backlog,medium,,2026-10-03T01:05:42+00:00,Beyond the Clique: Comparing Clique and Dowker Complexes for Co-occurrence Data in Learning Analytics,cognition_social,B
 arxiv:2610.01380v1,backlog,medium,,2026-10-04T00:30:14+00:00,GPU-Initiated Communication: Dissecting Down to the Bone,architecture,A
 arxiv:2610.01445v1,backlog,medium,,2026-10-03T01:05:42+00:00,ibUMAP: Coherent and Scalable Field Evaluation for UMAP Optimization,cognition_social,B
+arxiv:2610.01918v1,backlog,medium,,2026-10-05T00:48:09+00:00,Timing-Driven Logic Remapping with Local Physical Context,architecture,B
+arxiv:2610.01950v1,backlog,medium,,2026-10-05T00:48:09+00:00,MoE-CORE: Coordinated Expert Offloading and Residency for Memory-Constrained MoE Inference,architecture,B
+arxiv:2610.01975v1,backlog,medium,,2026-10-05T00:48:09+00:00,CONFERM: Recurrence-Aware Temporal Mapping for Multi-Cycle Multi-Context CGRAs,architecture,B
 arxiv:2610.02023v1,backlog,medium,,2026-10-03T01:05:42+00:00,SPHERE: Adaptive VR Indoor Scene Generation via LLM-Enhanced Spatial Preference Learning and Human-in-the-Loop RL,cognition_social,B
-arxiv:2610.02121v1,backlog,medium,,2026-10-03T01:05:42+00:00,Catscan: Visualizing Pipelines of CPU Performance Simulation,cognition_social,B
+arxiv:2610.02121v1,backlog,medium,,2026-10-03T01:05:42+00:00,Catscan: Visualizing Pipelines of CPU Performance Simulation,architecture,B
 arxiv:2610.02153v1,backlog,medium,,2026-10-04T00:30:14+00:00,MosaiChunk: Compositing Spatio-Temporal Memory for Autoregressive Video Generation,gpu_graphics,A
 arxiv:2610.02196v1,backlog,medium,,2026-10-04T00:30:14+00:00,InterEvolve: Test-Time Evolution of Reward Programs for Humanoid Loco-Manipulation,gpu_graphics,A
 arxiv:2610.02204v1,backlog,medium,,2026-10-04T00:30:14+00:00,"Reconstruct, Practice, Go Real: Guided Self-Improvement for Embodied Agents",llm_agent,B

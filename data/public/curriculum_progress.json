@@ -11,7 +11,7 @@
         "arxiv:2609.36959v1",
         "arxiv:2609.39131v1"
       ],
-      "planned_count": 50
+      "planned_count": 53
     },
     {
       "completed_count": 0,
@@ -35,7 +35,7 @@
         "arxiv:2607.11512v1",
         "arxiv:2607.15143v1"
       ],
-      "planned_count": 133
+      "planned_count": 132
     },
     {
       "completed_count": 0,
@@ -74,5 +74,5 @@
       "planned_count": 5
     }
   ],
-  "updated_at": "2026-10-04T00:30:14+00:00"
+  "updated_at": "2026-10-05T00:48:09+00:00"
 }

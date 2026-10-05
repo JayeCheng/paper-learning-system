@@ -18203,6 +18203,217 @@
       "why_recommended": "Ranked by recency signal across configured topics."
     },
     {
+      "abstract": "The timing behavior of a mapped circuit depends on both its logic implementation and the physical environment in which that implementation is realized. Revisiting mapping decisions after placement therefore requires a search procedure that accounts for surrounding timing constraints, fanout loads, and interconnect effects. We study local remapping in this setting and develop a framework that couples discrete mapping search with physical implementation feedback. Timing-critical regions are isolated through bounded windows whose interfaces retain the context of the surrounding circuit. Within each window, a mixed-integer formulation jointly selects logic cuts, signal polarities, and library cells under a delay model informed by estimated locations and interconnect parasitics. A continuous relaxation filters the search space before discrete optimization produces alternative implementations with similar modeled timing and different structural choices. These implementations are reconstructed and assessed through legalization, routing-based parasitic estimation, and timing analysis. Physically validated improvements are incorporated into the design, and the updated context guides subsequent searches. The framework provides a systematic way to revisit local logic implementations while accounting for their interaction with an existing placement.",
+      "authors": [
+        "Zijian Jiang",
+        "Hongyang Pan",
+        "Cunqing Lan",
+        "Keren Zhu"
+      ],
+      "categories": [
+        "cs.AR"
+      ],
+      "citation_count": null,
+      "classic_status": null,
+      "code_url": null,
+      "deep_read_note_url": null,
+      "difficulty": null,
+      "enrichment_sources": [],
+      "existing_note_url": null,
+      "external_ids": {},
+      "field": null,
+      "fields_of_study": [],
+      "id": "arxiv:2610.01918v1",
+      "identifiers": {
+        "arxiv_id": "2610.01918v1"
+      },
+      "influential_citation_count": null,
+      "institutions": [],
+      "latest_note_url": null,
+      "note_count": 0,
+      "open_access_pdf_url": null,
+      "pdf_url": "https://arxiv.org/pdf/2610.01918v1",
+      "project_url": null,
+      "published_at": "2026-10-01",
+      "published_date": "2026-10-01",
+      "reading_advice": "save_for_later",
+      "reading_status": "backlog",
+      "recommendation_level": "B",
+      "score": 0.732,
+      "scores": {
+        "classic_value": 0.35,
+        "engineering_transferability": 0.8,
+        "recency": 0.78,
+        "source_quality": 0.78,
+        "total": 0.732,
+        "user_relevance": 0.75
+      },
+      "selected_for_s_level": false,
+      "source": "arxiv",
+      "source_group": "architecture",
+      "source_type": "recent_7d",
+      "source_url": "http://arxiv.org/abs/2610.01918v1",
+      "suggested_note_title": null,
+      "suggested_note_type": null,
+      "tags": [
+        "cs.AR"
+      ],
+      "title": "Timing-Driven Logic Remapping with Local Physical Context",
+      "title_zh": null,
+      "topics": [
+        "architecture"
+      ],
+      "url": "http://arxiv.org/abs/2610.01918v1",
+      "venue": null,
+      "why_recommended": "Ranked by engineering transferability signal across configured topics."
+    },
+    {
+      "abstract": "Sparse expert activation reduces MoE models' computation, yet expert weights can exceed limited device memory. Offloading makes inference feasible on a compact AI appliance but exposes host-to-device transfers to the inference path. We present MoE-CORE, a system that coordinates expert offloading and residency for memory-constrained MoE inference. It stages complete expert layers in alternating buffers during prefill. During decode, it combines nonuniform layer-wise cache capacity, domain-informed initialization, routing-history-aware replacement, and cross-layer prefetching. The main configuration executes router-selected experts exactly; an optional score-based substitution path handles eligible low-score misses. The main comparison uses 1K- and 128-token output caps for MoE-CORE and vLLM Prefetch, respectively. Across five workloads per model, MoE-CORE records a mean time per output token (TPOT) of 38.0-44.8 ms versus 1268.9-1269.1 ms for the evaluated vLLM Prefetch configuration on DeepSeek-V4-Flash-W4A8; the corresponding values on GLM-5.2-W4A8C8 are 206.6-220.5 and 5941.5-5941.8 ms. Under an 84-GB NPU-memory cap, the best measured DeepSeek GSM8K configuration achieves a TPOT of 21.5 ms with approximate expert substitution and multi-token prediction (MTP) at depth 2. These results support coordinated expert residency and transfer scheduling under a device-memory constraint. The code is here.",
+      "authors": [
+        "Ke Yang",
+        "Yongji Gao",
+        "Xushi Li",
+        "Kui Luo",
+        "Sicheng Zhang",
+        "Tianming Zhou",
+        "Keyi Liu",
+        "Shufang Lu",
+        "Aoxuan Chen",
+        "Jie Meng",
+        "Jingchun Gao",
+        "Dan Li",
+        "Xinkai You",
+        "Dan Li",
+        "Zhixiang Xia",
+        "Yan Shi",
+        "Yang Liu",
+        "Yanjia Zeng",
+        "Liangjun Feng"
+      ],
+      "categories": [
+        "cs.DC"
+      ],
+      "citation_count": null,
+      "classic_status": null,
+      "code_url": null,
+      "deep_read_note_url": null,
+      "difficulty": null,
+      "enrichment_sources": [],
+      "existing_note_url": null,
+      "external_ids": {},
+      "field": null,
+      "fields_of_study": [],
+      "id": "arxiv:2610.01950v1",
+      "identifiers": {
+        "arxiv_id": "2610.01950v1"
+      },
+      "influential_citation_count": null,
+      "institutions": [],
+      "latest_note_url": null,
+      "note_count": 0,
+      "open_access_pdf_url": null,
+      "pdf_url": "https://arxiv.org/pdf/2610.01950v1",
+      "project_url": null,
+      "published_at": "2026-10-01",
+      "published_date": "2026-10-01",
+      "reading_advice": "save_for_later",
+      "reading_status": "backlog",
+      "recommendation_level": "B",
+      "score": 0.732,
+      "scores": {
+        "classic_value": 0.35,
+        "engineering_transferability": 0.8,
+        "recency": 0.78,
+        "source_quality": 0.78,
+        "total": 0.732,
+        "user_relevance": 0.75
+      },
+      "selected_for_s_level": false,
+      "source": "arxiv",
+      "source_group": "architecture",
+      "source_type": "recent_7d",
+      "source_url": "http://arxiv.org/abs/2610.01950v1",
+      "suggested_note_title": null,
+      "suggested_note_type": null,
+      "tags": [
+        "cs.DC"
+      ],
+      "title": "MoE-CORE: Coordinated Expert Offloading and Residency for Memory-Constrained MoE Inference",
+      "title_zh": null,
+      "topics": [
+        "architecture"
+      ],
+      "url": "http://arxiv.org/abs/2610.01950v1",
+      "venue": null,
+      "why_recommended": "Ranked by engineering transferability signal across configured topics."
+    },
+    {
+      "abstract": "Throughput in DSP and machine learning workloads is often limited by two temporal structures, i.e., loop-carried recurrences and long-latency, multi-cycle compute nodes. On spatio-temporal coarse-grained reconfigurable arrays (CGRAs), both bottlenecks can be addressed by overlapping iterations across the multi-context modulo configurations. Yet, existing CGRA mappers schedule a fixed dataflow graph (DFG) that treats recurrence-aware scheduling and operator-level pipelining separately, limiting inter-iteration overlap and inflating routing pressure. To tackle this, we present CONFERM, a recurrence-aware temporal mapper that uses the dominant temporal con-straint to guide the DFG representation and expose opportunities for loop-carried pipelining. CONFERM identifies and prioritizes bottleneck regions during scheduling. The regular loop-carried offsets across interleaved iterations allow the emitted control sequence to repeat at a shorter cadence than the original initiation interval, thus delivering higher throughput with lower CGRA configuration overhead. Across ten benchmark kernels, CONFERM improves throughput by 2.18x over state-of-the-art mappers. Its uniform iteration offsets shorten the emitted initiation interval by 46%. CONFERM's mapper pass also converges faster by 5.07x on average with the same heuristic mapper backend.",
+      "authors": [
+        "Jun Yin",
+        "Jannes Willemen",
+        "Stef Cuyckens",
+        "Chao Fang",
+        "Marian Verhelst"
+      ],
+      "categories": [
+        "cs.AR"
+      ],
+      "citation_count": null,
+      "classic_status": null,
+      "code_url": null,
+      "deep_read_note_url": null,
+      "difficulty": null,
+      "enrichment_sources": [],
+      "existing_note_url": null,
+      "external_ids": {},
+      "field": null,
+      "fields_of_study": [],
+      "id": "arxiv:2610.01975v1",
+      "identifiers": {
+        "arxiv_id": "2610.01975v1"
+      },
+      "influential_citation_count": null,
+      "institutions": [],
+      "latest_note_url": null,
+      "note_count": 0,
+      "open_access_pdf_url": null,
+      "pdf_url": "https://arxiv.org/pdf/2610.01975v1",
+      "project_url": null,
+      "published_at": "2026-10-01",
+      "published_date": "2026-10-01",
+      "reading_advice": "save_for_later",
+      "reading_status": "backlog",
+      "recommendation_level": "B",
+      "score": 0.732,
+      "scores": {
+        "classic_value": 0.35,
+        "engineering_transferability": 0.8,
+        "recency": 0.78,
+        "source_quality": 0.78,
+        "total": 0.732,
+        "user_relevance": 0.75
+      },
+      "selected_for_s_level": false,
+      "source": "arxiv",
+      "source_group": "architecture",
+      "source_type": "recent_7d",
+      "source_url": "http://arxiv.org/abs/2610.01975v1",
+      "suggested_note_title": null,
+      "suggested_note_type": null,
+      "tags": [
+        "cs.AR"
+      ],
+      "title": "CONFERM: Recurrence-Aware Temporal Mapping for Multi-Cycle Multi-Context CGRAs",
+      "title_zh": null,
+      "topics": [
+        "architecture"
+      ],
+      "url": "http://arxiv.org/abs/2610.01975v1",
+      "venue": null,
+      "why_recommended": "Ranked by engineering transferability signal across configured topics."
+    },
+    {
       "abstract": "While Large Language Models (LLMs) advance 3D indoor scene synthesis, current pipelines fail to retain user-specific preferences across sessions, making immersive authoring a repetitive and physically fatiguing process. We present SPHERE, an adaptive VR generation framework that transforms isolated synthesis into continuous human-AI co-creation. SPHERE extracts persistent spatial preferences from natural multimodal interactions (speech and controller edits). To ensure geometric resilience against spatial distortions, it abstracts these raw edits into hierarchical constraints modeling both local functional and global topological contexts. Furthermore, a human-in-the-loop reinforcement learning mechanism dynamically updates retrieval policies based on the user's final edited scenes. A mixed-design user study ($N=42$) and an offline ablation demonstrate that SPHERE significantly reduces corrective edits and physical demand, preventing bias toward shallow object-level traits to yield geometrically resilient, profile-aligned layouts. Ultimately, SPHERE demonstrates how capturing demonstrated spatial logic enables controlled spatial adaptation, establishing a reliable, governed human-AI collaboration framework for immersive authoring. Project page and source code will be available at: https://github.com/hyeonmin11/SPHERE",
       "authors": [
         "Hyeonmin Lee",
@@ -18322,7 +18533,7 @@
       },
       "selected_for_s_level": false,
       "source": "arxiv",
-      "source_group": "cognition_social",
+      "source_group": "architecture",
       "source_type": "recent_7d",
       "source_url": "http://arxiv.org/abs/2610.02121v1",
       "suggested_note_title": null,
@@ -25580,5 +25791,5 @@
     }
   ],
   "public_json_version": "0.4",
-  "updated_at": "2026-10-04T00:30:14+00:00"
+  "updated_at": "2026-10-05T00:48:09+00:00"
 }

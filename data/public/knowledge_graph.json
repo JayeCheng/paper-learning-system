@@ -2313,6 +2313,24 @@
     {
       "confidence": 0.5,
       "relation": "related_to",
+      "source": "arxiv:2610.01918v1",
+      "target": "architecture"
+    },
+    {
+      "confidence": 0.5,
+      "relation": "related_to",
+      "source": "arxiv:2610.01950v1",
+      "target": "architecture"
+    },
+    {
+      "confidence": 0.5,
+      "relation": "related_to",
+      "source": "arxiv:2610.01975v1",
+      "target": "architecture"
+    },
+    {
+      "confidence": 0.5,
+      "relation": "related_to",
       "source": "arxiv:2610.02023v1",
       "target": "llm_agent"
     },
@@ -2339,12 +2357,6 @@
       "relation": "related_to",
       "source": "arxiv:2610.02121v1",
       "target": "cognition"
-    },
-    {
-      "confidence": 0.5,
-      "relation": "related_to",
-      "source": "arxiv:2610.02121v1",
-      "target": "cognition_social"
     },
     {
       "confidence": 0.5,
@@ -5659,6 +5671,30 @@
       "type": "paper"
     },
     {
+      "id": "arxiv:2610.01918v1",
+      "label": "Timing-Driven Logic Remapping with Local Physical Context",
+      "topics": [
+        "architecture"
+      ],
+      "type": "paper"
+    },
+    {
+      "id": "arxiv:2610.01950v1",
+      "label": "MoE-CORE: Coordinated Expert Offloading and Residency for Memory-Constrained MoE Inference",
+      "topics": [
+        "architecture"
+      ],
+      "type": "paper"
+    },
+    {
+      "id": "arxiv:2610.01975v1",
+      "label": "CONFERM: Recurrence-Aware Temporal Mapping for Multi-Cycle Multi-Context CGRAs",
+      "topics": [
+        "architecture"
+      ],
+      "type": "paper"
+    },
+    {
       "id": "arxiv:2610.02023v1",
       "label": "SPHERE: Adaptive VR Indoor Scene Generation via LLM-Enhanced Spatial Preference Learning and Human-in-the-Loop RL",
       "topics": [
@@ -6512,5 +6548,5 @@
     }
   ],
   "public_json_version": "0.4",
-  "updated_at": "2026-10-04T00:30:14+00:00"
+  "updated_at": "2026-10-05T00:48:09+00:00"
 }

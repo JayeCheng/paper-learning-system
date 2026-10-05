@@ -1,0 +1,470 @@
+{
+  "date": "2026-10-05",
+  "frontend_entry": "data/public/latest.json",
+  "generated_at": "2026-10-05T00:48:09+00:00",
+  "generated_paths": {
+    "exports_csv": "data/exports/papers.csv",
+    "exports_daily_csv": "data/exports/daily_papers.csv",
+    "exports_jsonl": "data/exports/papers.jsonl",
+    "exports_notes_index": "data/exports/notes_index.csv",
+    "exports_reading_status": "data/exports/reading_status.csv",
+    "json": "daily/2026/10/2026-10-05.json",
+    "markdown": "daily/2026/10/2026-10-05.md",
+    "public_curriculum_progress": "data/public/curriculum_progress.json",
+    "public_daily_index": "data/public/daily_index.json",
+    "public_knowledge_graph": "data/public/knowledge_graph.json",
+    "public_latest": "data/public/latest.json",
+    "public_notes_index": "data/public/notes_index.json",
+    "public_papers_index": "data/public/papers_index.json",
+    "public_reading_status": "data/public/reading_status.json",
+    "state_notes_index": "data/state/notes_index.json",
+    "state_papers": "data/state/papers.jsonl",
+    "state_reading_status": "data/state/reading_status.json",
+    "state_run_history": "data/state/run_history.json"
+  },
+  "knowledge_graph_delta": [
+    "paper:arxiv:2610.01380v1",
+    "paper:arxiv:2610.02207v1",
+    "paper:arxiv:2610.02121v1",
+    "paper:arxiv:2610.01975v1",
+    "paper:arxiv:2610.01950v1",
+    "paper:arxiv:2610.01918v1"
+  ],
+  "learning_route_position": "v0.4 GitHub-owned note bridge",
+  "next_actions": [
+    "Review S-level candidate",
+    "Update reading status after skim",
+    "Promote durable concepts into the knowledge graph"
+  ],
+  "papers": [
+    {
+      "abstract": "GPU-initiated communication lets GPU threads post RDMA operations directly to the NIC. It underpins NVSHMEM, NCCL GIN, and DeepEP, which serve the fine-grained, latency-critical communication of Mixture-of-Experts (MoE) models, yet its performance characteristics and optimizations remain scarcely documented beyond source code, and library comparisons fail to separate the costs of the hardware mechanism from those of the library around it. This paper dissects GPU-initiated communication at the GPU-NIC boundary. We first detail the GPU-side network path: queue placement, work-request construction, doorbell ordering, and completion semantics. We then introduce mini-gda and mini-proxy, minimal transports for the GPU and CPU-proxy submission paths, and measure them alongside NVSHMEM IBGDA, NCCL GIN, DeepEP, UCCL-EP, MSCCL++, and fabric-lib on NVIDIA H100, H200, B200, and GB200 platforms. A minimal GPU path issues an operation in 0.7 $\u03bc$s and completes in 4.0 $\u03bc$s; libraries add up to 4.6 $\u03bc$s of issue time through queue management, memory ordering, and completion scope, and issue time scales with the SM clock. A tuned CPU proxy matches or beats the GPU path at idle, at the cost of a dedicated core whose operating state sets its latency and throughput. On either path, sharing a queue with bulk traffic raises latency by one to three orders of magnitude. Reaching the 260 M msg/s ceiling of our InfiniBand platform requires doorbell batching and queue parallelism, and both have resource costs: communication code can reduce GPU block residency even when unused, and all-to-all traffic loses 59% of its NIC message rate at about 3,000 active connections. The submission path alone therefore does not predict communication performance. Our experiment code and results are available at https://github.com/ParCoreLab/Dissecting-GPU-Communication-Experiments.",
+      "authors": [
+        "Javid Baydamirli",
+        "Ismayil Ismayilov",
+        "Kaan Oktay",
+        "Didem Unat"
+      ],
+      "categories": [
+        "cs.DC",
+        "cs.NI",
+        "cs.PF"
+      ],
+      "citation_count": null,
+      "classic_status": null,
+      "code_url": "https://github.com/ParCoreLab/Dissecting-GPU-Communication-Experiments",
+      "deep_read_note_url": null,
+      "difficulty": null,
+      "enrichment_sources": [],
+      "existing_note_url": null,
+      "external_ids": {},
+      "field": null,
+      "fields_of_study": [],
+      "id": "arxiv:2610.01380v1",
+      "identifiers": {
+        "arxiv_id": "2610.01380v1"
+      },
+      "influential_citation_count": null,
+      "institutions": [],
+      "latest_note_url": null,
+      "note_count": 0,
+      "open_access_pdf_url": null,
+      "pdf_url": "https://arxiv.org/pdf/2610.01380v1",
+      "project_url": null,
+      "published_at": "2026-10-01",
+      "published_date": "2026-10-01",
+      "reading_advice": "quick_read",
+      "reading_status": "backlog",
+      "recommendation_level": "A",
+      "score": 0.762,
+      "scores": {
+        "classic_value": 0.35,
+        "engineering_transferability": 0.9500000000000001,
+        "recency": 0.78,
+        "source_quality": 0.78,
+        "total": 0.762,
+        "user_relevance": 0.75
+      },
+      "selected_for_s_level": false,
+      "source": "arxiv",
+      "source_group": "architecture",
+      "source_type": "recent_7d",
+      "source_url": "http://arxiv.org/abs/2610.01380v1",
+      "suggested_note_title": null,
+      "suggested_note_type": null,
+      "tags": [
+        "cs.DC",
+        "cs.NI",
+        "cs.PF"
+      ],
+      "title": "GPU-Initiated Communication: Dissecting Down to the Bone",
+      "title_zh": null,
+      "topics": [
+        "architecture"
+      ],
+      "url": "http://arxiv.org/abs/2610.01380v1",
+      "venue": null,
+      "why_recommended": "Ranked by engineering transferability signal across configured topics."
+    },
+    {
+      "abstract": "3D Gaussian avatars support fast rendering, however, their real-time animation is often challenged by the costly neural inference. We address this bottleneck and show that the animation of pretrained avatar models can be closely approximated by a linear combination of identity-independent blendshapes. Building on this finding, we introduce GALA (Gaussian Animation via Linear Approximation), a distillation method that replaces per-frame heavy neural decoding with a shallow coefficient predictor and a linear blend. To improve fidelity and reduce memory requirements, we propose to construct the basis using block-local PCA under a rendering-aware metric and a memory budget. Our method learns a shallow MLP network to predict blendshape coefficients and applies to various animation architectures without retraining original models. We validate GALA by accelerating the inference of three distinct avatar models for 3D animation of facial expressions and full-bodies with clothing dynamics. Across these models, our distillation generalizes to held-out identities and reduces CPU animation cost by up to three orders of magnitude while preserving most of the rendering quality. Excellent results of our method confirm the shared linear structure of learned avatar representations and enable highly efficient and accurate animation at frame rates reaching up to 60fps on mobile devices. Project page: https://ramazan793.github.io/gala/",
+      "authors": [
+        "Ramazan Fazylov",
+        "Stamatis Lefkimmiatis",
+        "Ivan Laptev"
+      ],
+      "categories": [
+        "cs.CV",
+        "cs.AI",
+        "cs.HC",
+        "cs.LG"
+      ],
+      "citation_count": null,
+      "classic_status": null,
+      "code_url": null,
+      "deep_read_note_url": null,
+      "difficulty": null,
+      "enrichment_sources": [],
+      "existing_note_url": null,
+      "external_ids": {},
+      "field": null,
+      "fields_of_study": [],
+      "id": "arxiv:2610.02207v1",
+      "identifiers": {
+        "arxiv_id": "2610.02207v1"
+      },
+      "influential_citation_count": null,
+      "institutions": [],
+      "latest_note_url": null,
+      "note_count": 0,
+      "open_access_pdf_url": null,
+      "pdf_url": "https://arxiv.org/pdf/2610.02207v1",
+      "project_url": "https://ramazan793.github.io/gala/",
+      "published_at": "2026-10-01",
+      "published_date": "2026-10-01",
+      "reading_advice": "save_for_later",
+      "reading_status": "backlog",
+      "recommendation_level": "B",
+      "score": 0.692,
+      "scores": {
+        "classic_value": 0.35,
+        "engineering_transferability": 0.6,
+        "recency": 0.78,
+        "source_quality": 0.78,
+        "total": 0.692,
+        "user_relevance": 0.75
+      },
+      "selected_for_s_level": false,
+      "source": "arxiv",
+      "source_group": "cognition_social",
+      "source_type": "recent_7d",
+      "source_url": "http://arxiv.org/abs/2610.02207v1",
+      "suggested_note_title": null,
+      "suggested_note_type": null,
+      "tags": [
+        "cs.CV",
+        "cs.AI",
+        "cs.HC",
+        "cs.LG"
+      ],
+      "title": "One Basis to Animate Them All: Gaussian Blendshape Distillation for Real-Time Avatars",
+      "title_zh": null,
+      "topics": [
+        "gpu_graphics",
+        "llm_agent",
+        "cognition"
+      ],
+      "url": "http://arxiv.org/abs/2610.02207v1",
+      "venue": null,
+      "why_recommended": "Ranked by recency signal across configured topics."
+    },
+    {
+      "abstract": "Processor pipeline visualization tools are routine inside industry CPU teams, but few of them are described or released publicly. As a result, students, researchers, and other practitioners rarely see the tooling that processor architects use to debug performance before silicon. This paper describes two pieces of Ampere Computing's performance- analysis infrastructure that we have released to the community as open source: event streams, a simulator-output format, and Catscan, an interactive viewer built around that format. Event streams record microarchitectural activity as typed events connected by transaction relationships, so a user can move between a symptom and the instruction, uop, or memory transaction that explains it. Catscan uses that structure to support resource- and transaction-oriented views, persistent highlighting, domain-specific search, comparative trace synchronization, and other workflows used during product development. In this paper we report the design choices that survived production use, the limitations we encountered, and the lessons we think are useful for future microarchitectural visualization tools.",
+      "authors": [
+        "Aaron Lindsay",
+        "Nicholas Kelly",
+        "Scott Witscher",
+        "Mahesh Madhav"
+      ],
+      "categories": [
+        "cs.AR",
+        "cs.HC",
+        "cs.PF"
+      ],
+      "citation_count": null,
+      "classic_status": null,
+      "code_url": null,
+      "deep_read_note_url": null,
+      "difficulty": null,
+      "enrichment_sources": [],
+      "existing_note_url": null,
+      "external_ids": {},
+      "field": null,
+      "fields_of_study": [],
+      "id": "arxiv:2610.02121v1",
+      "identifiers": {
+        "arxiv_id": "2610.02121v1"
+      },
+      "influential_citation_count": null,
+      "institutions": [],
+      "latest_note_url": null,
+      "note_count": 0,
+      "open_access_pdf_url": null,
+      "pdf_url": "https://arxiv.org/pdf/2610.02121v1",
+      "project_url": null,
+      "published_at": "2026-10-01",
+      "published_date": "2026-10-01",
+      "reading_advice": "save_for_later",
+      "reading_status": "backlog",
+      "recommendation_level": "B",
+      "score": 0.732,
+      "scores": {
+        "classic_value": 0.35,
+        "engineering_transferability": 0.8,
+        "recency": 0.78,
+        "source_quality": 0.78,
+        "total": 0.732,
+        "user_relevance": 0.75
+      },
+      "selected_for_s_level": false,
+      "source": "arxiv",
+      "source_group": "architecture",
+      "source_type": "recent_7d",
+      "source_url": "http://arxiv.org/abs/2610.02121v1",
+      "suggested_note_title": null,
+      "suggested_note_type": null,
+      "tags": [
+        "cs.AR",
+        "cs.HC",
+        "cs.PF"
+      ],
+      "title": "Catscan: Visualizing Pipelines of CPU Performance Simulation",
+      "title_zh": null,
+      "topics": [
+        "architecture",
+        "cognition"
+      ],
+      "url": "http://arxiv.org/abs/2610.02121v1",
+      "venue": null,
+      "why_recommended": "Ranked by engineering transferability signal across configured topics."
+    },
+    {
+      "abstract": "Throughput in DSP and machine learning workloads is often limited by two temporal structures, i.e., loop-carried recurrences and long-latency, multi-cycle compute nodes. On spatio-temporal coarse-grained reconfigurable arrays (CGRAs), both bottlenecks can be addressed by overlapping iterations across the multi-context modulo configurations. Yet, existing CGRA mappers schedule a fixed dataflow graph (DFG) that treats recurrence-aware scheduling and operator-level pipelining separately, limiting inter-iteration overlap and inflating routing pressure. To tackle this, we present CONFERM, a recurrence-aware temporal mapper that uses the dominant temporal con-straint to guide the DFG representation and expose opportunities for loop-carried pipelining. CONFERM identifies and prioritizes bottleneck regions during scheduling. The regular loop-carried offsets across interleaved iterations allow the emitted control sequence to repeat at a shorter cadence than the original initiation interval, thus delivering higher throughput with lower CGRA configuration overhead. Across ten benchmark kernels, CONFERM improves throughput by 2.18x over state-of-the-art mappers. Its uniform iteration offsets shorten the emitted initiation interval by 46%. CONFERM's mapper pass also converges faster by 5.07x on average with the same heuristic mapper backend.",
+      "authors": [
+        "Jun Yin",
+        "Jannes Willemen",
+        "Stef Cuyckens",
+        "Chao Fang",
+        "Marian Verhelst"
+      ],
+      "categories": [
+        "cs.AR"
+      ],
+      "citation_count": null,
+      "classic_status": null,
+      "code_url": null,
+      "deep_read_note_url": null,
+      "difficulty": null,
+      "enrichment_sources": [],
+      "existing_note_url": null,
+      "external_ids": {},
+      "field": null,
+      "fields_of_study": [],
+      "id": "arxiv:2610.01975v1",
+      "identifiers": {
+        "arxiv_id": "2610.01975v1"
+      },
+      "influential_citation_count": null,
+      "institutions": [],
+      "latest_note_url": null,
+      "note_count": 0,
+      "open_access_pdf_url": null,
+      "pdf_url": "https://arxiv.org/pdf/2610.01975v1",
+      "project_url": null,
+      "published_at": "2026-10-01",
+      "published_date": "2026-10-01",
+      "reading_advice": "save_for_later",
+      "reading_status": "backlog",
+      "recommendation_level": "B",
+      "score": 0.732,
+      "scores": {
+        "classic_value": 0.35,
+        "engineering_transferability": 0.8,
+        "recency": 0.78,
+        "source_quality": 0.78,
+        "total": 0.732,
+        "user_relevance": 0.75
+      },
+      "selected_for_s_level": false,
+      "source": "arxiv",
+      "source_group": "architecture",
+      "source_type": "recent_7d",
+      "source_url": "http://arxiv.org/abs/2610.01975v1",
+      "suggested_note_title": null,
+      "suggested_note_type": null,
+      "tags": [
+        "cs.AR"
+      ],
+      "title": "CONFERM: Recurrence-Aware Temporal Mapping for Multi-Cycle Multi-Context CGRAs",
+      "title_zh": null,
+      "topics": [
+        "architecture"
+      ],
+      "url": "http://arxiv.org/abs/2610.01975v1",
+      "venue": null,
+      "why_recommended": "Ranked by engineering transferability signal across configured topics."
+    },
+    {
+      "abstract": "Sparse expert activation reduces MoE models' computation, yet expert weights can exceed limited device memory. Offloading makes inference feasible on a compact AI appliance but exposes host-to-device transfers to the inference path. We present MoE-CORE, a system that coordinates expert offloading and residency for memory-constrained MoE inference. It stages complete expert layers in alternating buffers during prefill. During decode, it combines nonuniform layer-wise cache capacity, domain-informed initialization, routing-history-aware replacement, and cross-layer prefetching. The main configuration executes router-selected experts exactly; an optional score-based substitution path handles eligible low-score misses. The main comparison uses 1K- and 128-token output caps for MoE-CORE and vLLM Prefetch, respectively. Across five workloads per model, MoE-CORE records a mean time per output token (TPOT) of 38.0-44.8 ms versus 1268.9-1269.1 ms for the evaluated vLLM Prefetch configuration on DeepSeek-V4-Flash-W4A8; the corresponding values on GLM-5.2-W4A8C8 are 206.6-220.5 and 5941.5-5941.8 ms. Under an 84-GB NPU-memory cap, the best measured DeepSeek GSM8K configuration achieves a TPOT of 21.5 ms with approximate expert substitution and multi-token prediction (MTP) at depth 2. These results support coordinated expert residency and transfer scheduling under a device-memory constraint. The code is here.",
+      "authors": [
+        "Ke Yang",
+        "Yongji Gao",
+        "Xushi Li",
+        "Kui Luo",
+        "Sicheng Zhang",
+        "Tianming Zhou",
+        "Keyi Liu",
+        "Shufang Lu",
+        "Aoxuan Chen",
+        "Jie Meng",
+        "Jingchun Gao",
+        "Dan Li",
+        "Xinkai You",
+        "Dan Li",
+        "Zhixiang Xia",
+        "Yan Shi",
+        "Yang Liu",
+        "Yanjia Zeng",
+        "Liangjun Feng"
+      ],
+      "categories": [
+        "cs.DC"
+      ],
+      "citation_count": null,
+      "classic_status": null,
+      "code_url": null,
+      "deep_read_note_url": null,
+      "difficulty": null,
+      "enrichment_sources": [],
+      "existing_note_url": null,
+      "external_ids": {},
+      "field": null,
+      "fields_of_study": [],
+      "id": "arxiv:2610.01950v1",
+      "identifiers": {
+        "arxiv_id": "2610.01950v1"
+      },
+      "influential_citation_count": null,
+      "institutions": [],
+      "latest_note_url": null,
+      "note_count": 0,
+      "open_access_pdf_url": null,
+      "pdf_url": "https://arxiv.org/pdf/2610.01950v1",
+      "project_url": null,
+      "published_at": "2026-10-01",
+      "published_date": "2026-10-01",
+      "reading_advice": "save_for_later",
+      "reading_status": "backlog",
+      "recommendation_level": "B",
+      "score": 0.732,
+      "scores": {
+        "classic_value": 0.35,
+        "engineering_transferability": 0.8,
+        "recency": 0.78,
+        "source_quality": 0.78,
+        "total": 0.732,
+        "user_relevance": 0.75
+      },
+      "selected_for_s_level": false,
+      "source": "arxiv",
+      "source_group": "architecture",
+      "source_type": "recent_7d",
+      "source_url": "http://arxiv.org/abs/2610.01950v1",
+      "suggested_note_title": null,
+      "suggested_note_type": null,
+      "tags": [
+        "cs.DC"
+      ],
+      "title": "MoE-CORE: Coordinated Expert Offloading and Residency for Memory-Constrained MoE Inference",
+      "title_zh": null,
+      "topics": [
+        "architecture"
+      ],
+      "url": "http://arxiv.org/abs/2610.01950v1",
+      "venue": null,
+      "why_recommended": "Ranked by engineering transferability signal across configured topics."
+    },
+    {
+      "abstract": "The timing behavior of a mapped circuit depends on both its logic implementation and the physical environment in which that implementation is realized. Revisiting mapping decisions after placement therefore requires a search procedure that accounts for surrounding timing constraints, fanout loads, and interconnect effects. We study local remapping in this setting and develop a framework that couples discrete mapping search with physical implementation feedback. Timing-critical regions are isolated through bounded windows whose interfaces retain the context of the surrounding circuit. Within each window, a mixed-integer formulation jointly selects logic cuts, signal polarities, and library cells under a delay model informed by estimated locations and interconnect parasitics. A continuous relaxation filters the search space before discrete optimization produces alternative implementations with similar modeled timing and different structural choices. These implementations are reconstructed and assessed through legalization, routing-based parasitic estimation, and timing analysis. Physically validated improvements are incorporated into the design, and the updated context guides subsequent searches. The framework provides a systematic way to revisit local logic implementations while accounting for their interaction with an existing placement.",
+      "authors": [
+        "Zijian Jiang",
+        "Hongyang Pan",
+        "Cunqing Lan",
+        "Keren Zhu"
+      ],
+      "categories": [
+        "cs.AR"
+      ],
+      "citation_count": null,
+      "classic_status": null,
+      "code_url": null,
+      "deep_read_note_url": null,
+      "difficulty": null,
+      "enrichment_sources": [],
+      "existing_note_url": null,
+      "external_ids": {},
+      "field": null,
+      "fields_of_study": [],
+      "id": "arxiv:2610.01918v1",
+      "identifiers": {
+        "arxiv_id": "2610.01918v1"
+      },
+      "influential_citation_count": null,
+      "institutions": [],
+      "latest_note_url": null,
+      "note_count": 0,
+      "open_access_pdf_url": null,
+      "pdf_url": "https://arxiv.org/pdf/2610.01918v1",
+      "project_url": null,
+      "published_at": "2026-10-01",
+      "published_date": "2026-10-01",
+      "reading_advice": "save_for_later",
+      "reading_status": "backlog",
+      "recommendation_level": "B",
+      "score": 0.732,
+      "scores": {
+        "classic_value": 0.35,
+        "engineering_transferability": 0.8,
+        "recency": 0.78,
+        "source_quality": 0.78,
+        "total": 0.732,
+        "user_relevance": 0.75
+      },
+      "selected_for_s_level": false,
+      "source": "arxiv",
+      "source_group": "architecture",
+      "source_type": "recent_7d",
+      "source_url": "http://arxiv.org/abs/2610.01918v1",
+      "suggested_note_title": null,
+      "suggested_note_type": null,
+      "tags": [
+        "cs.AR"
+      ],
+      "title": "Timing-Driven Logic Remapping with Local Physical Context",
+      "title_zh": null,
+      "topics": [
+        "architecture"
+      ],
+      "url": "http://arxiv.org/abs/2610.01918v1",
+      "venue": null,
+      "why_recommended": "Ranked by engineering transferability signal across configured topics."
+    }
+  ],
+  "public_json_version": "0.4",
+  "s_level_candidate_ids": [],
+  "s_level_paper_id": null,
+  "source_mode_summary": {
+    "recent_7d": 6
+  },
+  "summary": "Selected 6 papers: 6 recent candidates and 0 classic fallback items."
+}
