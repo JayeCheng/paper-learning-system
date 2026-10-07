@@ -11,7 +11,7 @@
         "arxiv:2609.36959v1",
         "arxiv:2609.39131v1"
       ],
-      "planned_count": 53
+      "planned_count": 54
     },
     {
       "completed_count": 0,
@@ -32,10 +32,10 @@
       "label": "Cognition / Social Systems",
       "next_paper_ids": [
         "arxiv:2608.10839v1",
-        "arxiv:2607.11512v1",
-        "arxiv:2607.15143v1"
+        "arxiv:2610.07985v1",
+        "arxiv:2607.11512v1"
       ],
-      "planned_count": 138
+      "planned_count": 139
     },
     {
       "completed_count": 0,
@@ -45,9 +45,9 @@
       "next_paper_ids": [
         "arxiv:2608.06117v1",
         "arxiv:2609.36898v1",
-        "arxiv:2608.10839v1"
+        "arxiv:2610.07941v1"
       ],
-      "planned_count": 103
+      "planned_count": 105
     },
     {
       "completed_count": 0,
@@ -57,9 +57,9 @@
       "next_paper_ids": [
         "arxiv:2608.06228v1",
         "arxiv:2609.39131v1",
-        "arxiv:2608.06025v1"
+        "arxiv:2610.08097v1"
       ],
-      "planned_count": 154
+      "planned_count": 157
     },
     {
       "completed_count": 0,
@@ -67,12 +67,12 @@
       "id": "sociology",
       "label": "Sociology",
       "next_paper_ids": [
+        "arxiv:2610.07985v1",
         "arxiv:2608.19190v1",
-        "arxiv:2610.05676v1",
-        "arxiv:2609.03782v1"
+        "arxiv:2610.05676v1"
       ],
-      "planned_count": 6
+      "planned_count": 7
     }
   ],
-  "updated_at": "2026-10-06T02:12:57+00:00"
+  "updated_at": "2026-10-07T01:25:22+00:00"
 }
