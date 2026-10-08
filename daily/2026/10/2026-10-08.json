@@ -1,0 +1,465 @@
+{
+  "date": "2026-10-08",
+  "frontend_entry": "data/public/latest.json",
+  "generated_at": "2026-10-08T01:48:01+00:00",
+  "generated_paths": {
+    "exports_csv": "data/exports/papers.csv",
+    "exports_daily_csv": "data/exports/daily_papers.csv",
+    "exports_jsonl": "data/exports/papers.jsonl",
+    "exports_notes_index": "data/exports/notes_index.csv",
+    "exports_reading_status": "data/exports/reading_status.csv",
+    "json": "daily/2026/10/2026-10-08.json",
+    "markdown": "daily/2026/10/2026-10-08.md",
+    "public_curriculum_progress": "data/public/curriculum_progress.json",
+    "public_daily_index": "data/public/daily_index.json",
+    "public_knowledge_graph": "data/public/knowledge_graph.json",
+    "public_latest": "data/public/latest.json",
+    "public_notes_index": "data/public/notes_index.json",
+    "public_papers_index": "data/public/papers_index.json",
+    "public_reading_status": "data/public/reading_status.json",
+    "state_notes_index": "data/state/notes_index.json",
+    "state_papers": "data/state/papers.jsonl",
+    "state_reading_status": "data/state/reading_status.json",
+    "state_run_history": "data/state/run_history.json"
+  },
+  "knowledge_graph_delta": [
+    "paper:arxiv:2610.09846v1",
+    "paper:arxiv:2610.09822v1",
+    "paper:arxiv:2610.09825v1",
+    "paper:arxiv:2610.09935v1",
+    "paper:arxiv:2610.09918v1",
+    "paper:arxiv:2610.09911v1"
+  ],
+  "learning_route_position": "v0.4 GitHub-owned note bridge",
+  "next_actions": [
+    "Review S-level candidate",
+    "Update reading status after skim",
+    "Promote durable concepts into the knowledge graph"
+  ],
+  "papers": [
+    {
+      "abstract": "Holistic co-speech animation is prone to averaging in both motion representation and speech conditioning. In coordinate-space diffusion, slow body posture, mid-frequency gesture strokes, and fast hand or facial details are entangled in one prediction target, often producing low-variance, over-smoothed motion. Meanwhile, dense rhythmic and acoustic cues can dominate sparse content-specific information under fixed multimodal fusion. We present DynaConTalk, a wavelet-constrained diffusion framework for long-form and controllable holistic co-speech motion generation. Diffusion operates in stationary wavelet transform (SWT) coefficient space, whose temporally aligned bands separate coarse posture evolution, gesture strokes, and fine expressive details. Our dynamic gating network preserves HuBERT and speaker identity as a base and selectively adds rhythm, mel, and transcript features through motion-state- and noise-aware residual gates. Attention pooling and learned depth routing deliver complementary conditions to each denoising stage, while a frame-resolution rhythm path preserves precise timing. A signed proposal-consensus update then reconciles these conditions with the evolving motion state. Matched-noise constraint injection uses the same sampling interface for history continuation and localized keypose repair, and extends to reference-guided control. Separate body-hand and facial denoisers, followed by inverse SWT and a pose-driven root regressor, produce holistic motion. Experiments evaluate generation quality, facial accuracy, temporal continuity, and controllable editing. Code, models, and the interactive editing interface are available at https://github.com/zhuyifeiabcd1/DynaConTalk.",
+      "authors": [
+        "Yifei Zhu",
+        "Yangyang Cai",
+        "Mingyi Shi",
+        "Miao Cheng",
+        "Lin Gu",
+        "Taku Komura",
+        "Yoshifumi Kitamura"
+      ],
+      "categories": [
+        "cs.GR"
+      ],
+      "citation_count": null,
+      "classic_status": null,
+      "code_url": "https://github.com/zhuyifeiabcd1/DynaConTalk",
+      "deep_read_note_url": null,
+      "difficulty": null,
+      "enrichment_sources": [],
+      "existing_note_url": null,
+      "external_ids": {},
+      "field": null,
+      "fields_of_study": [],
+      "id": "arxiv:2610.09846v1",
+      "identifiers": {
+        "arxiv_id": "2610.09846v1"
+      },
+      "influential_citation_count": null,
+      "institutions": [],
+      "latest_note_url": null,
+      "note_count": 0,
+      "open_access_pdf_url": null,
+      "pdf_url": "https://arxiv.org/pdf/2610.09846v1",
+      "project_url": null,
+      "published_at": "2026-10-07",
+      "published_date": "2026-10-07",
+      "reading_advice": "quick_read",
+      "reading_status": "backlog",
+      "recommendation_level": "A",
+      "score": 0.817,
+      "scores": {
+        "classic_value": 0.35,
+        "engineering_transferability": 0.9500000000000001,
+        "recency": 1.0,
+        "source_quality": 0.78,
+        "total": 0.817,
+        "user_relevance": 0.75
+      },
+      "selected_for_s_level": false,
+      "source": "arxiv",
+      "source_group": "gpu_graphics",
+      "source_type": "recent_24h",
+      "source_url": "http://arxiv.org/abs/2610.09846v1",
+      "suggested_note_title": null,
+      "suggested_note_type": null,
+      "tags": [
+        "cs.GR"
+      ],
+      "title": "DynaConTalk: Wavelet-Constrained Diffusion for Long-Form and Controllable Holistic Co-Speech 3D Motion",
+      "title_zh": null,
+      "topics": [
+        "gpu_graphics"
+      ],
+      "url": "http://arxiv.org/abs/2610.09846v1",
+      "venue": null,
+      "why_recommended": "Ranked by recency signal across configured topics."
+    },
+    {
+      "abstract": "Physics simulation is a cornerstone of many computer graphics applications, ranging from video games and virtual reality to visual effects and computational design. The number of techniques for physically-based modeling and animation has thus skyrocketed over the past few decades, facilitating the simulation of a wide variety of materials and physical phenomena. These course notes provide an in-depth introduction to multiphysics simulation methods for computer graphics, covering the mathematical foundations, key algorithms, and practical considerations behind the most widely used approaches. We focus on methods developed by the computer graphics community for simulating various physical phenomena and materials -- including rigid and deformable bodies, fluids, and granular materials -- as well as the interactions between them. For each method, we present the underlying mathematical framework with detailed derivations and discuss how different materials and coupling strategies fit into the formulation. A selection of software frameworks that offer out-of-the-box multiphysics modeling capabilities is also presented. Finally, we touch on emerging trends in physics-based animation, including machine learning-based methods which have become increasingly popular in recent years.",
+      "authors": [
+        "Fabian L\u00f6schner",
+        "Stefan Rhys Jeske",
+        "Jos\u00e9 Antonio Fern\u00e1ndez-Fern\u00e1ndez",
+        "Jan Bender"
+      ],
+      "categories": [
+        "cs.GR"
+      ],
+      "citation_count": null,
+      "classic_status": null,
+      "code_url": null,
+      "deep_read_note_url": null,
+      "difficulty": null,
+      "enrichment_sources": [],
+      "existing_note_url": null,
+      "external_ids": {},
+      "field": null,
+      "fields_of_study": [],
+      "id": "arxiv:2610.09822v1",
+      "identifiers": {
+        "arxiv_id": "2610.09822v1"
+      },
+      "influential_citation_count": null,
+      "institutions": [],
+      "latest_note_url": null,
+      "note_count": 0,
+      "open_access_pdf_url": null,
+      "pdf_url": "https://arxiv.org/pdf/2610.09822v1",
+      "project_url": null,
+      "published_at": "2026-10-07",
+      "published_date": "2026-10-07",
+      "reading_advice": "quick_read",
+      "reading_status": "backlog",
+      "recommendation_level": "A",
+      "score": 0.787,
+      "scores": {
+        "classic_value": 0.35,
+        "engineering_transferability": 0.8,
+        "recency": 1.0,
+        "source_quality": 0.78,
+        "total": 0.787,
+        "user_relevance": 0.75
+      },
+      "selected_for_s_level": false,
+      "source": "arxiv",
+      "source_group": "gpu_graphics",
+      "source_type": "recent_24h",
+      "source_url": "http://arxiv.org/abs/2610.09822v1",
+      "suggested_note_title": null,
+      "suggested_note_type": null,
+      "tags": [
+        "cs.GR"
+      ],
+      "title": "Simulation Methods for Multiphysics Phenomena in Visual Computing",
+      "title_zh": null,
+      "topics": [
+        "gpu_graphics"
+      ],
+      "url": "http://arxiv.org/abs/2610.09822v1",
+      "venue": null,
+      "why_recommended": "Ranked by recency signal across configured topics."
+    },
+    {
+      "abstract": "Security monitoring of edge-IoT fleets faces three structural challenges. (i) A per-node monitor is cheap but cannot see attacks that coordinate across devices. (ii) A cloud monitor sees the full fleet but pays for that view in bandwidth. (iii) Even at the cloud, a monitor built on a single RV engine can be fooled by an attacker who compromises a device, raises one malicious request, and then goes silent: once the events stop, an event-triggered monitor has nothing left to evaluate. We propose a three-layer hierarchical runtime-verification framework that addresses all three. The edge layer classifies events as they happen, the gateway layer aggregates short windows of per-device behaviour, and the cloud layer runs two complementary RV engines. MonPoly handles first-order temporal correlation over the merged alert stream: coordinated overflow (which genuinely quantifies across devices) plus per-device multi-vector APT, escalation, and persistent-campaign patterns. RTLola handles a time-triggered silent-node property that an event-triggered engine cannot detect within a bounded delay under fleet silence. We evaluate the framework on a 15-actor Docker testbed covering eight attack profiles plus a silent-bypass scenario. In the controlled labelled testbed, every device-attributable incident the framework raises names an attacker-labelled device, and the RTLola tier catches silent-bypass attempts the event-triggered tier misses. Per-event monitoring stays in the microsecond range at the edge and gateway, with low end-to-end alert-to-incident latency at the cloud.",
+      "authors": [
+        "Nikolaos Kekatos",
+        "Marinelio Chintri",
+        "Panagiotis Katsaros",
+        "Alexios Lekidis",
+        "Tom Nianios",
+        "Ioannis Seitoglou",
+        "Anastasios Temperekidis",
+        "Stylianos Basagiannis"
+      ],
+      "categories": [
+        "cs.CR",
+        "cs.DC",
+        "cs.LO"
+      ],
+      "citation_count": null,
+      "classic_status": null,
+      "code_url": null,
+      "deep_read_note_url": null,
+      "difficulty": null,
+      "enrichment_sources": [],
+      "existing_note_url": null,
+      "external_ids": {},
+      "field": null,
+      "fields_of_study": [],
+      "id": "arxiv:2610.09825v1",
+      "identifiers": {
+        "arxiv_id": "2610.09825v1"
+      },
+      "influential_citation_count": null,
+      "institutions": [],
+      "latest_note_url": null,
+      "note_count": 0,
+      "open_access_pdf_url": null,
+      "pdf_url": "https://arxiv.org/pdf/2610.09825v1",
+      "project_url": null,
+      "published_at": "2026-10-07",
+      "published_date": "2026-10-07",
+      "reading_advice": "quick_read",
+      "reading_status": "backlog",
+      "recommendation_level": "A",
+      "score": 0.787,
+      "scores": {
+        "classic_value": 0.35,
+        "engineering_transferability": 0.8,
+        "recency": 1.0,
+        "source_quality": 0.78,
+        "total": 0.787,
+        "user_relevance": 0.75
+      },
+      "selected_for_s_level": false,
+      "source": "arxiv",
+      "source_group": "architecture",
+      "source_type": "recent_24h",
+      "source_url": "http://arxiv.org/abs/2610.09825v1",
+      "suggested_note_title": null,
+      "suggested_note_type": null,
+      "tags": [
+        "cs.CR",
+        "cs.DC",
+        "cs.LO"
+      ],
+      "title": "Hybrid Hierarchical Runtime Verification for Edge-IoT Security: Combining MonPoly and RTLola",
+      "title_zh": null,
+      "topics": [
+        "architecture"
+      ],
+      "url": "http://arxiv.org/abs/2610.09825v1",
+      "venue": null,
+      "why_recommended": "Ranked by recency signal across configured topics."
+    },
+    {
+      "abstract": "Large language model (LLM) agents interact with external resources to complete complex user tasks, exposing them to indirect prompt injection (IPI), where malicious instructions redirect agents toward attacker-intended tasks. Since IPI is difficult to defend against in real-world environments, post-incident tracing is essential for locating the injection source and reconstructing the attack chain. However, existing tracing methods primarily capture explicit control-flow and data-flow dependencies, overlooking the implicit relationships among tool calls driven by the malicious instruction. These tool calls may lack explicit dependencies and be interleaved with legitimate operations, making complete attack-chain reconstruction difficult. In this paper, we present AgentTracer, an intent-aware tracing framework that treats IPI as task intent drift. AgentTracer recovers implicit decision dependencies among tool calls to construct an Intent-Driven Execution Graph that connects dispersed tool calls by task intent. It combines the user request with an operation knowledge base to construct a user intent authorization space and identify intent-drift tool calls. Starting from an anomalous tool call under audit, AgentTracer performs target-based pruning and backward tracing to reconstruct the attack chain and locate the injection source and injection point. To evaluate AgentTracer in the presence of noise from normal tasks, we combine execution logs constructed from successful IPI attacks in AgentDyn and InjecAgent with normal execution logs containing 1,800 user requests and 9,000 background tool calls without IPI. In end-to-end experiments, AgentTracer achieves 94.17 percent injection-point accuracy and 93.56 percent path precision. Comparative experiments show that AgentTracer improves injection-point accuracy over existing methods by 18 to 54 percent.",
+      "authors": [
+        "Zitong Yao",
+        "Jiangrong Wu",
+        "Yixi Lin",
+        "Anrui Huang",
+        "Luoyun Zhang",
+        "Yuhong Nan"
+      ],
+      "categories": [
+        "cs.SE"
+      ],
+      "citation_count": null,
+      "classic_status": null,
+      "code_url": null,
+      "deep_read_note_url": null,
+      "difficulty": null,
+      "enrichment_sources": [],
+      "existing_note_url": null,
+      "external_ids": {},
+      "field": null,
+      "fields_of_study": [],
+      "id": "arxiv:2610.09935v1",
+      "identifiers": {
+        "arxiv_id": "2610.09935v1"
+      },
+      "influential_citation_count": null,
+      "institutions": [],
+      "latest_note_url": null,
+      "note_count": 0,
+      "open_access_pdf_url": null,
+      "pdf_url": "https://arxiv.org/pdf/2610.09935v1",
+      "project_url": null,
+      "published_at": "2026-10-07",
+      "published_date": "2026-10-07",
+      "reading_advice": "quick_read",
+      "reading_status": "backlog",
+      "recommendation_level": "A",
+      "score": 0.787,
+      "scores": {
+        "classic_value": 0.35,
+        "engineering_transferability": 0.8,
+        "recency": 1.0,
+        "source_quality": 0.78,
+        "total": 0.787,
+        "user_relevance": 0.75
+      },
+      "selected_for_s_level": false,
+      "source": "arxiv",
+      "source_group": "llm_agent",
+      "source_type": "recent_24h",
+      "source_url": "http://arxiv.org/abs/2610.09935v1",
+      "suggested_note_title": null,
+      "suggested_note_type": null,
+      "tags": [
+        "cs.SE"
+      ],
+      "title": "AgentTracer: Tracing Indirect Prompt Injection Attack through Fine-Grained Intention-Execution Alignment",
+      "title_zh": null,
+      "topics": [
+        "llm_agent"
+      ],
+      "url": "http://arxiv.org/abs/2610.09935v1",
+      "venue": null,
+      "why_recommended": "Ranked by recency signal across configured topics."
+    },
+    {
+      "abstract": "The EU Cyber Resilience Act (CRA) turns product cybersecurity into a lifecycle compliance obligation for manufacturers, importers, distributors, and integrators of products with digital elements on the EU market, a load that falls largely on small and medium-sized enterprises (SMEs) that rarely have dedicated governance, risk, and compliance (GRC) capacity. We present CYBERFORT, an open-source CRA-first compliance platform developed under the EU Digital Europe Programme and one of twelve projects in the EU CRA cluster. CYBERFORT operationalises the CRA through a guided scope self-assessment, a question bank tied to Annex I and the vulnerability-handling obligations, and a compliance-checking engine that links every answer to controls, policies, and machine-attested evidence, reusing ISO/IEC 27001, NIS2, and GDPR controls only where they coincide with CRA obligations. Its central contribution is the compliance chain, a traceable structure linking each product risk through its controls and policies to the CRA obligations it satisfies, and onward through evidence to the technical-documentation file and EU declaration of conformity, so that every operational gap is traceable and can be closed before market placement. Deployed at https://access.cyber-fort.eu/ for a first cohort of 43 organisations, the platform is presented with the engineering behind the chain, measured results from a completed end-to-end case study on a SIEM/XDR product with AI-driven remediation spanning the CRA obligation chapters, and the controlled effort study that remains in progress.",
+      "authors": [
+        "Nikolaos Kekatos",
+        "Georgios Koutidis",
+        "Mihaela Curc\u0103",
+        "Angelos Fountoulakis",
+        "Marios Ioannou",
+        "Michael Ioannou",
+        "Elias Iosif",
+        "Paul Lacatus",
+        "Alexios Lekidis",
+        "Avgi Michael",
+        "Tom Nianios"
+      ],
+      "categories": [
+        "cs.CR",
+        "cs.CY",
+        "cs.SE"
+      ],
+      "citation_count": null,
+      "classic_status": null,
+      "code_url": null,
+      "deep_read_note_url": null,
+      "difficulty": null,
+      "enrichment_sources": [],
+      "existing_note_url": null,
+      "external_ids": {},
+      "field": null,
+      "fields_of_study": [],
+      "id": "arxiv:2610.09918v1",
+      "identifiers": {
+        "arxiv_id": "2610.09918v1"
+      },
+      "influential_citation_count": null,
+      "institutions": [],
+      "latest_note_url": null,
+      "note_count": 0,
+      "open_access_pdf_url": null,
+      "pdf_url": "https://arxiv.org/pdf/2610.09918v1",
+      "project_url": null,
+      "published_at": "2026-10-07",
+      "published_date": "2026-10-07",
+      "reading_advice": "quick_read",
+      "reading_status": "backlog",
+      "recommendation_level": "A",
+      "score": 0.787,
+      "scores": {
+        "classic_value": 0.35,
+        "engineering_transferability": 0.8,
+        "recency": 1.0,
+        "source_quality": 0.78,
+        "total": 0.787,
+        "user_relevance": 0.75
+      },
+      "selected_for_s_level": false,
+      "source": "arxiv",
+      "source_group": "llm_agent",
+      "source_type": "recent_24h",
+      "source_url": "http://arxiv.org/abs/2610.09918v1",
+      "suggested_note_title": null,
+      "suggested_note_type": null,
+      "tags": [
+        "cs.CR",
+        "cs.CY",
+        "cs.SE"
+      ],
+      "title": "CYBERFORT: A Compliance-Chain Platform Operationalising the Cyber Resilience Act for SMEs",
+      "title_zh": null,
+      "topics": [
+        "llm_agent"
+      ],
+      "url": "http://arxiv.org/abs/2610.09918v1",
+      "venue": null,
+      "why_recommended": "Ranked by recency signal across configured topics."
+    },
+    {
+      "abstract": "Value alignment is a central objective in AI and HCI research, yet no validated instrument measures how users perceive it. This gap hampers the comparison and accumulation of findings and limits the effectiveness of applications, where understanding users' viewpoints is critical. We construct and evaluate a 13-item psychometric scale that measures perceived value alignment across two components: value understanding and value manifestation. It is based on a large item pool drawn from prior empirical studies, filtered by experts, and finally assessed by users (N=607) across diverse AI scenarios. Confirmatory factor analysis on an independent sample (N=259) confirmed the two-factor structure and high internal consistency for both subscales. Using optimization, we also derived a 6-item short form for quick administration. The scale is a reliable measure, providing HCI researchers with a common evaluation metric across contexts.",
+      "authors": [
+        "Lena Hegemann",
+        "Steeven Villa",
+        "Hyemin Bang",
+        "Mitchell L. Gordon",
+        "Antti Oulasvirta",
+        "Robin Welsch",
+        "Patrick Ebel"
+      ],
+      "categories": [
+        "cs.HC"
+      ],
+      "citation_count": null,
+      "classic_status": null,
+      "code_url": null,
+      "deep_read_note_url": null,
+      "difficulty": null,
+      "enrichment_sources": [],
+      "existing_note_url": null,
+      "external_ids": {},
+      "field": null,
+      "fields_of_study": [],
+      "id": "arxiv:2610.09911v1",
+      "identifiers": {
+        "arxiv_id": "2610.09911v1"
+      },
+      "influential_citation_count": null,
+      "institutions": [],
+      "latest_note_url": null,
+      "note_count": 0,
+      "open_access_pdf_url": null,
+      "pdf_url": "https://arxiv.org/pdf/2610.09911v1",
+      "project_url": null,
+      "published_at": "2026-10-07",
+      "published_date": "2026-10-07",
+      "reading_advice": "save_for_later",
+      "reading_status": "backlog",
+      "recommendation_level": "B",
+      "score": 0.717,
+      "scores": {
+        "classic_value": 0.35,
+        "engineering_transferability": 0.45,
+        "recency": 1.0,
+        "source_quality": 0.78,
+        "total": 0.717,
+        "user_relevance": 0.75
+      },
+      "selected_for_s_level": false,
+      "source": "arxiv",
+      "source_group": "cognition_social",
+      "source_type": "recent_24h",
+      "source_url": "http://arxiv.org/abs/2610.09911v1",
+      "suggested_note_title": null,
+      "suggested_note_type": null,
+      "tags": [
+        "cs.HC"
+      ],
+      "title": "A Scale For Value Alignment In Human-AI Interaction",
+      "title_zh": null,
+      "topics": [
+        "cognition"
+      ],
+      "url": "http://arxiv.org/abs/2610.09911v1",
+      "venue": null,
+      "why_recommended": "Ranked by recency signal across configured topics."
+    }
+  ],
+  "public_json_version": "0.4",
+  "s_level_candidate_ids": [],
+  "s_level_paper_id": null,
+  "source_mode_summary": {
+    "recent_24h": 6
+  },
+  "summary": "Selected 6 papers: 6 recent candidates and 0 classic fallback items."
+}

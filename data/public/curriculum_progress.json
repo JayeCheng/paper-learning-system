@@ -11,7 +11,7 @@
         "arxiv:2609.36959v1",
         "arxiv:2609.39131v1"
       ],
-      "planned_count": 54
+      "planned_count": 55
     },
     {
       "completed_count": 0,
@@ -23,7 +23,7 @@
         "arxiv:2608.10839v1",
         "arxiv:2607.11512v1"
       ],
-      "planned_count": 121
+      "planned_count": 122
     },
     {
       "completed_count": 0,
@@ -35,7 +35,7 @@
         "arxiv:2610.07985v1",
         "arxiv:2607.11512v1"
       ],
-      "planned_count": 139
+      "planned_count": 140
     },
     {
       "completed_count": 0,
@@ -43,11 +43,11 @@
       "id": "gpu_graphics",
       "label": "GPU / Graphics",
       "next_paper_ids": [
+        "arxiv:2610.09846v1",
         "arxiv:2608.06117v1",
-        "arxiv:2609.36898v1",
-        "arxiv:2610.07941v1"
+        "arxiv:2609.36898v1"
       ],
-      "planned_count": 105
+      "planned_count": 107
     },
     {
       "completed_count": 0,
@@ -59,7 +59,7 @@
         "arxiv:2609.39131v1",
         "arxiv:2610.08097v1"
       ],
-      "planned_count": 157
+      "planned_count": 159
     },
     {
       "completed_count": 0,
@@ -74,5 +74,5 @@
       "planned_count": 7
     }
   ],
-  "updated_at": "2026-10-07T01:25:22+00:00"
+  "updated_at": "2026-10-08T01:48:01+00:00"
 }

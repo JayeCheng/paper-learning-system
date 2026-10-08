@@ -286,6 +286,12 @@ arxiv:2610.08097v1,backlog,medium,,2026-10-07T01:25:22+00:00,When Tools Lie: Rel
 arxiv:2610.08125v1,backlog,medium,,2026-10-07T01:25:22+00:00,Conversation Is a Two-Body Problem: Dyadic Evaluation of Full-Duplex Dialogue Models,llm_agent,A
 arxiv:2610.08132v1,backlog,medium,,2026-10-07T01:25:22+00:00,Beyond Marginal Monitoring: Distributed Joint-Distribution Testing for Data Concept Drift in Large Scale E-Commerce Operations,architecture,A
 arxiv:2610.08137v1,backlog,medium,,2026-10-07T01:25:22+00:00,Rethinking Visual Provenance: Detection and Watermarking Across Direct Visual Generation and LLM-Driven Code Rendering,gpu_graphics,A
+arxiv:2610.09822v1,backlog,medium,,2026-10-08T01:48:01+00:00,Simulation Methods for Multiphysics Phenomena in Visual Computing,gpu_graphics,A
+arxiv:2610.09825v1,backlog,medium,,2026-10-08T01:48:01+00:00,Hybrid Hierarchical Runtime Verification for Edge-IoT Security: Combining MonPoly and RTLola,architecture,A
+arxiv:2610.09846v1,backlog,medium,,2026-10-08T01:48:01+00:00,DynaConTalk: Wavelet-Constrained Diffusion for Long-Form and Controllable Holistic Co-Speech 3D Motion,gpu_graphics,A
+arxiv:2610.09911v1,backlog,medium,,2026-10-08T01:48:01+00:00,A Scale For Value Alignment In Human-AI Interaction,cognition_social,B
+arxiv:2610.09918v1,backlog,medium,,2026-10-08T01:48:01+00:00,CYBERFORT: A Compliance-Chain Platform Operationalising the Cyber Resilience Act for SMEs,llm_agent,A
+arxiv:2610.09935v1,backlog,medium,,2026-10-08T01:48:01+00:00,AgentTracer: Tracing Indirect Prompt Injection Attack through Fine-Grained Intention-Execution Alignment,llm_agent,A
 biorxiv:10.1101/2023.01.10.523479,backlog,medium,,2026-09-28T00:33:07+00:00,How Occam's razor guides human decision-making,cognition_social,B
 biorxiv:10.1101/2024.09.30.615819,backlog,medium,,2026-09-22T00:43:20+00:00,Hierarchy of prediction errors shapes the learning of context-dependent sensory representations,cognition_social,B
 biorxiv:10.1101/2024.10.24.620089,backlog,medium,,2026-09-23T00:19:20+00:00,Functional organization and natural scene responses across mouse visual cortical areas revealed with encoding manifolds,cognition_social,B
