@@ -292,6 +292,12 @@ arxiv:2610.09846v1,backlog,medium,,2026-10-08T01:48:01+00:00,DynaConTalk: Wavele
 arxiv:2610.09911v1,backlog,medium,,2026-10-08T01:48:01+00:00,A Scale For Value Alignment In Human-AI Interaction,cognition_social,B
 arxiv:2610.09918v1,backlog,medium,,2026-10-08T01:48:01+00:00,CYBERFORT: A Compliance-Chain Platform Operationalising the Cyber Resilience Act for SMEs,llm_agent,A
 arxiv:2610.09935v1,backlog,medium,,2026-10-08T01:48:01+00:00,AgentTracer: Tracing Indirect Prompt Injection Attack through Fine-Grained Intention-Execution Alignment,llm_agent,A
+arxiv:2610.11447v1,backlog,medium,,2026-10-09T02:01:45+00:00,Closed-loop evaluation of LLM agents for embedded software development,architecture,A
+arxiv:2610.11653v1,backlog,medium,,2026-10-09T02:01:45+00:00,Tabula Rasa: Monte Carlo estimation of unit-variance noise with controlled spatio-temporal correlation,gpu_graphics,A
+arxiv:2610.11702v1,backlog,medium,,2026-10-09T02:01:45+00:00,Neural Caching of Prefiltered Radiance for Specular Lighting,gpu_graphics,A
+arxiv:2610.12452v1,backlog,medium,,2026-10-09T02:01:45+00:00,BrickBench: Evaluating Agentic Brick Design,llm_agent,A
+arxiv:2610.12455v1,backlog,medium,,2026-10-09T02:01:45+00:00,Hybrid Cinematography: Previsualizing and Managing Hallucination Risk in Generative Video Reshooting,cognition_social,A
+arxiv:2610.12467v1,backlog,medium,,2026-10-09T02:01:45+00:00,CSF: Contextual Safety Filtering for Motion Generators,llm_agent,A
 biorxiv:10.1101/2023.01.10.523479,backlog,medium,,2026-09-28T00:33:07+00:00,How Occam's razor guides human decision-making,cognition_social,B
 biorxiv:10.1101/2024.09.30.615819,backlog,medium,,2026-09-22T00:43:20+00:00,Hierarchy of prediction errors shapes the learning of context-dependent sensory representations,cognition_social,B
 biorxiv:10.1101/2024.10.24.620089,backlog,medium,,2026-09-23T00:19:20+00:00,Functional organization and natural scene responses across mouse visual cortical areas revealed with encoding manifolds,cognition_social,B
