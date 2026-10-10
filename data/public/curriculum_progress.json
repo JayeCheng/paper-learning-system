@@ -7,9 +7,9 @@
       "id": "architecture",
       "label": "Computer Architecture",
       "next_paper_ids": [
-        "arxiv:2610.11447v1",
         "arxiv:2608.06188v1",
-        "arxiv:2609.36959v1"
+        "arxiv:2609.36959v1",
+        "arxiv:2609.39131v1"
       ],
       "planned_count": 56
     },
@@ -23,7 +23,7 @@
         "arxiv:2608.10839v1",
         "arxiv:2610.12455v1"
       ],
-      "planned_count": 123
+      "planned_count": 124
     },
     {
       "completed_count": 0,
@@ -35,7 +35,7 @@
         "arxiv:2610.07985v1",
         "arxiv:2610.12455v1"
       ],
-      "planned_count": 141
+      "planned_count": 142
     },
     {
       "completed_count": 0,
@@ -47,7 +47,7 @@
         "arxiv:2610.11653v1",
         "arxiv:2608.06117v1"
       ],
-      "planned_count": 111
+      "planned_count": 112
     },
     {
       "completed_count": 0,
@@ -55,11 +55,11 @@
       "id": "llm_agent",
       "label": "LLM Agent / RAG",
       "next_paper_ids": [
-        "arxiv:2610.11447v1",
         "arxiv:2608.06228v1",
-        "arxiv:2609.39131v1"
+        "arxiv:2609.39131v1",
+        "arxiv:2610.08097v1"
       ],
-      "planned_count": 162
+      "planned_count": 164
     },
     {
       "completed_count": 0,
@@ -74,5 +74,5 @@
       "planned_count": 7
     }
   ],
-  "updated_at": "2026-10-09T02:01:45+00:00"
+  "updated_at": "2026-10-10T01:40:26+00:00"
 }

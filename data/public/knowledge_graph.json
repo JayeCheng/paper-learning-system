@@ -2619,6 +2619,24 @@
     {
       "confidence": 0.5,
       "relation": "related_to",
+      "source": "arxiv:2610.11918v1",
+      "target": "llm_agent"
+    },
+    {
+      "confidence": 0.5,
+      "relation": "related_to",
+      "source": "arxiv:2610.11918v1",
+      "target": "cognition"
+    },
+    {
+      "confidence": 0.5,
+      "relation": "related_to",
+      "source": "arxiv:2610.11918v1",
+      "target": "cognition_social"
+    },
+    {
+      "confidence": 0.5,
+      "relation": "related_to",
       "source": "arxiv:2610.12452v1",
       "target": "llm_agent"
     },
@@ -2645,6 +2663,18 @@
       "relation": "related_to",
       "source": "arxiv:2610.12455v1",
       "target": "cognition_social"
+    },
+    {
+      "confidence": 0.5,
+      "relation": "related_to",
+      "source": "arxiv:2610.12461v1",
+      "target": "gpu_graphics"
+    },
+    {
+      "confidence": 0.5,
+      "relation": "related_to",
+      "source": "arxiv:2610.12465v1",
+      "target": "llm_agent"
     },
     {
       "confidence": 0.5,
@@ -6175,6 +6205,15 @@
       "type": "paper"
     },
     {
+      "id": "arxiv:2610.11918v1",
+      "label": "From Surface to Depth: Towards Cognitive Appraisal Reasoning in Multimodal Emotion Understanding",
+      "topics": [
+        "llm_agent",
+        "cognition"
+      ],
+      "type": "paper"
+    },
+    {
       "id": "arxiv:2610.12452v1",
       "label": "BrickBench: Evaluating Agentic Brick Design",
       "topics": [
@@ -6189,6 +6228,22 @@
       "topics": [
         "cognition",
         "gpu_graphics"
+      ],
+      "type": "paper"
+    },
+    {
+      "id": "arxiv:2610.12461v1",
+      "label": "OuroWorld: Bringing Any 3D World Alive as Diverse, Endlessly Looping 3D Cinemagraphs",
+      "topics": [
+        "gpu_graphics"
+      ],
+      "type": "paper"
+    },
+    {
+      "id": "arxiv:2610.12465v1",
+      "label": "A Balanced Data Diet: Addressing the Exploration Bottleneck in Mega-Scale RL for Robot Control",
+      "topics": [
+        "llm_agent"
       ],
       "type": "paper"
     },
@@ -6994,5 +7049,5 @@
     }
   ],
   "public_json_version": "0.4",
-  "updated_at": "2026-10-09T02:01:45+00:00"
+  "updated_at": "2026-10-10T01:40:26+00:00"
 }

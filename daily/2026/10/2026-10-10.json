@@ -1,0 +1,475 @@
+{
+  "date": "2026-10-10",
+  "frontend_entry": "data/public/latest.json",
+  "generated_at": "2026-10-10T01:40:26+00:00",
+  "generated_paths": {
+    "exports_csv": "data/exports/papers.csv",
+    "exports_daily_csv": "data/exports/daily_papers.csv",
+    "exports_jsonl": "data/exports/papers.jsonl",
+    "exports_notes_index": "data/exports/notes_index.csv",
+    "exports_reading_status": "data/exports/reading_status.csv",
+    "json": "daily/2026/10/2026-10-10.json",
+    "markdown": "daily/2026/10/2026-10-10.md",
+    "public_curriculum_progress": "data/public/curriculum_progress.json",
+    "public_daily_index": "data/public/daily_index.json",
+    "public_knowledge_graph": "data/public/knowledge_graph.json",
+    "public_latest": "data/public/latest.json",
+    "public_notes_index": "data/public/notes_index.json",
+    "public_papers_index": "data/public/papers_index.json",
+    "public_reading_status": "data/public/reading_status.json",
+    "state_notes_index": "data/state/notes_index.json",
+    "state_papers": "data/state/papers.jsonl",
+    "state_reading_status": "data/state/reading_status.json",
+    "state_run_history": "data/state/run_history.json"
+  },
+  "knowledge_graph_delta": [
+    "paper:arxiv:2610.12461v1",
+    "paper:arxiv:2610.12452v1",
+    "paper:arxiv:2610.11447v1",
+    "paper:arxiv:2610.12467v1",
+    "paper:arxiv:2610.12465v1",
+    "paper:arxiv:2610.11918v1"
+  ],
+  "learning_route_position": "v0.4 GitHub-owned note bridge",
+  "next_actions": [
+    "Review S-level candidate",
+    "Update reading status after skim",
+    "Promote durable concepts into the knowledge graph"
+  ],
+  "papers": [
+    {
+      "abstract": "Recent 3D world models generate photorealistic, explorable scenes that remain frozen in time. OuroWorld is a mask-free framework that turns any static 3D Gaussian Splatting scene into a 3D cinemagraph: a dynamic scene with vivid, diverse motion looping seamlessly from any viewpoint. A vision-language model infers plausible dynamics and guides a video model to synthesize a reference video, which we lift and complete into multi-view videos. To learn from this imperfect supervision, we propose Inconsistency-Robust Periodic 4DGS: a Fourier-series deformation field guarantees looping by construction, while a Grounded Drift Field anchored at the reference view absorbs cross-view inconsistency. Unlike prior Eulerian methods limited to fluid-like motion, we capture general deformation, object motion, and illumination change. We introduce a ground-truth-free evaluation covering vividness, naturalness, loop seam coherence, and scene quality. On 39 reconstructed and generated scenes, OuroWorld outperforms all baselines and wins 70.8%-99.0% of user-study comparisons. Project page: https://ouroworld.userwei.com",
+      "authors": [
+        "You-Zhe Xie",
+        "Ting-Wei Chou",
+        "Yu-Hsuan Li",
+        "Kaipeng Zhang",
+        "Zhixiang Wang",
+        "Yu-Lun Liu"
+      ],
+      "categories": [
+        "cs.CV",
+        "cs.GR"
+      ],
+      "citation_count": null,
+      "classic_status": null,
+      "code_url": null,
+      "deep_read_note_url": null,
+      "difficulty": null,
+      "enrichment_sources": [],
+      "existing_note_url": null,
+      "external_ids": {},
+      "field": null,
+      "fields_of_study": [],
+      "id": "arxiv:2610.12461v1",
+      "identifiers": {
+        "arxiv_id": "2610.12461v1"
+      },
+      "influential_citation_count": null,
+      "institutions": [],
+      "latest_note_url": null,
+      "note_count": 0,
+      "open_access_pdf_url": null,
+      "pdf_url": "https://arxiv.org/pdf/2610.12461v1",
+      "project_url": null,
+      "published_at": "2026-10-08",
+      "published_date": "2026-10-08",
+      "reading_advice": "save_for_later",
+      "reading_status": "backlog",
+      "recommendation_level": "B",
+      "score": 0.732,
+      "scores": {
+        "classic_value": 0.35,
+        "engineering_transferability": 0.8,
+        "recency": 0.78,
+        "source_quality": 0.78,
+        "total": 0.732,
+        "user_relevance": 0.75
+      },
+      "selected_for_s_level": false,
+      "source": "arxiv",
+      "source_group": "gpu_graphics",
+      "source_type": "recent_7d",
+      "source_url": "http://arxiv.org/abs/2610.12461v1",
+      "suggested_note_title": null,
+      "suggested_note_type": null,
+      "tags": [
+        "cs.CV",
+        "cs.GR"
+      ],
+      "title": "OuroWorld: Bringing Any 3D World Alive as Diverse, Endlessly Looping 3D Cinemagraphs",
+      "title_zh": null,
+      "topics": [
+        "gpu_graphics"
+      ],
+      "url": "http://arxiv.org/abs/2610.12461v1",
+      "venue": null,
+      "why_recommended": "Ranked by engineering transferability signal across configured topics."
+    },
+    {
+      "abstract": "We propose BrickBench, a benchmark for agentic text-conditioned LEGO-set design. Given a prompt, an agent is tasked with producing an assembly that not only satisfies semantic and design criteria, but that can also be physically built. To do so, it must select parts from a discrete library and reason jointly about local and global constraints. We score validity, alignment, and design across three settings that vary in scale and part availability. We provide BrickAgent, an environment for coding agents to construct, inspect, and validate their designs. We find that leading agents largely satisfy verifiable physical and semantic requirements, but fall short of human designs. We release our benchmark and environment at http://www.brickben.ch",
+      "authors": [
+        "Peter Kulits",
+        "Yiqing Xu",
+        "R. Kenny Jones",
+        "Cordelia Schmid",
+        "Jiajun Wu"
+      ],
+      "categories": [
+        "cs.AI",
+        "cs.CV",
+        "cs.GR"
+      ],
+      "citation_count": null,
+      "classic_status": null,
+      "code_url": null,
+      "deep_read_note_url": null,
+      "difficulty": null,
+      "enrichment_sources": [],
+      "existing_note_url": null,
+      "external_ids": {},
+      "field": null,
+      "fields_of_study": [],
+      "id": "arxiv:2610.12452v1",
+      "identifiers": {
+        "arxiv_id": "2610.12452v1"
+      },
+      "influential_citation_count": null,
+      "institutions": [],
+      "latest_note_url": null,
+      "note_count": 0,
+      "open_access_pdf_url": null,
+      "pdf_url": "https://arxiv.org/pdf/2610.12452v1",
+      "project_url": null,
+      "published_at": "2026-10-08",
+      "published_date": "2026-10-08",
+      "reading_advice": "save_for_later",
+      "reading_status": "backlog",
+      "recommendation_level": "B",
+      "score": 0.732,
+      "scores": {
+        "classic_value": 0.35,
+        "engineering_transferability": 0.8,
+        "recency": 0.78,
+        "source_quality": 0.78,
+        "total": 0.732,
+        "user_relevance": 0.75
+      },
+      "selected_for_s_level": false,
+      "source": "arxiv",
+      "source_group": "gpu_graphics",
+      "source_type": "recent_7d",
+      "source_url": "http://arxiv.org/abs/2610.12452v1",
+      "suggested_note_title": null,
+      "suggested_note_type": null,
+      "tags": [
+        "cs.AI",
+        "cs.CV",
+        "cs.GR"
+      ],
+      "title": "BrickBench: Evaluating Agentic Brick Design",
+      "title_zh": null,
+      "topics": [
+        "llm_agent",
+        "gpu_graphics"
+      ],
+      "url": "http://arxiv.org/abs/2610.12452v1",
+      "venue": null,
+      "why_recommended": "Ranked by engineering transferability signal across configured topics."
+    },
+    {
+      "abstract": "Large language models (LLMs) are increasingly deployed as coding agents that edit files, run builds and tests, inspect execution results, and repair software iteratively. Embedded firmware is a demanding target because correctness depends on closed-loop behavior under sensing, timing, and safety constraints, not only on static source quality. Yet embedded-agent evaluation remains limited and often emphasizes one-shot synthesis or offline correctness. We present a benchmark for closed-loop evaluation of embedded coding agents. Each task provides a plain-text engineering description, constrained workspace, and visible build-and-runtime surface. The agent must translate requirements into implementation and self-verification steps, then iterate until the required device behavior is achieved. The suite contains five embedded-control tasks and four feedback scenarios: one-shot generation, realistic self-verification, CI-style red/green feedback, and oracle-style detailed feedback. The implementation targets simulated ESP32 firmware for reproducibility. We evaluate seven GPT-family and Qwen-family configurations across five tasks and four scenarios, with three repetitions per condition for 420 runs. gpt-5.4 has the highest pass rate among evaluated configurations but does not saturate the benchmark; qwen3.5-27B is the strongest observed local model; and smaller local models degrade sharply in pass rate and search efficiency. These results suggest that capable local embedded coding agents are emerging.",
+      "authors": [
+        "Jorge Garc\u00eda-Carrasco",
+        "Sergio Garc\u00eda-Carrasco",
+        "Alejandro Mat\u00e9",
+        "Juan Trujillo"
+      ],
+      "categories": [
+        "cs.SE",
+        "cs.AI",
+        "cs.AR",
+        "cs.LG"
+      ],
+      "citation_count": null,
+      "classic_status": null,
+      "code_url": "https://github.com/jgcarrasco/closed_loop_evaluation_agents_embedded",
+      "deep_read_note_url": null,
+      "difficulty": null,
+      "enrichment_sources": [],
+      "existing_note_url": null,
+      "external_ids": {},
+      "field": null,
+      "fields_of_study": [],
+      "id": "arxiv:2610.11447v1",
+      "identifiers": {
+        "arxiv_id": "2610.11447v1"
+      },
+      "influential_citation_count": null,
+      "institutions": [],
+      "latest_note_url": null,
+      "note_count": 0,
+      "open_access_pdf_url": null,
+      "pdf_url": "https://arxiv.org/pdf/2610.11447v1",
+      "project_url": null,
+      "published_at": "2026-10-08",
+      "published_date": "2026-10-08",
+      "reading_advice": "quick_read",
+      "reading_status": "backlog",
+      "recommendation_level": "A",
+      "score": 0.762,
+      "scores": {
+        "classic_value": 0.35,
+        "engineering_transferability": 0.9500000000000001,
+        "recency": 0.78,
+        "source_quality": 0.78,
+        "total": 0.762,
+        "user_relevance": 0.75
+      },
+      "selected_for_s_level": false,
+      "source": "arxiv",
+      "source_group": "architecture",
+      "source_type": "recent_7d",
+      "source_url": "http://arxiv.org/abs/2610.11447v1",
+      "suggested_note_title": null,
+      "suggested_note_type": null,
+      "tags": [
+        "cs.SE",
+        "cs.AI",
+        "cs.AR",
+        "cs.LG"
+      ],
+      "title": "Closed-loop evaluation of LLM agents for embedded software development",
+      "title_zh": null,
+      "topics": [
+        "llm_agent",
+        "architecture"
+      ],
+      "url": "http://arxiv.org/abs/2610.11447v1",
+      "venue": null,
+      "why_recommended": "Ranked by engineering transferability signal across configured topics."
+    },
+    {
+      "abstract": "Text-conditioned motion generators produce trackable whole-body motion, but they have no notion of scene-dependent safety: the same action may target an object or a person. Existing safeguards either inspect the prompt, require labeled motion data, or enforce geometric constraints; therefore, they do not directly account for how scene context changes a motion's meaning. We introduce contextual safety filtering (CSF), a training-free filter that grounds natural-language safety rules in safe and unsafe reference trajectories produced by the generator. For each active rule, safe and unsafe reference trajectories define an affine safety value that a safe reference tracking CBF-QP enforces. Across four pretrained generators with different architectures, CSF activates the intended rules in all explicit and scene-triggered unsafe cases and reduces the danger-event rate by up to 90%, while preserving 88-100% of benign motions. We demonstrate the complete system on a real-world Unitree G1, where it successfully prevents unsafe motions in a variety of scenarios, including interactions with humans and objects.",
+      "authors": [
+        "Lizhi Yang",
+        "Yiling Hou",
+        "Yao Tang",
+        "Junheng Li",
+        "Daniel Weng",
+        "Blake Werner",
+        "Aaron D. Ames"
+      ],
+      "categories": [
+        "cs.RO",
+        "cs.LG"
+      ],
+      "citation_count": null,
+      "classic_status": null,
+      "code_url": null,
+      "deep_read_note_url": null,
+      "difficulty": null,
+      "enrichment_sources": [],
+      "existing_note_url": null,
+      "external_ids": {},
+      "field": null,
+      "fields_of_study": [],
+      "id": "arxiv:2610.12467v1",
+      "identifiers": {
+        "arxiv_id": "2610.12467v1"
+      },
+      "influential_citation_count": null,
+      "institutions": [],
+      "latest_note_url": null,
+      "note_count": 0,
+      "open_access_pdf_url": null,
+      "pdf_url": "https://arxiv.org/pdf/2610.12467v1",
+      "project_url": "https://lzyang2000.github.io/csf/",
+      "published_at": "2026-10-08",
+      "published_date": "2026-10-08",
+      "reading_advice": "save_for_later",
+      "reading_status": "backlog",
+      "recommendation_level": "B",
+      "score": 0.692,
+      "scores": {
+        "classic_value": 0.35,
+        "engineering_transferability": 0.6,
+        "recency": 0.78,
+        "source_quality": 0.78,
+        "total": 0.692,
+        "user_relevance": 0.75
+      },
+      "selected_for_s_level": false,
+      "source": "arxiv",
+      "source_group": "llm_agent",
+      "source_type": "recent_7d",
+      "source_url": "http://arxiv.org/abs/2610.12467v1",
+      "suggested_note_title": null,
+      "suggested_note_type": null,
+      "tags": [
+        "cs.RO",
+        "cs.LG"
+      ],
+      "title": "CSF: Contextual Safety Filtering for Motion Generators",
+      "title_zh": null,
+      "topics": [
+        "llm_agent"
+      ],
+      "url": "http://arxiv.org/abs/2610.12467v1",
+      "venue": null,
+      "why_recommended": "Ranked by recency signal across configured topics."
+    },
+    {
+      "abstract": "General-purpose robots must perform a wide range of tasks from agile locomotion to dexterous manipulation. While sim-to-real reinforcement learning (RL) has proven to be a useful tool for this goal, current RL pipelines depend on engineering-heavy, per-task structural priors such as shaped rewards and demonstrations. Recent work has shown that diverse simulator resets, combined with massively parallel simulation, can alleviate much of this engineering burden on several manipulation problems. However, we find that naively scaling this paradigm to more precise or dynamic problems remains non-trivial. While simulator resets can help with exploration, uniformly sampling over this distribution wastes a growing fraction of learning experience on task configurations the policy has already mastered or cannot yet attempt. This makes it challenging to see the expected benefits of scaling parallel environments for RL, since much of the learning signal in a batch is wasted during learning. To mitigate this, we introduce Success Guided Sampling (SGS), a simple adaptive sampler that concentrates RL training on task configurations around the frontier of the policy's capabilities. Doing so allows large-scale simulated RL to make the most out of the experience in a batch, enabling much more effective scaling to large-scale parallel simulation. Across experiments using up to $2^{20}$ (over one million) parallel environments, SGS enables RL to solve challenging multi-terrain quadruped locomotion and contact-rich assembly tasks that prior methods fail to solve. Finally, we distill the learned manipulation policies into RGB-based policies and demonstrate zero-shot transfer to several challenging assembly tasks on real hardware. Project website: https://sgs-rl.github.io/.",
+      "authors": [
+        "Octi Zhang",
+        "Mateo Guaman Castro",
+        "Patrick Yin",
+        "Ignacio Dagnino",
+        "Abhishek Gupta",
+        "Rosario Scalise",
+        "Byron Boots"
+      ],
+      "categories": [
+        "cs.RO",
+        "cs.LG"
+      ],
+      "citation_count": null,
+      "classic_status": null,
+      "code_url": null,
+      "deep_read_note_url": null,
+      "difficulty": null,
+      "enrichment_sources": [],
+      "existing_note_url": null,
+      "external_ids": {},
+      "field": null,
+      "fields_of_study": [],
+      "id": "arxiv:2610.12465v1",
+      "identifiers": {
+        "arxiv_id": "2610.12465v1"
+      },
+      "influential_citation_count": null,
+      "institutions": [],
+      "latest_note_url": null,
+      "note_count": 0,
+      "open_access_pdf_url": null,
+      "pdf_url": "https://arxiv.org/pdf/2610.12465v1",
+      "project_url": "https://sgs-rl.github.io/",
+      "published_at": "2026-10-08",
+      "published_date": "2026-10-08",
+      "reading_advice": "save_for_later",
+      "reading_status": "backlog",
+      "recommendation_level": "B",
+      "score": 0.692,
+      "scores": {
+        "classic_value": 0.35,
+        "engineering_transferability": 0.6,
+        "recency": 0.78,
+        "source_quality": 0.78,
+        "total": 0.692,
+        "user_relevance": 0.75
+      },
+      "selected_for_s_level": false,
+      "source": "arxiv",
+      "source_group": "llm_agent",
+      "source_type": "recent_7d",
+      "source_url": "http://arxiv.org/abs/2610.12465v1",
+      "suggested_note_title": null,
+      "suggested_note_type": null,
+      "tags": [
+        "cs.RO",
+        "cs.LG"
+      ],
+      "title": "A Balanced Data Diet: Addressing the Exploration Bottleneck in Mega-Scale RL for Robot Control",
+      "title_zh": null,
+      "topics": [
+        "llm_agent"
+      ],
+      "url": "http://arxiv.org/abs/2610.12465v1",
+      "venue": null,
+      "why_recommended": "Ranked by recency signal across configured topics."
+    },
+    {
+      "abstract": "Recent multimodal large language models (MLLMs) increasingly incorporate explainable reasoning for emotion understanding. However, reasoning based mainly on observable affective cues can reduce emotion understanding to superficial cue-label associations, giving rise to the Clever Hans effect. Such shortcuts become unreliable when affective cues are implicit, conflicting across modalities, linguistically misleading, or obscured by redundant details. In contrast, human emotions are shaped by how individuals interpret and evaluate surrounding events beyond observable cues. Inspired by appraisal theories of emotion, we formulate multimodal emotion understanding as a progression from perception to cognitive appraisal, and introduce a dataset, a model, and a benchmark to support this novel paradigm. CogEmo-40K is a large-scale instruction-tuning dataset constructed through a perception-to-appraisal pipeline to elicit evidence-grounded reasoning across six cognitive appraisal dimensions underlying emotion. CogEmo-MoE is a compact sparse MLLM that introduces interleaved MoE blocks for appraisal-specific adaptation, enabling effective appraisal reasoning at a substantially smaller scale than typical emotion MLLMs. CogEmo-Bench introduces an Appraisal Evidence Quality Score (AEQS) to assess cognitive-affective understanding across six complementary appraisal dimensions, addressing the limitation of conventional emotion metrics that evaluate what emotion is predicted but not why it arises. Extensive experiments show that our paradigm not only leads CogEmo-Bench, but also exhibits strong cross-domain generalization. Our findings suggest that perception-to-appraisal reasoning can move beyond surface-level cue-label associations toward more reliable multimodal emotion understanding and closer cognitive alignment between MLLMs and humans.",
+      "authors": [
+        "Jia Li",
+        "Yichao He",
+        "Yangchen Yu",
+        "Qiankun Li",
+        "Xinyi Li",
+        "Baiyi Ye",
+        "Zhenzhen Hu",
+        "Richang Hong",
+        "Erik Cambria"
+      ],
+      "categories": [
+        "cs.MM",
+        "cs.AI",
+        "cs.HC"
+      ],
+      "citation_count": null,
+      "classic_status": null,
+      "code_url": "https://github.com/MSA-LMC/CogEmo",
+      "deep_read_note_url": null,
+      "difficulty": null,
+      "enrichment_sources": [],
+      "existing_note_url": null,
+      "external_ids": {},
+      "field": null,
+      "fields_of_study": [],
+      "id": "arxiv:2610.11918v1",
+      "identifiers": {
+        "arxiv_id": "2610.11918v1"
+      },
+      "influential_citation_count": null,
+      "institutions": [],
+      "latest_note_url": null,
+      "note_count": 0,
+      "open_access_pdf_url": null,
+      "pdf_url": "https://arxiv.org/pdf/2610.11918v1",
+      "project_url": null,
+      "published_at": "2026-10-08",
+      "published_date": "2026-10-08",
+      "reading_advice": "save_for_later",
+      "reading_status": "backlog",
+      "recommendation_level": "B",
+      "score": 0.692,
+      "scores": {
+        "classic_value": 0.35,
+        "engineering_transferability": 0.6,
+        "recency": 0.78,
+        "source_quality": 0.78,
+        "total": 0.692,
+        "user_relevance": 0.75
+      },
+      "selected_for_s_level": false,
+      "source": "arxiv",
+      "source_group": "cognition_social",
+      "source_type": "recent_7d",
+      "source_url": "http://arxiv.org/abs/2610.11918v1",
+      "suggested_note_title": null,
+      "suggested_note_type": null,
+      "tags": [
+        "cs.MM",
+        "cs.AI",
+        "cs.HC"
+      ],
+      "title": "From Surface to Depth: Towards Cognitive Appraisal Reasoning in Multimodal Emotion Understanding",
+      "title_zh": null,
+      "topics": [
+        "llm_agent",
+        "cognition"
+      ],
+      "url": "http://arxiv.org/abs/2610.11918v1",
+      "venue": null,
+      "why_recommended": "Ranked by recency signal across configured topics."
+    }
+  ],
+  "public_json_version": "0.4",
+  "s_level_candidate_ids": [],
+  "s_level_paper_id": null,
+  "source_mode_summary": {
+    "recent_7d": 6
+  },
+  "summary": "Selected 6 papers: 6 recent candidates and 0 classic fallback items."
+}
