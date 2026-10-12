@@ -2817,6 +2817,18 @@
     {
       "confidence": 0.5,
       "relation": "related_to",
+      "source": "biorxiv:10.1101/2025.08.24.672028",
+      "target": "cognition"
+    },
+    {
+      "confidence": 0.5,
+      "relation": "related_to",
+      "source": "biorxiv:10.1101/2025.08.24.672028",
+      "target": "cognition_social"
+    },
+    {
+      "confidence": 0.5,
+      "relation": "related_to",
       "source": "biorxiv:10.1101/2025.09.22.677693",
       "target": "cognition"
     },
@@ -2956,6 +2968,18 @@
       "confidence": 0.5,
       "relation": "related_to",
       "source": "biorxiv:10.64898/2026.04.17.719234",
+      "target": "cognition_social"
+    },
+    {
+      "confidence": 0.5,
+      "relation": "related_to",
+      "source": "biorxiv:10.64898/2026.04.27.721238",
+      "target": "cognition"
+    },
+    {
+      "confidence": 0.5,
+      "relation": "related_to",
+      "source": "biorxiv:10.64898/2026.04.27.721238",
       "target": "cognition_social"
     },
     {
@@ -3688,6 +3712,54 @@
       "confidence": 0.5,
       "relation": "related_to",
       "source": "biorxiv:10.64898/2026.09.23.753620",
+      "target": "cognition_social"
+    },
+    {
+      "confidence": 0.5,
+      "relation": "related_to",
+      "source": "biorxiv:10.64898/2026.09.23.753718",
+      "target": "cognition"
+    },
+    {
+      "confidence": 0.5,
+      "relation": "related_to",
+      "source": "biorxiv:10.64898/2026.09.23.753718",
+      "target": "cognition_social"
+    },
+    {
+      "confidence": 0.5,
+      "relation": "related_to",
+      "source": "biorxiv:10.64898/2026.09.28.755104",
+      "target": "cognition"
+    },
+    {
+      "confidence": 0.5,
+      "relation": "related_to",
+      "source": "biorxiv:10.64898/2026.09.28.755104",
+      "target": "cognition_social"
+    },
+    {
+      "confidence": 0.5,
+      "relation": "related_to",
+      "source": "biorxiv:10.64898/2026.09.29.755290",
+      "target": "cognition"
+    },
+    {
+      "confidence": 0.5,
+      "relation": "related_to",
+      "source": "biorxiv:10.64898/2026.09.29.755290",
+      "target": "cognition_social"
+    },
+    {
+      "confidence": 0.5,
+      "relation": "related_to",
+      "source": "biorxiv:10.64898/2026.09.30.755295",
+      "target": "cognition"
+    },
+    {
+      "confidence": 0.5,
+      "relation": "related_to",
+      "source": "biorxiv:10.64898/2026.09.30.755295",
       "target": "cognition_social"
     },
     {
@@ -6344,6 +6416,14 @@
       "type": "paper"
     },
     {
+      "id": "biorxiv:10.1101/2025.08.24.672028",
+      "label": "Reelin Deficiency Alters the Directional Orientation, Apical Localization and Length of Primary Cilia in Principal Neurons in the Cerebral Cortex",
+      "topics": [
+        "cognition"
+      ],
+      "type": "paper"
+    },
+    {
       "id": "biorxiv:10.1101/2025.09.22.677693",
       "label": "Emergence of Functional Heart-Brain Circuits in a Vertebrate",
       "topics": [
@@ -6434,6 +6514,14 @@
     {
       "id": "biorxiv:10.64898/2026.04.17.719234",
       "label": "Hippocampal representations differentiate reactive and anticipatory responses during foraging under threat",
+      "topics": [
+        "cognition"
+      ],
+      "type": "paper"
+    },
+    {
+      "id": "biorxiv:10.64898/2026.04.27.721238",
+      "label": "Sparse coding at the input stage of the hippocampus enables fast learning",
       "topics": [
         "cognition"
       ],
@@ -6928,6 +7016,38 @@
       "type": "paper"
     },
     {
+      "id": "biorxiv:10.64898/2026.09.23.753718",
+      "label": "Neural networks as decision trees: an analytical solution for learning and neural selectivity",
+      "topics": [
+        "cognition"
+      ],
+      "type": "paper"
+    },
+    {
+      "id": "biorxiv:10.64898/2026.09.28.755104",
+      "label": "Lifespan Trajectories of Resting State Bipolar EEG Power",
+      "topics": [
+        "cognition"
+      ],
+      "type": "paper"
+    },
+    {
+      "id": "biorxiv:10.64898/2026.09.29.755290",
+      "label": "Intra-uterine position modulates lifelong hippocampal neurogenesis and anxiety-related behavior",
+      "topics": [
+        "cognition"
+      ],
+      "type": "paper"
+    },
+    {
+      "id": "biorxiv:10.64898/2026.09.30.755295",
+      "label": "Templated seeding induces the formation of Alzheimer paired helical tau filaments in human brain organoids",
+      "topics": [
+        "cognition"
+      ],
+      "type": "paper"
+    },
+    {
       "id": "classic:architecture:cache-coherence-and-shared-memory-multiprocessors",
       "label": "Cache coherence and shared-memory multiprocessors",
       "topics": [
@@ -7049,5 +7169,5 @@
     }
   ],
   "public_json_version": "0.4",
-  "updated_at": "2026-10-11T00:51:01+00:00"
+  "updated_at": "2026-10-12T01:14:13+00:00"
 }

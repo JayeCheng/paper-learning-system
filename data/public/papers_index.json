@@ -21621,6 +21621,84 @@
       "why_recommended": "Ranked by source quality signal across configured topics."
     },
     {
+      "abstract": "The primary cilia of pyramidal neurons in inside-out laminated regions are oriented predominantly toward the pia, a pattern reflecting reverse soma movement during postnatal neurodevelopment. However, the mechanisms that regulate the directional cilia orientation remain unknown. Here we show that the primary cilia of neocortical pyramidal neurons are localized at the base of the apical dendrites and aligned distally and opposite to the axon initial segment (AIS). However, this pattern is not observed in atypical pyramidal neurons in the deep neocortex, excitatory neurons in non-laminated regions, or interneurons, where cilia are randomly positioned around the nuclei and lack preferred orientation. In Reelin-deficient mice (reeler), the directional orientation and apical location of cilia in late-born neocortical and CA1 neurons are altered. However, the initial impairments are partially corrected during early postnatal development. In contrast, Reelin deficiency disrupts the directional orientation and apical localization of primary cilia in early-born neocortical neurons and principal neurons in evolutionarily conserved laminated regions, where lack postnatal correction. Reelin deficiency also increases the cilia length in principal neurons across the cerebral cortex at a developmental stage when cilia length stabilizes in wild-type mice. In contrast, cilia elongation is not observed in interneurons, GFAP-positive astrocytes, or excitatory neurons in non-laminated reeler regions. Together, Reelin regulates the directional orientation, apical localization, and length of primary cilia in principal neurons in the cerebral cortex. This study underscores the cilium as a key apical domain, particularly prominent in late-born pyramidal neurons.",
+      "authors": [
+        "Akter, S.",
+        "Mirhosseiniardakani, S.",
+        "Takekoshi, Y.",
+        "qiu, l.",
+        "Baker, K.",
+        "Jiang, K.",
+        "Lyon, M.",
+        "Hattori, M.",
+        "Chen, X."
+      ],
+      "categories": [
+        "neuroscience"
+      ],
+      "citation_count": null,
+      "classic_status": null,
+      "code_url": null,
+      "deep_read_note_url": null,
+      "difficulty": null,
+      "enrichment_sources": [],
+      "existing_note_url": null,
+      "external_ids": {
+        "DOI": "10.1101/2025.08.24.672028"
+      },
+      "field": null,
+      "fields_of_study": [
+        "Neuroscience"
+      ],
+      "id": "biorxiv:10.1101/2025.08.24.672028",
+      "identifiers": {
+        "DOI": "10.1101/2025.08.24.672028",
+        "doi": "10.1101/2025.08.24.672028",
+        "server": "biorxiv"
+      },
+      "influential_citation_count": null,
+      "institutions": [],
+      "latest_note_url": null,
+      "note_count": 0,
+      "open_access_pdf_url": null,
+      "pdf_url": null,
+      "project_url": null,
+      "published_at": "2026-10-05",
+      "published_date": "2026-10-05",
+      "reading_advice": "save_for_later",
+      "reading_status": "backlog",
+      "recommendation_level": "B",
+      "score": 0.653,
+      "scores": {
+        "classic_value": 0.35,
+        "engineering_transferability": 0.48,
+        "recency": 0.78,
+        "source_quality": 0.68,
+        "total": 0.653,
+        "user_relevance": 0.75
+      },
+      "selected_for_s_level": false,
+      "source": "biorxiv",
+      "source_group": "cognition_social",
+      "source_type": "recent_7d",
+      "source_url": "https://doi.org/10.1101/2025.08.24.672028",
+      "suggested_note_title": null,
+      "suggested_note_type": null,
+      "tags": [
+        "neuroscience",
+        "cognition_social",
+        "biorxiv"
+      ],
+      "title": "Reelin Deficiency Alters the Directional Orientation, Apical Localization and Length of Primary Cilia in Principal Neurons in the Cerebral Cortex",
+      "title_zh": null,
+      "topics": [
+        "cognition"
+      ],
+      "url": "https://doi.org/10.1101/2025.08.24.672028",
+      "venue": "bioRxiv",
+      "why_recommended": "Ranked by recency signal across configured topics."
+    },
+    {
       "abstract": "The early formation of sensorimotor circuits is essential for survival. While the development and function of exteroceptive circuits and their associated motor pathways are well characterized, far less is known about the circuits that convey viscerosensory inputs to the brain and transmit visceromotor commands from the central nervous system to internal organs. Technical limitations, such as the in utero development of viscerosensory and visceromotor circuits and the invasiveness of procedures required to access them, have hindered studies of their functional development in mammals. Using larval zebrafish, which are genetically accessible and optically transparent, we tracked, in vivo, how cardiosensory and cardiomotor neural circuits assemble and begin to function. We uncovered a staged program. First, a minimal efferent circuit suffices for heart-rate control: direct brain-to-heart vagal motor innervation is required, intracardiac neurons are not, and heart rate is governed exclusively by the motor vagus nerve. Within the hindbrain, we functionally localize a cholinergic vagal premotor locus that engages this early efferent control. Second, sympathetic innervation arrives and enhances the dynamics and amplitude of cardiac responses, as neurons in the most anterior sympathetic ganglia acquire the ability to drive cardiac acceleration. These neurons exhibit proportional, integral, and derivative-like relationships to heart rate, consistent with controller motifs that shape gain and dynamics. Third, vagal sensory neurons innervate the heart. Distinct subsets increase activity when heart rate falls or rises, and across spontaneous fluctuations, responses to aversive stimuli, and optogenetically evoked cardiac perturbations, their dynamics are captured by a single canonical temporal kernel with neuron-specific phase offsets, supporting a population code for heart rate. This temporally segregated maturation isolates three experimentally tractable regimes: unidirectional brain-to-heart communication, dual efferent control, and closed-loop control after sensory feedback engages, providing a framework for mechanistic dissection of organism-wide heart-brain circuits.",
       "authors": [
         "Hernandez-Nunez, L.",
@@ -22544,6 +22622,77 @@
         "cognition"
       ],
       "url": "https://doi.org/10.64898/2026.04.17.719234",
+      "venue": "bioRxiv",
+      "why_recommended": "Ranked by recency signal across configured topics."
+    },
+    {
+      "abstract": "The hippocampus is crucial for fast learning, a capacity commonly attributed to the sparse code of the dentate gyrus (DG), the input stage of the trisynaptic circuit. However, this has been assumed rather than demonstrated, and we lack a principled account of when sparsity helps or hurts learning and what is traded off along the sparse-to-dense continuum. We characterize sparse coding in neural networks trained on nonlinear tasks and show that the level and position of sparsity determine learning speed and the memorization-generalization trade-off. Learning speed follows an inverted-U function, peaking at capacity-sufficient codes. Critically, sparsity must be implemented at the input stage, mirroring the DG. Sparsity speeds learning by producing high-dimensional, pattern-separated representations, but at a cost: models learn through memorization and fail on new examples. Our work establishes principles linking sparsity to learning, casting the DG's sparse code as a mechanism for episodic snapshots rather than general structure.",
+      "authors": [
+        "Sasan, A.",
+        "Mok, R. M."
+      ],
+      "categories": [
+        "neuroscience"
+      ],
+      "citation_count": null,
+      "classic_status": null,
+      "code_url": null,
+      "deep_read_note_url": null,
+      "difficulty": null,
+      "enrichment_sources": [],
+      "existing_note_url": null,
+      "external_ids": {
+        "DOI": "10.64898/2026.04.27.721238"
+      },
+      "field": null,
+      "fields_of_study": [
+        "Neuroscience"
+      ],
+      "id": "biorxiv:10.64898/2026.04.27.721238",
+      "identifiers": {
+        "DOI": "10.64898/2026.04.27.721238",
+        "doi": "10.64898/2026.04.27.721238",
+        "server": "biorxiv"
+      },
+      "influential_citation_count": null,
+      "institutions": [],
+      "latest_note_url": null,
+      "note_count": 0,
+      "open_access_pdf_url": null,
+      "pdf_url": null,
+      "project_url": null,
+      "published_at": "2026-10-05",
+      "published_date": "2026-10-05",
+      "reading_advice": "save_for_later",
+      "reading_status": "backlog",
+      "recommendation_level": "B",
+      "score": 0.653,
+      "scores": {
+        "classic_value": 0.35,
+        "engineering_transferability": 0.48,
+        "recency": 0.78,
+        "source_quality": 0.68,
+        "total": 0.653,
+        "user_relevance": 0.75
+      },
+      "selected_for_s_level": false,
+      "source": "biorxiv",
+      "source_group": "cognition_social",
+      "source_type": "recent_7d",
+      "source_url": "https://doi.org/10.64898/2026.04.27.721238",
+      "suggested_note_title": null,
+      "suggested_note_type": null,
+      "tags": [
+        "neuroscience",
+        "cognition_social",
+        "biorxiv"
+      ],
+      "title": "Sparse coding at the input stage of the hippocampus enables fast learning",
+      "title_zh": null,
+      "topics": [
+        "cognition"
+      ],
+      "url": "https://doi.org/10.64898/2026.04.27.721238",
       "venue": "bioRxiv",
       "why_recommended": "Ranked by recency signal across configured topics."
     },
@@ -27189,6 +27338,324 @@
       "why_recommended": "Ranked by recency signal across configured topics."
     },
     {
+      "abstract": "Nonlinear neural networks develop structured internal representations, yet how their geometry is determined by the tasks being learned remains poorly understood. Here, we develop an analytical framework for piecewise-linear feedforward and recurrent networks that links learning, activation-region structure, and neural selectivity. We show that, at any stationary point of gradient-aligned learning, a nonlinear network decomposes into local linear regressions over its activation regions. Deviations from the corresponding least-squares solutions are jointly constrained by network weights shared across regions and vanish in the low-error regime, yielding an approximate piecewise least-squares decomposition of the task. This structure admits a decision-tree interpretation, which we recover numerically by fitting trees to predict network activation patterns from the input. We further derive how the regions in which neurons are active determine the task statistics they capture, thereby organizing neural selectivity into distinct subpopulations. The resulting predictions closely match the selectivity geometry observed in simulated networks and two empirical neural datasets. Finally, we show that neural baseline regulates activation pattern diversity, placing networks along a continuum between coarse, generalizing representations and fine-grained, expressive representations. Together, these results establish activation regions as a unifying framework for describing how nonlinear networks decompose task structure into local computations and how those computations can be revealed through neural activity.",
+      "authors": [
+        "Tissot, H.",
+        "Ranft, J.",
+        "Boubenec, Y."
+      ],
+      "categories": [
+        "neuroscience"
+      ],
+      "citation_count": 0,
+      "classic_status": null,
+      "code_url": null,
+      "deep_read_note_url": null,
+      "difficulty": null,
+      "enrichment_sources": [
+        "semantic_scholar"
+      ],
+      "existing_note_url": null,
+      "external_ids": {
+        "ArXiv": "2610.08228",
+        "CorpusId": "292663393",
+        "DOI": "10.64898/2026.09.23.753718"
+      },
+      "field": "Neuroscience",
+      "fields_of_study": [
+        "Neuroscience"
+      ],
+      "id": "biorxiv:10.64898/2026.09.23.753718",
+      "identifiers": {
+        "ArXiv": "2610.08228",
+        "CorpusId": "292663393",
+        "DOI": "10.64898/2026.09.23.753718",
+        "doi": "10.64898/2026.09.23.753718",
+        "server": "biorxiv"
+      },
+      "influential_citation_count": 0,
+      "institutions": [],
+      "latest_note_url": null,
+      "note_count": 0,
+      "open_access_pdf_url": null,
+      "pdf_url": null,
+      "project_url": null,
+      "published_at": "2026-10-05",
+      "published_date": "2026-10-05",
+      "reading_advice": "save_for_later",
+      "reading_status": "backlog",
+      "recommendation_level": "B",
+      "score": 0.6755,
+      "scores": {
+        "classic_value": 0.35,
+        "engineering_transferability": 0.48,
+        "recency": 0.78,
+        "source_quality": 0.83,
+        "total": 0.6755,
+        "user_relevance": 0.75
+      },
+      "selected_for_s_level": false,
+      "source": "biorxiv",
+      "source_group": "cognition_social",
+      "source_type": "recent_7d",
+      "source_url": "https://doi.org/10.64898/2026.09.23.753718",
+      "suggested_note_title": null,
+      "suggested_note_type": null,
+      "tags": [
+        "neuroscience",
+        "cognition_social",
+        "biorxiv"
+      ],
+      "title": "Neural networks as decision trees: an analytical solution for learning and neural selectivity",
+      "title_zh": null,
+      "topics": [
+        "cognition"
+      ],
+      "url": "https://doi.org/10.64898/2026.09.23.753718",
+      "venue": "bioRxiv",
+      "why_recommended": "Ranked by source quality signal across configured topics."
+    },
+    {
+      "abstract": "Normative trajectories of resting state bipolar EEG power over the lifespan were derived from a sample of 5781 participants from the Collaborative Study on the Genetics of Alcoholism (COGA), a large multi site study, using 12,906 observations from ages 12 through 70. Trajectories were analyzed using the means, variances, and correlations of data in seven frequency bands (from low theta to high beta) and 24 bipolar channels obtained from 17 electrodes of the 10-20 system. In order to make the study more useful for understanding EEG in the general population, only subjects never having an alcohol use disorder (AUD) diagnosis were included in the study. Bipolar EEG data is derived from the differencing of the signals in adjacent electrodes, either in a lateral (left-right) or sagittal (anterior-posterior) orientation; each difference is called a channel. The power values for the individual observations were calculated by standard Fourier transform based methods. In all cases there are sharp decreases in EEG power from ages 12 to the early 20s after which there are number of divergent patterns: general increases in the beta frequencies, and mixed patterns of increase and subsequent decrease in the theta and alpha frequencies. In these characteristics the lifespan trajectories presented here are similar to the monopolar trajectories described in our previous study \\citet{Cho2026}. Sagittal and lateral bipolar trajectories are similar within each sex and between sexes; the primary difference is the much lower degree of regional difference in the sagittal trajectories as compared to the lateral trajectories. The pairwise inter-frequency (within channel) correlation trajectories between the four theta and alpha frequency bands and the four high alpha and beta frequency bands at each channel show striking sex differences unlike the corresponding monopolar correlations. There are a number of features in the bipolar power trajectories that suggest that the differencing procedure reduces not only local phase synchrony, but also effects of global and regional phase synchrony present in the monopolar data from which the bipolar signals are derived. The inter-frequency correlations at the individual channels are much higher in the bipolar data than the monopolar data, suggesting that global and regional phase synchrony components retained in the monopolar data have greater frequency specificity than the more purely local components in the bipolar data. Further analyses to examine many other features of the data will be undertaken in our subsequent work.",
+      "authors": [
+        "Chorlian, D. B.",
+        "Kamarajan, C.",
+        "Meyers, J. L.",
+        "Anokhin, A.",
+        "Pandey, A. K.",
+        "Zhang, J.",
+        "Kinreich, S.",
+        "Porjesz, B."
+      ],
+      "categories": [
+        "neuroscience"
+      ],
+      "citation_count": null,
+      "classic_status": null,
+      "code_url": null,
+      "deep_read_note_url": null,
+      "difficulty": null,
+      "enrichment_sources": [],
+      "existing_note_url": null,
+      "external_ids": {
+        "DOI": "10.64898/2026.09.28.755104"
+      },
+      "field": null,
+      "fields_of_study": [
+        "Neuroscience"
+      ],
+      "id": "biorxiv:10.64898/2026.09.28.755104",
+      "identifiers": {
+        "DOI": "10.64898/2026.09.28.755104",
+        "doi": "10.64898/2026.09.28.755104",
+        "server": "biorxiv"
+      },
+      "influential_citation_count": null,
+      "institutions": [],
+      "latest_note_url": null,
+      "note_count": 0,
+      "open_access_pdf_url": null,
+      "pdf_url": null,
+      "project_url": null,
+      "published_at": "2026-10-05",
+      "published_date": "2026-10-05",
+      "reading_advice": "save_for_later",
+      "reading_status": "backlog",
+      "recommendation_level": "B",
+      "score": 0.653,
+      "scores": {
+        "classic_value": 0.35,
+        "engineering_transferability": 0.48,
+        "recency": 0.78,
+        "source_quality": 0.68,
+        "total": 0.653,
+        "user_relevance": 0.75
+      },
+      "selected_for_s_level": false,
+      "source": "biorxiv",
+      "source_group": "cognition_social",
+      "source_type": "recent_7d",
+      "source_url": "https://doi.org/10.64898/2026.09.28.755104",
+      "suggested_note_title": null,
+      "suggested_note_type": null,
+      "tags": [
+        "neuroscience",
+        "cognition_social",
+        "biorxiv"
+      ],
+      "title": "Lifespan Trajectories of Resting State Bipolar EEG Power",
+      "title_zh": null,
+      "topics": [
+        "cognition"
+      ],
+      "url": "https://doi.org/10.64898/2026.09.28.755104",
+      "venue": "bioRxiv",
+      "why_recommended": "Ranked by recency signal across configured topics."
+    },
+    {
+      "abstract": "Individual differences in vulnerability to disease are a defining feature of biology and are especially prominent in mood disorders, where susceptibility to stress varies markedly across individuals. Strikingly, such individuality also emerges in inbred mice despite genetic homogeneity and controlled environments, suggesting that early non-genomic factors can durably shape behavioral trajectories. Yet the developmental origin of this variability remains largely unknown. Here, we identify the intra-uterine position (IUP) as a potent source of inter-individual variability in emotional behavior by showing that it influences prenatal steroid exposure, hippocampal development, adult neurogenesis, and anxiety-like traits in inbred mice. At embryonic day 18.5, embryos adjacent to one or two male siblings (i.e. 1M/2M) exhibited altered brain steroid profiles, coinciding with increased proliferation of neural stem and progenitor cells in the dentate gyrus, as compared to 0M mice. Single-nucleus RNA sequencing further revealed that IUP leaves a transcriptional imprint on hippocampal development, with 1M/2M neural stem cells showing reduced stemness and activation of a neurogenic transcription program. In adulthood, 1M/2M mice presented reduced hippocampal and dentate gyrus volumes, diminished radial-glia-like cell counts, lower cell proliferation, and impaired dendritic maturation of immature neurons. Behaviorally, both juvenile (PND22) and young adult (8-week) 1M/2M mice displayed increased trait anxiety, and 1M/2M males exhibited heightened stress reactivity. In vitro, testosterone, but not progesterone, directly enhanced proliferation of adult rat hippocampal stem/progenitor cells, whereas corticosterone reduced it. In vivo, administration of the androgen receptor agonist dihydrotestosterone (DHT) to pregnant dams recapitulated IUP effects by increasing embryonic dentate gyrus (DG) proliferation in female embryos, whereas antagonism reduced progenitor proliferation in male embryos. Together, these results indicate that IUP has long-lasting effects on hippocampal development and anxiety and may underlie natural variations in trait anxiety.",
+      "authors": [
+        "grieco, f.",
+        "Vilademunt, M.",
+        "Ali, M.",
+        "Sprenger, T.",
+        "van Gelderen, P.",
+        "Gallart-Ayala, H.",
+        "Ivanisevic, J.",
+        "Holub, A.",
+        "Yoo, J.",
+        "Bedrosian, T.",
+        "Larrieu, T.",
+        "Toni, N."
+      ],
+      "categories": [
+        "neuroscience"
+      ],
+      "citation_count": null,
+      "classic_status": null,
+      "code_url": null,
+      "deep_read_note_url": null,
+      "difficulty": null,
+      "enrichment_sources": [],
+      "existing_note_url": null,
+      "external_ids": {
+        "DOI": "10.64898/2026.09.29.755290"
+      },
+      "field": null,
+      "fields_of_study": [
+        "Neuroscience"
+      ],
+      "id": "biorxiv:10.64898/2026.09.29.755290",
+      "identifiers": {
+        "DOI": "10.64898/2026.09.29.755290",
+        "doi": "10.64898/2026.09.29.755290",
+        "server": "biorxiv"
+      },
+      "influential_citation_count": null,
+      "institutions": [],
+      "latest_note_url": null,
+      "note_count": 0,
+      "open_access_pdf_url": null,
+      "pdf_url": null,
+      "project_url": null,
+      "published_at": "2026-10-05",
+      "published_date": "2026-10-05",
+      "reading_advice": "save_for_later",
+      "reading_status": "backlog",
+      "recommendation_level": "B",
+      "score": 0.653,
+      "scores": {
+        "classic_value": 0.35,
+        "engineering_transferability": 0.48,
+        "recency": 0.78,
+        "source_quality": 0.68,
+        "total": 0.653,
+        "user_relevance": 0.75
+      },
+      "selected_for_s_level": false,
+      "source": "biorxiv",
+      "source_group": "cognition_social",
+      "source_type": "recent_7d",
+      "source_url": "https://doi.org/10.64898/2026.09.29.755290",
+      "suggested_note_title": null,
+      "suggested_note_type": null,
+      "tags": [
+        "neuroscience",
+        "cognition_social",
+        "biorxiv"
+      ],
+      "title": "Intra-uterine position modulates lifelong hippocampal neurogenesis and anxiety-related behavior",
+      "title_zh": null,
+      "topics": [
+        "cognition"
+      ],
+      "url": "https://doi.org/10.64898/2026.09.29.755290",
+      "venue": "bioRxiv",
+      "why_recommended": "Ranked by recency signal across configured topics."
+    },
+    {
+      "abstract": "The prion concept postulates that seeded aggregation results in the recruitment of soluble protein monomers and their assembly into amyloid filaments with the same structures as those of the seeds. Here we show that this concept applies to tau filaments formed in cortical organoids obtained from human iPSCs of control subjects. Tau seeds were extracted from the frontal cortex of individuals with Alzheimer disease. When added to human cortical organoids expressing endogenous levels of three-repeat tau, they gave rise to filaments of three-repeat tau whose formation required endogenous tau expression. By cryo-EM, these seeded tau filaments were identical to the paired helical filaments of the seeds. This novel finding demonstrates the faithful templated seeding of tau in human nerve cells expressing endogenous levels of tau and opens the way to studying the mechanisms of paired helical filament formation and their downstream effects in a human system amenable to genetic modification.",
+      "authors": [
+        "Bacioglu, M.",
+        "Katsinelos, T.",
+        "Schweighauser, M.",
+        "Gallo, F.",
+        "Mueller, K.",
+        "Christou, R.",
+        "Brandes, J.",
+        "Lovestam, S.",
+        "Cowley, S. A.",
+        "McEwan, W. A.",
+        "Scheres, S.",
+        "Goedert, M.",
+        "Spillantini, M. G."
+      ],
+      "categories": [
+        "neuroscience"
+      ],
+      "citation_count": null,
+      "classic_status": null,
+      "code_url": null,
+      "deep_read_note_url": null,
+      "difficulty": null,
+      "enrichment_sources": [],
+      "existing_note_url": null,
+      "external_ids": {
+        "DOI": "10.64898/2026.09.30.755295"
+      },
+      "field": null,
+      "fields_of_study": [
+        "Neuroscience"
+      ],
+      "id": "biorxiv:10.64898/2026.09.30.755295",
+      "identifiers": {
+        "DOI": "10.64898/2026.09.30.755295",
+        "doi": "10.64898/2026.09.30.755295",
+        "server": "biorxiv"
+      },
+      "influential_citation_count": null,
+      "institutions": [],
+      "latest_note_url": null,
+      "note_count": 0,
+      "open_access_pdf_url": null,
+      "pdf_url": null,
+      "project_url": null,
+      "published_at": "2026-10-05",
+      "published_date": "2026-10-05",
+      "reading_advice": "save_for_later",
+      "reading_status": "backlog",
+      "recommendation_level": "B",
+      "score": 0.653,
+      "scores": {
+        "classic_value": 0.35,
+        "engineering_transferability": 0.48,
+        "recency": 0.78,
+        "source_quality": 0.68,
+        "total": 0.653,
+        "user_relevance": 0.75
+      },
+      "selected_for_s_level": false,
+      "source": "biorxiv",
+      "source_group": "cognition_social",
+      "source_type": "recent_7d",
+      "source_url": "https://doi.org/10.64898/2026.09.30.755295",
+      "suggested_note_title": null,
+      "suggested_note_type": null,
+      "tags": [
+        "neuroscience",
+        "cognition_social",
+        "biorxiv"
+      ],
+      "title": "Templated seeding induces the formation of Alzheimer paired helical tau filaments in human brain organoids",
+      "title_zh": null,
+      "topics": [
+        "cognition"
+      ],
+      "url": "https://doi.org/10.64898/2026.09.30.755295",
+      "venue": "bioRxiv",
+      "why_recommended": "Ranked by recency signal across configured topics."
+    },
+    {
       "abstract": "Required background for parallel architecture.",
       "authors": [],
       "categories": [
@@ -27662,5 +28129,5 @@
     }
   ],
   "public_json_version": "0.4",
-  "updated_at": "2026-10-11T00:51:01+00:00"
+  "updated_at": "2026-10-12T01:14:13+00:00"
 }
