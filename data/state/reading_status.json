@@ -4228,6 +4228,90 @@
       "status": "backlog",
       "updated_at": "2026-10-09T02:01:45+00:00"
     },
+    "arxiv:2610.13368v1": {
+      "history": [
+        {
+          "at": "2026-10-13T02:58:34+00:00",
+          "source": "daily_pipeline",
+          "status": "backlog"
+        }
+      ],
+      "notes_path": null,
+      "paper_id": "arxiv:2610.13368v1",
+      "priority": "medium",
+      "status": "backlog",
+      "updated_at": "2026-10-13T02:58:34+00:00"
+    },
+    "arxiv:2610.13628v1": {
+      "history": [
+        {
+          "at": "2026-10-13T02:58:34+00:00",
+          "source": "daily_pipeline",
+          "status": "backlog"
+        }
+      ],
+      "notes_path": null,
+      "paper_id": "arxiv:2610.13628v1",
+      "priority": "medium",
+      "status": "backlog",
+      "updated_at": "2026-10-13T02:58:34+00:00"
+    },
+    "arxiv:2610.13841v1": {
+      "history": [
+        {
+          "at": "2026-10-13T02:58:34+00:00",
+          "source": "daily_pipeline",
+          "status": "backlog"
+        }
+      ],
+      "notes_path": null,
+      "paper_id": "arxiv:2610.13841v1",
+      "priority": "medium",
+      "status": "backlog",
+      "updated_at": "2026-10-13T02:58:34+00:00"
+    },
+    "arxiv:2610.13860v1": {
+      "history": [
+        {
+          "at": "2026-10-13T02:58:34+00:00",
+          "source": "daily_pipeline",
+          "status": "backlog"
+        }
+      ],
+      "notes_path": null,
+      "paper_id": "arxiv:2610.13860v1",
+      "priority": "medium",
+      "status": "backlog",
+      "updated_at": "2026-10-13T02:58:34+00:00"
+    },
+    "arxiv:2610.13917v1": {
+      "history": [
+        {
+          "at": "2026-10-13T02:58:34+00:00",
+          "source": "daily_pipeline",
+          "status": "backlog"
+        }
+      ],
+      "notes_path": null,
+      "paper_id": "arxiv:2610.13917v1",
+      "priority": "medium",
+      "status": "backlog",
+      "updated_at": "2026-10-13T02:58:34+00:00"
+    },
+    "arxiv:2610.13945v1": {
+      "history": [
+        {
+          "at": "2026-10-13T02:58:34+00:00",
+          "source": "daily_pipeline",
+          "status": "backlog"
+        }
+      ],
+      "notes_path": null,
+      "paper_id": "arxiv:2610.13945v1",
+      "priority": "medium",
+      "status": "backlog",
+      "updated_at": "2026-10-13T02:58:34+00:00"
+    },
     "biorxiv:10.1101/2023.01.10.523479": {
       "history": [
         {
@@ -5602,5 +5686,5 @@
     }
   },
   "state_version": "0.3",
-  "updated_at": "2026-10-12T01:14:13+00:00"
+  "updated_at": "2026-10-13T02:58:34+00:00"
 }

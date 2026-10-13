@@ -301,6 +301,12 @@ arxiv:2610.12455v1,backlog,medium,,2026-10-09T02:01:45+00:00,Hybrid Cinematograp
 arxiv:2610.12461v1,backlog,medium,,2026-10-10T01:40:26+00:00,"OuroWorld: Bringing Any 3D World Alive as Diverse, Endlessly Looping 3D Cinemagraphs",gpu_graphics,B
 arxiv:2610.12465v1,backlog,medium,,2026-10-10T01:40:26+00:00,A Balanced Data Diet: Addressing the Exploration Bottleneck in Mega-Scale RL for Robot Control,llm_agent,B
 arxiv:2610.12467v1,backlog,medium,,2026-10-09T02:01:45+00:00,CSF: Contextual Safety Filtering for Motion Generators,llm_agent,B
+arxiv:2610.13368v1,backlog,medium,,2026-10-13T02:58:34+00:00,Anechoic: Onsager-Corrected Parallel Annealing for Sub-0.1 ms Dense Max-Cut on an FPGA,architecture,A
+arxiv:2610.13628v1,backlog,medium,,2026-10-13T02:58:34+00:00,JitterVLA: A Replay Benchmark for Motion Quality in VLA-Driven Human-Robot Manipulation,cognition_social,B
+arxiv:2610.13841v1,backlog,medium,,2026-10-13T02:58:34+00:00,Returning to Development States: When Full Sandbox Snapshots Help Coding Agents,llm_agent,B
+arxiv:2610.13860v1,backlog,medium,,2026-10-13T02:58:34+00:00,Make It Flow: Animating Water in 3D Gaussian Splatting Scenes,gpu_graphics,B
+arxiv:2610.13917v1,backlog,medium,,2026-10-13T02:58:34+00:00,Designing Protein Structures from Natural Language,llm_agent,B
+arxiv:2610.13945v1,backlog,medium,,2026-10-13T02:58:34+00:00,Splat2Act: From Captured Scenes to Personalized VLA Manipulation,gpu_graphics,B
 biorxiv:10.1101/2023.01.10.523479,backlog,medium,,2026-09-28T00:33:07+00:00,How Occam's razor guides human decision-making,cognition_social,B
 biorxiv:10.1101/2024.09.30.615819,backlog,medium,,2026-09-22T00:43:20+00:00,Hierarchy of prediction errors shapes the learning of context-dependent sensory representations,cognition_social,B
 biorxiv:10.1101/2024.10.24.620089,backlog,medium,,2026-09-23T00:19:20+00:00,Functional organization and natural scene responses across mouse visual cortical areas revealed with encoding manifolds,cognition_social,B
