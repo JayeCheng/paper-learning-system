@@ -322,6 +322,7 @@ biorxiv:10.1101/2025.08.24.672028,backlog,medium,,2026-10-12T01:14:13+00:00,"Ree
 biorxiv:10.1101/2025.09.22.677693,backlog,medium,,2026-08-30T00:10:37+00:00,Emergence of Functional Heart-Brain Circuits in a Vertebrate,cognition_social,B
 biorxiv:10.1101/2025.10.14.25337322,backlog,medium,,2026-09-12T00:11:42+00:00,Deep Learning-Driven Pattern Analysis of Dried E. coli-Laden Urine Deposits for Point-of-Care Diagnostics,cognition_social,B
 biorxiv:10.1101/2025.10.29.684686,backlog,medium,,2026-08-27T03:05:37+00:00,Biased projection neuron-Kenyon cell connectivity shapes odor representations and learning in the Drosophila mushroom body,cognition_social,B
+biorxiv:10.1101/2025.10.29.685457,backlog,medium,,2026-10-14T01:08:55+00:00,Aligning transformer circuit mechanisms to neural representations in relational reasoning,cognition_social,B
 biorxiv:10.1101/2025.11.17.25338859,backlog,medium,,2026-09-03T00:05:52+00:00,Towards a participatory European social contact observatory,cognition_social,B
 biorxiv:10.64898/2025.12.23.696229,backlog,medium,,2026-09-28T00:33:07+00:00,Early adversity promotes adolescent avoidance behavior by enhancing prefrontal-amygdala communication through CRH+ glutamatergic neurons,cognition_social,B
 biorxiv:10.64898/2025.12.24.696231,backlog,medium,,2026-09-12T23:57:10+00:00,SynTEF1 restores the functional disease phenotype of SCA27B in an hiPSC-derived neuronal model,cognition_social,B
@@ -339,6 +340,7 @@ biorxiv:10.64898/2026.05.14.725265,backlog,medium,,2026-08-30T00:10:37+00:00,App
 biorxiv:10.64898/2026.05.19.726180,backlog,medium,,2026-09-09T00:05:20+00:00,The microstructure-weighted human connectome: network properties and structure-function correlations across spatial scales,cognition_social,B
 biorxiv:10.64898/2026.05.27.728219,backlog,medium,,2026-10-02T01:37:28+00:00,Altered Brain Extracellular Matrix Structure and Sex-Specific Learning/Memory Dysfunction in Mice Lacking the Functional Amyloid Cystatin-Related Epididymal Spermatogenic (CRES),cognition_social,B
 biorxiv:10.64898/2026.05.27.728254,backlog,medium,,2026-09-09T00:05:20+00:00,iClima: a ratiometric genetically encoded sensor for optical imaging of fast GABAergic chloride currents in vitro and in vivo,cognition_social,B
+biorxiv:10.64898/2026.05.29.728780,backlog,medium,,2026-10-14T01:08:55+00:00,Degraded myelin is associated with cold hypersensitivity in paclitaxel-induced peripheral neuropathy,cognition_social,B
 biorxiv:10.64898/2026.06.03.26354854,backlog,medium,,2026-09-12T00:11:42+00:00,Study Design Indexing in Transition: A Focused Comparison of manual NLM Indexing vs. Transformer-based Automated Models,cognition_social,B
 biorxiv:10.64898/2026.06.22.733700,backlog,medium,,2026-09-19T00:10:51+00:00,Post-attack bioluminescence is an aposematic signal in luminin ostracods,cognition_social,B
 biorxiv:10.64898/2026.06.28.735033,backlog,medium,,2026-09-19T00:10:51+00:00,Sublethal effects of the organosilicone surfactant Silwet L-77 and its interactions with acetamiprid and sulfoxaflor on honeybee (Apis mellifera) gustatory responsiveness and olfactory learning,cognition_social,B
@@ -394,9 +396,13 @@ biorxiv:10.64898/2026.09.16.752180,backlog,medium,,2026-10-02T01:37:28+00:00,Dis
 biorxiv:10.64898/2026.09.22.752944,backlog,medium,,2026-10-02T01:37:28+00:00,Streamlined Production of Recombinant Adeno-Associated Viruses Using Gateway Cloning Technology for Neural Circuit All-Optical Interrogation,cognition_social,B
 biorxiv:10.64898/2026.09.23.753620,backlog,medium,,2026-10-02T01:37:28+00:00,Altered Dopamine-Linked Striatal Hemodynamic Latency in Early Psychosis,cognition_social,B
 biorxiv:10.64898/2026.09.23.753718,backlog,medium,,2026-10-12T01:14:13+00:00,Neural networks as decision trees: an analytical solution for learning and neural selectivity,cognition_social,B
+biorxiv:10.64898/2026.09.28.751688,backlog,medium,,2026-10-14T01:08:55+00:00,Single-cell spatial transcriptomics of inherited retinal degeneration reveals broad and focal organization of disease responses,cognition_social,B
 biorxiv:10.64898/2026.09.28.755104,backlog,medium,,2026-10-12T01:14:13+00:00,Lifespan Trajectories of Resting State Bipolar EEG Power,cognition_social,B
+biorxiv:10.64898/2026.09.28.755178,backlog,medium,,2026-10-14T01:08:55+00:00,Hypothalamic tauP301L pathology disrupts pair bonding in monogamous prairie voles,cognition_social,B
 biorxiv:10.64898/2026.09.29.755290,backlog,medium,,2026-10-12T01:14:13+00:00,Intra-uterine position modulates lifelong hippocampal neurogenesis and anxiety-related behavior,cognition_social,B
 biorxiv:10.64898/2026.09.30.755295,backlog,medium,,2026-10-12T01:14:13+00:00,Templated seeding induces the formation of Alzheimer paired helical tau filaments in human brain organoids,cognition_social,B
+biorxiv:10.64898/2026.10.04.756487,backlog,medium,,2026-10-14T01:08:55+00:00,The olfactory ventricle: an overlooked and evolutionarily conserved feature of the mammalian brain,cognition_social,B
+biorxiv:10.64898/2026.10.06.749912,backlog,medium,,2026-10-14T01:08:55+00:00,"Shifts in neural representations, not gaze, track how people reinterpret ambiguous social scenes",cognition_social,B
 classic:architecture:cache-coherence-and-shared-memory-multiprocessors,backlog,medium,,2026-07-09T09:46:00+00:00,Cache coherence and shared-memory multiprocessors,architecture,B
 classic:architecture:the-memory-hierarchy-and-locality,backlog,medium,,2026-07-09T09:46:00+00:00,The memory hierarchy and locality,architecture,B
 classic:cognition:attention-and-working-memory,backlog,medium,,2026-07-09T09:46:00+00:00,Attention and working memory,cognition,B

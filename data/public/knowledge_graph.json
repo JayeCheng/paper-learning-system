@@ -2913,6 +2913,18 @@
     {
       "confidence": 0.5,
       "relation": "related_to",
+      "source": "biorxiv:10.1101/2025.10.29.685457",
+      "target": "cognition"
+    },
+    {
+      "confidence": 0.5,
+      "relation": "related_to",
+      "source": "biorxiv:10.1101/2025.10.29.685457",
+      "target": "cognition_social"
+    },
+    {
+      "confidence": 0.5,
+      "relation": "related_to",
       "source": "biorxiv:10.1101/2025.11.17.25338859",
       "target": "uncategorized"
     },
@@ -3112,6 +3124,18 @@
       "confidence": 0.5,
       "relation": "related_to",
       "source": "biorxiv:10.64898/2026.05.27.728254",
+      "target": "cognition_social"
+    },
+    {
+      "confidence": 0.5,
+      "relation": "related_to",
+      "source": "biorxiv:10.64898/2026.05.29.728780",
+      "target": "cognition"
+    },
+    {
+      "confidence": 0.5,
+      "relation": "related_to",
+      "source": "biorxiv:10.64898/2026.05.29.728780",
       "target": "cognition_social"
     },
     {
@@ -3777,6 +3801,18 @@
     {
       "confidence": 0.5,
       "relation": "related_to",
+      "source": "biorxiv:10.64898/2026.09.28.751688",
+      "target": "cognition"
+    },
+    {
+      "confidence": 0.5,
+      "relation": "related_to",
+      "source": "biorxiv:10.64898/2026.09.28.751688",
+      "target": "cognition_social"
+    },
+    {
+      "confidence": 0.5,
+      "relation": "related_to",
       "source": "biorxiv:10.64898/2026.09.28.755104",
       "target": "cognition"
     },
@@ -3784,6 +3820,18 @@
       "confidence": 0.5,
       "relation": "related_to",
       "source": "biorxiv:10.64898/2026.09.28.755104",
+      "target": "cognition_social"
+    },
+    {
+      "confidence": 0.5,
+      "relation": "related_to",
+      "source": "biorxiv:10.64898/2026.09.28.755178",
+      "target": "cognition"
+    },
+    {
+      "confidence": 0.5,
+      "relation": "related_to",
+      "source": "biorxiv:10.64898/2026.09.28.755178",
       "target": "cognition_social"
     },
     {
@@ -3808,6 +3856,30 @@
       "confidence": 0.5,
       "relation": "related_to",
       "source": "biorxiv:10.64898/2026.09.30.755295",
+      "target": "cognition_social"
+    },
+    {
+      "confidence": 0.5,
+      "relation": "related_to",
+      "source": "biorxiv:10.64898/2026.10.04.756487",
+      "target": "cognition"
+    },
+    {
+      "confidence": 0.5,
+      "relation": "related_to",
+      "source": "biorxiv:10.64898/2026.10.04.756487",
+      "target": "cognition_social"
+    },
+    {
+      "confidence": 0.5,
+      "relation": "related_to",
+      "source": "biorxiv:10.64898/2026.10.06.749912",
+      "target": "cognition"
+    },
+    {
+      "confidence": 0.5,
+      "relation": "related_to",
+      "source": "biorxiv:10.64898/2026.10.06.749912",
       "target": "cognition_social"
     },
     {
@@ -6545,6 +6617,14 @@
       "type": "paper"
     },
     {
+      "id": "biorxiv:10.1101/2025.10.29.685457",
+      "label": "Aligning transformer circuit mechanisms to neural representations in relational reasoning",
+      "topics": [
+        "cognition"
+      ],
+      "type": "paper"
+    },
+    {
       "id": "biorxiv:10.1101/2025.11.17.25338859",
       "label": "Towards a participatory European social contact observatory",
       "topics": [
@@ -6675,6 +6755,14 @@
     {
       "id": "biorxiv:10.64898/2026.05.27.728254",
       "label": "iClima: a ratiometric genetically encoded sensor for optical imaging of fast GABAergic chloride currents in vitro and in vivo",
+      "topics": [
+        "cognition"
+      ],
+      "type": "paper"
+    },
+    {
+      "id": "biorxiv:10.64898/2026.05.29.728780",
+      "label": "Degraded myelin is associated with cold hypersensitivity in paclitaxel-induced peripheral neuropathy",
       "topics": [
         "cognition"
       ],
@@ -7121,8 +7209,24 @@
       "type": "paper"
     },
     {
+      "id": "biorxiv:10.64898/2026.09.28.751688",
+      "label": "Single-cell spatial transcriptomics of inherited retinal degeneration reveals broad and focal organization of disease responses",
+      "topics": [
+        "cognition"
+      ],
+      "type": "paper"
+    },
+    {
       "id": "biorxiv:10.64898/2026.09.28.755104",
       "label": "Lifespan Trajectories of Resting State Bipolar EEG Power",
+      "topics": [
+        "cognition"
+      ],
+      "type": "paper"
+    },
+    {
+      "id": "biorxiv:10.64898/2026.09.28.755178",
+      "label": "Hypothalamic tauP301L pathology disrupts pair bonding in monogamous prairie voles",
       "topics": [
         "cognition"
       ],
@@ -7139,6 +7243,22 @@
     {
       "id": "biorxiv:10.64898/2026.09.30.755295",
       "label": "Templated seeding induces the formation of Alzheimer paired helical tau filaments in human brain organoids",
+      "topics": [
+        "cognition"
+      ],
+      "type": "paper"
+    },
+    {
+      "id": "biorxiv:10.64898/2026.10.04.756487",
+      "label": "The olfactory ventricle: an overlooked and evolutionarily conserved feature of the mammalian brain",
+      "topics": [
+        "cognition"
+      ],
+      "type": "paper"
+    },
+    {
+      "id": "biorxiv:10.64898/2026.10.06.749912",
+      "label": "Shifts in neural representations, not gaze, track how people reinterpret ambiguous social scenes",
       "topics": [
         "cognition"
       ],
@@ -7266,5 +7386,5 @@
     }
   ],
   "public_json_version": "0.4",
-  "updated_at": "2026-10-13T02:58:34+00:00"
+  "updated_at": "2026-10-14T01:08:55+00:00"
 }

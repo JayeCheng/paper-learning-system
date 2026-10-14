@@ -1,0 +1,498 @@
+{
+  "date": "2026-10-14",
+  "frontend_entry": "data/public/latest.json",
+  "generated_at": "2026-10-14T01:08:55+00:00",
+  "generated_paths": {
+    "exports_csv": "data/exports/papers.csv",
+    "exports_daily_csv": "data/exports/daily_papers.csv",
+    "exports_jsonl": "data/exports/papers.jsonl",
+    "exports_notes_index": "data/exports/notes_index.csv",
+    "exports_reading_status": "data/exports/reading_status.csv",
+    "json": "daily/2026/10/2026-10-14.json",
+    "markdown": "daily/2026/10/2026-10-14.md",
+    "public_curriculum_progress": "data/public/curriculum_progress.json",
+    "public_daily_index": "data/public/daily_index.json",
+    "public_knowledge_graph": "data/public/knowledge_graph.json",
+    "public_latest": "data/public/latest.json",
+    "public_notes_index": "data/public/notes_index.json",
+    "public_papers_index": "data/public/papers_index.json",
+    "public_reading_status": "data/public/reading_status.json",
+    "state_notes_index": "data/state/notes_index.json",
+    "state_papers": "data/state/papers.jsonl",
+    "state_reading_status": "data/state/reading_status.json",
+    "state_run_history": "data/state/run_history.json"
+  },
+  "knowledge_graph_delta": [
+    "paper:biorxiv:10.1101/2025.10.29.685457",
+    "paper:biorxiv:10.64898/2026.10.06.749912",
+    "paper:biorxiv:10.64898/2026.05.29.728780",
+    "paper:biorxiv:10.64898/2026.10.04.756487",
+    "paper:biorxiv:10.64898/2026.09.28.751688",
+    "paper:biorxiv:10.64898/2026.09.28.755178"
+  ],
+  "learning_route_position": "v0.4 GitHub-owned note bridge",
+  "next_actions": [
+    "Review S-level candidate",
+    "Update reading status after skim",
+    "Promote durable concepts into the knowledge graph"
+  ],
+  "papers": [
+    {
+      "abstract": "Relational reasoning, the capacity to understand how elements relate to one another, is a defining feature of human intelligence, yet its computational basis remains unclear. Here, we combined human neuroimaging (7T fMRI) with artificial neural network modeling to identify circuit-level analogues of human reasoning computations. Using the Latin Square Task, we found that humans and transformers were able to generalize the task reliably, while standard architectures used in cognitive neuroscience could not. Analysing the transformer components revealed distinct computational roles: positional encoding captured the spatial structure of the task and aligned with representations in visual cortex, whereas attention encoded relational structure and mapped onto frontoparietal and default-mode networks. Attention weights tracked the relational complexity of the task, providing a computational analogue of reasoning demands. These results advance knowledge on the core algorithmic computations supporting complex reasoning, highlighting attention-based architectures as powerful models for investigating the neural and computational basis of higher cognition.",
+      "authors": [
+        "Hearne, L. J.",
+        "Robinson, C. N.",
+        "Cocchi, L.",
+        "Ito, T."
+      ],
+      "categories": [
+        "neuroscience"
+      ],
+      "citation_count": 2,
+      "classic_status": null,
+      "code_url": null,
+      "deep_read_note_url": null,
+      "difficulty": null,
+      "enrichment_sources": [
+        "semantic_scholar"
+      ],
+      "existing_note_url": null,
+      "external_ids": {
+        "CorpusId": "282735256",
+        "DOI": "10.1101/2025.10.29.685457"
+      },
+      "field": "Neuroscience",
+      "fields_of_study": [
+        "Neuroscience"
+      ],
+      "id": "biorxiv:10.1101/2025.10.29.685457",
+      "identifiers": {
+        "CorpusId": "282735256",
+        "DOI": "10.1101/2025.10.29.685457",
+        "doi": "10.1101/2025.10.29.685457",
+        "server": "biorxiv"
+      },
+      "influential_citation_count": 0,
+      "institutions": [],
+      "latest_note_url": null,
+      "note_count": 0,
+      "open_access_pdf_url": "https://www.biorxiv.org/content/biorxiv/early/2025/10/31/2025.10.29.685457.full.pdf",
+      "pdf_url": null,
+      "project_url": null,
+      "published_at": "2026-10-07",
+      "published_date": "2026-10-07",
+      "reading_advice": "save_for_later",
+      "reading_status": "backlog",
+      "recommendation_level": "B",
+      "score": 0.6809,
+      "scores": {
+        "classic_value": 0.3897543524036107,
+        "engineering_transferability": 0.48,
+        "recency": 0.78,
+        "source_quality": 0.8395410445768665,
+        "total": 0.6809,
+        "user_relevance": 0.75
+      },
+      "selected_for_s_level": false,
+      "source": "biorxiv",
+      "source_group": "cognition_social",
+      "source_type": "recent_7d",
+      "source_url": "https://doi.org/10.1101/2025.10.29.685457",
+      "suggested_note_title": null,
+      "suggested_note_type": null,
+      "tags": [
+        "neuroscience",
+        "cognition_social",
+        "biorxiv"
+      ],
+      "title": "Aligning transformer circuit mechanisms to neural representations in relational reasoning",
+      "title_zh": null,
+      "topics": [
+        "cognition"
+      ],
+      "url": "https://doi.org/10.1101/2025.10.29.685457",
+      "venue": "bioRxiv",
+      "why_recommended": "Ranked by source quality signal across configured topics."
+    },
+    {
+      "abstract": "How do we come to \"see\" the same thing differently after hearing someone else's perspective? Revising an interpretation could reflect changes in how the brain represents the meaning of what we see, changes in how we visually sample the input, or both. To disentangle these mechanisms, we developed MindLibs, an adaptive fMRI and eye-tracking paradigm in which participants generate interpretations of ambiguous photographs and then view alternative interpretations chosen in real time to vary in semantic content from their own. Exposure to semantically distant alternatives revealed a strong link between reinterpretation as reported behaviorally and representational shifts in association cortex, but no systematic relationship between reinterpretation and changes in gaze. In particular, representational shifts in lateral default-mode network regions (DMN-B) predicted reinterpretation independently of shifts in frontoparietal, attention, and visual networks, and independently of whether gaze changed. In contrast, shifts in visual cortex tracked reinterpretation only when gaze also shifted, and contributed no unique variance beyond DMN-B. These findings identify higher-order conceptual reconfiguration, rather than perceptual resampling, as the primary account of how people revise the meaning of an ambiguous scene.",
+      "authors": [
+        "Sava-Segal, C. A.",
+        "Benson, T. G.",
+        "Finn, E. S."
+      ],
+      "categories": [
+        "neuroscience"
+      ],
+      "citation_count": null,
+      "classic_status": null,
+      "code_url": null,
+      "deep_read_note_url": null,
+      "difficulty": null,
+      "enrichment_sources": [],
+      "existing_note_url": null,
+      "external_ids": {
+        "DOI": "10.64898/2026.10.06.749912"
+      },
+      "field": null,
+      "fields_of_study": [
+        "Neuroscience"
+      ],
+      "id": "biorxiv:10.64898/2026.10.06.749912",
+      "identifiers": {
+        "DOI": "10.64898/2026.10.06.749912",
+        "doi": "10.64898/2026.10.06.749912",
+        "server": "biorxiv"
+      },
+      "influential_citation_count": null,
+      "institutions": [],
+      "latest_note_url": null,
+      "note_count": 0,
+      "open_access_pdf_url": null,
+      "pdf_url": null,
+      "project_url": null,
+      "published_at": "2026-10-07",
+      "published_date": "2026-10-07",
+      "reading_advice": "save_for_later",
+      "reading_status": "backlog",
+      "recommendation_level": "B",
+      "score": 0.653,
+      "scores": {
+        "classic_value": 0.35,
+        "engineering_transferability": 0.48,
+        "recency": 0.78,
+        "source_quality": 0.68,
+        "total": 0.653,
+        "user_relevance": 0.75
+      },
+      "selected_for_s_level": false,
+      "source": "biorxiv",
+      "source_group": "cognition_social",
+      "source_type": "recent_7d",
+      "source_url": "https://doi.org/10.64898/2026.10.06.749912",
+      "suggested_note_title": null,
+      "suggested_note_type": null,
+      "tags": [
+        "neuroscience",
+        "cognition_social",
+        "biorxiv"
+      ],
+      "title": "Shifts in neural representations, not gaze, track how people reinterpret ambiguous social scenes",
+      "title_zh": null,
+      "topics": [
+        "cognition"
+      ],
+      "url": "https://doi.org/10.64898/2026.10.06.749912",
+      "venue": "bioRxiv",
+      "why_recommended": "Ranked by recency signal across configured topics."
+    },
+    {
+      "abstract": "Cold allodynia is a debilitating symptom of chemotherapy-induced peripheral neuropathy (CIPN), a side effect of many chemotherapeutics, including paclitaxel (PTX). CIPN is highly prevalent and can lead to cessation of chemotherapy, threatening cancer patient survival. PTX induces cold-evoked pain in 60% of CIPN patients and this pain is a predictor for more severe neuropathy. Cold is transduced by primary sensory neurons in dorsal root ganglia (DRG). PTX can induce maladaptive changes in gene expression that lead to dysregulated nociceptor function. Previous work examining PTX-induced transcriptional changes have been unable to isolate mechanisms associated with pathological cold pain. The epigenetic changes that underlie long- lasting transcriptional changes in PTX-induced persistent cold hypersensitivity are not known. Following three consecutive cycles of PTX, we find that mice continue to exhibit cold hypersensitivity for a minimum of four weeks following the resolution of PTX-induced mechanical hypersensitivity. This exclusive cold hypersensitivity phenotype allows us to examine the mechanisms that specifically underlie pathological cold pain. During this period of PTX-induced cold hypersensitivity, we found decreased expression of genes whose expression is necessary for myelin sheath formation and maintenance, degraded myelin sheaths in the distal sciatic nerve, and decreased chromatin accessibility at genomic regions that contain binding motifs for pro-myelinating transcription factors. Our findings suggest that epigenetic-regulated myelin programs perpetuate myelin degradation and drive pathological cold pain. Our improved understanding of the specific mechanisms that maintain myelin degradation during cold hypersensitivity will improve cold pain management, facilitate the completion of cancer treatment, and improve the quality of life for chronic pain patients.",
+      "authors": [
+        "Mora, L. R.",
+        "Bishop, M. G.",
+        "Rodriguez, K. A.",
+        "Redling, D. M.",
+        "Fox, R.",
+        "Ezeldin, A. M.",
+        "Zheng, E.",
+        "Stephens, K. E."
+      ],
+      "categories": [
+        "neuroscience"
+      ],
+      "citation_count": null,
+      "classic_status": null,
+      "code_url": null,
+      "deep_read_note_url": null,
+      "difficulty": null,
+      "enrichment_sources": [],
+      "existing_note_url": null,
+      "external_ids": {
+        "DOI": "10.64898/2026.05.29.728780"
+      },
+      "field": null,
+      "fields_of_study": [
+        "Neuroscience"
+      ],
+      "id": "biorxiv:10.64898/2026.05.29.728780",
+      "identifiers": {
+        "DOI": "10.64898/2026.05.29.728780",
+        "doi": "10.64898/2026.05.29.728780",
+        "server": "biorxiv"
+      },
+      "influential_citation_count": null,
+      "institutions": [],
+      "latest_note_url": null,
+      "note_count": 0,
+      "open_access_pdf_url": null,
+      "pdf_url": null,
+      "project_url": null,
+      "published_at": "2026-10-07",
+      "published_date": "2026-10-07",
+      "reading_advice": "save_for_later",
+      "reading_status": "backlog",
+      "recommendation_level": "B",
+      "score": 0.653,
+      "scores": {
+        "classic_value": 0.35,
+        "engineering_transferability": 0.48,
+        "recency": 0.78,
+        "source_quality": 0.68,
+        "total": 0.653,
+        "user_relevance": 0.75
+      },
+      "selected_for_s_level": false,
+      "source": "biorxiv",
+      "source_group": "cognition_social",
+      "source_type": "recent_7d",
+      "source_url": "https://doi.org/10.64898/2026.05.29.728780",
+      "suggested_note_title": null,
+      "suggested_note_type": null,
+      "tags": [
+        "neuroscience",
+        "cognition_social",
+        "biorxiv"
+      ],
+      "title": "Degraded myelin is associated with cold hypersensitivity in paclitaxel-induced peripheral neuropathy",
+      "title_zh": null,
+      "topics": [
+        "cognition"
+      ],
+      "url": "https://doi.org/10.64898/2026.05.29.728780",
+      "venue": "bioRxiv",
+      "why_recommended": "Ranked by recency signal across configured topics."
+    },
+    {
+      "abstract": "The olfactory ventricle (OV), an anterior extension of the lateral ventricular system into the olfactory bulbs, is generally considered a transient developmental structure that closes during early postnatal life. However, this view largely derives from a limited number of laboratory models, and the evolutionary distribution and cellular organization of the adult OV remain poorly understood. Here, we combined a comparative survey of mammalian neuroanatomy with phylogenetic analyses and cellular characterization of the OV across species. We compiled anatomical data for 154 mammalian species spanning 26 orders and 80 families, revealing widespread persistence of a patent OV into adulthood. Phylogenetic analyses supported OV presence as the ancestral mammalian state and indicated that its absence is phylogenetically structured and consistent with repeated secondary losses. Chiroptera displayed multiple lineage-specific losses, whereas variation within Muridae extended to the intraspecific level, with contrasting OV persistence among Mus musculus and Rattus norvegicus populations. Comparative histological analyses in sheep, Peromyscus maniculatus, and CD1 mice revealed that, despite marked interspecific differences in OV morphology, the persistent ventricular region retains a conserved cellular organization characterized by progenitor- and glial-associated markers, proliferative cells, immature neuronal populations, and a differentiated apical/ciliary interface. Although these observations do not establish local neuronal production or demonstrate that the OV constitutes an autonomous neurogenic niche, their convergence across species indicates that the persistent adult OV is not simply an anatomically residual lumen but a specialized component of mammalian olfactory bulb organization. Together, our findings identify the OV as an ancestral and widely conserved feature of the mammalian brain and provide an evolutionary and cellular framework for investigating the developmental mechanisms controlling its persistence and its potential contribution to adult olfactory neurogenesis and plasticity.",
+      "authors": [
+        "Butruille, L.",
+        "Dubois, J.-P.",
+        "Migaud, M.",
+        "Remaud, S."
+      ],
+      "categories": [
+        "neuroscience"
+      ],
+      "citation_count": null,
+      "classic_status": null,
+      "code_url": null,
+      "deep_read_note_url": null,
+      "difficulty": null,
+      "enrichment_sources": [],
+      "existing_note_url": null,
+      "external_ids": {
+        "DOI": "10.64898/2026.10.04.756487"
+      },
+      "field": null,
+      "fields_of_study": [
+        "Neuroscience"
+      ],
+      "id": "biorxiv:10.64898/2026.10.04.756487",
+      "identifiers": {
+        "DOI": "10.64898/2026.10.04.756487",
+        "doi": "10.64898/2026.10.04.756487",
+        "server": "biorxiv"
+      },
+      "influential_citation_count": null,
+      "institutions": [],
+      "latest_note_url": null,
+      "note_count": 0,
+      "open_access_pdf_url": null,
+      "pdf_url": null,
+      "project_url": null,
+      "published_at": "2026-10-07",
+      "published_date": "2026-10-07",
+      "reading_advice": "save_for_later",
+      "reading_status": "backlog",
+      "recommendation_level": "B",
+      "score": 0.653,
+      "scores": {
+        "classic_value": 0.35,
+        "engineering_transferability": 0.48,
+        "recency": 0.78,
+        "source_quality": 0.68,
+        "total": 0.653,
+        "user_relevance": 0.75
+      },
+      "selected_for_s_level": false,
+      "source": "biorxiv",
+      "source_group": "cognition_social",
+      "source_type": "recent_7d",
+      "source_url": "https://doi.org/10.64898/2026.10.04.756487",
+      "suggested_note_title": null,
+      "suggested_note_type": null,
+      "tags": [
+        "neuroscience",
+        "cognition_social",
+        "biorxiv"
+      ],
+      "title": "The olfactory ventricle: an overlooked and evolutionarily conserved feature of the mammalian brain",
+      "title_zh": null,
+      "topics": [
+        "cognition"
+      ],
+      "url": "https://doi.org/10.64898/2026.10.04.756487",
+      "venue": "bioRxiv",
+      "why_recommended": "Ranked by recency signal across configured topics."
+    },
+    {
+      "abstract": "Inherited retinal degenerations are largely monogenic disorders characterized by progressive photoreceptor dysfunction and death. Although the transcriptomic responses to inherited degeneration are well-characterized, how these responses are spatially organized across the retinal axis has not been mapped. Here, we used seqFISH to spatially profile 173 cell identity and degeneration-associated genes with single-cell, single-transcript resolution in male wild-type and LCA5gt/gtmouse retinas at early, intermediate, and advanced disease stages. In early disease, rod injury and stress response markers were enriched in the superior retina, while rod function and identity markers were enriched in the inferior retina. Nested within the broader superior-inferior organization, a coordinated rod injury response comprising Edn2, Fgf2, Socs3, and Stat3 was organized into focal regions on the order of 100 m in width, with high-response regions directly adjacent to low-response regions. These focal regions were locally enriched for markers of Muller reactive gliosis and rod stress responses. Our single-cell spatiotemporal map reveals that transcriptional responses to degeneration vary at both the broad and focal scales, and offers a framework for investigating how local tissue properties and interactions among neighboring cells may contribute to disease progression.",
+      "authors": [
+        "Abu-Alfa, A. A.",
+        "Passino, R.",
+        "Wei, Z.",
+        "Kotha, S.",
+        "Raj, A.",
+        "Uyhazi, K. E."
+      ],
+      "categories": [
+        "neuroscience"
+      ],
+      "citation_count": null,
+      "classic_status": null,
+      "code_url": null,
+      "deep_read_note_url": null,
+      "difficulty": null,
+      "enrichment_sources": [],
+      "existing_note_url": null,
+      "external_ids": {
+        "DOI": "10.64898/2026.09.28.751688"
+      },
+      "field": null,
+      "fields_of_study": [
+        "Neuroscience"
+      ],
+      "id": "biorxiv:10.64898/2026.09.28.751688",
+      "identifiers": {
+        "DOI": "10.64898/2026.09.28.751688",
+        "doi": "10.64898/2026.09.28.751688",
+        "server": "biorxiv"
+      },
+      "influential_citation_count": null,
+      "institutions": [],
+      "latest_note_url": null,
+      "note_count": 0,
+      "open_access_pdf_url": null,
+      "pdf_url": null,
+      "project_url": null,
+      "published_at": "2026-10-07",
+      "published_date": "2026-10-07",
+      "reading_advice": "save_for_later",
+      "reading_status": "backlog",
+      "recommendation_level": "B",
+      "score": 0.653,
+      "scores": {
+        "classic_value": 0.35,
+        "engineering_transferability": 0.48,
+        "recency": 0.78,
+        "source_quality": 0.68,
+        "total": 0.653,
+        "user_relevance": 0.75
+      },
+      "selected_for_s_level": false,
+      "source": "biorxiv",
+      "source_group": "cognition_social",
+      "source_type": "recent_7d",
+      "source_url": "https://doi.org/10.64898/2026.09.28.751688",
+      "suggested_note_title": null,
+      "suggested_note_type": null,
+      "tags": [
+        "neuroscience",
+        "cognition_social",
+        "biorxiv"
+      ],
+      "title": "Single-cell spatial transcriptomics of inherited retinal degeneration reveals broad and focal organization of disease responses",
+      "title_zh": null,
+      "topics": [
+        "cognition"
+      ],
+      "url": "https://doi.org/10.64898/2026.09.28.751688",
+      "venue": "bioRxiv",
+      "why_recommended": "Ranked by recency signal across configured topics."
+    },
+    {
+      "abstract": "Although dementias primarily affect memory, they also disrupt our closest social relationships, resulting in elevated caregiver burden and worse patient outcomes. However, the mechanistic study of how pathology affects social attachments is limited by the use of laboratory rodents that do not form selective, long-term bonds. Here, in monogamous prairie voles, we expressed dementia-causing tauP301L in the paraventricular hypothalamus of 12- and 18-month-old animals, and separately, from birth through 18-months, across hippocampocortical regions. Hippocampocortical expression of tauP301L did not yield deficits in social or non-social dementia-related phenotypes. In contrast, tauP301L expressed in the hypothalamus yielded sex- and age-dependent social bonding deficits. 18-month males with hypothalamic tau pathology failed to form bonds and displayed blunted sociability, effects that converged across bonding assays. In addition, healthy 18-month males paired with a hypothalamic tau-expressing female also showed reduced partner preference, suggesting that pathology exerts vicarious effects on partners. Social behavior of both healthy females and those expressing tauP301L were unaffected. 18-month tauP301L males also showed elevated oxytocin fluorescence. These findings establish direct and vicarious disruptions to pair bonding induced by hypothalamic tau pathology in male prairie voles, potentially via altered oxytocin signaling.",
+      "authors": [
+        "Kelberman, M. A.",
+        "Winther, K. E.",
+        "Ibrahiem, R. E.",
+        "Albregts, E. G.",
+        "Pardasani, M.",
+        "Watanabe, Y. L.",
+        "Donaldson, Z. R."
+      ],
+      "categories": [
+        "neuroscience"
+      ],
+      "citation_count": null,
+      "classic_status": null,
+      "code_url": null,
+      "deep_read_note_url": null,
+      "difficulty": null,
+      "enrichment_sources": [],
+      "existing_note_url": null,
+      "external_ids": {
+        "DOI": "10.64898/2026.09.28.755178"
+      },
+      "field": null,
+      "fields_of_study": [
+        "Neuroscience"
+      ],
+      "id": "biorxiv:10.64898/2026.09.28.755178",
+      "identifiers": {
+        "DOI": "10.64898/2026.09.28.755178",
+        "doi": "10.64898/2026.09.28.755178",
+        "server": "biorxiv"
+      },
+      "influential_citation_count": null,
+      "institutions": [],
+      "latest_note_url": null,
+      "note_count": 0,
+      "open_access_pdf_url": null,
+      "pdf_url": null,
+      "project_url": null,
+      "published_at": "2026-10-07",
+      "published_date": "2026-10-07",
+      "reading_advice": "save_for_later",
+      "reading_status": "backlog",
+      "recommendation_level": "B",
+      "score": 0.653,
+      "scores": {
+        "classic_value": 0.35,
+        "engineering_transferability": 0.48,
+        "recency": 0.78,
+        "source_quality": 0.68,
+        "total": 0.653,
+        "user_relevance": 0.75
+      },
+      "selected_for_s_level": false,
+      "source": "biorxiv",
+      "source_group": "cognition_social",
+      "source_type": "recent_7d",
+      "source_url": "https://doi.org/10.64898/2026.09.28.755178",
+      "suggested_note_title": null,
+      "suggested_note_type": null,
+      "tags": [
+        "neuroscience",
+        "cognition_social",
+        "biorxiv"
+      ],
+      "title": "Hypothalamic tauP301L pathology disrupts pair bonding in monogamous prairie voles",
+      "title_zh": null,
+      "topics": [
+        "cognition"
+      ],
+      "url": "https://doi.org/10.64898/2026.09.28.755178",
+      "venue": "bioRxiv",
+      "why_recommended": "Ranked by recency signal across configured topics."
+    }
+  ],
+  "public_json_version": "0.4",
+  "s_level_candidate_ids": [],
+  "s_level_paper_id": null,
+  "source_mode_summary": {
+    "recent_7d": 6
+  },
+  "summary": "Selected 6 papers: 6 recent candidates and 0 classic fallback items."
+}
