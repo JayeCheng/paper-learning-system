@@ -307,6 +307,12 @@ arxiv:2610.13841v1,backlog,medium,,2026-10-13T02:58:34+00:00,Returning to Develo
 arxiv:2610.13860v1,backlog,medium,,2026-10-13T02:58:34+00:00,Make It Flow: Animating Water in 3D Gaussian Splatting Scenes,gpu_graphics,B
 arxiv:2610.13917v1,backlog,medium,,2026-10-13T02:58:34+00:00,Designing Protein Structures from Natural Language,llm_agent,B
 arxiv:2610.13945v1,backlog,medium,,2026-10-13T02:58:34+00:00,Splat2Act: From Captured Scenes to Personalized VLA Manipulation,gpu_graphics,B
+arxiv:2610.18391v1,backlog,medium,,2026-10-15T00:26:28+00:00,HULK: An Efficient Algorithm for Enabling Fast Bulk Bitwise Operations on Homomorphically Encrypted Data,architecture,A
+arxiv:2610.18765v1,backlog,medium,,2026-10-15T00:26:28+00:00,What Human-AI Interaction Leaves Behind: Residual Human States -- A Trajectory-Based Framework and Multi-Study Analysis,cognition_social,B
+arxiv:2610.18835v1,backlog,medium,,2026-10-15T00:26:28+00:00,RoboSimStudio: An Interactive Toolkit for Rapid Real2Sim of Robot Manipulation Tasks,gpu_graphics,A
+arxiv:2610.18862v1,backlog,medium,,2026-10-15T00:26:28+00:00,DoubtLess: Training-Free Contrastive Decoding for Efficient Reasoning,llm_agent,B
+arxiv:2610.18869v1,backlog,medium,,2026-10-15T00:26:28+00:00,What Matters in Quality-Aware VLA Pretraining: A Benchmark and Empirical Study,llm_agent,B
+arxiv:2610.18871v1,backlog,medium,,2026-10-15T00:26:28+00:00,Cepheid: Decoupling Scale from Structure for Cross-Family Motion Completion,gpu_graphics,A
 biorxiv:10.1101/2023.01.10.523479,backlog,medium,,2026-09-28T00:33:07+00:00,How Occam's razor guides human decision-making,cognition_social,B
 biorxiv:10.1101/2024.09.30.615819,backlog,medium,,2026-09-22T00:43:20+00:00,Hierarchy of prediction errors shapes the learning of context-dependent sensory representations,cognition_social,B
 biorxiv:10.1101/2024.10.24.620089,backlog,medium,,2026-09-23T00:19:20+00:00,Functional organization and natural scene responses across mouse visual cortical areas revealed with encoding manifolds,cognition_social,B
