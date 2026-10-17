@@ -2841,6 +2841,66 @@
     {
       "confidence": 0.5,
       "relation": "related_to",
+      "source": "arxiv:2610.21865v1",
+      "target": "gpu_graphics"
+    },
+    {
+      "confidence": 0.5,
+      "relation": "related_to",
+      "source": "arxiv:2610.21865v1",
+      "target": "cognition"
+    },
+    {
+      "confidence": 0.5,
+      "relation": "related_to",
+      "source": "arxiv:2610.21865v1",
+      "target": "cognition_social"
+    },
+    {
+      "confidence": 0.5,
+      "relation": "related_to",
+      "source": "arxiv:2610.22035v1",
+      "target": "architecture"
+    },
+    {
+      "confidence": 0.5,
+      "relation": "related_to",
+      "source": "arxiv:2610.22035v1",
+      "target": "llm_agent"
+    },
+    {
+      "confidence": 0.5,
+      "relation": "related_to",
+      "source": "arxiv:2610.22328v1",
+      "target": "gpu_graphics"
+    },
+    {
+      "confidence": 0.5,
+      "relation": "related_to",
+      "source": "arxiv:2610.22328v1",
+      "target": "llm_agent"
+    },
+    {
+      "confidence": 0.5,
+      "relation": "related_to",
+      "source": "arxiv:2610.22350v1",
+      "target": "llm_agent"
+    },
+    {
+      "confidence": 0.5,
+      "relation": "related_to",
+      "source": "arxiv:2610.22352v1",
+      "target": "gpu_graphics"
+    },
+    {
+      "confidence": 0.5,
+      "relation": "related_to",
+      "source": "arxiv:2610.22372v1",
+      "target": "llm_agent"
+    },
+    {
+      "confidence": 0.5,
+      "relation": "related_to",
       "source": "biorxiv:10.1101/2023.01.10.523479",
       "target": "cognition"
     },
@@ -6705,6 +6765,57 @@
       "type": "paper"
     },
     {
+      "id": "arxiv:2610.21865v1",
+      "label": "From Sketch to Scene: Relightable Garment Reconstruction from Marked Sketches",
+      "topics": [
+        "gpu_graphics",
+        "cognition"
+      ],
+      "type": "paper"
+    },
+    {
+      "id": "arxiv:2610.22035v1",
+      "label": "ETH: Data-Balanced Heterogeneous Pipeline Parallelism for Training Large Models",
+      "topics": [
+        "architecture",
+        "llm_agent"
+      ],
+      "type": "paper"
+    },
+    {
+      "id": "arxiv:2610.22328v1",
+      "label": "ACEdit: Stable Multi-Turn Image Editing via Asymmetric Conditioning",
+      "topics": [
+        "gpu_graphics",
+        "llm_agent"
+      ],
+      "type": "paper"
+    },
+    {
+      "id": "arxiv:2610.22350v1",
+      "label": "FDE-Gym: The Last Mile of AI Delivery",
+      "topics": [
+        "llm_agent"
+      ],
+      "type": "paper"
+    },
+    {
+      "id": "arxiv:2610.22352v1",
+      "label": "SUPRA-TEX: 3D Generation with Super-Aligned Texture",
+      "topics": [
+        "gpu_graphics"
+      ],
+      "type": "paper"
+    },
+    {
+      "id": "arxiv:2610.22372v1",
+      "label": "LIBERO-PeRM: Benchmarking Personalized Robotic Manipulation",
+      "topics": [
+        "llm_agent"
+      ],
+      "type": "paper"
+    },
+    {
       "id": "biorxiv:10.1101/2023.01.10.523479",
       "label": "How Occam's razor guides human decision-making",
       "topics": [
@@ -7594,5 +7705,5 @@
     }
   ],
   "public_json_version": "0.4",
-  "updated_at": "2026-10-16T00:16:59+00:00"
+  "updated_at": "2026-10-17T00:19:13+00:00"
 }

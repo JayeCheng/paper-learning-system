@@ -319,6 +319,12 @@ arxiv:2610.20538v1,backlog,medium,,2026-10-16T00:16:59+00:00,PrismaCoder: Pushin
 arxiv:2610.20606v1,backlog,medium,,2026-10-16T00:16:59+00:00,Modeling and Understanding Neural Weights of Humanoid Policies with Diffusion,llm_agent,B
 arxiv:2610.20607v1,backlog,medium,,2026-10-16T00:16:59+00:00,Hierarchical Residual Policy Learning for Real-World Mobile Manipulation with Sparse Human Guidance,llm_agent,B
 arxiv:2610.20610v1,backlog,medium,,2026-10-16T00:16:59+00:00,Can Learning to Answer Spatial Questions Improve Novel-View Generation?,gpu_graphics,B
+arxiv:2610.21865v1,backlog,medium,,2026-10-17T00:19:13+00:00,From Sketch to Scene: Relightable Garment Reconstruction from Marked Sketches,cognition_social,B
+arxiv:2610.22035v1,backlog,medium,,2026-10-17T00:19:13+00:00,ETH: Data-Balanced Heterogeneous Pipeline Parallelism for Training Large Models,architecture,A
+arxiv:2610.22328v1,backlog,medium,,2026-10-17T00:19:13+00:00,ACEdit: Stable Multi-Turn Image Editing via Asymmetric Conditioning,gpu_graphics,A
+arxiv:2610.22350v1,backlog,medium,,2026-10-17T00:19:13+00:00,FDE-Gym: The Last Mile of AI Delivery,llm_agent,A
+arxiv:2610.22352v1,backlog,medium,,2026-10-17T00:19:13+00:00,SUPRA-TEX: 3D Generation with Super-Aligned Texture,gpu_graphics,A
+arxiv:2610.22372v1,backlog,medium,,2026-10-17T00:19:13+00:00,LIBERO-PeRM: Benchmarking Personalized Robotic Manipulation,llm_agent,B
 biorxiv:10.1101/2023.01.10.523479,backlog,medium,,2026-09-28T00:33:07+00:00,How Occam's razor guides human decision-making,cognition_social,B
 biorxiv:10.1101/2024.09.30.615819,backlog,medium,,2026-09-22T00:43:20+00:00,Hierarchy of prediction errors shapes the learning of context-dependent sensory representations,cognition_social,B
 biorxiv:10.1101/2024.10.24.620089,backlog,medium,,2026-09-23T00:19:20+00:00,Functional organization and natural scene responses across mouse visual cortical areas revealed with encoding manifolds,cognition_social,B
