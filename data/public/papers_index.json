@@ -22592,6 +22592,79 @@
       "why_recommended": "Ranked by recency signal across configured topics."
     },
     {
+      "abstract": "The human brain is an adaptive learning system that can generalize to new tasks and unfamiliar environments. The traditional view is that such adaptive behavior requires a structural change of the learning system (e.g., via neural plasticity). In this work, we use artificial neural networks, specifically large language models (LLMs), to challenge this traditional view and suggest that such adaptive behavior can be also achieved solely through computation if the learning system is sufficiently trained. We focus on statistical learning paradigms. These require identifying underlying regularities in seemingly arbitrary word sequences and are primarily considered to require neural plasticity. LLMs can capture arbitrary structures without requiring weight adaptation, despite divergence from their natural language training data. Our work provides novel insights into the role of plasticity in learning, demonstrating that sufficiently trained learning systems are highly flexible, adapting to new tasks and environments solely through computation, much more than previously acknowledged. Furthermore, our work opens the door for future research to use deep learning models to conjure hypotheses about the brain.",
+      "authors": [
+        "Lior, G.",
+        "Shalev, Y.",
+        "Stanovsky, G.",
+        "Goldstein, A."
+      ],
+      "categories": [
+        "neuroscience"
+      ],
+      "citation_count": null,
+      "classic_status": null,
+      "code_url": null,
+      "deep_read_note_url": null,
+      "difficulty": null,
+      "enrichment_sources": [],
+      "existing_note_url": null,
+      "external_ids": {
+        "DOI": "10.1101/2024.03.07.583890"
+      },
+      "field": null,
+      "fields_of_study": [
+        "Neuroscience"
+      ],
+      "id": "biorxiv:10.1101/2024.03.07.583890",
+      "identifiers": {
+        "DOI": "10.1101/2024.03.07.583890",
+        "doi": "10.1101/2024.03.07.583890",
+        "server": "biorxiv"
+      },
+      "influential_citation_count": null,
+      "institutions": [],
+      "latest_note_url": null,
+      "note_count": 0,
+      "open_access_pdf_url": null,
+      "pdf_url": null,
+      "project_url": null,
+      "published_at": "2026-10-12",
+      "published_date": "2026-10-12",
+      "reading_advice": "save_for_later",
+      "reading_status": "backlog",
+      "recommendation_level": "B",
+      "score": 0.653,
+      "scores": {
+        "classic_value": 0.35,
+        "engineering_transferability": 0.48,
+        "recency": 0.78,
+        "source_quality": 0.68,
+        "total": 0.653,
+        "user_relevance": 0.75
+      },
+      "selected_for_s_level": false,
+      "source": "biorxiv",
+      "source_group": "cognition_social",
+      "source_type": "recent_7d",
+      "source_url": "https://doi.org/10.1101/2024.03.07.583890",
+      "suggested_note_title": null,
+      "suggested_note_type": null,
+      "tags": [
+        "neuroscience",
+        "cognition_social",
+        "biorxiv"
+      ],
+      "title": "Computation or Weight Adaptation? Rethinking the Role of Plasticity in Learning",
+      "title_zh": null,
+      "topics": [
+        "cognition"
+      ],
+      "url": "https://doi.org/10.1101/2024.03.07.583890",
+      "venue": "bioRxiv",
+      "why_recommended": "Ranked by recency signal across configured topics."
+    },
+    {
       "abstract": "How sensory information is interpreted depends on context, yet the neural mechanisms by which context shapes sensory processing remain poorly understood. To address this question, we developed a computational model constrained by in vivo functional imaging of cortical neurons in mice during reversal learning of a tactile sensory discrimination task. During learning, layer 2/3 somatosensory neurons enhanced their response to reward-predictive stimuli. The model accounted for these observations through selective top-down gain amplification of apical dendritic inputs, accompanied by reduced reward-prediction errors and increased confidence in outcome predictions. Upon rule-reversal, the lateral orbitofrontal cortex, through disinhibitory VIP interneurons, encoded a context-prediction error signaling a loss of confidence. The hierarchy of reward- and context-prediction errors across cortical areas is mirrored in top-down signals modulating apical activity of simulated pyramidal neurons in the primary sensory cortex. The model explains how contextual changes are detected and how reward- and context-prediction error signals, originating in different cortical regions, interact to reshape the sensory representation.",
       "authors": [
         "Tsai, M. C.",
@@ -23828,6 +23901,84 @@
       "why_recommended": "Ranked by recency signal across configured topics."
     },
     {
+      "abstract": "Transient prenatal hypoxia is associated with long-term neurodevelopmental impairment without overt structural brain injury, suggesting early regulatory disruptions precede detectable pathology. Whether these disruptions represent transient stress responses or redirect developmental programs remains unknown. Here, we combined single-nucleus RNA sequencing and chromatin accessibility profiling in the late-gestation mouse cortex immediately after transient hypoxia, capturing responses across more than 140,000 nuclei. Hypoxia induced a largely conserved transcriptional stress response across cell types, whereas chromatin accessibility showed more extensive, cell type-specific disruption. Developing glutamatergic neurons showed the strongest disruption of chromatin transcription coupling, with hypoxia-responsive distal regulatory regions associated with genes governing synaptic organization and neuronal excitability. Consistent with these chromatin-associated programs, juvenile offspring displayed reduced dendritic spine density and increased intrinsic excitability in cortical neurons. These results support a model in which transient hypoxia co-opts the developing epigenome's capacity to encode future transcriptional states before persistent circuit dysfunction emerges.",
+      "authors": [
+        "Cristancho, A. G.",
+        "Joseph, D. J.",
+        "Cassidy, M. M.",
+        "Chauhan, P. S.",
+        "Gadra, E. J.",
+        "Gadra, E. C.",
+        "Zarrinnegar, D.",
+        "Rodriguez, B. N.",
+        "Marsh, E. D."
+      ],
+      "categories": [
+        "neuroscience"
+      ],
+      "citation_count": null,
+      "classic_status": null,
+      "code_url": null,
+      "deep_read_note_url": null,
+      "difficulty": null,
+      "enrichment_sources": [],
+      "existing_note_url": null,
+      "external_ids": {
+        "DOI": "10.1101/2025.11.28.691133"
+      },
+      "field": null,
+      "fields_of_study": [
+        "Neuroscience"
+      ],
+      "id": "biorxiv:10.1101/2025.11.28.691133",
+      "identifiers": {
+        "DOI": "10.1101/2025.11.28.691133",
+        "doi": "10.1101/2025.11.28.691133",
+        "server": "biorxiv"
+      },
+      "influential_citation_count": null,
+      "institutions": [],
+      "latest_note_url": null,
+      "note_count": 0,
+      "open_access_pdf_url": null,
+      "pdf_url": null,
+      "project_url": null,
+      "published_at": "2026-10-12",
+      "published_date": "2026-10-12",
+      "reading_advice": "save_for_later",
+      "reading_status": "backlog",
+      "recommendation_level": "B",
+      "score": 0.653,
+      "scores": {
+        "classic_value": 0.35,
+        "engineering_transferability": 0.48,
+        "recency": 0.78,
+        "source_quality": 0.68,
+        "total": 0.653,
+        "user_relevance": 0.75
+      },
+      "selected_for_s_level": false,
+      "source": "biorxiv",
+      "source_group": "cognition_social",
+      "source_type": "recent_7d",
+      "source_url": "https://doi.org/10.1101/2025.11.28.691133",
+      "suggested_note_title": null,
+      "suggested_note_type": null,
+      "tags": [
+        "neuroscience",
+        "cognition_social",
+        "biorxiv"
+      ],
+      "title": "Environmental co-option of chromatin potential links prenatal hypoxia to persistent cortical circuit dysfunction",
+      "title_zh": null,
+      "topics": [
+        "cognition"
+      ],
+      "url": "https://doi.org/10.1101/2025.11.28.691133",
+      "venue": "bioRxiv",
+      "why_recommended": "Ranked by recency signal across configured topics."
+    },
+    {
       "abstract": "Early life adversity (ELA) has lasting impacts on emotion circuit function1. Exposure to early maltreatment, neglect, or household instability is associated with enduring alterations in threat evaluation and response, hallmarks of mood and anxiety disorders2-4. These alterations often emerge during adolescence and are characterized by excessive avoidance that limits engagement in rewarding experiences5,6. However, the neurodevelopmental mechanisms linking ELA to increased threat responses remain unclear. We identified a stress-sensitive medial prefrontal cortex (mPFC)-basolateral amygdala pathway that co-expresses corticotropin-releasing hormone (CRH) and glutamate. We find that ELA strengthens this pathway and increases threat avoidance behavior during adolescence. Optogenetic inhibition and developmental CRH knockdown in this pathway both rescue ELA-induced elevations in adolescent avoidance, whereas broadly reducing mPFC CRH expression in typically reared mice mimics ELA phenotypes. The same manipulations produced no behavioral effects in adults. Together, our findings indicate that cell type-specific CRH signaling regulates developmental circuit plasticity, biasing emotional circuit function and potentially contributing to psychiatric vulnerability.",
       "authors": [
         "Goodpaster, C. M.",
@@ -24059,6 +24210,79 @@
         "cognition"
       ],
       "url": "https://doi.org/10.64898/2026.01.05.697602",
+      "venue": "bioRxiv",
+      "why_recommended": "Ranked by recency signal across configured topics."
+    },
+    {
+      "abstract": "Adaptive learning in dynamic environments depends on the brain's ability to represent and respond to uncertainty. Changes in arousal-mediated pupil diameter provide insight into the neural basis of this process. Prior work has focused on magnitude-based inference tasks and revealed that learning is primarily influenced by the detection of change points and the corresponding modulation of arousal. In comparison, the role of arousal systems in learning contexts where changes are harder to detect, such as in probability learning, remains poorly understood. Here, we combined pupillometry with a probability learning task in which human participants estimated a hidden generative probability of stimuli that changed abruptly and unpredictably. A Bayesian ideal observer model was used to estimate trial-by-trial learning rates and two uncertainty-associated factors: change point probability (the probability that the generative process has abruptly changed) and prior uncertainty (about the current beliefs on this generative process). In line with normative theory, participants relied on prior uncertainty to adjust learning rates. Pupil analyses revealed temporally distinct representations of uncertainty, with phasic dilations tracking change point probability and tonic pupil dilations tracking prior uncertainty. Mediation analyses further indicated that both phasic and tonic pupil signals partially carried the effects of change point probability and prior uncertainty on learning, respectively. Critically, high tonic arousal weakened the coupling between phasic pupil responses and change point probability, accompanied by a reduced influence of change point probability on learning. Together, our results demonstrate that probability learning in a dynamic environment is underpinned by computationally rational integration of latent uncertainty factors and its contribution to belief updating,regulated through arousal-associated responses.",
+      "authors": [
+        "Greenhouse-Tucknott, A.",
+        "Foucault, C.",
+        "Buot, A.",
+        "Meyniel, F."
+      ],
+      "categories": [
+        "neuroscience"
+      ],
+      "citation_count": null,
+      "classic_status": null,
+      "code_url": null,
+      "deep_read_note_url": null,
+      "difficulty": null,
+      "enrichment_sources": [],
+      "existing_note_url": null,
+      "external_ids": {
+        "DOI": "10.64898/2026.02.26.708148"
+      },
+      "field": null,
+      "fields_of_study": [
+        "Neuroscience"
+      ],
+      "id": "biorxiv:10.64898/2026.02.26.708148",
+      "identifiers": {
+        "DOI": "10.64898/2026.02.26.708148",
+        "doi": "10.64898/2026.02.26.708148",
+        "server": "biorxiv"
+      },
+      "influential_citation_count": null,
+      "institutions": [],
+      "latest_note_url": null,
+      "note_count": 0,
+      "open_access_pdf_url": null,
+      "pdf_url": null,
+      "project_url": null,
+      "published_at": "2026-10-12",
+      "published_date": "2026-10-12",
+      "reading_advice": "save_for_later",
+      "reading_status": "backlog",
+      "recommendation_level": "B",
+      "score": 0.653,
+      "scores": {
+        "classic_value": 0.35,
+        "engineering_transferability": 0.48,
+        "recency": 0.78,
+        "source_quality": 0.68,
+        "total": 0.653,
+        "user_relevance": 0.75
+      },
+      "selected_for_s_level": false,
+      "source": "biorxiv",
+      "source_group": "cognition_social",
+      "source_type": "recent_7d",
+      "source_url": "https://doi.org/10.64898/2026.02.26.708148",
+      "suggested_note_title": null,
+      "suggested_note_type": null,
+      "tags": [
+        "neuroscience",
+        "cognition_social",
+        "biorxiv"
+      ],
+      "title": "Pupil Dynamics Reflect Uncertainty-Driven Adjustments of Probability Learning",
+      "title_zh": null,
+      "topics": [
+        "cognition"
+      ],
+      "url": "https://doi.org/10.64898/2026.02.26.708148",
       "venue": "bioRxiv",
       "why_recommended": "Ranked by recency signal across configured topics."
     },
@@ -29771,6 +29995,249 @@
       "why_recommended": "Ranked by recency signal across configured topics."
     },
     {
+      "abstract": "Background: Understanding fetal brain responses to hypoxia-ischemia is of growing interest, as it remains unclear to what extent these responses differ from those of newborns and whether developmental adaptations during gestation contribute to such differences. Materials and methods: Using a combination of broadband near-infrared spectroscopy (bNIRS) and diffuse correlation spectroscopy (DCS), we measured brain microvascular oxygen saturation (StO2), total hemoglobin concentration (THC), relative cerebral blood flow (rCBF), and the oxidation state of cytochrome c oxidase (oxCCO) during an acute ischemic challenge in the brains of five rabbit fetuses in utero. Simultaneous measurements were acquired from four control fetuses located in the contralateral uterine horn. Results: During the hypoxia-ischemia phase, we observed a rapid reduction of CBF (47% +/- 29%) and StO2, (from 64.7% +/- 1.5% at baseline to 40.6% +/- 2.0%) together with an increase of oxCCO (3.7 uM +/- 0.5 uM). Conclusion: The simultaneous increase in oxCCO and decrease in rCBF and StO2 during hypoxia-ischemia reveals a cerebral response pattern that differs from that commonly reported in the newborn brain. These findings support the hypothesis that unique developmental adaptations influence fetal cerebral metabolism during hypoxic-ischemic stress.",
+      "authors": [
+        "Cortese, L.",
+        "Lo Presti, G.",
+        "Berdun, S.",
+        "Bale, G.",
+        "Kovacsova, Z.",
+        "Eixarch, E.",
+        "Gratacos, E.",
+        "Tachtsidis, I.",
+        "Durduran, T."
+      ],
+      "categories": [
+        "neuroscience"
+      ],
+      "citation_count": null,
+      "classic_status": null,
+      "code_url": null,
+      "deep_read_note_url": null,
+      "difficulty": null,
+      "enrichment_sources": [],
+      "existing_note_url": null,
+      "external_ids": {
+        "DOI": "10.64898/2026.10.05.755935"
+      },
+      "field": null,
+      "fields_of_study": [
+        "Neuroscience"
+      ],
+      "id": "biorxiv:10.64898/2026.10.05.755935",
+      "identifiers": {
+        "DOI": "10.64898/2026.10.05.755935",
+        "doi": "10.64898/2026.10.05.755935",
+        "server": "biorxiv"
+      },
+      "influential_citation_count": null,
+      "institutions": [],
+      "latest_note_url": null,
+      "note_count": 0,
+      "open_access_pdf_url": null,
+      "pdf_url": null,
+      "project_url": null,
+      "published_at": "2026-10-12",
+      "published_date": "2026-10-12",
+      "reading_advice": "save_for_later",
+      "reading_status": "backlog",
+      "recommendation_level": "B",
+      "score": 0.653,
+      "scores": {
+        "classic_value": 0.35,
+        "engineering_transferability": 0.48,
+        "recency": 0.78,
+        "source_quality": 0.68,
+        "total": 0.653,
+        "user_relevance": 0.75
+      },
+      "selected_for_s_level": false,
+      "source": "biorxiv",
+      "source_group": "cognition_social",
+      "source_type": "recent_7d",
+      "source_url": "https://doi.org/10.64898/2026.10.05.755935",
+      "suggested_note_title": null,
+      "suggested_note_type": null,
+      "tags": [
+        "neuroscience",
+        "cognition_social",
+        "biorxiv"
+      ],
+      "title": "Cerebral hemodynamics and cytochrome c oxidase in hypoxic-ischemic rabbit fetuses",
+      "title_zh": null,
+      "topics": [
+        "cognition"
+      ],
+      "url": "https://doi.org/10.64898/2026.10.05.755935",
+      "venue": "bioRxiv",
+      "why_recommended": "Ranked by recency signal across configured topics."
+    },
+    {
+      "abstract": "Background: Deficits in inhibitory control are considered a central feature of alcohol use disorder (AUD), yet behavioral and neuroimaging findings have been inconsistent. One potential explanation is the marked heterogeneity of AUD, which encompasses multiple symptom dimensions that may differ in their underlying neurocognitive mechanisms. In this study, we investigated whether behavioral and neural markers of inhibitory control are associated with specific DSM-5 AUD symptom domains. Methods: A total of 589 participants (432 with non-treatment seeking AUD, 157 controls) completed a Stop-Signal Task (SST) during fMRI. Associations between DSM-5 symptom domains (impaired control over alcohol use, risky use, social problems, physical dependence) and SST performance, inhibition-related brain activation, and alcohol consumption were examined. Real-life drinking behavior was additionally assessed over 12 months using ecological momentary assessment (EMA). Results: Greater impaired control symptom severity was associated with poorer performance on go trials and diminished post-error slowing during SST. At the neural level, higher impaired control symptom severity was associated with reduced activation across fronto-insular, parietal, cingulate, supplementary motor, and cerebellar regions. In contrast, other symptom domains showed little to no associations with inhibition-related behavioral or neural measures. Higher impaired control symptom severity was associated with greater alcohol consumption across questionnaire-based and EMA-based assessments. Conclusions: In this large cohort, altered behavioral performance and recruitment of inhibition-related brain regions in the SST was selectively linked to impaired control symptoms. These findings highlight the importance of symptom-based approaches for understanding heterogeneity in addiction and may inform the development of more targeted interventions.",
+      "authors": [
+        "Boehmer, J.",
+        "Reinhardt, P.",
+        "Bottino, M.",
+        "Baertl, C.",
+        "Arntz, F.",
+        "Hildebrandt, M. K.",
+        "Chen, H.",
+        "Thill, L.",
+        "Petzold, J.",
+        "Ritter, K.",
+        "Rapp, M.",
+        "Kiefer, F.",
+        "Bach, P.",
+        "Lenz, B.",
+        "Heinz, A.",
+        "Spitta, G.",
+        "Rosenthal, A.",
+        "Endrass, T.",
+        "Smolka, M. N.",
+        "Spanagel, R.",
+        "Henze, G.-I.",
+        "ReCoDe-Consortium,",
+        "Marxen, M.",
+        "Walter, H."
+      ],
+      "categories": [
+        "neuroscience"
+      ],
+      "citation_count": null,
+      "classic_status": null,
+      "code_url": null,
+      "deep_read_note_url": null,
+      "difficulty": null,
+      "enrichment_sources": [],
+      "existing_note_url": null,
+      "external_ids": {
+        "DOI": "10.64898/2026.10.05.756706"
+      },
+      "field": null,
+      "fields_of_study": [
+        "Neuroscience"
+      ],
+      "id": "biorxiv:10.64898/2026.10.05.756706",
+      "identifiers": {
+        "DOI": "10.64898/2026.10.05.756706",
+        "doi": "10.64898/2026.10.05.756706",
+        "server": "biorxiv"
+      },
+      "influential_citation_count": null,
+      "institutions": [],
+      "latest_note_url": null,
+      "note_count": 0,
+      "open_access_pdf_url": null,
+      "pdf_url": null,
+      "project_url": null,
+      "published_at": "2026-10-12",
+      "published_date": "2026-10-12",
+      "reading_advice": "save_for_later",
+      "reading_status": "backlog",
+      "recommendation_level": "B",
+      "score": 0.653,
+      "scores": {
+        "classic_value": 0.35,
+        "engineering_transferability": 0.48,
+        "recency": 0.78,
+        "source_quality": 0.68,
+        "total": 0.653,
+        "user_relevance": 0.75
+      },
+      "selected_for_s_level": false,
+      "source": "biorxiv",
+      "source_group": "cognition_social",
+      "source_type": "recent_7d",
+      "source_url": "https://doi.org/10.64898/2026.10.05.756706",
+      "suggested_note_title": null,
+      "suggested_note_type": null,
+      "tags": [
+        "neuroscience",
+        "cognition_social",
+        "biorxiv"
+      ],
+      "title": "Impaired Control Symptoms in Alcohol Use Disorder Show Convergent Associations Across Behavioral and Neural Markers of Inhibitory Control and Drinking Behavior",
+      "title_zh": null,
+      "topics": [
+        "cognition"
+      ],
+      "url": "https://doi.org/10.64898/2026.10.05.756706",
+      "venue": "bioRxiv",
+      "why_recommended": "Ranked by recency signal across configured topics."
+    },
+    {
+      "abstract": "Electrical stimulation of brain activity has emerged as a key therapeutic intervention for neurological diseases. The success of these approaches relies on precisely tuned stimulation parameters. A major challenge is that these parameters should ideally be adjusted in real-time based on changes in brain activity. Closed-loop controllers address this challenge by monitoring brain activity and adapting stimulation according to ongoing changes in neural dynamics. While machine learning has been helpful in this context, closed-loop controllers typically do not adapt in real-time to fluctuations in brain activity. Here, we propose a novel framework based on reservoir computing to train a closed-loop, real-time neural controller. This approach, termed CLEAR-FORCE, trains the output weights of a recurrent network based on a combination of target signals and feedback from brain activity. Two series of simulations were performed, where the controller was successful at (1) inducing neural oscillations in a population of spiking neurons and (2) suppressing pathological oscillations. This framework provides a promising avenue for the implementation of neural controllers in low-powered, real-time, and adaptive hardware that harnesses machine learning for the personalized treatment of brain disorders.",
+      "authors": [
+        "Moreno-Gris, A.",
+        "Godin, C.",
+        "Thivierge, J.-P."
+      ],
+      "categories": [
+        "neuroscience"
+      ],
+      "citation_count": null,
+      "classic_status": null,
+      "code_url": null,
+      "deep_read_note_url": null,
+      "difficulty": null,
+      "enrichment_sources": [],
+      "existing_note_url": null,
+      "external_ids": {
+        "DOI": "10.64898/2026.10.05.756709"
+      },
+      "field": null,
+      "fields_of_study": [
+        "Neuroscience"
+      ],
+      "id": "biorxiv:10.64898/2026.10.05.756709",
+      "identifiers": {
+        "DOI": "10.64898/2026.10.05.756709",
+        "doi": "10.64898/2026.10.05.756709",
+        "server": "biorxiv"
+      },
+      "influential_citation_count": null,
+      "institutions": [],
+      "latest_note_url": null,
+      "note_count": 0,
+      "open_access_pdf_url": null,
+      "pdf_url": null,
+      "project_url": null,
+      "published_at": "2026-10-12",
+      "published_date": "2026-10-12",
+      "reading_advice": "save_for_later",
+      "reading_status": "backlog",
+      "recommendation_level": "B",
+      "score": 0.653,
+      "scores": {
+        "classic_value": 0.35,
+        "engineering_transferability": 0.48,
+        "recency": 0.78,
+        "source_quality": 0.68,
+        "total": 0.653,
+        "user_relevance": 0.75
+      },
+      "selected_for_s_level": false,
+      "source": "biorxiv",
+      "source_group": "cognition_social",
+      "source_type": "recent_7d",
+      "source_url": "https://doi.org/10.64898/2026.10.05.756709",
+      "suggested_note_title": null,
+      "suggested_note_type": null,
+      "tags": [
+        "neuroscience",
+        "cognition_social",
+        "biorxiv"
+      ],
+      "title": "CLEAR-FORCE: A reservoir computing framework for closed-loop brain stimulation",
+      "title_zh": null,
+      "topics": [
+        "cognition"
+      ],
+      "url": "https://doi.org/10.64898/2026.10.05.756709",
+      "venue": "bioRxiv",
+      "why_recommended": "Ranked by recency signal across configured topics."
+    },
+    {
       "abstract": "How do we come to \"see\" the same thing differently after hearing someone else's perspective? Revising an interpretation could reflect changes in how the brain represents the meaning of what we see, changes in how we visually sample the input, or both. To disentangle these mechanisms, we developed MindLibs, an adaptive fMRI and eye-tracking paradigm in which participants generate interpretations of ambiguous photographs and then view alternative interpretations chosen in real time to vary in semantic content from their own. Exposure to semantically distant alternatives revealed a strong link between reinterpretation as reported behaviorally and representational shifts in association cortex, but no systematic relationship between reinterpretation and changes in gaze. In particular, representational shifts in lateral default-mode network regions (DMN-B) predicted reinterpretation independently of shifts in frontoparietal, attention, and visual networks, and independently of whether gaze changed. In contrast, shifts in visual cortex tracked reinterpretation only when gaze also shifted, and contributed no unique variance beyond DMN-B. These findings identify higher-order conceptual reconfiguration, rather than perceptual resampling, as the primary account of how people revise the meaning of an ambiguous scene.",
       "authors": [
         "Sava-Segal, C. A.",
@@ -30316,5 +30783,5 @@
     }
   ],
   "public_json_version": "0.4",
-  "updated_at": "2026-10-17T23:56:49+00:00"
+  "updated_at": "2026-10-19T00:08:58+00:00"
 }

@@ -2913,6 +2913,18 @@
     {
       "confidence": 0.5,
       "relation": "related_to",
+      "source": "biorxiv:10.1101/2024.03.07.583890",
+      "target": "cognition"
+    },
+    {
+      "confidence": 0.5,
+      "relation": "related_to",
+      "source": "biorxiv:10.1101/2024.03.07.583890",
+      "target": "cognition_social"
+    },
+    {
+      "confidence": 0.5,
+      "relation": "related_to",
       "source": "biorxiv:10.1101/2024.09.30.615819",
       "target": "cognition"
     },
@@ -3105,6 +3117,18 @@
     {
       "confidence": 0.5,
       "relation": "related_to",
+      "source": "biorxiv:10.1101/2025.11.28.691133",
+      "target": "cognition"
+    },
+    {
+      "confidence": 0.5,
+      "relation": "related_to",
+      "source": "biorxiv:10.1101/2025.11.28.691133",
+      "target": "cognition_social"
+    },
+    {
+      "confidence": 0.5,
+      "relation": "related_to",
       "source": "biorxiv:10.64898/2025.12.23.696229",
       "target": "cognition"
     },
@@ -3136,6 +3160,18 @@
       "confidence": 0.5,
       "relation": "related_to",
       "source": "biorxiv:10.64898/2026.01.05.697602",
+      "target": "cognition_social"
+    },
+    {
+      "confidence": 0.5,
+      "relation": "related_to",
+      "source": "biorxiv:10.64898/2026.02.26.708148",
+      "target": "cognition"
+    },
+    {
+      "confidence": 0.5,
+      "relation": "related_to",
+      "source": "biorxiv:10.64898/2026.02.26.708148",
       "target": "cognition_social"
     },
     {
@@ -4036,6 +4072,42 @@
       "confidence": 0.5,
       "relation": "related_to",
       "source": "biorxiv:10.64898/2026.10.04.756487",
+      "target": "cognition_social"
+    },
+    {
+      "confidence": 0.5,
+      "relation": "related_to",
+      "source": "biorxiv:10.64898/2026.10.05.755935",
+      "target": "cognition"
+    },
+    {
+      "confidence": 0.5,
+      "relation": "related_to",
+      "source": "biorxiv:10.64898/2026.10.05.755935",
+      "target": "cognition_social"
+    },
+    {
+      "confidence": 0.5,
+      "relation": "related_to",
+      "source": "biorxiv:10.64898/2026.10.05.756706",
+      "target": "cognition"
+    },
+    {
+      "confidence": 0.5,
+      "relation": "related_to",
+      "source": "biorxiv:10.64898/2026.10.05.756706",
+      "target": "cognition_social"
+    },
+    {
+      "confidence": 0.5,
+      "relation": "related_to",
+      "source": "biorxiv:10.64898/2026.10.05.756709",
+      "target": "cognition"
+    },
+    {
+      "confidence": 0.5,
+      "relation": "related_to",
+      "source": "biorxiv:10.64898/2026.10.05.756709",
       "target": "cognition_social"
     },
     {
@@ -6824,6 +6896,14 @@
       "type": "paper"
     },
     {
+      "id": "biorxiv:10.1101/2024.03.07.583890",
+      "label": "Computation or Weight Adaptation? Rethinking the Role of Plasticity in Learning",
+      "topics": [
+        "cognition"
+      ],
+      "type": "paper"
+    },
+    {
       "id": "biorxiv:10.1101/2024.09.30.615819",
       "label": "Hierarchy of prediction errors shapes the learning of context-dependent sensory representations",
       "topics": [
@@ -6952,6 +7032,14 @@
       "type": "paper"
     },
     {
+      "id": "biorxiv:10.1101/2025.11.28.691133",
+      "label": "Environmental co-option of chromatin potential links prenatal hypoxia to persistent cortical circuit dysfunction",
+      "topics": [
+        "cognition"
+      ],
+      "type": "paper"
+    },
+    {
       "id": "biorxiv:10.64898/2025.12.23.696229",
       "label": "Early adversity promotes adolescent avoidance behavior by enhancing prefrontal-amygdala communication through CRH+ glutamatergic neurons",
       "topics": [
@@ -6970,6 +7058,14 @@
     {
       "id": "biorxiv:10.64898/2026.01.05.697602",
       "label": "Elements of Olfactory Intelligence in Drosophila",
+      "topics": [
+        "cognition"
+      ],
+      "type": "paper"
+    },
+    {
+      "id": "biorxiv:10.64898/2026.02.26.708148",
+      "label": "Pupil Dynamics Reflect Uncertainty-Driven Adjustments of Probability Learning",
       "topics": [
         "cognition"
       ],
@@ -7576,6 +7672,30 @@
       "type": "paper"
     },
     {
+      "id": "biorxiv:10.64898/2026.10.05.755935",
+      "label": "Cerebral hemodynamics and cytochrome c oxidase in hypoxic-ischemic rabbit fetuses",
+      "topics": [
+        "cognition"
+      ],
+      "type": "paper"
+    },
+    {
+      "id": "biorxiv:10.64898/2026.10.05.756706",
+      "label": "Impaired Control Symptoms in Alcohol Use Disorder Show Convergent Associations Across Behavioral and Neural Markers of Inhibitory Control and Drinking Behavior",
+      "topics": [
+        "cognition"
+      ],
+      "type": "paper"
+    },
+    {
+      "id": "biorxiv:10.64898/2026.10.05.756709",
+      "label": "CLEAR-FORCE: A reservoir computing framework for closed-loop brain stimulation",
+      "topics": [
+        "cognition"
+      ],
+      "type": "paper"
+    },
+    {
       "id": "biorxiv:10.64898/2026.10.06.749912",
       "label": "Shifts in neural representations, not gaze, track how people reinterpret ambiguous social scenes",
       "topics": [
@@ -7705,5 +7825,5 @@
     }
   ],
   "public_json_version": "0.4",
-  "updated_at": "2026-10-17T23:56:49+00:00"
+  "updated_at": "2026-10-19T00:08:58+00:00"
 }
