@@ -25673,6 +25673,77 @@
       "why_recommended": "Ranked by recency signal across configured topics."
     },
     {
+      "abstract": "Advances in high-throughput mesoscale microscopy and machine learning-based image analysis pipelines have made unbiased whole-brain imaging widely accessible. However, translating the resulting atlas-mapped datasets into biologically meaningful results remains a substantial barrier owing to their sheer magnitude and complex hierarchical organization. Consequently, reporting structure and analysis methods vary widely across studies, undermining rigor and reproducibility. To address this, we developed a user-friendly data reduction workflow, HERO (Hierarchy-aware Expression Region Organization), designed to perform hierarchy-aware selection, refinement, ranking, and visualization of whole-brain cell detection datasets. The workflow is customizable to specific needs, requires minimal coding experience, and outputs transparent, curated results. HERO functions as a seamless plug-in within larger-scale whole-brain cell detection analysis pipelines, providing efficient, unbiased region selection to streamline subsequent statistical analyses and comparative evaluations. Although HERO is developed with mouse cell-detection datasets, it can be applied to any atlas-mapped dataset that contains hierarchical information. Here, we applied the HERO pipeline to example cell detection datasets containing afferent cells from the bed nucleus of the stria terminalis (BST) and the insular cortex (insula). HERO provided top projecting regions consistent with historical tracing studies for the BST (e.g., amygdalar and hypothalamic regions) and the insula (e.g., somatosensory, autonomic, and interoceptive regions). Furthermore, the refinement step of HERO provides additional enriched regions originally obscured in the primary ranked outputs, such as memory- and emotion-associated structures. With HEROs dynamic processing, we were able to identify top-projecting regions consistent with the literature and, additionally, find regions often obscured in these large datasets. In sum, HERO offers a standardized analysis workflow to reduce whole-brain cell-detection datasets, transforming raw regional cell counts into curated results and advancing the effectiveness, interpretability, and accessibility of whole-brain imaging in neuroscience.",
+      "authors": [
+        "Shipman, A. L.",
+        "Centanni, S. W."
+      ],
+      "categories": [
+        "neuroscience"
+      ],
+      "citation_count": null,
+      "classic_status": null,
+      "code_url": null,
+      "deep_read_note_url": null,
+      "difficulty": null,
+      "enrichment_sources": [],
+      "existing_note_url": null,
+      "external_ids": {
+        "DOI": "10.64898/2026.07.02.736093"
+      },
+      "field": null,
+      "fields_of_study": [
+        "Neuroscience"
+      ],
+      "id": "biorxiv:10.64898/2026.07.02.736093",
+      "identifiers": {
+        "DOI": "10.64898/2026.07.02.736093",
+        "doi": "10.64898/2026.07.02.736093",
+        "server": "biorxiv"
+      },
+      "influential_citation_count": null,
+      "institutions": [],
+      "latest_note_url": null,
+      "note_count": 0,
+      "open_access_pdf_url": null,
+      "pdf_url": null,
+      "project_url": null,
+      "published_at": "2026-10-13",
+      "published_date": "2026-10-13",
+      "reading_advice": "save_for_later",
+      "reading_status": "backlog",
+      "recommendation_level": "B",
+      "score": 0.653,
+      "scores": {
+        "classic_value": 0.35,
+        "engineering_transferability": 0.48,
+        "recency": 0.78,
+        "source_quality": 0.68,
+        "total": 0.653,
+        "user_relevance": 0.75
+      },
+      "selected_for_s_level": false,
+      "source": "biorxiv",
+      "source_group": "cognition_social",
+      "source_type": "recent_7d",
+      "source_url": "https://doi.org/10.64898/2026.07.02.736093",
+      "suggested_note_title": null,
+      "suggested_note_type": null,
+      "tags": [
+        "neuroscience",
+        "cognition_social",
+        "biorxiv"
+      ],
+      "title": "HERO: A hierarchy-aware analysis pipeline for reducing and refining whole-brain atlas-mapped cellular datasets",
+      "title_zh": null,
+      "topics": [
+        "cognition"
+      ],
+      "url": "https://doi.org/10.64898/2026.07.02.736093",
+      "venue": "bioRxiv",
+      "why_recommended": "Ranked by recency signal across configured topics."
+    },
+    {
       "abstract": "The infralimbic cortex (IL) is critical for the extinction of conditioned fear and receives dense cholinergic innervation from the basal forebrain, particularly from the horizontal limb of the diagonal band of Broca (HDB). Acetylcholine release in the IL regulates fear-related processes, but the mechanisms involved remain poorly understood. We investigated whether cholinergic projections from the HDB to the IL regulate the formation, extinction, and renewal of fear memories. Using optogenetics in male and female transgenic rats, we silenced the HDB to IL cholinergic pathway during either fear conditioning or extinction. Silencing during fear conditioning had no effect, whereas silencing during extinction enhanced extinction retrieval and prevented fear renewal. These effects were anatomically specific, as silencing the neighboring HDB to prelimbic cortex pathway had no such consequence. In ex vivo IL slices, stimulation of HDB cholinergic terminals preferentially excited interneurons over pyramidal neurons, consistent with feedforward inhibition of IL output. Finally, blockade of IL nicotinic acetylcholine receptors during extinction fully reproduced the effects of silencing the pathway, whereas muscarinic blockade attenuated renewal without affecting extinction retrieval. These findings indicate that cholinergic input from the HDB to the IL controls the acquisition and contextual specificity of extinction and identify nicotinic signaling in the IL as a potential target for improving extinction-based therapies.",
       "authors": [
         "Lay, B. P. P.",
@@ -30310,6 +30381,393 @@
       "why_recommended": "Ranked by recency signal across configured topics."
     },
     {
+      "abstract": "Sensorineural hearing loss can arise from damage to sensory hair cells, auditory neurons or their synaptic connections, with auditory neuropathy and cochlear synaptopathy highlighting the importance of neural integrity for hearing. The mammalian cochlea has limited capacity to regenerate lost auditory neurons. Understanding the molecular programs that sustain cochlear progenitor expansion and neurogenic competence could support neuronal regeneration and provide renewable models for auditory drug discovery. We previously established that WNT activation combined with dual SMAD inhibition (CHIR-DS) supports scalable expansion and neuronal differentiation of mouse auditory neuroprogenitors (ANPGs). Here, we characterize the transcriptional, chromatin and metabolic changes associated with the induced state. RNA-seq and ATAC-seq identified reduced Id1 and Id2 expression and increased accessibility at proneural basic helix-loop-helix motifs, alongside transcriptional enrichment of translation, mTOR and glucose-metabolism programs. Compared with growth-factor controls, CHIR-DS-treated ANPGs showed slight increase in glycolysis at early passage. However, after long-term expansion, both glycolysis and mitochondrial respiration were markedly enhanced. Human fetal ANPGs also responded to CHIR-DS with increased sphere growth and retained neural differentiation capacity, providing proof of concept beyond the mouse system. Finally, neurons derived from stemness-induced ANPGs (siANs) supported a 384-well reporter assay and a 2,560-compound pilot screen that nominated candidate neurite-outgrowth enhancers. Together, these findings validate the pathway basis of ANPG stemness induction, characterize the resulting molecular and metabolic state, and demonstrate human feasibility and a neuronal screening application.",
+      "authors": [
+        "Rousset, F.",
+        "Pepe, L.",
+        "Sarhadi, M.",
+        "Lemeille, S.",
+        "Sgroi, S.",
+        "Oberhauser, L.",
+        "Daskalou, D.",
+        "Ilmjarv, S.",
+        "Braun, S.",
+        "Senn, P."
+      ],
+      "categories": [
+        "neuroscience"
+      ],
+      "citation_count": null,
+      "classic_status": null,
+      "code_url": null,
+      "deep_read_note_url": null,
+      "difficulty": null,
+      "enrichment_sources": [],
+      "existing_note_url": null,
+      "external_ids": {
+        "DOI": "10.64898/2026.10.09.757611"
+      },
+      "field": null,
+      "fields_of_study": [
+        "Neuroscience"
+      ],
+      "id": "biorxiv:10.64898/2026.10.09.757611",
+      "identifiers": {
+        "DOI": "10.64898/2026.10.09.757611",
+        "doi": "10.64898/2026.10.09.757611",
+        "server": "biorxiv"
+      },
+      "influential_citation_count": null,
+      "institutions": [],
+      "latest_note_url": null,
+      "note_count": 0,
+      "open_access_pdf_url": null,
+      "pdf_url": null,
+      "project_url": null,
+      "published_at": "2026-10-13",
+      "published_date": "2026-10-13",
+      "reading_advice": "save_for_later",
+      "reading_status": "backlog",
+      "recommendation_level": "B",
+      "score": 0.653,
+      "scores": {
+        "classic_value": 0.35,
+        "engineering_transferability": 0.48,
+        "recency": 0.78,
+        "source_quality": 0.68,
+        "total": 0.653,
+        "user_relevance": 0.75
+      },
+      "selected_for_s_level": false,
+      "source": "biorxiv",
+      "source_group": "cognition_social",
+      "source_type": "recent_7d",
+      "source_url": "https://doi.org/10.64898/2026.10.09.757611",
+      "suggested_note_title": null,
+      "suggested_note_type": null,
+      "tags": [
+        "neuroscience",
+        "cognition_social",
+        "biorxiv"
+      ],
+      "title": "Deciphering auditory neuroprogenitor stemness for large-scale neuronal screening",
+      "title_zh": null,
+      "topics": [
+        "cognition"
+      ],
+      "url": "https://doi.org/10.64898/2026.10.09.757611",
+      "venue": "bioRxiv",
+      "why_recommended": "Ranked by recency signal across configured topics."
+    },
+    {
+      "abstract": "Primary cortical neuron cultures are widely used to study network development and decline, but their long-term electrophysiological trajectories are poorly characterized. We used multi-electrode arrays to longitudinally monitor Wistar rat cortical cultures for up to ~730 days in vitro (DIV), combining activity measures with survival analysis and criticality metrics. Wells shared an early developmental phase, with mean firing rate peaking at 12-14 Hz around DIV 100-150, before diverging into two phenotypes: early-death wells, showing progressive loss of burst organization, longer inter-burst intervals, shorter bursts, and steep declines in active-electrode recruitment; and long-survival wells, which sustained organized bursting and measurable activity well beyond DIV 400, in some cases past DIV 700. Cox proportional-hazards modeling with FDR correction across thirteen candidate features identified burst duration, inter-burst interval, synchrony, mean firing rate, branching ratio, and Kappa index as significant predictors of time to network failure. Criticality metrics offered the most mechanistic insight: in early-death wells, branching ratio declined toward zero and Kappa index rose toward its upper bound as networks approached silencing. Beyond their average levels, the rate of change of branching ratio and Kappa index over recordings was the strongest correlate of survival time among all criticality metrics. Neuronal avalanche size and duration exponents and their scaling relation, remained consistent with scale-free dynamics in both phenotypes while networks were active, though avalanche occurrence rate declined progressively in early-death wells without reaching significance as an independent predictor. These results show that long-term network survival is not determined by firing rate alone, but by preserved burst organization, sustained electrode recruitment and near-critical propagation dynamics. This work offers one of the longest electrophysiological characterizations of rodent cortical cultures to date and identifies criticality-based metrics as promising tools for predicting network decline and evaluating interventions to preserve long-term neuronal function.",
+      "authors": [
+        "Escobar, A.",
+        "Gil-Bea, F. J.",
+        "Rodriguez-Gomez, L."
+      ],
+      "categories": [
+        "neuroscience"
+      ],
+      "citation_count": null,
+      "classic_status": null,
+      "code_url": null,
+      "deep_read_note_url": null,
+      "difficulty": null,
+      "enrichment_sources": [],
+      "existing_note_url": null,
+      "external_ids": {
+        "DOI": "10.64898/2026.10.09.757871"
+      },
+      "field": null,
+      "fields_of_study": [
+        "Neuroscience"
+      ],
+      "id": "biorxiv:10.64898/2026.10.09.757871",
+      "identifiers": {
+        "DOI": "10.64898/2026.10.09.757871",
+        "doi": "10.64898/2026.10.09.757871",
+        "server": "biorxiv"
+      },
+      "influential_citation_count": null,
+      "institutions": [],
+      "latest_note_url": null,
+      "note_count": 0,
+      "open_access_pdf_url": null,
+      "pdf_url": null,
+      "project_url": null,
+      "published_at": "2026-10-13",
+      "published_date": "2026-10-13",
+      "reading_advice": "save_for_later",
+      "reading_status": "backlog",
+      "recommendation_level": "B",
+      "score": 0.653,
+      "scores": {
+        "classic_value": 0.35,
+        "engineering_transferability": 0.48,
+        "recency": 0.78,
+        "source_quality": 0.68,
+        "total": 0.653,
+        "user_relevance": 0.75
+      },
+      "selected_for_s_level": false,
+      "source": "biorxiv",
+      "source_group": "cognition_social",
+      "source_type": "recent_7d",
+      "source_url": "https://doi.org/10.64898/2026.10.09.757871",
+      "suggested_note_title": null,
+      "suggested_note_type": null,
+      "tags": [
+        "neuroscience",
+        "cognition_social",
+        "biorxiv"
+      ],
+      "title": "Criticality-related dynamics accompany long-term functional decline in primary cortical MEA cultures",
+      "title_zh": null,
+      "topics": [
+        "cognition"
+      ],
+      "url": "https://doi.org/10.64898/2026.10.09.757871",
+      "venue": "bioRxiv",
+      "why_recommended": "Ranked by recency signal across configured topics."
+    },
+    {
+      "abstract": "Brain organoids develop self-organizing neural networks that can be used to model neurodevelopment and disease. Here we introduce PULSE, a foundation model developed using over 900 hours of high-density microelectrode array recordings of in vitro and ex vivo neural tissue. We show that this single model can address two open questions: how disease-associated variants alter network development, and how naive circuits encode information. PULSE revealed accelerated network maturation in held-out human 16p11.2-deletion organoids. It also revealed a change in network coordination shared with SHANK3 deficiency. Because organoids develop without sensory input, they let us ask how circuits encode information before any representation is learned. Closed-loop control of a virtual inverted pendulum engaged existing spontaneous activity patterns rather than creating new ones. PULSE provides a common reference frame for neural circuits across genotypes, protocols and tasks.",
+      "authors": [
+        "Schweiger, H. E.",
+        "Robbins, A.",
+        "Hernandez, S.",
+        "Moreno-Ochando, A.",
+        "Cline, I.",
+        "Doganyigit, K.",
+        "Mouzaya, M.",
+        "Hussain, K.",
+        "Pang, Z. P.",
+        "Duan, J.",
+        "Salama, S. R.",
+        "Pollen, A. A.",
+        "Bhaduri, A.",
+        "Haussler, D.",
+        "Teodorescu, M.",
+        "Mostajo-Radji, M. A."
+      ],
+      "categories": [
+        "neuroscience"
+      ],
+      "citation_count": null,
+      "classic_status": null,
+      "code_url": null,
+      "deep_read_note_url": null,
+      "difficulty": null,
+      "enrichment_sources": [],
+      "existing_note_url": null,
+      "external_ids": {
+        "DOI": "10.64898/2026.10.11.758231"
+      },
+      "field": null,
+      "fields_of_study": [
+        "Neuroscience"
+      ],
+      "id": "biorxiv:10.64898/2026.10.11.758231",
+      "identifiers": {
+        "DOI": "10.64898/2026.10.11.758231",
+        "doi": "10.64898/2026.10.11.758231",
+        "server": "biorxiv"
+      },
+      "influential_citation_count": null,
+      "institutions": [],
+      "latest_note_url": null,
+      "note_count": 0,
+      "open_access_pdf_url": null,
+      "pdf_url": null,
+      "project_url": null,
+      "published_at": "2026-10-13",
+      "published_date": "2026-10-13",
+      "reading_advice": "save_for_later",
+      "reading_status": "backlog",
+      "recommendation_level": "B",
+      "score": 0.653,
+      "scores": {
+        "classic_value": 0.35,
+        "engineering_transferability": 0.48,
+        "recency": 0.78,
+        "source_quality": 0.68,
+        "total": 0.653,
+        "user_relevance": 0.75
+      },
+      "selected_for_s_level": false,
+      "source": "biorxiv",
+      "source_group": "cognition_social",
+      "source_type": "recent_7d",
+      "source_url": "https://doi.org/10.64898/2026.10.11.758231",
+      "suggested_note_title": null,
+      "suggested_note_type": null,
+      "tags": [
+        "neuroscience",
+        "cognition_social",
+        "biorxiv"
+      ],
+      "title": "A foundation model for brain organoid network dynamics uncovers intrinsic computation and convergent disease phenotypes",
+      "title_zh": null,
+      "topics": [
+        "cognition"
+      ],
+      "url": "https://doi.org/10.64898/2026.10.11.758231",
+      "venue": "bioRxiv",
+      "why_recommended": "Ranked by recency signal across configured topics."
+    },
+    {
+      "abstract": "Motivated behaviors rely on dopaminergic signaling, which in turn depends on the correct folding and trafficking of receptors through the endoplasmic reticulum (ER). Within the ER, the AMPylase enzyme FICD acts as a molecular rheostat through its modification of the chaperone BiP, dynamically tuning the organelle's responsiveness to folding perturbations and cellular stress. While the biochemistry of FICD is well-established, its role in complex animal behavior remains poorly understood. Here, we identify FICD as a conserved contributor to the generation of motivated behavior. In Drosophila, pan-neuronal knockdown of dFic significantly reduces feeding, spontaneous locomotion, and reward-seeking behavior. These alterations occur without disrupting circadian architecture, motor capacity, or homeostatic hunger, indicating a specific loss of motivational drive. Depleting dFic within subsets of dopamine receptor-expressing (Dop1R1) neurons recapitulates these behavioral alterations. Transcriptomic profiling reveals that dFic depletion does not induce a canonical unfolded protein response, pointing to a specific post-transcriptional alteration rather than global ER stress. At the molecular level, dysregulated dFic alters the localization and abundance of Dop1R1. Finally, we demonstrate that this regulatory axis is evolutionarily conserved, as loss of FICD similarly diminishes motivated behaviors in C. elegans and mice. Together, these findings implicate FICD in the generation of motivated behavior and link dynamic control of ER proteostasis to dopamine-receptor maturation.",
+      "authors": [
+        "Weaver, K. J.",
+        "Abdon, B.",
+        "Toth, B.",
+        "Jack, A.",
+        "Giblin, W.",
+        "Burgess, C. R.",
+        "Pletcher, S. D.",
+        "truttmann, m. c."
+      ],
+      "categories": [
+        "neuroscience"
+      ],
+      "citation_count": null,
+      "classic_status": null,
+      "code_url": null,
+      "deep_read_note_url": null,
+      "difficulty": null,
+      "enrichment_sources": [],
+      "existing_note_url": null,
+      "external_ids": {
+        "DOI": "10.64898/2026.10.12.758510"
+      },
+      "field": null,
+      "fields_of_study": [
+        "Neuroscience"
+      ],
+      "id": "biorxiv:10.64898/2026.10.12.758510",
+      "identifiers": {
+        "DOI": "10.64898/2026.10.12.758510",
+        "doi": "10.64898/2026.10.12.758510",
+        "server": "biorxiv"
+      },
+      "influential_citation_count": null,
+      "institutions": [],
+      "latest_note_url": null,
+      "note_count": 0,
+      "open_access_pdf_url": null,
+      "pdf_url": null,
+      "project_url": null,
+      "published_at": "2026-10-13",
+      "published_date": "2026-10-13",
+      "reading_advice": "save_for_later",
+      "reading_status": "backlog",
+      "recommendation_level": "B",
+      "score": 0.653,
+      "scores": {
+        "classic_value": 0.35,
+        "engineering_transferability": 0.48,
+        "recency": 0.78,
+        "source_quality": 0.68,
+        "total": 0.653,
+        "user_relevance": 0.75
+      },
+      "selected_for_s_level": false,
+      "source": "biorxiv",
+      "source_group": "cognition_social",
+      "source_type": "recent_7d",
+      "source_url": "https://doi.org/10.64898/2026.10.12.758510",
+      "suggested_note_title": null,
+      "suggested_note_type": null,
+      "tags": [
+        "neuroscience",
+        "cognition_social",
+        "biorxiv"
+      ],
+      "title": "Neuronal FICD shapes motivated behavior through modulation of dopamine receptor dynamics",
+      "title_zh": null,
+      "topics": [
+        "cognition"
+      ],
+      "url": "https://doi.org/10.64898/2026.10.12.758510",
+      "venue": "bioRxiv",
+      "why_recommended": "Ranked by recency signal across configured topics."
+    },
+    {
+      "abstract": "The notion of a compositional reuse of previously learned problem solutions predicts that the human brain should reinstate such learned subtask representations during planning. Here, we test this in a value-ranking task implemented in an online and a magnetoencephalography (MEG) experiment, respectively. Participants first learned pairwise rankings and subsequently solved problems where these learned rankings could either be reused or required reordering. Behaviourally, in the online experiment, we show the availability of a reusable subtask structure improved accuracy, with computational modelling indicating a greater weighting of subtask-level value when participants could avail of this learnt structure. In MEG, during planning, we show enhanced reactivation of task-relevant subtask representations in the reusable condition, and particularly so early in the experiment. In a subsequent probe task, we show subtask-identity representations generalised to a novel context and that stimuli belonging to the same learned subtask manifest an increase in their neural similarity. Temporally delayed linear modelling (TDLM) revealed forward and backward sequential reactivation at a subtask level, alongside backward stimulus-level replay, with subtask sequenceness varying according to task context. The findings provide convergent behavioural, computational and neural evidence for reactivation and reuse of learnt relational structures for novel problem solving.",
+      "authors": [
+        "Seak, L. C. U.",
+        "Luettgau, L.",
+        "Eckstein, M. K.",
+        "Moran, R.",
+        "Dolan, R. J."
+      ],
+      "categories": [
+        "neuroscience"
+      ],
+      "citation_count": null,
+      "classic_status": null,
+      "code_url": null,
+      "deep_read_note_url": null,
+      "difficulty": null,
+      "enrichment_sources": [],
+      "existing_note_url": null,
+      "external_ids": {
+        "DOI": "10.64898/2026.10.12.758531"
+      },
+      "field": null,
+      "fields_of_study": [
+        "Neuroscience"
+      ],
+      "id": "biorxiv:10.64898/2026.10.12.758531",
+      "identifiers": {
+        "DOI": "10.64898/2026.10.12.758531",
+        "doi": "10.64898/2026.10.12.758531",
+        "server": "biorxiv"
+      },
+      "influential_citation_count": null,
+      "institutions": [],
+      "latest_note_url": null,
+      "note_count": 0,
+      "open_access_pdf_url": null,
+      "pdf_url": null,
+      "project_url": null,
+      "published_at": "2026-10-13",
+      "published_date": "2026-10-13",
+      "reading_advice": "save_for_later",
+      "reading_status": "backlog",
+      "recommendation_level": "B",
+      "score": 0.653,
+      "scores": {
+        "classic_value": 0.35,
+        "engineering_transferability": 0.48,
+        "recency": 0.78,
+        "source_quality": 0.68,
+        "total": 0.653,
+        "user_relevance": 0.75
+      },
+      "selected_for_s_level": false,
+      "source": "biorxiv",
+      "source_group": "cognition_social",
+      "source_type": "recent_7d",
+      "source_url": "https://doi.org/10.64898/2026.10.12.758531",
+      "suggested_note_title": null,
+      "suggested_note_type": null,
+      "tags": [
+        "neuroscience",
+        "cognition_social",
+        "biorxiv"
+      ],
+      "title": "Reuse of learned subtask representations during human planning",
+      "title_zh": null,
+      "topics": [
+        "cognition"
+      ],
+      "url": "https://doi.org/10.64898/2026.10.12.758531",
+      "venue": "bioRxiv",
+      "why_recommended": "Ranked by recency signal across configured topics."
+    },
+    {
       "abstract": "Required background for parallel architecture.",
       "authors": [],
       "categories": [
@@ -30783,5 +31241,5 @@
     }
   ],
   "public_json_version": "0.4",
-  "updated_at": "2026-10-19T00:08:58+00:00"
+  "updated_at": "2026-10-20T01:04:13+00:00"
 }
