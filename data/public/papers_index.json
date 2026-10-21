@@ -22518,6 +22518,422 @@
       "why_recommended": "Ranked by recency signal across configured topics."
     },
     {
+      "abstract": "Photo-based estimation of food energy could ease dietary assessment, and general-purpose multimodal large language models (LLMs) make such estimates easy to obtain. Most evaluations use one photo taken before eating and compare with energy served, while dietary assessment needs energy eaten. We evaluated six models from two vendors (Claude Haiku, Sonnet and Opus 5.5; GPT-6 luna, 6.1 sol and 6 astra) on 802 meals from ACETADA, a controlled feeding trial with weighed intake, with the before photo only, before and after photos in separate calls (subtraction), or both photos in one request. Three results ran against intuition. Subtraction under-estimated intake for five of six models, because the models still report hundreds of kilocalories for a nearly empty tray. Scaling the before-only estimate by the average share eaten (0.87) matched much of the gain from the after photo; beyond that constant, the second photo lowered meal-level error by only 2.2 to 3.4 points, mainly in meals with food left. With one photo, two models had a near-zero intake bias only because they under-estimated the served energy and ignored uneaten food. In ablations, adding the after photo improved accuracy under both prompt formats for five models, while prompt effects varied across models. Over 148 feeding days, three models kept the 90% confidence interval of their mean error within a pre-set 10% margin, but no model reached the pre-set 30% limits of agreement. Protein was under-estimated by every model, most in protein-dense meals; repeated calls changed error by at most 1.4 points; a high reasoning effort helped only the smallest model (4.2 points) and changed the others by less than 1 point. A low average bias is not evidence of accurate individual intake estimation; such estimates should support, not replace, assessment by a dietitian.",
+      "authors": [
+        "Xiaomeng Li"
+      ],
+      "categories": [
+        "cs.HC",
+        "cs.CV",
+        "q-bio.QM"
+      ],
+      "citation_count": null,
+      "classic_status": null,
+      "code_url": "https://github.com/xtea/llm-intake-validation",
+      "deep_read_note_url": null,
+      "difficulty": null,
+      "enrichment_sources": [],
+      "existing_note_url": null,
+      "external_ids": {},
+      "field": null,
+      "fields_of_study": [],
+      "id": "arxiv:2610.26538v1",
+      "identifiers": {
+        "arxiv_id": "2610.26538v1"
+      },
+      "influential_citation_count": null,
+      "institutions": [],
+      "latest_note_url": null,
+      "note_count": 0,
+      "open_access_pdf_url": null,
+      "pdf_url": "https://arxiv.org/pdf/2610.26538v1",
+      "project_url": null,
+      "published_at": "2026-10-19",
+      "published_date": "2026-10-19",
+      "reading_advice": "save_for_later",
+      "reading_status": "backlog",
+      "recommendation_level": "B",
+      "score": 0.692,
+      "scores": {
+        "classic_value": 0.35,
+        "engineering_transferability": 0.6,
+        "recency": 0.78,
+        "source_quality": 0.78,
+        "total": 0.692,
+        "user_relevance": 0.75
+      },
+      "selected_for_s_level": false,
+      "source": "arxiv",
+      "source_group": "cognition_social",
+      "source_type": "recent_7d",
+      "source_url": "http://arxiv.org/abs/2610.26538v1",
+      "suggested_note_title": null,
+      "suggested_note_type": null,
+      "tags": [
+        "cs.HC",
+        "cs.CV",
+        "q-bio.QM"
+      ],
+      "title": "Small Average Error, Wide Individual Error: General-Purpose LLMs Estimating Energy Intake from Meal Photos in a Feeding Trial",
+      "title_zh": null,
+      "topics": [
+        "cognition",
+        "gpu_graphics"
+      ],
+      "url": "http://arxiv.org/abs/2610.26538v1",
+      "venue": null,
+      "why_recommended": "Ranked by recency signal across configured topics."
+    },
+    {
+      "abstract": "In high-performance computing (HPC), users must submit resource requirements for their jobs, with user-supplied walltime being a critical parameter. However, these estimates are notoriously inaccurate, as users tend to overestimate walltime to prevent the scheduler from terminating their jobs prematurely. While existing work on learning-based walltime prediction primarily focuses on maximizing prediction accuracy, such predictions are inherently risky for walltime recommendations. Specifically, underestimation leads to job termination before completion, resulting in lost progress and wasted resources. In this study, we present SafeWall, a novel recommendation method that adjusts walltime predictions by incorporating an explicit, nonnegative safety buffer to mitigate underestimation risk. The core of our approach is a risk-aware buffer that dynamically calibrates safety margins based on individual user's historical behavior. When user data is limited, the system employs statistical shrinkage to align these margins with a global baseline, ensuring robustness. This yields a lightweight mechanism that optimizes the trade-off between prediction accuracy and termination risk. SafeWall is modular and applicable to various learning-based prediction models. We evaluate SafeWall using five public workload traces, including the full-lifetime job log from the 4,392-node Theta machine at the Argonne Leadership Computing Facility. Across all traces, SafeWall substantially reduces underestimation risk compared to the unbuffered base predictors, while preserving competitive accuracy. The source code is publicly available at https://github.com/SPEAR-UIC/JSSPP26-SafeWall.",
+      "authors": [
+        "Kanglin Xu",
+        "Michael Papka",
+        "Zhiling Lan"
+      ],
+      "categories": [
+        "cs.DC",
+        "cs.LG"
+      ],
+      "citation_count": null,
+      "classic_status": null,
+      "code_url": "https://github.com/SPEAR-UIC/JSSPP26-SafeWall",
+      "deep_read_note_url": null,
+      "difficulty": null,
+      "enrichment_sources": [],
+      "existing_note_url": null,
+      "external_ids": {},
+      "field": null,
+      "fields_of_study": [],
+      "id": "arxiv:2610.26577v1",
+      "identifiers": {
+        "arxiv_id": "2610.26577v1"
+      },
+      "influential_citation_count": null,
+      "institutions": [],
+      "latest_note_url": null,
+      "note_count": 0,
+      "open_access_pdf_url": null,
+      "pdf_url": "https://arxiv.org/pdf/2610.26577v1",
+      "project_url": null,
+      "published_at": "2026-10-19",
+      "published_date": "2026-10-19",
+      "reading_advice": "quick_read",
+      "reading_status": "backlog",
+      "recommendation_level": "A",
+      "score": 0.762,
+      "scores": {
+        "classic_value": 0.35,
+        "engineering_transferability": 0.9500000000000001,
+        "recency": 0.78,
+        "source_quality": 0.78,
+        "total": 0.762,
+        "user_relevance": 0.75
+      },
+      "selected_for_s_level": false,
+      "source": "arxiv",
+      "source_group": "architecture",
+      "source_type": "recent_7d",
+      "source_url": "http://arxiv.org/abs/2610.26577v1",
+      "suggested_note_title": null,
+      "suggested_note_type": null,
+      "tags": [
+        "cs.DC",
+        "cs.LG"
+      ],
+      "title": "SafeWall: A Risk-Aware Job Walltime Recommendation for HPC Scheduling",
+      "title_zh": null,
+      "topics": [
+        "architecture",
+        "llm_agent"
+      ],
+      "url": "http://arxiv.org/abs/2610.26577v1",
+      "venue": null,
+      "why_recommended": "Ranked by engineering transferability signal across configured topics."
+    },
+    {
+      "abstract": "A geometric style learned from one family of shapes is typically applied to new shapes from the same family. We consider a more challenging setting: learning the geometric design language of a stylized Latin alphabet and applying it to new forms, from Greek glyphs to entirely different structures such as human poses. We introduce Open-Form Geometric Style Transfer, where the forms to which a learned geometric style can be applied are not restricted to the shape family in which that style was observed. This setting is deceptively challenging: the difficulty is not merely learning a style, but learning the style without learning the shape family in which it was observed. We represent target forms by structural sketches and disentangle structural adherence from style realization using a Geometry LoRA and a style-specific LoRA. Critically, open-form transfer requires the Geometry LoRA to be universal. To achieve this, we devise a geometry-enrichment strategy that constructs a large and purposefully diverse collection of synthetic structural sketches spanning a broad range of unfamiliar geometries. Our experiments and ablations demonstrate the importance of both disentanglement and this universal geometry prior, enabling geometric styles learned from glyphs, pictograms, and other shape families to be transferred to substantially different, unseen forms.",
+      "authors": [
+        "Adar Elad",
+        "Gal Metzer",
+        "Omer Dahari",
+        "Min Lu",
+        "Daniel Cohen-Or"
+      ],
+      "categories": [
+        "cs.CV",
+        "cs.GR"
+      ],
+      "citation_count": null,
+      "classic_status": null,
+      "code_url": null,
+      "deep_read_note_url": null,
+      "difficulty": null,
+      "enrichment_sources": [],
+      "existing_note_url": null,
+      "external_ids": {},
+      "field": null,
+      "fields_of_study": [],
+      "id": "arxiv:2610.26820v1",
+      "identifiers": {
+        "arxiv_id": "2610.26820v1"
+      },
+      "influential_citation_count": null,
+      "institutions": [],
+      "latest_note_url": null,
+      "note_count": 0,
+      "open_access_pdf_url": null,
+      "pdf_url": "https://arxiv.org/pdf/2610.26820v1",
+      "project_url": null,
+      "published_at": "2026-10-19",
+      "published_date": "2026-10-19",
+      "reading_advice": "save_for_later",
+      "reading_status": "backlog",
+      "recommendation_level": "B",
+      "score": 0.732,
+      "scores": {
+        "classic_value": 0.35,
+        "engineering_transferability": 0.8,
+        "recency": 0.78,
+        "source_quality": 0.78,
+        "total": 0.732,
+        "user_relevance": 0.75
+      },
+      "selected_for_s_level": false,
+      "source": "arxiv",
+      "source_group": "gpu_graphics",
+      "source_type": "recent_7d",
+      "source_url": "http://arxiv.org/abs/2610.26820v1",
+      "suggested_note_title": null,
+      "suggested_note_type": null,
+      "tags": [
+        "cs.CV",
+        "cs.GR"
+      ],
+      "title": "Open-Form Geometric Style Transfer",
+      "title_zh": null,
+      "topics": [
+        "gpu_graphics"
+      ],
+      "url": "http://arxiv.org/abs/2610.26820v1",
+      "venue": null,
+      "why_recommended": "Ranked by engineering transferability signal across configured topics."
+    },
+    {
+      "abstract": "The goal of a world model is to capture the dynamics of an environment. This has the great appeal that it allows agents to plan and simulate a course of actions with the help of a world model. For these uses to be reliable, however, the learned dynamics must behave well beyond the specific state-action combinations observed in expert rollouts. Despite this, the relationship between data coverage, dynamics generalization, and downstream planning performance remains underexplored. We study this relationship through the lens of compositional generalization: can a world model recombine familiar state and action factors into valid dynamics? To answer this, we introduce AnyGoal, a benchmark of goal-shifted task variants built from widely used world-model environments, together with an open-source library. Each task is designed to be within reach of a world model that has learned the underlying dynamics: individual state factors and actions remain within their training support, but their combinations are underrepresented in expert trajectories. Across multiple environments and world model families, we find that current models consistently exhibit failures under these recombinations. By examining dynamics and representation failures across model families, interaction regimes, and evaluation metrics, we study where current world models generalize and where challenges remain for goal-shifted prediction and planning. Together, this framework, benchmark, and analysis provide a basis for evaluating progress toward world models that generalize to new planning tasks.",
+      "authors": [
+        "Heejeong Nam",
+        "Divyat Mahajan",
+        "Quentin Le Lidec",
+        "Randall Balestriero",
+        "David Klindt"
+      ],
+      "categories": [
+        "cs.AI"
+      ],
+      "citation_count": null,
+      "classic_status": null,
+      "code_url": null,
+      "deep_read_note_url": null,
+      "difficulty": null,
+      "enrichment_sources": [],
+      "existing_note_url": null,
+      "external_ids": {},
+      "field": null,
+      "fields_of_study": [],
+      "id": "arxiv:2610.26844v1",
+      "identifiers": {
+        "arxiv_id": "2610.26844v1"
+      },
+      "influential_citation_count": null,
+      "institutions": [],
+      "latest_note_url": null,
+      "note_count": 0,
+      "open_access_pdf_url": null,
+      "pdf_url": "https://arxiv.org/pdf/2610.26844v1",
+      "project_url": "https://hazel-heejeong-nam.github.io/anygoal/",
+      "published_at": "2026-10-19",
+      "published_date": "2026-10-19",
+      "reading_advice": "save_for_later",
+      "reading_status": "backlog",
+      "recommendation_level": "B",
+      "score": 0.692,
+      "scores": {
+        "classic_value": 0.35,
+        "engineering_transferability": 0.6,
+        "recency": 0.78,
+        "source_quality": 0.78,
+        "total": 0.692,
+        "user_relevance": 0.75
+      },
+      "selected_for_s_level": false,
+      "source": "arxiv",
+      "source_group": "llm_agent",
+      "source_type": "recent_7d",
+      "source_url": "http://arxiv.org/abs/2610.26844v1",
+      "suggested_note_title": null,
+      "suggested_note_type": null,
+      "tags": [
+        "cs.AI"
+      ],
+      "title": "AnyGoal: On World Model Generalization Beyond Expert Rollouts",
+      "title_zh": null,
+      "topics": [
+        "llm_agent"
+      ],
+      "url": "http://arxiv.org/abs/2610.26844v1",
+      "venue": null,
+      "why_recommended": "Ranked by recency signal across configured topics."
+    },
+    {
+      "abstract": "Reinforcement learning enables mobile robots to make fast and scalable navigation decisions in constrained human-shared environments. However, directly extending single-robot approaches to multi-robot settings often fails to ensure safety and efficiency, especially under occlusions and out-of-distribution (OOD) scenarios, where individual robots may overlook potential risks or make inaccurate predictions. Leveraging cooperation effectively for both prediction and navigation remains a major challenge. We propose CoopUQ, a multi-robot social navigation framework that bridges uncertainty-aware cooperative occupancy forecasting and robust decision making. CoopUQ predicts future occupancy grid maps through cross-robot spatiotemporal feature fusion and further leverages forecasts and their uncertainty to guide policy via constrained multi-agent reinforcement learning, where the cost penalizes navigation through regions predicted to be occupied or highly uncertain. This design enables the policy to adapt its risk sensitivity under distribution shifts. Experimental results across multiple Unity3D-based simulation environments with both in-distribution and OOD settings, including diverse layouts, pedestrian densities, and rushing behavior, demonstrate improved prediction performance and safety over representative baselines. Real-robot experiments further demonstrate its robustness across various scenes. Our code and videos are available at https://coopuq.github.io/.",
+      "authors": [
+        "Zehao Wang",
+        "Jianpeng Yao",
+        "Yuping Wang",
+        "Yiping Li",
+        "Jiaqi Li",
+        "Zhixu Li",
+        "Kanghoon Lee",
+        "Jinfeng Wang",
+        "Cong Liu",
+        "Zhaowei Tan",
+        "Jinkyoo Park",
+        "Jiachen Li"
+      ],
+      "categories": [
+        "cs.RO",
+        "cs.AI",
+        "cs.LG"
+      ],
+      "citation_count": null,
+      "classic_status": null,
+      "code_url": null,
+      "deep_read_note_url": null,
+      "difficulty": null,
+      "enrichment_sources": [],
+      "existing_note_url": null,
+      "external_ids": {},
+      "field": null,
+      "fields_of_study": [],
+      "id": "arxiv:2610.26852v1",
+      "identifiers": {
+        "arxiv_id": "2610.26852v1"
+      },
+      "influential_citation_count": null,
+      "institutions": [],
+      "latest_note_url": null,
+      "note_count": 0,
+      "open_access_pdf_url": null,
+      "pdf_url": "https://arxiv.org/pdf/2610.26852v1",
+      "project_url": "https://coopuq.github.io/",
+      "published_at": "2026-10-19",
+      "published_date": "2026-10-19",
+      "reading_advice": "save_for_later",
+      "reading_status": "backlog",
+      "recommendation_level": "B",
+      "score": 0.692,
+      "scores": {
+        "classic_value": 0.35,
+        "engineering_transferability": 0.6,
+        "recency": 0.78,
+        "source_quality": 0.78,
+        "total": 0.692,
+        "user_relevance": 0.75
+      },
+      "selected_for_s_level": false,
+      "source": "arxiv",
+      "source_group": "llm_agent",
+      "source_type": "recent_7d",
+      "source_url": "http://arxiv.org/abs/2610.26852v1",
+      "suggested_note_title": null,
+      "suggested_note_type": null,
+      "tags": [
+        "cs.RO",
+        "cs.AI",
+        "cs.LG"
+      ],
+      "title": "CoopUQ: Robust Multi-Robot Social Navigation via Uncertainty-Aware Cooperative Forecasting",
+      "title_zh": null,
+      "topics": [
+        "llm_agent"
+      ],
+      "url": "http://arxiv.org/abs/2610.26852v1",
+      "venue": null,
+      "why_recommended": "Ranked by recency signal across configured topics."
+    },
+    {
+      "abstract": "While LLM agents can generate visually plausible CAD assemblies, these designs often fail to fulfill their intended physical functions. We study functional CAD design, a setting where agents interpret underspecified requests to construct and iteratively revise mechanisms that satisfy functional requirements in physical simulation. Verifying these requirements is nontrivial: different candidate mechanisms may realize the same function through entirely different components, controls, and operating sequences. To bridge this gap, we propose FunCAD-Harness, a framework that translates abstract requirements into candidate-specific physical tests and uses simulation feedback to guide design revisions. To systematically evaluate this capability, we introduce FunCADBench, a benchmark spanning 46 mechanism families with interdependent and multi-step operations. Experiments across frontier LLM agents show that FunCAD-Harness exposes subtle mechanical failures invisible to visual inspection, substantially improving functional success rates over standard simulation-augmented baselines. Ultimately, our work marks a step toward CAD agents capable of translating human intent into working mechanisms.",
+      "authors": [
+        "Wenqian Zhang",
+        "Yangyi Huang",
+        "Zigeng Xu",
+        "Weiyang Liu",
+        "Zhen Liu"
+      ],
+      "categories": [
+        "cs.CV",
+        "cs.CL",
+        "cs.GR"
+      ],
+      "citation_count": null,
+      "classic_status": null,
+      "code_url": null,
+      "deep_read_note_url": null,
+      "difficulty": null,
+      "enrichment_sources": [],
+      "existing_note_url": null,
+      "external_ids": {},
+      "field": null,
+      "fields_of_study": [],
+      "id": "arxiv:2610.26861v1",
+      "identifiers": {
+        "arxiv_id": "2610.26861v1"
+      },
+      "influential_citation_count": null,
+      "institutions": [],
+      "latest_note_url": null,
+      "note_count": 0,
+      "open_access_pdf_url": null,
+      "pdf_url": "https://arxiv.org/pdf/2610.26861v1",
+      "project_url": null,
+      "published_at": "2026-10-19",
+      "published_date": "2026-10-19",
+      "reading_advice": "save_for_later",
+      "reading_status": "backlog",
+      "recommendation_level": "B",
+      "score": 0.732,
+      "scores": {
+        "classic_value": 0.35,
+        "engineering_transferability": 0.8,
+        "recency": 0.78,
+        "source_quality": 0.78,
+        "total": 0.732,
+        "user_relevance": 0.75
+      },
+      "selected_for_s_level": false,
+      "source": "arxiv",
+      "source_group": "gpu_graphics",
+      "source_type": "recent_7d",
+      "source_url": "http://arxiv.org/abs/2610.26861v1",
+      "suggested_note_title": null,
+      "suggested_note_type": null,
+      "tags": [
+        "cs.CV",
+        "cs.CL",
+        "cs.GR"
+      ],
+      "title": "Can It Actually Work? Synthesizing Functional CAD Mechanisms",
+      "title_zh": null,
+      "topics": [
+        "gpu_graphics",
+        "llm_agent"
+      ],
+      "url": "http://arxiv.org/abs/2610.26861v1",
+      "venue": null,
+      "why_recommended": "Ranked by engineering transferability signal across configured topics."
+    },
+    {
       "abstract": "Occam's razor is the principle that, all else being equal, simpler explanations should be preferred over more complex ones. This principle is thought to guide human decision-making, but the nature of this guidance is not known. Here we used preregistered behavioral experiments to show that people tend to prefer the simpler of two alternative explanations for uncertain data. These preferences align quantitatively with predictions of formal theories of model selection that penalize excessive flexibility. These penalties emerge when considering not just the best explanation but the integral over all possible, relevant explanations. We further show that these simplicity preferences persist in humans, but not in certain artificial neural networks, even when they are maladaptive. Our results imply that principled notions of statistical model selection, including integrating over possible, latent causes to avoid overfitting to noisy data, may play a central role in human decision-making.",
       "authors": [
         "Piasini, E.",
@@ -31241,5 +31657,5 @@
     }
   ],
   "public_json_version": "0.4",
-  "updated_at": "2026-10-20T01:04:13+00:00"
+  "updated_at": "2026-10-21T00:31:58+00:00"
 }

@@ -325,6 +325,12 @@ arxiv:2610.22328v1,backlog,medium,,2026-10-17T00:19:13+00:00,ACEdit: Stable Mult
 arxiv:2610.22350v1,backlog,medium,,2026-10-17T00:19:13+00:00,FDE-Gym: The Last Mile of AI Delivery,llm_agent,A
 arxiv:2610.22352v1,backlog,medium,,2026-10-17T00:19:13+00:00,SUPRA-TEX: 3D Generation with Super-Aligned Texture,gpu_graphics,A
 arxiv:2610.22372v1,backlog,medium,,2026-10-17T00:19:13+00:00,LIBERO-PeRM: Benchmarking Personalized Robotic Manipulation,llm_agent,B
+arxiv:2610.26538v1,backlog,medium,,2026-10-21T00:31:58+00:00,"Small Average Error, Wide Individual Error: General-Purpose LLMs Estimating Energy Intake from Meal Photos in a Feeding Trial",cognition_social,B
+arxiv:2610.26577v1,backlog,medium,,2026-10-21T00:31:58+00:00,SafeWall: A Risk-Aware Job Walltime Recommendation for HPC Scheduling,architecture,A
+arxiv:2610.26820v1,backlog,medium,,2026-10-21T00:31:58+00:00,Open-Form Geometric Style Transfer,gpu_graphics,B
+arxiv:2610.26844v1,backlog,medium,,2026-10-21T00:31:58+00:00,AnyGoal: On World Model Generalization Beyond Expert Rollouts,llm_agent,B
+arxiv:2610.26852v1,backlog,medium,,2026-10-21T00:31:58+00:00,CoopUQ: Robust Multi-Robot Social Navigation via Uncertainty-Aware Cooperative Forecasting,llm_agent,B
+arxiv:2610.26861v1,backlog,medium,,2026-10-21T00:31:58+00:00,Can It Actually Work? Synthesizing Functional CAD Mechanisms,gpu_graphics,B
 biorxiv:10.1101/2023.01.10.523479,backlog,medium,,2026-09-28T00:33:07+00:00,How Occam's razor guides human decision-making,cognition_social,B
 biorxiv:10.1101/2024.03.07.583890,backlog,medium,,2026-10-19T00:08:58+00:00,Computation or Weight Adaptation? Rethinking the Role of Plasticity in Learning,cognition_social,B
 biorxiv:10.1101/2024.09.30.615819,backlog,medium,,2026-09-22T00:43:20+00:00,Hierarchy of prediction errors shapes the learning of context-dependent sensory representations,cognition_social,B

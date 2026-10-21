@@ -2901,6 +2901,66 @@
     {
       "confidence": 0.5,
       "relation": "related_to",
+      "source": "arxiv:2610.26538v1",
+      "target": "cognition"
+    },
+    {
+      "confidence": 0.5,
+      "relation": "related_to",
+      "source": "arxiv:2610.26538v1",
+      "target": "gpu_graphics"
+    },
+    {
+      "confidence": 0.5,
+      "relation": "related_to",
+      "source": "arxiv:2610.26538v1",
+      "target": "cognition_social"
+    },
+    {
+      "confidence": 0.5,
+      "relation": "related_to",
+      "source": "arxiv:2610.26577v1",
+      "target": "architecture"
+    },
+    {
+      "confidence": 0.5,
+      "relation": "related_to",
+      "source": "arxiv:2610.26577v1",
+      "target": "llm_agent"
+    },
+    {
+      "confidence": 0.5,
+      "relation": "related_to",
+      "source": "arxiv:2610.26820v1",
+      "target": "gpu_graphics"
+    },
+    {
+      "confidence": 0.5,
+      "relation": "related_to",
+      "source": "arxiv:2610.26844v1",
+      "target": "llm_agent"
+    },
+    {
+      "confidence": 0.5,
+      "relation": "related_to",
+      "source": "arxiv:2610.26852v1",
+      "target": "llm_agent"
+    },
+    {
+      "confidence": 0.5,
+      "relation": "related_to",
+      "source": "arxiv:2610.26861v1",
+      "target": "gpu_graphics"
+    },
+    {
+      "confidence": 0.5,
+      "relation": "related_to",
+      "source": "arxiv:2610.26861v1",
+      "target": "llm_agent"
+    },
+    {
+      "confidence": 0.5,
+      "relation": "related_to",
       "source": "biorxiv:10.1101/2023.01.10.523479",
       "target": "cognition"
     },
@@ -6960,6 +7020,57 @@
       "type": "paper"
     },
     {
+      "id": "arxiv:2610.26538v1",
+      "label": "Small Average Error, Wide Individual Error: General-Purpose LLMs Estimating Energy Intake from Meal Photos in a Feeding Trial",
+      "topics": [
+        "cognition",
+        "gpu_graphics"
+      ],
+      "type": "paper"
+    },
+    {
+      "id": "arxiv:2610.26577v1",
+      "label": "SafeWall: A Risk-Aware Job Walltime Recommendation for HPC Scheduling",
+      "topics": [
+        "architecture",
+        "llm_agent"
+      ],
+      "type": "paper"
+    },
+    {
+      "id": "arxiv:2610.26820v1",
+      "label": "Open-Form Geometric Style Transfer",
+      "topics": [
+        "gpu_graphics"
+      ],
+      "type": "paper"
+    },
+    {
+      "id": "arxiv:2610.26844v1",
+      "label": "AnyGoal: On World Model Generalization Beyond Expert Rollouts",
+      "topics": [
+        "llm_agent"
+      ],
+      "type": "paper"
+    },
+    {
+      "id": "arxiv:2610.26852v1",
+      "label": "CoopUQ: Robust Multi-Robot Social Navigation via Uncertainty-Aware Cooperative Forecasting",
+      "topics": [
+        "llm_agent"
+      ],
+      "type": "paper"
+    },
+    {
+      "id": "arxiv:2610.26861v1",
+      "label": "Can It Actually Work? Synthesizing Functional CAD Mechanisms",
+      "topics": [
+        "gpu_graphics",
+        "llm_agent"
+      ],
+      "type": "paper"
+    },
+    {
       "id": "biorxiv:10.1101/2023.01.10.523479",
       "label": "How Occam's razor guides human decision-making",
       "topics": [
@@ -7945,5 +8056,5 @@
     }
   ],
   "public_json_version": "0.4",
-  "updated_at": "2026-10-20T01:04:13+00:00"
+  "updated_at": "2026-10-21T00:31:58+00:00"
 }
