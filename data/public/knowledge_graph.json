@@ -2961,6 +2961,66 @@
     {
       "confidence": 0.5,
       "relation": "related_to",
+      "source": "arxiv:2610.27907v1",
+      "target": "cognition"
+    },
+    {
+      "confidence": 0.5,
+      "relation": "related_to",
+      "source": "arxiv:2610.27907v1",
+      "target": "cognition_social"
+    },
+    {
+      "confidence": 0.5,
+      "relation": "related_to",
+      "source": "arxiv:2610.28500v1",
+      "target": "llm_agent"
+    },
+    {
+      "confidence": 0.5,
+      "relation": "related_to",
+      "source": "arxiv:2610.28500v1",
+      "target": "architecture"
+    },
+    {
+      "confidence": 0.5,
+      "relation": "related_to",
+      "source": "arxiv:2610.28598v1",
+      "target": "gpu_graphics"
+    },
+    {
+      "confidence": 0.5,
+      "relation": "related_to",
+      "source": "arxiv:2610.28598v1",
+      "target": "llm_agent"
+    },
+    {
+      "confidence": 0.5,
+      "relation": "related_to",
+      "source": "arxiv:2610.28612v1",
+      "target": "llm_agent"
+    },
+    {
+      "confidence": 0.5,
+      "relation": "related_to",
+      "source": "arxiv:2610.28624v1",
+      "target": "llm_agent"
+    },
+    {
+      "confidence": 0.5,
+      "relation": "related_to",
+      "source": "arxiv:2610.28632v1",
+      "target": "gpu_graphics"
+    },
+    {
+      "confidence": 0.5,
+      "relation": "related_to",
+      "source": "arxiv:2610.28632v1",
+      "target": "llm_agent"
+    },
+    {
+      "confidence": 0.5,
+      "relation": "related_to",
       "source": "biorxiv:10.1101/2023.01.10.523479",
       "target": "cognition"
     },
@@ -7071,6 +7131,57 @@
       "type": "paper"
     },
     {
+      "id": "arxiv:2610.27907v1",
+      "label": "What Novice Operators See Changes What the Policy Learns: A User Study of Keypoint Hand Visual Representation for Teleoperated Demonstration",
+      "topics": [
+        "cognition"
+      ],
+      "type": "paper"
+    },
+    {
+      "id": "arxiv:2610.28500v1",
+      "label": "BitMTP: When Multi-Token Prediction Meets Low-Bit Large Language Models",
+      "topics": [
+        "llm_agent",
+        "architecture"
+      ],
+      "type": "paper"
+    },
+    {
+      "id": "arxiv:2610.28598v1",
+      "label": "Neural Implicit Energy Optimization for LiDAR Mapping",
+      "topics": [
+        "gpu_graphics",
+        "llm_agent"
+      ],
+      "type": "paper"
+    },
+    {
+      "id": "arxiv:2610.28612v1",
+      "label": "TraceLite: Efficient Trace Reduction for SWE Agents via Optical Compression and Redundancy Removal",
+      "topics": [
+        "llm_agent"
+      ],
+      "type": "paper"
+    },
+    {
+      "id": "arxiv:2610.28624v1",
+      "label": "Industrial ReMEmbR: Scaling Spatiotemporal Memory to Robot Fleets",
+      "topics": [
+        "llm_agent"
+      ],
+      "type": "paper"
+    },
+    {
+      "id": "arxiv:2610.28632v1",
+      "label": "Joints, Camera, Action! Co-Generating 3D Motion and Video for Arbitrary Rigs",
+      "topics": [
+        "gpu_graphics",
+        "llm_agent"
+      ],
+      "type": "paper"
+    },
+    {
       "id": "biorxiv:10.1101/2023.01.10.523479",
       "label": "How Occam's razor guides human decision-making",
       "topics": [
@@ -8056,5 +8167,5 @@
     }
   ],
   "public_json_version": "0.4",
-  "updated_at": "2026-10-21T00:31:58+00:00"
+  "updated_at": "2026-10-22T00:35:47+00:00"
 }

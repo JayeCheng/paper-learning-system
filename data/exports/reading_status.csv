@@ -331,6 +331,12 @@ arxiv:2610.26820v1,backlog,medium,,2026-10-21T00:31:58+00:00,Open-Form Geometric
 arxiv:2610.26844v1,backlog,medium,,2026-10-21T00:31:58+00:00,AnyGoal: On World Model Generalization Beyond Expert Rollouts,llm_agent,B
 arxiv:2610.26852v1,backlog,medium,,2026-10-21T00:31:58+00:00,CoopUQ: Robust Multi-Robot Social Navigation via Uncertainty-Aware Cooperative Forecasting,llm_agent,B
 arxiv:2610.26861v1,backlog,medium,,2026-10-21T00:31:58+00:00,Can It Actually Work? Synthesizing Functional CAD Mechanisms,gpu_graphics,B
+arxiv:2610.27907v1,backlog,medium,,2026-10-22T00:35:47+00:00,What Novice Operators See Changes What the Policy Learns: A User Study of Keypoint Hand Visual Representation for Teleoperated Demonstration,cognition_social,B
+arxiv:2610.28500v1,backlog,medium,,2026-10-22T00:35:47+00:00,BitMTP: When Multi-Token Prediction Meets Low-Bit Large Language Models,architecture,A
+arxiv:2610.28598v1,backlog,medium,,2026-10-22T00:35:47+00:00,Neural Implicit Energy Optimization for LiDAR Mapping,gpu_graphics,A
+arxiv:2610.28612v1,backlog,medium,,2026-10-22T00:35:47+00:00,TraceLite: Efficient Trace Reduction for SWE Agents via Optical Compression and Redundancy Removal,llm_agent,A
+arxiv:2610.28624v1,backlog,medium,,2026-10-22T00:35:47+00:00,Industrial ReMEmbR: Scaling Spatiotemporal Memory to Robot Fleets,llm_agent,B
+arxiv:2610.28632v1,backlog,medium,,2026-10-22T00:35:47+00:00,"Joints, Camera, Action! Co-Generating 3D Motion and Video for Arbitrary Rigs",gpu_graphics,A
 biorxiv:10.1101/2023.01.10.523479,backlog,medium,,2026-09-28T00:33:07+00:00,How Occam's razor guides human decision-making,cognition_social,B
 biorxiv:10.1101/2024.03.07.583890,backlog,medium,,2026-10-19T00:08:58+00:00,Computation or Weight Adaptation? Rethinking the Role of Plasticity in Learning,cognition_social,B
 biorxiv:10.1101/2024.09.30.615819,backlog,medium,,2026-09-22T00:43:20+00:00,Hierarchy of prediction errors shapes the learning of context-dependent sensory representations,cognition_social,B
