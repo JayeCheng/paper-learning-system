@@ -1,0 +1,461 @@
+{
+  "date": "2026-10-23",
+  "frontend_entry": "data/public/latest.json",
+  "generated_at": "2026-10-23T00:34:49+00:00",
+  "generated_paths": {
+    "exports_csv": "data/exports/papers.csv",
+    "exports_daily_csv": "data/exports/daily_papers.csv",
+    "exports_jsonl": "data/exports/papers.jsonl",
+    "exports_notes_index": "data/exports/notes_index.csv",
+    "exports_reading_status": "data/exports/reading_status.csv",
+    "json": "daily/2026/10/2026-10-23.json",
+    "markdown": "daily/2026/10/2026-10-23.md",
+    "public_curriculum_progress": "data/public/curriculum_progress.json",
+    "public_daily_index": "data/public/daily_index.json",
+    "public_knowledge_graph": "data/public/knowledge_graph.json",
+    "public_latest": "data/public/latest.json",
+    "public_notes_index": "data/public/notes_index.json",
+    "public_papers_index": "data/public/papers_index.json",
+    "public_reading_status": "data/public/reading_status.json",
+    "state_notes_index": "data/state/notes_index.json",
+    "state_papers": "data/state/papers.jsonl",
+    "state_reading_status": "data/state/reading_status.json",
+    "state_run_history": "data/state/run_history.json"
+  },
+  "knowledge_graph_delta": [
+    "paper:arxiv:2610.30033v1",
+    "paper:arxiv:2610.30127v1",
+    "paper:arxiv:2610.29617v1",
+    "paper:arxiv:2610.30132v1",
+    "paper:arxiv:2610.30128v1",
+    "paper:arxiv:2610.29199v1"
+  ],
+  "learning_route_position": "v0.4 GitHub-owned note bridge",
+  "next_actions": [
+    "Review S-level candidate",
+    "Update reading status after skim",
+    "Promote durable concepts into the knowledge graph"
+  ],
+  "papers": [
+    {
+      "abstract": "Body deformation caused by muscle contraction plays a vital role in the visual realism of character animation, yet in most 3D animation pipelines artists have to manually specify muscle activations, which is time-consuming and gives no guarantee of physical realism. To address this, we propose a new method in which a reinforcement learning (RL) controller discovers per-muscle activations that track reference motions without manual tuning. Existing RL muscle controllers stop at 1D muscles; we go one step further, keeping the 1D model inside the RL control loop as a fast surrogate, and using a 3D volumetric simulation to produce the final deformation. Because both stages share the very same constitutive law, the muscle deformation is produced by the same activations that generated the motion. We further add a measured electromyography (EMG) prior that steers the redundant activation solution toward real human muscle recruitment. To achieve stable, efficient, and realistic simulation, we propose a novel geometric multigrid for Extended Position-Based Dynamics (XPBD) that is built on a coarse tetrahedral cage with barycentric-coordinate prolongation and closes a V-cycle on tetrahedral meshes. Within this GPU-parallelized solver, we inject the same Hill-type force-length law as an energy-based fiber constraint that turns per-fiber activation into realistic muscle contraction and bulging. We demonstrate volumetric muscle simulation on a 194-muscle human body with a diverse set of motions (walk, kick, swim, overhead-squat, etc.), simulating the full-body model at 18 ms per frame on a single RTX 4090. Our work takes a step toward character animation that is not only visually convincing but also biomechanically grounded. The website with code and videos is at https://chunleili.github.io/project-page-rlmuscle/.",
+      "authors": [
+        "Chunlei Li",
+        "Siyuan Yu",
+        "Yang Gao",
+        "Shuai Li",
+        "Peng Yu",
+        "Aimin Hao",
+        "He Wang"
+      ],
+      "categories": [
+        "cs.GR"
+      ],
+      "citation_count": null,
+      "classic_status": null,
+      "code_url": null,
+      "deep_read_note_url": null,
+      "difficulty": null,
+      "enrichment_sources": [],
+      "existing_note_url": null,
+      "external_ids": {},
+      "field": null,
+      "fields_of_study": [],
+      "id": "arxiv:2610.30033v1",
+      "identifiers": {
+        "arxiv_id": "2610.30033v1"
+      },
+      "influential_citation_count": null,
+      "institutions": [],
+      "latest_note_url": null,
+      "note_count": 0,
+      "open_access_pdf_url": null,
+      "pdf_url": "https://arxiv.org/pdf/2610.30033v1",
+      "project_url": "https://chunleili.github.io/project-page-rlmuscle/",
+      "published_at": "2026-10-21",
+      "published_date": "2026-10-21",
+      "reading_advice": "quick_read",
+      "reading_status": "backlog",
+      "recommendation_level": "A",
+      "score": 0.762,
+      "scores": {
+        "classic_value": 0.35,
+        "engineering_transferability": 0.9500000000000001,
+        "recency": 0.78,
+        "source_quality": 0.78,
+        "total": 0.762,
+        "user_relevance": 0.75
+      },
+      "selected_for_s_level": false,
+      "source": "arxiv",
+      "source_group": "gpu_graphics",
+      "source_type": "recent_7d",
+      "source_url": "http://arxiv.org/abs/2610.30033v1",
+      "suggested_note_title": null,
+      "suggested_note_type": null,
+      "tags": [
+        "cs.GR"
+      ],
+      "title": "RLMuscle: Muscle-Driven Character Animation via Reinforcement Learning",
+      "title_zh": null,
+      "topics": [
+        "gpu_graphics"
+      ],
+      "url": "http://arxiv.org/abs/2610.30033v1",
+      "venue": null,
+      "why_recommended": "Ranked by engineering transferability signal across configured topics."
+    },
+    {
+      "abstract": "Language models' abilities to interpret tasks and generate programs offer a promising basis for 3D spatial reasoning. Yet following spatial instructions in 3D scenes requires programs to construct geometric references that language leaves implicit. In this work, we introduce VoxProg, which formulates 3D object placement through voxel programming: a language model translates task interpretations into executable programs over local voxel views of scene surfaces. Because these views index surface geometry on regular grids with explicit coordinates and neighborhood relations, an evidence program can isolate task-relevant regions and boundaries directly from scene meshes, and a downstream pose program can measure the resulting geometry to compute a target $SE(3)$ pose. Visual and numerical feedback from execution lets the model inspect intermediate selections and candidate placements to iteratively revise its code. To evaluate open-ended placement across functional use, geometric fit, and contextual arrangements, we introduce the 71-task VoxProg-Bench benchmark along with an evaluation suite pairing perceptual Intent Alignment and 3D Physical Validity. Across VoxProg-Bench and external benchmarks, VoxProg consistently outperforms relation-based, keypoint-based, and mesh-based baselines.",
+      "authors": [
+        "Zhichao Zhai",
+        "Menglei Zhao",
+        "Guikun Chen",
+        "Zihao Yan",
+        "Kanzhi Wu",
+        "Wenguan Wang",
+        "Jun Xiao"
+      ],
+      "categories": [
+        "cs.CV"
+      ],
+      "citation_count": null,
+      "classic_status": null,
+      "code_url": null,
+      "deep_read_note_url": null,
+      "difficulty": null,
+      "enrichment_sources": [],
+      "existing_note_url": null,
+      "external_ids": {},
+      "field": null,
+      "fields_of_study": [],
+      "id": "arxiv:2610.30127v1",
+      "identifiers": {
+        "arxiv_id": "2610.30127v1"
+      },
+      "influential_citation_count": null,
+      "institutions": [],
+      "latest_note_url": null,
+      "note_count": 0,
+      "open_access_pdf_url": null,
+      "pdf_url": "https://arxiv.org/pdf/2610.30127v1",
+      "project_url": "https://voxprog.github.io",
+      "published_at": "2026-10-21",
+      "published_date": "2026-10-21",
+      "reading_advice": "save_for_later",
+      "reading_status": "backlog",
+      "recommendation_level": "B",
+      "score": 0.692,
+      "scores": {
+        "classic_value": 0.35,
+        "engineering_transferability": 0.6,
+        "recency": 0.78,
+        "source_quality": 0.78,
+        "total": 0.692,
+        "user_relevance": 0.75
+      },
+      "selected_for_s_level": false,
+      "source": "arxiv",
+      "source_group": "gpu_graphics",
+      "source_type": "recent_7d",
+      "source_url": "http://arxiv.org/abs/2610.30127v1",
+      "suggested_note_title": null,
+      "suggested_note_type": null,
+      "tags": [
+        "cs.CV"
+      ],
+      "title": "VoxProg: 3D Spatial Reasoning through Voxel Programming",
+      "title_zh": null,
+      "topics": [
+        "gpu_graphics"
+      ],
+      "url": "http://arxiv.org/abs/2610.30127v1",
+      "venue": null,
+      "why_recommended": "Ranked by recency signal across configured topics."
+    },
+    {
+      "abstract": "Edge medical segmentation must reconcile small model size, high accuracy, and fast inference. TernScope addresses this tradeoff through model--hardware co-design, learning a compact segmentation network whose low-bit operators also simplify hardware execution. Split-channel large-kernel blocks preserve spatial context with limited computation, while branch fusion removes redundant inference paths. Ternary Progressive Quantization-aware Training (TPQ) then adapts the fused network from deep to shallow layers, through the decoder, and finally to the input and prediction layers. All 25 convolutions use ternary weights and 8-bit activations, enabling packed storage and multiplier-free computation. The resulting model uses 0.2483 M parameters and 0.0949 GMACs while retaining competitive segmentation accuracy on in-domain and external datasets. Under the same 45 nm technology, TernScope reduces compute-array area by 88.46% compared with the original Gemmini, a systolic-array accelerator with 8-bit $\\times$ 8-bit multipliers. These results demonstrate a path from accurate lightweight medical segmentation to compact low-bit hardware.",
+      "authors": [
+        "Zhuoyu Wu",
+        "Wenhui Ou",
+        "Qiawei Zheng",
+        "Xuhong Qiu",
+        "Wenqi Fang",
+        "Rapha\u00ebl C. -W. Phan"
+      ],
+      "categories": [
+        "eess.IV",
+        "cs.AR",
+        "cs.CV"
+      ],
+      "citation_count": null,
+      "classic_status": null,
+      "code_url": "https://github.com/ReaganWu/TernScope",
+      "deep_read_note_url": null,
+      "difficulty": null,
+      "enrichment_sources": [],
+      "existing_note_url": null,
+      "external_ids": {},
+      "field": null,
+      "fields_of_study": [],
+      "id": "arxiv:2610.29617v1",
+      "identifiers": {
+        "arxiv_id": "2610.29617v1"
+      },
+      "influential_citation_count": null,
+      "institutions": [],
+      "latest_note_url": null,
+      "note_count": 0,
+      "open_access_pdf_url": null,
+      "pdf_url": "https://arxiv.org/pdf/2610.29617v1",
+      "project_url": null,
+      "published_at": "2026-10-21",
+      "published_date": "2026-10-21",
+      "reading_advice": "quick_read",
+      "reading_status": "backlog",
+      "recommendation_level": "A",
+      "score": 0.762,
+      "scores": {
+        "classic_value": 0.35,
+        "engineering_transferability": 0.9500000000000001,
+        "recency": 0.78,
+        "source_quality": 0.78,
+        "total": 0.762,
+        "user_relevance": 0.75
+      },
+      "selected_for_s_level": false,
+      "source": "arxiv",
+      "source_group": "architecture",
+      "source_type": "recent_7d",
+      "source_url": "http://arxiv.org/abs/2610.29617v1",
+      "suggested_note_title": null,
+      "suggested_note_type": null,
+      "tags": [
+        "eess.IV",
+        "cs.AR",
+        "cs.CV"
+      ],
+      "title": "TernScope: Model-Hardware Co-Design for Efficient Ternary Endoscopic Segmentation",
+      "title_zh": null,
+      "topics": [
+        "architecture",
+        "gpu_graphics"
+      ],
+      "url": "http://arxiv.org/abs/2610.29617v1",
+      "venue": null,
+      "why_recommended": "Ranked by engineering transferability signal across configured topics."
+    },
+    {
+      "abstract": "Reinforcement learning (RL) is an effective way to strengthen the long-context reasoning of large language models (LLMs), but it needs training data that are long, diverse, challenging, and verifiable. Human annotation of such data is expensive, naturally occurring data are too scarce to sustain RL, and existing synthesis methods depend on external corpora or stronger teacher models, which become harder to obtain as the trained models get stronger. Recently, RL from zero data, in which a model learns from tasks it proposes itself, has achieved excellent performance, but existing methods target short-context tasks. Therefore, we propose $\\textbf{LongZero}$, a method that lets an LLM improve its own long-context reasoning without any external data. Instead of writing questions and answers over existing documents, LongZero first has the model synthesize the question and answer with its supporting evidence in a compact structured form, and only then separately expands the evidence into a long multi-document context. LongZero combines these self-written multi-hop reasoning tasks with self-written multi-round retrieval tasks and trains the model with GRPO. We evaluate LongZero on two LLMs across five long-context reasoning benchmarks and compare it with RL on data synthesized from external corpora. Experimental results show that LongZero can generalize to real tasks, and outperforms both baselines, suggesting a viable and promising path to improving long-context reasoning of LLMs.",
+      "authors": [
+        "Zhennan Wan",
+        "Jianfei Chen"
+      ],
+      "categories": [
+        "cs.CL",
+        "cs.LG"
+      ],
+      "citation_count": null,
+      "classic_status": null,
+      "code_url": "https://github.com/zhennan1/LongZero",
+      "deep_read_note_url": null,
+      "difficulty": null,
+      "enrichment_sources": [],
+      "existing_note_url": null,
+      "external_ids": {},
+      "field": null,
+      "fields_of_study": [],
+      "id": "arxiv:2610.30132v1",
+      "identifiers": {
+        "arxiv_id": "2610.30132v1"
+      },
+      "influential_citation_count": null,
+      "institutions": [],
+      "latest_note_url": null,
+      "note_count": 0,
+      "open_access_pdf_url": null,
+      "pdf_url": "https://arxiv.org/pdf/2610.30132v1",
+      "project_url": null,
+      "published_at": "2026-10-21",
+      "published_date": "2026-10-21",
+      "reading_advice": "save_for_later",
+      "reading_status": "backlog",
+      "recommendation_level": "B",
+      "score": 0.692,
+      "scores": {
+        "classic_value": 0.35,
+        "engineering_transferability": 0.6,
+        "recency": 0.78,
+        "source_quality": 0.78,
+        "total": 0.692,
+        "user_relevance": 0.75
+      },
+      "selected_for_s_level": false,
+      "source": "arxiv",
+      "source_group": "llm_agent",
+      "source_type": "recent_7d",
+      "source_url": "http://arxiv.org/abs/2610.30132v1",
+      "suggested_note_title": null,
+      "suggested_note_type": null,
+      "tags": [
+        "cs.CL",
+        "cs.LG"
+      ],
+      "title": "LongZero: Enhancing Long-Context Reasoning in LLMs from Zero Data",
+      "title_zh": null,
+      "topics": [
+        "llm_agent"
+      ],
+      "url": "http://arxiv.org/abs/2610.30132v1",
+      "venue": null,
+      "why_recommended": "Ranked by recency signal across configured topics."
+    },
+    {
+      "abstract": "Existing sequential recommenders usually allocate a fixed computational budget to every item in a user's interaction history, regardless of the item's contribution to the final prediction. We challenge this de facto design with two diagnostic findings. (1) Non-uniform computational need: items within the same sequence vary drastically in how much computation they require. Most converge after shallow processing while a critical minority only stabilizes at full depth. (2) Suboptimality of fixed allocation: given oracle access to the target item, a non-uniform depth assignment consistently outranks the fixed one, indicating that existing uniform computation both wastes capacity on already-converged items and sacrifices overall recommendation quality. These observations motivate a shift from fixed-depth computation to item-level adaptive reasoning. To this end, we propose LoopRec. LoopRec recursively applies a single weight-shared block and introduces a lightweight gate at each recursion boundary that makes a binary exit-or-continue decision for every item independently. Items whose representations have sufficiently matured exit early, while those requiring deeper reasoning continue to subsequent recursions. This design converts the fixed global depth into a learned, per-item property without auxiliary depth labels, and is readily adaptable to diverse backbone architectures. Extensive experiments on public benchmarks with four backbone families demonstrate that LoopRec consistently outperforms matched fixed-depth counterparts. Further analysis reveals that LoopRec's learned allocation exhibits interpretable patterns aligned with our post-hoc oracle analysis: lower-frequency items and more recent interactions naturally receive deeper computation. Our code is available at https://github.com/Elpmis117/LoopRec.",
+      "authors": [
+        "Zhanshuo Cao",
+        "Jiakai Tang",
+        "Yuqi Zhou",
+        "Sunhao Dai",
+        "Jun Xu"
+      ],
+      "categories": [
+        "cs.IR",
+        "cs.AI",
+        "cs.CL",
+        "cs.LG"
+      ],
+      "citation_count": null,
+      "classic_status": null,
+      "code_url": "https://github.com/Elpmis117/LoopRec",
+      "deep_read_note_url": null,
+      "difficulty": null,
+      "enrichment_sources": [],
+      "existing_note_url": null,
+      "external_ids": {},
+      "field": null,
+      "fields_of_study": [],
+      "id": "arxiv:2610.30128v1",
+      "identifiers": {
+        "arxiv_id": "2610.30128v1"
+      },
+      "influential_citation_count": null,
+      "institutions": [],
+      "latest_note_url": null,
+      "note_count": 0,
+      "open_access_pdf_url": null,
+      "pdf_url": "https://arxiv.org/pdf/2610.30128v1",
+      "project_url": null,
+      "published_at": "2026-10-21",
+      "published_date": "2026-10-21",
+      "reading_advice": "save_for_later",
+      "reading_status": "backlog",
+      "recommendation_level": "B",
+      "score": 0.692,
+      "scores": {
+        "classic_value": 0.35,
+        "engineering_transferability": 0.6,
+        "recency": 0.78,
+        "source_quality": 0.78,
+        "total": 0.692,
+        "user_relevance": 0.75
+      },
+      "selected_for_s_level": false,
+      "source": "arxiv",
+      "source_group": "llm_agent",
+      "source_type": "recent_7d",
+      "source_url": "http://arxiv.org/abs/2610.30128v1",
+      "suggested_note_title": null,
+      "suggested_note_type": null,
+      "tags": [
+        "cs.IR",
+        "cs.AI",
+        "cs.CL",
+        "cs.LG"
+      ],
+      "title": "Think Harder Where It Matters: Item-Level Adaptive Recursion for Sequential Recommendation",
+      "title_zh": null,
+      "topics": [
+        "llm_agent"
+      ],
+      "url": "http://arxiv.org/abs/2610.30128v1",
+      "venue": null,
+      "why_recommended": "Ranked by recency signal across configured topics."
+    },
+    {
+      "abstract": "Research on why people contribute to open source software (OSS) and related open collaboration platforms spans more than two decades, but its findings conflict, and studies often treat the work people contribute and their intention to keep contributing as interchangeable. Drawing on self-determination theory and motivation crowding theory, we meta-analyze 41 studies. The main analysis pools 178 correlations of eight antecedents with contribution effort and continuance intention from 29 independent samples (N = 9,632). Seven antecedents relate positively to effort, all eight relate positively to intention, and each relates at least as strongly to intention as to effort. Contrary to a common assumption, intrinsic motivation is not more strongly related to effort than extrinsic motivation, but its gap between intention and effort is larger. Reputation relates to effort mainly on platforms with a reputation system, and we find no sign that monetary rewards crowd out enjoyment. The findings inform how platforms can turn contributors' intentions into work.",
+      "authors": [
+        "Parisa Omidmand",
+        "Saeed Nosratabadi"
+      ],
+      "categories": [
+        "econ.GN",
+        "cs.HC",
+        "cs.SE"
+      ],
+      "citation_count": null,
+      "classic_status": null,
+      "code_url": null,
+      "deep_read_note_url": null,
+      "difficulty": null,
+      "enrichment_sources": [],
+      "existing_note_url": null,
+      "external_ids": {},
+      "field": null,
+      "fields_of_study": [],
+      "id": "arxiv:2610.29199v1",
+      "identifiers": {
+        "arxiv_id": "2610.29199v1"
+      },
+      "influential_citation_count": null,
+      "institutions": [],
+      "latest_note_url": null,
+      "note_count": 0,
+      "open_access_pdf_url": null,
+      "pdf_url": "https://arxiv.org/pdf/2610.29199v1",
+      "project_url": null,
+      "published_at": "2026-10-21",
+      "published_date": "2026-10-21",
+      "reading_advice": "save_for_later",
+      "reading_status": "backlog",
+      "recommendation_level": "B",
+      "score": 0.732,
+      "scores": {
+        "classic_value": 0.35,
+        "engineering_transferability": 0.8,
+        "recency": 0.78,
+        "source_quality": 0.78,
+        "total": 0.732,
+        "user_relevance": 0.75
+      },
+      "selected_for_s_level": false,
+      "source": "arxiv",
+      "source_group": "cognition_social",
+      "source_type": "recent_7d",
+      "source_url": "http://arxiv.org/abs/2610.29199v1",
+      "suggested_note_title": null,
+      "suggested_note_type": null,
+      "tags": [
+        "econ.GN",
+        "cs.HC",
+        "cs.SE"
+      ],
+      "title": "Motivation and Contribution in Open Source Software: A Meta-Analytic Investigation",
+      "title_zh": null,
+      "topics": [
+        "cognition",
+        "llm_agent"
+      ],
+      "url": "http://arxiv.org/abs/2610.29199v1",
+      "venue": null,
+      "why_recommended": "Ranked by engineering transferability signal across configured topics."
+    }
+  ],
+  "public_json_version": "0.4",
+  "s_level_candidate_ids": [],
+  "s_level_paper_id": null,
+  "source_mode_summary": {
+    "recent_7d": 6
+  },
+  "summary": "Selected 6 papers: 6 recent candidates and 0 classic fallback items."
+}

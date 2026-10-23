@@ -3021,6 +3021,60 @@
     {
       "confidence": 0.5,
       "relation": "related_to",
+      "source": "arxiv:2610.29199v1",
+      "target": "cognition"
+    },
+    {
+      "confidence": 0.5,
+      "relation": "related_to",
+      "source": "arxiv:2610.29199v1",
+      "target": "llm_agent"
+    },
+    {
+      "confidence": 0.5,
+      "relation": "related_to",
+      "source": "arxiv:2610.29199v1",
+      "target": "cognition_social"
+    },
+    {
+      "confidence": 0.5,
+      "relation": "related_to",
+      "source": "arxiv:2610.29617v1",
+      "target": "architecture"
+    },
+    {
+      "confidence": 0.5,
+      "relation": "related_to",
+      "source": "arxiv:2610.29617v1",
+      "target": "gpu_graphics"
+    },
+    {
+      "confidence": 0.5,
+      "relation": "related_to",
+      "source": "arxiv:2610.30033v1",
+      "target": "gpu_graphics"
+    },
+    {
+      "confidence": 0.5,
+      "relation": "related_to",
+      "source": "arxiv:2610.30127v1",
+      "target": "gpu_graphics"
+    },
+    {
+      "confidence": 0.5,
+      "relation": "related_to",
+      "source": "arxiv:2610.30128v1",
+      "target": "llm_agent"
+    },
+    {
+      "confidence": 0.5,
+      "relation": "related_to",
+      "source": "arxiv:2610.30132v1",
+      "target": "llm_agent"
+    },
+    {
+      "confidence": 0.5,
+      "relation": "related_to",
       "source": "biorxiv:10.1101/2023.01.10.523479",
       "target": "cognition"
     },
@@ -7182,6 +7236,56 @@
       "type": "paper"
     },
     {
+      "id": "arxiv:2610.29199v1",
+      "label": "Motivation and Contribution in Open Source Software: A Meta-Analytic Investigation",
+      "topics": [
+        "cognition",
+        "llm_agent"
+      ],
+      "type": "paper"
+    },
+    {
+      "id": "arxiv:2610.29617v1",
+      "label": "TernScope: Model-Hardware Co-Design for Efficient Ternary Endoscopic Segmentation",
+      "topics": [
+        "architecture",
+        "gpu_graphics"
+      ],
+      "type": "paper"
+    },
+    {
+      "id": "arxiv:2610.30033v1",
+      "label": "RLMuscle: Muscle-Driven Character Animation via Reinforcement Learning",
+      "topics": [
+        "gpu_graphics"
+      ],
+      "type": "paper"
+    },
+    {
+      "id": "arxiv:2610.30127v1",
+      "label": "VoxProg: 3D Spatial Reasoning through Voxel Programming",
+      "topics": [
+        "gpu_graphics"
+      ],
+      "type": "paper"
+    },
+    {
+      "id": "arxiv:2610.30128v1",
+      "label": "Think Harder Where It Matters: Item-Level Adaptive Recursion for Sequential Recommendation",
+      "topics": [
+        "llm_agent"
+      ],
+      "type": "paper"
+    },
+    {
+      "id": "arxiv:2610.30132v1",
+      "label": "LongZero: Enhancing Long-Context Reasoning in LLMs from Zero Data",
+      "topics": [
+        "llm_agent"
+      ],
+      "type": "paper"
+    },
+    {
       "id": "biorxiv:10.1101/2023.01.10.523479",
       "label": "How Occam's razor guides human decision-making",
       "topics": [
@@ -8167,5 +8271,5 @@
     }
   ],
   "public_json_version": "0.4",
-  "updated_at": "2026-10-22T00:35:47+00:00"
+  "updated_at": "2026-10-23T00:34:49+00:00"
 }

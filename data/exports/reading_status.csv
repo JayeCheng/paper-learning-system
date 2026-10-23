@@ -337,6 +337,12 @@ arxiv:2610.28598v1,backlog,medium,,2026-10-22T00:35:47+00:00,Neural Implicit Ene
 arxiv:2610.28612v1,backlog,medium,,2026-10-22T00:35:47+00:00,TraceLite: Efficient Trace Reduction for SWE Agents via Optical Compression and Redundancy Removal,llm_agent,A
 arxiv:2610.28624v1,backlog,medium,,2026-10-22T00:35:47+00:00,Industrial ReMEmbR: Scaling Spatiotemporal Memory to Robot Fleets,llm_agent,B
 arxiv:2610.28632v1,backlog,medium,,2026-10-22T00:35:47+00:00,"Joints, Camera, Action! Co-Generating 3D Motion and Video for Arbitrary Rigs",gpu_graphics,A
+arxiv:2610.29199v1,backlog,medium,,2026-10-23T00:34:49+00:00,Motivation and Contribution in Open Source Software: A Meta-Analytic Investigation,cognition_social,B
+arxiv:2610.29617v1,backlog,medium,,2026-10-23T00:34:49+00:00,TernScope: Model-Hardware Co-Design for Efficient Ternary Endoscopic Segmentation,architecture,A
+arxiv:2610.30033v1,backlog,medium,,2026-10-23T00:34:49+00:00,RLMuscle: Muscle-Driven Character Animation via Reinforcement Learning,gpu_graphics,A
+arxiv:2610.30127v1,backlog,medium,,2026-10-23T00:34:49+00:00,VoxProg: 3D Spatial Reasoning through Voxel Programming,gpu_graphics,B
+arxiv:2610.30128v1,backlog,medium,,2026-10-23T00:34:49+00:00,Think Harder Where It Matters: Item-Level Adaptive Recursion for Sequential Recommendation,llm_agent,B
+arxiv:2610.30132v1,backlog,medium,,2026-10-23T00:34:49+00:00,LongZero: Enhancing Long-Context Reasoning in LLMs from Zero Data,llm_agent,B
 biorxiv:10.1101/2023.01.10.523479,backlog,medium,,2026-09-28T00:33:07+00:00,How Occam's razor guides human decision-making,cognition_social,B
 biorxiv:10.1101/2024.03.07.583890,backlog,medium,,2026-10-19T00:08:58+00:00,Computation or Weight Adaptation? Rethinking the Role of Plasticity in Learning,cognition_social,B
 biorxiv:10.1101/2024.09.30.615819,backlog,medium,,2026-09-22T00:43:20+00:00,Hierarchy of prediction errors shapes the learning of context-dependent sensory representations,cognition_social,B
