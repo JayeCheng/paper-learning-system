@@ -343,6 +343,12 @@ arxiv:2610.30033v1,backlog,medium,,2026-10-23T00:34:49+00:00,RLMuscle: Muscle-Dr
 arxiv:2610.30127v1,backlog,medium,,2026-10-23T00:34:49+00:00,VoxProg: 3D Spatial Reasoning through Voxel Programming,gpu_graphics,B
 arxiv:2610.30128v1,backlog,medium,,2026-10-23T00:34:49+00:00,Think Harder Where It Matters: Item-Level Adaptive Recursion for Sequential Recommendation,llm_agent,B
 arxiv:2610.30132v1,backlog,medium,,2026-10-23T00:34:49+00:00,LongZero: Enhancing Long-Context Reasoning in LLMs from Zero Data,llm_agent,B
+arxiv:2610.31211v1,backlog,medium,,2026-10-24T00:29:39+00:00,Evolving Federated Density Peak Clustering with Shuffler-Based Anonymization,architecture,A
+arxiv:2610.31274v1,backlog,medium,,2026-10-24T00:29:39+00:00,PointerBench: A Diagnostic Benchmark for Fine-Grained GUI Grounding,cognition_social,B
+arxiv:2610.31588v1,backlog,medium,,2026-10-24T00:29:39+00:00,VERA: A Responsible AI Dashboard for Assessing LLM Deployments in Light of the EU AI Act,llm_agent,B
+arxiv:2610.31667v1,backlog,medium,,2026-10-24T00:29:39+00:00,Direct Pass@$k$ Optimization for Thought Pruning: Balancing Quality and Diversity in Test-Time Reasoning,llm_agent,B
+arxiv:2610.31670v1,backlog,medium,,2026-10-24T00:29:39+00:00,Sensorimotor Alignment: A Platonic Proxy for Embodied Policy Success,gpu_graphics,B
+arxiv:2610.31671v1,backlog,medium,,2026-10-24T00:29:39+00:00,A Unified Framework for Image-to-3D Part Generation via Variable Granularity,gpu_graphics,B
 biorxiv:10.1101/2023.01.10.523479,backlog,medium,,2026-09-28T00:33:07+00:00,How Occam's razor guides human decision-making,cognition_social,B
 biorxiv:10.1101/2024.03.07.583890,backlog,medium,,2026-10-19T00:08:58+00:00,Computation or Weight Adaptation? Rethinking the Role of Plasticity in Learning,cognition_social,B
 biorxiv:10.1101/2024.09.30.615819,backlog,medium,,2026-09-22T00:43:20+00:00,Hierarchy of prediction errors shapes the learning of context-dependent sensory representations,cognition_social,B

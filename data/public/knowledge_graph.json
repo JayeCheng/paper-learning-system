@@ -3075,6 +3075,66 @@
     {
       "confidence": 0.5,
       "relation": "related_to",
+      "source": "arxiv:2610.31211v1",
+      "target": "llm_agent"
+    },
+    {
+      "confidence": 0.5,
+      "relation": "related_to",
+      "source": "arxiv:2610.31211v1",
+      "target": "architecture"
+    },
+    {
+      "confidence": 0.5,
+      "relation": "related_to",
+      "source": "arxiv:2610.31274v1",
+      "target": "llm_agent"
+    },
+    {
+      "confidence": 0.5,
+      "relation": "related_to",
+      "source": "arxiv:2610.31274v1",
+      "target": "cognition"
+    },
+    {
+      "confidence": 0.5,
+      "relation": "related_to",
+      "source": "arxiv:2610.31274v1",
+      "target": "cognition_social"
+    },
+    {
+      "confidence": 0.5,
+      "relation": "related_to",
+      "source": "arxiv:2610.31588v1",
+      "target": "llm_agent"
+    },
+    {
+      "confidence": 0.5,
+      "relation": "related_to",
+      "source": "arxiv:2610.31667v1",
+      "target": "llm_agent"
+    },
+    {
+      "confidence": 0.5,
+      "relation": "related_to",
+      "source": "arxiv:2610.31670v1",
+      "target": "gpu_graphics"
+    },
+    {
+      "confidence": 0.5,
+      "relation": "related_to",
+      "source": "arxiv:2610.31670v1",
+      "target": "llm_agent"
+    },
+    {
+      "confidence": 0.5,
+      "relation": "related_to",
+      "source": "arxiv:2610.31671v1",
+      "target": "gpu_graphics"
+    },
+    {
+      "confidence": 0.5,
+      "relation": "related_to",
       "source": "biorxiv:10.1101/2023.01.10.523479",
       "target": "cognition"
     },
@@ -7286,6 +7346,57 @@
       "type": "paper"
     },
     {
+      "id": "arxiv:2610.31211v1",
+      "label": "Evolving Federated Density Peak Clustering with Shuffler-Based Anonymization",
+      "topics": [
+        "llm_agent",
+        "architecture"
+      ],
+      "type": "paper"
+    },
+    {
+      "id": "arxiv:2610.31274v1",
+      "label": "PointerBench: A Diagnostic Benchmark for Fine-Grained GUI Grounding",
+      "topics": [
+        "llm_agent",
+        "cognition"
+      ],
+      "type": "paper"
+    },
+    {
+      "id": "arxiv:2610.31588v1",
+      "label": "VERA: A Responsible AI Dashboard for Assessing LLM Deployments in Light of the EU AI Act",
+      "topics": [
+        "llm_agent"
+      ],
+      "type": "paper"
+    },
+    {
+      "id": "arxiv:2610.31667v1",
+      "label": "Direct Pass@$k$ Optimization for Thought Pruning: Balancing Quality and Diversity in Test-Time Reasoning",
+      "topics": [
+        "llm_agent"
+      ],
+      "type": "paper"
+    },
+    {
+      "id": "arxiv:2610.31670v1",
+      "label": "Sensorimotor Alignment: A Platonic Proxy for Embodied Policy Success",
+      "topics": [
+        "gpu_graphics",
+        "llm_agent"
+      ],
+      "type": "paper"
+    },
+    {
+      "id": "arxiv:2610.31671v1",
+      "label": "A Unified Framework for Image-to-3D Part Generation via Variable Granularity",
+      "topics": [
+        "gpu_graphics"
+      ],
+      "type": "paper"
+    },
+    {
       "id": "biorxiv:10.1101/2023.01.10.523479",
       "label": "How Occam's razor guides human decision-making",
       "topics": [
@@ -8271,5 +8382,5 @@
     }
   ],
   "public_json_version": "0.4",
-  "updated_at": "2026-10-23T00:34:49+00:00"
+  "updated_at": "2026-10-24T00:29:39+00:00"
 }
