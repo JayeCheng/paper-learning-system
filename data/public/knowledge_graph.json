@@ -3219,6 +3219,18 @@
     {
       "confidence": 0.5,
       "relation": "related_to",
+      "source": "biorxiv:10.1101/2025.02.10.637253",
+      "target": "cognition"
+    },
+    {
+      "confidence": 0.5,
+      "relation": "related_to",
+      "source": "biorxiv:10.1101/2025.02.10.637253",
+      "target": "cognition_social"
+    },
+    {
+      "confidence": 0.5,
+      "relation": "related_to",
       "source": "biorxiv:10.1101/2025.03.24.645008",
       "target": "cognition"
     },
@@ -4407,6 +4419,18 @@
     {
       "confidence": 0.5,
       "relation": "related_to",
+      "source": "biorxiv:10.64898/2026.10.11.758376",
+      "target": "cognition"
+    },
+    {
+      "confidence": 0.5,
+      "relation": "related_to",
+      "source": "biorxiv:10.64898/2026.10.11.758376",
+      "target": "cognition_social"
+    },
+    {
+      "confidence": 0.5,
+      "relation": "related_to",
       "source": "biorxiv:10.64898/2026.10.12.758510",
       "target": "cognition"
     },
@@ -4426,6 +4450,54 @@
       "confidence": 0.5,
       "relation": "related_to",
       "source": "biorxiv:10.64898/2026.10.12.758531",
+      "target": "cognition_social"
+    },
+    {
+      "confidence": 0.5,
+      "relation": "related_to",
+      "source": "biorxiv:10.64898/2026.10.16.759681",
+      "target": "cognition"
+    },
+    {
+      "confidence": 0.5,
+      "relation": "related_to",
+      "source": "biorxiv:10.64898/2026.10.16.759681",
+      "target": "cognition_social"
+    },
+    {
+      "confidence": 0.5,
+      "relation": "related_to",
+      "source": "biorxiv:10.64898/2026.10.16.759686",
+      "target": "cognition"
+    },
+    {
+      "confidence": 0.5,
+      "relation": "related_to",
+      "source": "biorxiv:10.64898/2026.10.16.759686",
+      "target": "cognition_social"
+    },
+    {
+      "confidence": 0.5,
+      "relation": "related_to",
+      "source": "biorxiv:10.64898/2026.10.17.759791",
+      "target": "cognition"
+    },
+    {
+      "confidence": 0.5,
+      "relation": "related_to",
+      "source": "biorxiv:10.64898/2026.10.17.759791",
+      "target": "cognition_social"
+    },
+    {
+      "confidence": 0.5,
+      "relation": "related_to",
+      "source": "biorxiv:10.64898/2026.10.17.759837",
+      "target": "cognition"
+    },
+    {
+      "confidence": 0.5,
+      "relation": "related_to",
+      "source": "biorxiv:10.64898/2026.10.17.759837",
       "target": "cognition_social"
     },
     {
@@ -7453,6 +7525,14 @@
       "type": "paper"
     },
     {
+      "id": "biorxiv:10.1101/2025.02.10.637253",
+      "label": "Phasic and tonic pain serve distinct functions during adaptive behaviour",
+      "topics": [
+        "cognition"
+      ],
+      "type": "paper"
+    },
+    {
       "id": "biorxiv:10.1101/2025.03.24.645008",
       "label": "Combined MEG and EEG suggest a limbic source network of the P3 including retrosplenial cortex and hippocampus",
       "topics": [
@@ -8245,6 +8325,14 @@
       "type": "paper"
     },
     {
+      "id": "biorxiv:10.64898/2026.10.11.758376",
+      "label": "Three-dimensional object-based quantification of nicotinic acetylcholine receptor subunit colocalization using Imaris",
+      "topics": [
+        "cognition"
+      ],
+      "type": "paper"
+    },
+    {
       "id": "biorxiv:10.64898/2026.10.12.758510",
       "label": "Neuronal FICD shapes motivated behavior through modulation of dopamine receptor dynamics",
       "topics": [
@@ -8255,6 +8343,38 @@
     {
       "id": "biorxiv:10.64898/2026.10.12.758531",
       "label": "Reuse of learned subtask representations during human planning",
+      "topics": [
+        "cognition"
+      ],
+      "type": "paper"
+    },
+    {
+      "id": "biorxiv:10.64898/2026.10.16.759681",
+      "label": "The Alzheimer's disease risk gene ABCA7 regulates microglial lysosomal and lipid homeostasis and promotes phagocytosis to maintain neuronal health",
+      "topics": [
+        "cognition"
+      ],
+      "type": "paper"
+    },
+    {
+      "id": "biorxiv:10.64898/2026.10.16.759686",
+      "label": "Oxytocin modulates behavioral economic and dopaminergic measures of motivation to seek intravenous oxycodone in rats",
+      "topics": [
+        "cognition"
+      ],
+      "type": "paper"
+    },
+    {
+      "id": "biorxiv:10.64898/2026.10.17.759791",
+      "label": "A Mechanistic Theory Unifying Value and Schema in the Prefrontal Cortex",
+      "topics": [
+        "cognition"
+      ],
+      "type": "paper"
+    },
+    {
+      "id": "biorxiv:10.64898/2026.10.17.759837",
+      "label": "Temporal modulation of cortical parvalbumin and somatostatin neurons shapes network activation and adaptation during microstimulation",
       "topics": [
         "cognition"
       ],
@@ -8382,5 +8502,5 @@
     }
   ],
   "public_json_version": "0.4",
-  "updated_at": "2026-10-25T00:14:04+00:00"
+  "updated_at": "2026-10-26T00:08:59+00:00"
 }

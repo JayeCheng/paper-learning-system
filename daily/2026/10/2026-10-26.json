@@ -1,0 +1,492 @@
+{
+  "date": "2026-10-26",
+  "frontend_entry": "data/public/latest.json",
+  "generated_at": "2026-10-26T00:08:59+00:00",
+  "generated_paths": {
+    "exports_csv": "data/exports/papers.csv",
+    "exports_daily_csv": "data/exports/daily_papers.csv",
+    "exports_jsonl": "data/exports/papers.jsonl",
+    "exports_notes_index": "data/exports/notes_index.csv",
+    "exports_reading_status": "data/exports/reading_status.csv",
+    "json": "daily/2026/10/2026-10-26.json",
+    "markdown": "daily/2026/10/2026-10-26.md",
+    "public_curriculum_progress": "data/public/curriculum_progress.json",
+    "public_daily_index": "data/public/daily_index.json",
+    "public_knowledge_graph": "data/public/knowledge_graph.json",
+    "public_latest": "data/public/latest.json",
+    "public_notes_index": "data/public/notes_index.json",
+    "public_papers_index": "data/public/papers_index.json",
+    "public_reading_status": "data/public/reading_status.json",
+    "state_notes_index": "data/state/notes_index.json",
+    "state_papers": "data/state/papers.jsonl",
+    "state_reading_status": "data/state/reading_status.json",
+    "state_run_history": "data/state/run_history.json"
+  },
+  "knowledge_graph_delta": [
+    "paper:biorxiv:10.64898/2026.10.17.759837",
+    "paper:biorxiv:10.64898/2026.10.16.759686",
+    "paper:biorxiv:10.64898/2026.10.11.758376",
+    "paper:biorxiv:10.64898/2026.10.17.759791",
+    "paper:biorxiv:10.1101/2025.02.10.637253",
+    "paper:biorxiv:10.64898/2026.10.16.759681"
+  ],
+  "learning_route_position": "v0.4 GitHub-owned note bridge",
+  "next_actions": [
+    "Review S-level candidate",
+    "Update reading status after skim",
+    "Promote durable concepts into the knowledge graph"
+  ],
+  "papers": [
+    {
+      "abstract": "Parvalbumin-positive (PV) and somatostatin-positive (SOM) inhibitory interneurons play distinct and critical roles in cortical sensory processing, yet their activation dynamics during patterned input remain unclear. This study used two-photon calcium imaging to measure how PV and SOM interneurons are activated and regulate layer 2/3 somatosensory cortical activity during prolonged, patterned input with 22 clinically relevant microstimulation patterns divided by temporal pattern (fixed, burst, or dynamic/biomimetic) and amplitude. Activation over time depended on the interaction between microstimulation amplitude, frequency, and duration. For fixed-frequency stimulation, PV neurons were generally more strongly activated than unlabeled neurons, while SOM neurons were more strongly engaged at higher amplitudes and frequencies, corresponding with greater suppression of surrounding populations over time. Burst patterns limited suppression by evoking stronger and more sustained activation than fixed-frequency patterns especially in PV neurons, potentially by reducing SOM feedback. Theta-burst stimulation (TBS) strongly activated and facilitated SOM neurons, which may underlie its therapeutic effects. Dynamic amplitude modulation preserved excitatory-inhibitory balance by eliciting brief, consistent responses that resemble natural sensory input while reducing long-term adaptation. Many findings fit a model in which PV provides fast-adapting feedforward inhibition and SOM provides slower-facilitating feedback. Supporting this model, distant PV neurons reached peak activation earlier than non-PV neurons, and SOM neurons later than non-SOM neurons during stimulation bursts. A simple computational model built on these dynamics reproduced observed responses, including distance-related effects. Neurons recruited directly bypass SOM input onto their dendrites leading to rapid PV-mediated depression but increasing activity across the stimulation pattern. Together, these results inform the design of microstimulation-based sensory restoration and clarify the circuit-level roles of PV and SOM neurons in transient and sustained inhibitory control of somatosensory cortex.",
+      "authors": [
+        "Hughes, C. L.",
+        "Kozai, T. D."
+      ],
+      "categories": [
+        "neuroscience"
+      ],
+      "citation_count": null,
+      "classic_status": null,
+      "code_url": null,
+      "deep_read_note_url": null,
+      "difficulty": null,
+      "enrichment_sources": [],
+      "existing_note_url": null,
+      "external_ids": {
+        "DOI": "10.64898/2026.10.17.759837"
+      },
+      "field": null,
+      "fields_of_study": [
+        "Neuroscience"
+      ],
+      "id": "biorxiv:10.64898/2026.10.17.759837",
+      "identifiers": {
+        "DOI": "10.64898/2026.10.17.759837",
+        "doi": "10.64898/2026.10.17.759837",
+        "server": "biorxiv"
+      },
+      "influential_citation_count": null,
+      "institutions": [],
+      "latest_note_url": null,
+      "note_count": 0,
+      "open_access_pdf_url": null,
+      "pdf_url": null,
+      "project_url": null,
+      "published_at": "2026-10-19",
+      "published_date": "2026-10-19",
+      "reading_advice": "save_for_later",
+      "reading_status": "backlog",
+      "recommendation_level": "B",
+      "score": 0.653,
+      "scores": {
+        "classic_value": 0.35,
+        "engineering_transferability": 0.48,
+        "recency": 0.78,
+        "source_quality": 0.68,
+        "total": 0.653,
+        "user_relevance": 0.75
+      },
+      "selected_for_s_level": false,
+      "source": "biorxiv",
+      "source_group": "cognition_social",
+      "source_type": "recent_7d",
+      "source_url": "https://doi.org/10.64898/2026.10.17.759837",
+      "suggested_note_title": null,
+      "suggested_note_type": null,
+      "tags": [
+        "neuroscience",
+        "cognition_social",
+        "biorxiv"
+      ],
+      "title": "Temporal modulation of cortical parvalbumin and somatostatin neurons shapes network activation and adaptation during microstimulation",
+      "title_zh": null,
+      "topics": [
+        "cognition"
+      ],
+      "url": "https://doi.org/10.64898/2026.10.17.759837",
+      "venue": "bioRxiv",
+      "why_recommended": "Ranked by recency signal across configured topics."
+    },
+    {
+      "abstract": "The opioid epidemic persists despite available pharmacotherapies for opioid use disorder (OUD), motivating interest in treatments targeting the motivational and neurochemical substrates of opioid seeking. Peripherally administered oxytocin (OT) attenuates drug seeking and consumption across substances and modulates the mesolimbic dopamine system, yet its effects on opioid seeking and its underlying neurobiology remain poorly characterized. Here we investigated the effects of OT on behavioral and dopaminergic measures of opioid reinforcement using in vivo fiber photometry with the dopamine sensor, GRABDA2m, in the nucleus accumbens (NA) core of male and female rats. Daily OT (15 IU/kg, IP) administered 30 min prior to operant sessions increased demand elasticity for intravenous oxycodone self-administration in males but not females. Acute OT (15 and 45 IU/kg, IP) increased GRABDA2m dopamine signal in the NA core in females, and potentiated oxycodone-evoked dopamine release in both sexes. In a high-effort task, NA core dopamine increased prior to lever presses, and acute OT (15 IU/kg, IP) produced sex-divergent effects on phasic NA core dopamine release during lever pressing, increasing peak signal and area under the curve measures in males. Support vector machine classifiers determined that features of dopamine transients (e.g., mean peak, standard deviation of the amplitude, peak-valley range) before an active lever press distinguished between treatment and sex. Thus, the ability of chronic oxytocin to reduce the motivation to self-administer oxycodone in male rats is independent of oxycodone-induced NA dopamine release but rather may involve dopamine transmission during lever pressing under high effort conditions.",
+      "authors": [
+        "Blount, H. L.",
+        "Gits, M.",
+        "Colley, E. A.",
+        "Kang, J.",
+        "Wilkinson, C. S.",
+        "Schwendt, M.",
+        "Knackstedt, L. A."
+      ],
+      "categories": [
+        "neuroscience"
+      ],
+      "citation_count": null,
+      "classic_status": null,
+      "code_url": null,
+      "deep_read_note_url": null,
+      "difficulty": null,
+      "enrichment_sources": [],
+      "existing_note_url": null,
+      "external_ids": {
+        "DOI": "10.64898/2026.10.16.759686"
+      },
+      "field": null,
+      "fields_of_study": [
+        "Neuroscience"
+      ],
+      "id": "biorxiv:10.64898/2026.10.16.759686",
+      "identifiers": {
+        "DOI": "10.64898/2026.10.16.759686",
+        "doi": "10.64898/2026.10.16.759686",
+        "server": "biorxiv"
+      },
+      "influential_citation_count": null,
+      "institutions": [],
+      "latest_note_url": null,
+      "note_count": 0,
+      "open_access_pdf_url": null,
+      "pdf_url": null,
+      "project_url": null,
+      "published_at": "2026-10-19",
+      "published_date": "2026-10-19",
+      "reading_advice": "save_for_later",
+      "reading_status": "backlog",
+      "recommendation_level": "B",
+      "score": 0.653,
+      "scores": {
+        "classic_value": 0.35,
+        "engineering_transferability": 0.48,
+        "recency": 0.78,
+        "source_quality": 0.68,
+        "total": 0.653,
+        "user_relevance": 0.75
+      },
+      "selected_for_s_level": false,
+      "source": "biorxiv",
+      "source_group": "cognition_social",
+      "source_type": "recent_7d",
+      "source_url": "https://doi.org/10.64898/2026.10.16.759686",
+      "suggested_note_title": null,
+      "suggested_note_type": null,
+      "tags": [
+        "neuroscience",
+        "cognition_social",
+        "biorxiv"
+      ],
+      "title": "Oxytocin modulates behavioral economic and dopaminergic measures of motivation to seek intravenous oxycodone in rats",
+      "title_zh": null,
+      "topics": [
+        "cognition"
+      ],
+      "url": "https://doi.org/10.64898/2026.10.16.759686",
+      "venue": "bioRxiv",
+      "why_recommended": "Ranked by recency signal across configured topics."
+    },
+    {
+      "abstract": "Neural circuit function depends not only on synaptic connectivity but also on the molecular composition and spatial organization of neurotransmitter receptors. Determining whether receptor subunits occupy shared or distinct domains requires spatial measurements capable of resolving sparse receptor puncta across neural tissue and, when needed, restricting analysis to defined cellular compartments. Conventional intensity-based colocalization metrics can be difficult to interpret for sparse, punctate signals and do not inherently provide object-level classification or cell-specific analysis. Here, we describe a three-dimensional object-based colocalization workflow for endogenously tagged nicotinic acetylcholine receptor (nAChR) subunits imaged by Airyscan super-resolution confocal microscopy and analyzed in Imaris. Individual receptor puncta are segmented as 3D surface objects and classified as colocalized or non-colocalized using a control-defined spatial overlap criterion. The workflow supports analysis within a defined region of the ventral nerve cord neuropil or within genetically labeled motor-neuron dendritic compartments. For dendrite-restricted analysis, receptor puncta are first selected by their overlap with the dendritic surface before receptor-receptor overlap is quantified. The overlap criterion is empirically calibrated using positive and negative biological controls processed under the same imaging and analysis conditions, providing a reproducible alternative to arbitrary threshold selection. This approach enables receptor organization to be quantified within the neuropil and genetically labeled motor-neuron dendritic compartments and can be adapted to other epitope-tagged receptors, ion channels, and synaptic proteins.",
+      "authors": [
+        "Sitaula, A.",
+        "Zarin, A. A."
+      ],
+      "categories": [
+        "neuroscience"
+      ],
+      "citation_count": null,
+      "classic_status": null,
+      "code_url": null,
+      "deep_read_note_url": null,
+      "difficulty": null,
+      "enrichment_sources": [],
+      "existing_note_url": null,
+      "external_ids": {
+        "DOI": "10.64898/2026.10.11.758376"
+      },
+      "field": null,
+      "fields_of_study": [
+        "Neuroscience"
+      ],
+      "id": "biorxiv:10.64898/2026.10.11.758376",
+      "identifiers": {
+        "DOI": "10.64898/2026.10.11.758376",
+        "doi": "10.64898/2026.10.11.758376",
+        "server": "biorxiv"
+      },
+      "influential_citation_count": null,
+      "institutions": [],
+      "latest_note_url": null,
+      "note_count": 0,
+      "open_access_pdf_url": null,
+      "pdf_url": null,
+      "project_url": null,
+      "published_at": "2026-10-19",
+      "published_date": "2026-10-19",
+      "reading_advice": "save_for_later",
+      "reading_status": "backlog",
+      "recommendation_level": "B",
+      "score": 0.653,
+      "scores": {
+        "classic_value": 0.35,
+        "engineering_transferability": 0.48,
+        "recency": 0.78,
+        "source_quality": 0.68,
+        "total": 0.653,
+        "user_relevance": 0.75
+      },
+      "selected_for_s_level": false,
+      "source": "biorxiv",
+      "source_group": "cognition_social",
+      "source_type": "recent_7d",
+      "source_url": "https://doi.org/10.64898/2026.10.11.758376",
+      "suggested_note_title": null,
+      "suggested_note_type": null,
+      "tags": [
+        "neuroscience",
+        "cognition_social",
+        "biorxiv"
+      ],
+      "title": "Three-dimensional object-based quantification of nicotinic acetylcholine receptor subunit colocalization using Imaris",
+      "title_zh": null,
+      "topics": [
+        "cognition"
+      ],
+      "url": "https://doi.org/10.64898/2026.10.11.758376",
+      "venue": "bioRxiv",
+      "why_recommended": "Ranked by recency signal across configured topics."
+    },
+    {
+      "abstract": "Animals exhibit behavioural flexibility by making reward-optimal decisions in unfamiliar situations. Computing value from minimal reward feedback requires leveraging known structure in the world. The Prefrontal Cortex (PFC) plays a pivotal role in both value computation and learning world structure, however mechanistic explanations for each---within the frameworks of Reinforcement Learning and Cognitive Maps---are largely distinct. We develop a mechanistic model of PFC that unifies value and structure through behavioural flexibility. In this model, value acts as a control signal that gates structured working memory representations of the current context in order to ultimately control behaviour. This is a significant departure from the conventional perspective of value, in which it is used for action readout. Critically, this model generalises to novel contexts without the need for additional synaptic plasticity. We demonstrate that recurrent neural networks (RNNs) meta-trained with either reinforcement learning or supervised learning recapitulate this exact model on various value-based tasks. These results not only provide a parsimonious explanation of both the value and schema frameworks of PFC function, but also propose a new mechanistic interpretation of the role of PFC in flexible decision making.",
+      "authors": [
+        "Warren, J.",
+        "Jensen, K. T.",
+        "Behrens, T.",
+        "Whittington, J. C."
+      ],
+      "categories": [
+        "neuroscience"
+      ],
+      "citation_count": null,
+      "classic_status": null,
+      "code_url": null,
+      "deep_read_note_url": null,
+      "difficulty": null,
+      "enrichment_sources": [],
+      "existing_note_url": null,
+      "external_ids": {
+        "DOI": "10.64898/2026.10.17.759791"
+      },
+      "field": null,
+      "fields_of_study": [
+        "Neuroscience"
+      ],
+      "id": "biorxiv:10.64898/2026.10.17.759791",
+      "identifiers": {
+        "DOI": "10.64898/2026.10.17.759791",
+        "doi": "10.64898/2026.10.17.759791",
+        "server": "biorxiv"
+      },
+      "influential_citation_count": null,
+      "institutions": [],
+      "latest_note_url": null,
+      "note_count": 0,
+      "open_access_pdf_url": null,
+      "pdf_url": null,
+      "project_url": null,
+      "published_at": "2026-10-19",
+      "published_date": "2026-10-19",
+      "reading_advice": "save_for_later",
+      "reading_status": "backlog",
+      "recommendation_level": "B",
+      "score": 0.653,
+      "scores": {
+        "classic_value": 0.35,
+        "engineering_transferability": 0.48,
+        "recency": 0.78,
+        "source_quality": 0.68,
+        "total": 0.653,
+        "user_relevance": 0.75
+      },
+      "selected_for_s_level": false,
+      "source": "biorxiv",
+      "source_group": "cognition_social",
+      "source_type": "recent_7d",
+      "source_url": "https://doi.org/10.64898/2026.10.17.759791",
+      "suggested_note_title": null,
+      "suggested_note_type": null,
+      "tags": [
+        "neuroscience",
+        "cognition_social",
+        "biorxiv"
+      ],
+      "title": "A Mechanistic Theory Unifying Value and Schema in the Prefrontal Cortex",
+      "title_zh": null,
+      "topics": [
+        "cognition"
+      ],
+      "url": "https://doi.org/10.64898/2026.10.17.759791",
+      "venue": "bioRxiv",
+      "why_recommended": "Ranked by recency signal across configured topics."
+    },
+    {
+      "abstract": "Pain drives self-protective behaviour, and evolutionary theories suggest it acts over different timescales to serve distinct functions. Whilst phasic pain provides a teaching signal to drive avoidance of new injury, tonic pain is argued to support recuperative behaviour, for instance by reducing motivational vigour. We test this hypothesis in an immersive virtual reality EEG foraging task where subjects harvested fruit in a forest: some fruit elicited brief phasic pain to the grasping hand, and this reduced choice probability. Simultaneously, tonic pressure pain to the contralateral upper arm was associated with reduced action velocities. This could be explained by a free-operant computational framework that formalises and quantifies the function of tonic and phasic pain in terms of motivational vigour and decision value. Additional analyses examined the relationship between model parameters, subjective ratings, and physiological and neural responses. Overall, the results show how tonic and phasic pain subserve distinct objective motivational functions that support harm minimisation during ongoing adaptive behaviour.",
+      "authors": [
+        "Tong, S.",
+        "Denison, T.",
+        "Hewitt, D.",
+        "Lee, S. W.",
+        "Seymour, B."
+      ],
+      "categories": [
+        "neuroscience"
+      ],
+      "citation_count": null,
+      "classic_status": null,
+      "code_url": null,
+      "deep_read_note_url": null,
+      "difficulty": null,
+      "enrichment_sources": [],
+      "existing_note_url": null,
+      "external_ids": {
+        "DOI": "10.1101/2025.02.10.637253"
+      },
+      "field": null,
+      "fields_of_study": [
+        "Neuroscience"
+      ],
+      "id": "biorxiv:10.1101/2025.02.10.637253",
+      "identifiers": {
+        "DOI": "10.1101/2025.02.10.637253",
+        "doi": "10.1101/2025.02.10.637253",
+        "server": "biorxiv"
+      },
+      "influential_citation_count": null,
+      "institutions": [],
+      "latest_note_url": null,
+      "note_count": 0,
+      "open_access_pdf_url": null,
+      "pdf_url": null,
+      "project_url": null,
+      "published_at": "2026-10-19",
+      "published_date": "2026-10-19",
+      "reading_advice": "save_for_later",
+      "reading_status": "backlog",
+      "recommendation_level": "B",
+      "score": 0.653,
+      "scores": {
+        "classic_value": 0.35,
+        "engineering_transferability": 0.48,
+        "recency": 0.78,
+        "source_quality": 0.68,
+        "total": 0.653,
+        "user_relevance": 0.75
+      },
+      "selected_for_s_level": false,
+      "source": "biorxiv",
+      "source_group": "cognition_social",
+      "source_type": "recent_7d",
+      "source_url": "https://doi.org/10.1101/2025.02.10.637253",
+      "suggested_note_title": null,
+      "suggested_note_type": null,
+      "tags": [
+        "neuroscience",
+        "cognition_social",
+        "biorxiv"
+      ],
+      "title": "Phasic and tonic pain serve distinct functions during adaptive behaviour",
+      "title_zh": null,
+      "topics": [
+        "cognition"
+      ],
+      "url": "https://doi.org/10.1101/2025.02.10.637253",
+      "venue": "bioRxiv",
+      "why_recommended": "Ranked by recency signal across configured topics."
+    },
+    {
+      "abstract": "Background: Loss of function mutations in the lipid transporter ABCA7 have been linked to increased risk for late onset Alzheimer's disease (AD). Although rare and common variants in ABCA7 associated with AD alter the coding sequence and are predicted to impair protein function, the precise cell-type consequences of ABCA7 deficiency remain incompletely defined. Methods: We used CRISPR/Cas9 gene editing to generate induced pluripotent stem cells (iPSCs) that were deficient for ABCA7 (ABCA7-KO) and their wild-type (ABCA7-WT) isogenic counterparts and subsequently performed unbiased proteomics on differentiated astrocytes (iAs), neurons (iNs) and microglia (iMGs). ABCA7 deficiency in iMGs produced the largest proteomic changes, so we therefore conducted additional functional analyses to define its effects on microglial lysosomal activity, phagocytosis, and lipid metabolism. In addition, we leveraged CRISPR/Cas9 to correct the ABCA7 rs3752246 AD risk variant in patient-derived iPSCs and compared proteomic and functional phenotypes between corrected iMGs and isogenic mutant carriers. Finally, we examined the functional consequence of ABCA7-deficient microglia on neurons. Results: ABCA7-KO iMGs were deficient for proteins involved in lysosome function, measured by down-regulated lysosomal proteomic signatures, as well as reduced DQ-BSA activity and reduced LAMP1+ area. Additionally, ABCA7-KO iMGs displayed impaired phagocytic capacity and increased inflammatory markers, including MHC proteins CD1A and CD1E, and IL-18. Multi-omic integration of lipidomic and proteomic profiles nominated a dysregulated metabolic network characterized by altered phospholipid steady-state metabolism and increased lipid peroxidation in ABCA7-KO iMGs. This was complemented by an accumulation of polyunsaturated triacylglycerols and lipid droplets, suggesting that ABCA7 deficiency disrupts intracellular lipid dynamics. This was supported by the alleviation of lysosomal and lipid droplet phenotypes through the inhibiting the synthesis of triacylglycerols. Concordantly, proteomic and functional analyses revealed lysosomal dysfunction in rs3752246-mutant iMGs, suggesting a shared ABCA7-dependent mechanism underlying AD risk. Tri-cultures of iNs, iAs and iMGs revealed that ABCA7 deficiency in iMGs worsened AD-relevant neuronal measures such as tau phosphorylation and synapse number. Conclusions: This work supplies evidence for the important role of ABCA7 in microglia and provides unique insights into the molecular and functional consequences of reduced ABCA7 function in lysosomal and lipid regulation, paving a path forward to a more comprehensive understanding of AD molecular subtypes and personalized therapeutics.",
+      "authors": [
+        "Heuer, S. E.",
+        "Ahsan, F. M.",
+        "Terzioglu, G.",
+        "Misra, A.",
+        "Duong, D.",
+        "Katkar, C.",
+        "Giera, M. M.",
+        "van der Kant, R.",
+        "Seyfried, N.",
+        "Young-Pearse, T. L."
+      ],
+      "categories": [
+        "neuroscience"
+      ],
+      "citation_count": null,
+      "classic_status": null,
+      "code_url": null,
+      "deep_read_note_url": null,
+      "difficulty": null,
+      "enrichment_sources": [],
+      "existing_note_url": null,
+      "external_ids": {
+        "DOI": "10.64898/2026.10.16.759681"
+      },
+      "field": null,
+      "fields_of_study": [
+        "Neuroscience"
+      ],
+      "id": "biorxiv:10.64898/2026.10.16.759681",
+      "identifiers": {
+        "DOI": "10.64898/2026.10.16.759681",
+        "doi": "10.64898/2026.10.16.759681",
+        "server": "biorxiv"
+      },
+      "influential_citation_count": null,
+      "institutions": [],
+      "latest_note_url": null,
+      "note_count": 0,
+      "open_access_pdf_url": null,
+      "pdf_url": null,
+      "project_url": null,
+      "published_at": "2026-10-19",
+      "published_date": "2026-10-19",
+      "reading_advice": "save_for_later",
+      "reading_status": "backlog",
+      "recommendation_level": "B",
+      "score": 0.653,
+      "scores": {
+        "classic_value": 0.35,
+        "engineering_transferability": 0.48,
+        "recency": 0.78,
+        "source_quality": 0.68,
+        "total": 0.653,
+        "user_relevance": 0.75
+      },
+      "selected_for_s_level": false,
+      "source": "biorxiv",
+      "source_group": "cognition_social",
+      "source_type": "recent_7d",
+      "source_url": "https://doi.org/10.64898/2026.10.16.759681",
+      "suggested_note_title": null,
+      "suggested_note_type": null,
+      "tags": [
+        "neuroscience",
+        "cognition_social",
+        "biorxiv"
+      ],
+      "title": "The Alzheimer's disease risk gene ABCA7 regulates microglial lysosomal and lipid homeostasis and promotes phagocytosis to maintain neuronal health",
+      "title_zh": null,
+      "topics": [
+        "cognition"
+      ],
+      "url": "https://doi.org/10.64898/2026.10.16.759681",
+      "venue": "bioRxiv",
+      "why_recommended": "Ranked by recency signal across configured topics."
+    }
+  ],
+  "public_json_version": "0.4",
+  "s_level_candidate_ids": [],
+  "s_level_paper_id": null,
+  "source_mode_summary": {
+    "recent_7d": 6
+  },
+  "summary": "Selected 6 papers: 6 recent candidates and 0 classic fallback items."
+}

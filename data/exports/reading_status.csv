@@ -356,6 +356,7 @@ biorxiv:10.1101/2024.10.24.620089,backlog,medium,,2026-09-23T00:19:20+00:00,Func
 biorxiv:10.1101/2024.12.20.629771,backlog,medium,,2026-09-12T23:57:10+00:00,Encoding of natural variability in a dexterous motor skill over multiple days in the cortex of freely behaving mice,cognition_social,B
 biorxiv:10.1101/2025.01.03.631260,backlog,medium,,2026-08-30T00:10:37+00:00,Reactivation of a dormant developmental plasticity program drives synaptic rejuvenation and antidepressant-like responses,cognition_social,B
 biorxiv:10.1101/2025.02.04.636500,backlog,medium,,2026-09-12T23:57:10+00:00,Modulation of oscillatory activity in response to very weak intensity transcranial magnetic stimulation in the human primary motor cortex,cognition_social,B
+biorxiv:10.1101/2025.02.10.637253,backlog,medium,,2026-10-26T00:08:59+00:00,Phasic and tonic pain serve distinct functions during adaptive behaviour,cognition_social,B
 biorxiv:10.1101/2025.03.24.645008,backlog,medium,,2026-08-30T00:10:37+00:00,Combined MEG and EEG suggest a limbic source network of the P3 including retrosplenial cortex and hippocampus,cognition_social,B
 biorxiv:10.1101/2025.05.30.657074,backlog,medium,,2026-08-27T03:05:37+00:00,Molecular logic of pheromone recognition enables rational design of insect behavior modulators,cognition_social,B
 biorxiv:10.1101/2025.06.27.661903,backlog,medium,,2026-10-02T01:37:28+00:00,Neural adolescent pragmatic development mirrors pragmatic differences in adulthood: an fMRI-study,cognition_social,B
@@ -455,8 +456,13 @@ biorxiv:10.64898/2026.10.06.749912,backlog,medium,,2026-10-14T01:08:55+00:00,"Sh
 biorxiv:10.64898/2026.10.09.757611,backlog,medium,,2026-10-20T01:04:13+00:00,Deciphering auditory neuroprogenitor stemness for large-scale neuronal screening,cognition_social,B
 biorxiv:10.64898/2026.10.09.757871,backlog,medium,,2026-10-20T01:04:13+00:00,Criticality-related dynamics accompany long-term functional decline in primary cortical MEA cultures,cognition_social,B
 biorxiv:10.64898/2026.10.11.758231,backlog,medium,,2026-10-20T01:04:13+00:00,A foundation model for brain organoid network dynamics uncovers intrinsic computation and convergent disease phenotypes,cognition_social,B
+biorxiv:10.64898/2026.10.11.758376,backlog,medium,,2026-10-26T00:08:59+00:00,Three-dimensional object-based quantification of nicotinic acetylcholine receptor subunit colocalization using Imaris,cognition_social,B
 biorxiv:10.64898/2026.10.12.758510,backlog,medium,,2026-10-20T01:04:13+00:00,Neuronal FICD shapes motivated behavior through modulation of dopamine receptor dynamics,cognition_social,B
 biorxiv:10.64898/2026.10.12.758531,backlog,medium,,2026-10-20T01:04:13+00:00,Reuse of learned subtask representations during human planning,cognition_social,B
+biorxiv:10.64898/2026.10.16.759681,backlog,medium,,2026-10-26T00:08:59+00:00,The Alzheimer's disease risk gene ABCA7 regulates microglial lysosomal and lipid homeostasis and promotes phagocytosis to maintain neuronal health,cognition_social,B
+biorxiv:10.64898/2026.10.16.759686,backlog,medium,,2026-10-26T00:08:59+00:00,Oxytocin modulates behavioral economic and dopaminergic measures of motivation to seek intravenous oxycodone in rats,cognition_social,B
+biorxiv:10.64898/2026.10.17.759791,backlog,medium,,2026-10-26T00:08:59+00:00,A Mechanistic Theory Unifying Value and Schema in the Prefrontal Cortex,cognition_social,B
+biorxiv:10.64898/2026.10.17.759837,backlog,medium,,2026-10-26T00:08:59+00:00,Temporal modulation of cortical parvalbumin and somatostatin neurons shapes network activation and adaptation during microstimulation,cognition_social,B
 classic:architecture:cache-coherence-and-shared-memory-multiprocessors,backlog,medium,,2026-07-09T09:46:00+00:00,Cache coherence and shared-memory multiprocessors,architecture,B
 classic:architecture:the-memory-hierarchy-and-locality,backlog,medium,,2026-07-09T09:46:00+00:00,The memory hierarchy and locality,architecture,B
 classic:cognition:attention-and-working-memory,backlog,medium,,2026-07-09T09:46:00+00:00,Attention and working memory,cognition,B
