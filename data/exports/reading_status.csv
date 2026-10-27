@@ -349,6 +349,12 @@ arxiv:2610.31588v1,backlog,medium,,2026-10-24T00:29:39+00:00,VERA: A Responsible
 arxiv:2610.31667v1,backlog,medium,,2026-10-24T00:29:39+00:00,Direct Pass@$k$ Optimization for Thought Pruning: Balancing Quality and Diversity in Test-Time Reasoning,llm_agent,B
 arxiv:2610.31670v1,backlog,medium,,2026-10-24T00:29:39+00:00,Sensorimotor Alignment: A Platonic Proxy for Embodied Policy Success,gpu_graphics,B
 arxiv:2610.31671v1,backlog,medium,,2026-10-24T00:29:39+00:00,A Unified Framework for Image-to-3D Part Generation via Variable Granularity,gpu_graphics,B
+arxiv:2610.33876v1,backlog,medium,,2026-10-27T01:24:02+00:00,FlashScript: Compiling Recurring Agent Workflows into Reusable Neuro-Symbolic Programs,cognition_social,B
+arxiv:2610.33932v1,backlog,medium,,2026-10-27T01:24:02+00:00,"FastSAR: High-Throughput, High-Fidelity Open-Source SAR Image Formation on CPUs, GPUs and TPUs",architecture,A
+arxiv:2610.33941v1,backlog,medium,,2026-10-27T01:24:02+00:00,TurboWAM: Learning What Matters for Fast World Action Models,gpu_graphics,B
+arxiv:2610.33949v1,backlog,medium,,2026-10-27T01:24:02+00:00,Why Does Structured Output Fail? An Empirical Study of Prompt-Enforced Pydantic Schemas Across Nine LLMs,llm_agent,B
+arxiv:2610.33956v1,backlog,medium,,2026-10-27T01:24:02+00:00,Continual Learning Exam: Benchmarking Long-Horizon RSI and Experiential Learning in LLM Agents,gpu_graphics,B
+arxiv:2610.33958v1,backlog,medium,,2026-10-27T01:24:02+00:00,How Do Small Coding Agents Use Code Graphs and Embeddings?,llm_agent,B
 biorxiv:10.1101/2023.01.10.523479,backlog,medium,,2026-09-28T00:33:07+00:00,How Occam's razor guides human decision-making,cognition_social,B
 biorxiv:10.1101/2024.03.07.583890,backlog,medium,,2026-10-19T00:08:58+00:00,Computation or Weight Adaptation? Rethinking the Role of Plasticity in Learning,cognition_social,B
 biorxiv:10.1101/2024.09.30.615819,backlog,medium,,2026-09-22T00:43:20+00:00,Hierarchy of prediction errors shapes the learning of context-dependent sensory representations,cognition_social,B
