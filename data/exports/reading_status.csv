@@ -355,6 +355,12 @@ arxiv:2610.33941v1,backlog,medium,,2026-10-27T01:24:02+00:00,TurboWAM: Learning 
 arxiv:2610.33949v1,backlog,medium,,2026-10-27T01:24:02+00:00,Why Does Structured Output Fail? An Empirical Study of Prompt-Enforced Pydantic Schemas Across Nine LLMs,llm_agent,B
 arxiv:2610.33956v1,backlog,medium,,2026-10-27T01:24:02+00:00,Continual Learning Exam: Benchmarking Long-Horizon RSI and Experiential Learning in LLM Agents,gpu_graphics,B
 arxiv:2610.33958v1,backlog,medium,,2026-10-27T01:24:02+00:00,How Do Small Coding Agents Use Code Graphs and Embeddings?,llm_agent,B
+arxiv:2610.36626v1,backlog,medium,,2026-10-28T01:10:14+00:00,Measuring Users' Security and Privacy Concerns About Third-Party Community Bots on Discord,cognition_social,A
+arxiv:2610.36804v1,backlog,medium,,2026-10-28T01:10:14+00:00,DFIP: Decision-Focused Inference Path for System One Models,architecture,A
+arxiv:2610.36907v1,backlog,medium,,2026-10-28T01:10:14+00:00,A lightweight C Code Generator for Heterogeneous TinyML Systems,llm_agent,A
+arxiv:2610.36931v1,backlog,medium,,2026-10-28T01:10:14+00:00,From Walks to Skeletons: A Reusable Transport Architecture for Interactive Monte Carlo PDE Solvers,gpu_graphics,A
+arxiv:2610.36945v1,backlog,medium,,2026-10-28T01:10:14+00:00,Total Deformation-based MPM for Perfectly Elastic Solid Simulation with Strong Deformations,gpu_graphics,A
+arxiv:2610.36947v1,backlog,medium,,2026-10-28T01:10:14+00:00,"Beyond QASecClaw: Agent Scaling, Verifier Feedback, and Evidence Reliability in Software Assurance",llm_agent,A
 biorxiv:10.1101/2023.01.10.523479,backlog,medium,,2026-09-28T00:33:07+00:00,How Occam's razor guides human decision-making,cognition_social,B
 biorxiv:10.1101/2024.03.07.583890,backlog,medium,,2026-10-19T00:08:58+00:00,Computation or Weight Adaptation? Rethinking the Role of Plasticity in Learning,cognition_social,B
 biorxiv:10.1101/2024.09.30.615819,backlog,medium,,2026-09-22T00:43:20+00:00,Hierarchy of prediction errors shapes the learning of context-dependent sensory representations,cognition_social,B

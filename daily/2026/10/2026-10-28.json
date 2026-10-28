@@ -1,0 +1,436 @@
+{
+  "date": "2026-10-28",
+  "frontend_entry": "data/public/latest.json",
+  "generated_at": "2026-10-28T01:10:14+00:00",
+  "generated_paths": {
+    "exports_csv": "data/exports/papers.csv",
+    "exports_daily_csv": "data/exports/daily_papers.csv",
+    "exports_jsonl": "data/exports/papers.jsonl",
+    "exports_notes_index": "data/exports/notes_index.csv",
+    "exports_reading_status": "data/exports/reading_status.csv",
+    "json": "daily/2026/10/2026-10-28.json",
+    "markdown": "daily/2026/10/2026-10-28.md",
+    "public_curriculum_progress": "data/public/curriculum_progress.json",
+    "public_daily_index": "data/public/daily_index.json",
+    "public_knowledge_graph": "data/public/knowledge_graph.json",
+    "public_latest": "data/public/latest.json",
+    "public_notes_index": "data/public/notes_index.json",
+    "public_papers_index": "data/public/papers_index.json",
+    "public_reading_status": "data/public/reading_status.json",
+    "state_notes_index": "data/state/notes_index.json",
+    "state_papers": "data/state/papers.jsonl",
+    "state_reading_status": "data/state/reading_status.json",
+    "state_run_history": "data/state/run_history.json"
+  },
+  "knowledge_graph_delta": [
+    "paper:arxiv:2610.36945v1",
+    "paper:arxiv:2610.36931v1",
+    "paper:arxiv:2610.36804v1",
+    "paper:arxiv:2610.36947v1",
+    "paper:arxiv:2610.36907v1",
+    "paper:arxiv:2610.36626v1"
+  ],
+  "learning_route_position": "v0.4 GitHub-owned note bridge",
+  "next_actions": [
+    "Review S-level candidate",
+    "Update reading status after skim",
+    "Promote durable concepts into the knowledge graph"
+  ],
+  "papers": [
+    {
+      "abstract": "We present a new MPM-based solver for perfectly elastic solids, which can recover from strong deformations and naturally allows contact handling. Typical MPM solvers suffer from numerical fracture, where objects break apart even when no plasticity is included in the elasticity model. Previous approaches for perfectly elastic solids solve this by computing forces on a fixed grid in the reference configuration. However, this makes them incompatible with standard collision handling methods. We instead propose a method for deformable solid simulation without numerical fracture, that still computes elastic forces on the current grid. Our method can easily include grid-based collision handling, as commonly used in MPM frameworks. Additionally, we compute the deformation directly from the particle positions and a fixed reference grid, without any updates based on velocity gradients. This facilitates the inclusion of particle-level collision handling and zero-energy mode suppression, which counteracts artifacts from non-linear deformations. As a result, we can efficiently simulate complex scenarios of elastic objects undergoing large deformations, including contact.",
+      "authors": [
+        "Timna B\u00f6ttcher",
+        "Rick Ridder",
+        "Jan Bender"
+      ],
+      "categories": [
+        "cs.GR"
+      ],
+      "citation_count": null,
+      "classic_status": null,
+      "code_url": null,
+      "deep_read_note_url": null,
+      "difficulty": null,
+      "enrichment_sources": [],
+      "existing_note_url": null,
+      "external_ids": {},
+      "field": null,
+      "fields_of_study": [],
+      "id": "arxiv:2610.36945v1",
+      "identifiers": {
+        "arxiv_id": "2610.36945v1"
+      },
+      "influential_citation_count": null,
+      "institutions": [],
+      "latest_note_url": null,
+      "note_count": 0,
+      "open_access_pdf_url": null,
+      "pdf_url": "https://arxiv.org/pdf/2610.36945v1",
+      "project_url": null,
+      "published_at": "2026-10-27",
+      "published_date": "2026-10-27",
+      "reading_advice": "quick_read",
+      "reading_status": "backlog",
+      "recommendation_level": "A",
+      "score": 0.787,
+      "scores": {
+        "classic_value": 0.35,
+        "engineering_transferability": 0.8,
+        "recency": 1.0,
+        "source_quality": 0.78,
+        "total": 0.787,
+        "user_relevance": 0.75
+      },
+      "selected_for_s_level": false,
+      "source": "arxiv",
+      "source_group": "gpu_graphics",
+      "source_type": "recent_24h",
+      "source_url": "http://arxiv.org/abs/2610.36945v1",
+      "suggested_note_title": null,
+      "suggested_note_type": null,
+      "tags": [
+        "cs.GR"
+      ],
+      "title": "Total Deformation-based MPM for Perfectly Elastic Solid Simulation with Strong Deformations",
+      "title_zh": null,
+      "topics": [
+        "gpu_graphics"
+      ],
+      "url": "http://arxiv.org/abs/2610.36945v1",
+      "venue": null,
+      "why_recommended": "Ranked by recency signal across configured topics."
+    },
+    {
+      "abstract": "Walk-on-Spheres (WoS) enables mesh-free solutions of elliptic PDEs, but conventional methods repeatedly discard sampled trajectories, limiting their efficiency in interactive applications. We introduce reusable transport skeletons, a persistent representation that organizes stochastic walks into a shared computational graph. Our framework enables efficient reuse across spatial queries and boundary conditions, while supporting progressive refinement, structure-preserving compression, and local adaptation to dynamic geometry. It further enables interactive editing of transport between selected regions. Experiments demonstrate substantial computational savings while preserving solution accuracy. By transforming transient stochastic trajectories into reusable transport structures, our method provides a flexible foundation for interactive Monte Carlo PDE solving.",
+      "authors": [
+        "Yunfeng Liao",
+        "Yucheng Wu",
+        "Xiucheng Li"
+      ],
+      "categories": [
+        "cs.GR",
+        "math.NA"
+      ],
+      "citation_count": null,
+      "classic_status": null,
+      "code_url": null,
+      "deep_read_note_url": null,
+      "difficulty": null,
+      "enrichment_sources": [],
+      "existing_note_url": null,
+      "external_ids": {},
+      "field": null,
+      "fields_of_study": [],
+      "id": "arxiv:2610.36931v1",
+      "identifiers": {
+        "arxiv_id": "2610.36931v1"
+      },
+      "influential_citation_count": null,
+      "institutions": [],
+      "latest_note_url": null,
+      "note_count": 0,
+      "open_access_pdf_url": null,
+      "pdf_url": "https://arxiv.org/pdf/2610.36931v1",
+      "project_url": null,
+      "published_at": "2026-10-27",
+      "published_date": "2026-10-27",
+      "reading_advice": "quick_read",
+      "reading_status": "backlog",
+      "recommendation_level": "A",
+      "score": 0.787,
+      "scores": {
+        "classic_value": 0.35,
+        "engineering_transferability": 0.8,
+        "recency": 1.0,
+        "source_quality": 0.78,
+        "total": 0.787,
+        "user_relevance": 0.75
+      },
+      "selected_for_s_level": false,
+      "source": "arxiv",
+      "source_group": "gpu_graphics",
+      "source_type": "recent_24h",
+      "source_url": "http://arxiv.org/abs/2610.36931v1",
+      "suggested_note_title": null,
+      "suggested_note_type": null,
+      "tags": [
+        "cs.GR",
+        "math.NA"
+      ],
+      "title": "From Walks to Skeletons: A Reusable Transport Architecture for Interactive Monte Carlo PDE Solvers",
+      "title_zh": null,
+      "topics": [
+        "gpu_graphics"
+      ],
+      "url": "http://arxiv.org/abs/2610.36931v1",
+      "venue": null,
+      "why_recommended": "Ranked by recency signal across configured topics."
+    },
+    {
+      "abstract": "System One (decision) models return small structured answers, but can retain host dispatch, GPU launch overhead and full-vocabulary projection. We present DFIP (Decision-Focused Inference Path), an empirical systems study of established inference techniques in PPLX-Decider, Liquid d1-3B, Clef-Flash and GLiNER2.5-Decide. Selective CUDA graph replay, candidate-token projection and schema-compatible length-aware batching are applied at compatible model boundaries. We compare resident requests with stronger native baselines, audit exposed answers and measure changing arrivals. With optional native Qwen kernels installed, short Boolean resident speedups over strengthened native are 2.47x for Decider across five containers and 1.45x for Clef across four of five planned containers; Clef's fifth fails in native preflight. Liquid is effectively tied with released compilation; replay supplies most of its eager-baseline gain, while projection alone adds little full-request benefit. In a one-worker GLiNER follow-up, length-aware batching is 1.40x faster than compiled native FIFO batching on a diverse resident trace, but has worse arrival p95. Decider and Clef audits cover 3,024 decisions per model and preserve all 1,112 returned choices, while Clef changes scores, probabilities and serving confidence thresholds. Diverse external arrivals reverse fixed-shape replay gains and expose overload losses and a replay-path CUDA error. The results identify workload-specific acceleration and its limits, rather than a universal optimizer or production readiness.",
+      "authors": [
+        "Ismail Pelaseyed",
+        "Alan Zabihi"
+      ],
+      "categories": [
+        "cs.PF"
+      ],
+      "citation_count": null,
+      "classic_status": null,
+      "code_url": "https://github.com/superagent-ai/dfip",
+      "deep_read_note_url": null,
+      "difficulty": null,
+      "enrichment_sources": [],
+      "existing_note_url": null,
+      "external_ids": {},
+      "field": null,
+      "fields_of_study": [],
+      "id": "arxiv:2610.36804v1",
+      "identifiers": {
+        "arxiv_id": "2610.36804v1"
+      },
+      "influential_citation_count": null,
+      "institutions": [],
+      "latest_note_url": null,
+      "note_count": 0,
+      "open_access_pdf_url": null,
+      "pdf_url": "https://arxiv.org/pdf/2610.36804v1",
+      "project_url": null,
+      "published_at": "2026-10-27",
+      "published_date": "2026-10-27",
+      "reading_advice": "quick_read",
+      "reading_status": "backlog",
+      "recommendation_level": "A",
+      "score": 0.817,
+      "scores": {
+        "classic_value": 0.35,
+        "engineering_transferability": 0.9500000000000001,
+        "recency": 1.0,
+        "source_quality": 0.78,
+        "total": 0.817,
+        "user_relevance": 0.75
+      },
+      "selected_for_s_level": false,
+      "source": "arxiv",
+      "source_group": "architecture",
+      "source_type": "recent_24h",
+      "source_url": "http://arxiv.org/abs/2610.36804v1",
+      "suggested_note_title": null,
+      "suggested_note_type": null,
+      "tags": [
+        "cs.PF"
+      ],
+      "title": "DFIP: Decision-Focused Inference Path for System One Models",
+      "title_zh": null,
+      "topics": [
+        "architecture"
+      ],
+      "url": "http://arxiv.org/abs/2610.36804v1",
+      "venue": null,
+      "why_recommended": "Ranked by recency signal across configured topics."
+    },
+    {
+      "abstract": "Can additional specialist language-model contexts improve software assurance when deterministic tool evidence is already available? We study this question through five experiments spanning authored Java warning controls, OWASP Benchmark assessment, Defects4J test generation, SV-COMP assertion verdicts, and deliberately misleading evidence packages. The evaluated systems use Qwen2.5-Coder-7B-Instruct, with a 1.5B sensitivity analysis, and complete 13,638 model requests. On eight related development warnings, increasing the context count from 1 to 50 increases token use 49-fold without improving unsafe clearance. On 160 OWASP cases, model configurations trade clearance against unresolved outcomes; the ten-context arm assesses only 96 cases. On 32 SV-COMP tasks, raw verifier feedback raises mean correct model verdicts from 12.7 to 22.0, but also raises incorrect verdicts from one to seven; a JBMC-plus-JVM validation baseline returns 26 correct verdicts and six unresolved outcomes. On two sets of 120 evidence packages, models reject 70-100% of applicable counterexamples, while construction-specific scope checks classify every package correctly. No target defect is discovered in three Defects4J bugs, one unsupported by the test adapter. These descriptive results support deterministic evidence admission for the tested settings, while exposing limits of verdict aggregation, feedback interpretation, and the available evaluation coverage.",
+      "authors": [
+        "S M Abdulla Al Mamun",
+        "Akif Islam",
+        "Mohd. Ruhul Ameen"
+      ],
+      "categories": [
+        "cs.SE",
+        "cs.AI"
+      ],
+      "citation_count": null,
+      "classic_status": null,
+      "code_url": null,
+      "deep_read_note_url": null,
+      "difficulty": null,
+      "enrichment_sources": [],
+      "existing_note_url": null,
+      "external_ids": {},
+      "field": null,
+      "fields_of_study": [],
+      "id": "arxiv:2610.36947v1",
+      "identifiers": {
+        "arxiv_id": "2610.36947v1"
+      },
+      "influential_citation_count": null,
+      "institutions": [],
+      "latest_note_url": null,
+      "note_count": 0,
+      "open_access_pdf_url": null,
+      "pdf_url": "https://arxiv.org/pdf/2610.36947v1",
+      "project_url": null,
+      "published_at": "2026-10-27",
+      "published_date": "2026-10-27",
+      "reading_advice": "quick_read",
+      "reading_status": "backlog",
+      "recommendation_level": "A",
+      "score": 0.787,
+      "scores": {
+        "classic_value": 0.35,
+        "engineering_transferability": 0.8,
+        "recency": 1.0,
+        "source_quality": 0.78,
+        "total": 0.787,
+        "user_relevance": 0.75
+      },
+      "selected_for_s_level": false,
+      "source": "arxiv",
+      "source_group": "llm_agent",
+      "source_type": "recent_24h",
+      "source_url": "http://arxiv.org/abs/2610.36947v1",
+      "suggested_note_title": null,
+      "suggested_note_type": null,
+      "tags": [
+        "cs.SE",
+        "cs.AI"
+      ],
+      "title": "Beyond QASecClaw: Agent Scaling, Verifier Feedback, and Evidence Reliability in Software Assurance",
+      "title_zh": null,
+      "topics": [
+        "llm_agent"
+      ],
+      "url": "http://arxiv.org/abs/2610.36947v1",
+      "venue": null,
+      "why_recommended": "Ranked by recency signal across configured topics."
+    },
+    {
+      "abstract": "Over the past decade, the significant advancements in artificial intelligence have been closely tied to increasingly sophisticated training frameworks and steadily powerful computing hardware. However, the entire ecosystem remains fragmented. On one hand, models are represented with frameworks dependent formats, while on the other hand, new tailored hardware for accelerating novel operators has continued to emerge. To effectively diminish the transfer costs from training to inference, we propose a lightweight C code generator designed for bare-metal heterogeneous systems that incorporate domain-specific accelerators. Through a comprehensive case study on a RISC-V based radar DSP, we demonstrate that by employing an accelerator with ahead-of-time optimizations like weight tuning and bias fusion, our approach achieves a 2.3 times improvement in inference speed and a 20% reduction in binary size compared to the microTVM flow registered with the same accelerator, thus offering another compelling choice for resource-constrained edge devices. The code is open-sourced in Gitlab.",
+      "authors": [
+        "Chen Liu",
+        "Bernhard Vogginger",
+        "Christian Mayr"
+      ],
+      "categories": [
+        "cs.SE"
+      ],
+      "citation_count": null,
+      "classic_status": null,
+      "code_url": null,
+      "deep_read_note_url": null,
+      "difficulty": null,
+      "enrichment_sources": [],
+      "existing_note_url": null,
+      "external_ids": {},
+      "field": null,
+      "fields_of_study": [],
+      "id": "arxiv:2610.36907v1",
+      "identifiers": {
+        "arxiv_id": "2610.36907v1"
+      },
+      "influential_citation_count": null,
+      "institutions": [],
+      "latest_note_url": null,
+      "note_count": 0,
+      "open_access_pdf_url": null,
+      "pdf_url": "https://arxiv.org/pdf/2610.36907v1",
+      "project_url": null,
+      "published_at": "2026-10-27",
+      "published_date": "2026-10-27",
+      "reading_advice": "quick_read",
+      "reading_status": "backlog",
+      "recommendation_level": "A",
+      "score": 0.787,
+      "scores": {
+        "classic_value": 0.35,
+        "engineering_transferability": 0.8,
+        "recency": 1.0,
+        "source_quality": 0.78,
+        "total": 0.787,
+        "user_relevance": 0.75
+      },
+      "selected_for_s_level": false,
+      "source": "arxiv",
+      "source_group": "llm_agent",
+      "source_type": "recent_24h",
+      "source_url": "http://arxiv.org/abs/2610.36907v1",
+      "suggested_note_title": null,
+      "suggested_note_type": null,
+      "tags": [
+        "cs.SE"
+      ],
+      "title": "A lightweight C Code Generator for Heterogeneous TinyML Systems",
+      "title_zh": null,
+      "topics": [
+        "llm_agent"
+      ],
+      "url": "http://arxiv.org/abs/2610.36907v1",
+      "venue": null,
+      "why_recommended": "Ranked by recency signal across configured topics."
+    },
+    {
+      "abstract": "Third-party community-based bots are central to how social platforms such as Discord work. They moderate content, manage roles, play music, and support AI-assisted conversations across millions of servers. Yet when a bot is installed in a server, it can access messages, user profiles, and server metadata concerning members who did not participate in the installation decision, with no standardized way to communicate the associated security and privacy implications. In this paper, we analyze 23,102 third-party Discord bots and 183,142 user reviews spanning 49 detected languages and five years of feedback (2021-2026). We employ LLM-based knowledge distillation and fine-tune a DeBERTa-based classifier to identify candidate security and privacy (S&P)-relevant reviews. After manually validating the complete classifier-positive set, we retain 8,832 reviews identified as S&P-relevant, representing an observed pipeline yield of 4.82%, and map them to a 31-theme S&P taxonomy extending prior work. Our results show that S&P-related reviews focus heavily on Data Sharing (30.5%) and Data Collection (16.2%). Confession and anonymity bots have pipeline-identified SPRRs above 50%, more than ten times the ecosystem-wide pipeline yield of 4.82%. Star ratings may obscure the frequency and valence of S&P-related discussion, while conventional metadata features, such as permission count and administrator status, show only weak associations with user-reported S&P concerns. We then build BotLens, a proof-of-concept auditing framework that combines review-derived S&P signals with bot metadata to provide on-demand decision support for the community-based bot ecosystem. BotLens exposes six tools through a Model Context Protocol server, supporting bot-level checkups, server-wide comparison, and integration with AI agents.",
+      "authors": [
+        "Kofi Ampomah",
+        "Tu Le"
+      ],
+      "categories": [
+        "cs.CR",
+        "cs.HC"
+      ],
+      "citation_count": null,
+      "classic_status": null,
+      "code_url": "https://github.com/ua-spectral/BotLens",
+      "deep_read_note_url": null,
+      "difficulty": null,
+      "enrichment_sources": [],
+      "existing_note_url": null,
+      "external_ids": {},
+      "field": null,
+      "fields_of_study": [],
+      "id": "arxiv:2610.36626v1",
+      "identifiers": {
+        "arxiv_id": "2610.36626v1"
+      },
+      "influential_citation_count": null,
+      "institutions": [],
+      "latest_note_url": null,
+      "note_count": 0,
+      "open_access_pdf_url": null,
+      "pdf_url": "https://arxiv.org/pdf/2610.36626v1",
+      "project_url": null,
+      "published_at": "2026-10-27",
+      "published_date": "2026-10-27",
+      "reading_advice": "quick_read",
+      "reading_status": "backlog",
+      "recommendation_level": "A",
+      "score": 0.747,
+      "scores": {
+        "classic_value": 0.35,
+        "engineering_transferability": 0.6,
+        "recency": 1.0,
+        "source_quality": 0.78,
+        "total": 0.747,
+        "user_relevance": 0.75
+      },
+      "selected_for_s_level": false,
+      "source": "arxiv",
+      "source_group": "cognition_social",
+      "source_type": "recent_24h",
+      "source_url": "http://arxiv.org/abs/2610.36626v1",
+      "suggested_note_title": null,
+      "suggested_note_type": null,
+      "tags": [
+        "cs.CR",
+        "cs.HC"
+      ],
+      "title": "Measuring Users' Security and Privacy Concerns About Third-Party Community Bots on Discord",
+      "title_zh": null,
+      "topics": [
+        "cognition"
+      ],
+      "url": "http://arxiv.org/abs/2610.36626v1",
+      "venue": null,
+      "why_recommended": "Ranked by recency signal across configured topics."
+    }
+  ],
+  "public_json_version": "0.4",
+  "s_level_candidate_ids": [],
+  "s_level_paper_id": null,
+  "source_mode_summary": {
+    "recent_24h": 6
+  },
+  "summary": "Selected 6 papers: 6 recent candidates and 0 classic fallback items."
+}

@@ -3189,6 +3189,48 @@
     {
       "confidence": 0.5,
       "relation": "related_to",
+      "source": "arxiv:2610.36626v1",
+      "target": "cognition"
+    },
+    {
+      "confidence": 0.5,
+      "relation": "related_to",
+      "source": "arxiv:2610.36626v1",
+      "target": "cognition_social"
+    },
+    {
+      "confidence": 0.5,
+      "relation": "related_to",
+      "source": "arxiv:2610.36804v1",
+      "target": "architecture"
+    },
+    {
+      "confidence": 0.5,
+      "relation": "related_to",
+      "source": "arxiv:2610.36907v1",
+      "target": "llm_agent"
+    },
+    {
+      "confidence": 0.5,
+      "relation": "related_to",
+      "source": "arxiv:2610.36931v1",
+      "target": "gpu_graphics"
+    },
+    {
+      "confidence": 0.5,
+      "relation": "related_to",
+      "source": "arxiv:2610.36945v1",
+      "target": "gpu_graphics"
+    },
+    {
+      "confidence": 0.5,
+      "relation": "related_to",
+      "source": "arxiv:2610.36947v1",
+      "target": "llm_agent"
+    },
+    {
+      "confidence": 0.5,
+      "relation": "related_to",
       "source": "biorxiv:10.1101/2023.01.10.523479",
       "target": "cognition"
     },
@@ -7573,6 +7615,54 @@
       "type": "paper"
     },
     {
+      "id": "arxiv:2610.36626v1",
+      "label": "Measuring Users' Security and Privacy Concerns About Third-Party Community Bots on Discord",
+      "topics": [
+        "cognition"
+      ],
+      "type": "paper"
+    },
+    {
+      "id": "arxiv:2610.36804v1",
+      "label": "DFIP: Decision-Focused Inference Path for System One Models",
+      "topics": [
+        "architecture"
+      ],
+      "type": "paper"
+    },
+    {
+      "id": "arxiv:2610.36907v1",
+      "label": "A lightweight C Code Generator for Heterogeneous TinyML Systems",
+      "topics": [
+        "llm_agent"
+      ],
+      "type": "paper"
+    },
+    {
+      "id": "arxiv:2610.36931v1",
+      "label": "From Walks to Skeletons: A Reusable Transport Architecture for Interactive Monte Carlo PDE Solvers",
+      "topics": [
+        "gpu_graphics"
+      ],
+      "type": "paper"
+    },
+    {
+      "id": "arxiv:2610.36945v1",
+      "label": "Total Deformation-based MPM for Perfectly Elastic Solid Simulation with Strong Deformations",
+      "topics": [
+        "gpu_graphics"
+      ],
+      "type": "paper"
+    },
+    {
+      "id": "arxiv:2610.36947v1",
+      "label": "Beyond QASecClaw: Agent Scaling, Verifier Feedback, and Evidence Reliability in Software Assurance",
+      "topics": [
+        "llm_agent"
+      ],
+      "type": "paper"
+    },
+    {
       "id": "biorxiv:10.1101/2023.01.10.523479",
       "label": "How Occam's razor guides human decision-making",
       "topics": [
@@ -8606,5 +8696,5 @@
     }
   ],
   "public_json_version": "0.4",
-  "updated_at": "2026-10-27T01:24:02+00:00"
+  "updated_at": "2026-10-28T01:10:14+00:00"
 }
