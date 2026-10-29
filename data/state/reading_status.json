@@ -5068,6 +5068,76 @@
       "status": "backlog",
       "updated_at": "2026-10-28T01:10:14+00:00"
     },
+    "arxiv:2610.37418v1": {
+      "history": [
+        {
+          "at": "2026-10-29T01:43:22+00:00",
+          "source": "daily_pipeline",
+          "status": "backlog"
+        }
+      ],
+      "notes_path": null,
+      "paper_id": "arxiv:2610.37418v1",
+      "priority": "medium",
+      "status": "backlog",
+      "updated_at": "2026-10-29T01:43:22+00:00"
+    },
+    "arxiv:2610.37652v1": {
+      "history": [
+        {
+          "at": "2026-10-29T01:43:22+00:00",
+          "source": "daily_pipeline",
+          "status": "backlog"
+        }
+      ],
+      "notes_path": null,
+      "paper_id": "arxiv:2610.37652v1",
+      "priority": "medium",
+      "status": "backlog",
+      "updated_at": "2026-10-29T01:43:22+00:00"
+    },
+    "arxiv:2610.37663v1": {
+      "history": [
+        {
+          "at": "2026-10-29T01:43:22+00:00",
+          "source": "daily_pipeline",
+          "status": "backlog"
+        }
+      ],
+      "notes_path": null,
+      "paper_id": "arxiv:2610.37663v1",
+      "priority": "medium",
+      "status": "backlog",
+      "updated_at": "2026-10-29T01:43:22+00:00"
+    },
+    "arxiv:2610.37666v1": {
+      "history": [
+        {
+          "at": "2026-10-29T01:43:22+00:00",
+          "source": "daily_pipeline",
+          "status": "backlog"
+        }
+      ],
+      "notes_path": null,
+      "paper_id": "arxiv:2610.37666v1",
+      "priority": "medium",
+      "status": "backlog",
+      "updated_at": "2026-10-29T01:43:22+00:00"
+    },
+    "arxiv:2610.37668v1": {
+      "history": [
+        {
+          "at": "2026-10-29T01:43:22+00:00",
+          "source": "daily_pipeline",
+          "status": "backlog"
+        }
+      ],
+      "notes_path": null,
+      "paper_id": "arxiv:2610.37668v1",
+      "priority": "medium",
+      "status": "backlog",
+      "updated_at": "2026-10-29T01:43:22+00:00"
+    },
     "biorxiv:10.1101/2023.01.10.523479": {
       "history": [
         {
@@ -6778,5 +6848,5 @@
     }
   },
   "state_version": "0.3",
-  "updated_at": "2026-10-28T01:10:14+00:00"
+  "updated_at": "2026-10-29T01:43:22+00:00"
 }
