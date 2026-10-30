@@ -25353,6 +25353,445 @@
       "why_recommended": "Ranked by engineering transferability signal across configured topics."
     },
     {
+      "abstract": "Quantum open-source software provides essential infrastructure for quantum science, and artificial intelligence (AI) is reshaping its capabilities and transforming its development. However, verifying quantum software at scale remains difficult, and AI-generated contributions can increase the workload of maintainers. In this Perspective, we examine verification as a central requirement for reliable AI-assisted quantum software development and research. We analyze public repositories, records covering 110 repositories from five annual quantum open-source hackathons that we organize, and responses from more than 1600 participants in a community survey. Our analysis connects limitations in automated verification with the review burden on quantum software maintainers. We propose verification practices and contribution standards that require contributors to support their changes with reproducible evidence for maintainer review. We also examine how quantum open-source software can provide infrastructure for AI-driven research whose results the community can independently verify and build upon. We maintain an open-source companion repository to support reproducibility and help projects adopt and refine these proposals. Together, these contributions help the quantum open-source software community translate advances in AI into reliable quantum research through reproducible verification.",
+      "authors": [
+        "Changhao Li",
+        "Bradley A. Chase",
+        "Veena Vijayakumar",
+        "Mathys Rennela",
+        "Alessandro Cosentino",
+        "Naixu Guo",
+        "Sebastian Hassinger",
+        "Farrokh Labib",
+        "Seun Omonije",
+        "Patrick Rebentrost",
+        "Vincent Russo",
+        "Nathan Shammah",
+        "William J. Zeng",
+        "Ben Castanon"
+      ],
+      "categories": [
+        "quant-ph",
+        "cs.SE",
+        "physics.soc-ph"
+      ],
+      "citation_count": null,
+      "classic_status": null,
+      "code_url": null,
+      "deep_read_note_url": null,
+      "difficulty": null,
+      "enrichment_sources": [],
+      "existing_note_url": null,
+      "external_ids": {},
+      "field": null,
+      "fields_of_study": [],
+      "id": "arxiv:2610.38049v1",
+      "identifiers": {
+        "arxiv_id": "2610.38049v1"
+      },
+      "influential_citation_count": null,
+      "institutions": [],
+      "latest_note_url": null,
+      "note_count": 0,
+      "open_access_pdf_url": null,
+      "pdf_url": "https://arxiv.org/pdf/2610.38049v1",
+      "project_url": null,
+      "published_at": "2026-10-27",
+      "published_date": "2026-10-27",
+      "reading_advice": "save_for_later",
+      "reading_status": "backlog",
+      "recommendation_level": "B",
+      "score": 0.732,
+      "scores": {
+        "classic_value": 0.35,
+        "engineering_transferability": 0.8,
+        "recency": 0.78,
+        "source_quality": 0.78,
+        "total": 0.732,
+        "user_relevance": 0.75
+      },
+      "selected_for_s_level": false,
+      "source": "arxiv",
+      "source_group": "cognition_social",
+      "source_type": "recent_7d",
+      "source_url": "http://arxiv.org/abs/2610.38049v1",
+      "suggested_note_title": null,
+      "suggested_note_type": null,
+      "tags": [
+        "quant-ph",
+        "cs.SE",
+        "physics.soc-ph"
+      ],
+      "title": "Perspective on AI and quantum open-source software",
+      "title_zh": null,
+      "topics": [
+        "llm_agent",
+        "sociology"
+      ],
+      "url": "http://arxiv.org/abs/2610.38049v1",
+      "venue": null,
+      "why_recommended": "Ranked by engineering transferability signal across configured topics."
+    },
+    {
+      "abstract": "Dynamic web interactions continuously evolve as new edges arrive, offering large language models (LLMs) great potential for reasoning over edge-level temporal semantics. However, continuously arriving edges are often repetitive, obscuring the key structures that truly reflect temporal changes and limiting the efficiency of LLMs. A key insight is that beneath the dense stream of edge arrivals lies a sparse evolution of temporal intent, enabling LLMs to be responsively triggered only when such intent shifts, while otherwise inheriting the previous state. To this end, we propose a hypergraph-based framework named HyperIntent, which enhances dynamic graph reasoning by parsing differentiated intents, quantifying their temporal discrepancies, and performing shift-triggered semantic updating. Experimental results on destination node retrieval and future link prediction demonstrate that HyperIntent consistently achieves the best overall performance, with average relative Hits@1 gains of 34.0% and 25.4% over vanilla TGAT and DyGFormer, respectively. Meanwhile, HyperIntent reduces LLM token consumption by 54.4%-95.9% across six datasets while achieving leading predictive performance. In-depth studies further confirm the necessity of shift triggering for identifying structural and semantic temporal changes. The code will be made publicly available upon completion of the review process.",
+      "authors": [
+        "Yilin Yao",
+        "Bin Lu",
+        "Xinhui Li",
+        "Meng Jin",
+        "Xinbing Wang"
+      ],
+      "categories": [
+        "cs.GR"
+      ],
+      "citation_count": null,
+      "classic_status": null,
+      "code_url": null,
+      "deep_read_note_url": null,
+      "difficulty": null,
+      "enrichment_sources": [],
+      "existing_note_url": null,
+      "external_ids": {},
+      "field": null,
+      "fields_of_study": [],
+      "id": "arxiv:2610.38182v1",
+      "identifiers": {
+        "arxiv_id": "2610.38182v1"
+      },
+      "influential_citation_count": null,
+      "institutions": [],
+      "latest_note_url": null,
+      "note_count": 0,
+      "open_access_pdf_url": null,
+      "pdf_url": "https://arxiv.org/pdf/2610.38182v1",
+      "project_url": null,
+      "published_at": "2026-10-28",
+      "published_date": "2026-10-28",
+      "reading_advice": "save_for_later",
+      "reading_status": "backlog",
+      "recommendation_level": "B",
+      "score": 0.732,
+      "scores": {
+        "classic_value": 0.35,
+        "engineering_transferability": 0.8,
+        "recency": 0.78,
+        "source_quality": 0.78,
+        "total": 0.732,
+        "user_relevance": 0.75
+      },
+      "selected_for_s_level": false,
+      "source": "arxiv",
+      "source_group": "gpu_graphics",
+      "source_type": "recent_7d",
+      "source_url": "http://arxiv.org/abs/2610.38182v1",
+      "suggested_note_title": null,
+      "suggested_note_type": null,
+      "tags": [
+        "cs.GR"
+      ],
+      "title": "HyperIntent: Tracking Intent Shifts for Efficient Reasoning on Dynamic Textual Graphs",
+      "title_zh": null,
+      "topics": [
+        "gpu_graphics"
+      ],
+      "url": "http://arxiv.org/abs/2610.38182v1",
+      "venue": null,
+      "why_recommended": "Ranked by engineering transferability signal across configured topics."
+    },
+    {
+      "abstract": "Coding agents are typically provided end-to-end behavioral specifications that the code they produce should satisfy, such as tests and input--output examples. How many such specifications must a developer provide, and which ones, for the agent to produce the developer's intended program? We argue that this cannot be determined a priori, for it depends on the structure of the implementation, which is left to the agent to decide. An agent first commits to a structure---a decomposition into data types, modules, and functions---which fixes a class of candidate programs; behavioral specifications then select a program within that class. A set of tests that suffices for one structure may leave another badly underdetermined, requiring different edge cases or exponentially more examples. Since the structure is chosen by the agent, developers cannot ensure their specification is complete without reverse-engineering it from thousands of lines of generated code. To resolve this, we introduce Skeleton Coding, in which developers jointly specify the structure---in high-level, code-like format---alongside behavioral specifications. Theoretically, we model AI-assisted coding as a control problem, and show that skeletons can reduce exponentially the number of tests developers must supply to steer an agent toward an acceptable program. Empirically, across four models and three benchmarks, the best-performing skeleton specifications reduce mean test error by 48.4% relative to the best end-to-end behavioral specifications. Even when the agent can query a complete reference implementation, adding a skeleton reduces mean test error relatively by up to 27.0%. Skeletons also narrow the average gap between small and large models by about 52.4% while lowering implementation cost by 15--26x, and reduce code erosion by 24.7% on average.",
+      "authors": [
+        "Aditya Golatkar",
+        "Alessandro Achille",
+        "Renos Zabounidis",
+        "Vlad Sobal",
+        "Yangruibo Ding",
+        "Baishakhi Ray",
+        "Jonathan Buck",
+        "Guy Van den Broeck",
+        "Maryam Fazel",
+        "Pietro Perona",
+        "Wei Xia",
+        "Stefano Soatto"
+      ],
+      "categories": [
+        "cs.SE",
+        "cs.AI",
+        "cs.LG"
+      ],
+      "citation_count": null,
+      "classic_status": null,
+      "code_url": null,
+      "deep_read_note_url": null,
+      "difficulty": null,
+      "enrichment_sources": [],
+      "existing_note_url": null,
+      "external_ids": {},
+      "field": null,
+      "fields_of_study": [],
+      "id": "arxiv:2610.38214v1",
+      "identifiers": {
+        "arxiv_id": "2610.38214v1"
+      },
+      "influential_citation_count": null,
+      "institutions": [],
+      "latest_note_url": null,
+      "note_count": 0,
+      "open_access_pdf_url": null,
+      "pdf_url": "https://arxiv.org/pdf/2610.38214v1",
+      "project_url": null,
+      "published_at": "2026-10-28",
+      "published_date": "2026-10-28",
+      "reading_advice": "save_for_later",
+      "reading_status": "backlog",
+      "recommendation_level": "B",
+      "score": 0.732,
+      "scores": {
+        "classic_value": 0.35,
+        "engineering_transferability": 0.8,
+        "recency": 0.78,
+        "source_quality": 0.78,
+        "total": 0.732,
+        "user_relevance": 0.75
+      },
+      "selected_for_s_level": false,
+      "source": "arxiv",
+      "source_group": "llm_agent",
+      "source_type": "recent_7d",
+      "source_url": "http://arxiv.org/abs/2610.38214v1",
+      "suggested_note_title": null,
+      "suggested_note_type": null,
+      "tags": [
+        "cs.SE",
+        "cs.AI",
+        "cs.LG"
+      ],
+      "title": "Skeleton Coding: Program Structure as a Specification for Agents",
+      "title_zh": null,
+      "topics": [
+        "llm_agent"
+      ],
+      "url": "http://arxiv.org/abs/2610.38214v1",
+      "venue": null,
+      "why_recommended": "Ranked by engineering transferability signal across configured topics."
+    },
+    {
+      "abstract": "Language models increasingly create 3D content through code, with practical workflows often relying on editing existing programs rather than regenerating them, for speed and precise control. Such edits require understanding what a program builds and foreseeing how a change reshapes it, yet prior benchmarks mostly evaluate generation or simple edits against a reference. In this paper, we introduce 3DCodeEdit, a benchmark of 2,592 instruction-guided editing tasks over 108 Blender programs that construct objects entirely in code. Its edits range from parameter to structural changes, style redesign, and scene composition, and are judged from renders against human-reviewed checklists. Across 17 models, the average success rate is only 37%, and even the strongest models complete fewer than 60% of structural and style edits. As models become more capable, their failures shift to geometric foresight, where the code runs but builds the wrong shape. We therefore study whether multi-turn feedback can compensate for this missing foresight. Feedback from a separate reviewer model that describes how the renders differ from the request helps most, more than maximum reasoning effort or an agent harness, and can let a 27B model surpass the single-shot rate of a 2.8T-parameter model.",
+      "authors": [
+        "Binjie Wang",
+        "Xinran Zhao",
+        "Shoubin Yu",
+        "Xiang Li",
+        "Silong Yong",
+        "Chenyang Yang",
+        "Tianyu Chen",
+        "Ruofei Du",
+        "He He",
+        "Chen Zhao",
+        "Tongshuang Wu"
+      ],
+      "categories": [
+        "cs.CL",
+        "cs.CV",
+        "cs.GR"
+      ],
+      "citation_count": null,
+      "classic_status": null,
+      "code_url": null,
+      "deep_read_note_url": null,
+      "difficulty": null,
+      "enrichment_sources": [],
+      "existing_note_url": null,
+      "external_ids": {},
+      "field": null,
+      "fields_of_study": [],
+      "id": "arxiv:2610.38231v1",
+      "identifiers": {
+        "arxiv_id": "2610.38231v1"
+      },
+      "influential_citation_count": null,
+      "institutions": [],
+      "latest_note_url": null,
+      "note_count": 0,
+      "open_access_pdf_url": null,
+      "pdf_url": "https://arxiv.org/pdf/2610.38231v1",
+      "project_url": null,
+      "published_at": "2026-10-28",
+      "published_date": "2026-10-28",
+      "reading_advice": "save_for_later",
+      "reading_status": "backlog",
+      "recommendation_level": "B",
+      "score": 0.732,
+      "scores": {
+        "classic_value": 0.35,
+        "engineering_transferability": 0.8,
+        "recency": 0.78,
+        "source_quality": 0.78,
+        "total": 0.732,
+        "user_relevance": 0.75
+      },
+      "selected_for_s_level": false,
+      "source": "arxiv",
+      "source_group": "gpu_graphics",
+      "source_type": "recent_7d",
+      "source_url": "http://arxiv.org/abs/2610.38231v1",
+      "suggested_note_title": null,
+      "suggested_note_type": null,
+      "tags": [
+        "cs.CL",
+        "cs.CV",
+        "cs.GR"
+      ],
+      "title": "3DCodeEdit: Benchmarking Instruction-Guided 3D Program Editing",
+      "title_zh": null,
+      "topics": [
+        "llm_agent",
+        "gpu_graphics"
+      ],
+      "url": "http://arxiv.org/abs/2610.38231v1",
+      "venue": null,
+      "why_recommended": "Ranked by engineering transferability signal across configured topics."
+    },
+    {
+      "abstract": "Existing code reveals past implementation decisions but rarely explains the reasoning behind them. When coding agents implement new features or modify existing functionality, past decisions may conflict with new task instructions. This raises a fundamental question for agentic software evolution: when multiple implementations satisfy the same functional requirements, how do coding agents decide whether to follow existing code or new task instructions? We investigate this question through bidirectional, controlled experiments in purpose-built repositories, followed by validation in real-world open-source repositories. Our approach isolates three competing sources of guidance: (1) agents' default preferences, (2) repository precedents, and (3) explicit task instructions. We conduct 5,625 trials across four coding agents and six implementation pairs, with validation in four open-source repositories spanning three programming languages. We find that agents share the same default implementation choices, yet overwhelmingly follow repository precedent when it conflicts with those defaults (359/360 trials). Crucially, not all precedents carry equal influence: three supporting local files yield 96% adoption, compared with only 4% for sibling-resource files, and changing file placement alone can shift adoption from 0% to 100% at a fixed example count. When new task intent conflicts with existing code, written priority rules achieve substantially higher success than code examples alone (59/60 versus 38/60 joint successes for two agents on two implementation pairs). The effectiveness of explicit rules also extends to open-source repositories, where a harness-loaded rule raises joint success from 0/120 to 117/120. These findings motivate design-decision traceability that preserves not only implementation choices but also the rationale and priorities that should guide future changes.",
+      "authors": [
+        "Haichao Zhu",
+        "Geyang Xu",
+        "Zhaorui Yang",
+        "Jiyuan Wang",
+        "Qian Zhang"
+      ],
+      "categories": [
+        "cs.SE",
+        "cs.AI"
+      ],
+      "citation_count": null,
+      "classic_status": null,
+      "code_url": null,
+      "deep_read_note_url": null,
+      "difficulty": null,
+      "enrichment_sources": [],
+      "existing_note_url": null,
+      "external_ids": {},
+      "field": null,
+      "fields_of_study": [],
+      "id": "arxiv:2610.38244v1",
+      "identifiers": {
+        "arxiv_id": "2610.38244v1"
+      },
+      "influential_citation_count": null,
+      "institutions": [],
+      "latest_note_url": null,
+      "note_count": 0,
+      "open_access_pdf_url": null,
+      "pdf_url": "https://arxiv.org/pdf/2610.38244v1",
+      "project_url": null,
+      "published_at": "2026-10-28",
+      "published_date": "2026-10-28",
+      "reading_advice": "save_for_later",
+      "reading_status": "backlog",
+      "recommendation_level": "B",
+      "score": 0.732,
+      "scores": {
+        "classic_value": 0.35,
+        "engineering_transferability": 0.8,
+        "recency": 0.78,
+        "source_quality": 0.78,
+        "total": 0.732,
+        "user_relevance": 0.75
+      },
+      "selected_for_s_level": false,
+      "source": "arxiv",
+      "source_group": "llm_agent",
+      "source_type": "recent_7d",
+      "source_url": "http://arxiv.org/abs/2610.38244v1",
+      "suggested_note_title": null,
+      "suggested_note_type": null,
+      "tags": [
+        "cs.SE",
+        "cs.AI"
+      ],
+      "title": "Precedent or Intent? What Coding Agents Follow When Evolving Existing Code",
+      "title_zh": null,
+      "topics": [
+        "llm_agent"
+      ],
+      "url": "http://arxiv.org/abs/2610.38244v1",
+      "venue": null,
+      "why_recommended": "Ranked by engineering transferability signal across configured topics."
+    },
+    {
+      "abstract": "Fully Homomorphic Encryption (FHE) enables computation on encrypted data and is promising for privacy-preserving computing. However, FHE deployment remains constrained due to massive computational, memory, and data-movement overheads. Existing acceleration strategies often overlook the storage I/O bottleneck caused by the enormous size of FHE data in large-scale applications, as most prior works focus on small benchmarks that fit in main memory. Our studies show that state-of-the-art FHE systems spend 71\\% to 85\\% of their execution time moving data between storage and compute units rather than performing useful computation. To address the I/O bottleneck, we present Rosemary, a heterogeneous FHE acceleration system that incorporates a novel in-storage processing (ISP) architecture with compiler-level and algorithmic optimizations. Our key innovations include 1) an adaptable hardware-aware FHE engine inside a NAND flash-based solid-state drive (SSD) for efficient and cost-effective in-storage FHE processing, 2) a Throughput-Data-Aware Program Allocator (TDAP) that partitions FHE workloads into heterogeneous programs, and 3) a Compiler-Level Ciphertext-Aware Optimizer (CLCAO) that exploits ISP-friendly FHE kernels for low-cost ISP execution. Across a diverse set of FHE workloads, including encrypted deep learning inference and cloud database queries, Rosemary achieves geometric-mean speedups of $185.7\\times$ over state-of-the-art CPU/GPU implementations and $3.7\\times$ over prior FHE accelerators, while improving energy efficiency by up to $3.9\\times$ and Energy-Delay-Area-Product (EDAP) by up to $16.5\\times$.",
+      "authors": [
+        "Xuan Wang",
+        "Tianqi Zhang",
+        "Gabrielle De Micheli",
+        "Yujin Nam",
+        "Keming Fan",
+        "Augusto Vega",
+        "Minxuan Zhou",
+        "Tajana Rosing"
+      ],
+      "categories": [
+        "cs.CR",
+        "cs.AR"
+      ],
+      "citation_count": null,
+      "classic_status": null,
+      "code_url": null,
+      "deep_read_note_url": null,
+      "difficulty": null,
+      "enrichment_sources": [],
+      "existing_note_url": null,
+      "external_ids": {},
+      "field": null,
+      "fields_of_study": [],
+      "id": "arxiv:2610.38262v1",
+      "identifiers": {
+        "arxiv_id": "2610.38262v1"
+      },
+      "influential_citation_count": null,
+      "institutions": [],
+      "latest_note_url": null,
+      "note_count": 0,
+      "open_access_pdf_url": null,
+      "pdf_url": "https://arxiv.org/pdf/2610.38262v1",
+      "project_url": null,
+      "published_at": "2026-10-28",
+      "published_date": "2026-10-28",
+      "reading_advice": "save_for_later",
+      "reading_status": "backlog",
+      "recommendation_level": "B",
+      "score": 0.732,
+      "scores": {
+        "classic_value": 0.35,
+        "engineering_transferability": 0.8,
+        "recency": 0.78,
+        "source_quality": 0.78,
+        "total": 0.732,
+        "user_relevance": 0.75
+      },
+      "selected_for_s_level": false,
+      "source": "arxiv",
+      "source_group": "architecture",
+      "source_type": "recent_7d",
+      "source_url": "http://arxiv.org/abs/2610.38262v1",
+      "suggested_note_title": null,
+      "suggested_note_type": null,
+      "tags": [
+        "cs.CR",
+        "cs.AR"
+      ],
+      "title": "Rosemary: Efficient and Adaptable In-Storage Acceleration for Fully Homomorphic Encryption",
+      "title_zh": null,
+      "topics": [
+        "architecture"
+      ],
+      "url": "http://arxiv.org/abs/2610.38262v1",
+      "venue": null,
+      "why_recommended": "Ranked by engineering transferability signal across configured topics."
+    },
+    {
       "abstract": "Occam's razor is the principle that, all else being equal, simpler explanations should be preferred over more complex ones. This principle is thought to guide human decision-making, but the nature of this guidance is not known. Here we used preregistered behavioral experiments to show that people tend to prefer the simpler of two alternative explanations for uncertain data. These preferences align quantitatively with predictions of formal theories of model selection that penalize excessive flexibility. These penalties emerge when considering not just the best explanation but the integral over all possible, relevant explanations. We further show that these simplicity preferences persist in humans, but not in certain artificial neural networks, even when they are maladaptive. Our results imply that principled notions of statistical model selection, including integrating over possible, latent causes to avoid overfitting to noisy data, may play a central role in human decision-making.",
       "authors": [
         "Piasini, E.",
@@ -34520,5 +34959,5 @@
     }
   ],
   "public_json_version": "0.4",
-  "updated_at": "2026-10-29T01:43:22+00:00"
+  "updated_at": "2026-10-30T01:52:26+00:00"
 }

@@ -3279,6 +3279,60 @@
     {
       "confidence": 0.5,
       "relation": "related_to",
+      "source": "arxiv:2610.38049v1",
+      "target": "llm_agent"
+    },
+    {
+      "confidence": 0.5,
+      "relation": "related_to",
+      "source": "arxiv:2610.38049v1",
+      "target": "sociology"
+    },
+    {
+      "confidence": 0.5,
+      "relation": "related_to",
+      "source": "arxiv:2610.38049v1",
+      "target": "cognition_social"
+    },
+    {
+      "confidence": 0.5,
+      "relation": "related_to",
+      "source": "arxiv:2610.38182v1",
+      "target": "gpu_graphics"
+    },
+    {
+      "confidence": 0.5,
+      "relation": "related_to",
+      "source": "arxiv:2610.38214v1",
+      "target": "llm_agent"
+    },
+    {
+      "confidence": 0.5,
+      "relation": "related_to",
+      "source": "arxiv:2610.38231v1",
+      "target": "llm_agent"
+    },
+    {
+      "confidence": 0.5,
+      "relation": "related_to",
+      "source": "arxiv:2610.38231v1",
+      "target": "gpu_graphics"
+    },
+    {
+      "confidence": 0.5,
+      "relation": "related_to",
+      "source": "arxiv:2610.38244v1",
+      "target": "llm_agent"
+    },
+    {
+      "confidence": 0.5,
+      "relation": "related_to",
+      "source": "arxiv:2610.38262v1",
+      "target": "architecture"
+    },
+    {
+      "confidence": 0.5,
+      "relation": "related_to",
       "source": "biorxiv:10.1101/2023.01.10.523479",
       "target": "cognition"
     },
@@ -7753,6 +7807,56 @@
       "type": "paper"
     },
     {
+      "id": "arxiv:2610.38049v1",
+      "label": "Perspective on AI and quantum open-source software",
+      "topics": [
+        "llm_agent",
+        "sociology"
+      ],
+      "type": "paper"
+    },
+    {
+      "id": "arxiv:2610.38182v1",
+      "label": "HyperIntent: Tracking Intent Shifts for Efficient Reasoning on Dynamic Textual Graphs",
+      "topics": [
+        "gpu_graphics"
+      ],
+      "type": "paper"
+    },
+    {
+      "id": "arxiv:2610.38214v1",
+      "label": "Skeleton Coding: Program Structure as a Specification for Agents",
+      "topics": [
+        "llm_agent"
+      ],
+      "type": "paper"
+    },
+    {
+      "id": "arxiv:2610.38231v1",
+      "label": "3DCodeEdit: Benchmarking Instruction-Guided 3D Program Editing",
+      "topics": [
+        "llm_agent",
+        "gpu_graphics"
+      ],
+      "type": "paper"
+    },
+    {
+      "id": "arxiv:2610.38244v1",
+      "label": "Precedent or Intent? What Coding Agents Follow When Evolving Existing Code",
+      "topics": [
+        "llm_agent"
+      ],
+      "type": "paper"
+    },
+    {
+      "id": "arxiv:2610.38262v1",
+      "label": "Rosemary: Efficient and Adaptable In-Storage Acceleration for Fully Homomorphic Encryption",
+      "topics": [
+        "architecture"
+      ],
+      "type": "paper"
+    },
+    {
       "id": "biorxiv:10.1101/2023.01.10.523479",
       "label": "How Occam's razor guides human decision-making",
       "topics": [
@@ -8786,5 +8890,5 @@
     }
   ],
   "public_json_version": "0.4",
-  "updated_at": "2026-10-29T01:43:22+00:00"
+  "updated_at": "2026-10-30T01:52:26+00:00"
 }

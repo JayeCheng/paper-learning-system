@@ -366,6 +366,12 @@ arxiv:2610.37652v1,backlog,medium,,2026-10-29T01:43:22+00:00,Pushing Dexterity a
 arxiv:2610.37663v1,backlog,medium,,2026-10-29T01:43:22+00:00,"An EVM-Cosmos Bridge for Atomic, Semantic-Preserving Transfer of Environmental Tokens",llm_agent,B
 arxiv:2610.37666v1,backlog,medium,,2026-10-29T01:43:22+00:00,ThinkWorld: World Imagination Reinforces Chain-of-Dynamics Reasoning,gpu_graphics,B
 arxiv:2610.37668v1,backlog,medium,,2026-10-29T01:43:22+00:00,Honeycomb-Surfels: Compact Hexagonal Primitives for Efficient Scene Rendering and Reconstruction,gpu_graphics,A
+arxiv:2610.38049v1,backlog,medium,,2026-10-30T01:52:26+00:00,Perspective on AI and quantum open-source software,cognition_social,B
+arxiv:2610.38182v1,backlog,medium,,2026-10-30T01:52:26+00:00,HyperIntent: Tracking Intent Shifts for Efficient Reasoning on Dynamic Textual Graphs,gpu_graphics,B
+arxiv:2610.38214v1,backlog,medium,,2026-10-30T01:52:26+00:00,Skeleton Coding: Program Structure as a Specification for Agents,llm_agent,B
+arxiv:2610.38231v1,backlog,medium,,2026-10-30T01:52:26+00:00,3DCodeEdit: Benchmarking Instruction-Guided 3D Program Editing,gpu_graphics,B
+arxiv:2610.38244v1,backlog,medium,,2026-10-30T01:52:26+00:00,Precedent or Intent? What Coding Agents Follow When Evolving Existing Code,llm_agent,B
+arxiv:2610.38262v1,backlog,medium,,2026-10-30T01:52:26+00:00,Rosemary: Efficient and Adaptable In-Storage Acceleration for Fully Homomorphic Encryption,architecture,B
 biorxiv:10.1101/2023.01.10.523479,backlog,medium,,2026-09-28T00:33:07+00:00,How Occam's razor guides human decision-making,cognition_social,B
 biorxiv:10.1101/2024.03.07.583890,backlog,medium,,2026-10-19T00:08:58+00:00,Computation or Weight Adaptation? Rethinking the Role of Plasticity in Learning,cognition_social,B
 biorxiv:10.1101/2024.09.30.615819,backlog,medium,,2026-09-22T00:43:20+00:00,Hierarchy of prediction errors shapes the learning of context-dependent sensory representations,cognition_social,B
