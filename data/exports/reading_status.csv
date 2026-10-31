@@ -372,6 +372,12 @@ arxiv:2610.38214v1,backlog,medium,,2026-10-30T01:52:26+00:00,Skeleton Coding: Pr
 arxiv:2610.38231v1,backlog,medium,,2026-10-30T01:52:26+00:00,3DCodeEdit: Benchmarking Instruction-Guided 3D Program Editing,gpu_graphics,B
 arxiv:2610.38244v1,backlog,medium,,2026-10-30T01:52:26+00:00,Precedent or Intent? What Coding Agents Follow When Evolving Existing Code,llm_agent,B
 arxiv:2610.38262v1,backlog,medium,,2026-10-30T01:52:26+00:00,Rosemary: Efficient and Adaptable In-Storage Acceleration for Fully Homomorphic Encryption,architecture,B
+arxiv:2610.39570v1,backlog,medium,,2026-10-31T01:30:18+00:00,LLM Agent-Based Design of RISC-V CPUs with FPGA-in-the-Loop Evaluation,architecture,A
+arxiv:2610.40511v1,backlog,medium,,2026-10-31T01:30:18+00:00,A Low-Rank Space Captures Linear Alignment Between LLM and Human Neural Activity During Naturalistic Language Listening,cognition_social,B
+arxiv:2610.40589v1,backlog,medium,,2026-10-31T01:30:18+00:00,Collaborative AI agents for autonomous experimental research with solid-state quantum spins,llm_agent,B
+arxiv:2610.40599v1,backlog,medium,,2026-10-31T01:30:18+00:00,HairDeck: Animation-Ready Stylized Hair Cards from a Single Image,gpu_graphics,A
+arxiv:2610.40613v1,backlog,medium,,2026-10-31T01:30:18+00:00,TextSeal2: Distortion-Free LLM Watermarking with Copula Mixing and Memoryless Races,llm_agent,B
+arxiv:2610.40653v1,backlog,medium,,2026-10-31T01:30:18+00:00,Micro-Edits: Computational Support for Fine-Scale Edits in Film,gpu_graphics,B
 biorxiv:10.1101/2023.01.10.523479,backlog,medium,,2026-09-28T00:33:07+00:00,How Occam's razor guides human decision-making,cognition_social,B
 biorxiv:10.1101/2024.03.07.583890,backlog,medium,,2026-10-19T00:08:58+00:00,Computation or Weight Adaptation? Rethinking the Role of Plasticity in Learning,cognition_social,B
 biorxiv:10.1101/2024.09.30.615819,backlog,medium,,2026-09-22T00:43:20+00:00,Hierarchy of prediction errors shapes the learning of context-dependent sensory representations,cognition_social,B
