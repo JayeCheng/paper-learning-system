@@ -3393,6 +3393,66 @@
     {
       "confidence": 0.5,
       "relation": "related_to",
+      "source": "arxiv:2611.00911v1",
+      "target": "llm_agent"
+    },
+    {
+      "confidence": 0.5,
+      "relation": "related_to",
+      "source": "arxiv:2611.00911v1",
+      "target": "cognition"
+    },
+    {
+      "confidence": 0.5,
+      "relation": "related_to",
+      "source": "arxiv:2611.00911v1",
+      "target": "cognition_social"
+    },
+    {
+      "confidence": 0.5,
+      "relation": "related_to",
+      "source": "arxiv:2611.01165v1",
+      "target": "gpu_graphics"
+    },
+    {
+      "confidence": 0.5,
+      "relation": "related_to",
+      "source": "arxiv:2611.01229v1",
+      "target": "cognition"
+    },
+    {
+      "confidence": 0.5,
+      "relation": "related_to",
+      "source": "arxiv:2611.01229v1",
+      "target": "gpu_graphics"
+    },
+    {
+      "confidence": 0.5,
+      "relation": "related_to",
+      "source": "arxiv:2611.01255v1",
+      "target": "llm_agent"
+    },
+    {
+      "confidence": 0.5,
+      "relation": "related_to",
+      "source": "arxiv:2611.01255v1",
+      "target": "architecture"
+    },
+    {
+      "confidence": 0.5,
+      "relation": "related_to",
+      "source": "arxiv:2611.01265v1",
+      "target": "llm_agent"
+    },
+    {
+      "confidence": 0.5,
+      "relation": "related_to",
+      "source": "arxiv:2611.01292v1",
+      "target": "llm_agent"
+    },
+    {
+      "confidence": 0.5,
+      "relation": "related_to",
       "source": "biorxiv:10.1101/2023.01.10.523479",
       "target": "cognition"
     },
@@ -7968,6 +8028,57 @@
       "type": "paper"
     },
     {
+      "id": "arxiv:2611.00911v1",
+      "label": "S1CogBench: What System One Decision Models Can and Cannot Do on Cognitive Experiments",
+      "topics": [
+        "llm_agent",
+        "cognition"
+      ],
+      "type": "paper"
+    },
+    {
+      "id": "arxiv:2611.01165v1",
+      "label": "Composable CAD: Sketch-to-CAD Program Synthesis in Parts",
+      "topics": [
+        "gpu_graphics"
+      ],
+      "type": "paper"
+    },
+    {
+      "id": "arxiv:2611.01229v1",
+      "label": "Precision Through Play: Enhancing Fundamental Laparoscopic Skill Acquisition Via Gamified XR and Pseudo-Haptics",
+      "topics": [
+        "cognition",
+        "gpu_graphics"
+      ],
+      "type": "paper"
+    },
+    {
+      "id": "arxiv:2611.01255v1",
+      "label": "AdapBench: Adaptive Early-Stopping and Prioritization for Efficient Microbenchmarking in Cloud-based CI/CD",
+      "topics": [
+        "llm_agent",
+        "architecture"
+      ],
+      "type": "paper"
+    },
+    {
+      "id": "arxiv:2611.01265v1",
+      "label": "Toward Bounding Coding-Agent Autonomy in Software Maintenance: A Pilot Study of Boundary Contracts",
+      "topics": [
+        "llm_agent"
+      ],
+      "type": "paper"
+    },
+    {
+      "id": "arxiv:2611.01292v1",
+      "label": "Causality-Based Fault Localization",
+      "topics": [
+        "llm_agent"
+      ],
+      "type": "paper"
+    },
+    {
       "id": "biorxiv:10.1101/2023.01.10.523479",
       "label": "How Occam's razor guides human decision-making",
       "topics": [
@@ -9001,5 +9112,5 @@
     }
   ],
   "public_json_version": "0.4",
-  "updated_at": "2026-11-02T01:27:12+00:00"
+  "updated_at": "2026-11-03T03:25:43+00:00"
 }

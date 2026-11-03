@@ -378,6 +378,12 @@ arxiv:2610.40589v1,backlog,medium,,2026-10-31T01:30:18+00:00,Collaborative AI ag
 arxiv:2610.40599v1,backlog,medium,,2026-10-31T01:30:18+00:00,HairDeck: Animation-Ready Stylized Hair Cards from a Single Image,gpu_graphics,A
 arxiv:2610.40613v1,backlog,medium,,2026-10-31T01:30:18+00:00,TextSeal2: Distortion-Free LLM Watermarking with Copula Mixing and Memoryless Races,llm_agent,B
 arxiv:2610.40653v1,backlog,medium,,2026-10-31T01:30:18+00:00,Micro-Edits: Computational Support for Fine-Scale Edits in Film,gpu_graphics,B
+arxiv:2611.00911v1,backlog,medium,,2026-11-03T03:25:43+00:00,S1CogBench: What System One Decision Models Can and Cannot Do on Cognitive Experiments,cognition_social,B
+arxiv:2611.01165v1,backlog,medium,,2026-11-03T03:25:43+00:00,Composable CAD: Sketch-to-CAD Program Synthesis in Parts,gpu_graphics,B
+arxiv:2611.01229v1,backlog,medium,,2026-11-03T03:25:43+00:00,Precision Through Play: Enhancing Fundamental Laparoscopic Skill Acquisition Via Gamified XR and Pseudo-Haptics,gpu_graphics,B
+arxiv:2611.01255v1,backlog,medium,,2026-11-03T03:25:43+00:00,AdapBench: Adaptive Early-Stopping and Prioritization for Efficient Microbenchmarking in Cloud-based CI/CD,architecture,A
+arxiv:2611.01265v1,backlog,medium,,2026-11-03T03:25:43+00:00,Toward Bounding Coding-Agent Autonomy in Software Maintenance: A Pilot Study of Boundary Contracts,llm_agent,B
+arxiv:2611.01292v1,backlog,medium,,2026-11-03T03:25:43+00:00,Causality-Based Fault Localization,llm_agent,B
 biorxiv:10.1101/2023.01.10.523479,backlog,medium,,2026-09-28T00:33:07+00:00,How Occam's razor guides human decision-making,cognition_social,B
 biorxiv:10.1101/2024.03.07.583890,backlog,medium,,2026-10-19T00:08:58+00:00,Computation or Weight Adaptation? Rethinking the Role of Plasticity in Learning,cognition_social,B
 biorxiv:10.1101/2024.09.30.615819,backlog,medium,,2026-09-22T00:43:20+00:00,Hierarchy of prediction errors shapes the learning of context-dependent sensory representations,cognition_social,B

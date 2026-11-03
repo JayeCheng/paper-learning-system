@@ -1,0 +1,455 @@
+{
+  "date": "2026-11-03",
+  "frontend_entry": "data/public/latest.json",
+  "generated_at": "2026-11-03T03:25:43+00:00",
+  "generated_paths": {
+    "exports_csv": "data/exports/papers.csv",
+    "exports_daily_csv": "data/exports/daily_papers.csv",
+    "exports_jsonl": "data/exports/papers.jsonl",
+    "exports_notes_index": "data/exports/notes_index.csv",
+    "exports_reading_status": "data/exports/reading_status.csv",
+    "json": "daily/2026/11/2026-11-03.json",
+    "markdown": "daily/2026/11/2026-11-03.md",
+    "public_curriculum_progress": "data/public/curriculum_progress.json",
+    "public_daily_index": "data/public/daily_index.json",
+    "public_knowledge_graph": "data/public/knowledge_graph.json",
+    "public_latest": "data/public/latest.json",
+    "public_notes_index": "data/public/notes_index.json",
+    "public_papers_index": "data/public/papers_index.json",
+    "public_reading_status": "data/public/reading_status.json",
+    "state_notes_index": "data/state/notes_index.json",
+    "state_papers": "data/state/papers.jsonl",
+    "state_reading_status": "data/state/reading_status.json",
+    "state_run_history": "data/state/run_history.json"
+  },
+  "knowledge_graph_delta": [
+    "paper:arxiv:2611.01229v1",
+    "paper:arxiv:2611.01165v1",
+    "paper:arxiv:2611.01255v1",
+    "paper:arxiv:2611.01292v1",
+    "paper:arxiv:2611.01265v1",
+    "paper:arxiv:2611.00911v1"
+  ],
+  "learning_route_position": "v0.4 GitHub-owned note bridge",
+  "next_actions": [
+    "Review S-level candidate",
+    "Update reading status after skim",
+    "Promote durable concepts into the knowledge graph"
+  ],
+  "papers": [
+    {
+      "abstract": "Extended Reality (XR) technologies have shown potential to improve laparoscopic skills acquisition. Among fundamental skills in laparoscopic surgery is accurate instrument handling. Appropriate instrument alignment and a perpendicular path ensure movement efficiency and improved performance. This work introduces an interactive XR platform designed to support an immersive, engaging, and accessible environment that facilitates continuous practice. This platform incorporates a gamification layer enriched by pseudo-haptics that generate a motivational feedback loop, allowing trainees to continuously practice instrument manipulation and angle control. The platform monitors instrument orientation, computes angular deviation from an ideal reference vector, and assigns scores based on user performance. A point-based scoring component reinforces correct technique and penalizes deviations in tool alignment beyond predefined thresholds. Furthermore, a pseudo-haptic feedback mechanism is integrated to provide real-time tactile feedback when deviation exceeds tolerance. Combined with low-cost hardware and accessible deployment, the framework aims to increase training scalability, engagement, and improve skill acquisition. Preliminary evaluations indicate that integrating gamified feedback significantly improves precision, reduces angular variance, and encourages sustained practice.",
+      "authors": [
+        "Bita koohestani",
+        "Ashkan Rezaei",
+        "Azam Bastanfard"
+      ],
+      "categories": [
+        "cs.HC",
+        "cs.GR"
+      ],
+      "citation_count": null,
+      "classic_status": null,
+      "code_url": null,
+      "deep_read_note_url": null,
+      "difficulty": null,
+      "enrichment_sources": [],
+      "existing_note_url": null,
+      "external_ids": {},
+      "field": null,
+      "fields_of_study": [],
+      "id": "arxiv:2611.01229v1",
+      "identifiers": {
+        "arxiv_id": "2611.01229v1"
+      },
+      "influential_citation_count": null,
+      "institutions": [],
+      "latest_note_url": null,
+      "note_count": 0,
+      "open_access_pdf_url": null,
+      "pdf_url": "https://arxiv.org/pdf/2611.01229v1",
+      "project_url": null,
+      "published_at": "2026-10-31",
+      "published_date": "2026-10-31",
+      "reading_advice": "save_for_later",
+      "reading_status": "backlog",
+      "recommendation_level": "B",
+      "score": 0.732,
+      "scores": {
+        "classic_value": 0.35,
+        "engineering_transferability": 0.8,
+        "recency": 0.78,
+        "source_quality": 0.78,
+        "total": 0.732,
+        "user_relevance": 0.75
+      },
+      "selected_for_s_level": false,
+      "source": "arxiv",
+      "source_group": "gpu_graphics",
+      "source_type": "recent_7d",
+      "source_url": "http://arxiv.org/abs/2611.01229v1",
+      "suggested_note_title": null,
+      "suggested_note_type": null,
+      "tags": [
+        "cs.HC",
+        "cs.GR"
+      ],
+      "title": "Precision Through Play: Enhancing Fundamental Laparoscopic Skill Acquisition Via Gamified XR and Pseudo-Haptics",
+      "title_zh": null,
+      "topics": [
+        "cognition",
+        "gpu_graphics"
+      ],
+      "url": "http://arxiv.org/abs/2611.01229v1",
+      "venue": null,
+      "why_recommended": "Ranked by engineering transferability signal across configured topics."
+    },
+    {
+      "abstract": "Designers often build CAD models part by part, and may iterate on individual components throughout the design process. Recent vision-language models (VLMs) can synthesize CAD programs from sketches, but generating parts independently does not ensure that they are composable: components may lose the intended proportions and alignments or fail to join correctly where they meet. We present Composable CAD, a framework that uses off-the-shelf VLMs to synthesize a design space of independently sampled, interchangeable component programs, where any selection composes into a coherent CAD model. We recover design constraints from the sketch and use them to construct a coarse proxy that establishes how the components are sized, aligned, and attached. We then generate each component independently from its proxy and apply a deterministic rewrite to ensure that neighboring components meet at their prescribed interfaces. We evaluate Composable CAD across a range of objects and sketch styles and conduct two user studies. Compared to VLM-only baselines, our method produces more detailed, composable designs.",
+      "authors": [
+        "Yuanbo Li",
+        "Vivian Liu",
+        "Sean Liu",
+        "Justin Matejka"
+      ],
+      "categories": [
+        "cs.GR"
+      ],
+      "citation_count": null,
+      "classic_status": null,
+      "code_url": null,
+      "deep_read_note_url": null,
+      "difficulty": null,
+      "enrichment_sources": [],
+      "existing_note_url": null,
+      "external_ids": {},
+      "field": null,
+      "fields_of_study": [],
+      "id": "arxiv:2611.01165v1",
+      "identifiers": {
+        "arxiv_id": "2611.01165v1"
+      },
+      "influential_citation_count": null,
+      "institutions": [],
+      "latest_note_url": null,
+      "note_count": 0,
+      "open_access_pdf_url": null,
+      "pdf_url": "https://arxiv.org/pdf/2611.01165v1",
+      "project_url": null,
+      "published_at": "2026-10-31",
+      "published_date": "2026-10-31",
+      "reading_advice": "save_for_later",
+      "reading_status": "backlog",
+      "recommendation_level": "B",
+      "score": 0.732,
+      "scores": {
+        "classic_value": 0.35,
+        "engineering_transferability": 0.8,
+        "recency": 0.78,
+        "source_quality": 0.78,
+        "total": 0.732,
+        "user_relevance": 0.75
+      },
+      "selected_for_s_level": false,
+      "source": "arxiv",
+      "source_group": "gpu_graphics",
+      "source_type": "recent_7d",
+      "source_url": "http://arxiv.org/abs/2611.01165v1",
+      "suggested_note_title": null,
+      "suggested_note_type": null,
+      "tags": [
+        "cs.GR"
+      ],
+      "title": "Composable CAD: Sketch-to-CAD Program Synthesis in Parts",
+      "title_zh": null,
+      "topics": [
+        "gpu_graphics"
+      ],
+      "url": "http://arxiv.org/abs/2611.01165v1",
+      "venue": null,
+      "why_recommended": "Ranked by engineering transferability signal across configured topics."
+    },
+    {
+      "abstract": "Cloud-based software systems frequently release new versions, a fact further accelerated through agentic coding. Each new release, however, brings the risk of performance regressions which can irritate end users, increase infrastructure costs, and increase carbon footprints. Therefore, developers strive to catch such regressions in testing stages, usually through so-called continuous benchmarking. The standard way of doing this is using microbenchmark suites which, however, take notoriously long to execute. Optimizing the execution of microbenchmark suites is, hence, an active field of research. In this paper, we propose AdapBench, an online scheduling system for reducing the execution duration of microbenchmark suites. AdapBench is the first approach which dynamically makes at-runtime decisions for prioritizing the most informative benchmarks and early-stopping each one once enough evidence has accumulated to accept or reject a performance change hypothesis. We evaluate our prototype on eight popular Java projects, commonly used by microbenchmark research, and four additional Go projects. At matched 90% change detections and false-positive rate compared to an optimistic uniform run, AdapBench saves 42% of the aggregate execution duration on the Java projects, with negligible scheduling overhead (below 0.001% of the total runtime). On the Go projects, AdapBench finds every performance change with zero false positives while saving 85% of the full run.",
+      "authors": [
+        "Sebastian Koch",
+        "Jonas Heisterberg",
+        "Nils Japke",
+        "Trever Schirmer",
+        "David Bermbach"
+      ],
+      "categories": [
+        "cs.SE",
+        "cs.DC",
+        "cs.PF"
+      ],
+      "citation_count": null,
+      "classic_status": null,
+      "code_url": "https://github.com/s3bastiankoch/adapbench",
+      "deep_read_note_url": null,
+      "difficulty": null,
+      "enrichment_sources": [],
+      "existing_note_url": null,
+      "external_ids": {},
+      "field": null,
+      "fields_of_study": [],
+      "id": "arxiv:2611.01255v1",
+      "identifiers": {
+        "arxiv_id": "2611.01255v1"
+      },
+      "influential_citation_count": null,
+      "institutions": [],
+      "latest_note_url": null,
+      "note_count": 0,
+      "open_access_pdf_url": null,
+      "pdf_url": "https://arxiv.org/pdf/2611.01255v1",
+      "project_url": null,
+      "published_at": "2026-10-31",
+      "published_date": "2026-10-31",
+      "reading_advice": "quick_read",
+      "reading_status": "backlog",
+      "recommendation_level": "A",
+      "score": 0.762,
+      "scores": {
+        "classic_value": 0.35,
+        "engineering_transferability": 0.9500000000000001,
+        "recency": 0.78,
+        "source_quality": 0.78,
+        "total": 0.762,
+        "user_relevance": 0.75
+      },
+      "selected_for_s_level": false,
+      "source": "arxiv",
+      "source_group": "architecture",
+      "source_type": "recent_7d",
+      "source_url": "http://arxiv.org/abs/2611.01255v1",
+      "suggested_note_title": null,
+      "suggested_note_type": null,
+      "tags": [
+        "cs.SE",
+        "cs.DC",
+        "cs.PF"
+      ],
+      "title": "AdapBench: Adaptive Early-Stopping and Prioritization for Efficient Microbenchmarking in Cloud-based CI/CD",
+      "title_zh": null,
+      "topics": [
+        "llm_agent",
+        "architecture"
+      ],
+      "url": "http://arxiv.org/abs/2611.01255v1",
+      "venue": null,
+      "why_recommended": "Ranked by engineering transferability signal across configured topics."
+    },
+    {
+      "abstract": "We introduce Causality-Based Fault Localization (CBFL), a novel approach to fault localization grounded in the theory of actual causality. We use the notion of causal responsibility to formalize and define the contribution of a given location in the source code under the context of a failing test. We also utilize a distance metric to prioritize minimal fixes and penalize broken tests, leading to more interpretable and fixable fault localization. We implemented CBFL in a tool, SoftReX, and our evaluation results demonstrate that SoftReX outperforms state-of-the-art Mutation-Based Fault Localization (MBFL) tools based on Mean Reciprocal Rank (MRR) and Top-1 by 16% on both metrics, when using the same set of mutants. We also propose a sophisticated mutation generation strategy based on the structure and representation of the program to improve the accuracy of our ranked list, which outperforms state-of-the-art methods by 2.6x in terms of required mutants evaluated while remaining competitive in performance.",
+      "authors": [
+        "Melane Navaratnarajah",
+        "Aidan Dakhama",
+        "Tom Yaacov",
+        "David A. Kelly",
+        "Karine Even-Mendoza",
+        "Hana Chockler"
+      ],
+      "categories": [
+        "cs.SE"
+      ],
+      "citation_count": null,
+      "classic_status": null,
+      "code_url": null,
+      "deep_read_note_url": null,
+      "difficulty": null,
+      "enrichment_sources": [],
+      "existing_note_url": null,
+      "external_ids": {},
+      "field": null,
+      "fields_of_study": [],
+      "id": "arxiv:2611.01292v1",
+      "identifiers": {
+        "arxiv_id": "2611.01292v1"
+      },
+      "influential_citation_count": null,
+      "institutions": [],
+      "latest_note_url": null,
+      "note_count": 0,
+      "open_access_pdf_url": null,
+      "pdf_url": "https://arxiv.org/pdf/2611.01292v1",
+      "project_url": null,
+      "published_at": "2026-10-31",
+      "published_date": "2026-10-31",
+      "reading_advice": "save_for_later",
+      "reading_status": "backlog",
+      "recommendation_level": "B",
+      "score": 0.732,
+      "scores": {
+        "classic_value": 0.35,
+        "engineering_transferability": 0.8,
+        "recency": 0.78,
+        "source_quality": 0.78,
+        "total": 0.732,
+        "user_relevance": 0.75
+      },
+      "selected_for_s_level": false,
+      "source": "arxiv",
+      "source_group": "llm_agent",
+      "source_type": "recent_7d",
+      "source_url": "http://arxiv.org/abs/2611.01292v1",
+      "suggested_note_title": null,
+      "suggested_note_type": null,
+      "tags": [
+        "cs.SE"
+      ],
+      "title": "Causality-Based Fault Localization",
+      "title_zh": null,
+      "topics": [
+        "llm_agent"
+      ],
+      "url": "http://arxiv.org/abs/2611.01292v1",
+      "venue": null,
+      "why_recommended": "Ranked by engineering transferability signal across configured topics."
+    },
+    {
+      "abstract": "As coding agents gain greater autonomy to modify software repositories, relevant context alone does not define their operational authority. An artifact may be relevant to a maintenance task while being inappropriate to edit; conversely, another artifact may be required even when it is not explicitly mentioned in the request. We explore Boundary Contracts, a machine-readable abstraction that makes task-specific artifact roles (editable, inspect-only, required, and protected) explicit before repository modification begins. We conduct a pilot study on 40 maintenance tasks from a real enterprise repository, comparing the same Codex-based coding agent with and without Boundary Contract information. The boundary-informed condition improves macro edit-selection F1 from 0.440 to 0.682, required-behavior coverage from 0.429 to 0.673, and the number of strictly acceptable patches from 9 of 40 to 18 of 40. To probe whether these gains are explained only by improved file localization, we additionally analyze 21 tasks in which both conditions modify at least one identical file. Differences remain in edit selectivity and patch outcomes, providing initial evidence that explicit artifact roles may influence maintenance behavior beyond localization alone. This pilot does not establish the general effectiveness of Boundary Contracts. Rather, it provides initial evidence for a broader research question: how should the operational boundaries of coding agents be generated, validated, revised, and ultimately enforced as repository-level maintenance becomes increasingly autonomous?",
+      "authors": [
+        "Heeyong Eun",
+        "Seungyeon Chung",
+        "Hyejee Park",
+        "Youngeun Lee",
+        "Sukhyun Hong",
+        "Hyewon Jung"
+      ],
+      "categories": [
+        "cs.SE",
+        "cs.AI"
+      ],
+      "citation_count": null,
+      "classic_status": null,
+      "code_url": null,
+      "deep_read_note_url": null,
+      "difficulty": null,
+      "enrichment_sources": [],
+      "existing_note_url": null,
+      "external_ids": {},
+      "field": null,
+      "fields_of_study": [],
+      "id": "arxiv:2611.01265v1",
+      "identifiers": {
+        "arxiv_id": "2611.01265v1"
+      },
+      "influential_citation_count": null,
+      "institutions": [],
+      "latest_note_url": null,
+      "note_count": 0,
+      "open_access_pdf_url": null,
+      "pdf_url": "https://arxiv.org/pdf/2611.01265v1",
+      "project_url": null,
+      "published_at": "2026-10-31",
+      "published_date": "2026-10-31",
+      "reading_advice": "save_for_later",
+      "reading_status": "backlog",
+      "recommendation_level": "B",
+      "score": 0.732,
+      "scores": {
+        "classic_value": 0.35,
+        "engineering_transferability": 0.8,
+        "recency": 0.78,
+        "source_quality": 0.78,
+        "total": 0.732,
+        "user_relevance": 0.75
+      },
+      "selected_for_s_level": false,
+      "source": "arxiv",
+      "source_group": "llm_agent",
+      "source_type": "recent_7d",
+      "source_url": "http://arxiv.org/abs/2611.01265v1",
+      "suggested_note_title": null,
+      "suggested_note_type": null,
+      "tags": [
+        "cs.SE",
+        "cs.AI"
+      ],
+      "title": "Toward Bounding Coding-Agent Autonomy in Software Maintenance: A Pilot Study of Boundary Contracts",
+      "title_zh": null,
+      "topics": [
+        "llm_agent"
+      ],
+      "url": "http://arxiv.org/abs/2611.01265v1",
+      "venue": null,
+      "why_recommended": "Ranked by engineering transferability signal across configured topics."
+    },
+    {
+      "abstract": "Language models are no longer used only to generate text. Software also asks them for decisions, in routing, guardrails, and automated gates. System One decision models, also called typed decision models, such as Jev and Laya, return one fast decision over the legal options, leaving no text to inspect. However, a fast, well-formed decision does not show that the model used the evidence. Cognitive experiments can test this, because they vary task demands and measure how behavior changes, yet existing cognitive benchmarks evaluate language and multimodal models. We introduce S1CogBench to ask what these models can and cannot do on 24 cognitive tasks, evaluating five open models and Jev and keeping conditions and scoring apart from disclosed adaptations. We find that decision models vary widely in reliability, acting well does not imply predicting humans, aggregate scores hide how decisions respond to conditions, and speed comes mainly from answering without generation. To our knowledge, S1CogBench is the first benchmark of System One decision models on established cognitive experiments, and it gives a shared test of whether their decisions respond to evidence, feedback, memory load, and future opportunities before software relies on them.",
+      "authors": [
+        "Dengzhe Hou",
+        "Kazunori D Yamada"
+      ],
+      "categories": [
+        "cs.CL",
+        "cs.AI",
+        "q-bio.NC"
+      ],
+      "citation_count": null,
+      "classic_status": null,
+      "code_url": "https://github.com/dengzhe-hou/S1CogBench",
+      "deep_read_note_url": null,
+      "difficulty": null,
+      "enrichment_sources": [],
+      "existing_note_url": null,
+      "external_ids": {},
+      "field": null,
+      "fields_of_study": [],
+      "id": "arxiv:2611.00911v1",
+      "identifiers": {
+        "arxiv_id": "2611.00911v1"
+      },
+      "influential_citation_count": null,
+      "institutions": [],
+      "latest_note_url": null,
+      "note_count": 0,
+      "open_access_pdf_url": null,
+      "pdf_url": "https://arxiv.org/pdf/2611.00911v1",
+      "project_url": null,
+      "published_at": "2026-10-31",
+      "published_date": "2026-10-31",
+      "reading_advice": "save_for_later",
+      "reading_status": "backlog",
+      "recommendation_level": "B",
+      "score": 0.692,
+      "scores": {
+        "classic_value": 0.35,
+        "engineering_transferability": 0.6,
+        "recency": 0.78,
+        "source_quality": 0.78,
+        "total": 0.692,
+        "user_relevance": 0.75
+      },
+      "selected_for_s_level": false,
+      "source": "arxiv",
+      "source_group": "cognition_social",
+      "source_type": "recent_7d",
+      "source_url": "http://arxiv.org/abs/2611.00911v1",
+      "suggested_note_title": null,
+      "suggested_note_type": null,
+      "tags": [
+        "cs.CL",
+        "cs.AI",
+        "q-bio.NC"
+      ],
+      "title": "S1CogBench: What System One Decision Models Can and Cannot Do on Cognitive Experiments",
+      "title_zh": null,
+      "topics": [
+        "llm_agent",
+        "cognition"
+      ],
+      "url": "http://arxiv.org/abs/2611.00911v1",
+      "venue": null,
+      "why_recommended": "Ranked by recency signal across configured topics."
+    }
+  ],
+  "public_json_version": "0.4",
+  "s_level_candidate_ids": [],
+  "s_level_paper_id": null,
+  "source_mode_summary": {
+    "recent_7d": 6
+  },
+  "summary": "Selected 6 papers: 6 recent candidates and 0 classic fallback items."
+}
