@@ -3453,6 +3453,66 @@
     {
       "confidence": 0.5,
       "relation": "related_to",
+      "source": "arxiv:2611.03389v1",
+      "target": "cognition"
+    },
+    {
+      "confidence": 0.5,
+      "relation": "related_to",
+      "source": "arxiv:2611.03389v1",
+      "target": "llm_agent"
+    },
+    {
+      "confidence": 0.5,
+      "relation": "related_to",
+      "source": "arxiv:2611.03389v1",
+      "target": "architecture"
+    },
+    {
+      "confidence": 0.5,
+      "relation": "related_to",
+      "source": "arxiv:2611.03389v1",
+      "target": "sociology"
+    },
+    {
+      "confidence": 0.5,
+      "relation": "related_to",
+      "source": "arxiv:2611.03389v1",
+      "target": "cognition_social"
+    },
+    {
+      "confidence": 0.5,
+      "relation": "related_to",
+      "source": "arxiv:2611.04235v1",
+      "target": "gpu_graphics"
+    },
+    {
+      "confidence": 0.5,
+      "relation": "related_to",
+      "source": "arxiv:2611.04256v1",
+      "target": "llm_agent"
+    },
+    {
+      "confidence": 0.5,
+      "relation": "related_to",
+      "source": "arxiv:2611.04274v1",
+      "target": "architecture"
+    },
+    {
+      "confidence": 0.5,
+      "relation": "related_to",
+      "source": "arxiv:2611.04277v1",
+      "target": "llm_agent"
+    },
+    {
+      "confidence": 0.5,
+      "relation": "related_to",
+      "source": "arxiv:2611.04305v1",
+      "target": "gpu_graphics"
+    },
+    {
+      "confidence": 0.5,
+      "relation": "related_to",
       "source": "biorxiv:10.1101/2023.01.10.523479",
       "target": "cognition"
     },
@@ -8079,6 +8139,57 @@
       "type": "paper"
     },
     {
+      "id": "arxiv:2611.03389v1",
+      "label": "CrowdForge: Effects of Audio and Visual Audience Participation Modalities on Agency, Collaboration, and Engagement in AI-Mediated MR Performances",
+      "topics": [
+        "cognition",
+        "llm_agent",
+        "architecture",
+        "sociology"
+      ],
+      "type": "paper"
+    },
+    {
+      "id": "arxiv:2611.04235v1",
+      "label": "TCINet: Tissue-Conditioned Adaptive Cross-Branch Interaction Network for Nuclei Instance Segmentation",
+      "topics": [
+        "gpu_graphics"
+      ],
+      "type": "paper"
+    },
+    {
+      "id": "arxiv:2611.04256v1",
+      "label": "OmniST: Topology-Invariant Spatiotemporal Forecasting with Guaranteed-Coverage Uncertainty at Unseen Sensor Locations",
+      "topics": [
+        "llm_agent"
+      ],
+      "type": "paper"
+    },
+    {
+      "id": "arxiv:2611.04274v1",
+      "label": "Reasoning about Shared-Qubit Concurrency in Quantum Computing",
+      "topics": [
+        "architecture"
+      ],
+      "type": "paper"
+    },
+    {
+      "id": "arxiv:2611.04277v1",
+      "label": "Harness-S: Learning from Sibling Harnesses for Generalizable Agent Training",
+      "topics": [
+        "llm_agent"
+      ],
+      "type": "paper"
+    },
+    {
+      "id": "arxiv:2611.04305v1",
+      "label": "Weather Adaptive Autonomous Driving",
+      "topics": [
+        "gpu_graphics"
+      ],
+      "type": "paper"
+    },
+    {
       "id": "biorxiv:10.1101/2023.01.10.523479",
       "label": "How Occam's razor guides human decision-making",
       "topics": [
@@ -9112,5 +9223,5 @@
     }
   ],
   "public_json_version": "0.4",
-  "updated_at": "2026-11-03T03:25:43+00:00"
+  "updated_at": "2026-11-04T02:08:42+00:00"
 }

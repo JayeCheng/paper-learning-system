@@ -26616,6 +26616,424 @@
       "why_recommended": "Ranked by engineering transferability signal across configured topics."
     },
     {
+      "abstract": "Technology-mediated audience participation (TMAP) enables audiences to influence live performances, yet balancing interaction with meaningful agency remains challenging. While AI-generated music and MR enable new forms of audio and visual audience participation, little is known about how these participation modalities influence audience experiences during live musical performance. In particular, it remains unclear how they shape perceived agency, collaboration, and engagement, and how they complement one another within TMAP systems. We present CrowdForge, an AI- and MR-mediated paradigm where audiences collectively control generative music and virtual environments during a live performance featuring a guitarist and DJ. Through a mixedmethods concert study evaluating three interaction conditions (audio, visual, and combined audio-visual), we demonstrate that observability is the primary driver of audience agency. While visual interaction provided easily observable feedback, audio parameters offered macro-structural control over the music. Audiences tended to use the control enabled by AI audio generation to test musical boundaries, introducing a productive adversarial tension between the crowd and the musicians. This dynamic pushed creative limits, deepened engagement, and generated moments of musical coherence when performers successfully resolved audience-induced challenges. We argue future TMAP systems should prioritize human-centered, highly observable interactions to build agency, while combining the expressiveness of music with the clarity of visual feedback.",
+      "authors": [
+        "Torin Hopkins",
+        "Shih-Yu Ma",
+        "Zander Trafton-Hancock",
+        "Ellen Yi-Luen Do",
+        "Luca Turchet"
+      ],
+      "categories": [
+        "cs.HC",
+        "cs.AI",
+        "cs.NI",
+        "cs.PF",
+        "cs.SI"
+      ],
+      "citation_count": null,
+      "classic_status": null,
+      "code_url": null,
+      "deep_read_note_url": null,
+      "difficulty": null,
+      "enrichment_sources": [],
+      "existing_note_url": null,
+      "external_ids": {},
+      "field": null,
+      "fields_of_study": [],
+      "id": "arxiv:2611.03389v1",
+      "identifiers": {
+        "arxiv_id": "2611.03389v1"
+      },
+      "influential_citation_count": null,
+      "institutions": [],
+      "latest_note_url": null,
+      "note_count": 0,
+      "open_access_pdf_url": null,
+      "pdf_url": "https://arxiv.org/pdf/2611.03389v1",
+      "project_url": null,
+      "published_at": "2026-11-02",
+      "published_date": "2026-11-02",
+      "reading_advice": "save_for_later",
+      "reading_status": "backlog",
+      "recommendation_level": "B",
+      "score": 0.732,
+      "scores": {
+        "classic_value": 0.35,
+        "engineering_transferability": 0.8,
+        "recency": 0.78,
+        "source_quality": 0.78,
+        "total": 0.732,
+        "user_relevance": 0.75
+      },
+      "selected_for_s_level": false,
+      "source": "arxiv",
+      "source_group": "cognition_social",
+      "source_type": "recent_7d",
+      "source_url": "http://arxiv.org/abs/2611.03389v1",
+      "suggested_note_title": null,
+      "suggested_note_type": null,
+      "tags": [
+        "cs.HC",
+        "cs.AI",
+        "cs.NI",
+        "cs.PF",
+        "cs.SI"
+      ],
+      "title": "CrowdForge: Effects of Audio and Visual Audience Participation Modalities on Agency, Collaboration, and Engagement in AI-Mediated MR Performances",
+      "title_zh": null,
+      "topics": [
+        "cognition",
+        "llm_agent",
+        "architecture",
+        "sociology"
+      ],
+      "url": "http://arxiv.org/abs/2611.03389v1",
+      "venue": null,
+      "why_recommended": "Ranked by engineering transferability signal across configured topics."
+    },
+    {
+      "abstract": "Separating touching nuclei requires local boundary detail, while cell type classification requires broader morphological context. These requirements also vary with the surrounding tissue environment. We propose the Tissue-Conditioned Adaptive Cross-Branch Interaction Network (TCINet), a single-stage model with Task-Specific Feature Adapters (TSFA) and Tissue-Conditioned Task-Aware Cross-Branch Interaction (TC-TACBI). TSFA produces branch-specific features at skip connections, and TC-TACBI controls three asymmetric paths among nucleus-presence (NP), horizontal-vertical (HV), and nucleus-type (NT) branches using predicted tissue probabilities. On PanNuke under standard three-fold cross-validation, TCINet achieves multiclass and binary panoptic quality scores of 0.519 and 0.692, respectively. Zero-shot tests on MoNuSeg yield a detection F1 score of 0.876. On PanNuke fold 0, adding TC-TACBI increases mPQ from 0.505 to 0.525. Code is available at https://github.com/celestial1321/TCINet.",
+      "authors": [
+        "Zhenghang Qian",
+        "Yang Liu",
+        "Yanzhi Yu",
+        "Peiwu Qin",
+        "Yibing Shen",
+        "Joongwon Chae",
+        "Lihui Luo",
+        "Zhongde Zhang",
+        "Jianwen Guo",
+        "Lianshun Jin"
+      ],
+      "categories": [
+        "cs.CV"
+      ],
+      "citation_count": null,
+      "classic_status": null,
+      "code_url": "https://github.com/celestial1321/TCINet",
+      "deep_read_note_url": null,
+      "difficulty": null,
+      "enrichment_sources": [],
+      "existing_note_url": null,
+      "external_ids": {},
+      "field": null,
+      "fields_of_study": [],
+      "id": "arxiv:2611.04235v1",
+      "identifiers": {
+        "arxiv_id": "2611.04235v1"
+      },
+      "influential_citation_count": null,
+      "institutions": [],
+      "latest_note_url": null,
+      "note_count": 0,
+      "open_access_pdf_url": null,
+      "pdf_url": "https://arxiv.org/pdf/2611.04235v1",
+      "project_url": null,
+      "published_at": "2026-11-03",
+      "published_date": "2026-11-03",
+      "reading_advice": "quick_read",
+      "reading_status": "backlog",
+      "recommendation_level": "A",
+      "score": 0.747,
+      "scores": {
+        "classic_value": 0.35,
+        "engineering_transferability": 0.6,
+        "recency": 1.0,
+        "source_quality": 0.78,
+        "total": 0.747,
+        "user_relevance": 0.75
+      },
+      "selected_for_s_level": false,
+      "source": "arxiv",
+      "source_group": "gpu_graphics",
+      "source_type": "recent_24h",
+      "source_url": "http://arxiv.org/abs/2611.04235v1",
+      "suggested_note_title": null,
+      "suggested_note_type": null,
+      "tags": [
+        "cs.CV"
+      ],
+      "title": "TCINet: Tissue-Conditioned Adaptive Cross-Branch Interaction Network for Nuclei Instance Segmentation",
+      "title_zh": null,
+      "topics": [
+        "gpu_graphics"
+      ],
+      "url": "http://arxiv.org/abs/2611.04235v1",
+      "venue": null,
+      "why_recommended": "Ranked by recency signal across configured topics."
+    },
+    {
+      "abstract": "Standard spatiotemporal graph convolutional networks need a fixed-size adjacency matrix, coupling model weights to a specific sensor count N; they cannot produce any output at a sensor absent from training. We present OmniST, a topology-invariant forecaster whose computation has zero structural dependency on the number of nodes, and which, composed with inductive split-conformal calibration, gives distribution-free, coverage-guaranteed prediction intervals at arbitrary (including never-seen) sensor locations, preserving that guarantee as sensors are added or removed. Topology invariance follows from coordinate-based tokenization, k-nearest-neighbor attention from geographic coordinates at each forward pass, and per-node temporal processing via a bidirectional GRU. On real Delhi air-quality data (37 stations, 2019-2023), OmniST attains a 30-day PM2.5 MAE of 31.0 ug/m3 and degrades at most 1.1 percent when 40 percent of stations are removed. Its inductive forecasts at unseen stations beat nearest-neighbor interpolation (about 12 percent) and a learned kriging GNN (IGNNK, about 21 percent), and, unlike either, carry a finite-sample coverage guarantee. The guarantee holds at 90 percent or above under 30-50 percent node dropout across four real datasets over three domains (Delhi and Beijing air quality, NOAA GHCN weather, Caltrans PeMSD7-M traffic), and still holds at 325 real sensors (full PeMS-BAY). We also fix a temporal-drift failure: static conformal under-covers over time (about 0.50 late), but a rolling adaptive-conformal estimator restores target coverage (0.89 overall, 0.96 late) at the cost of wider intervals.",
+      "authors": [
+        "Praveg Vashishtha"
+      ],
+      "categories": [
+        "cs.LG",
+        "cs.AI",
+        "stat.ML"
+      ],
+      "citation_count": null,
+      "classic_status": null,
+      "code_url": "https://github.com/Praveg432/OmniST",
+      "deep_read_note_url": null,
+      "difficulty": null,
+      "enrichment_sources": [],
+      "existing_note_url": null,
+      "external_ids": {},
+      "field": null,
+      "fields_of_study": [],
+      "id": "arxiv:2611.04256v1",
+      "identifiers": {
+        "arxiv_id": "2611.04256v1"
+      },
+      "influential_citation_count": null,
+      "institutions": [],
+      "latest_note_url": null,
+      "note_count": 0,
+      "open_access_pdf_url": null,
+      "pdf_url": "https://arxiv.org/pdf/2611.04256v1",
+      "project_url": null,
+      "published_at": "2026-11-03",
+      "published_date": "2026-11-03",
+      "reading_advice": "quick_read",
+      "reading_status": "backlog",
+      "recommendation_level": "A",
+      "score": 0.747,
+      "scores": {
+        "classic_value": 0.35,
+        "engineering_transferability": 0.6,
+        "recency": 1.0,
+        "source_quality": 0.78,
+        "total": 0.747,
+        "user_relevance": 0.75
+      },
+      "selected_for_s_level": false,
+      "source": "arxiv",
+      "source_group": "llm_agent",
+      "source_type": "recent_24h",
+      "source_url": "http://arxiv.org/abs/2611.04256v1",
+      "suggested_note_title": null,
+      "suggested_note_type": null,
+      "tags": [
+        "cs.LG",
+        "cs.AI",
+        "stat.ML"
+      ],
+      "title": "OmniST: Topology-Invariant Spatiotemporal Forecasting with Guaranteed-Coverage Uncertainty at Unseen Sensor Locations",
+      "title_zh": null,
+      "topics": [
+        "llm_agent"
+      ],
+      "url": "http://arxiv.org/abs/2611.04256v1",
+      "venue": null,
+      "why_recommended": "Ranked by recency signal across configured topics."
+    },
+    {
+      "abstract": "In this paper, we develop a semantic model for the parallel execution of quantum circuits, providing a formal foundation for studying shared-qubit concurrency in quantum computing. As in classical shared-memory concurrency, parallel quantum circuits may interfere with one another through operations on shared qubits. However, quantum entanglement and the noncommutativity of quantum operations introduce additional challenges for reasoning about their correctness. To address these challenges, we generalise the classical Owicki-Gries method to quantum computing at the level of quantum circuits. Our approach enables compositional reasoning about parallel quantum circuits by separating the verification of individual components from the analysis of interference between them. We formulate proof rules for establishing the correctness of parallel quantum circuits and prove their soundness with respect to the proposed semantic model.",
+      "authors": [
+        "Mingsheng Ying"
+      ],
+      "categories": [
+        "quant-ph",
+        "cs.DC",
+        "cs.LO",
+        "cs.PL"
+      ],
+      "citation_count": null,
+      "classic_status": null,
+      "code_url": null,
+      "deep_read_note_url": null,
+      "difficulty": null,
+      "enrichment_sources": [],
+      "existing_note_url": null,
+      "external_ids": {},
+      "field": null,
+      "fields_of_study": [],
+      "id": "arxiv:2611.04274v1",
+      "identifiers": {
+        "arxiv_id": "2611.04274v1"
+      },
+      "influential_citation_count": null,
+      "institutions": [],
+      "latest_note_url": null,
+      "note_count": 0,
+      "open_access_pdf_url": null,
+      "pdf_url": "https://arxiv.org/pdf/2611.04274v1",
+      "project_url": null,
+      "published_at": "2026-11-03",
+      "published_date": "2026-11-03",
+      "reading_advice": "quick_read",
+      "reading_status": "backlog",
+      "recommendation_level": "A",
+      "score": 0.787,
+      "scores": {
+        "classic_value": 0.35,
+        "engineering_transferability": 0.8,
+        "recency": 1.0,
+        "source_quality": 0.78,
+        "total": 0.787,
+        "user_relevance": 0.75
+      },
+      "selected_for_s_level": false,
+      "source": "arxiv",
+      "source_group": "architecture",
+      "source_type": "recent_24h",
+      "source_url": "http://arxiv.org/abs/2611.04274v1",
+      "suggested_note_title": null,
+      "suggested_note_type": null,
+      "tags": [
+        "quant-ph",
+        "cs.DC",
+        "cs.LO",
+        "cs.PL"
+      ],
+      "title": "Reasoning about Shared-Qubit Concurrency in Quantum Computing",
+      "title_zh": null,
+      "topics": [
+        "architecture"
+      ],
+      "url": "http://arxiv.org/abs/2611.04274v1",
+      "venue": null,
+      "why_recommended": "Ranked by recency signal across configured topics."
+    },
+    {
+      "abstract": "Harness evolution from a common base exhibits Locality, Complementarity, and Nonstationarity: variants repair different failures, and their utility changes as the policy learns. Rather than seeking a universally superior harness, we introduce Harness-S to selectively rescue failures of a base execution system through sibling harnesses and transfer the resulting capabilities into a single policy that remains effective under the original harness. Directional Harness Evolution develops specialized sibling harnesses along distinct repair directions, forming a reusable Sibling Harness Pool that remains fixed during policy training. Complementary Harness Rescue Training invokes this pool only when all initial attempts under the base harness fail. The same policy generates fresh rollouts under selected auxiliary harnesses, and these trajectories replace the failed group for reinforcement learning. An Adaptive Harness Router selects the Top-k variants using Harness Behavior Profiles and voting across multiple LLMs. Policy-aware profile re-anchoring refreshes this evidence as the policy learns. Across AppWorld, SWE-Gym, and DBBench, the trained policy substantially outperforms policy-only training when returned to the original base harness. Behavioral analyses and held-out cases support the transfer of harness-elicited behaviors into the policy itself. Reusing the router for Rank-1 inference provides additional gains at the same executor rollout count.",
+      "authors": [
+        "Kangning Zhang",
+        "Wenxiang Jiao",
+        "Bowen Fang",
+        "Shuai Shao",
+        "Jiachen Zhu",
+        "Rong Shan",
+        "Shijian Wang",
+        "Hao Wang",
+        "Yuan Lu",
+        "Weiwen Liu",
+        "Weinan Zhang"
+      ],
+      "categories": [
+        "cs.AI"
+      ],
+      "citation_count": null,
+      "classic_status": null,
+      "code_url": "https://github.com/DeepExperience/Harness-S",
+      "deep_read_note_url": null,
+      "difficulty": null,
+      "enrichment_sources": [],
+      "existing_note_url": null,
+      "external_ids": {},
+      "field": null,
+      "fields_of_study": [],
+      "id": "arxiv:2611.04277v1",
+      "identifiers": {
+        "arxiv_id": "2611.04277v1"
+      },
+      "influential_citation_count": null,
+      "institutions": [],
+      "latest_note_url": null,
+      "note_count": 0,
+      "open_access_pdf_url": null,
+      "pdf_url": "https://arxiv.org/pdf/2611.04277v1",
+      "project_url": null,
+      "published_at": "2026-11-03",
+      "published_date": "2026-11-03",
+      "reading_advice": "quick_read",
+      "reading_status": "backlog",
+      "recommendation_level": "A",
+      "score": 0.747,
+      "scores": {
+        "classic_value": 0.35,
+        "engineering_transferability": 0.6,
+        "recency": 1.0,
+        "source_quality": 0.78,
+        "total": 0.747,
+        "user_relevance": 0.75
+      },
+      "selected_for_s_level": false,
+      "source": "arxiv",
+      "source_group": "llm_agent",
+      "source_type": "recent_24h",
+      "source_url": "http://arxiv.org/abs/2611.04277v1",
+      "suggested_note_title": null,
+      "suggested_note_type": null,
+      "tags": [
+        "cs.AI"
+      ],
+      "title": "Harness-S: Learning from Sibling Harnesses for Generalizable Agent Training",
+      "title_zh": null,
+      "topics": [
+        "llm_agent"
+      ],
+      "url": "http://arxiv.org/abs/2611.04277v1",
+      "venue": null,
+      "why_recommended": "Ranked by recency signal across configured topics."
+    },
+    {
+      "abstract": "Camera object detectors lose recall in rain, fog, snow and sand, and the confidence threshold at which a detector is deployed decides how many objects it misses and how many false alarms it raises. We study how a frozen detector should make this decision in adverse weather. We first reproduce SeqCRC, a conformal object detector whose first step calibrates the confidence threshold by conformal risk control (CRC), and use that step, calibrated separately in each weather condition, as our baseline. With YOLOv8x it keeps the held-out miss fraction within a 20% budget in every DAWN weather bin, where a single global threshold fails in fog, but the false alarms it needs are an output rather than a choice: from 1.6 to 117 per image across DAWN and BDD100K conditions. We then propose a calibrated trade-off dial. One setting, $\u03bb$, the number of false alarms accepted to avoid one missed object, selects the expected-cost-optimal decision rule: either one score threshold, or a per-detection rule that keeps a box when its calibrated probability of being a real object, estimated by gradient-boosted trees from the detector's own per-box outputs, is at least $1/(1+\u03bb)$. F-score preferences map onto the same dial, and CRC applied to $\u03bb$ itself is planned to restore a per-condition miss guarantee. The dial is fitted once on BDD100K train and graded only on BDD100K val and DAWN.",
+      "authors": [
+        "Nicholas Taylor",
+        "Alexander Picon",
+        "Sudip Dhakal"
+      ],
+      "categories": [
+        "cs.CV"
+      ],
+      "citation_count": null,
+      "classic_status": null,
+      "code_url": null,
+      "deep_read_note_url": null,
+      "difficulty": null,
+      "enrichment_sources": [],
+      "existing_note_url": null,
+      "external_ids": {},
+      "field": null,
+      "fields_of_study": [],
+      "id": "arxiv:2611.04305v1",
+      "identifiers": {
+        "arxiv_id": "2611.04305v1"
+      },
+      "influential_citation_count": null,
+      "institutions": [],
+      "latest_note_url": null,
+      "note_count": 0,
+      "open_access_pdf_url": null,
+      "pdf_url": "https://arxiv.org/pdf/2611.04305v1",
+      "project_url": null,
+      "published_at": "2026-11-03",
+      "published_date": "2026-11-03",
+      "reading_advice": "save_for_later",
+      "reading_status": "backlog",
+      "recommendation_level": "B",
+      "score": 0.717,
+      "scores": {
+        "classic_value": 0.35,
+        "engineering_transferability": 0.45,
+        "recency": 1.0,
+        "source_quality": 0.78,
+        "total": 0.717,
+        "user_relevance": 0.75
+      },
+      "selected_for_s_level": false,
+      "source": "arxiv",
+      "source_group": "gpu_graphics",
+      "source_type": "recent_24h",
+      "source_url": "http://arxiv.org/abs/2611.04305v1",
+      "suggested_note_title": null,
+      "suggested_note_type": null,
+      "tags": [
+        "cs.CV"
+      ],
+      "title": "Weather Adaptive Autonomous Driving",
+      "title_zh": null,
+      "topics": [
+        "gpu_graphics"
+      ],
+      "url": "http://arxiv.org/abs/2611.04305v1",
+      "venue": null,
+      "why_recommended": "Ranked by recency signal across configured topics."
+    },
+    {
       "abstract": "Occam's razor is the principle that, all else being equal, simpler explanations should be preferred over more complex ones. This principle is thought to guide human decision-making, but the nature of this guidance is not known. Here we used preregistered behavioral experiments to show that people tend to prefer the simpler of two alternative explanations for uncertain data. These preferences align quantitatively with predictions of formal theories of model selection that penalize excessive flexibility. These penalties emerge when considering not just the best explanation but the integral over all possible, relevant explanations. We further show that these simplicity preferences persist in humans, but not in certain artificial neural networks, even when they are maladaptive. Our results imply that principled notions of statistical model selection, including integrating over possible, latent causes to avoid overfitting to noisy data, may play a central role in human decision-making.",
       "authors": [
         "Piasini, E.",
@@ -35783,5 +36201,5 @@
     }
   ],
   "public_json_version": "0.4",
-  "updated_at": "2026-11-03T03:25:43+00:00"
+  "updated_at": "2026-11-04T02:08:42+00:00"
 }

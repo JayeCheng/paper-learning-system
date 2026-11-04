@@ -384,6 +384,12 @@ arxiv:2611.01229v1,backlog,medium,,2026-11-03T03:25:43+00:00,Precision Through P
 arxiv:2611.01255v1,backlog,medium,,2026-11-03T03:25:43+00:00,AdapBench: Adaptive Early-Stopping and Prioritization for Efficient Microbenchmarking in Cloud-based CI/CD,architecture,A
 arxiv:2611.01265v1,backlog,medium,,2026-11-03T03:25:43+00:00,Toward Bounding Coding-Agent Autonomy in Software Maintenance: A Pilot Study of Boundary Contracts,llm_agent,B
 arxiv:2611.01292v1,backlog,medium,,2026-11-03T03:25:43+00:00,Causality-Based Fault Localization,llm_agent,B
+arxiv:2611.03389v1,backlog,medium,,2026-11-04T02:08:42+00:00,"CrowdForge: Effects of Audio and Visual Audience Participation Modalities on Agency, Collaboration, and Engagement in AI-Mediated MR Performances",cognition_social,B
+arxiv:2611.04235v1,backlog,medium,,2026-11-04T02:08:42+00:00,TCINet: Tissue-Conditioned Adaptive Cross-Branch Interaction Network for Nuclei Instance Segmentation,gpu_graphics,A
+arxiv:2611.04256v1,backlog,medium,,2026-11-04T02:08:42+00:00,OmniST: Topology-Invariant Spatiotemporal Forecasting with Guaranteed-Coverage Uncertainty at Unseen Sensor Locations,llm_agent,A
+arxiv:2611.04274v1,backlog,medium,,2026-11-04T02:08:42+00:00,Reasoning about Shared-Qubit Concurrency in Quantum Computing,architecture,A
+arxiv:2611.04277v1,backlog,medium,,2026-11-04T02:08:42+00:00,Harness-S: Learning from Sibling Harnesses for Generalizable Agent Training,llm_agent,A
+arxiv:2611.04305v1,backlog,medium,,2026-11-04T02:08:42+00:00,Weather Adaptive Autonomous Driving,gpu_graphics,B
 biorxiv:10.1101/2023.01.10.523479,backlog,medium,,2026-09-28T00:33:07+00:00,How Occam's razor guides human decision-making,cognition_social,B
 biorxiv:10.1101/2024.03.07.583890,backlog,medium,,2026-10-19T00:08:58+00:00,Computation or Weight Adaptation? Rethinking the Role of Plasticity in Learning,cognition_social,B
 biorxiv:10.1101/2024.09.30.615819,backlog,medium,,2026-09-22T00:43:20+00:00,Hierarchy of prediction errors shapes the learning of context-dependent sensory representations,cognition_social,B
