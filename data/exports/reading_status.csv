@@ -390,6 +390,12 @@ arxiv:2611.04256v1,backlog,medium,,2026-11-04T02:08:42+00:00,OmniST: Topology-In
 arxiv:2611.04274v1,backlog,medium,,2026-11-04T02:08:42+00:00,Reasoning about Shared-Qubit Concurrency in Quantum Computing,architecture,A
 arxiv:2611.04277v1,backlog,medium,,2026-11-04T02:08:42+00:00,Harness-S: Learning from Sibling Harnesses for Generalizable Agent Training,llm_agent,A
 arxiv:2611.04305v1,backlog,medium,,2026-11-04T02:08:42+00:00,Weather Adaptive Autonomous Driving,gpu_graphics,B
+arxiv:2611.05802v1,backlog,medium,,2026-11-05T02:15:17+00:00,GREP: Grounding Generated Room Evaluation in Principles,gpu_graphics,A
+arxiv:2611.05873v1,backlog,medium,,2026-11-05T02:15:17+00:00,Can LLM Agents Learn to Test? Maintaining Scoped Experience as Testing Evidence for Mobile GUI Testing,llm_agent,A
+arxiv:2611.05888v1,backlog,medium,,2026-11-05T02:15:17+00:00,"Compiling, Validating, and Using Human Reference Atlas Cell Type Annotation Crosswalks",cognition_social,A
+arxiv:2611.05892v1,backlog,medium,,2026-11-05T02:15:17+00:00,When Is One Query per Template Enough? Adapting Learned Cost Models to New Hardware,architecture,A
+arxiv:2611.05901v1,backlog,medium,,2026-11-05T02:15:17+00:00,Retrieval Supersedes Scale: Efficient Log Level Prediction via Multiplex Socio-Technical Context,llm_agent,A
+arxiv:2611.05945v1,backlog,medium,,2026-11-05T02:15:17+00:00,FLINT: Coupling Proximal Initialization and Bounded Stochasticity for Flow-Matching Inverse Problems,gpu_graphics,A
 biorxiv:10.1101/2023.01.10.523479,backlog,medium,,2026-09-28T00:33:07+00:00,How Occam's razor guides human decision-making,cognition_social,B
 biorxiv:10.1101/2024.03.07.583890,backlog,medium,,2026-10-19T00:08:58+00:00,Computation or Weight Adaptation? Rethinking the Role of Plasticity in Learning,cognition_social,B
 biorxiv:10.1101/2024.09.30.615819,backlog,medium,,2026-09-22T00:43:20+00:00,Hierarchy of prediction errors shapes the learning of context-dependent sensory representations,cognition_social,B

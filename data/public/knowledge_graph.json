@@ -3513,6 +3513,60 @@
     {
       "confidence": 0.5,
       "relation": "related_to",
+      "source": "arxiv:2611.05802v1",
+      "target": "gpu_graphics"
+    },
+    {
+      "confidence": 0.5,
+      "relation": "related_to",
+      "source": "arxiv:2611.05802v1",
+      "target": "llm_agent"
+    },
+    {
+      "confidence": 0.5,
+      "relation": "related_to",
+      "source": "arxiv:2611.05873v1",
+      "target": "llm_agent"
+    },
+    {
+      "confidence": 0.5,
+      "relation": "related_to",
+      "source": "arxiv:2611.05888v1",
+      "target": "cognition"
+    },
+    {
+      "confidence": 0.5,
+      "relation": "related_to",
+      "source": "arxiv:2611.05888v1",
+      "target": "cognition_social"
+    },
+    {
+      "confidence": 0.5,
+      "relation": "related_to",
+      "source": "arxiv:2611.05892v1",
+      "target": "llm_agent"
+    },
+    {
+      "confidence": 0.5,
+      "relation": "related_to",
+      "source": "arxiv:2611.05892v1",
+      "target": "architecture"
+    },
+    {
+      "confidence": 0.5,
+      "relation": "related_to",
+      "source": "arxiv:2611.05901v1",
+      "target": "llm_agent"
+    },
+    {
+      "confidence": 0.5,
+      "relation": "related_to",
+      "source": "arxiv:2611.05945v1",
+      "target": "gpu_graphics"
+    },
+    {
+      "confidence": 0.5,
+      "relation": "related_to",
       "source": "biorxiv:10.1101/2023.01.10.523479",
       "target": "cognition"
     },
@@ -8190,6 +8244,56 @@
       "type": "paper"
     },
     {
+      "id": "arxiv:2611.05802v1",
+      "label": "GREP: Grounding Generated Room Evaluation in Principles",
+      "topics": [
+        "gpu_graphics",
+        "llm_agent"
+      ],
+      "type": "paper"
+    },
+    {
+      "id": "arxiv:2611.05873v1",
+      "label": "Can LLM Agents Learn to Test? Maintaining Scoped Experience as Testing Evidence for Mobile GUI Testing",
+      "topics": [
+        "llm_agent"
+      ],
+      "type": "paper"
+    },
+    {
+      "id": "arxiv:2611.05888v1",
+      "label": "Compiling, Validating, and Using Human Reference Atlas Cell Type Annotation Crosswalks",
+      "topics": [
+        "cognition"
+      ],
+      "type": "paper"
+    },
+    {
+      "id": "arxiv:2611.05892v1",
+      "label": "When Is One Query per Template Enough? Adapting Learned Cost Models to New Hardware",
+      "topics": [
+        "llm_agent",
+        "architecture"
+      ],
+      "type": "paper"
+    },
+    {
+      "id": "arxiv:2611.05901v1",
+      "label": "Retrieval Supersedes Scale: Efficient Log Level Prediction via Multiplex Socio-Technical Context",
+      "topics": [
+        "llm_agent"
+      ],
+      "type": "paper"
+    },
+    {
+      "id": "arxiv:2611.05945v1",
+      "label": "FLINT: Coupling Proximal Initialization and Bounded Stochasticity for Flow-Matching Inverse Problems",
+      "topics": [
+        "gpu_graphics"
+      ],
+      "type": "paper"
+    },
+    {
       "id": "biorxiv:10.1101/2023.01.10.523479",
       "label": "How Occam's razor guides human decision-making",
       "topics": [
@@ -9223,5 +9327,5 @@
     }
   ],
   "public_json_version": "0.4",
-  "updated_at": "2026-11-04T02:08:42+00:00"
+  "updated_at": "2026-11-05T02:15:17+00:00"
 }

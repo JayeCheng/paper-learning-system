@@ -27034,6 +27034,415 @@
       "why_recommended": "Ranked by recency signal across configured topics."
     },
     {
+      "abstract": "Recent LLM-centric advances can generate attractive furnished rooms by selecting and arranging assets. Yet evaluation remains limited to specific perspectives or predefined questions, failing to reflect overall scene quality. To address this pressing need, we introduce GREP. Its core is a focus shift from defining specific questions to establishing a three-tier evaluation philosophy: basic physical validity checks whether a scene obeys physical constraints; visual coherence concerns compatibility in object scale, style, and composition; and, at the highest level, human-use logic requires object arrangements to align with everyday human habits. Guided by these principles, an evaluation agent autonomously and adaptively identifies issues from scene context, gathers evidence, and produces scores and reports. This supports scene-specific issue discovery and reliable judgments. Experiments show that (1) GREP achieves 87% agreement with human majority preferences, substantially outperforming baseline evaluators. (2) GREP reports improve scene quality through refinement, whereas score-only and no-feedback baselines show slight declines. (3) GREP suggests that as planning ability improves, recent models such as GPT-5.6 Sol can move from relying on pipelines and harnesses to challenging their guidance and constraints, but still lack the ability to resolve the resulting conflicts. Stronger models are therefore expected not only to plan well, but also to adapt to external guidance and constraints more flexibly. Project page: https://han-808.github.io/GREP/",
+      "authors": [
+        "Mohan Cao",
+        "Yongsen Mao",
+        "Chucheng Xiang",
+        "Zhongyuan Liu",
+        "Zhihang Zhong",
+        "Haiping Wang",
+        "Yuan Liu"
+      ],
+      "categories": [
+        "cs.CV",
+        "cs.AI",
+        "cs.GR"
+      ],
+      "citation_count": null,
+      "classic_status": null,
+      "code_url": null,
+      "deep_read_note_url": null,
+      "difficulty": null,
+      "enrichment_sources": [],
+      "existing_note_url": null,
+      "external_ids": {},
+      "field": null,
+      "fields_of_study": [],
+      "id": "arxiv:2611.05802v1",
+      "identifiers": {
+        "arxiv_id": "2611.05802v1"
+      },
+      "influential_citation_count": null,
+      "institutions": [],
+      "latest_note_url": null,
+      "note_count": 0,
+      "open_access_pdf_url": null,
+      "pdf_url": "https://arxiv.org/pdf/2611.05802v1",
+      "project_url": "https://han-808.github.io/GREP/",
+      "published_at": "2026-11-04",
+      "published_date": "2026-11-04",
+      "reading_advice": "quick_read",
+      "reading_status": "backlog",
+      "recommendation_level": "A",
+      "score": 0.817,
+      "scores": {
+        "classic_value": 0.35,
+        "engineering_transferability": 0.9500000000000001,
+        "recency": 1.0,
+        "source_quality": 0.78,
+        "total": 0.817,
+        "user_relevance": 0.75
+      },
+      "selected_for_s_level": false,
+      "source": "arxiv",
+      "source_group": "gpu_graphics",
+      "source_type": "recent_24h",
+      "source_url": "http://arxiv.org/abs/2611.05802v1",
+      "suggested_note_title": null,
+      "suggested_note_type": null,
+      "tags": [
+        "cs.CV",
+        "cs.AI",
+        "cs.GR"
+      ],
+      "title": "GREP: Grounding Generated Room Evaluation in Principles",
+      "title_zh": null,
+      "topics": [
+        "gpu_graphics",
+        "llm_agent"
+      ],
+      "url": "http://arxiv.org/abs/2611.05802v1",
+      "venue": null,
+      "why_recommended": "Ranked by recency signal across configured topics."
+    },
+    {
+      "abstract": "Repeated mobile GUI tests can reuse routes, locators, and recovery strategies from earlier executions. However, a route that worked in one workflow or app version may be irrelevant or misleading in another. We study how an LLM-based tester can retain useful experience while withholding entries contradicted by current observations. We present a maintenance contract for AdaptiTest in which reusable experience has an explicit applicability scope, trace provenance, and a lifecycle for confirmation, revalidation, and withdrawal. The contract reserves persistence for a Reflector role and treats recalled experience as advice. The archived implementation does not establish end-to-end enforcement of every specified mechanism. The design changes retrieved context, not model weights. The evaluation uses read-only Android workflows and archived internal comparisons. A six-task, three-repeat ready subset reports 18/18 completed runs with memory versus 3/18 without it, but a grounded single-agent control also solves the earlier hard-task slice. A separate cross-session probe is excluded from efficacy conclusions because of confounded route schedules and unvalidated state labels. We examine 13 selected real-update hazard records across nine subjects, distinguishing stale-locator observations from policy-based withholding and offline retrieval diagnostics. The latter do not measure live-device failures or actions saved. These events are UI changes, not confirmed regression bugs. The evidence supports a bounded design and case study; it does not establish general efficacy, superiority over independent GUI-agent systems, or unrestricted exploration.",
+      "authors": [
+        "Zimu Liu",
+        "Xiaoxi Guo",
+        "Xiaolu Tang",
+        "Liang Yu"
+      ],
+      "categories": [
+        "cs.SE"
+      ],
+      "citation_count": null,
+      "classic_status": null,
+      "code_url": null,
+      "deep_read_note_url": null,
+      "difficulty": null,
+      "enrichment_sources": [],
+      "existing_note_url": null,
+      "external_ids": {},
+      "field": null,
+      "fields_of_study": [],
+      "id": "arxiv:2611.05873v1",
+      "identifiers": {
+        "arxiv_id": "2611.05873v1"
+      },
+      "influential_citation_count": null,
+      "institutions": [],
+      "latest_note_url": null,
+      "note_count": 0,
+      "open_access_pdf_url": null,
+      "pdf_url": "https://arxiv.org/pdf/2611.05873v1",
+      "project_url": null,
+      "published_at": "2026-11-04",
+      "published_date": "2026-11-04",
+      "reading_advice": "quick_read",
+      "reading_status": "backlog",
+      "recommendation_level": "A",
+      "score": 0.787,
+      "scores": {
+        "classic_value": 0.35,
+        "engineering_transferability": 0.8,
+        "recency": 1.0,
+        "source_quality": 0.78,
+        "total": 0.787,
+        "user_relevance": 0.75
+      },
+      "selected_for_s_level": false,
+      "source": "arxiv",
+      "source_group": "llm_agent",
+      "source_type": "recent_24h",
+      "source_url": "http://arxiv.org/abs/2611.05873v1",
+      "suggested_note_title": null,
+      "suggested_note_type": null,
+      "tags": [
+        "cs.SE"
+      ],
+      "title": "Can LLM Agents Learn to Test? Maintaining Scoped Experience as Testing Evidence for Mobile GUI Testing",
+      "title_zh": null,
+      "topics": [
+        "llm_agent"
+      ],
+      "url": "http://arxiv.org/abs/2611.05873v1",
+      "venue": null,
+      "why_recommended": "Ranked by recency signal across configured topics."
+    },
+    {
+      "abstract": "The Human Reference Atlas (HRA) v2.5 includes 4,807 anatomical structures, 1,347 cell types, and 2,215 biomarkers (genes, proteins, lipids); 81 organs with 1,392 anatomical structures modeled in three dimensions (3D). Mapping new data into the HRA requires 3D spatial registration and/or cell type annotation (CTann). Many CTann tools exist but few use cell type names linked to Cell Ontology (CL), making comparisons across tools, tissues, and organs difficult. The HRA supports five transcriptomics CTann tools (Azimuth, CellTypist, popV, FR-Match, Pan-Human Azimuth), four sc-proteomics CTann tools (DeepCell Types, DeepCell Types-HuBMAP, Robust Image-Based Cell Annotator [RIBCA], and SpaTial cELl LeARning [STELLAR]), plus a Cell Distance Explorer (CDE) Spatial Omics collection covering previously published annotations across 12 tissue types with 47,349,496 cells. Assigned cell types differ in number, resolution, and coverage. This paper details how 10 crosswalks were constructed, validated, and used to compile a \"Supertree\" that can be used to compare CTann across organs and technologies in support of reference atlas constitution and usage. All data and code can be accessed at https://cns-iu.github.io/hra-ctann-supporting-information.",
+      "authors": [
+        "Nicole Vasilevsky",
+        "Aleix Puig-Barbe",
+        "Andreas Bueckle",
+        "Ellen M. Quardokus",
+        "Yongxin Kong",
+        "Divya Prasanth Paraman",
+        "Jie Zheng",
+        "Yongqun He",
+        "Yashvardhan Jain",
+        "Bruce W. Herr",
+        "Katy B\u00f6rner"
+      ],
+      "categories": [
+        "cs.HC"
+      ],
+      "citation_count": null,
+      "classic_status": null,
+      "code_url": null,
+      "deep_read_note_url": null,
+      "difficulty": null,
+      "enrichment_sources": [],
+      "existing_note_url": null,
+      "external_ids": {},
+      "field": null,
+      "fields_of_study": [],
+      "id": "arxiv:2611.05888v1",
+      "identifiers": {
+        "arxiv_id": "2611.05888v1"
+      },
+      "influential_citation_count": null,
+      "institutions": [],
+      "latest_note_url": null,
+      "note_count": 0,
+      "open_access_pdf_url": null,
+      "pdf_url": "https://arxiv.org/pdf/2611.05888v1",
+      "project_url": "https://cns-iu.github.io/hra-ctann-supporting-information",
+      "published_at": "2026-11-04",
+      "published_date": "2026-11-04",
+      "reading_advice": "quick_read",
+      "reading_status": "backlog",
+      "recommendation_level": "A",
+      "score": 0.747,
+      "scores": {
+        "classic_value": 0.35,
+        "engineering_transferability": 0.6,
+        "recency": 1.0,
+        "source_quality": 0.78,
+        "total": 0.747,
+        "user_relevance": 0.75
+      },
+      "selected_for_s_level": false,
+      "source": "arxiv",
+      "source_group": "cognition_social",
+      "source_type": "recent_24h",
+      "source_url": "http://arxiv.org/abs/2611.05888v1",
+      "suggested_note_title": null,
+      "suggested_note_type": null,
+      "tags": [
+        "cs.HC"
+      ],
+      "title": "Compiling, Validating, and Using Human Reference Atlas Cell Type Annotation Crosswalks",
+      "title_zh": null,
+      "topics": [
+        "cognition"
+      ],
+      "url": "http://arxiv.org/abs/2611.05888v1",
+      "venue": null,
+      "why_recommended": "Ranked by recency signal across configured topics."
+    },
+    {
+      "abstract": "A learned cost model that predicts query runtimes is trained on measurements from one machine. When the database moves to other hardware, its plans stay the same but their runtimes change, each by its own factor. We ask how to adapt such a model from k queries measured on the new machine: which queries to run, how to use their runtimes, and how many are enough. On PostgreSQL we timed the same plans of 1,162 TPC-H and TPC-DS queries in six environments: a laptop and a server, each with all its processors or pinned to one, the server also pinned to two, and the laptop also with a small buffer pool. No single factor describes the slowdown between two environments: most of its variance lies between query templates, so a speed factor stops improving after a few queries. A correction that fits separate lines for serial and parallel plans and adds an offset for every measured template brings the moved model, with one measured query per template, to an error (geometric mean over templates of the median Q-error) of 1.10 on TPC-H and 1.19 on TPC-DS, close to the same correction on a model trained on the new machine; fine-tuning a DACE-style neural cost model on the same queries gains at most 2%. On templates never measured, no correction we tried is on average more than 2% better than the speed factor. We then fixed hypotheses and timed new data. On TPC-H at ten times the scale the errors follow these results, but two of five repeated tests miss. On the Join Order Benchmark, whose queries differ widely within a template, the model errs by 2.36 even when retrained on the new machine, no correction gains much, and only the test on new templates holds; boosted trees and a neural model fit these queries better, and correcting the neural model works as well as fine-tuning it. We report every test as registered.",
+      "authors": [
+        "Krish Patel"
+      ],
+      "categories": [
+        "cs.DB",
+        "cs.LG",
+        "cs.PF"
+      ],
+      "citation_count": null,
+      "classic_status": null,
+      "code_url": "https://github.com/KrishPatel13/query-runtime-transfer",
+      "deep_read_note_url": null,
+      "difficulty": null,
+      "enrichment_sources": [],
+      "existing_note_url": null,
+      "external_ids": {},
+      "field": null,
+      "fields_of_study": [],
+      "id": "arxiv:2611.05892v1",
+      "identifiers": {
+        "arxiv_id": "2611.05892v1"
+      },
+      "influential_citation_count": null,
+      "institutions": [],
+      "latest_note_url": null,
+      "note_count": 0,
+      "open_access_pdf_url": null,
+      "pdf_url": "https://arxiv.org/pdf/2611.05892v1",
+      "project_url": null,
+      "published_at": "2026-11-04",
+      "published_date": "2026-11-04",
+      "reading_advice": "quick_read",
+      "reading_status": "backlog",
+      "recommendation_level": "A",
+      "score": 0.817,
+      "scores": {
+        "classic_value": 0.35,
+        "engineering_transferability": 0.9500000000000001,
+        "recency": 1.0,
+        "source_quality": 0.78,
+        "total": 0.817,
+        "user_relevance": 0.75
+      },
+      "selected_for_s_level": false,
+      "source": "arxiv",
+      "source_group": "architecture",
+      "source_type": "recent_24h",
+      "source_url": "http://arxiv.org/abs/2611.05892v1",
+      "suggested_note_title": null,
+      "suggested_note_type": null,
+      "tags": [
+        "cs.DB",
+        "cs.LG",
+        "cs.PF"
+      ],
+      "title": "When Is One Query per Template Enough? Adapting Learned Cost Models to New Hardware",
+      "title_zh": null,
+      "topics": [
+        "llm_agent",
+        "architecture"
+      ],
+      "url": "http://arxiv.org/abs/2611.05892v1",
+      "venue": null,
+      "why_recommended": "Ranked by recency signal across configured topics."
+    },
+    {
+      "abstract": "Developers insert logging statements in source code to record its execution, and the resulting logs are essential for detecting and troubleshooting system anomalies. A key part of these statements is the log level (e.g., DEBUG, INFO, WARN, ERROR), which determines whether a message is recorded. Choosing it is a trade-off: levels set too low mask important information in production, while levels set too high create noisy logs and extra I/O and storage overhead. Recent work uses Large Language Models (LLMs) with In-Context Learning (ICL) to predict log levels, but typically augments the prompt with randomly sampled examples. We argue that this overlooks the socio-technical nature of logging, where conventions vary by component and development team. Off-the-shelf LLMs using random examples are reported to achieve median AUCs of only 0.56 to 0.76, leaving room for improvement without fine-tuning. In this paper, we propose a retrieval approach for LLM-powered log level prediction that prioritizes context relevance over random selection and basic similarity. Our method retrieves logging examples relevant along two socio-technical dimensions: (i) functionality (code performing similar operations) and (ii) ownership (code maintained by the same developers). Evaluating four LLMs across ten popular Java projects, we find that this retrieval improves AUC over random baselines by 0.07 (median), and combining both signals yields median AUCs of 0.83 to 0.97. Our ablation studies show that each signal improves on random retrieval, and that combining them outperforms the stronger of the two on all ten projects. Our results also significantly exceed state-of-the-art supervised predictors (e.g., DeepLV) by a median AUC of 0.12 to 0.19. Our findings highlight the importance of socio-technical signals such as code functionality and ownership for LLM-powered log level prediction.",
+      "authors": [
+        "Youssef Esseddiq Ouatiti",
+        "Mohammed Sayagh",
+        "Bram Adams",
+        "Ahmed E. Hassan"
+      ],
+      "categories": [
+        "cs.SE",
+        "cs.LG"
+      ],
+      "citation_count": null,
+      "classic_status": null,
+      "code_url": null,
+      "deep_read_note_url": null,
+      "difficulty": null,
+      "enrichment_sources": [],
+      "existing_note_url": null,
+      "external_ids": {},
+      "field": null,
+      "fields_of_study": [],
+      "id": "arxiv:2611.05901v1",
+      "identifiers": {
+        "arxiv_id": "2611.05901v1"
+      },
+      "influential_citation_count": null,
+      "institutions": [],
+      "latest_note_url": null,
+      "note_count": 0,
+      "open_access_pdf_url": null,
+      "pdf_url": "https://arxiv.org/pdf/2611.05901v1",
+      "project_url": null,
+      "published_at": "2026-11-04",
+      "published_date": "2026-11-04",
+      "reading_advice": "quick_read",
+      "reading_status": "backlog",
+      "recommendation_level": "A",
+      "score": 0.787,
+      "scores": {
+        "classic_value": 0.35,
+        "engineering_transferability": 0.8,
+        "recency": 1.0,
+        "source_quality": 0.78,
+        "total": 0.787,
+        "user_relevance": 0.75
+      },
+      "selected_for_s_level": false,
+      "source": "arxiv",
+      "source_group": "llm_agent",
+      "source_type": "recent_24h",
+      "source_url": "http://arxiv.org/abs/2611.05901v1",
+      "suggested_note_title": null,
+      "suggested_note_type": null,
+      "tags": [
+        "cs.SE",
+        "cs.LG"
+      ],
+      "title": "Retrieval Supersedes Scale: Efficient Log Level Prediction via Multiplex Socio-Technical Context",
+      "title_zh": null,
+      "topics": [
+        "llm_agent"
+      ],
+      "url": "http://arxiv.org/abs/2611.05901v1",
+      "venue": null,
+      "why_recommended": "Ranked by recency signal across configured topics."
+    },
+    {
+      "abstract": "Flow matching models have emerged as a dominant paradigm for generative posterior sampling in imaging inverse problems. Existing solvers follow two distinct lines of work: trajectory-space methods, which refine sampling dynamics from random initial noise, and source-space methods, which optimize the initial noise itself. While most prior work treats these as independent design choices, we show that they are inherently coupled. We derive a unified stability bound that links initialization proximity and cumulative sampling stochasticity through a multiplicative envelope, complemented by two empirical observations. First, we identify a sufficiency regime in which a moderately optimized proximal source initialization is enough to attain the performance plateau, rendering exhaustive source-space optimization unnecessary. Second, this initial advantage is fragile: it is eroded by excessive stochasticity accumulation during guided sampling, necessitating a mechanism that bounds the cumulative noise injection. These findings motivate FLINT, a two-stage framework that operationalizes this coupling. FLINT establishes a high-fidelity starting point via a manifold-constrained proximal objective in only a few iterations, then performs guided sampling under a bounded stochasticity schedule that helps prevent erasure of the initialization advantage. Across diverse inverse problems, FLINT delivers state of the art perceptual quality and competitive distortion metrics while maintaining superior computational efficiency.",
+      "authors": [
+        "Junseo Bang",
+        "Daewon Choi",
+        "Dong Ju Mun",
+        "Se Young Chun"
+      ],
+      "categories": [
+        "cs.CV"
+      ],
+      "citation_count": null,
+      "classic_status": null,
+      "code_url": null,
+      "deep_read_note_url": null,
+      "difficulty": null,
+      "enrichment_sources": [],
+      "existing_note_url": null,
+      "external_ids": {},
+      "field": null,
+      "fields_of_study": [],
+      "id": "arxiv:2611.05945v1",
+      "identifiers": {
+        "arxiv_id": "2611.05945v1"
+      },
+      "influential_citation_count": null,
+      "institutions": [],
+      "latest_note_url": null,
+      "note_count": 0,
+      "open_access_pdf_url": null,
+      "pdf_url": "https://arxiv.org/pdf/2611.05945v1",
+      "project_url": "https://junseo88.github.io/FLINT/",
+      "published_at": "2026-11-04",
+      "published_date": "2026-11-04",
+      "reading_advice": "quick_read",
+      "reading_status": "backlog",
+      "recommendation_level": "A",
+      "score": 0.747,
+      "scores": {
+        "classic_value": 0.35,
+        "engineering_transferability": 0.6,
+        "recency": 1.0,
+        "source_quality": 0.78,
+        "total": 0.747,
+        "user_relevance": 0.75
+      },
+      "selected_for_s_level": false,
+      "source": "arxiv",
+      "source_group": "gpu_graphics",
+      "source_type": "recent_24h",
+      "source_url": "http://arxiv.org/abs/2611.05945v1",
+      "suggested_note_title": null,
+      "suggested_note_type": null,
+      "tags": [
+        "cs.CV"
+      ],
+      "title": "FLINT: Coupling Proximal Initialization and Bounded Stochasticity for Flow-Matching Inverse Problems",
+      "title_zh": null,
+      "topics": [
+        "gpu_graphics"
+      ],
+      "url": "http://arxiv.org/abs/2611.05945v1",
+      "venue": null,
+      "why_recommended": "Ranked by recency signal across configured topics."
+    },
+    {
       "abstract": "Occam's razor is the principle that, all else being equal, simpler explanations should be preferred over more complex ones. This principle is thought to guide human decision-making, but the nature of this guidance is not known. Here we used preregistered behavioral experiments to show that people tend to prefer the simpler of two alternative explanations for uncertain data. These preferences align quantitatively with predictions of formal theories of model selection that penalize excessive flexibility. These penalties emerge when considering not just the best explanation but the integral over all possible, relevant explanations. We further show that these simplicity preferences persist in humans, but not in certain artificial neural networks, even when they are maladaptive. Our results imply that principled notions of statistical model selection, including integrating over possible, latent causes to avoid overfitting to noisy data, may play a central role in human decision-making.",
       "authors": [
         "Piasini, E.",
@@ -36201,5 +36610,5 @@
     }
   ],
   "public_json_version": "0.4",
-  "updated_at": "2026-11-04T02:08:42+00:00"
+  "updated_at": "2026-11-05T02:15:17+00:00"
 }
