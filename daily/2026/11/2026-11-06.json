@@ -1,0 +1,448 @@
+{
+  "date": "2026-11-06",
+  "frontend_entry": "data/public/latest.json",
+  "generated_at": "2026-11-06T02:14:50+00:00",
+  "generated_paths": {
+    "exports_csv": "data/exports/papers.csv",
+    "exports_daily_csv": "data/exports/daily_papers.csv",
+    "exports_jsonl": "data/exports/papers.jsonl",
+    "exports_notes_index": "data/exports/notes_index.csv",
+    "exports_reading_status": "data/exports/reading_status.csv",
+    "json": "daily/2026/11/2026-11-06.json",
+    "markdown": "daily/2026/11/2026-11-06.md",
+    "public_curriculum_progress": "data/public/curriculum_progress.json",
+    "public_daily_index": "data/public/daily_index.json",
+    "public_knowledge_graph": "data/public/knowledge_graph.json",
+    "public_latest": "data/public/latest.json",
+    "public_notes_index": "data/public/notes_index.json",
+    "public_papers_index": "data/public/papers_index.json",
+    "public_reading_status": "data/public/reading_status.json",
+    "state_notes_index": "data/state/notes_index.json",
+    "state_papers": "data/state/papers.jsonl",
+    "state_reading_status": "data/state/reading_status.json",
+    "state_run_history": "data/state/run_history.json"
+  },
+  "knowledge_graph_delta": [
+    "paper:arxiv:2611.07328v1",
+    "paper:arxiv:2611.07289v1",
+    "paper:arxiv:2611.07358v1",
+    "paper:arxiv:2611.07442v1",
+    "paper:arxiv:2611.07444v1",
+    "paper:arxiv:2611.07386v1"
+  ],
+  "learning_route_position": "v0.4 GitHub-owned note bridge",
+  "next_actions": [
+    "Review S-level candidate",
+    "Update reading status after skim",
+    "Promote durable concepts into the knowledge graph"
+  ],
+  "papers": [
+    {
+      "abstract": "The medial axis, as a compact representation, describes not only the boundary but also the interior of the shape, and has been widely used in analyzing and simplifying shapes. However, approximating feature-preserving medial axis from unstructured data, such as oriented point clouds, remains challenging due to the lack of explicit connectivity and the presence of noise in the source. We propose DC-SQEM, a dual-contouring-based framework that computes medial meshes (an explicit representation of the medial axis) directly from oriented point clouds without relying on watertight manifold surfaces or volumetric structures. With the help of an adaptive octree, our method fits local medial spheres for each cell based on the Spherical Quadric Error Metric (SQEM). We address several long-standing robustness issues in dual-contouring and mesh extraction, including out-of-cell solutions, unstable feature classification, and redundant topological connections. To this end, we introduce virtual nodes, a feature-downgrading strategy, and a geometry-driven topology-aware cleanup procedure, enabling robust SQEM-based medial dual contouring with clean mesh outputs. Unlike prior point-cloud-based methods that produce either only 1D skeletal structures or incomplete medial features, our method preserves sharp geometric features from the input and reconstructs a complete medial structure, including sheets, curves, seams, and junctions. Compared to restricted-power-diagram-based approaches, our algorithm can handle point clouds as input, without having a strong requirement on water-tightness or manifoldness.",
+      "authors": [
+        "Bingchuan Li",
+        "Ruilong Liu",
+        "Tianhao Hu",
+        "Congyi Zhang",
+        "Ningna Wang",
+        "Junfeng Yao",
+        "Xiaohu Guo"
+      ],
+      "categories": [
+        "cs.GR"
+      ],
+      "citation_count": null,
+      "classic_status": null,
+      "code_url": null,
+      "deep_read_note_url": null,
+      "difficulty": null,
+      "enrichment_sources": [],
+      "existing_note_url": null,
+      "external_ids": {},
+      "field": null,
+      "fields_of_study": [],
+      "id": "arxiv:2611.07328v1",
+      "identifiers": {
+        "arxiv_id": "2611.07328v1"
+      },
+      "influential_citation_count": null,
+      "institutions": [],
+      "latest_note_url": null,
+      "note_count": 0,
+      "open_access_pdf_url": null,
+      "pdf_url": "https://arxiv.org/pdf/2611.07328v1",
+      "project_url": null,
+      "published_at": "2026-11-05",
+      "published_date": "2026-11-05",
+      "reading_advice": "quick_read",
+      "reading_status": "backlog",
+      "recommendation_level": "A",
+      "score": 0.787,
+      "scores": {
+        "classic_value": 0.35,
+        "engineering_transferability": 0.8,
+        "recency": 1.0,
+        "source_quality": 0.78,
+        "total": 0.787,
+        "user_relevance": 0.75
+      },
+      "selected_for_s_level": false,
+      "source": "arxiv",
+      "source_group": "gpu_graphics",
+      "source_type": "recent_24h",
+      "source_url": "http://arxiv.org/abs/2611.07328v1",
+      "suggested_note_title": null,
+      "suggested_note_type": null,
+      "tags": [
+        "cs.GR"
+      ],
+      "title": "DC-SQEM: Medial Mesh Extraction by Dual Contouring with Spherical Quadric Error Metric",
+      "title_zh": null,
+      "topics": [
+        "gpu_graphics"
+      ],
+      "url": "http://arxiv.org/abs/2611.07328v1",
+      "venue": null,
+      "why_recommended": "Ranked by recency signal across configured topics."
+    },
+    {
+      "abstract": "We propose a lightweight neural texture upscaling method. A single generalized MLP is trained on a diverse collection of texture patches and integrated into the texture sampling stage, upscaling low-resolution textures on-the-fly at rendering time. Because the model is generalized rather than overfit to specific content, no per-asset training is required - the same model applies to any existing scene without modifying texture data or the asset pipeline. Storing lower-resolution base textures reduces disk footprint, upscaling at sampling time eliminates the need to store high-resolution textures in VRAM, and sharing a single set of model weights across all textures ensures non-divergent GPU execution. We evaluate our method across multiple texture classes, demonstrating consistent improvement over analytic upscaling methods in perceptual quality.",
+      "authors": [
+        "Shin Fujieda",
+        "Takahiro Harada"
+      ],
+      "categories": [
+        "cs.GR"
+      ],
+      "citation_count": null,
+      "classic_status": null,
+      "code_url": null,
+      "deep_read_note_url": null,
+      "difficulty": null,
+      "enrichment_sources": [],
+      "existing_note_url": null,
+      "external_ids": {},
+      "field": null,
+      "fields_of_study": [],
+      "id": "arxiv:2611.07289v1",
+      "identifiers": {
+        "arxiv_id": "2611.07289v1"
+      },
+      "influential_citation_count": null,
+      "institutions": [],
+      "latest_note_url": null,
+      "note_count": 0,
+      "open_access_pdf_url": null,
+      "pdf_url": "https://arxiv.org/pdf/2611.07289v1",
+      "project_url": null,
+      "published_at": "2026-11-05",
+      "published_date": "2026-11-05",
+      "reading_advice": "quick_read",
+      "reading_status": "backlog",
+      "recommendation_level": "A",
+      "score": 0.787,
+      "scores": {
+        "classic_value": 0.35,
+        "engineering_transferability": 0.8,
+        "recency": 1.0,
+        "source_quality": 0.78,
+        "total": 0.787,
+        "user_relevance": 0.75
+      },
+      "selected_for_s_level": false,
+      "source": "arxiv",
+      "source_group": "gpu_graphics",
+      "source_type": "recent_24h",
+      "source_url": "http://arxiv.org/abs/2611.07289v1",
+      "suggested_note_title": null,
+      "suggested_note_type": null,
+      "tags": [
+        "cs.GR"
+      ],
+      "title": "Patch-Based Generalized Neural Texture Upscaling",
+      "title_zh": null,
+      "topics": [
+        "gpu_graphics"
+      ],
+      "url": "http://arxiv.org/abs/2611.07289v1",
+      "venue": null,
+      "why_recommended": "Ranked by recency signal across configured topics."
+    },
+    {
+      "abstract": "Cardiac physiological monitoring is fundamental to evaluating cardiovascular health and diagnosing related diseases. Non-contact radar sensing can capture chest-wall vibrations with spatial specificity, enabling localized physiological monitoring and cardiac assessment. Progress, however, has been limited by the absence of a reliable, research-grade hardware platform for rigorous validation of radar-based methods. Prior systems typically pair radar, namely Doppler cardiography (DCG), with only electrocardiography (ECG) or other coarse references, providing no direct mechanical ground truth and thus constraining fine-grained evaluation of radar outputs. We present a tri-modality wireless system that integrates ECG, seismocardiography (SCG), and DCG under a unified acquisition and control framework for time-aligned recording and analysis. The tri-modality system combines miniaturized wearable ECG/SCG modules with a high-resolution mmWave radar module, supporting spatially resolved sensing and subsequent feature extraction. To our knowledge, this is the first integrated ECG--SCG--DCG hardware system for comprehensive cardiac monitoring; it enables multi-point thoracic acquisition, achieves precise cross-modal synchronization, and maintains specifications suitable for wearable operation. Experiments on a linear-motion platform show close agreement between DCG- and SCG-derived displacements, confirming accurate displacement measurement. Human-subject studies further demonstrate cross-modal consistency and robust extraction of feature points, establishing ECG as the electrical anchor and SCG as the mechanical ground truth for DCG. Overall, the system provides a rigorous, spatially resolved validation platform that advances non-contact cardiac sensing and supports next-generation radar-based monitoring.",
+      "authors": [
+        "Wei Ren",
+        "Kaili Zhao",
+        "Huansheng Yi",
+        "Miaoyang Hu",
+        "Jianqi Wang",
+        "Canhua Xu",
+        "Fugui Qi"
+      ],
+      "categories": [
+        "cs.AR",
+        "eess.SP",
+        "eess.SY"
+      ],
+      "citation_count": null,
+      "classic_status": null,
+      "code_url": null,
+      "deep_read_note_url": null,
+      "difficulty": null,
+      "enrichment_sources": [],
+      "existing_note_url": null,
+      "external_ids": {},
+      "field": null,
+      "fields_of_study": [],
+      "id": "arxiv:2611.07358v1",
+      "identifiers": {
+        "arxiv_id": "2611.07358v1"
+      },
+      "influential_citation_count": null,
+      "institutions": [],
+      "latest_note_url": null,
+      "note_count": 0,
+      "open_access_pdf_url": null,
+      "pdf_url": "https://arxiv.org/pdf/2611.07358v1",
+      "project_url": null,
+      "published_at": "2026-11-05",
+      "published_date": "2026-11-05",
+      "reading_advice": "quick_read",
+      "reading_status": "backlog",
+      "recommendation_level": "A",
+      "score": 0.787,
+      "scores": {
+        "classic_value": 0.35,
+        "engineering_transferability": 0.8,
+        "recency": 1.0,
+        "source_quality": 0.78,
+        "total": 0.787,
+        "user_relevance": 0.75
+      },
+      "selected_for_s_level": false,
+      "source": "arxiv",
+      "source_group": "architecture",
+      "source_type": "recent_24h",
+      "source_url": "http://arxiv.org/abs/2611.07358v1",
+      "suggested_note_title": null,
+      "suggested_note_type": null,
+      "tags": [
+        "cs.AR",
+        "eess.SP",
+        "eess.SY"
+      ],
+      "title": "A Synchronized Tri-Modality Wireless System for Multi-Point Non-Contact Cardiac Monitoring",
+      "title_zh": null,
+      "topics": [
+        "architecture"
+      ],
+      "url": "http://arxiv.org/abs/2611.07358v1",
+      "venue": null,
+      "why_recommended": "Ranked by recency signal across configured topics."
+    },
+    {
+      "abstract": "Memory-safety concerns make Rust an attractive target for modernizing legacy C/C++ systems, yet project-level C++ migration must balance semantic fidelity with Rust-oriented reconstruction. Source-structure-preserving migration can track low-level behavior, but it can also carry source-language organization, unsafe idioms, and project assumptions into Rust. Direct agent-based translation gives the model more freedom to construct a Rust project, but semantic coverage depends on the model identifying the source behaviors that must be preserved. This problem is especially acute for C++, where source behaviors are often hidden in object models, destructor-driven lifetime protocols, and other hard-to-localize C++ semantics. This paper presents Req2Rust, the first project-level LLM-based C++-to-Rust migration harness. Req2Rust first derives an evidence-grounded Migration Requirements Specification (MRS) that records the behaviors and constraints that must be preserved. It then synthesizes a Rust Design Specification (RDS) and realizes it as an initial Rust project. Because real projects contain implementation details and idioms that only become visible during build and validation, Req2Rust treats the initial Rust project as an executable refinement state. Compiler, semantic, and unsafe-reduction validators produce validation reports for improving buildability, behavioral alignment, and unsafe usage. We evaluate Req2Rust on general C++ projects and modules from the large-scale Openharmony codebase against a ClaudeCode baseline. Req2Rust produces buildable Rust crates in both settings and improves test pass rate from 69.5% to 91.9% on general projects and from 45.4% to 87.9% on Openharmony modules.",
+      "authors": [
+        "Shengbo Wang",
+        "Mingwei Liu",
+        "Yuwen Chen",
+        "Yanlin Wang"
+      ],
+      "categories": [
+        "cs.SE"
+      ],
+      "citation_count": null,
+      "classic_status": null,
+      "code_url": null,
+      "deep_read_note_url": null,
+      "difficulty": null,
+      "enrichment_sources": [],
+      "existing_note_url": null,
+      "external_ids": {},
+      "field": null,
+      "fields_of_study": [],
+      "id": "arxiv:2611.07442v1",
+      "identifiers": {
+        "arxiv_id": "2611.07442v1"
+      },
+      "influential_citation_count": null,
+      "institutions": [],
+      "latest_note_url": null,
+      "note_count": 0,
+      "open_access_pdf_url": null,
+      "pdf_url": "https://arxiv.org/pdf/2611.07442v1",
+      "project_url": null,
+      "published_at": "2026-11-05",
+      "published_date": "2026-11-05",
+      "reading_advice": "quick_read",
+      "reading_status": "backlog",
+      "recommendation_level": "A",
+      "score": 0.787,
+      "scores": {
+        "classic_value": 0.35,
+        "engineering_transferability": 0.8,
+        "recency": 1.0,
+        "source_quality": 0.78,
+        "total": 0.787,
+        "user_relevance": 0.75
+      },
+      "selected_for_s_level": false,
+      "source": "arxiv",
+      "source_group": "llm_agent",
+      "source_type": "recent_24h",
+      "source_url": "http://arxiv.org/abs/2611.07442v1",
+      "suggested_note_title": null,
+      "suggested_note_type": null,
+      "tags": [
+        "cs.SE"
+      ],
+      "title": "Req2Rust: A Requirements-Guided Agent Harness for Project-Level C++-to-Rust Migration",
+      "title_zh": null,
+      "topics": [
+        "llm_agent"
+      ],
+      "url": "http://arxiv.org/abs/2611.07442v1",
+      "venue": null,
+      "why_recommended": "Ranked by recency signal across configured topics."
+    },
+    {
+      "abstract": "Accurate forecasting of renewable generation requires not only point predictions but also reliable estimates of the uncertainty attached to them, particularly at extended horizons. Machine learning models are increasingly used to predict solar output, but they typically report a single value and capture the associated uncertainty poorly. The standard remedy is to train a model to predict the parameters of an assumed probability distribution directly. Here we develop an alternative two-stage method, motivated by synthetic solar signal generation, in which the forecast error is modeled separately from the expected irradiance. A first long short-term memory (LSTM) network predicts the expected global horizontal irradiance, and a second network models the distribution of the forecast error, which is added back to the mean to give both the forecast and its uncertainty. Using historical weather data from the National Solar Radiation Database and a probability integral transform evaluation, we show that explicitly modeling the error brings the predicted standard deviation markedly closer to the historical value, reducing the deviation between the two by 34.6 percent for a standalone LSTM and by 56.5 percent when the LSTM is coupled to Gaussian process regression, the most reliable of the configurations tested. Because the method models the total forecast error directly, it captures the full predictive uncertainty that matters for decisions, rather than only the model contribution that dropout-based approaches estimate.",
+      "authors": [
+        "RR Flanagan",
+        "E Kasha",
+        "PW Talbot",
+        "AS Epiny",
+        "MR Deinert"
+      ],
+      "categories": [
+        "cs.LG",
+        "eess.SY"
+      ],
+      "citation_count": null,
+      "classic_status": null,
+      "code_url": null,
+      "deep_read_note_url": null,
+      "difficulty": null,
+      "enrichment_sources": [],
+      "existing_note_url": null,
+      "external_ids": {},
+      "field": null,
+      "fields_of_study": [],
+      "id": "arxiv:2611.07444v1",
+      "identifiers": {
+        "arxiv_id": "2611.07444v1"
+      },
+      "influential_citation_count": null,
+      "institutions": [],
+      "latest_note_url": null,
+      "note_count": 0,
+      "open_access_pdf_url": null,
+      "pdf_url": "https://arxiv.org/pdf/2611.07444v1",
+      "project_url": null,
+      "published_at": "2026-11-05",
+      "published_date": "2026-11-05",
+      "reading_advice": "save_for_later",
+      "reading_status": "backlog",
+      "recommendation_level": "B",
+      "score": 0.717,
+      "scores": {
+        "classic_value": 0.35,
+        "engineering_transferability": 0.45,
+        "recency": 1.0,
+        "source_quality": 0.78,
+        "total": 0.717,
+        "user_relevance": 0.75
+      },
+      "selected_for_s_level": false,
+      "source": "arxiv",
+      "source_group": "llm_agent",
+      "source_type": "recent_24h",
+      "source_url": "http://arxiv.org/abs/2611.07444v1",
+      "suggested_note_title": null,
+      "suggested_note_type": null,
+      "tags": [
+        "cs.LG",
+        "eess.SY"
+      ],
+      "title": "Two-stage residual learning for calibrated uncertainty in solar irradiance forecasts",
+      "title_zh": null,
+      "topics": [
+        "llm_agent"
+      ],
+      "url": "http://arxiv.org/abs/2611.07444v1",
+      "venue": null,
+      "why_recommended": "Ranked by recency signal across configured topics."
+    },
+    {
+      "abstract": "Cybersickness is a major barrier to comfortable VR use, and reliable prediction often requires multiple physiological and behavioral sensors. However, existing models typically assume a fixed set of modalities, making them vulnerable when sensors are unavailable and difficult to generalize across datasets with different sensor configurations. We adapt a transformer-based model that handles arbitrary sensor combinations without imputing missing data. Anchor-based contrastive learning maps heterogeneous sensor embeddings into a shared latent space using eye tracking as the anchor modality, while masked self-attention excludes unavailable sensors during fusion. We evaluate our approach on three publicly available cybersickness datasets: VR.net, SIM21, and Blur-Rollercoaster, collected using different VR systems and sensor configurations. Across single-sensor dropout conditions, prediction error changes by less than 0.09 MAE. Joint training across all datasets achieves 0.51 MAE and 0.63 Pearson correlation, substantially outperforming single-dataset models. These results demonstrate robust and generalizable cybersickness prediction across diverse VR systems.",
+      "authors": [
+        "Purnata Saha",
+        "Rifatul Islam",
+        "John Quarles"
+      ],
+      "categories": [
+        "cs.HC"
+      ],
+      "citation_count": null,
+      "classic_status": null,
+      "code_url": null,
+      "deep_read_note_url": null,
+      "difficulty": null,
+      "enrichment_sources": [],
+      "existing_note_url": null,
+      "external_ids": {},
+      "field": null,
+      "fields_of_study": [],
+      "id": "arxiv:2611.07386v1",
+      "identifiers": {
+        "arxiv_id": "2611.07386v1"
+      },
+      "influential_citation_count": null,
+      "institutions": [],
+      "latest_note_url": null,
+      "note_count": 0,
+      "open_access_pdf_url": null,
+      "pdf_url": "https://arxiv.org/pdf/2611.07386v1",
+      "project_url": null,
+      "published_at": "2026-11-05",
+      "published_date": "2026-11-05",
+      "reading_advice": "save_for_later",
+      "reading_status": "backlog",
+      "recommendation_level": "B",
+      "score": 0.717,
+      "scores": {
+        "classic_value": 0.35,
+        "engineering_transferability": 0.45,
+        "recency": 1.0,
+        "source_quality": 0.78,
+        "total": 0.717,
+        "user_relevance": 0.75
+      },
+      "selected_for_s_level": false,
+      "source": "arxiv",
+      "source_group": "cognition_social",
+      "source_type": "recent_24h",
+      "source_url": "http://arxiv.org/abs/2611.07386v1",
+      "suggested_note_title": null,
+      "suggested_note_type": null,
+      "tags": [
+        "cs.HC"
+      ],
+      "title": "Breaking the Modality Barrier: Multimodal Fusion With Missing Modalities for Cybersickness Prediction",
+      "title_zh": null,
+      "topics": [
+        "cognition"
+      ],
+      "url": "http://arxiv.org/abs/2611.07386v1",
+      "venue": null,
+      "why_recommended": "Ranked by recency signal across configured topics."
+    }
+  ],
+  "public_json_version": "0.4",
+  "s_level_candidate_ids": [],
+  "s_level_paper_id": null,
+  "source_mode_summary": {
+    "recent_24h": 6
+  },
+  "summary": "Selected 6 papers: 6 recent candidates and 0 classic fallback items."
+}

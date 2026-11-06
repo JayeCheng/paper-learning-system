@@ -3567,6 +3567,48 @@
     {
       "confidence": 0.5,
       "relation": "related_to",
+      "source": "arxiv:2611.07289v1",
+      "target": "gpu_graphics"
+    },
+    {
+      "confidence": 0.5,
+      "relation": "related_to",
+      "source": "arxiv:2611.07328v1",
+      "target": "gpu_graphics"
+    },
+    {
+      "confidence": 0.5,
+      "relation": "related_to",
+      "source": "arxiv:2611.07358v1",
+      "target": "architecture"
+    },
+    {
+      "confidence": 0.5,
+      "relation": "related_to",
+      "source": "arxiv:2611.07386v1",
+      "target": "cognition"
+    },
+    {
+      "confidence": 0.5,
+      "relation": "related_to",
+      "source": "arxiv:2611.07386v1",
+      "target": "cognition_social"
+    },
+    {
+      "confidence": 0.5,
+      "relation": "related_to",
+      "source": "arxiv:2611.07442v1",
+      "target": "llm_agent"
+    },
+    {
+      "confidence": 0.5,
+      "relation": "related_to",
+      "source": "arxiv:2611.07444v1",
+      "target": "llm_agent"
+    },
+    {
+      "confidence": 0.5,
+      "relation": "related_to",
       "source": "biorxiv:10.1101/2023.01.10.523479",
       "target": "cognition"
     },
@@ -8294,6 +8336,54 @@
       "type": "paper"
     },
     {
+      "id": "arxiv:2611.07289v1",
+      "label": "Patch-Based Generalized Neural Texture Upscaling",
+      "topics": [
+        "gpu_graphics"
+      ],
+      "type": "paper"
+    },
+    {
+      "id": "arxiv:2611.07328v1",
+      "label": "DC-SQEM: Medial Mesh Extraction by Dual Contouring with Spherical Quadric Error Metric",
+      "topics": [
+        "gpu_graphics"
+      ],
+      "type": "paper"
+    },
+    {
+      "id": "arxiv:2611.07358v1",
+      "label": "A Synchronized Tri-Modality Wireless System for Multi-Point Non-Contact Cardiac Monitoring",
+      "topics": [
+        "architecture"
+      ],
+      "type": "paper"
+    },
+    {
+      "id": "arxiv:2611.07386v1",
+      "label": "Breaking the Modality Barrier: Multimodal Fusion With Missing Modalities for Cybersickness Prediction",
+      "topics": [
+        "cognition"
+      ],
+      "type": "paper"
+    },
+    {
+      "id": "arxiv:2611.07442v1",
+      "label": "Req2Rust: A Requirements-Guided Agent Harness for Project-Level C++-to-Rust Migration",
+      "topics": [
+        "llm_agent"
+      ],
+      "type": "paper"
+    },
+    {
+      "id": "arxiv:2611.07444v1",
+      "label": "Two-stage residual learning for calibrated uncertainty in solar irradiance forecasts",
+      "topics": [
+        "llm_agent"
+      ],
+      "type": "paper"
+    },
+    {
       "id": "biorxiv:10.1101/2023.01.10.523479",
       "label": "How Occam's razor guides human decision-making",
       "topics": [
@@ -9327,5 +9417,5 @@
     }
   ],
   "public_json_version": "0.4",
-  "updated_at": "2026-11-05T02:15:17+00:00"
+  "updated_at": "2026-11-06T02:14:50+00:00"
 }
