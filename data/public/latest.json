@@ -1,10 +1,10 @@
 {
   "frontend_entry": "data/public/latest.json",
   "latest": {
-    "date": "2026-11-08",
-    "generated_at": "2026-11-08T01:17:00+00:00",
-    "json_path": "daily/2026/11/2026-11-08.json",
-    "markdown_path": "daily/2026/11/2026-11-08.md",
+    "date": "2026-11-09",
+    "generated_at": "2026-11-09T01:38:19+00:00",
+    "json_path": "daily/2026/11/2026-11-09.json",
+    "markdown_path": "daily/2026/11/2026-11-09.md",
     "paper_count": 6,
     "s_level_paper_id": null,
     "status": "success"
