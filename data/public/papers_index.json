@@ -28237,6 +28237,417 @@
       "why_recommended": "Ranked by engineering transferability signal across configured topics."
     },
     {
+      "abstract": "Vision-language models pass text-based false-belief probes at near-human levels but drop by over twenty percentage points on abstract panels the moment the same problem is conveyed visually. The consensus diagnosis is conceptual, prescribing new belief-reasoning modules. We argue the dominant bottleneck is perceptual: not what the model cannot reason about, but what it cannot see. We propose a five-condition dissociation protocol that holds the reasoning task constant while varying perceptual fidelity from visual only to text only, and quantify the result with the Perceptual Contribution Ratio, the share of the visual-to-text gap a given fidelity closes. We test this on two kinds of scenes: abstract 2D panels in the Heider--Simmel tradition, and naturalistic 3D game scenes from MuMA-ToM and MindPower. The evaluation covers seven VLMs and roughly 159,000 API calls. Ground-truth scaffolds substantially close the gap in every setting, and on the abstract panels and MuMA-ToM they match or exceed the text-only reasoning. Whereas scaffolds built by automatic parsers, including frontier VLMs, fail. The most common error in the visual-only condition is \\emph{reality bias}, which accounts for 60\\% of false-belief failures. Models report where an object actually is, not where an absent agent believes it is. This points to a perceptual front-end that fails to track which agents were present at each moment. Under the evaluated protocol, structured visual scene-state extraction, rather than belief inference, is the dominant bottleneck for visual ToM.",
+      "authors": [
+        "Mohamed Rayan Barhdadi",
+        "Syed Talal Wasim",
+        "Juergen Gall",
+        "Erchin Serpedin",
+        "Hasan Kurban"
+      ],
+      "categories": [
+        "cs.CV",
+        "cs.AI",
+        "cs.CL",
+        "q-bio.NC"
+      ],
+      "citation_count": null,
+      "classic_status": null,
+      "code_url": null,
+      "deep_read_note_url": null,
+      "difficulty": null,
+      "enrichment_sources": [],
+      "existing_note_url": null,
+      "external_ids": {},
+      "field": null,
+      "fields_of_study": [],
+      "id": "arxiv:2611.10694v1",
+      "identifiers": {
+        "arxiv_id": "2611.10694v1"
+      },
+      "influential_citation_count": null,
+      "institutions": [],
+      "latest_note_url": null,
+      "note_count": 0,
+      "open_access_pdf_url": null,
+      "pdf_url": "https://arxiv.org/pdf/2611.10694v1",
+      "project_url": "https://kurbanintelligencelab.github.io/perception-not-reasoning/",
+      "published_at": "2026-11-07",
+      "published_date": "2026-11-07",
+      "reading_advice": "save_for_later",
+      "reading_status": "backlog",
+      "recommendation_level": "B",
+      "score": 0.692,
+      "scores": {
+        "classic_value": 0.35,
+        "engineering_transferability": 0.6,
+        "recency": 0.78,
+        "source_quality": 0.78,
+        "total": 0.692,
+        "user_relevance": 0.75
+      },
+      "selected_for_s_level": false,
+      "source": "arxiv",
+      "source_group": "cognition_social",
+      "source_type": "recent_7d",
+      "source_url": "http://arxiv.org/abs/2611.10694v1",
+      "suggested_note_title": null,
+      "suggested_note_type": null,
+      "tags": [
+        "cs.CV",
+        "cs.AI",
+        "cs.CL",
+        "q-bio.NC"
+      ],
+      "title": "Perception, Not Reasoning, Limits Visual Theory of Mind",
+      "title_zh": null,
+      "topics": [
+        "gpu_graphics",
+        "llm_agent",
+        "cognition"
+      ],
+      "url": "http://arxiv.org/abs/2611.10694v1",
+      "venue": null,
+      "why_recommended": "Ranked by recency signal across configured topics."
+    },
+    {
+      "abstract": "This paper presents a unified transformer-based framework for object detection and dense region captioning across distributed edge networks. The architecture uses a shared visual encoder followed by detection, region extraction, and autoregressive language-decoding stages, allowing localization and region description to reuse the same image features. This design removes the second image-encoding path required by decoupled detection and captioning pipelines. To support execution on resource-limited devices, a workload-allocation formulation assigns model stages and input streams across connected edge nodes while accounting for execution time, memory capacity, processor utilization, power limits, and intermediate tensor transfer cost. The framework is evaluated on a six-device edge testbed comprising four NVIDIA Jetson Orin Nano and Orin NX inference nodes and two Raspberry Pi 5 auxiliary CPU nodes, with TensorRT FP16 and INT8 execution on the NVIDIA devices. On a Jetson Orin Nano, the unified INT8 model achieves 38.1 FPS with 3.5 GB peak memory use and 11.8 W measured power. Under four concurrent streams, the proposed allocation achieves 35.2 FPS and 28.4 ms mean end-to-end latency with an internode transfer rate of 6.8 MB/s.",
+      "authors": [
+        "Saurabh Kumar",
+        "Dewant Katare",
+        "Prakriti Jain"
+      ],
+      "categories": [
+        "cs.DC",
+        "cs.CV",
+        "cs.LG"
+      ],
+      "citation_count": null,
+      "classic_status": null,
+      "code_url": null,
+      "deep_read_note_url": null,
+      "difficulty": null,
+      "enrichment_sources": [],
+      "existing_note_url": null,
+      "external_ids": {},
+      "field": null,
+      "fields_of_study": [],
+      "id": "arxiv:2611.11291v1",
+      "identifiers": {
+        "arxiv_id": "2611.11291v1"
+      },
+      "influential_citation_count": null,
+      "institutions": [],
+      "latest_note_url": null,
+      "note_count": 0,
+      "open_access_pdf_url": null,
+      "pdf_url": "https://arxiv.org/pdf/2611.11291v1",
+      "project_url": null,
+      "published_at": "2026-11-08",
+      "published_date": "2026-11-08",
+      "reading_advice": "save_for_later",
+      "reading_status": "backlog",
+      "recommendation_level": "B",
+      "score": 0.732,
+      "scores": {
+        "classic_value": 0.35,
+        "engineering_transferability": 0.8,
+        "recency": 0.78,
+        "source_quality": 0.78,
+        "total": 0.732,
+        "user_relevance": 0.75
+      },
+      "selected_for_s_level": false,
+      "source": "arxiv",
+      "source_group": "gpu_graphics",
+      "source_type": "recent_7d",
+      "source_url": "http://arxiv.org/abs/2611.11291v1",
+      "suggested_note_title": null,
+      "suggested_note_type": null,
+      "tags": [
+        "cs.DC",
+        "cs.CV",
+        "cs.LG"
+      ],
+      "title": "Multi-Node Transformers for Object Detection and Captioning Across Distributed Edge Networks",
+      "title_zh": null,
+      "topics": [
+        "architecture",
+        "gpu_graphics",
+        "llm_agent"
+      ],
+      "url": "http://arxiv.org/abs/2611.11291v1",
+      "venue": null,
+      "why_recommended": "Ranked by engineering transferability signal across configured topics."
+    },
+    {
+      "abstract": "In expert-parallel Mixture-of-Experts serving, a layer finishes only when the most loaded GPU of its group does. Token routing shifts at every decode step and concentrates on a few experts, so most of the group's reserved GPU time waits on stragglers. Recovering that time means re-deciding, at every layer of every decode step, how each replicated expert's tokens divide between its copies. The exact linear-program solvers that make this decision optimally take longer than many of the layers they serve, and their working set outgrows GPU shared memory at deployment scale. We introduce Relief, a bidirectional pairwise relaxation that makes the linear program unnecessary, coming within a fraction of a point of the per-step optimum in a few passes of integer halving over the token counts. We build and measure three deployments, CUDA kernels on the serving GPU, the same verified engine on an FPGA over PCIe, and a fixed-function block beside the accelerator. On decode routing from three open MoE families, Relief holds the balance near the per-step optimum at every group size and layer time measured. Scored as effective utilization relative to that optimum, the kernel alone matches or exceeds every deployable scheme at every group size, from the hundred-microsecond layer on. The on-die engine widens that lead at every point, recovering up to 37.3 percentage points over the deployed static placement, while adding 0.02% of a current accelerator's transistors.",
+      "authors": [
+        "Jingyuan Li",
+        "Maolin Wang",
+        "Hayden So"
+      ],
+      "categories": [
+        "cs.AR",
+        "cs.DC"
+      ],
+      "citation_count": null,
+      "classic_status": null,
+      "code_url": "https://github.com/SuanNaiShuiGuoLao/relief-paper-archive",
+      "deep_read_note_url": null,
+      "difficulty": null,
+      "enrichment_sources": [],
+      "existing_note_url": null,
+      "external_ids": {},
+      "field": null,
+      "fields_of_study": [],
+      "id": "arxiv:2611.11402v1",
+      "identifiers": {
+        "arxiv_id": "2611.11402v1"
+      },
+      "influential_citation_count": null,
+      "institutions": [],
+      "latest_note_url": null,
+      "note_count": 0,
+      "open_access_pdf_url": null,
+      "pdf_url": "https://arxiv.org/pdf/2611.11402v1",
+      "project_url": null,
+      "published_at": "2026-11-08",
+      "published_date": "2026-11-08",
+      "reading_advice": "quick_read",
+      "reading_status": "backlog",
+      "recommendation_level": "A",
+      "score": 0.762,
+      "scores": {
+        "classic_value": 0.35,
+        "engineering_transferability": 0.9500000000000001,
+        "recency": 0.78,
+        "source_quality": 0.78,
+        "total": 0.762,
+        "user_relevance": 0.75
+      },
+      "selected_for_s_level": false,
+      "source": "arxiv",
+      "source_group": "architecture",
+      "source_type": "recent_7d",
+      "source_url": "http://arxiv.org/abs/2611.11402v1",
+      "suggested_note_title": null,
+      "suggested_note_type": null,
+      "tags": [
+        "cs.AR",
+        "cs.DC"
+      ],
+      "title": "A Per-Step Load-Balancing Engine for Expert-Parallel MoE Serving",
+      "title_zh": null,
+      "topics": [
+        "architecture"
+      ],
+      "url": "http://arxiv.org/abs/2611.11402v1",
+      "venue": null,
+      "why_recommended": "Ranked by engineering transferability signal across configured topics."
+    },
+    {
+      "abstract": "Pre-training code language models relies on massive code corpora usually streamed over the internet. However, researchers rarely need a multi-terabyte archive in its entirety; instead, their workflow centers on curated subsets: selecting well-documented files, filtering out repetitive boilerplate, auditing for benchmark contamination, or retrieving specific code patterns. Yet, because modern corpora are typically published as file pointers and basic attributes rather than source text, no general structural layer exists to select which files to download: curating a subset requires downloading and parsing millions of files first just to discard most of them. We present SWHForest, an open-source framework and public dataset that provides this missing structural layer for any pointer-based corpus without redistributing source code. A single pass over the archive parses each file into an AST and immediately discards the source text, keeping only its structural summary. Queried locally or exposed by archive providers as a server-side filtering API, SWHForest selects matching files first (via SQL or index intersection) and downloads only surviving candidates. Across the ten largest languages of Stack-Edu (52.1M unique files, 341M definitions), SWHForest answers curation queries in milliseconds while cutting downloads by 46-72%, reducing live structural searches from hours of per-language streaming to seconds or minutes.",
+      "authors": [
+        "Federico Pennino",
+        "Andrea Gurioli",
+        "Maurizio Gabbrielli",
+        "Paolo Ferragina"
+      ],
+      "categories": [
+        "cs.SE",
+        "cs.LG"
+      ],
+      "citation_count": null,
+      "classic_status": null,
+      "code_url": "https://github.com/halykoss/swhforest",
+      "deep_read_note_url": null,
+      "difficulty": null,
+      "enrichment_sources": [],
+      "existing_note_url": null,
+      "external_ids": {},
+      "field": null,
+      "fields_of_study": [],
+      "id": "arxiv:2611.11439v1",
+      "identifiers": {
+        "arxiv_id": "2611.11439v1"
+      },
+      "influential_citation_count": null,
+      "institutions": [],
+      "latest_note_url": null,
+      "note_count": 0,
+      "open_access_pdf_url": null,
+      "pdf_url": "https://arxiv.org/pdf/2611.11439v1",
+      "project_url": "https://huggingface.co/datasets/halykoss/swhforest",
+      "published_at": "2026-11-08",
+      "published_date": "2026-11-08",
+      "reading_advice": "quick_read",
+      "reading_status": "backlog",
+      "recommendation_level": "A",
+      "score": 0.762,
+      "scores": {
+        "classic_value": 0.35,
+        "engineering_transferability": 0.9500000000000001,
+        "recency": 0.78,
+        "source_quality": 0.78,
+        "total": 0.762,
+        "user_relevance": 0.75
+      },
+      "selected_for_s_level": false,
+      "source": "arxiv",
+      "source_group": "llm_agent",
+      "source_type": "recent_7d",
+      "source_url": "http://arxiv.org/abs/2611.11439v1",
+      "suggested_note_title": null,
+      "suggested_note_type": null,
+      "tags": [
+        "cs.SE",
+        "cs.LG"
+      ],
+      "title": "SWHForest: A Structural Curation and Search Layer for Large-Scale Code Corpora",
+      "title_zh": null,
+      "topics": [
+        "llm_agent"
+      ],
+      "url": "http://arxiv.org/abs/2611.11439v1",
+      "venue": null,
+      "why_recommended": "Ranked by engineering transferability signal across configured topics."
+    },
+    {
+      "abstract": "The CoRL 2026 RoboEval challenge has eight bimanual tasks, and it ranks a policy not only on whether it succeeds but on how: every stage of the task, done safely, efficiently and with both arms in coordination, scored against human demonstrations. My solution has two parts. The generic part, carried over from my LeHome challenge solution, is off-policy RL on a $\u03c0_{0.5}$-based policy that is also its own value function. It is trained with AWR and RECAP on advantages of the exact official score, in a loop where every rollout is at the same time a Thompson-sampling trial of about 20 inference parameters. Out of the box, it took the policy to 0.85 RDS on held-out seeds in two days (and it was still very far from convergence). The competition-specific part adds data that local exploration cannot find: generated demonstrations that reach the full reward, and recovery episodes that start from the policy's own failures. The submitted policy reaches 0.990 RDS on held-out seeds and 0.987 on the official seeds.",
+      "authors": [
+        "Ilia Larchenko"
+      ],
+      "categories": [
+        "cs.RO",
+        "cs.CV",
+        "cs.LG"
+      ],
+      "citation_count": null,
+      "classic_status": null,
+      "code_url": "https://github.com/IliaLarchenko/RoboEvalSolution",
+      "deep_read_note_url": null,
+      "difficulty": null,
+      "enrichment_sources": [],
+      "existing_note_url": null,
+      "external_ids": {},
+      "field": null,
+      "fields_of_study": [],
+      "id": "arxiv:2611.11464v1",
+      "identifiers": {
+        "arxiv_id": "2611.11464v1"
+      },
+      "influential_citation_count": null,
+      "institutions": [],
+      "latest_note_url": null,
+      "note_count": 0,
+      "open_access_pdf_url": null,
+      "pdf_url": "https://arxiv.org/pdf/2611.11464v1",
+      "project_url": "https://huggingface.co/IliaLarchenko/RoboEvalSolution",
+      "published_at": "2026-11-08",
+      "published_date": "2026-11-08",
+      "reading_advice": "save_for_later",
+      "reading_status": "backlog",
+      "recommendation_level": "B",
+      "score": 0.692,
+      "scores": {
+        "classic_value": 0.35,
+        "engineering_transferability": 0.6,
+        "recency": 0.78,
+        "source_quality": 0.78,
+        "total": 0.692,
+        "user_relevance": 0.75
+      },
+      "selected_for_s_level": false,
+      "source": "arxiv",
+      "source_group": "gpu_graphics",
+      "source_type": "recent_7d",
+      "source_url": "http://arxiv.org/abs/2611.11464v1",
+      "suggested_note_title": null,
+      "suggested_note_type": null,
+      "tags": [
+        "cs.RO",
+        "cs.CV",
+        "cs.LG"
+      ],
+      "title": "Off-Policy RL with Online Inference Tuning: My Solution to the CoRL 2026 RoboEval Challenge",
+      "title_zh": null,
+      "topics": [
+        "gpu_graphics",
+        "llm_agent"
+      ],
+      "url": "http://arxiv.org/abs/2611.11464v1",
+      "venue": null,
+      "why_recommended": "Ranked by recency signal across configured topics."
+    },
+    {
+      "abstract": "We present MicroSim, a system for binary code similarity detection that represents each function as a graph built from IDA Pro Hex-Rays microcode and compares such graphs with a contrastive Siamese graph neural network (GNN). We evaluate on the TREX cross-optimization benchmark, a corpus of 849,072 function-level microcode graphs spanning optimization levels -O0 through -O3, under a strict class-disjoint split in which no function key is shared between train and test. Under this protocol, MicroSim reaches 0.9972 area under the receiver operating characteristic curve (ROC-AUC) and 0.9762 Matthews correlation coefficient (MCC), outperforming Gemini (0.9332 ROC-AUC), SAFE (0.9752), and jTrans (0.9740) retrained on the same split, as well as a structure-free Bag-of-Words (BoW) baseline (0.9484). We analyze the gap between pair classification and ranked retrieval in graph transformers, showing that Cross-domain Similarity Local Scaling (CSLS) under unified tie-resolved evaluation raises GraphGPS mean reciprocal rank (MRR) from 0.2542 to 0.2559 (R@1 = 0.1639, R@10 = 0.4561), strictly satisfying the theoretical MRR upper bound. Finally, over 5 seeds with equal compute, the pairwise cosine-embedding loss attains a slightly higher ROC-AUC (\u0394 = -0.0256, 95% confidence interval [-0.3282, +0.2770]), whereas the supervised-contrastive information noise-contrastive estimation (InfoNCE) loss is significantly better on thresholded classification and ranked retrieval.",
+      "authors": [
+        "Moussa Moussaoui",
+        "Tarik Houichime",
+        "Abdelghani Souhar",
+        "Abdelalim Sadiq"
+      ],
+      "categories": [
+        "cs.SE",
+        "cs.LG"
+      ],
+      "citation_count": null,
+      "classic_status": null,
+      "code_url": null,
+      "deep_read_note_url": null,
+      "difficulty": null,
+      "enrichment_sources": [],
+      "existing_note_url": null,
+      "external_ids": {},
+      "field": null,
+      "fields_of_study": [],
+      "id": "arxiv:2611.11486v1",
+      "identifiers": {
+        "arxiv_id": "2611.11486v1"
+      },
+      "influential_citation_count": null,
+      "institutions": [],
+      "latest_note_url": null,
+      "note_count": 0,
+      "open_access_pdf_url": null,
+      "pdf_url": "https://arxiv.org/pdf/2611.11486v1",
+      "project_url": null,
+      "published_at": "2026-11-08",
+      "published_date": "2026-11-08",
+      "reading_advice": "save_for_later",
+      "reading_status": "backlog",
+      "recommendation_level": "B",
+      "score": 0.732,
+      "scores": {
+        "classic_value": 0.35,
+        "engineering_transferability": 0.8,
+        "recency": 0.78,
+        "source_quality": 0.78,
+        "total": 0.732,
+        "user_relevance": 0.75
+      },
+      "selected_for_s_level": false,
+      "source": "arxiv",
+      "source_group": "llm_agent",
+      "source_type": "recent_7d",
+      "source_url": "http://arxiv.org/abs/2611.11486v1",
+      "suggested_note_title": null,
+      "suggested_note_type": null,
+      "tags": [
+        "cs.SE",
+        "cs.LG"
+      ],
+      "title": "MicroSim: Contrastive Graph Neural Networks for Binary Code Similarity Detection",
+      "title_zh": null,
+      "topics": [
+        "llm_agent"
+      ],
+      "url": "http://arxiv.org/abs/2611.11486v1",
+      "venue": null,
+      "why_recommended": "Ranked by engineering transferability signal across configured topics."
+    },
+    {
       "abstract": "Occam's razor is the principle that, all else being equal, simpler explanations should be preferred over more complex ones. This principle is thought to guide human decision-making, but the nature of this guidance is not known. Here we used preregistered behavioral experiments to show that people tend to prefer the simpler of two alternative explanations for uncertain data. These preferences align quantitatively with predictions of formal theories of model selection that penalize excessive flexibility. These penalties emerge when considering not just the best explanation but the integral over all possible, relevant explanations. We further show that these simplicity preferences persist in humans, but not in certain artificial neural networks, even when they are maladaptive. Our results imply that principled notions of statistical model selection, including integrating over possible, latent causes to avoid overfitting to noisy data, may play a central role in human decision-making.",
       "authors": [
         "Piasini, E.",
@@ -37404,5 +37815,5 @@
     }
   ],
   "public_json_version": "0.4",
-  "updated_at": "2026-11-09T01:38:19+00:00"
+  "updated_at": "2026-11-10T04:03:17+00:00"
 }

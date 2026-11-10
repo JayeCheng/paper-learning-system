@@ -408,6 +408,12 @@ arxiv:2611.08321v1,backlog,medium,,2026-11-07T01:47:27+00:00,ControlAnything: Ge
 arxiv:2611.08342v1,backlog,medium,,2026-11-07T01:47:27+00:00,4D Point Splatting for mmWave Radar Micro-Doppler Differentiable Rendering,gpu_graphics,B
 arxiv:2611.08442v1,backlog,medium,,2026-11-07T01:47:27+00:00,"SoK: Post-Quantum Cryptography (PQC) Integration in Software Development: Approaches, Gaps, and Future Directions",llm_agent,B
 arxiv:2611.08456v1,backlog,medium,,2026-11-07T01:47:27+00:00,Cognitive Tours: Making Understanding a Deliverable in AI-Assisted Development,llm_agent,B
+arxiv:2611.10694v1,backlog,medium,,2026-11-10T04:03:17+00:00,"Perception, Not Reasoning, Limits Visual Theory of Mind",cognition_social,B
+arxiv:2611.11291v1,backlog,medium,,2026-11-10T04:03:17+00:00,Multi-Node Transformers for Object Detection and Captioning Across Distributed Edge Networks,gpu_graphics,B
+arxiv:2611.11402v1,backlog,medium,,2026-11-10T04:03:17+00:00,A Per-Step Load-Balancing Engine for Expert-Parallel MoE Serving,architecture,A
+arxiv:2611.11439v1,backlog,medium,,2026-11-10T04:03:17+00:00,SWHForest: A Structural Curation and Search Layer for Large-Scale Code Corpora,llm_agent,A
+arxiv:2611.11464v1,backlog,medium,,2026-11-10T04:03:17+00:00,Off-Policy RL with Online Inference Tuning: My Solution to the CoRL 2026 RoboEval Challenge,gpu_graphics,B
+arxiv:2611.11486v1,backlog,medium,,2026-11-10T04:03:17+00:00,MicroSim: Contrastive Graph Neural Networks for Binary Code Similarity Detection,llm_agent,B
 biorxiv:10.1101/2023.01.10.523479,backlog,medium,,2026-09-28T00:33:07+00:00,How Occam's razor guides human decision-making,cognition_social,B
 biorxiv:10.1101/2024.03.07.583890,backlog,medium,,2026-10-19T00:08:58+00:00,Computation or Weight Adaptation? Rethinking the Role of Plasticity in Learning,cognition_social,B
 biorxiv:10.1101/2024.09.30.615819,backlog,medium,,2026-09-22T00:43:20+00:00,Hierarchy of prediction errors shapes the learning of context-dependent sensory representations,cognition_social,B

@@ -3657,6 +3657,78 @@
     {
       "confidence": 0.5,
       "relation": "related_to",
+      "source": "arxiv:2611.10694v1",
+      "target": "gpu_graphics"
+    },
+    {
+      "confidence": 0.5,
+      "relation": "related_to",
+      "source": "arxiv:2611.10694v1",
+      "target": "llm_agent"
+    },
+    {
+      "confidence": 0.5,
+      "relation": "related_to",
+      "source": "arxiv:2611.10694v1",
+      "target": "cognition"
+    },
+    {
+      "confidence": 0.5,
+      "relation": "related_to",
+      "source": "arxiv:2611.10694v1",
+      "target": "cognition_social"
+    },
+    {
+      "confidence": 0.5,
+      "relation": "related_to",
+      "source": "arxiv:2611.11291v1",
+      "target": "architecture"
+    },
+    {
+      "confidence": 0.5,
+      "relation": "related_to",
+      "source": "arxiv:2611.11291v1",
+      "target": "gpu_graphics"
+    },
+    {
+      "confidence": 0.5,
+      "relation": "related_to",
+      "source": "arxiv:2611.11291v1",
+      "target": "llm_agent"
+    },
+    {
+      "confidence": 0.5,
+      "relation": "related_to",
+      "source": "arxiv:2611.11402v1",
+      "target": "architecture"
+    },
+    {
+      "confidence": 0.5,
+      "relation": "related_to",
+      "source": "arxiv:2611.11439v1",
+      "target": "llm_agent"
+    },
+    {
+      "confidence": 0.5,
+      "relation": "related_to",
+      "source": "arxiv:2611.11464v1",
+      "target": "gpu_graphics"
+    },
+    {
+      "confidence": 0.5,
+      "relation": "related_to",
+      "source": "arxiv:2611.11464v1",
+      "target": "llm_agent"
+    },
+    {
+      "confidence": 0.5,
+      "relation": "related_to",
+      "source": "arxiv:2611.11486v1",
+      "target": "llm_agent"
+    },
+    {
+      "confidence": 0.5,
+      "relation": "related_to",
       "source": "biorxiv:10.1101/2023.01.10.523479",
       "target": "cognition"
     },
@@ -8481,6 +8553,59 @@
       "type": "paper"
     },
     {
+      "id": "arxiv:2611.10694v1",
+      "label": "Perception, Not Reasoning, Limits Visual Theory of Mind",
+      "topics": [
+        "gpu_graphics",
+        "llm_agent",
+        "cognition"
+      ],
+      "type": "paper"
+    },
+    {
+      "id": "arxiv:2611.11291v1",
+      "label": "Multi-Node Transformers for Object Detection and Captioning Across Distributed Edge Networks",
+      "topics": [
+        "architecture",
+        "gpu_graphics",
+        "llm_agent"
+      ],
+      "type": "paper"
+    },
+    {
+      "id": "arxiv:2611.11402v1",
+      "label": "A Per-Step Load-Balancing Engine for Expert-Parallel MoE Serving",
+      "topics": [
+        "architecture"
+      ],
+      "type": "paper"
+    },
+    {
+      "id": "arxiv:2611.11439v1",
+      "label": "SWHForest: A Structural Curation and Search Layer for Large-Scale Code Corpora",
+      "topics": [
+        "llm_agent"
+      ],
+      "type": "paper"
+    },
+    {
+      "id": "arxiv:2611.11464v1",
+      "label": "Off-Policy RL with Online Inference Tuning: My Solution to the CoRL 2026 RoboEval Challenge",
+      "topics": [
+        "gpu_graphics",
+        "llm_agent"
+      ],
+      "type": "paper"
+    },
+    {
+      "id": "arxiv:2611.11486v1",
+      "label": "MicroSim: Contrastive Graph Neural Networks for Binary Code Similarity Detection",
+      "topics": [
+        "llm_agent"
+      ],
+      "type": "paper"
+    },
+    {
       "id": "biorxiv:10.1101/2023.01.10.523479",
       "label": "How Occam's razor guides human decision-making",
       "topics": [
@@ -9514,5 +9639,5 @@
     }
   ],
   "public_json_version": "0.4",
-  "updated_at": "2026-11-09T01:38:19+00:00"
+  "updated_at": "2026-11-10T04:03:17+00:00"
 }
