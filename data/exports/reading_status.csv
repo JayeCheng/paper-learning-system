@@ -414,6 +414,12 @@ arxiv:2611.11402v1,backlog,medium,,2026-11-10T04:03:17+00:00,A Per-Step Load-Bal
 arxiv:2611.11439v1,backlog,medium,,2026-11-10T04:03:17+00:00,SWHForest: A Structural Curation and Search Layer for Large-Scale Code Corpora,llm_agent,A
 arxiv:2611.11464v1,backlog,medium,,2026-11-10T04:03:17+00:00,Off-Policy RL with Online Inference Tuning: My Solution to the CoRL 2026 RoboEval Challenge,gpu_graphics,B
 arxiv:2611.11486v1,backlog,medium,,2026-11-10T04:03:17+00:00,MicroSim: Contrastive Graph Neural Networks for Binary Code Similarity Detection,llm_agent,B
+arxiv:2611.12545v1,backlog,medium,,2026-11-11T01:51:12+00:00,"Teamknitt: Configuring, Observing and Intervening in LLM-Agent Teams through the Lens of Dynamical-Systems and Human-Team Theory",cognition_social,B
+arxiv:2611.12716v1,backlog,medium,,2026-11-11T01:51:12+00:00,Spaghetti Splatting: Differentiating Curvilinear Dirac Masses via Convolution,gpu_graphics,B
+arxiv:2611.12823v1,backlog,medium,,2026-11-11T01:51:12+00:00,Coding Agents in KVM: Practical Containment and User Control with Limited Resources,llm_agent,B
+arxiv:2611.12843v1,backlog,medium,,2026-11-11T01:51:12+00:00,Contention Resolution with a Fast-but-Fickle Channel,architecture,B
+arxiv:2611.12856v1,backlog,medium,,2026-11-11T01:51:12+00:00,WorkflowArena: Benchmarking Executable Workflow Orchestration in LLM-Based Multi-Agent Systems,llm_agent,B
+arxiv:2611.12885v1,backlog,medium,,2026-11-11T01:51:12+00:00,World In-Context Learning for Agentic Robot Manipulation,gpu_graphics,B
 biorxiv:10.1101/2023.01.10.523479,backlog,medium,,2026-09-28T00:33:07+00:00,How Occam's razor guides human decision-making,cognition_social,B
 biorxiv:10.1101/2024.03.07.583890,backlog,medium,,2026-10-19T00:08:58+00:00,Computation or Weight Adaptation? Rethinking the Role of Plasticity in Learning,cognition_social,B
 biorxiv:10.1101/2024.09.30.615819,backlog,medium,,2026-09-22T00:43:20+00:00,Hierarchy of prediction errors shapes the learning of context-dependent sensory representations,cognition_social,B

@@ -3729,6 +3729,48 @@
     {
       "confidence": 0.5,
       "relation": "related_to",
+      "source": "arxiv:2611.12545v1",
+      "target": "sociology"
+    },
+    {
+      "confidence": 0.5,
+      "relation": "related_to",
+      "source": "arxiv:2611.12545v1",
+      "target": "cognition_social"
+    },
+    {
+      "confidence": 0.5,
+      "relation": "related_to",
+      "source": "arxiv:2611.12716v1",
+      "target": "gpu_graphics"
+    },
+    {
+      "confidence": 0.5,
+      "relation": "related_to",
+      "source": "arxiv:2611.12823v1",
+      "target": "llm_agent"
+    },
+    {
+      "confidence": 0.5,
+      "relation": "related_to",
+      "source": "arxiv:2611.12843v1",
+      "target": "architecture"
+    },
+    {
+      "confidence": 0.5,
+      "relation": "related_to",
+      "source": "arxiv:2611.12856v1",
+      "target": "llm_agent"
+    },
+    {
+      "confidence": 0.5,
+      "relation": "related_to",
+      "source": "arxiv:2611.12885v1",
+      "target": "gpu_graphics"
+    },
+    {
+      "confidence": 0.5,
+      "relation": "related_to",
       "source": "biorxiv:10.1101/2023.01.10.523479",
       "target": "cognition"
     },
@@ -8606,6 +8648,54 @@
       "type": "paper"
     },
     {
+      "id": "arxiv:2611.12545v1",
+      "label": "Teamknitt: Configuring, Observing and Intervening in LLM-Agent Teams through the Lens of Dynamical-Systems and Human-Team Theory",
+      "topics": [
+        "sociology"
+      ],
+      "type": "paper"
+    },
+    {
+      "id": "arxiv:2611.12716v1",
+      "label": "Spaghetti Splatting: Differentiating Curvilinear Dirac Masses via Convolution",
+      "topics": [
+        "gpu_graphics"
+      ],
+      "type": "paper"
+    },
+    {
+      "id": "arxiv:2611.12823v1",
+      "label": "Coding Agents in KVM: Practical Containment and User Control with Limited Resources",
+      "topics": [
+        "llm_agent"
+      ],
+      "type": "paper"
+    },
+    {
+      "id": "arxiv:2611.12843v1",
+      "label": "Contention Resolution with a Fast-but-Fickle Channel",
+      "topics": [
+        "architecture"
+      ],
+      "type": "paper"
+    },
+    {
+      "id": "arxiv:2611.12856v1",
+      "label": "WorkflowArena: Benchmarking Executable Workflow Orchestration in LLM-Based Multi-Agent Systems",
+      "topics": [
+        "llm_agent"
+      ],
+      "type": "paper"
+    },
+    {
+      "id": "arxiv:2611.12885v1",
+      "label": "World In-Context Learning for Agentic Robot Manipulation",
+      "topics": [
+        "gpu_graphics"
+      ],
+      "type": "paper"
+    },
+    {
       "id": "biorxiv:10.1101/2023.01.10.523479",
       "label": "How Occam's razor guides human decision-making",
       "topics": [
@@ -9639,5 +9729,5 @@
     }
   ],
   "public_json_version": "0.4",
-  "updated_at": "2026-11-10T04:03:17+00:00"
+  "updated_at": "2026-11-11T01:51:12+00:00"
 }
