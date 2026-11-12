@@ -420,6 +420,12 @@ arxiv:2611.12823v1,backlog,medium,,2026-11-11T01:51:12+00:00,Coding Agents in KV
 arxiv:2611.12843v1,backlog,medium,,2026-11-11T01:51:12+00:00,Contention Resolution with a Fast-but-Fickle Channel,architecture,B
 arxiv:2611.12856v1,backlog,medium,,2026-11-11T01:51:12+00:00,WorkflowArena: Benchmarking Executable Workflow Orchestration in LLM-Based Multi-Agent Systems,llm_agent,B
 arxiv:2611.12885v1,backlog,medium,,2026-11-11T01:51:12+00:00,World In-Context Learning for Agentic Robot Manipulation,gpu_graphics,B
+arxiv:2611.13879v1,backlog,medium,,2026-11-12T02:50:52+00:00,SFU-Sim: Bit-Exact Reverse Engineering of NVIDIA MUFU and Validation of PTX Paths,architecture,A
+arxiv:2611.14430v1,backlog,medium,,2026-11-12T02:50:52+00:00,Linear-size graphs at every strict dismantling level,gpu_graphics,B
+arxiv:2611.14451v1,backlog,medium,,2026-11-12T02:50:52+00:00,A Lightweight Differentiable Method for Real-Time Skin Rendering and Digitization,gpu_graphics,B
+arxiv:2611.14493v1,backlog,medium,,2026-11-12T02:50:52+00:00,"Comparative Analysis of Agent Evaluation Frameworks: Stability, Detection, and Discovery in Enterprise Analytics Agents",llm_agent,B
+arxiv:2611.14499v1,backlog,medium,,2026-11-12T02:50:52+00:00,Spatial patterns of transportation choice in Niterói,cognition_social,B
+arxiv:2611.14516v1,backlog,medium,,2026-11-12T02:50:52+00:00,TorchCurves: Differentiable Parametric Curves,llm_agent,B
 biorxiv:10.1101/2023.01.10.523479,backlog,medium,,2026-09-28T00:33:07+00:00,How Occam's razor guides human decision-making,cognition_social,B
 biorxiv:10.1101/2024.03.07.583890,backlog,medium,,2026-10-19T00:08:58+00:00,Computation or Weight Adaptation? Rethinking the Role of Plasticity in Learning,cognition_social,B
 biorxiv:10.1101/2024.09.30.615819,backlog,medium,,2026-09-22T00:43:20+00:00,Hierarchy of prediction errors shapes the learning of context-dependent sensory representations,cognition_social,B
