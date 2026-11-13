@@ -426,6 +426,12 @@ arxiv:2611.14451v1,backlog,medium,,2026-11-12T02:50:52+00:00,A Lightweight Diffe
 arxiv:2611.14493v1,backlog,medium,,2026-11-12T02:50:52+00:00,"Comparative Analysis of Agent Evaluation Frameworks: Stability, Detection, and Discovery in Enterprise Analytics Agents",llm_agent,B
 arxiv:2611.14499v1,backlog,medium,,2026-11-12T02:50:52+00:00,Spatial patterns of transportation choice in Niterói,cognition_social,B
 arxiv:2611.14516v1,backlog,medium,,2026-11-12T02:50:52+00:00,TorchCurves: Differentiable Parametric Curves,llm_agent,B
+arxiv:2611.14947v1,backlog,medium,,2026-11-13T02:32:15+00:00,One Block Is Enough: LoopMR for Accelerated MRI Reconstruction,gpu_graphics,B
+arxiv:2611.14958v1,backlog,medium,,2026-11-13T02:32:15+00:00,Adapting Monocular Depth Estimation in Novel Scenes through Disparity Refinement and Robot Ego-Motion,gpu_graphics,B
+arxiv:2611.14999v1,backlog,medium,,2026-11-13T02:32:15+00:00,Towards Runtime-Aware Observability for Java Virtual Threads,architecture,A
+arxiv:2611.15001v1,backlog,medium,,2026-11-13T02:32:15+00:00,Understanding Suggested Edits in Stack Overflow: A Large-Scale Empirical Study and Review Prioritization Framework,llm_agent,B
+arxiv:2611.15006v1,backlog,medium,,2026-11-13T02:32:15+00:00,EvoX: Rethinking the Agent Harness as a Runtime Policy,llm_agent,B
+arxiv:2611.15042v1,backlog,medium,,2026-11-13T02:32:15+00:00,Data Visualization Influencers: Tracing the Creation and Curation Strategies Behind Propagandist Visualizations on X,cognition_social,B
 biorxiv:10.1101/2023.01.10.523479,backlog,medium,,2026-09-28T00:33:07+00:00,How Occam's razor guides human decision-making,cognition_social,B
 biorxiv:10.1101/2024.03.07.583890,backlog,medium,,2026-10-19T00:08:58+00:00,Computation or Weight Adaptation? Rethinking the Role of Plasticity in Learning,cognition_social,B
 biorxiv:10.1101/2024.09.30.615819,backlog,medium,,2026-09-22T00:43:20+00:00,Hierarchy of prediction errors shapes the learning of context-dependent sensory representations,cognition_social,B

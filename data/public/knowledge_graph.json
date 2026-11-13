@@ -3813,6 +3813,54 @@
     {
       "confidence": 0.5,
       "relation": "related_to",
+      "source": "arxiv:2611.14947v1",
+      "target": "gpu_graphics"
+    },
+    {
+      "confidence": 0.5,
+      "relation": "related_to",
+      "source": "arxiv:2611.14958v1",
+      "target": "gpu_graphics"
+    },
+    {
+      "confidence": 0.5,
+      "relation": "related_to",
+      "source": "arxiv:2611.14999v1",
+      "target": "architecture"
+    },
+    {
+      "confidence": 0.5,
+      "relation": "related_to",
+      "source": "arxiv:2611.14999v1",
+      "target": "llm_agent"
+    },
+    {
+      "confidence": 0.5,
+      "relation": "related_to",
+      "source": "arxiv:2611.15001v1",
+      "target": "llm_agent"
+    },
+    {
+      "confidence": 0.5,
+      "relation": "related_to",
+      "source": "arxiv:2611.15006v1",
+      "target": "llm_agent"
+    },
+    {
+      "confidence": 0.5,
+      "relation": "related_to",
+      "source": "arxiv:2611.15042v1",
+      "target": "cognition"
+    },
+    {
+      "confidence": 0.5,
+      "relation": "related_to",
+      "source": "arxiv:2611.15042v1",
+      "target": "cognition_social"
+    },
+    {
+      "confidence": 0.5,
+      "relation": "related_to",
       "source": "biorxiv:10.1101/2023.01.10.523479",
       "target": "cognition"
     },
@@ -8786,6 +8834,55 @@
       "type": "paper"
     },
     {
+      "id": "arxiv:2611.14947v1",
+      "label": "One Block Is Enough: LoopMR for Accelerated MRI Reconstruction",
+      "topics": [
+        "gpu_graphics"
+      ],
+      "type": "paper"
+    },
+    {
+      "id": "arxiv:2611.14958v1",
+      "label": "Adapting Monocular Depth Estimation in Novel Scenes through Disparity Refinement and Robot Ego-Motion",
+      "topics": [
+        "gpu_graphics"
+      ],
+      "type": "paper"
+    },
+    {
+      "id": "arxiv:2611.14999v1",
+      "label": "Towards Runtime-Aware Observability for Java Virtual Threads",
+      "topics": [
+        "architecture",
+        "llm_agent"
+      ],
+      "type": "paper"
+    },
+    {
+      "id": "arxiv:2611.15001v1",
+      "label": "Understanding Suggested Edits in Stack Overflow: A Large-Scale Empirical Study and Review Prioritization Framework",
+      "topics": [
+        "llm_agent"
+      ],
+      "type": "paper"
+    },
+    {
+      "id": "arxiv:2611.15006v1",
+      "label": "EvoX: Rethinking the Agent Harness as a Runtime Policy",
+      "topics": [
+        "llm_agent"
+      ],
+      "type": "paper"
+    },
+    {
+      "id": "arxiv:2611.15042v1",
+      "label": "Data Visualization Influencers: Tracing the Creation and Curation Strategies Behind Propagandist Visualizations on X",
+      "topics": [
+        "cognition"
+      ],
+      "type": "paper"
+    },
+    {
       "id": "biorxiv:10.1101/2023.01.10.523479",
       "label": "How Occam's razor guides human decision-making",
       "topics": [
@@ -9819,5 +9916,5 @@
     }
   ],
   "public_json_version": "0.4",
-  "updated_at": "2026-11-12T02:50:52+00:00"
+  "updated_at": "2026-11-13T02:32:15+00:00"
 }
