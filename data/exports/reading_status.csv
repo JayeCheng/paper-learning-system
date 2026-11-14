@@ -432,6 +432,12 @@ arxiv:2611.14999v1,backlog,medium,,2026-11-13T02:32:15+00:00,Towards Runtime-Awa
 arxiv:2611.15001v1,backlog,medium,,2026-11-13T02:32:15+00:00,Understanding Suggested Edits in Stack Overflow: A Large-Scale Empirical Study and Review Prioritization Framework,llm_agent,B
 arxiv:2611.15006v1,backlog,medium,,2026-11-13T02:32:15+00:00,EvoX: Rethinking the Agent Harness as a Runtime Policy,llm_agent,B
 arxiv:2611.15042v1,backlog,medium,,2026-11-13T02:32:15+00:00,Data Visualization Influencers: Tracing the Creation and Curation Strategies Behind Propagandist Visualizations on X,cognition_social,B
+arxiv:2611.17219v1,backlog,medium,,2026-11-14T02:14:40+00:00,Structure-Preserving Leaky Integrate-and-Fire Dynamics on Arbitrary Time Scales,cognition_social,B
+arxiv:2611.17294v1,backlog,medium,,2026-11-14T02:14:40+00:00,Metal Sandbox: Isolated Execution and Command Scheduling for GPU Coding Agents on Apple Silicon,architecture,A
+arxiv:2611.17298v1,backlog,medium,,2026-11-14T02:14:40+00:00,Consistent Video-to-Video Translation via Explicit Correspondences,gpu_graphics,B
+arxiv:2611.17304v1,backlog,medium,,2026-11-14T02:14:40+00:00,Where LLM Agents Get Stuck Debugging Databases: Access More Than Reasoning,llm_agent,B
+arxiv:2611.17316v1,backlog,medium,,2026-11-14T02:14:40+00:00,CoReMem: Cost-Internalizing Memory for Successive Coding Tasks with Prospective Valuation,llm_agent,B
+arxiv:2611.17321v1,backlog,medium,,2026-11-14T02:14:40+00:00,BrickFlow: Connectivity-Guided Brick Reconstruction,gpu_graphics,A
 biorxiv:10.1101/2023.01.10.523479,backlog,medium,,2026-09-28T00:33:07+00:00,How Occam's razor guides human decision-making,cognition_social,B
 biorxiv:10.1101/2024.03.07.583890,backlog,medium,,2026-10-19T00:08:58+00:00,Computation or Weight Adaptation? Rethinking the Role of Plasticity in Learning,cognition_social,B
 biorxiv:10.1101/2024.09.30.615819,backlog,medium,,2026-09-22T00:43:20+00:00,Hierarchy of prediction errors shapes the learning of context-dependent sensory representations,cognition_social,B
