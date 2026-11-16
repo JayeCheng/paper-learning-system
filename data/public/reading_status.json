@@ -6066,6 +6066,34 @@
     {
       "history": [
         {
+          "at": "2026-11-16T01:53:01+00:00",
+          "source": "daily_pipeline",
+          "status": "backlog"
+        }
+      ],
+      "notes_path": null,
+      "paper_id": "arxiv:2611.16330v1",
+      "priority": "medium",
+      "status": "backlog",
+      "updated_at": "2026-11-16T01:53:01+00:00"
+    },
+    {
+      "history": [
+        {
+          "at": "2026-11-16T01:53:01+00:00",
+          "source": "daily_pipeline",
+          "status": "backlog"
+        }
+      ],
+      "notes_path": null,
+      "paper_id": "arxiv:2611.17212v1",
+      "priority": "medium",
+      "status": "backlog",
+      "updated_at": "2026-11-16T01:53:01+00:00"
+    },
+    {
+      "history": [
+        {
           "at": "2026-11-14T02:14:40+00:00",
           "source": "daily_pipeline",
           "status": "backlog"
@@ -7856,5 +7884,5 @@
       "updated_at": "2026-07-09T09:48:54+00:00"
     }
   ],
-  "updated_at": "2026-11-15T01:45:31+00:00"
+  "updated_at": "2026-11-16T01:53:01+00:00"
 }

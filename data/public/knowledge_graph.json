@@ -3861,6 +3861,24 @@
     {
       "confidence": 0.5,
       "relation": "related_to",
+      "source": "arxiv:2611.16330v1",
+      "target": "architecture"
+    },
+    {
+      "confidence": 0.5,
+      "relation": "related_to",
+      "source": "arxiv:2611.17212v1",
+      "target": "architecture"
+    },
+    {
+      "confidence": 0.5,
+      "relation": "related_to",
+      "source": "arxiv:2611.17212v1",
+      "target": "llm_agent"
+    },
+    {
+      "confidence": 0.5,
+      "relation": "related_to",
       "source": "arxiv:2611.17219v1",
       "target": "cognition"
     },
@@ -8937,6 +8955,23 @@
       "type": "paper"
     },
     {
+      "id": "arxiv:2611.16330v1",
+      "label": "Snoopie: A Multi-GPU Communication Profiler and Visualizer",
+      "topics": [
+        "architecture"
+      ],
+      "type": "paper"
+    },
+    {
+      "id": "arxiv:2611.17212v1",
+      "label": "Theoretical and Empirical Analysis of Sparse Convolution",
+      "topics": [
+        "architecture",
+        "llm_agent"
+      ],
+      "type": "paper"
+    },
+    {
       "id": "arxiv:2611.17219v1",
       "label": "Structure-Preserving Leaky Integrate-and-Fire Dynamics on Arbitrary Time Scales",
       "topics": [
@@ -10020,5 +10055,5 @@
     }
   ],
   "public_json_version": "0.4",
-  "updated_at": "2026-11-15T01:45:31+00:00"
+  "updated_at": "2026-11-16T01:53:01+00:00"
 }

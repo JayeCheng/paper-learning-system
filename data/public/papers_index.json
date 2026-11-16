@@ -29862,6 +29862,148 @@
       "why_recommended": "Ranked by recency signal across configured topics."
     },
     {
+      "abstract": "With data movement becoming one of the most expensive bottlenecks in computing, the need for profiling tools to analyze communication becomes crucial for effectively scaling multi-GPU applications. While existing profiling tools including first-party software by GPU vendors are robust and excel at capturing compute operations within a single GPU, support for monitoring GPU-GPU data transfers and calls issued by communication libraries is currently inadequate. To fill these gaps, we introduce Snoopie, an instrumentation-based multi-GPU communication profiling tool built on NVBit, capable of tracking peer-to-peer transfers and GPU-centric communication library calls. To increase programmer productivity, Snoopie can attribute data movement to the source code line and the data objects involved. It comes with multiple visualization modes at varying granularities, from a coarse view of the data movement in the system as a whole to specific instructions and addresses. Our case studies demonstrate Snoopie's effectiveness in monitoring data movement, locating performance bugs in applications, and understanding concrete data transfers abstracted beneath communication libraries. The tool is publicly available at https://github.com/ParCoreLab/snoopie.",
+      "authors": [
+        "Mohammad Kefah Taha Issa",
+        "Muhammad Aditya Sasongko",
+        "Ilyas Turimbetov",
+        "Javid Baydamirli",
+        "Do\u011fan Sa\u011fbili",
+        "Didem Unat"
+      ],
+      "categories": [
+        "cs.DC",
+        "cs.PF"
+      ],
+      "citation_count": null,
+      "classic_status": null,
+      "code_url": "https://github.com/ParCoreLab/snoopie",
+      "deep_read_note_url": null,
+      "difficulty": null,
+      "enrichment_sources": [],
+      "existing_note_url": null,
+      "external_ids": {},
+      "field": null,
+      "fields_of_study": [],
+      "id": "arxiv:2611.16330v1",
+      "identifiers": {
+        "arxiv_id": "2611.16330v1"
+      },
+      "influential_citation_count": null,
+      "institutions": [],
+      "latest_note_url": null,
+      "note_count": 0,
+      "open_access_pdf_url": null,
+      "pdf_url": "https://arxiv.org/pdf/2611.16330v1",
+      "project_url": null,
+      "published_at": "2026-11-12",
+      "published_date": "2026-11-12",
+      "reading_advice": "quick_read",
+      "reading_status": "backlog",
+      "recommendation_level": "A",
+      "score": 0.762,
+      "scores": {
+        "classic_value": 0.35,
+        "engineering_transferability": 0.9500000000000001,
+        "recency": 0.78,
+        "source_quality": 0.78,
+        "total": 0.762,
+        "user_relevance": 0.75
+      },
+      "selected_for_s_level": false,
+      "source": "arxiv",
+      "source_group": "architecture",
+      "source_type": "recent_7d",
+      "source_url": "http://arxiv.org/abs/2611.16330v1",
+      "suggested_note_title": null,
+      "suggested_note_type": null,
+      "tags": [
+        "cs.DC",
+        "cs.PF"
+      ],
+      "title": "Snoopie: A Multi-GPU Communication Profiler and Visualizer",
+      "title_zh": null,
+      "topics": [
+        "architecture"
+      ],
+      "url": "http://arxiv.org/abs/2611.16330v1",
+      "venue": null,
+      "why_recommended": "Ranked by engineering transferability signal across configured topics."
+    },
+    {
+      "abstract": "Deep neural networks for image processing are increasingly deployed on resource-constrained edge devices such as drones, medical systems, and smartphones, where limited computational resources and memory bandwidth pose significant challenges for efficient inference. Pruning during training often produces highly sparse convolutional kernels, offering the potential to significantly reduce computation and memory requirements. However, exploiting this sparsity efficiently at runtime remains challenging due to irregular memory access patterns and workload imbalance across processing elements. In this work, we investigate the standard convolution with sparse weights and analyze its performance characteristics through roofline analysis, showing that a 3 x 3 sparse convolution achieves an arithmetic intensity of approximately 10 FLOP/byte compared to roughly 96 FLOP/byte for its dense counterpart. We propose techniques for an efficient sparse convolution at high sparsities. Preliminary results demonstrate that our approach achieves upto 1.65x speedup as compared to dense convolution on NVIDIA A100 and upto 1.52x on NVIDIA Jetson Nano (Tegra X1) , motivating further exploration of direct convolution as a practical path to efficient sparse inference on modern accelerators/edge devices.",
+      "authors": [
+        "Keshvi Tuteja",
+        "Yu-Hsiang Tsai",
+        "Gregor Olenik",
+        "Markus G\u00f6tz",
+        "Achim Streit",
+        "Hartwig Anzt",
+        "Charlotte Debus"
+      ],
+      "categories": [
+        "cs.PF",
+        "cs.DC",
+        "cs.LG"
+      ],
+      "citation_count": null,
+      "classic_status": null,
+      "code_url": null,
+      "deep_read_note_url": null,
+      "difficulty": null,
+      "enrichment_sources": [],
+      "existing_note_url": null,
+      "external_ids": {},
+      "field": null,
+      "fields_of_study": [],
+      "id": "arxiv:2611.17212v1",
+      "identifiers": {
+        "arxiv_id": "2611.17212v1"
+      },
+      "influential_citation_count": null,
+      "institutions": [],
+      "latest_note_url": null,
+      "note_count": 0,
+      "open_access_pdf_url": null,
+      "pdf_url": "https://arxiv.org/pdf/2611.17212v1",
+      "project_url": null,
+      "published_at": "2026-11-12",
+      "published_date": "2026-11-12",
+      "reading_advice": "save_for_later",
+      "reading_status": "backlog",
+      "recommendation_level": "B",
+      "score": 0.732,
+      "scores": {
+        "classic_value": 0.35,
+        "engineering_transferability": 0.8,
+        "recency": 0.78,
+        "source_quality": 0.78,
+        "total": 0.732,
+        "user_relevance": 0.75
+      },
+      "selected_for_s_level": false,
+      "source": "arxiv",
+      "source_group": "architecture",
+      "source_type": "recent_7d",
+      "source_url": "http://arxiv.org/abs/2611.17212v1",
+      "suggested_note_title": null,
+      "suggested_note_type": null,
+      "tags": [
+        "cs.PF",
+        "cs.DC",
+        "cs.LG"
+      ],
+      "title": "Theoretical and Empirical Analysis of Sparse Convolution",
+      "title_zh": null,
+      "topics": [
+        "architecture",
+        "llm_agent"
+      ],
+      "url": "http://arxiv.org/abs/2611.17212v1",
+      "venue": null,
+      "why_recommended": "Ranked by engineering transferability signal across configured topics."
+    },
+    {
       "abstract": "The leaky integrate-and-fire (LIF) neuron combines a passive membrane law with threshold-triggered firing and reset. We formulate this hybrid neuron model, under constant input, on an arbitrary Hilger time scale $\\mathbb{T}$. Our central result is that, after the first spike, the firing times satisfy $t_{n+1}=\u03a0_{\\mathbb{T}}^{+}(t_n+T_c)$, where $T_c$ is the classical reset-to-threshold travel time. This recursion requires no periodicity, homogeneity, or translation invariance of $\\mathbb{T}$; it holds for every time scale that is unbounded above. To preserve the passive membrane physics, we use the inverse cylinder transformation to construct a positively regressive coefficient $p_m$. The resulting delta-dynamic equation is exactly the restriction to $\\mathbb{T}$ of the classical continuous-time LIF trajectory. By contrast, the direct transcription $V^\u0394=-(V-V_\\infty)/\u03c4_m$ exhibits graininess-dependent sign reversal and amplification at coarse right-scattered points. The first firing time is the forward projection of the classical continuous threshold-crossing time onto $\\mathbb{T}$, and, when the graininess is bounded by $\u03bc^\\ast$, the per-event forward-projection delay -- from each reset to the next realized firing time, relative to the continuous crossing time computed from that same reset -- is bounded above by $\u03bc^\\ast$. On $\\mathbb{T}=h\\mathbb{Z}$ we obtain the explicit lattice-quantized law $T_{\\mathrm{ISI}}^{(h)}=h\\lceil T_c/h\\rceil$, which converges to the classical continuous-time inter-spike interval as $h\\to0^+$. The framework therefore separates preserved membrane physics from the temporal opportunity structure imposed by the time domain. To our knowledge, this is the first systematic Hilger-calculus treatment of a threshold-and-reset LIF spiking neuron on an arbitrary time scale.",
       "authors": [
         "Billur Kaymak\u00e7alan",
@@ -39446,5 +39588,5 @@
     }
   ],
   "public_json_version": "0.4",
-  "updated_at": "2026-11-15T01:45:31+00:00"
+  "updated_at": "2026-11-16T01:53:01+00:00"
 }

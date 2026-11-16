@@ -432,6 +432,8 @@ arxiv:2611.14999v1,backlog,medium,,2026-11-13T02:32:15+00:00,Towards Runtime-Awa
 arxiv:2611.15001v1,backlog,medium,,2026-11-13T02:32:15+00:00,Understanding Suggested Edits in Stack Overflow: A Large-Scale Empirical Study and Review Prioritization Framework,llm_agent,B
 arxiv:2611.15006v1,backlog,medium,,2026-11-13T02:32:15+00:00,EvoX: Rethinking the Agent Harness as a Runtime Policy,llm_agent,B
 arxiv:2611.15042v1,backlog,medium,,2026-11-13T02:32:15+00:00,Data Visualization Influencers: Tracing the Creation and Curation Strategies Behind Propagandist Visualizations on X,cognition_social,B
+arxiv:2611.16330v1,backlog,medium,,2026-11-16T01:53:01+00:00,Snoopie: A Multi-GPU Communication Profiler and Visualizer,architecture,A
+arxiv:2611.17212v1,backlog,medium,,2026-11-16T01:53:01+00:00,Theoretical and Empirical Analysis of Sparse Convolution,architecture,B
 arxiv:2611.17219v1,backlog,medium,,2026-11-14T02:14:40+00:00,Structure-Preserving Leaky Integrate-and-Fire Dynamics on Arbitrary Time Scales,cognition_social,B
 arxiv:2611.17294v1,backlog,medium,,2026-11-14T02:14:40+00:00,Metal Sandbox: Isolated Execution and Command Scheduling for GPU Coding Agents on Apple Silicon,architecture,A
 arxiv:2611.17298v1,backlog,medium,,2026-11-14T02:14:40+00:00,Consistent Video-to-Video Translation via Explicit Correspondences,gpu_graphics,B
