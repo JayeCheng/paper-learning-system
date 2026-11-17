@@ -1,0 +1,481 @@
+{
+  "date": "2026-11-17",
+  "frontend_entry": "data/public/latest.json",
+  "generated_at": "2026-11-17T04:25:17+00:00",
+  "generated_paths": {
+    "exports_csv": "data/exports/papers.csv",
+    "exports_daily_csv": "data/exports/daily_papers.csv",
+    "exports_jsonl": "data/exports/papers.jsonl",
+    "exports_notes_index": "data/exports/notes_index.csv",
+    "exports_reading_status": "data/exports/reading_status.csv",
+    "json": "daily/2026/11/2026-11-17.json",
+    "markdown": "daily/2026/11/2026-11-17.md",
+    "public_curriculum_progress": "data/public/curriculum_progress.json",
+    "public_daily_index": "data/public/daily_index.json",
+    "public_knowledge_graph": "data/public/knowledge_graph.json",
+    "public_latest": "data/public/latest.json",
+    "public_notes_index": "data/public/notes_index.json",
+    "public_papers_index": "data/public/papers_index.json",
+    "public_reading_status": "data/public/reading_status.json",
+    "state_notes_index": "data/state/notes_index.json",
+    "state_papers": "data/state/papers.jsonl",
+    "state_reading_status": "data/state/reading_status.json",
+    "state_run_history": "data/state/run_history.json"
+  },
+  "knowledge_graph_delta": [
+    "paper:arxiv:2611.20190v1",
+    "paper:arxiv:2611.20192v1",
+    "paper:arxiv:2611.19861v1",
+    "paper:arxiv:2611.20227v1",
+    "paper:arxiv:2611.20218v1",
+    "paper:biorxiv:10.64898/2026.05.14.725145"
+  ],
+  "learning_route_position": "v0.4 GitHub-owned note bridge",
+  "next_actions": [
+    "Review S-level candidate",
+    "Update reading status after skim",
+    "Promote durable concepts into the knowledge graph"
+  ],
+  "papers": [
+    {
+      "abstract": "Line is a foundational building block in visual design for traditional media and computer graphics. Controlled variation in line quality can be used to define form, create abstractions, distinguish categories, control affect, and more. Yet, when it comes to computer graphics visualizations of science, particularly those built upon 3D computer graphics, too often a line is just a line. This portfolio presents a series of visual design studies and lessons learned that explore the diverse character of line that might be useful for 3D visualizations. The imagery begins to show how more sophisticated use of this powerful visual building block could increase the clarity of data visualizations while also bringing a human, handcrafted aesthetic that reinforces the people and impacts behind scientific climate data.",
+      "authors": [
+        "Francesca Samsel",
+        "Daniel F. Keefe",
+        "Gregory Abram"
+      ],
+      "categories": [
+        "cs.HC",
+        "cs.GR"
+      ],
+      "citation_count": null,
+      "classic_status": null,
+      "code_url": null,
+      "deep_read_note_url": null,
+      "difficulty": null,
+      "enrichment_sources": [],
+      "existing_note_url": null,
+      "external_ids": {},
+      "field": null,
+      "fields_of_study": [],
+      "id": "arxiv:2611.20190v1",
+      "identifiers": {
+        "arxiv_id": "2611.20190v1"
+      },
+      "influential_citation_count": null,
+      "institutions": [],
+      "latest_note_url": null,
+      "note_count": 0,
+      "open_access_pdf_url": null,
+      "pdf_url": "https://arxiv.org/pdf/2611.20190v1",
+      "project_url": null,
+      "published_at": "2026-11-15",
+      "published_date": "2026-11-15",
+      "reading_advice": "save_for_later",
+      "reading_status": "backlog",
+      "recommendation_level": "B",
+      "score": 0.732,
+      "scores": {
+        "classic_value": 0.35,
+        "engineering_transferability": 0.8,
+        "recency": 0.78,
+        "source_quality": 0.78,
+        "total": 0.732,
+        "user_relevance": 0.75
+      },
+      "selected_for_s_level": false,
+      "source": "arxiv",
+      "source_group": "gpu_graphics",
+      "source_type": "recent_7d",
+      "source_url": "http://arxiv.org/abs/2611.20190v1",
+      "suggested_note_title": null,
+      "suggested_note_type": null,
+      "tags": [
+        "cs.HC",
+        "cs.GR"
+      ],
+      "title": "A Line is Not Just a Line: Visualizing Harmonious Complex Line Sets",
+      "title_zh": null,
+      "topics": [
+        "cognition",
+        "gpu_graphics"
+      ],
+      "url": "http://arxiv.org/abs/2611.20190v1",
+      "venue": null,
+      "why_recommended": "Ranked by engineering transferability signal across configured topics."
+    },
+    {
+      "abstract": "Scene text synthesis requires stroke-accurate characters rendered in a specified layout, as well as visual coherence with the surrounding scene. To achieve this, existing methods commonly pre-render the target text at its intended locations to form a glyph image that jointly specifies layout and glyph structure. However, this representation ties the resolution of each glyph to its target region, limiting fine-grained stroke guidance for small, densely packed, or structurally complex text. To tackle this, we propose GlyphAtlas, a scene text synthesis framework that retains the glyph image as a spatial anchor and supplies fine-grained stroke references through a dedicated glyph atlas. The atlas renders and encodes each character or word in a separate cell, decoupling reference resolution from target-region size. We further introduce atlas-anchored attention, which lets each text region retrieve stroke detail only from its corresponding atlas cells to refine the coarse glyph structure provided by the glyph image. This coarse-to-fine conditioning simplifies stroke rendering while preserving explicit layout correspondence. We optimize GlyphAtlas with a mask-weighted flow matching objective and a timestep-weighted text perceptual loss for writing accuracy and background consistency. Random resolution augmentation of atlas cells supports adjustable atlas budgets at inference. Extensive experiments demonstrate that GlyphAtlas achieves stroke-accurate synthesis of small, dense, and structurally complex text, zero-shot transfer to languages unseen during task-specific training, and leading performance in scenes with many text regions. project page: https://fr0zencrane.github.io/project-glyphatlas/",
+      "authors": [
+        "Luozheng Qin",
+        "Changhai Zhou",
+        "Yiyi Zhou"
+      ],
+      "categories": [
+        "cs.CV"
+      ],
+      "citation_count": null,
+      "classic_status": null,
+      "code_url": null,
+      "deep_read_note_url": null,
+      "difficulty": null,
+      "enrichment_sources": [],
+      "existing_note_url": null,
+      "external_ids": {},
+      "field": null,
+      "fields_of_study": [],
+      "id": "arxiv:2611.20192v1",
+      "identifiers": {
+        "arxiv_id": "2611.20192v1"
+      },
+      "influential_citation_count": null,
+      "institutions": [],
+      "latest_note_url": null,
+      "note_count": 0,
+      "open_access_pdf_url": null,
+      "pdf_url": "https://arxiv.org/pdf/2611.20192v1",
+      "project_url": "https://fr0zencrane.github.io/project-glyphatlas/",
+      "published_at": "2026-11-15",
+      "published_date": "2026-11-15",
+      "reading_advice": "save_for_later",
+      "reading_status": "backlog",
+      "recommendation_level": "B",
+      "score": 0.692,
+      "scores": {
+        "classic_value": 0.35,
+        "engineering_transferability": 0.6,
+        "recency": 0.78,
+        "source_quality": 0.78,
+        "total": 0.692,
+        "user_relevance": 0.75
+      },
+      "selected_for_s_level": false,
+      "source": "arxiv",
+      "source_group": "gpu_graphics",
+      "source_type": "recent_7d",
+      "source_url": "http://arxiv.org/abs/2611.20192v1",
+      "suggested_note_title": null,
+      "suggested_note_type": null,
+      "tags": [
+        "cs.CV"
+      ],
+      "title": "GlyphAtlas: Disentangling Stroke Detail from Layout for Scene Text Synthesis",
+      "title_zh": null,
+      "topics": [
+        "gpu_graphics"
+      ],
+      "url": "http://arxiv.org/abs/2611.20192v1",
+      "venue": null,
+      "why_recommended": "Ranked by recency signal across configured topics."
+    },
+    {
+      "abstract": "High Bandwidth Flash (HBF) combines NAND flash density with high-bandwidth accelerator connectivity, offering additional memory capacity for large language model inference. However, limited hardware availability makes it difficult to evaluate how host behavior and device resource constraints jointly affect HBF request processing. We present HBF-EventLab, an open-source, transaction-level discrete-event simulator based on the Open Compute Project HBF specification. HBF-EventLab connects host request dispatch, command admission, fragmented write assembly, read dispatch, NAND execution, and completion feedback within a shared event loop. It explicitly models distinct resource lifetimes and separates configurable scheduling policies from ordering and resource constraints, enabling controlled exploration of host-device coordination. Experiments show how resource limits, address interleaving, fragment arrival patterns, and scheduling policies affect write completion and request latency. The results highlight the need to consider resource limits and scheduling policies jointly, accounting for their interactions with write assembly and read eligibility. We also integrate HBF-EventLab with real GPU execution of Qwen3-0.6B, combining profiled GPU activity durations with simulated weight-access delays to estimate time to first token and time per output token, with logits and output tokens remaining bitwise identical to those from native GPU execution. HBF-EventLab provides a configurable foundation for studying HBF mechanisms, exploring scheduling policies, and assessing how HBF access delays affect application-level timing. The source code is publicly available at https://github.com/sjtu-epcc/HBF-EventLab.",
+      "authors": [
+        "Ziqing Mei",
+        "Yiwei Huang",
+        "Zhiyi Zeng",
+        "Yuhao Xiao",
+        "Pu Pang",
+        "Quan Chen",
+        "Deze Zeng",
+        "Minyi Guo"
+      ],
+      "categories": [
+        "cs.AR",
+        "cs.ET"
+      ],
+      "citation_count": null,
+      "classic_status": null,
+      "code_url": "https://github.com/sjtu-epcc/HBF-EventLab",
+      "deep_read_note_url": null,
+      "difficulty": null,
+      "enrichment_sources": [],
+      "existing_note_url": null,
+      "external_ids": {},
+      "field": null,
+      "fields_of_study": [],
+      "id": "arxiv:2611.19861v1",
+      "identifiers": {
+        "arxiv_id": "2611.19861v1"
+      },
+      "influential_citation_count": null,
+      "institutions": [],
+      "latest_note_url": null,
+      "note_count": 0,
+      "open_access_pdf_url": null,
+      "pdf_url": "https://arxiv.org/pdf/2611.19861v1",
+      "project_url": null,
+      "published_at": "2026-11-15",
+      "published_date": "2026-11-15",
+      "reading_advice": "quick_read",
+      "reading_status": "backlog",
+      "recommendation_level": "A",
+      "score": 0.762,
+      "scores": {
+        "classic_value": 0.35,
+        "engineering_transferability": 0.9500000000000001,
+        "recency": 0.78,
+        "source_quality": 0.78,
+        "total": 0.762,
+        "user_relevance": 0.75
+      },
+      "selected_for_s_level": false,
+      "source": "arxiv",
+      "source_group": "architecture",
+      "source_type": "recent_7d",
+      "source_url": "http://arxiv.org/abs/2611.19861v1",
+      "suggested_note_title": null,
+      "suggested_note_type": null,
+      "tags": [
+        "cs.AR",
+        "cs.ET"
+      ],
+      "title": "HBF-EventLab: A Discrete-Event Simulator for Studying Host-Device Coordination in High Bandwidth Flash",
+      "title_zh": null,
+      "topics": [
+        "architecture"
+      ],
+      "url": "http://arxiv.org/abs/2611.19861v1",
+      "venue": null,
+      "why_recommended": "Ranked by engineering transferability signal across configured topics."
+    },
+    {
+      "abstract": "Hugging Face has become a central platform for sharing and reusing pre-trained models, yet it remains unclear which practices are associated with higher visibility and adoption. Prior studies describe model reuse and model-card quality but do not systematically compare popular and unpopular models across documentation, repository structure, platform metadata, and technical metadata. We studied 66,909 Hugging Face models collected on 2026-02-28 and extracted 31 features across four dimensions: Documentation, Models, Platforms, and Techniques. For downloads and likes, we compared the top 10% popular models with the bottom 80% using statistical tests and effect sizes, trained five classifiers to predict popularity, ranked feature importance with the best-performing model, and tested whether predictions held across model domains and contributor affiliations. Popular models consistently had longer model cards, more code examples, and more GitHub and arXiv links, while quantized models showed contrasting patterns under downloads and likes. A Random Forest reached AUC 0.861 for downloads and 0.848 for likes, with root-level file counts and model size also among the most important features. Cross-group transfer stayed mostly above random but dropped by 0.12-0.17 AUC on average, showing that prediction performance was partly group-specific. The findings remained stable after removing download outliers and under alternative popularity thresholds, and a manual review of popular model cards linked the key documentation features to concrete content. We derive recommendations for model practitioners and directions for future research on model-sharing platforms.",
+      "authors": [
+        "Yinan Wu",
+        "Zhou Yang",
+        "Bowen Xu",
+        "Bo Wang",
+        "Bach Le",
+        "David Lo"
+      ],
+      "categories": [
+        "cs.SE"
+      ],
+      "citation_count": null,
+      "classic_status": null,
+      "code_url": null,
+      "deep_read_note_url": null,
+      "difficulty": null,
+      "enrichment_sources": [],
+      "existing_note_url": null,
+      "external_ids": {},
+      "field": null,
+      "fields_of_study": [],
+      "id": "arxiv:2611.20227v1",
+      "identifiers": {
+        "arxiv_id": "2611.20227v1"
+      },
+      "influential_citation_count": null,
+      "institutions": [],
+      "latest_note_url": null,
+      "note_count": 0,
+      "open_access_pdf_url": null,
+      "pdf_url": "https://arxiv.org/pdf/2611.20227v1",
+      "project_url": null,
+      "published_at": "2026-11-15",
+      "published_date": "2026-11-15",
+      "reading_advice": "save_for_later",
+      "reading_status": "backlog",
+      "recommendation_level": "B",
+      "score": 0.732,
+      "scores": {
+        "classic_value": 0.35,
+        "engineering_transferability": 0.8,
+        "recency": 0.78,
+        "source_quality": 0.78,
+        "total": 0.732,
+        "user_relevance": 0.75
+      },
+      "selected_for_s_level": false,
+      "source": "arxiv",
+      "source_group": "llm_agent",
+      "source_type": "recent_7d",
+      "source_url": "http://arxiv.org/abs/2611.20227v1",
+      "suggested_note_title": null,
+      "suggested_note_type": null,
+      "tags": [
+        "cs.SE"
+      ],
+      "title": "Learning From the Best: What Makes Popular Hugging Face Models?",
+      "title_zh": null,
+      "topics": [
+        "llm_agent"
+      ],
+      "url": "http://arxiv.org/abs/2611.20227v1",
+      "venue": null,
+      "why_recommended": "Ranked by engineering transferability signal across configured topics."
+    },
+    {
+      "abstract": "A coding agent working within a software organization must establish what to build, collaborate with colleagues, and verify what it delivers. We introduce SWE-CoWork, a benchmark comprising 101 development assignments across 101 real repositories, 11 programming languages, and 12 application domains. Each assignment places an agent in a simulated engineering organization with 26 colleagues who have distinct responsibilities, bounded knowledge, and controlled collaboration behavior. Starting from a brief handoff, agents must recover requirements distributed across colleagues and workplace records, reconcile conflicting evidence, and implement changes evaluated by private executable tests. We evaluate eleven models and find a substantial gap between partial implementation and complete task delivery. The two leading models satisfy approximately 63% of fail-to-pass (F2P) tests but complete fewer than 8% of assignments. Providing complete requirements upfront improves F2P by approximately 16 percentage points for Seed Evolving and GPT-6 Astra, yet leaves complete task success unchanged. Requirement-level trajectory analysis reveals failures throughout the delivery process: Claude-Opus-5.5 directs a mean of 93% of first questions about queried cards to their accountable owners across runs but obtains only 64% of colleague-held requirements. Deferred questions go unfollowed, implementations remain incomplete even after requirements are acquired, and 31% of requirements reported as completed fail their tests. These findings highlight sustained requirement tracking, from clarification through implementation, verification, and handoff, as a key challenge for reliable autonomous software engineering.",
+      "authors": [
+        "Xinping Lei",
+        "Minghao Liu",
+        "Ruijie Zhu",
+        "Xiaohui Hu",
+        "Xingqiao Li",
+        "Ao Zhang",
+        "Wenhao Chai",
+        "Han Li",
+        "Tao Wang",
+        "Jingyuan Zhang",
+        "Enduo Zhao",
+        "Yunfeng Shi",
+        "Yiming Liang",
+        "Zetao Yang",
+        "Xingjian Wang",
+        "Yifan Yao",
+        "Xinkai Ma",
+        "Yingru Li",
+        "Tianhan Yang",
+        "Huan Zhou",
+        "Weiran Shi",
+        "Shen Yan",
+        "Jiaheng Liu",
+        "Stephen Huang",
+        "Eli Cheung",
+        "Weihao Xuan"
+      ],
+      "categories": [
+        "cs.SE",
+        "cs.AI"
+      ],
+      "citation_count": null,
+      "classic_status": null,
+      "code_url": null,
+      "deep_read_note_url": null,
+      "difficulty": null,
+      "enrichment_sources": [],
+      "existing_note_url": null,
+      "external_ids": {},
+      "field": null,
+      "fields_of_study": [],
+      "id": "arxiv:2611.20218v1",
+      "identifiers": {
+        "arxiv_id": "2611.20218v1"
+      },
+      "influential_citation_count": null,
+      "institutions": [],
+      "latest_note_url": null,
+      "note_count": 0,
+      "open_access_pdf_url": null,
+      "pdf_url": "https://arxiv.org/pdf/2611.20218v1",
+      "project_url": null,
+      "published_at": "2026-11-15",
+      "published_date": "2026-11-15",
+      "reading_advice": "save_for_later",
+      "reading_status": "backlog",
+      "recommendation_level": "B",
+      "score": 0.732,
+      "scores": {
+        "classic_value": 0.35,
+        "engineering_transferability": 0.8,
+        "recency": 0.78,
+        "source_quality": 0.78,
+        "total": 0.732,
+        "user_relevance": 0.75
+      },
+      "selected_for_s_level": false,
+      "source": "arxiv",
+      "source_group": "llm_agent",
+      "source_type": "recent_7d",
+      "source_url": "http://arxiv.org/abs/2611.20218v1",
+      "suggested_note_title": null,
+      "suggested_note_type": null,
+      "tags": [
+        "cs.SE",
+        "cs.AI"
+      ],
+      "title": "SWE-CoWork: Benchmarking Coding Agents as Digital Employees in Organizations",
+      "title_zh": null,
+      "topics": [
+        "llm_agent"
+      ],
+      "url": "http://arxiv.org/abs/2611.20218v1",
+      "venue": null,
+      "why_recommended": "Ranked by engineering transferability signal across configured topics."
+    },
+    {
+      "abstract": "Identifying, through analysis of large-scale neural recordings, subpopulations of neurons interacting across brain areas is key for understanding across-brain communication with cellular resolution. The communication subspace (CS) framework addresses this need by capturing additive interactions between subspaces of source and target neural populations. However, no current method identifies interpretable components of how a measured, multivariate modulator - such as behavioral state or the activity of another population - reshapes these interactions. Here we extend the CS framework by using a bilinear perturbation of reduced-rank regression to parameterize modulation as a low-rank tensor. We derive MICs - multiplicative interaction channels - a method to identify triplets made of a source and a target activity pattern and a modulator of their interaction. We develop a hierarchical fitting pipeline and provide a closed-form decomposition that quantifies whether modulation reshapes the modulator-averaged baseline interaction, recruits private dimensions of one population, or opens new interactions. In simulations, MICs reliably recovers the presence and geometry of ground-truth modulation even in the high-dimensional, low-sample regime. Applied to a benchmark macaque dataset, MICs recovers the geometry and functional form of the stimulus modulation of interactions between primary and secondary visual cortices. Applied to simultaneous calcium imaging of prefrontal axons and interneurons in mouse visual cortex, MICs reveals that behavioral state asymmetrically modulates top-down interactions, reconfiguring the prefrontal projection patterns that interact with a stable set of visual interneurons. MICs provides a data-efficient, interpretable account of how measured modulators reshape the interactions between neural populations. Code is available at https://github.com/mcelotto/multiplicative_interaction_channels.",
+      "authors": [
+        "Celotto, M.",
+        "Sooter, J. S.",
+        "A\u0308hrlund-Richter, S.",
+        "Jenks, K. R.",
+        "Sur, M.",
+        "Panzeri, S."
+      ],
+      "categories": [
+        "neuroscience"
+      ],
+      "citation_count": null,
+      "classic_status": null,
+      "code_url": "https://github.com/mcelotto/multiplicative_interaction_channels",
+      "deep_read_note_url": null,
+      "difficulty": null,
+      "enrichment_sources": [],
+      "existing_note_url": null,
+      "external_ids": {
+        "DOI": "10.64898/2026.05.14.725145"
+      },
+      "field": null,
+      "fields_of_study": [
+        "Neuroscience"
+      ],
+      "id": "biorxiv:10.64898/2026.05.14.725145",
+      "identifiers": {
+        "DOI": "10.64898/2026.05.14.725145",
+        "doi": "10.64898/2026.05.14.725145",
+        "server": "biorxiv"
+      },
+      "influential_citation_count": null,
+      "institutions": [],
+      "latest_note_url": null,
+      "note_count": 0,
+      "open_access_pdf_url": null,
+      "pdf_url": null,
+      "project_url": null,
+      "published_at": "2026-11-10",
+      "published_date": "2026-11-10",
+      "reading_advice": "save_for_later",
+      "reading_status": "backlog",
+      "recommendation_level": "B",
+      "score": 0.683,
+      "scores": {
+        "classic_value": 0.35,
+        "engineering_transferability": 0.63,
+        "recency": 0.78,
+        "source_quality": 0.68,
+        "total": 0.683,
+        "user_relevance": 0.75
+      },
+      "selected_for_s_level": false,
+      "source": "biorxiv",
+      "source_group": "cognition_social",
+      "source_type": "recent_7d",
+      "source_url": "https://doi.org/10.64898/2026.05.14.725145",
+      "suggested_note_title": null,
+      "suggested_note_type": null,
+      "tags": [
+        "neuroscience",
+        "cognition_social",
+        "biorxiv"
+      ],
+      "title": "Decomposing the modulation of interactions between neuronal populations",
+      "title_zh": null,
+      "topics": [
+        "cognition"
+      ],
+      "url": "https://doi.org/10.64898/2026.05.14.725145",
+      "venue": "bioRxiv",
+      "why_recommended": "Ranked by recency signal across configured topics."
+    }
+  ],
+  "public_json_version": "0.4",
+  "s_level_candidate_ids": [],
+  "s_level_paper_id": null,
+  "source_mode_summary": {
+    "recent_7d": 6
+  },
+  "summary": "Selected 6 papers: 6 recent candidates and 0 classic fallback items."
+}

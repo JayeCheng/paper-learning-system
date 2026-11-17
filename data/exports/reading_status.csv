@@ -440,6 +440,11 @@ arxiv:2611.17298v1,backlog,medium,,2026-11-14T02:14:40+00:00,Consistent Video-to
 arxiv:2611.17304v1,backlog,medium,,2026-11-14T02:14:40+00:00,Where LLM Agents Get Stuck Debugging Databases: Access More Than Reasoning,llm_agent,B
 arxiv:2611.17316v1,backlog,medium,,2026-11-14T02:14:40+00:00,CoReMem: Cost-Internalizing Memory for Successive Coding Tasks with Prospective Valuation,llm_agent,B
 arxiv:2611.17321v1,backlog,medium,,2026-11-14T02:14:40+00:00,BrickFlow: Connectivity-Guided Brick Reconstruction,gpu_graphics,A
+arxiv:2611.19861v1,backlog,medium,,2026-11-17T04:25:17+00:00,HBF-EventLab: A Discrete-Event Simulator for Studying Host-Device Coordination in High Bandwidth Flash,architecture,A
+arxiv:2611.20190v1,backlog,medium,,2026-11-17T04:25:17+00:00,A Line is Not Just a Line: Visualizing Harmonious Complex Line Sets,gpu_graphics,B
+arxiv:2611.20192v1,backlog,medium,,2026-11-17T04:25:17+00:00,GlyphAtlas: Disentangling Stroke Detail from Layout for Scene Text Synthesis,gpu_graphics,B
+arxiv:2611.20218v1,backlog,medium,,2026-11-17T04:25:17+00:00,SWE-CoWork: Benchmarking Coding Agents as Digital Employees in Organizations,llm_agent,B
+arxiv:2611.20227v1,backlog,medium,,2026-11-17T04:25:17+00:00,Learning From the Best: What Makes Popular Hugging Face Models?,llm_agent,B
 biorxiv:10.1101/2023.01.10.523479,backlog,medium,,2026-09-28T00:33:07+00:00,How Occam's razor guides human decision-making,cognition_social,B
 biorxiv:10.1101/2024.03.07.583890,backlog,medium,,2026-10-19T00:08:58+00:00,Computation or Weight Adaptation? Rethinking the Role of Plasticity in Learning,cognition_social,B
 biorxiv:10.1101/2024.09.30.615819,backlog,medium,,2026-09-22T00:43:20+00:00,Hierarchy of prediction errors shapes the learning of context-dependent sensory representations,cognition_social,B
@@ -473,6 +478,7 @@ biorxiv:10.64898/2026.04.27.721238,backlog,medium,,2026-10-12T01:14:13+00:00,Spa
 biorxiv:10.64898/2026.05.01.721665,backlog,medium,,2026-09-15T00:31:00+00:00,Is FFT window length a neutral preprocessing choice in CNN-based dolphin whistle detection? A cross-domain sensitivity analysis.,cognition_social,B
 biorxiv:10.64898/2026.05.03.722293,backlog,medium,,2026-09-23T00:19:20+00:00,Whole-body 3D kinematics of freely behaving Drosophila,cognition_social,B
 biorxiv:10.64898/2026.05.11.724160,backlog,medium,,2026-09-23T00:19:20+00:00,Juvenile social isolation induces gene expression alterations and histone modification dysregulations in nucleus accumbens (NAc) neurons of female mice,cognition_social,B
+biorxiv:10.64898/2026.05.14.725145,backlog,medium,,2026-11-17T04:25:17+00:00,Decomposing the modulation of interactions between neuronal populations,cognition_social,B
 biorxiv:10.64898/2026.05.14.725265,backlog,medium,,2026-08-30T00:10:37+00:00,Appetite for change: How nutritional state and ventral striatal dopamine shape psilocybin effects on cognitive flexibility,cognition_social,B
 biorxiv:10.64898/2026.05.19.726180,backlog,medium,,2026-09-09T00:05:20+00:00,The microstructure-weighted human connectome: network properties and structure-function correlations across spatial scales,cognition_social,B
 biorxiv:10.64898/2026.05.27.728219,backlog,medium,,2026-10-02T01:37:28+00:00,Altered Brain Extracellular Matrix Structure and Sex-Specific Learning/Memory Dysfunction in Mice Lacking the Functional Amyloid Cystatin-Related Epididymal Spermatogenic (CRES),cognition_social,B

@@ -3933,6 +3933,42 @@
     {
       "confidence": 0.5,
       "relation": "related_to",
+      "source": "arxiv:2611.19861v1",
+      "target": "architecture"
+    },
+    {
+      "confidence": 0.5,
+      "relation": "related_to",
+      "source": "arxiv:2611.20190v1",
+      "target": "cognition"
+    },
+    {
+      "confidence": 0.5,
+      "relation": "related_to",
+      "source": "arxiv:2611.20190v1",
+      "target": "gpu_graphics"
+    },
+    {
+      "confidence": 0.5,
+      "relation": "related_to",
+      "source": "arxiv:2611.20192v1",
+      "target": "gpu_graphics"
+    },
+    {
+      "confidence": 0.5,
+      "relation": "related_to",
+      "source": "arxiv:2611.20218v1",
+      "target": "llm_agent"
+    },
+    {
+      "confidence": 0.5,
+      "relation": "related_to",
+      "source": "arxiv:2611.20227v1",
+      "target": "llm_agent"
+    },
+    {
+      "confidence": 0.5,
+      "relation": "related_to",
       "source": "biorxiv:10.1101/2023.01.10.523479",
       "target": "cognition"
     },
@@ -4324,6 +4360,18 @@
       "confidence": 0.5,
       "relation": "related_to",
       "source": "biorxiv:10.64898/2026.05.11.724160",
+      "target": "cognition_social"
+    },
+    {
+      "confidence": 0.5,
+      "relation": "related_to",
+      "source": "biorxiv:10.64898/2026.05.14.725145",
+      "target": "cognition"
+    },
+    {
+      "confidence": 0.5,
+      "relation": "related_to",
+      "source": "biorxiv:10.64898/2026.05.14.725145",
       "target": "cognition_social"
     },
     {
@@ -9022,6 +9070,47 @@
       "type": "paper"
     },
     {
+      "id": "arxiv:2611.19861v1",
+      "label": "HBF-EventLab: A Discrete-Event Simulator for Studying Host-Device Coordination in High Bandwidth Flash",
+      "topics": [
+        "architecture"
+      ],
+      "type": "paper"
+    },
+    {
+      "id": "arxiv:2611.20190v1",
+      "label": "A Line is Not Just a Line: Visualizing Harmonious Complex Line Sets",
+      "topics": [
+        "cognition",
+        "gpu_graphics"
+      ],
+      "type": "paper"
+    },
+    {
+      "id": "arxiv:2611.20192v1",
+      "label": "GlyphAtlas: Disentangling Stroke Detail from Layout for Scene Text Synthesis",
+      "topics": [
+        "gpu_graphics"
+      ],
+      "type": "paper"
+    },
+    {
+      "id": "arxiv:2611.20218v1",
+      "label": "SWE-CoWork: Benchmarking Coding Agents as Digital Employees in Organizations",
+      "topics": [
+        "llm_agent"
+      ],
+      "type": "paper"
+    },
+    {
+      "id": "arxiv:2611.20227v1",
+      "label": "Learning From the Best: What Makes Popular Hugging Face Models?",
+      "topics": [
+        "llm_agent"
+      ],
+      "type": "paper"
+    },
+    {
       "id": "biorxiv:10.1101/2023.01.10.523479",
       "label": "How Occam's razor guides human decision-making",
       "topics": [
@@ -9280,6 +9369,14 @@
     {
       "id": "biorxiv:10.64898/2026.05.11.724160",
       "label": "Juvenile social isolation induces gene expression alterations and histone modification dysregulations in nucleus accumbens (NAc) neurons of female mice",
+      "topics": [
+        "cognition"
+      ],
+      "type": "paper"
+    },
+    {
+      "id": "biorxiv:10.64898/2026.05.14.725145",
+      "label": "Decomposing the modulation of interactions between neuronal populations",
       "topics": [
         "cognition"
       ],
@@ -10055,5 +10152,5 @@
     }
   ],
   "public_json_version": "0.4",
-  "updated_at": "2026-11-16T01:53:01+00:00"
+  "updated_at": "2026-11-17T04:25:17+00:00"
 }
