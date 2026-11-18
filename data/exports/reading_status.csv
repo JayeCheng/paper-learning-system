@@ -445,6 +445,12 @@ arxiv:2611.20190v1,backlog,medium,,2026-11-17T04:25:17+00:00,A Line is Not Just 
 arxiv:2611.20192v1,backlog,medium,,2026-11-17T04:25:17+00:00,GlyphAtlas: Disentangling Stroke Detail from Layout for Scene Text Synthesis,gpu_graphics,B
 arxiv:2611.20218v1,backlog,medium,,2026-11-17T04:25:17+00:00,SWE-CoWork: Benchmarking Coding Agents as Digital Employees in Organizations,llm_agent,B
 arxiv:2611.20227v1,backlog,medium,,2026-11-17T04:25:17+00:00,Learning From the Best: What Makes Popular Hugging Face Models?,llm_agent,B
+arxiv:2611.22613v1,backlog,medium,,2026-11-18T03:37:37+00:00,Python Code Generation for Isabelle/HOL,llm_agent,A
+arxiv:2611.22665v1,backlog,medium,,2026-11-18T03:37:37+00:00,Contract-Explicit Evaluation: From Auditing Learned Readers to Scoped Certificates,llm_agent,A
+arxiv:2611.22673v1,backlog,medium,,2026-11-18T03:37:37+00:00,FVScore: Specification-Driven Neuro-Symbolic Video Evaluation,gpu_graphics,A
+arxiv:2611.22674v1,backlog,medium,,2026-11-18T03:37:37+00:00,Gateway-Free Kafka Streaming from FPGA-Based Detectors: A Bare-Metal Pipelined Producer on Zynq-7000,architecture,A
+arxiv:2611.22699v1,backlog,medium,,2026-11-18T03:37:37+00:00,TANGO: Real-World Unregistered RGB-Guided Hyperspectral Super-Resolution with Two-Camera Acquisitions,gpu_graphics,A
+arxiv:2611.22716v1,backlog,medium,,2026-11-18T03:37:37+00:00,"High-Coverage Blind Spots in Online Abuse Monitoring: Account Selection, Held-Out Flagging Rates, and Sample Composition",cognition_social,B
 biorxiv:10.1101/2023.01.10.523479,backlog,medium,,2026-09-28T00:33:07+00:00,How Occam's razor guides human decision-making,cognition_social,B
 biorxiv:10.1101/2024.03.07.583890,backlog,medium,,2026-10-19T00:08:58+00:00,Computation or Weight Adaptation? Rethinking the Role of Plasticity in Learning,cognition_social,B
 biorxiv:10.1101/2024.09.30.615819,backlog,medium,,2026-09-22T00:43:20+00:00,Hierarchy of prediction errors shapes the learning of context-dependent sensory representations,cognition_social,B

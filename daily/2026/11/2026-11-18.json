@@ -1,0 +1,442 @@
+{
+  "date": "2026-11-18",
+  "frontend_entry": "data/public/latest.json",
+  "generated_at": "2026-11-18T03:37:37+00:00",
+  "generated_paths": {
+    "exports_csv": "data/exports/papers.csv",
+    "exports_daily_csv": "data/exports/daily_papers.csv",
+    "exports_jsonl": "data/exports/papers.jsonl",
+    "exports_notes_index": "data/exports/notes_index.csv",
+    "exports_reading_status": "data/exports/reading_status.csv",
+    "json": "daily/2026/11/2026-11-18.json",
+    "markdown": "daily/2026/11/2026-11-18.md",
+    "public_curriculum_progress": "data/public/curriculum_progress.json",
+    "public_daily_index": "data/public/daily_index.json",
+    "public_knowledge_graph": "data/public/knowledge_graph.json",
+    "public_latest": "data/public/latest.json",
+    "public_notes_index": "data/public/notes_index.json",
+    "public_papers_index": "data/public/papers_index.json",
+    "public_reading_status": "data/public/reading_status.json",
+    "state_notes_index": "data/state/notes_index.json",
+    "state_papers": "data/state/papers.jsonl",
+    "state_reading_status": "data/state/reading_status.json",
+    "state_run_history": "data/state/run_history.json"
+  },
+  "knowledge_graph_delta": [
+    "paper:arxiv:2611.22699v1",
+    "paper:arxiv:2611.22673v1",
+    "paper:arxiv:2611.22674v1",
+    "paper:arxiv:2611.22613v1",
+    "paper:arxiv:2611.22665v1",
+    "paper:arxiv:2611.22716v1"
+  ],
+  "learning_route_position": "v0.4 GitHub-owned note bridge",
+  "next_actions": [
+    "Review S-level candidate",
+    "Update reading status after skim",
+    "Promote durable concepts into the knowledge graph"
+  ],
+  "papers": [
+    {
+      "abstract": "Unregistered hyperspectral image super-resolution aims to recover a high-resolution HSI from a low-resolution hyperspectral observation and an unregistered high-resolution RGB reference. Although recent methods have begun to address the geometric misalignment between the two modalities, their evaluation is still constrained by the lack of a large-scale public benchmark based on real two-camera RGB--HSI acquisitions with a high-resolution HSI reference. To address this gap, we introduce DUET, the first large-scale public dataset for unregistered RGB-guided hyperspectral super-resolution, comprising 403 indoor and outdoor scenes captured with two separate RGB and hyperspectral cameras. We further propose TANGO (Two-camera AligNment with Gated Occlusions), which first compensates for the dominant cross-camera displacement through end-to-end global alignment and then refines the remaining inconsistencies with a coarse-to-fine local feature alignment. A learned gating mechanism further attenuates the RGB guidance where the two views cannot be consistently matched. Experimental results show that TANGO achieves state-of-the-art performance on both DUET and REAL across all evaluated scale factors, outperforming the strongest competitor on DUET by up to 2.29 dB in PSNR while requiring 2.5$\\times$ fewer FLOPs. The code and dataset will be available at https://github.com/FagiolottoConSombrero/TANGO-DUET",
+      "authors": [
+        "Matteo Kolyszko",
+        "Marco Buzzelli",
+        "Simone Bianco",
+        "Raimondo Schettini"
+      ],
+      "categories": [
+        "cs.CV"
+      ],
+      "citation_count": null,
+      "classic_status": null,
+      "code_url": "https://github.com/FagiolottoConSombrero/TANGO-DUET",
+      "deep_read_note_url": null,
+      "difficulty": null,
+      "enrichment_sources": [],
+      "existing_note_url": null,
+      "external_ids": {},
+      "field": null,
+      "fields_of_study": [],
+      "id": "arxiv:2611.22699v1",
+      "identifiers": {
+        "arxiv_id": "2611.22699v1"
+      },
+      "influential_citation_count": null,
+      "institutions": [],
+      "latest_note_url": null,
+      "note_count": 0,
+      "open_access_pdf_url": null,
+      "pdf_url": "https://arxiv.org/pdf/2611.22699v1",
+      "project_url": null,
+      "published_at": "2026-11-17",
+      "published_date": "2026-11-17",
+      "reading_advice": "quick_read",
+      "reading_status": "backlog",
+      "recommendation_level": "A",
+      "score": 0.747,
+      "scores": {
+        "classic_value": 0.35,
+        "engineering_transferability": 0.6,
+        "recency": 1.0,
+        "source_quality": 0.78,
+        "total": 0.747,
+        "user_relevance": 0.75
+      },
+      "selected_for_s_level": false,
+      "source": "arxiv",
+      "source_group": "gpu_graphics",
+      "source_type": "recent_24h",
+      "source_url": "http://arxiv.org/abs/2611.22699v1",
+      "suggested_note_title": null,
+      "suggested_note_type": null,
+      "tags": [
+        "cs.CV"
+      ],
+      "title": "TANGO: Real-World Unregistered RGB-Guided Hyperspectral Super-Resolution with Two-Camera Acquisitions",
+      "title_zh": null,
+      "topics": [
+        "gpu_graphics"
+      ],
+      "url": "http://arxiv.org/abs/2611.22699v1",
+      "venue": null,
+      "why_recommended": "Ranked by recency signal across configured topics."
+    },
+    {
+      "abstract": "We introduce Faithfulness Video Score (FVSCORE), a neuro-symbolic framework for specification-driven video generation evaluation. Existing evaluators rely on holistic MLLM judgments or vision-language metrics, yet aligning their scores with human judgments and tracing them to specific temporal violations remain open challenges. FVSCORE addresses these limitations by compiling each video into explicit propositions capturing prompt requirements and implicit propositions capturing unstated physical, temporal, and cross-modal constraints. It grounds each proposition using specialized perceptual tools and evaluates the resulting confidence traces with soft temporal operators inspired by Linear Temporal Logic. A Significance-Aware Calibration step then aligns verification with human perception by retaining only perceptually significant violations before producing a timestamp- and evidence-grounded report. We conduct extensive experiments across public and complex multi-event benchmarks with the strongest video models to date, demonstrating that FVSCORE outperforms holistic and agent-based evaluators in human correlation while providing highly accurate and interpretable feedback.",
+      "authors": [
+        "Do Xuan Long",
+        "Long T. Le",
+        "Yiwen Song",
+        "Min-Yen Kan",
+        "Tomas Pfister",
+        "Yale Song"
+      ],
+      "categories": [
+        "cs.CV",
+        "cs.AI"
+      ],
+      "citation_count": null,
+      "classic_status": null,
+      "code_url": null,
+      "deep_read_note_url": null,
+      "difficulty": null,
+      "enrichment_sources": [],
+      "existing_note_url": null,
+      "external_ids": {},
+      "field": null,
+      "fields_of_study": [],
+      "id": "arxiv:2611.22673v1",
+      "identifiers": {
+        "arxiv_id": "2611.22673v1"
+      },
+      "influential_citation_count": null,
+      "institutions": [],
+      "latest_note_url": null,
+      "note_count": 0,
+      "open_access_pdf_url": null,
+      "pdf_url": "https://arxiv.org/pdf/2611.22673v1",
+      "project_url": "https://dxlong2000.github.io/FVSCORE/",
+      "published_at": "2026-11-17",
+      "published_date": "2026-11-17",
+      "reading_advice": "quick_read",
+      "reading_status": "backlog",
+      "recommendation_level": "A",
+      "score": 0.747,
+      "scores": {
+        "classic_value": 0.35,
+        "engineering_transferability": 0.6,
+        "recency": 1.0,
+        "source_quality": 0.78,
+        "total": 0.747,
+        "user_relevance": 0.75
+      },
+      "selected_for_s_level": false,
+      "source": "arxiv",
+      "source_group": "gpu_graphics",
+      "source_type": "recent_24h",
+      "source_url": "http://arxiv.org/abs/2611.22673v1",
+      "suggested_note_title": null,
+      "suggested_note_type": null,
+      "tags": [
+        "cs.CV",
+        "cs.AI"
+      ],
+      "title": "FVScore: Specification-Driven Neuro-Symbolic Video Evaluation",
+      "title_zh": null,
+      "topics": [
+        "gpu_graphics",
+        "llm_agent"
+      ],
+      "url": "http://arxiv.org/abs/2611.22673v1",
+      "venue": null,
+      "why_recommended": "Ranked by recency signal across configured topics."
+    },
+    {
+      "abstract": "We present a bare-metal Apache Kafka producer implemented on a Zynq-7000 System-on-Chip (SoC) for event-driven data acquisition. Events are generated in Programmable Logic (PL), transferred to the Processing System (PS) through AXI4-Stream and AXI DMA, and published to a standard Kafka broker without an intermediate gateway computer. The PS constructs ProduceRequest messages and transmits them through the lwIP raw TCP/IP API. A configurable pipeline limits the number of outstanding Kafka requests. Pipeline depths of D = 1, 2, 4, and 8 were evaluated with two independent DMA sources. For each depth, 20 independent runs of 5,000 events were acquired, for 400,000 event records in total. Each event carries a 32-bit frame counter and a 32-bit PL timestamp. PS-side instrumentation records DMA start and completion, publication, successful local tcp_write() acceptance, and reception of the corresponding Kafka acknowledgement. Measurement records are exported to a separate Kafka topic after the timed event stream has completed. Each of the 80 runs contained 5,000 records with frame values from 0 to 4,999, with no sequence discontinuities in the exported metric records and no recorded Kafka errors. Mean operational throughput was approximately 5.3 kevents/s at D = 1, 9.4-9.6 kevents/s at D = 2, 16.2 kevents/s at D = 4, and 16.8-17.5 kevents/s at D = 8. The median publish-to-acknowledgement interval was 1.62-1.64 ms at D = 1, 0.98 ms at D = 2, 0.66 ms at D = 4, and 0.83-0.86 ms at D = 8. At D = 4, the corresponding P95 values were 0.81-0.83 ms.",
+      "authors": [
+        "Fernanda Zapata Bascu\u00f1\u00e1n",
+        "Mat\u00edas Hampel"
+      ],
+      "categories": [
+        "cs.NI",
+        "cs.AR"
+      ],
+      "citation_count": null,
+      "classic_status": null,
+      "code_url": null,
+      "deep_read_note_url": null,
+      "difficulty": null,
+      "enrichment_sources": [],
+      "existing_note_url": null,
+      "external_ids": {},
+      "field": null,
+      "fields_of_study": [],
+      "id": "arxiv:2611.22674v1",
+      "identifiers": {
+        "arxiv_id": "2611.22674v1"
+      },
+      "influential_citation_count": null,
+      "institutions": [],
+      "latest_note_url": null,
+      "note_count": 0,
+      "open_access_pdf_url": null,
+      "pdf_url": "https://arxiv.org/pdf/2611.22674v1",
+      "project_url": null,
+      "published_at": "2026-11-17",
+      "published_date": "2026-11-17",
+      "reading_advice": "quick_read",
+      "reading_status": "backlog",
+      "recommendation_level": "A",
+      "score": 0.787,
+      "scores": {
+        "classic_value": 0.35,
+        "engineering_transferability": 0.8,
+        "recency": 1.0,
+        "source_quality": 0.78,
+        "total": 0.787,
+        "user_relevance": 0.75
+      },
+      "selected_for_s_level": false,
+      "source": "arxiv",
+      "source_group": "architecture",
+      "source_type": "recent_24h",
+      "source_url": "http://arxiv.org/abs/2611.22674v1",
+      "suggested_note_title": null,
+      "suggested_note_type": null,
+      "tags": [
+        "cs.NI",
+        "cs.AR"
+      ],
+      "title": "Gateway-Free Kafka Streaming from FPGA-Based Detectors: A Bare-Metal Pipelined Producer on Zynq-7000",
+      "title_zh": null,
+      "topics": [
+        "architecture"
+      ],
+      "url": "http://arxiv.org/abs/2611.22674v1",
+      "venue": null,
+      "why_recommended": "Ranked by recency signal across configured topics."
+    },
+    {
+      "abstract": "The Isabelle theorem prover provides an environment for formalising mathematics and reasoning about programs. To make verified implementations practically usable, its code generator translates functions expressed in the executable fragment of its logic into conventional programming languages. Its targets have traditionally been functional languages (Standard ML, OCaml, Haskell, and Scala), recently joined by Go. Python, which is becoming the dominant language of scientific computing, data science, and education, has remained out of reach. In this work, we close this gap with a Python backend for Isabelle's code generator. This generator enables verified algorithms to be used in Python applications, or to serve as verified references against which established Python libraries can be differentially tested, without leaving the Python ecosystem. We validate the backend on regression suites covering large parts of the HOL library and by testing six verified data structures and algorithms against established Python libraries. The generated code is slower than hand-written libraries, but well suited as a verified reference.",
+      "authors": [
+        "Nikolaus Huber",
+        "Roly Perera",
+        "Dominic Orchard"
+      ],
+      "categories": [
+        "cs.PL",
+        "cs.LO",
+        "cs.SE"
+      ],
+      "citation_count": null,
+      "classic_status": null,
+      "code_url": null,
+      "deep_read_note_url": null,
+      "difficulty": null,
+      "enrichment_sources": [],
+      "existing_note_url": null,
+      "external_ids": {},
+      "field": null,
+      "fields_of_study": [],
+      "id": "arxiv:2611.22613v1",
+      "identifiers": {
+        "arxiv_id": "2611.22613v1"
+      },
+      "influential_citation_count": null,
+      "institutions": [],
+      "latest_note_url": null,
+      "note_count": 0,
+      "open_access_pdf_url": null,
+      "pdf_url": "https://arxiv.org/pdf/2611.22613v1",
+      "project_url": null,
+      "published_at": "2026-11-17",
+      "published_date": "2026-11-17",
+      "reading_advice": "quick_read",
+      "reading_status": "backlog",
+      "recommendation_level": "A",
+      "score": 0.787,
+      "scores": {
+        "classic_value": 0.35,
+        "engineering_transferability": 0.8,
+        "recency": 1.0,
+        "source_quality": 0.78,
+        "total": 0.787,
+        "user_relevance": 0.75
+      },
+      "selected_for_s_level": false,
+      "source": "arxiv",
+      "source_group": "llm_agent",
+      "source_type": "recent_24h",
+      "source_url": "http://arxiv.org/abs/2611.22613v1",
+      "suggested_note_title": null,
+      "suggested_note_type": null,
+      "tags": [
+        "cs.PL",
+        "cs.LO",
+        "cs.SE"
+      ],
+      "title": "Python Code Generation for Isabelle/HOL",
+      "title_zh": null,
+      "topics": [
+        "llm_agent"
+      ],
+      "url": "http://arxiv.org/abs/2611.22613v1",
+      "venue": null,
+      "why_recommended": "Ranked by recency signal across configured topics."
+    },
+    {
+      "abstract": "Evaluation readings of document-level relation extraction (DocRE) systems depend jointly on the model and the evaluation contract: gold version, scoring function, threshold. Rankings reverse across contracts, yet no existing method determines which comparisons survive the reversal. We address this gap with contract-explicit evaluation: a preregistered five-step protocol (Declare, Measure, Scope, Certify, Hedge), operationalizing the classical concordance decomposition of Kendall's rank correlation, that scopes certifiable regions and delivers distribution-free census certificates across two ecosystems. In the DocRE audit (44 training runs of one in-house architecture family), the scoring dimension scopes to a census certificate (three flagged instances, Clopper--Pearson upper bound 0.146); the confirmatory record includes registered negatives, and the audit prices its own simplification finding---the calibration dial's entire margin is one withdrawn commit. In an LLM-judge census (17 judges, 49,938 battles), 12.25% of leaderboard comparisons require hedging at the pre-declared split criterion (bound 0.124; panel-robust 0.143), with an exploratory two-tier reading certifying 69% at a bound \\le 0.072 and a validity decomposition against released human labels (65% of contested battles are judge error, not ambiguity). The cross-model certificate is withdrawn on real confidence scores; the failure spectrum maps the boundary. The protocol, map, ledger, and per-instance artifacts are released.",
+      "authors": [
+        "Hao Lu",
+        "Weixing Zhu",
+        "Ruiyang Li"
+      ],
+      "categories": [
+        "cs.CL"
+      ],
+      "citation_count": null,
+      "classic_status": null,
+      "code_url": "https://github.com/lutttw/contract-explicit-evaluation",
+      "deep_read_note_url": null,
+      "difficulty": null,
+      "enrichment_sources": [],
+      "existing_note_url": null,
+      "external_ids": {},
+      "field": null,
+      "fields_of_study": [],
+      "id": "arxiv:2611.22665v1",
+      "identifiers": {
+        "arxiv_id": "2611.22665v1"
+      },
+      "influential_citation_count": null,
+      "institutions": [],
+      "latest_note_url": null,
+      "note_count": 0,
+      "open_access_pdf_url": null,
+      "pdf_url": "https://arxiv.org/pdf/2611.22665v1",
+      "project_url": null,
+      "published_at": "2026-11-17",
+      "published_date": "2026-11-17",
+      "reading_advice": "quick_read",
+      "reading_status": "backlog",
+      "recommendation_level": "A",
+      "score": 0.747,
+      "scores": {
+        "classic_value": 0.35,
+        "engineering_transferability": 0.6,
+        "recency": 1.0,
+        "source_quality": 0.78,
+        "total": 0.747,
+        "user_relevance": 0.75
+      },
+      "selected_for_s_level": false,
+      "source": "arxiv",
+      "source_group": "llm_agent",
+      "source_type": "recent_24h",
+      "source_url": "http://arxiv.org/abs/2611.22665v1",
+      "suggested_note_title": null,
+      "suggested_note_type": null,
+      "tags": [
+        "cs.CL"
+      ],
+      "title": "Contract-Explicit Evaluation: From Auditing Learned Readers to Scoped Certificates",
+      "title_zh": null,
+      "topics": [
+        "llm_agent"
+      ],
+      "url": "http://arxiv.org/abs/2611.22665v1",
+      "venue": null,
+      "why_recommended": "Ranked by recency signal across configured topics."
+    },
+    {
+      "abstract": "Platforms with limited monitoring capacity may rank target accounts by the number of abusive replies received or by the share of replies labeled abusive. We test how these rankings affect account selection, historical flagged-reply coverage, and held-out labeling rates. In the Online Abusive Attacks (OAA) data (945,987 replies to 384 accounts), two 25-account lists share just one account. Count-based selection covers 75.56% of flagged replies, while rate-based selection covers 5.04%. In a 500-iteration stratified historical hold-out, the lists have labeling rates of 2.69% and 4.98%, respectively (1.85 times). A volume- and group-preserving null model produces low list overlap without a corresponding rate advantage. We repeat the comparison on a second dataset of replies to UK election candidates. The two 25-account lists overlap in eight accounts, but the rate advantage is smaller in historical splits and reverses in three matched-group chronological tests. The findings distinguish differences in who is selected for monitoring from differences in future labeling rates across populations and time.",
+      "authors": [
+        "Ziming Liu"
+      ],
+      "categories": [
+        "cs.SI"
+      ],
+      "citation_count": null,
+      "classic_status": null,
+      "code_url": null,
+      "deep_read_note_url": null,
+      "difficulty": null,
+      "enrichment_sources": [],
+      "existing_note_url": null,
+      "external_ids": {},
+      "field": null,
+      "fields_of_study": [],
+      "id": "arxiv:2611.22716v1",
+      "identifiers": {
+        "arxiv_id": "2611.22716v1"
+      },
+      "influential_citation_count": null,
+      "institutions": [],
+      "latest_note_url": null,
+      "note_count": 0,
+      "open_access_pdf_url": null,
+      "pdf_url": "https://arxiv.org/pdf/2611.22716v1",
+      "project_url": null,
+      "published_at": "2026-11-17",
+      "published_date": "2026-11-17",
+      "reading_advice": "save_for_later",
+      "reading_status": "backlog",
+      "recommendation_level": "B",
+      "score": 0.717,
+      "scores": {
+        "classic_value": 0.35,
+        "engineering_transferability": 0.45,
+        "recency": 1.0,
+        "source_quality": 0.78,
+        "total": 0.717,
+        "user_relevance": 0.75
+      },
+      "selected_for_s_level": false,
+      "source": "arxiv",
+      "source_group": "cognition_social",
+      "source_type": "recent_24h",
+      "source_url": "http://arxiv.org/abs/2611.22716v1",
+      "suggested_note_title": null,
+      "suggested_note_type": null,
+      "tags": [
+        "cs.SI"
+      ],
+      "title": "High-Coverage Blind Spots in Online Abuse Monitoring: Account Selection, Held-Out Flagging Rates, and Sample Composition",
+      "title_zh": null,
+      "topics": [
+        "sociology"
+      ],
+      "url": "http://arxiv.org/abs/2611.22716v1",
+      "venue": null,
+      "why_recommended": "Ranked by recency signal across configured topics."
+    }
+  ],
+  "public_json_version": "0.4",
+  "s_level_candidate_ids": [],
+  "s_level_paper_id": null,
+  "source_mode_summary": {
+    "recent_24h": 6
+  },
+  "summary": "Selected 6 papers: 6 recent candidates and 0 classic fallback items."
+}
