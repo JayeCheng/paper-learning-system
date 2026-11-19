@@ -451,6 +451,12 @@ arxiv:2611.22673v1,backlog,medium,,2026-11-18T03:37:37+00:00,FVScore: Specificat
 arxiv:2611.22674v1,backlog,medium,,2026-11-18T03:37:37+00:00,Gateway-Free Kafka Streaming from FPGA-Based Detectors: A Bare-Metal Pipelined Producer on Zynq-7000,architecture,A
 arxiv:2611.22699v1,backlog,medium,,2026-11-18T03:37:37+00:00,TANGO: Real-World Unregistered RGB-Guided Hyperspectral Super-Resolution with Two-Camera Acquisitions,gpu_graphics,A
 arxiv:2611.22716v1,backlog,medium,,2026-11-18T03:37:37+00:00,"High-Coverage Blind Spots in Online Abuse Monitoring: Account Selection, Held-Out Flagging Rates, and Sample Composition",cognition_social,B
+arxiv:2611.24165v1,backlog,medium,,2026-11-19T03:11:44+00:00,MemoSync: Co-Managing Developer-Agent Metamemory Across Contexts,cognition_social,A
+arxiv:2611.24324v1,backlog,medium,,2026-11-19T03:11:44+00:00,Reducing Inference Cost of Coding Agents with Timeout Cascades,llm_agent,A
+arxiv:2611.24331v1,backlog,medium,,2026-11-19T03:11:44+00:00,"OpenGNS: An Open Dataset of the Gradient Noise Scale across Vision, Language, and Diffusion Models",architecture,A
+arxiv:2611.24334v1,backlog,medium,,2026-11-19T03:11:44+00:00,Exploring multimodal AI--XR interactions for software development: From expert perspectives to semantic code outlines,llm_agent,A
+arxiv:2611.24360v1,backlog,medium,,2026-11-19T03:11:44+00:00,Towards Pose-Robust Few-Shot Vision-Language-Action Models,gpu_graphics,A
+arxiv:2611.24384v1,backlog,medium,,2026-11-19T03:11:44+00:00,Enhancing Active Learning Performance with Initial Data Selection Based on Foundation Models,gpu_graphics,A
 biorxiv:10.1101/2023.01.10.523479,backlog,medium,,2026-09-28T00:33:07+00:00,How Occam's razor guides human decision-making,cognition_social,B
 biorxiv:10.1101/2024.03.07.583890,backlog,medium,,2026-10-19T00:08:58+00:00,Computation or Weight Adaptation? Rethinking the Role of Plasticity in Learning,cognition_social,B
 biorxiv:10.1101/2024.09.30.615819,backlog,medium,,2026-09-22T00:43:20+00:00,Hierarchy of prediction errors shapes the learning of context-dependent sensory representations,cognition_social,B

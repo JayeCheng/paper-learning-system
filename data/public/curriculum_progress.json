@@ -8,10 +8,10 @@
       "label": "Computer Architecture",
       "next_paper_ids": [
         "arxiv:2611.05892v1",
-        "arxiv:2608.06188v1",
-        "arxiv:2609.36959v1"
+        "arxiv:2611.24331v1",
+        "arxiv:2608.06188v1"
       ],
-      "planned_count": 84
+      "planned_count": 85
     },
     {
       "completed_count": 0,
@@ -19,11 +19,11 @@
       "id": "cognition",
       "label": "Cognitive Science",
       "next_paper_ids": [
+        "arxiv:2611.24165v1",
         "arxiv:2609.36898v1",
-        "arxiv:2608.10839v1",
-        "arxiv:2610.12455v1"
+        "arxiv:2611.24334v1"
       ],
-      "planned_count": 176
+      "planned_count": 178
     },
     {
       "completed_count": 0,
@@ -31,11 +31,11 @@
       "id": "cognition_social",
       "label": "Cognition / Social Systems",
       "next_paper_ids": [
+        "arxiv:2611.24165v1",
         "arxiv:2608.10839v1",
-        "arxiv:2610.07985v1",
-        "arxiv:2610.12455v1"
+        "arxiv:2610.07985v1"
       ],
-      "planned_count": 197
+      "planned_count": 198
     },
     {
       "completed_count": 0,
@@ -47,7 +47,7 @@
         "arxiv:2610.11653v1",
         "arxiv:2611.05802v1"
       ],
-      "planned_count": 166
+      "planned_count": 168
     },
     {
       "completed_count": 0,
@@ -57,9 +57,9 @@
       "next_paper_ids": [
         "arxiv:2611.05802v1",
         "arxiv:2611.05892v1",
-        "arxiv:2608.06228v1"
+        "arxiv:2611.24165v1"
       ],
-      "planned_count": 252
+      "planned_count": 258
     },
     {
       "completed_count": 0,
@@ -74,5 +74,5 @@
       "planned_count": 14
     }
   ],
-  "updated_at": "2026-11-18T03:37:37+00:00"
+  "updated_at": "2026-11-19T03:11:44+00:00"
 }
