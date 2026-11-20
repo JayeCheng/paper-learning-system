@@ -457,6 +457,12 @@ arxiv:2611.24331v1,backlog,medium,,2026-11-19T03:11:44+00:00,"OpenGNS: An Open D
 arxiv:2611.24334v1,backlog,medium,,2026-11-19T03:11:44+00:00,Exploring multimodal AI--XR interactions for software development: From expert perspectives to semantic code outlines,llm_agent,A
 arxiv:2611.24360v1,backlog,medium,,2026-11-19T03:11:44+00:00,Towards Pose-Robust Few-Shot Vision-Language-Action Models,gpu_graphics,A
 arxiv:2611.24384v1,backlog,medium,,2026-11-19T03:11:44+00:00,Enhancing Active Learning Performance with Initial Data Selection Based on Foundation Models,gpu_graphics,A
+arxiv:2611.25428v1,backlog,medium,,2026-11-20T02:59:27+00:00,GenAI-DBT: Evaluating a DBT-Informed Generative AI Platform for Mindfulness Skills Training: A Pilot Randomized Study,cognition_social,B
+arxiv:2611.25461v1,backlog,medium,,2026-11-20T02:59:27+00:00,ActMem: From Latent Memory Reasoning to Grounded Robotic Action,gpu_graphics,A
+arxiv:2611.25469v1,backlog,medium,,2026-11-20T02:59:27+00:00,A Wolf in Sheep's Pixels: Visual Camouflage Attacks via HDR Gain Maps,gpu_graphics,A
+arxiv:2611.25470v1,backlog,medium,,2026-11-20T02:59:27+00:00,ToolPulse: Side-Channel Eavesdropping on Tool-Using LLM Agents,architecture,A
+arxiv:2611.25471v1,backlog,medium,,2026-11-20T02:59:27+00:00,A four-level executable validation protocol for evaluating LLM-generated topology specifications of physics-based HVAC digital twins,llm_agent,A
+arxiv:2611.25477v1,backlog,medium,,2026-11-20T02:59:27+00:00,AIstatLab at BraTS-GoAT 2026 Task 3: Quality-Controlled Consensus Pseudo-Labeling and Dense Expert Adaptation,llm_agent,A
 biorxiv:10.1101/2023.01.10.523479,backlog,medium,,2026-09-28T00:33:07+00:00,How Occam's razor guides human decision-making,cognition_social,B
 biorxiv:10.1101/2024.03.07.583890,backlog,medium,,2026-10-19T00:08:58+00:00,Computation or Weight Adaptation? Rethinking the Role of Plasticity in Learning,cognition_social,B
 biorxiv:10.1101/2024.09.30.615819,backlog,medium,,2026-09-22T00:43:20+00:00,Hierarchy of prediction errors shapes the learning of context-dependent sensory representations,cognition_social,B

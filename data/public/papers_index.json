@@ -31591,6 +31591,419 @@
       "why_recommended": "Ranked by recency signal across configured topics."
     },
     {
+      "abstract": "We evaluated the feasibility, acceptability, and engagement of three digital formats for dialectical behavior therapy (DBT) mindfulness skills training. In a 30-day randomized pilot study, 45 university students were assigned to GenAI-DBT, a general-purpose large language model chatbot (Chatbot), or a static web resource (Web). Forty-two completed the study, and nine completed follow-up interviews. Usability scores were within acceptable ranges across conditions, with no significant between-group differences. GenAI-DBT showed the highest observed participant-week adherence (71.4%, vs. 53.3% for Web and 42.3% for Chatbot), a descriptive difference. Mindful Attention Awareness Scale and Difficulties in Emotion Regulation Scale scores showed no significant time-by-group interactions, and session-level self-reported mood changes did not differ significantly across conditions. GenAI-DBT showed a larger positive change in linguistic valence than Chatbot (4.28 vs. 1.59, P = .02, Cohen's d = 0.99). Interviewees valued contextualized, scenario-based practice and identified response latency, repetition, and limited personalization as areas for improvement. The findings support the feasibility and acceptability of DBT-informed conversational AI for skills practice and motivate further evaluation in larger, more clinically relevant samples. Clinical efficacy remains to be established.",
+      "authors": [
+        "Jingchen Ye",
+        "Yujia Chen",
+        "Leyang Han",
+        "Siyuan Wang",
+        "Mark Zachary Rosenthal",
+        "Yucheng Jin"
+      ],
+      "categories": [
+        "cs.HC"
+      ],
+      "citation_count": null,
+      "classic_status": null,
+      "code_url": null,
+      "deep_read_note_url": null,
+      "difficulty": null,
+      "enrichment_sources": [],
+      "existing_note_url": null,
+      "external_ids": {},
+      "field": null,
+      "fields_of_study": [],
+      "id": "arxiv:2611.25428v1",
+      "identifiers": {
+        "arxiv_id": "2611.25428v1"
+      },
+      "influential_citation_count": null,
+      "institutions": [],
+      "latest_note_url": null,
+      "note_count": 0,
+      "open_access_pdf_url": null,
+      "pdf_url": "https://arxiv.org/pdf/2611.25428v1",
+      "project_url": null,
+      "published_at": "2026-11-19",
+      "published_date": "2026-11-19",
+      "reading_advice": "save_for_later",
+      "reading_status": "backlog",
+      "recommendation_level": "B",
+      "score": 0.717,
+      "scores": {
+        "classic_value": 0.35,
+        "engineering_transferability": 0.45,
+        "recency": 1.0,
+        "source_quality": 0.78,
+        "total": 0.717,
+        "user_relevance": 0.75
+      },
+      "selected_for_s_level": false,
+      "source": "arxiv",
+      "source_group": "cognition_social",
+      "source_type": "recent_24h",
+      "source_url": "http://arxiv.org/abs/2611.25428v1",
+      "suggested_note_title": null,
+      "suggested_note_type": null,
+      "tags": [
+        "cs.HC"
+      ],
+      "title": "GenAI-DBT: Evaluating a DBT-Informed Generative AI Platform for Mindfulness Skills Training: A Pilot Randomized Study",
+      "title_zh": null,
+      "topics": [
+        "cognition"
+      ],
+      "url": "http://arxiv.org/abs/2611.25428v1",
+      "venue": null,
+      "why_recommended": "Ranked by recency signal across configured topics."
+    },
+    {
+      "abstract": "Vision-Language-Action (VLA) models have shown promising results in real-world long-horizon manipulation, where memory plays a crucial role. However, existing memory-augmented VLAs either retrieve past observations without reasoning about what they imply, or reason over the full history in a shared context where it crowds out current perception. Cognitive science treats them as distinct systems: memory reconstructs past experience to decide what to do, while perception guides how to act. We therefore propose ActMem, an in-context memory framework that decouples memory reasoning from perceptual grounding within a single vision-language backbone. Built on a vision-language model with native video understanding, ActMem infers the current subtask from a timestamped interaction history and keeps the hidden states formed during this inference as a Latent Memory Chain-of-Thought (Memory CoT), which conditions a flow-matching action expert. Perception Attention further lets the expert attend directly to the current view. To keep inference fast under long histories, Efficient Memory CoT Inference reuses computation across consecutive decisions without changing the output. ActMem achieves 71.1% task success and 80.8% completion success on RoboMemArena, surpassing the strongest baseline by 7.5 and 8.7 percentage points, and 73.8% average success on MIKASA-Robo, the best among all compared methods. In the real world, it reaches 68.8% average success on exogenous, endogenous, and traceless memory tasks, 10.0 percentage points above the strongest memory-augmented VLA. Code and checkpoints will be released at https://github.com/LigphiDonk/ActMem and https://huggingface.co/donk111/ActMem.",
+      "authors": [
+        "Linfeng Dong",
+        "Jianwei Niu",
+        "Jiuyi Zhao",
+        "Ruibing Feng",
+        "Xinghao Wu",
+        "Wu Yang",
+        "Shuai Tao",
+        "Wulong Liu",
+        "Mu Li"
+      ],
+      "categories": [
+        "cs.CV",
+        "cs.LG"
+      ],
+      "citation_count": null,
+      "classic_status": null,
+      "code_url": "https://github.com/LigphiDonk/ActMem",
+      "deep_read_note_url": null,
+      "difficulty": null,
+      "enrichment_sources": [],
+      "existing_note_url": null,
+      "external_ids": {},
+      "field": null,
+      "fields_of_study": [],
+      "id": "arxiv:2611.25461v1",
+      "identifiers": {
+        "arxiv_id": "2611.25461v1"
+      },
+      "influential_citation_count": null,
+      "institutions": [],
+      "latest_note_url": null,
+      "note_count": 0,
+      "open_access_pdf_url": null,
+      "pdf_url": "https://arxiv.org/pdf/2611.25461v1",
+      "project_url": "https://huggingface.co/donk111/ActMem",
+      "published_at": "2026-11-19",
+      "published_date": "2026-11-19",
+      "reading_advice": "quick_read",
+      "reading_status": "backlog",
+      "recommendation_level": "A",
+      "score": 0.747,
+      "scores": {
+        "classic_value": 0.35,
+        "engineering_transferability": 0.6,
+        "recency": 1.0,
+        "source_quality": 0.78,
+        "total": 0.747,
+        "user_relevance": 0.75
+      },
+      "selected_for_s_level": false,
+      "source": "arxiv",
+      "source_group": "gpu_graphics",
+      "source_type": "recent_24h",
+      "source_url": "http://arxiv.org/abs/2611.25461v1",
+      "suggested_note_title": null,
+      "suggested_note_type": null,
+      "tags": [
+        "cs.CV",
+        "cs.LG"
+      ],
+      "title": "ActMem: From Latent Memory Reasoning to Grounded Robotic Action",
+      "title_zh": null,
+      "topics": [
+        "gpu_graphics",
+        "llm_agent"
+      ],
+      "url": "http://arxiv.org/abs/2611.25461v1",
+      "venue": null,
+      "why_recommended": "Ranked by recency signal across configured topics."
+    },
+    {
+      "abstract": "An image can pass automated safety checks while showing harmful content to its human viewer. We introduce DRJanus, a visual camouflage attack that exploits the gap between standard dynamic range (SDR) processing and high dynamic range (HDR) display. Automated systems often read only an image's SDR base, whereas HDR viewers reconstruct its appearance using an auxiliary gain map. DRJanus inverts this reconstruction to embed two independently chosen color images in a single JPEG, without querying or optimizing against the target model. It preserves the chosen SDR base exactly and reconstructs HDR targets at an average PSNR of 43.03 dB across 400 images. On a benchmark of 100 sexual-content images, DRJanus evades detection by all six tested commercial moderation services and nine vision-language models. Across five agents, each evaluated on 120 task cases per threat setting, attack success ranges from 31.67% to 100% for moderation evasion and from 95% to 100% for task manipulation. We also explore cross-view consistency checks as a mitigation. These findings expose a gap in visual trust: securing what a machine reads does not secure what a user sees. A demo is available at https://qshen0629.github.io/DRJanus/",
+      "authors": [
+        "Qi Shen",
+        "Yujia Gong",
+        "Yue Zhao",
+        "Tong Liu"
+      ],
+      "categories": [
+        "cs.CV",
+        "cs.AI"
+      ],
+      "citation_count": null,
+      "classic_status": null,
+      "code_url": null,
+      "deep_read_note_url": null,
+      "difficulty": null,
+      "enrichment_sources": [],
+      "existing_note_url": null,
+      "external_ids": {},
+      "field": null,
+      "fields_of_study": [],
+      "id": "arxiv:2611.25469v1",
+      "identifiers": {
+        "arxiv_id": "2611.25469v1"
+      },
+      "influential_citation_count": null,
+      "institutions": [],
+      "latest_note_url": null,
+      "note_count": 0,
+      "open_access_pdf_url": null,
+      "pdf_url": "https://arxiv.org/pdf/2611.25469v1",
+      "project_url": "https://qshen0629.github.io/DRJanus/",
+      "published_at": "2026-11-19",
+      "published_date": "2026-11-19",
+      "reading_advice": "quick_read",
+      "reading_status": "backlog",
+      "recommendation_level": "A",
+      "score": 0.747,
+      "scores": {
+        "classic_value": 0.35,
+        "engineering_transferability": 0.6,
+        "recency": 1.0,
+        "source_quality": 0.78,
+        "total": 0.747,
+        "user_relevance": 0.75
+      },
+      "selected_for_s_level": false,
+      "source": "arxiv",
+      "source_group": "gpu_graphics",
+      "source_type": "recent_24h",
+      "source_url": "http://arxiv.org/abs/2611.25469v1",
+      "suggested_note_title": null,
+      "suggested_note_type": null,
+      "tags": [
+        "cs.CV",
+        "cs.AI"
+      ],
+      "title": "A Wolf in Sheep's Pixels: Visual Camouflage Attacks via HDR Gain Maps",
+      "title_zh": null,
+      "topics": [
+        "gpu_graphics",
+        "llm_agent"
+      ],
+      "url": "http://arxiv.org/abs/2611.25469v1",
+      "venue": null,
+      "why_recommended": "Ranked by recency signal across configured topics."
+    },
+    {
+      "abstract": "Large language models (LLMs) are increasingly deployed as agents that translate user requests into sequences of local tool invocations. While prior cache-based side-channel attacks target the locally deployed models, they typically require the adversary to share model-related components or hardware resources with the victim's inference process. These assumptions do not apply to the predominant agentic settings, in which commercial LLMs execute on vendor-controlled infrastructure. We show that agentic execution exposes a more practical attack surface: although inference remains remote, tools are executed on the user's machine and commonly rely on shared system libraries. In this paper, we first systematically evaluate Flush+Reload and Prime+Probe for monitoring agentic tool invocations. Our evaluation across three hardware platforms shows that Flush+Reload enables accurate, real-time tool monitoring, whereas Prime+Probe, despite supporting cross-VM attacks, incurs prohibitive monitoring overhead and suffers from cache-set aliasing. We present ToolPulse, a cache-based side-channel eavesdropping framework against tool-using agents. We first design the Tool Recovery Attack to reconstruct an agent's tool-execution workflow. We evaluate the Tool Recovery Attack on 11 LLMs across Codex and Claude Code. It consistently reconstructs tool workflows, with the lowest F1 score exceeding 93%. We further demonstrate two attack scenarios enabled by the recovered traces. Task Profiling Attack infers user intent across two Terminal-Bench task categories and the Trigger Localization Attack identifies sensitive tool calls in encryption/decryption and model training/inference workloads. Even under substantial system noise on a server shared by approximately 20 users, both Task Profiling Attack and Trigger Localization Attack maintain high accuracy.",
+      "authors": [
+        "Zihao Dan",
+        "Jinyu Zhang",
+        "Jinzhao Lian",
+        "Yun Chen",
+        "Shinan Liu"
+      ],
+      "categories": [
+        "cs.CR",
+        "cs.AR"
+      ],
+      "citation_count": null,
+      "classic_status": null,
+      "code_url": null,
+      "deep_read_note_url": null,
+      "difficulty": null,
+      "enrichment_sources": [],
+      "existing_note_url": null,
+      "external_ids": {},
+      "field": null,
+      "fields_of_study": [],
+      "id": "arxiv:2611.25470v1",
+      "identifiers": {
+        "arxiv_id": "2611.25470v1"
+      },
+      "influential_citation_count": null,
+      "institutions": [],
+      "latest_note_url": null,
+      "note_count": 0,
+      "open_access_pdf_url": null,
+      "pdf_url": "https://arxiv.org/pdf/2611.25470v1",
+      "project_url": null,
+      "published_at": "2026-11-19",
+      "published_date": "2026-11-19",
+      "reading_advice": "quick_read",
+      "reading_status": "backlog",
+      "recommendation_level": "A",
+      "score": 0.787,
+      "scores": {
+        "classic_value": 0.35,
+        "engineering_transferability": 0.8,
+        "recency": 1.0,
+        "source_quality": 0.78,
+        "total": 0.787,
+        "user_relevance": 0.75
+      },
+      "selected_for_s_level": false,
+      "source": "arxiv",
+      "source_group": "architecture",
+      "source_type": "recent_24h",
+      "source_url": "http://arxiv.org/abs/2611.25470v1",
+      "suggested_note_title": null,
+      "suggested_note_type": null,
+      "tags": [
+        "cs.CR",
+        "cs.AR"
+      ],
+      "title": "ToolPulse: Side-Channel Eavesdropping on Tool-Using LLM Agents",
+      "title_zh": null,
+      "topics": [
+        "architecture"
+      ],
+      "url": "http://arxiv.org/abs/2611.25470v1",
+      "venue": null,
+      "why_recommended": "Ranked by recency signal across configured topics."
+    },
+    {
+      "abstract": "Physics-based digital twins of air conditioning, a principal energy consumer in manufacturing and buildings, can be generated automatically from a declarative specification of its equipment, connections, and sizing. Large language models (LLMs) now write such specifications from plain-language descriptions. Evaluations of these specifications stop at parse success, completed runs, or textual similarity, and cannot reject a model that converges in simulation but is physically wrong. In this study, a four-level protocol is proposed that tests whether an LLM-written specification not only executes but also yields a physically valid digital twin. Each specification is executed through static validity, model build, simulation convergence, and behavioral equivalence with a hidden reference model within bands calibrated by $\\pm$20% sizing perturbations. The protocol was applied to eight LLMs and fourteen HVAC topologies, five describing an existing low-humidity test chamber. To test for authorship bias, engineers and a second model family also described six topologies. Within three repairs, seven of eight models built in 98.6 to 100% of trials, with simulations converging in at least 80.0%, but reached behavioral equivalence in only 50.0 to 98.6%. About half of the failed trials converged, but not to the reference steady state, mostly in desiccant rotor systems. Pooled pass rates varied by under five percentage points across description authors. These results imply that the physics hardest to model in each field, here the desiccant rotor, must enter the generation framework as validation levels. The protocol can be adapted to other fields that generate executable digital twins from declarative specifications.",
+      "authors": [
+        "Younghwan Joo",
+        "Jeonghoon Han",
+        "Sanghyun Oh",
+        "Soosik Bang",
+        "Sung-il Kim"
+      ],
+      "categories": [
+        "eess.SY",
+        "cs.AI",
+        "cs.LG",
+        "cs.SE"
+      ],
+      "citation_count": null,
+      "classic_status": null,
+      "code_url": null,
+      "deep_read_note_url": null,
+      "difficulty": null,
+      "enrichment_sources": [],
+      "existing_note_url": null,
+      "external_ids": {},
+      "field": null,
+      "fields_of_study": [],
+      "id": "arxiv:2611.25471v1",
+      "identifiers": {
+        "arxiv_id": "2611.25471v1"
+      },
+      "influential_citation_count": null,
+      "institutions": [],
+      "latest_note_url": null,
+      "note_count": 0,
+      "open_access_pdf_url": null,
+      "pdf_url": "https://arxiv.org/pdf/2611.25471v1",
+      "project_url": null,
+      "published_at": "2026-11-19",
+      "published_date": "2026-11-19",
+      "reading_advice": "quick_read",
+      "reading_status": "backlog",
+      "recommendation_level": "A",
+      "score": 0.787,
+      "scores": {
+        "classic_value": 0.35,
+        "engineering_transferability": 0.8,
+        "recency": 1.0,
+        "source_quality": 0.78,
+        "total": 0.787,
+        "user_relevance": 0.75
+      },
+      "selected_for_s_level": false,
+      "source": "arxiv",
+      "source_group": "llm_agent",
+      "source_type": "recent_24h",
+      "source_url": "http://arxiv.org/abs/2611.25471v1",
+      "suggested_note_title": null,
+      "suggested_note_type": null,
+      "tags": [
+        "eess.SY",
+        "cs.AI",
+        "cs.LG",
+        "cs.SE"
+      ],
+      "title": "A four-level executable validation protocol for evaluating LLM-generated topology specifications of physics-based HVAC digital twins",
+      "title_zh": null,
+      "topics": [
+        "llm_agent"
+      ],
+      "url": "http://arxiv.org/abs/2611.25471v1",
+      "venue": null,
+      "why_recommended": "Ranked by recency signal across configured topics."
+    },
+    {
+      "abstract": "BraTS-GoAT Task 3 evaluates brain-tumor segmentation across heterogeneous entities using shared ET, TC, and WT regions. We present a 3D ResidualEncoderUNet trained with quality-controlled consensus pseudo-labels, a training-only nested-region objective, and a four-expert bottleneck adapter. Five-fold ResEnc-M/L teachers gener ated predictions for 1,138 unlabeled cases; fusion, hierarchy enforcement, and confidence-and-agreement screening retained 983 for training with 1,351 annotated cases. The final five-fold ResEnc-M entry achieved mean DSC 0.834, mean NSD 0.510, and Acalc = 0.6720 on the validation server. Component effects were modest and region-dependent, with the clearest gains on ET. Source code is available at https://github.com/HeeSeung-Shin/Brats2026-Goat-HS.",
+      "authors": [
+        "Heeseung Shin",
+        "Changwon Lim"
+      ],
+      "categories": [
+        "eess.IV",
+        "cs.AI"
+      ],
+      "citation_count": null,
+      "classic_status": null,
+      "code_url": "https://github.com/HeeSeung-Shin/Brats2026-Goat-HS",
+      "deep_read_note_url": null,
+      "difficulty": null,
+      "enrichment_sources": [],
+      "existing_note_url": null,
+      "external_ids": {},
+      "field": null,
+      "fields_of_study": [],
+      "id": "arxiv:2611.25477v1",
+      "identifiers": {
+        "arxiv_id": "2611.25477v1"
+      },
+      "influential_citation_count": null,
+      "institutions": [],
+      "latest_note_url": null,
+      "note_count": 0,
+      "open_access_pdf_url": null,
+      "pdf_url": "https://arxiv.org/pdf/2611.25477v1",
+      "project_url": null,
+      "published_at": "2026-11-19",
+      "published_date": "2026-11-19",
+      "reading_advice": "quick_read",
+      "reading_status": "backlog",
+      "recommendation_level": "A",
+      "score": 0.747,
+      "scores": {
+        "classic_value": 0.35,
+        "engineering_transferability": 0.6,
+        "recency": 1.0,
+        "source_quality": 0.78,
+        "total": 0.747,
+        "user_relevance": 0.75
+      },
+      "selected_for_s_level": false,
+      "source": "arxiv",
+      "source_group": "llm_agent",
+      "source_type": "recent_24h",
+      "source_url": "http://arxiv.org/abs/2611.25477v1",
+      "suggested_note_title": null,
+      "suggested_note_type": null,
+      "tags": [
+        "eess.IV",
+        "cs.AI"
+      ],
+      "title": "AIstatLab at BraTS-GoAT 2026 Task 3: Quality-Controlled Consensus Pseudo-Labeling and Dense Expert Adaptation",
+      "title_zh": null,
+      "topics": [
+        "llm_agent"
+      ],
+      "url": "http://arxiv.org/abs/2611.25477v1",
+      "venue": null,
+      "why_recommended": "Ranked by recency signal across configured topics."
+    },
+    {
       "abstract": "Occam's razor is the principle that, all else being equal, simpler explanations should be preferred over more complex ones. This principle is thought to guide human decision-making, but the nature of this guidance is not known. Here we used preregistered behavioral experiments to show that people tend to prefer the simpler of two alternative explanations for uncertain data. These preferences align quantitatively with predictions of formal theories of model selection that penalize excessive flexibility. These penalties emerge when considering not just the best explanation but the integral over all possible, relevant explanations. We further show that these simplicity preferences persist in humans, but not in certain artificial neural networks, even when they are maladaptive. Our results imply that principled notions of statistical model selection, including integrating over possible, latent causes to avoid overfitting to noisy data, may play a central role in human decision-making.",
       "authors": [
         "Piasini, E.",
@@ -40833,5 +41246,5 @@
     }
   ],
   "public_json_version": "0.4",
-  "updated_at": "2026-11-19T03:11:44+00:00"
+  "updated_at": "2026-11-20T02:59:27+00:00"
 }
