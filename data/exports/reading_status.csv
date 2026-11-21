@@ -463,6 +463,12 @@ arxiv:2611.25469v1,backlog,medium,,2026-11-20T02:59:27+00:00,A Wolf in Sheep's P
 arxiv:2611.25470v1,backlog,medium,,2026-11-20T02:59:27+00:00,ToolPulse: Side-Channel Eavesdropping on Tool-Using LLM Agents,architecture,A
 arxiv:2611.25471v1,backlog,medium,,2026-11-20T02:59:27+00:00,A four-level executable validation protocol for evaluating LLM-generated topology specifications of physics-based HVAC digital twins,llm_agent,A
 arxiv:2611.25477v1,backlog,medium,,2026-11-20T02:59:27+00:00,AIstatLab at BraTS-GoAT 2026 Task 3: Quality-Controlled Consensus Pseudo-Labeling and Dense Expert Adaptation,llm_agent,A
+arxiv:2611.26469v1,backlog,medium,,2026-11-21T03:06:11+00:00,Introducing ReTiNA-Cinema: Real-Time Neuro-Augmented Cinema via Generative AI,cognition_social,B
+arxiv:2611.26525v1,backlog,medium,,2026-11-21T03:06:11+00:00,Backtracking Agent Applications Security Incidents,llm_agent,B
+arxiv:2611.26600v1,backlog,medium,,2026-11-21T03:06:11+00:00,A Tutorial on Complementarity-Based Contact Models for Robotics,gpu_graphics,B
+arxiv:2611.26601v1,backlog,medium,,2026-11-21T03:06:11+00:00,SoK: Assessing the Evolution of LLM Capability in Software Vulnerability Research,llm_agent,B
+arxiv:2611.26619v1,backlog,medium,,2026-11-21T03:06:11+00:00,TideCache: Efficient Hybrid LLM Serving with Transparent Cache Management and Layer-Wise Streaming,architecture,B
+arxiv:2611.26629v1,backlog,medium,,2026-11-21T03:06:11+00:00,Posterior Matching Distillation,gpu_graphics,B
 biorxiv:10.1101/2023.01.10.523479,backlog,medium,,2026-09-28T00:33:07+00:00,How Occam's razor guides human decision-making,cognition_social,B
 biorxiv:10.1101/2024.03.07.583890,backlog,medium,,2026-10-19T00:08:58+00:00,Computation or Weight Adaptation? Rethinking the Role of Plasticity in Learning,cognition_social,B
 biorxiv:10.1101/2024.09.30.615819,backlog,medium,,2026-09-22T00:43:20+00:00,Hierarchy of prediction errors shapes the learning of context-dependent sensory representations,cognition_social,B
