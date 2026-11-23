@@ -1,0 +1,498 @@
+{
+  "date": "2026-11-23",
+  "frontend_entry": "data/public/latest.json",
+  "generated_at": "2026-11-23T02:32:31+00:00",
+  "generated_paths": {
+    "exports_csv": "data/exports/papers.csv",
+    "exports_daily_csv": "data/exports/daily_papers.csv",
+    "exports_jsonl": "data/exports/papers.jsonl",
+    "exports_notes_index": "data/exports/notes_index.csv",
+    "exports_reading_status": "data/exports/reading_status.csv",
+    "json": "daily/2026/11/2026-11-23.json",
+    "markdown": "daily/2026/11/2026-11-23.md",
+    "public_curriculum_progress": "data/public/curriculum_progress.json",
+    "public_daily_index": "data/public/daily_index.json",
+    "public_knowledge_graph": "data/public/knowledge_graph.json",
+    "public_latest": "data/public/latest.json",
+    "public_notes_index": "data/public/notes_index.json",
+    "public_papers_index": "data/public/papers_index.json",
+    "public_reading_status": "data/public/reading_status.json",
+    "state_notes_index": "data/state/notes_index.json",
+    "state_papers": "data/state/papers.jsonl",
+    "state_reading_status": "data/state/reading_status.json",
+    "state_run_history": "data/state/run_history.json"
+  },
+  "knowledge_graph_delta": [
+    "paper:biorxiv:10.64898/2026.11.13.766189",
+    "paper:biorxiv:10.1101/2025.09.18.677057",
+    "paper:biorxiv:10.64898/2026.11.12.766205",
+    "paper:biorxiv:10.64898/2026.11.11.766044",
+    "paper:biorxiv:10.64898/2026.11.13.762800",
+    "paper:biorxiv:10.64898/2026.11.11.765869"
+  ],
+  "learning_route_position": "v0.4 GitHub-owned note bridge",
+  "next_actions": [
+    "Review S-level candidate",
+    "Update reading status after skim",
+    "Promote durable concepts into the knowledge graph"
+  ],
+  "papers": [
+    {
+      "abstract": "The 22q11.2 deletion syndrome (22qDS) is a major genetic risk factor for schizophrenia (Sz). We found that iPSC-derived neurons (iNeurons) from 22qDS +Sz individuals exhibit weaker mitochondrial energetics, whereas iNeurons from individuals with the same deletion but no psychosis (22qDS -Sz) upregulate expression of mitochondrial biogenesis-related genes. Here, we investigated why the +Sz group fails to undergo this compensation, finding that 22qDS +Sz iNeurons have older and more depolarized mitochondria than 22qDS -Sz or controls. Transcriptomic and proteomic analyses revealed downregulation of mitophagy-related pathways, and live imaging revealed elevated lysosomal pH. Restoring lysosomal acidity with acidifying nanoparticles improved mitophagy and, remarkably, increased the expression of mitochondrial biogenesis-related transcription factors in the +Sz neurons. We conclude that lysosomal dysfunction and impaired mitophagy differentiate 22qDS individuals who develop schizophrenia from those who do not. Mitophagy could be a novel therapeutic or preventative opportunity for Sz in the context of genetic neurodevelopmental disorders.",
+      "authors": [
+        "Stronati, E.",
+        "Rossano, A. J.",
+        "Li, J.",
+        "Stoesser, A. R.",
+        "Wallace, D. C.",
+        "Giulivi, C.",
+        "Anderson, S. A."
+      ],
+      "categories": [
+        "neuroscience"
+      ],
+      "citation_count": 0,
+      "classic_status": null,
+      "code_url": null,
+      "deep_read_note_url": null,
+      "difficulty": null,
+      "enrichment_sources": [
+        "semantic_scholar"
+      ],
+      "existing_note_url": null,
+      "external_ids": {
+        "CorpusId": "295998112",
+        "DOI": "10.64898/2026.11.13.766189"
+      },
+      "field": "Neuroscience",
+      "fields_of_study": [
+        "Neuroscience"
+      ],
+      "id": "biorxiv:10.64898/2026.11.13.766189",
+      "identifiers": {
+        "CorpusId": "295998112",
+        "DOI": "10.64898/2026.11.13.766189",
+        "doi": "10.64898/2026.11.13.766189",
+        "server": "biorxiv"
+      },
+      "influential_citation_count": 0,
+      "institutions": [],
+      "latest_note_url": null,
+      "note_count": 0,
+      "open_access_pdf_url": "https://www.biorxiv.org/content/biorxiv/early/2026/11/16/2026.11.13.766189.full.pdf",
+      "pdf_url": null,
+      "project_url": null,
+      "published_at": "2026-11-16",
+      "published_date": "2026-11-16",
+      "reading_advice": "save_for_later",
+      "reading_status": "backlog",
+      "recommendation_level": "B",
+      "score": 0.6755,
+      "scores": {
+        "classic_value": 0.35,
+        "engineering_transferability": 0.48,
+        "recency": 0.78,
+        "source_quality": 0.83,
+        "total": 0.6755,
+        "user_relevance": 0.75
+      },
+      "selected_for_s_level": false,
+      "source": "biorxiv",
+      "source_group": "cognition_social",
+      "source_type": "recent_7d",
+      "source_url": "https://doi.org/10.64898/2026.11.13.766189",
+      "suggested_note_title": null,
+      "suggested_note_type": null,
+      "tags": [
+        "neuroscience",
+        "cognition_social",
+        "biorxiv"
+      ],
+      "title": "Variable penetrance of schizophrenia in 22q11.2 deletion syndrome is associated with impaired, but reversible, neuronal mitophagy.",
+      "title_zh": null,
+      "topics": [
+        "cognition"
+      ],
+      "url": "https://doi.org/10.64898/2026.11.13.766189",
+      "venue": "bioRxiv",
+      "why_recommended": "Ranked by source quality signal across configured topics."
+    },
+    {
+      "abstract": "Self-recognition is a basic cognitive ability that indicates self-consciousness in humans. However, whether non-human agents such as monkeys and robots can possess a similar sense of self remains debated. Here, we develop a multi-scenario apparatus to examine self-recognition from different perspectives across macaque monkeys, human infants, and simulated robots. Monkeys trained for mirror-perspective (MP) self-face recognition were able to spontaneously recognize themselves when viewing video images of their back from a third-person perspective (3PP); however, this generalization required a few minutes of \"exploration\". In contrast, monkeys trained for 3PP self-back recognition spontaneously demonstrated MP self-recognition within seconds. Meanwhile, first-person-perspective (1PP) self-hand recognition represented a more basic ability that naive monkeys could achieve naturally. Interestingly, human infants aged 1 to 2 years exhibited a stepwise developmental sequence of 1PP, MP, and 3PP self-recognition abilities, consistent with the hierarchical levels of self-recognition in monkeys. Furthermore, we constructed world-model-based simulated robots and found that robots equipped with a body schema exhibited the emergence of self-recognition ability following multisensory integration training, along with the spontaneous generalization of self-recognition across different perspectives. Notably, the formation of internal self-body maps was identified as a key factor enabling this generalization. The convergence of findings across humans, monkeys, and robots not only redefines the evolutionary continuity of the self but also provides an operational framework for designing artificial systems capable of locating themselves in the world.",
+      "authors": [
+        "Zhang, W.",
+        "Chen, K.",
+        "Zhang, T.",
+        "Sun, Q.",
+        "Sun, Y.",
+        "Jia, Y.",
+        "Chang, L.",
+        "Liu, J.",
+        "Qian, H.",
+        "Qin, P.",
+        "Jiang, F.",
+        "Wang, G.",
+        "Gong, N."
+      ],
+      "categories": [
+        "neuroscience"
+      ],
+      "citation_count": null,
+      "classic_status": null,
+      "code_url": null,
+      "deep_read_note_url": null,
+      "difficulty": null,
+      "enrichment_sources": [],
+      "existing_note_url": null,
+      "external_ids": {
+        "DOI": "10.1101/2025.09.18.677057"
+      },
+      "field": null,
+      "fields_of_study": [
+        "Neuroscience"
+      ],
+      "id": "biorxiv:10.1101/2025.09.18.677057",
+      "identifiers": {
+        "DOI": "10.1101/2025.09.18.677057",
+        "doi": "10.1101/2025.09.18.677057",
+        "server": "biorxiv"
+      },
+      "influential_citation_count": null,
+      "institutions": [],
+      "latest_note_url": null,
+      "note_count": 0,
+      "open_access_pdf_url": null,
+      "pdf_url": null,
+      "project_url": null,
+      "published_at": "2026-11-16",
+      "published_date": "2026-11-16",
+      "reading_advice": "save_for_later",
+      "reading_status": "backlog",
+      "recommendation_level": "B",
+      "score": 0.653,
+      "scores": {
+        "classic_value": 0.35,
+        "engineering_transferability": 0.48,
+        "recency": 0.78,
+        "source_quality": 0.68,
+        "total": 0.653,
+        "user_relevance": 0.75
+      },
+      "selected_for_s_level": false,
+      "source": "biorxiv",
+      "source_group": "cognition_social",
+      "source_type": "recent_7d",
+      "source_url": "https://doi.org/10.1101/2025.09.18.677057",
+      "suggested_note_title": null,
+      "suggested_note_type": null,
+      "tags": [
+        "neuroscience",
+        "cognition_social",
+        "biorxiv"
+      ],
+      "title": "A Unified Framework for Self-Recognition Across Monkeys, Infants, and Robots",
+      "title_zh": null,
+      "topics": [
+        "cognition"
+      ],
+      "url": "https://doi.org/10.1101/2025.09.18.677057",
+      "venue": "bioRxiv",
+      "why_recommended": "Ranked by recency signal across configured topics."
+    },
+    {
+      "abstract": "Cerebellar transcranial alternating current stimulation (ctACS) can improve motor learning and may speed rehabilitation. The mechanisms by which ctACS induces long-term changes in brain function that underlie these effects are not known, and knowledge of them could greatly improve the application of ctACS. One potential mechanism is alteration of Purkinje cell (PC) complex spike (CS) activity, as CS activity is a key regulator of cerebellar synaptic plasticity. Thus, we investigated how ctACS modifies CS firing rates and waveform. Extracellular recordings were obtained from cerebellar PCs in anesthetized adult rats while ctACS (250 A) was applied across a range of frequencies (0.5 - 50 Hz). The effect of ctACS on CS waveform was quantified via measuring changes in the overall size of the CS and in the number and amplitude of the spikelets that comprise a CS. ctACS produced phase-dependent modulation of the CS waveform in a majority of PCs at most tested frequencies, with 1 Hz stimulation causing modulation in all PCs tested at the frequency. The modulation reflected changes within the normal range of CS waveforms rather than an expansion of that range. Analysis of individual spikelet periods (windows) revealed that ctACS modified discrete portions of the CS, with 93.8% of PCs showing significant modulation in at least one window. Notably, the strength of phase-dependent CS waveform modulation was relatively consistent across frequencies, in contrast to the frequency dependence of simple spike (SS) entrainment. Significant modulation of spikelet amplitude was found more often than that of spikelet number; however, the relative strength of the modulation when present was similar for the two parameters. CS waveform modulation was correlated with SS entrainment strength and was strongest in PCs located near the cerebellar surface (i.e., near the apices of the folia). Together, these findings demonstrate that ctACS exerts phase-dependent control over CS waveform. Moreover, the differing frequency dependence of the waveform effects and SS firing modulation suggests that it may be possible to target CS-related plasticity selectively, providing a potential strategy for selectively modulating cerebellar learning with ctACS.",
+      "authors": [
+        "Mourra, D.",
+        "Sloane, J.",
+        "Sahin, M.",
+        "Lang, E. J."
+      ],
+      "categories": [
+        "neuroscience"
+      ],
+      "citation_count": null,
+      "classic_status": null,
+      "code_url": null,
+      "deep_read_note_url": null,
+      "difficulty": null,
+      "enrichment_sources": [],
+      "existing_note_url": null,
+      "external_ids": {
+        "DOI": "10.64898/2026.11.12.766205"
+      },
+      "field": null,
+      "fields_of_study": [
+        "Neuroscience"
+      ],
+      "id": "biorxiv:10.64898/2026.11.12.766205",
+      "identifiers": {
+        "DOI": "10.64898/2026.11.12.766205",
+        "doi": "10.64898/2026.11.12.766205",
+        "server": "biorxiv"
+      },
+      "influential_citation_count": null,
+      "institutions": [],
+      "latest_note_url": null,
+      "note_count": 0,
+      "open_access_pdf_url": null,
+      "pdf_url": null,
+      "project_url": null,
+      "published_at": "2026-11-16",
+      "published_date": "2026-11-16",
+      "reading_advice": "save_for_later",
+      "reading_status": "backlog",
+      "recommendation_level": "B",
+      "score": 0.653,
+      "scores": {
+        "classic_value": 0.35,
+        "engineering_transferability": 0.48,
+        "recency": 0.78,
+        "source_quality": 0.68,
+        "total": 0.653,
+        "user_relevance": 0.75
+      },
+      "selected_for_s_level": false,
+      "source": "biorxiv",
+      "source_group": "cognition_social",
+      "source_type": "recent_7d",
+      "source_url": "https://doi.org/10.64898/2026.11.12.766205",
+      "suggested_note_title": null,
+      "suggested_note_type": null,
+      "tags": [
+        "neuroscience",
+        "cognition_social",
+        "biorxiv"
+      ],
+      "title": "Cerebellar transcranial AC stimulation produces frequency and phase-dependent changes in Purkinje cell complex spike waveform",
+      "title_zh": null,
+      "topics": [
+        "cognition"
+      ],
+      "url": "https://doi.org/10.64898/2026.11.12.766205",
+      "venue": "bioRxiv",
+      "why_recommended": "Ranked by recency signal across configured topics."
+    },
+    {
+      "abstract": "Higher-order body representations, including representations of body shape and size, play an important role in maintaining perceptual constancy in touch. However, whether the development of these representations depends on early visual experience remains unclear. Here, we investigated tactile distance perception in congenitally blind, late-blind, and sighted individuals. A given tactile distance is typically perceived as longer on the finger than on the forearm, reflecting distortions in cortical topography that is partially rescaled by higher-order representations of body size and shape. Congenitally blind participants showed a greater tendency to perceive identical tactile distances on the index finger as longer than those on the forearm. A similar bias was observed when comparing the forehead and face, suggesting that altered tactile distance perception in congenital blindness is not limited to body regions with extensive sensory-motor experience. Furthermore, within the late-blind group, the similarity of perceptual patterns to sighted controls, relative to congenitally blind participants, was associated with blindness duration. Together, these findings suggest that both early visual and post-blindness experience contributes to the calibration of tactile distance perception across the body, with its influence potentially extending beyond body regions extensively engaged in sensory-motor activities.",
+      "authors": [
+        "Liu, Y.",
+        "Wang, Y.",
+        "Ma, Y."
+      ],
+      "categories": [
+        "neuroscience"
+      ],
+      "citation_count": null,
+      "classic_status": null,
+      "code_url": null,
+      "deep_read_note_url": null,
+      "difficulty": null,
+      "enrichment_sources": [],
+      "existing_note_url": null,
+      "external_ids": {
+        "DOI": "10.64898/2026.11.11.766044"
+      },
+      "field": null,
+      "fields_of_study": [
+        "Neuroscience"
+      ],
+      "id": "biorxiv:10.64898/2026.11.11.766044",
+      "identifiers": {
+        "DOI": "10.64898/2026.11.11.766044",
+        "doi": "10.64898/2026.11.11.766044",
+        "server": "biorxiv"
+      },
+      "influential_citation_count": null,
+      "institutions": [],
+      "latest_note_url": null,
+      "note_count": 0,
+      "open_access_pdf_url": null,
+      "pdf_url": null,
+      "project_url": null,
+      "published_at": "2026-11-16",
+      "published_date": "2026-11-16",
+      "reading_advice": "save_for_later",
+      "reading_status": "backlog",
+      "recommendation_level": "B",
+      "score": 0.653,
+      "scores": {
+        "classic_value": 0.35,
+        "engineering_transferability": 0.48,
+        "recency": 0.78,
+        "source_quality": 0.68,
+        "total": 0.653,
+        "user_relevance": 0.75
+      },
+      "selected_for_s_level": false,
+      "source": "biorxiv",
+      "source_group": "cognition_social",
+      "source_type": "recent_7d",
+      "source_url": "https://doi.org/10.64898/2026.11.11.766044",
+      "suggested_note_title": null,
+      "suggested_note_type": null,
+      "tags": [
+        "neuroscience",
+        "cognition_social",
+        "biorxiv"
+      ],
+      "title": "Early visual experience contributes to the calibration of higher-order body representations",
+      "title_zh": null,
+      "topics": [
+        "cognition"
+      ],
+      "url": "https://doi.org/10.64898/2026.11.11.766044",
+      "venue": "bioRxiv",
+      "why_recommended": "Ranked by recency signal across configured topics."
+    },
+    {
+      "abstract": "Deep neural networks (DNNs) and behavioural similarity judgements of visual stimuli predict neural responses in visual cortex. Recent work shows that large language model (LLM) embeddings and similarity judgements of language descriptions also predict visual brain activity. These predictors were examined separately across modalities (vision vs language) and types (models vs human behaviour). It remains unclear to what extent these predictors explain shared or unique aspects of visual brain responses, how these contributions vary along the visual hierarchy and category-selective regions, and whether vision-language convergence depends on the stimulus type. We used three fMRI datasets progressing toward naturalistic visual experience, from objects (THINGS) to scenes (NSD) to dynamic events (BMD). For each dataset, we collected similarity judgements of visual stimuli and of their language descriptions from human participants (N = 21-35), extracted vision DNN features and LLM embeddings, and related similarity judgements and model representations to visual brain responses using representational similarity analysis (RSA) and variance partitioning. Vision-language convergence was higher within behaviour than within models. From objects to dynamic events, LLM alignment with vision-based similarity judgements increased, whereas vision DNN alignment remained stable. A shared, predominantly cross-modal component increased along the visual hierarchy and dominated explained variance in high-level visual cortex. LLMs made their largest unique contributions in face- and body-selective regions (FFA and EBA), where shared representations of vision- and language-based human similarity judgements also explained variance beyond the models. In summary, we find a partially shared representational space for vision and language in high-level visual cortex, most clearly in regions representing social information related to people and their actions. As each predictor retained unique variance, combining computational models and human behaviour across vision and language may offer a more comprehensive account of high-level visual representations.",
+      "authors": [
+        "Zou, Q.",
+        "Jozwik, K."
+      ],
+      "categories": [
+        "neuroscience"
+      ],
+      "citation_count": null,
+      "classic_status": null,
+      "code_url": null,
+      "deep_read_note_url": null,
+      "difficulty": null,
+      "enrichment_sources": [],
+      "existing_note_url": null,
+      "external_ids": {
+        "DOI": "10.64898/2026.11.13.762800"
+      },
+      "field": null,
+      "fields_of_study": [
+        "Neuroscience"
+      ],
+      "id": "biorxiv:10.64898/2026.11.13.762800",
+      "identifiers": {
+        "DOI": "10.64898/2026.11.13.762800",
+        "doi": "10.64898/2026.11.13.762800",
+        "server": "biorxiv"
+      },
+      "influential_citation_count": null,
+      "institutions": [],
+      "latest_note_url": null,
+      "note_count": 0,
+      "open_access_pdf_url": null,
+      "pdf_url": null,
+      "project_url": null,
+      "published_at": "2026-11-16",
+      "published_date": "2026-11-16",
+      "reading_advice": "save_for_later",
+      "reading_status": "backlog",
+      "recommendation_level": "B",
+      "score": 0.653,
+      "scores": {
+        "classic_value": 0.35,
+        "engineering_transferability": 0.48,
+        "recency": 0.78,
+        "source_quality": 0.68,
+        "total": 0.653,
+        "user_relevance": 0.75
+      },
+      "selected_for_s_level": false,
+      "source": "biorxiv",
+      "source_group": "cognition_social",
+      "source_type": "recent_7d",
+      "source_url": "https://doi.org/10.64898/2026.11.13.762800",
+      "suggested_note_title": null,
+      "suggested_note_type": null,
+      "tags": [
+        "neuroscience",
+        "cognition_social",
+        "biorxiv"
+      ],
+      "title": "Partially shared representational space for vision and language across objects, scenes, and visual events",
+      "title_zh": null,
+      "topics": [
+        "cognition"
+      ],
+      "url": "https://doi.org/10.64898/2026.11.13.762800",
+      "venue": "bioRxiv",
+      "why_recommended": "Ranked by recency signal across configured topics."
+    },
+    {
+      "abstract": "Sensorimotor transformation requires neural circuits to coordinate excitation and inhibition, but how and whether this organization changes as the circuit transitions from processing sensation to action remain unresolved. We recorded laminar local field potentials across superior colliculus (SC) layers in four male macaques and computed current source density to resolve transmembrane currents during saccades to a target at one of eight isoradial directions. During the visual response, excitation was spatially confined to the receptive field, with little modulation at distant sites. During saccade generation, local excitation remained strongest for movements toward the receptive field, while inhibition extended across the SC map, including locations where spiking remained at baseline. Because the same recordings detected distal inhibition during movement, its absence during vision cannot reflect insufficient sensitivity, indicating that distal inhibition is selectively recruited during action. After saccade completion, excitation emerged regardless of saccade direction, potentially reflecting a rebound from, or release of, the preceding inhibition. These patterns were only partly reflected in spiking activity, which primarily captured local excitation, unmasking circuit dynamics largely invisible at the level of neuronal output. Together, our findings reveal a striking reconfiguration of SC population dynamics across sensorimotor transformation, spanning from spatially restricted excitation during sensation, to local excitation coupled with distal inhibition during movement generation, then to global post-movement excitation. Thus, fixed circuit architecture can express a sequence of behaviorally gated excitation-inhibition states largely invisible to spiking output.",
+      "authors": [
+        "Bourrelly, C.",
+        "Yang, F.",
+        "Gandhi, N. J."
+      ],
+      "categories": [
+        "neuroscience"
+      ],
+      "citation_count": null,
+      "classic_status": null,
+      "code_url": null,
+      "deep_read_note_url": null,
+      "difficulty": null,
+      "enrichment_sources": [],
+      "existing_note_url": null,
+      "external_ids": {
+        "DOI": "10.64898/2026.11.11.765869"
+      },
+      "field": null,
+      "fields_of_study": [
+        "Neuroscience"
+      ],
+      "id": "biorxiv:10.64898/2026.11.11.765869",
+      "identifiers": {
+        "DOI": "10.64898/2026.11.11.765869",
+        "doi": "10.64898/2026.11.11.765869",
+        "server": "biorxiv"
+      },
+      "influential_citation_count": null,
+      "institutions": [],
+      "latest_note_url": null,
+      "note_count": 0,
+      "open_access_pdf_url": null,
+      "pdf_url": null,
+      "project_url": null,
+      "published_at": "2026-11-16",
+      "published_date": "2026-11-16",
+      "reading_advice": "save_for_later",
+      "reading_status": "backlog",
+      "recommendation_level": "B",
+      "score": 0.653,
+      "scores": {
+        "classic_value": 0.35,
+        "engineering_transferability": 0.48,
+        "recency": 0.78,
+        "source_quality": 0.68,
+        "total": 0.653,
+        "user_relevance": 0.75
+      },
+      "selected_for_s_level": false,
+      "source": "biorxiv",
+      "source_group": "cognition_social",
+      "source_type": "recent_7d",
+      "source_url": "https://doi.org/10.64898/2026.11.11.765869",
+      "suggested_note_title": null,
+      "suggested_note_type": null,
+      "tags": [
+        "neuroscience",
+        "cognition_social",
+        "biorxiv"
+      ],
+      "title": "Distal inhibition is recruited for action but not sensation in the primate superior colliculus",
+      "title_zh": null,
+      "topics": [
+        "cognition"
+      ],
+      "url": "https://doi.org/10.64898/2026.11.11.765869",
+      "venue": "bioRxiv",
+      "why_recommended": "Ranked by recency signal across configured topics."
+    }
+  ],
+  "public_json_version": "0.4",
+  "s_level_candidate_ids": [],
+  "s_level_paper_id": null,
+  "source_mode_summary": {
+    "recent_7d": 6
+  },
+  "summary": "Selected 6 papers: 6 recent candidates and 0 classic fallback items."
+}
