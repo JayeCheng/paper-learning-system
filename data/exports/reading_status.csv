@@ -469,6 +469,12 @@ arxiv:2611.26600v1,backlog,medium,,2026-11-21T03:06:11+00:00,A Tutorial on Compl
 arxiv:2611.26601v1,backlog,medium,,2026-11-21T03:06:11+00:00,SoK: Assessing the Evolution of LLM Capability in Software Vulnerability Research,llm_agent,B
 arxiv:2611.26619v1,backlog,medium,,2026-11-21T03:06:11+00:00,TideCache: Efficient Hybrid LLM Serving with Transparent Cache Management and Layer-Wise Streaming,architecture,B
 arxiv:2611.26629v1,backlog,medium,,2026-11-21T03:06:11+00:00,Posterior Matching Distillation,gpu_graphics,B
+arxiv:2611.30159v1,backlog,medium,,2026-11-24T05:54:21+00:00,One Structure Is Enough: Record-Native Tiles for Evolving Sparse Matrices on GPUs,architecture,A
+arxiv:2611.30249v1,backlog,medium,,2026-11-24T05:54:21+00:00,BiLight: A Fast Method for Estimating Counts of 6-Vertex Bipartite Motifs in Large Graphs,cognition_social,A
+arxiv:2611.30320v1,backlog,medium,,2026-11-24T05:54:21+00:00,Accuracy Is Not Evidence: Measuring and Training Evidence Dependence in Video Temporal Grounding,gpu_graphics,A
+arxiv:2611.30335v1,backlog,medium,,2026-11-24T05:54:21+00:00,MH-RAG-DIVE: Dynamic and Cost-Efficient Multi-Hop RAG Evaluation via Tree-Cached Dialogue Simulation,llm_agent,A
+arxiv:2611.30339v1,backlog,medium,,2026-11-24T05:54:21+00:00,AirVT-15k: A Query-Diverse UAV Video-Text Dataset and Query-Adaptive Evidence Alignment Network for Retrieval,gpu_graphics,A
+arxiv:2611.30350v1,backlog,medium,,2026-11-24T05:54:21+00:00,RepoClean: Evaluating Coding Agents on Repository-Level Obsolete Code Cleanup,llm_agent,A
 biorxiv:10.1101/2023.01.10.523479,backlog,medium,,2026-09-28T00:33:07+00:00,How Occam's razor guides human decision-making,cognition_social,B
 biorxiv:10.1101/2024.03.07.583890,backlog,medium,,2026-10-19T00:08:58+00:00,Computation or Weight Adaptation? Rethinking the Role of Plasticity in Learning,cognition_social,B
 biorxiv:10.1101/2024.09.30.615819,backlog,medium,,2026-09-22T00:43:20+00:00,Hierarchy of prediction errors shapes the learning of context-dependent sensory representations,cognition_social,B
