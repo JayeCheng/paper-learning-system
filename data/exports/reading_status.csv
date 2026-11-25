@@ -475,6 +475,12 @@ arxiv:2611.30320v1,backlog,medium,,2026-11-24T05:54:21+00:00,Accuracy Is Not Evi
 arxiv:2611.30335v1,backlog,medium,,2026-11-24T05:54:21+00:00,MH-RAG-DIVE: Dynamic and Cost-Efficient Multi-Hop RAG Evaluation via Tree-Cached Dialogue Simulation,llm_agent,A
 arxiv:2611.30339v1,backlog,medium,,2026-11-24T05:54:21+00:00,AirVT-15k: A Query-Diverse UAV Video-Text Dataset and Query-Adaptive Evidence Alignment Network for Retrieval,gpu_graphics,A
 arxiv:2611.30350v1,backlog,medium,,2026-11-24T05:54:21+00:00,RepoClean: Evaluating Coding Agents on Repository-Level Obsolete Code Cleanup,llm_agent,A
+arxiv:2611.32869v1,backlog,medium,,2026-11-25T04:51:12+00:00,"AI, Bias, and Inclusion: A Two-Phase Mixed-Methods Study of Gender Bias, Awareness, and Trust in Artificial Intelligence",cognition_social,B
+arxiv:2611.32881v1,backlog,medium,,2026-11-25T04:51:12+00:00,Scalable Placement for Disaggregated LLM Serving on Heterogeneous Edge Fleets,architecture,A
+arxiv:2611.32903v1,backlog,medium,,2026-11-25T04:51:12+00:00,"IMPACT-Seg: Consistent Anatomical Segmentation and Representation Learning Across CT, CBCT, and MRI",gpu_graphics,A
+arxiv:2611.32946v1,backlog,medium,,2026-11-25T04:51:12+00:00,"ShellBench: What Matters More for AI Agents, Models, or Harness for Everyday Tasks",llm_agent,A
+arxiv:2611.32959v1,backlog,medium,,2026-11-25T04:51:12+00:00,Polynomial-Time Learning of Random Automata from One Label per Word,llm_agent,A
+arxiv:2611.32967v1,backlog,medium,,2026-11-25T04:51:12+00:00,VidForce: Predicting Force-Aware Articulation by Observing Humans,gpu_graphics,A
 biorxiv:10.1101/2023.01.10.523479,backlog,medium,,2026-09-28T00:33:07+00:00,How Occam's razor guides human decision-making,cognition_social,B
 biorxiv:10.1101/2024.03.07.583890,backlog,medium,,2026-10-19T00:08:58+00:00,Computation or Weight Adaptation? Rethinking the Role of Plasticity in Learning,cognition_social,B
 biorxiv:10.1101/2024.09.30.615819,backlog,medium,,2026-09-22T00:43:20+00:00,Hierarchy of prediction errors shapes the learning of context-dependent sensory representations,cognition_social,B

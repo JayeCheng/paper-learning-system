@@ -11,7 +11,7 @@
         "arxiv:2611.24331v1",
         "arxiv:2611.30159v1"
       ],
-      "planned_count": 88
+      "planned_count": 89
     },
     {
       "completed_count": 0,
@@ -23,7 +23,7 @@
         "arxiv:2609.36898v1",
         "arxiv:2611.24334v1"
       ],
-      "planned_count": 186
+      "planned_count": 187
     },
     {
       "completed_count": 0,
@@ -35,7 +35,7 @@
         "arxiv:2608.10839v1",
         "arxiv:2610.07985v1"
       ],
-      "planned_count": 207
+      "planned_count": 208
     },
     {
       "completed_count": 0,
@@ -47,7 +47,7 @@
         "arxiv:2610.11653v1",
         "arxiv:2611.05802v1"
       ],
-      "planned_count": 174
+      "planned_count": 176
     },
     {
       "completed_count": 0,
@@ -59,7 +59,7 @@
         "arxiv:2611.05892v1",
         "arxiv:2611.24165v1"
       ],
-      "planned_count": 268
+      "planned_count": 270
     },
     {
       "completed_count": 0,
@@ -74,5 +74,5 @@
       "planned_count": 15
     }
   ],
-  "updated_at": "2026-11-24T05:54:21+00:00"
+  "updated_at": "2026-11-25T04:51:12+00:00"
 }
