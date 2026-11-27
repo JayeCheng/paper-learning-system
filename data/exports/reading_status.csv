@@ -483,10 +483,10 @@ arxiv:2611.32959v1,backlog,medium,,2026-11-25T04:51:12+00:00,Polynomial-Time Lea
 arxiv:2611.32967v1,backlog,medium,,2026-11-25T04:51:12+00:00,VidForce: Predicting Force-Aware Articulation by Observing Humans,gpu_graphics,A
 arxiv:2611.34472v1,backlog,medium,,2026-11-26T04:04:53+00:00,DiversePlace: Diversity-Seeking Curriculum Reinforcement Learning for Macro Placement,architecture,A
 arxiv:2611.34870v1,backlog,medium,,2026-11-26T04:04:53+00:00,Shape-Aware Three-Way Merge for RDF Knowledge Graphs: The schema defines the conflict: an implementation and evaluation,llm_agent,A
-arxiv:2611.34875v1,backlog,medium,,2026-11-26T04:04:53+00:00,"How Much Do Coding Agents Over-Edit, and Why? An Empirical Study of Unneeded Edits in Repository-Level Agent Patches",llm_agent,A
+arxiv:2611.34875v1,backlog,medium,,2026-11-26T04:04:53+00:00,"How Much Do Coding Agents Over-Edit, and Why? An Empirical Study of Unneeded Edits in Repository-Level Agent Patches",llm_agent,B
 arxiv:2611.34894v1,backlog,medium,,2026-11-26T04:04:53+00:00,What a Drop Reveals: Sim-to-Real Material Estimation for Deformable Objects from Video,gpu_graphics,A
 arxiv:2611.34939v1,backlog,medium,,2026-11-26T04:04:53+00:00,A Mesh for Every Moment,gpu_graphics,A
-arxiv:2611.34945v1,backlog,medium,,2026-11-26T04:04:53+00:00,MidasTUI: Instant Tangible User Interfaces for Wearable Displays using Everyday Objects,cognition_social,A
+arxiv:2611.34945v1,backlog,medium,,2026-11-26T04:04:53+00:00,MidasTUI: Instant Tangible User Interfaces for Wearable Displays using Everyday Objects,cognition_social,B
 biorxiv:10.1101/2023.01.10.523479,backlog,medium,,2026-09-28T00:33:07+00:00,How Occam's razor guides human decision-making,cognition_social,B
 biorxiv:10.1101/2024.03.07.583890,backlog,medium,,2026-10-19T00:08:58+00:00,Computation or Weight Adaptation? Rethinking the Role of Plasticity in Learning,cognition_social,B
 biorxiv:10.1101/2024.09.30.615819,backlog,medium,,2026-09-22T00:43:20+00:00,Hierarchy of prediction errors shapes the learning of context-dependent sensory representations,cognition_social,B

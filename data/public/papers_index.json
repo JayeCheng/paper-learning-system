@@ -33269,19 +33269,19 @@
       "reading_advice": "quick_read",
       "reading_status": "backlog",
       "recommendation_level": "A",
-      "score": 0.817,
+      "score": 0.762,
       "scores": {
         "classic_value": 0.35,
         "engineering_transferability": 0.9500000000000001,
-        "recency": 1.0,
+        "recency": 0.78,
         "source_quality": 0.78,
-        "total": 0.817,
+        "total": 0.762,
         "user_relevance": 0.75
       },
       "selected_for_s_level": false,
       "source": "arxiv",
       "source_group": "architecture",
-      "source_type": "recent_24h",
+      "source_type": "recent_7d",
       "source_url": "http://arxiv.org/abs/2611.34472v1",
       "suggested_note_title": null,
       "suggested_note_type": null,
@@ -33297,7 +33297,7 @@
       ],
       "url": "http://arxiv.org/abs/2611.34472v1",
       "venue": null,
-      "why_recommended": "Ranked by recency signal across configured topics."
+      "why_recommended": "Ranked by engineering transferability signal across configured topics."
     },
     {
       "abstract": "Merging RDF serializations creates ordering conflicts and misses semantic ones. We describe and evaluate a three-way merge in which the schema defines a conflict: set algebra combines canonical triples, and a slot is contended only where a SHACL shape bounds its cardinality and both sides' changes cannot stand within that bound. Unbounded predicates union; contended slots go to a person. The same shapes graph validates the result. We do not claim the first three-way merge for RDF. Our contribution is an implementation in a production multi-agent store and an evaluation against a reimplementation of Quit Store's Context Merge overlap rule, which it extends rather than replaces, and six other strategies. Across five synthetic seeds, the shape-aware operator raised 33 conflicts, all true positives as judged by the same shapes that define them, with no triples lost or fabricated and no SHACL violations admitted. The context-overlap baseline, counted per slot, detected the same 33 conflicts but asked 845 questions. A replay built from recorded production incidents covers 105 human alias repairs (93 after excluding 12 chained pairs) and 939 duplicate-value incidents. It reproduces a triple-level limit: different names for one entity remain invisible (0 of 93 alias repairs detected, matching 0 of 21 synthetic cases). In a study of evolving shape contracts, merging shape declarations first handles the tested cardinality changes, while datatype evolution exposes a detector blind spot caught by post-merge validation. An oracle that reads no shapes agrees with the shipped operator on the facts and history of all 23 reachable single-slot cases. Under wrong shapes, a missing bound loses data silently and a spurious one only adds questions. The supported claim is fewer human decisions with nothing silently lost, for cardinality conflicts in one deployment, not general merge correctness.",
@@ -33335,19 +33335,19 @@
       "reading_advice": "quick_read",
       "reading_status": "backlog",
       "recommendation_level": "A",
-      "score": 0.817,
+      "score": 0.762,
       "scores": {
         "classic_value": 0.35,
         "engineering_transferability": 0.9500000000000001,
-        "recency": 1.0,
+        "recency": 0.78,
         "source_quality": 0.78,
-        "total": 0.817,
+        "total": 0.762,
         "user_relevance": 0.75
       },
       "selected_for_s_level": false,
       "source": "arxiv",
       "source_group": "llm_agent",
-      "source_type": "recent_24h",
+      "source_type": "recent_7d",
       "source_url": "http://arxiv.org/abs/2611.34870v1",
       "suggested_note_title": null,
       "suggested_note_type": null,
@@ -33363,7 +33363,7 @@
       ],
       "url": "http://arxiv.org/abs/2611.34870v1",
       "venue": null,
-      "why_recommended": "Ranked by recency signal across configured topics."
+      "why_recommended": "Ranked by engineering transferability signal across configured topics."
     },
     {
       "abstract": "Agent patches are larger than developers', which is widely read as over-editing. But patch size does not say whether the extra edits are needed, what they are, or where they come from. We introduce Delta Residue Attribution (DRA), which replays agent trajectories, traces every block (unit) of the final patch to the step that wrote it, reverts each unit, and reruns the task tests to decide whether the unit is needed. We apply DRA to 7,660 resolved GitHub Copilot CLI trajectories from 18 frontier models on SWE-bench Verified (6,728) and DeepSWE (932), and grade developer patches using the same method. Agent patches do change more lines than developers'; on SWE-bench Verified the majority of extra edits add tests (61%) and documentation (13%) while on DeepSWE, most extra edits are code (58%). On both benchmarks, agents' code is on average at least as necessary as developers' (mean $NP_{code}$ 0.887 vs. 0.864 on SWE-bench Verified, where 11 of 18 models leave less unneeded code than developers, and 0.797 vs. 0.785 on DeepSWE). On average, 11% of an agent patch's code units on SWE-bench Verified are still unneeded, and 89% of those change behavior. Debug steps write almost none of the unneeded code. Code necessity differs substantially by model; it is unrelated to resolve rate on SWE-bench Verified and negatively correlated with it on DeepSWE (Spearman -0.59, p = 0.01). On SWE-bench Verified, pruning with DRA using only the tests the agent can see (its own tests and the repository's) removes the majority of unneeded code but also some needed code (67% recall, 46% precision), and 89% of pruned patches still resolve the task; asking the agent to audit its own diff is more precise but less effective (36% recall, 66% precision). We recommend that benchmarks report code necessity next to resolve rate and that over-editing be addressed through model training and harness-level pruning.",
@@ -33399,22 +33399,22 @@
       "project_url": null,
       "published_at": "2026-11-25",
       "published_date": "2026-11-25",
-      "reading_advice": "quick_read",
+      "reading_advice": "save_for_later",
       "reading_status": "backlog",
-      "recommendation_level": "A",
-      "score": 0.787,
+      "recommendation_level": "B",
+      "score": 0.732,
       "scores": {
         "classic_value": 0.35,
         "engineering_transferability": 0.8,
-        "recency": 1.0,
+        "recency": 0.78,
         "source_quality": 0.78,
-        "total": 0.787,
+        "total": 0.732,
         "user_relevance": 0.75
       },
       "selected_for_s_level": false,
       "source": "arxiv",
       "source_group": "llm_agent",
-      "source_type": "recent_24h",
+      "source_type": "recent_7d",
       "source_url": "http://arxiv.org/abs/2611.34875v1",
       "suggested_note_title": null,
       "suggested_note_type": null,
@@ -33429,7 +33429,7 @@
       ],
       "url": "http://arxiv.org/abs/2611.34875v1",
       "venue": null,
-      "why_recommended": "Ranked by recency signal across configured topics."
+      "why_recommended": "Ranked by engineering transferability signal across configured topics."
     },
     {
       "abstract": "How an object deforms when it hits the ground reveals what it is made of. From a single real video of a drop, we estimate a deformable object's density-normalized stiffness $E/\u03c1$, and its yield stress $\u03c3_Y/\u03c1$ when the impact causes plastic deformation, with a feed-forward predictor trained only in simulation. Real videos carry no material labels, so such predictors are developed and validated on synthetic data alone. We show that synthetic validation ranks their geometric inputs in the wrong order. Material acts through 3D deformation, and tracklets lifted to 3D with estimated depth are indeed the most accurate input in simulation. However, on real drops they are the least accurate, and better depth does not repair them: the failure persists with simulator depth in training, LiDAR depth at test time, and exact depth on rendered replays of the real drops. Short 2D optical-flow tracklets do the opposite: they improve nothing in simulation, yet they transfer best. Material is therefore better read from what perception measures consistently in both domains than from what is most informative in simulation. Our predictor, PhysReader, reads the video and 2D tracklets and learns the lift to 3D in simulation by matching a teacher that sees exact 3D deformation. To measure transfer, we introduce PhysReader-Real: 16 everyday objects dropped five times each, with reference materials fit jointly to each object's drops and checked against tensile tests. On PhysReader-Real, PhysReader is closer to the reference materials than every other input and baseline. The one exception is a per-scene optimizer started from PhysReader's prediction, which ends slightly closer but takes 49 minutes per video instead of 12 seconds.",
@@ -33476,19 +33476,19 @@
       "reading_advice": "quick_read",
       "reading_status": "backlog",
       "recommendation_level": "A",
-      "score": 0.817,
+      "score": 0.762,
       "scores": {
         "classic_value": 0.35,
         "engineering_transferability": 0.9500000000000001,
-        "recency": 1.0,
+        "recency": 0.78,
         "source_quality": 0.78,
-        "total": 0.817,
+        "total": 0.762,
         "user_relevance": 0.75
       },
       "selected_for_s_level": false,
       "source": "arxiv",
       "source_group": "gpu_graphics",
-      "source_type": "recent_24h",
+      "source_type": "recent_7d",
       "source_url": "http://arxiv.org/abs/2611.34894v1",
       "suggested_note_title": null,
       "suggested_note_type": null,
@@ -33505,7 +33505,7 @@
       ],
       "url": "http://arxiv.org/abs/2611.34894v1",
       "venue": null,
-      "why_recommended": "Ranked by recency signal across configured topics."
+      "why_recommended": "Ranked by engineering transferability signal across configured topics."
     },
     {
       "abstract": "We present MEMO (a Mesh for Every MOment), a method that reconstructs the geometry of complete dynamic scenes, captured by multiple synchronized cameras, and extracts a mesh at every frame. Existing dynamic Gaussian splatting methods either model appearance alone or target isolated objects segmented by foreground masks, and all of them recover meshes by TSDF fusion or Poisson reconstruction, whose fixed grids limit the detail they can capture. At the core of MEMO is a per-Gaussian motion model inspired by Gaussian processes, which represents each Gaussian's position and rotation over time as a combination of temporal Gaussian kernels. The model keeps every Gaussian a valid surface element throughout the sequence and carries an implicit representation of the dynamic geometry, so a mesh can be derived at any time from a field defined by the Gaussians. Although common in real captures, large and fast motion poses a challenge that dynamic Gaussian splatting methods usually overlook. To account for it, we design a track-based initialization scheme that fits each Gaussian's initial trajectory to point tracks in closed form. We evaluate MEMO on Blender-Moments, a new benchmark of nine animated scenes with ground-truth meshes at every frame, and on two real-world datasets. MEMO reconstructs the most accurate geometry among state-of-the-art methods, and remains competitive in novel-view synthesis and training time. Project page: https://memo-4d.github.io",
@@ -33544,19 +33544,19 @@
       "reading_advice": "quick_read",
       "reading_status": "backlog",
       "recommendation_level": "A",
-      "score": 0.817,
+      "score": 0.762,
       "scores": {
         "classic_value": 0.35,
         "engineering_transferability": 0.9500000000000001,
-        "recency": 1.0,
+        "recency": 0.78,
         "source_quality": 0.78,
-        "total": 0.817,
+        "total": 0.762,
         "user_relevance": 0.75
       },
       "selected_for_s_level": false,
       "source": "arxiv",
       "source_group": "gpu_graphics",
-      "source_type": "recent_24h",
+      "source_type": "recent_7d",
       "source_url": "http://arxiv.org/abs/2611.34939v1",
       "suggested_note_title": null,
       "suggested_note_type": null,
@@ -33571,7 +33571,7 @@
       ],
       "url": "http://arxiv.org/abs/2611.34939v1",
       "venue": null,
-      "why_recommended": "Ranked by recency signal across configured topics."
+      "why_recommended": "Ranked by engineering transferability signal across configured topics."
     },
     {
       "abstract": "While wearable displays can bring digital workspaces anywhere, interaction remains limited by mid-air gestures that lack tactile feedback and induce fatigue, or controllers that are cumbersome to carry. We present MidasTUI, a system that instantly transforms arbitrary everyday objects into opportunistic tangible user interfaces through brief interaction demonstrations. For example, a user can slide an earbud case across a table as a mouse, enabling opportunistic interaction without carrying a dedicated input device. MidasTUI detects when a user is holding and moving an object using the wearable display camera and a Transformer-based temporal classifier. It then infers the intended input modality (e.g., slider, mouse, keypad) from hand movement and maps the tracked hand-object interaction to an application function. Our evaluations demonstrate reliable cross-object and cross-user generalization. A comparative user study further shows that grounding interaction in everyday objects reduces physical burden and improves perceived usability and control relative to mid-air interaction.",
@@ -33607,22 +33607,22 @@
       "project_url": "https://midastui.github.io/",
       "published_at": "2026-11-25",
       "published_date": "2026-11-25",
-      "reading_advice": "quick_read",
+      "reading_advice": "save_for_later",
       "reading_status": "backlog",
-      "recommendation_level": "A",
-      "score": 0.747,
+      "recommendation_level": "B",
+      "score": 0.692,
       "scores": {
         "classic_value": 0.35,
         "engineering_transferability": 0.6,
-        "recency": 1.0,
+        "recency": 0.78,
         "source_quality": 0.78,
-        "total": 0.747,
+        "total": 0.692,
         "user_relevance": 0.75
       },
       "selected_for_s_level": false,
       "source": "arxiv",
       "source_group": "cognition_social",
-      "source_type": "recent_24h",
+      "source_type": "recent_7d",
       "source_url": "http://arxiv.org/abs/2611.34945v1",
       "suggested_note_title": null,
       "suggested_note_type": null,
@@ -43331,5 +43331,5 @@
     }
   ],
   "public_json_version": "0.4",
-  "updated_at": "2026-11-26T04:04:53+00:00"
+  "updated_at": "2026-11-27T04:05:41+00:00"
 }
